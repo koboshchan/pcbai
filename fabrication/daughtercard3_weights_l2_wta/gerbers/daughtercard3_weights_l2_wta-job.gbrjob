@@ -1,0 +1,150 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "10.0.6"
+    },
+    "CreationDate": "2026-09-13T16:08:16-07:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "daughtercard3_weights_l2_wta",
+      "GUID": "64617567-6874-4657-9263-617264335f77",
+      "Revision": "v5.0 - 100x100mm 4-Layer Modular Stack"
+    },
+    "Size": {
+      "X": 100.15,
+      "Y": 100.15
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 1.6,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.127,
+      "PadToTrack": 0.127,
+      "TrackToTrack": 0.127,
+      "MinLineWidth": 0.25
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.127,
+      "PadToTrack": 0.127,
+      "TrackToTrack": 0.127,
+      "MinLineWidth": 0.25,
+      "TrackToRegion": 0.25,
+      "RegionToRegion": 0.25
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "daughtercard3_weights_l2_wta-F_Cu.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "daughtercard3_weights_l2_wta-GND.g1",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "daughtercard3_weights_l2_wta-Power.g2",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "daughtercard3_weights_l2_wta-B_Cu.gbl",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "daughtercard3_weights_l2_wta-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "daughtercard3_weights_l2_wta-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "daughtercard3_weights_l2_wta-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "daughtercard3_weights_l2_wta-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "daughtercard3_weights_l2_wta-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "F.Cu/GND",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "GND/Power",
+      "Notes": "Type: dielectric layer 2 (from GND to Power)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Power"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "Power/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from Power to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

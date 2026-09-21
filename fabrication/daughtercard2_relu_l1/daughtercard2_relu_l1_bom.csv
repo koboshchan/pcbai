@@ -1,0 +1,7 @@
+Comment,Designator,Footprint,LCSC Part #,Quantity
+0.1uF,C_U1N C_U1P C_U2N C_U2P C_U3N C_U3P C_U4N C_U4P,C_0805_2012Metric,C49678,8
+10k,R_in_0 R_in_1 R_in_10 R_in_11 R_in_12 R_in_13 R_in_14 R_in_15 R_in_2 R_in_3 R_in_4 R_in_5 R_in_6 R_in_7 R_in_8 R_in_9 Rf_0 Rf_1 Rf_10 Rf_11 Rf_12 Rf_13 Rf_14 Rf_15 Rf_2 Rf_3 Rf_4 Rf_5 Rf_6 Rf_7 Rf_8 Rf_9,R_0805_2012Metric,C17414,32
+1N4148,D1_0 D1_1 D1_10 D1_11 D1_12 D1_13 D1_14 D1_15 D1_2 D1_3 D1_4 D1_5 D1_6 D1_7 D1_8 D1_9 D2_0 D2_1 D2_10 D2_11 D2_12 D2_13 D2_14 D2_15 D2_2 D2_3 D2_4 D2_5 D2_6 D2_7 D2_8 D2_9,D_SOD-123,C81598,32
+Act_0_15_Out,J_SLOT_B,PinHeader_2x20_P2.54mm_Vertical,C2938830,1
+Sums_0_15_In,J_SLOT_A,PinHeader_2x20_P2.54mm_Vertical,C2938830,1
+TL074,U1 U2 U3 U4,SOIC-14_3.9x8.7mm_P1.27mm,C6982,4

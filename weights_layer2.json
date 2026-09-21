@@ -1,0 +1,1537 @@
+{
+  "Rf_ohms": 10000.0,
+  "n_inputs": 16,
+  "n_classes": 10,
+  "weights": [
+    {
+      "class_idx": 0,
+      "bias_float": 1.3706685304641724,
+      "bias_resistor_ohms": 33000.0,
+      "bias_resistor_str": "33k",
+      "bias_rail": "-5V_REF",
+      "inputs": [
+        {
+          "hidden_idx": 0,
+          "class_idx": 0,
+          "weight_float": -0.7560460567474365,
+          "is_populated": true,
+          "resistor_ohms": 12000.0,
+          "resistor_str": "12k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 1,
+          "class_idx": 0,
+          "weight_float": 0.11526928097009659,
+          "is_populated": true,
+          "resistor_ohms": 75000.0,
+          "resistor_str": "75k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 2,
+          "class_idx": 0,
+          "weight_float": 0.7798221111297607,
+          "is_populated": true,
+          "resistor_ohms": 12000.0,
+          "resistor_str": "12k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 3,
+          "class_idx": 0,
+          "weight_float": -0.7361975908279419,
+          "is_populated": true,
+          "resistor_ohms": 15000.0,
+          "resistor_str": "15k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 4,
+          "class_idx": 0,
+          "weight_float": -0.02544235810637474,
+          "is_populated": true,
+          "resistor_ohms": 390000.0,
+          "resistor_str": "390k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 5,
+          "class_idx": 0,
+          "weight_float": -1.5271332263946533,
+          "is_populated": true,
+          "resistor_ohms": 5600.0,
+          "resistor_str": "5.6k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 6,
+          "class_idx": 0,
+          "weight_float": -0.5837578773498535,
+          "is_populated": true,
+          "resistor_ohms": 18000.0,
+          "resistor_str": "18k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 7,
+          "class_idx": 0,
+          "weight_float": -0.788752555847168,
+          "is_populated": true,
+          "resistor_ohms": 12000.0,
+          "resistor_str": "12k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 8,
+          "class_idx": 0,
+          "weight_float": 0.34037190675735474,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 9,
+          "class_idx": 0,
+          "weight_float": -0.7586202621459961,
+          "is_populated": true,
+          "resistor_ohms": 12000.0,
+          "resistor_str": "12k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 10,
+          "class_idx": 0,
+          "weight_float": -0.0013827033108100295,
+          "is_populated": true,
+          "resistor_ohms": 10000000.0,
+          "resistor_str": "10M",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 11,
+          "class_idx": 0,
+          "weight_float": 0.07646001130342484,
+          "is_populated": true,
+          "resistor_ohms": 100000.0,
+          "resistor_str": "100k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 12,
+          "class_idx": 0,
+          "weight_float": -0.09050627797842026,
+          "is_populated": true,
+          "resistor_ohms": 100000.0,
+          "resistor_str": "100k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 13,
+          "class_idx": 0,
+          "weight_float": -0.014619403518736362,
+          "is_populated": true,
+          "resistor_ohms": 680000.0,
+          "resistor_str": "680k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 14,
+          "class_idx": 0,
+          "weight_float": -0.19293788075447083,
+          "is_populated": true,
+          "resistor_ohms": 51000.0,
+          "resistor_str": "51k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 15,
+          "class_idx": 0,
+          "weight_float": -0.09381218254566193,
+          "is_populated": true,
+          "resistor_ohms": 100000.0,
+          "resistor_str": "100k",
+          "polarity": "negative"
+        }
+      ]
+    },
+    {
+      "class_idx": 1,
+      "bias_float": 2.785813570022583,
+      "bias_resistor_ohms": 18000.0,
+      "bias_resistor_str": "18k",
+      "bias_rail": "-5V_REF",
+      "inputs": [
+        {
+          "hidden_idx": 0,
+          "class_idx": 1,
+          "weight_float": 0.7842984199523926,
+          "is_populated": true,
+          "resistor_ohms": 12000.0,
+          "resistor_str": "12k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 1,
+          "class_idx": 1,
+          "weight_float": -0.18317480385303497,
+          "is_populated": true,
+          "resistor_ohms": 51000.0,
+          "resistor_str": "51k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 2,
+          "class_idx": 1,
+          "weight_float": -1.526624321937561,
+          "is_populated": true,
+          "resistor_ohms": 7500.0,
+          "resistor_str": "7.5k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 3,
+          "class_idx": 1,
+          "weight_float": -0.42416703701019287,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 4,
+          "class_idx": 1,
+          "weight_float": 0.7258780598640442,
+          "is_populated": true,
+          "resistor_ohms": 15000.0,
+          "resistor_str": "15k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 5,
+          "class_idx": 1,
+          "weight_float": 1.143601655960083,
+          "is_populated": true,
+          "resistor_ohms": 7500.0,
+          "resistor_str": "7.5k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 6,
+          "class_idx": 1,
+          "weight_float": -1.8440197706222534,
+          "is_populated": true,
+          "resistor_ohms": 5600.0,
+          "resistor_str": "5.6k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 7,
+          "class_idx": 1,
+          "weight_float": 0.2476276159286499,
+          "is_populated": true,
+          "resistor_ohms": 43000.0,
+          "resistor_str": "43k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 8,
+          "class_idx": 1,
+          "weight_float": -0.5431734919548035,
+          "is_populated": true,
+          "resistor_ohms": 18000.0,
+          "resistor_str": "18k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 9,
+          "class_idx": 1,
+          "weight_float": 1.099076271057129,
+          "is_populated": true,
+          "resistor_ohms": 10000.0,
+          "resistor_str": "10k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 10,
+          "class_idx": 1,
+          "weight_float": -1.1423510313034058,
+          "is_populated": true,
+          "resistor_ohms": 10000.0,
+          "resistor_str": "10k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 11,
+          "class_idx": 1,
+          "weight_float": 0.0381256528198719,
+          "is_populated": true,
+          "resistor_ohms": 300000.0,
+          "resistor_str": "300k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 12,
+          "class_idx": 1,
+          "weight_float": -0.3670015037059784,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 13,
+          "class_idx": 1,
+          "weight_float": 0.09125690162181854,
+          "is_populated": true,
+          "resistor_ohms": 100000.0,
+          "resistor_str": "100k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 14,
+          "class_idx": 1,
+          "weight_float": -0.6287736892700195,
+          "is_populated": true,
+          "resistor_ohms": 15000.0,
+          "resistor_str": "15k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 15,
+          "class_idx": 1,
+          "weight_float": 0.05743744596838951,
+          "is_populated": true,
+          "resistor_ohms": 200000.0,
+          "resistor_str": "200k",
+          "polarity": "positive"
+        }
+      ]
+    },
+    {
+      "class_idx": 2,
+      "bias_float": 0.6558924317359924,
+      "bias_resistor_ohms": 75000.0,
+      "bias_resistor_str": "75k",
+      "bias_rail": "-5V_REF",
+      "inputs": [
+        {
+          "hidden_idx": 0,
+          "class_idx": 2,
+          "weight_float": -0.029510077089071274,
+          "is_populated": true,
+          "resistor_ohms": 300000.0,
+          "resistor_str": "300k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 1,
+          "class_idx": 2,
+          "weight_float": 0.03454416245222092,
+          "is_populated": true,
+          "resistor_ohms": 300000.0,
+          "resistor_str": "300k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 2,
+          "class_idx": 2,
+          "weight_float": -0.2770437002182007,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 3,
+          "class_idx": 2,
+          "weight_float": 0.908951997756958,
+          "is_populated": true,
+          "resistor_ohms": 12000.0,
+          "resistor_str": "12k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 4,
+          "class_idx": 2,
+          "weight_float": 0.12944380939006805,
+          "is_populated": true,
+          "resistor_ohms": 75000.0,
+          "resistor_str": "75k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 5,
+          "class_idx": 2,
+          "weight_float": -0.4984639883041382,
+          "is_populated": true,
+          "resistor_ohms": 20000.0,
+          "resistor_str": "20k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 6,
+          "class_idx": 2,
+          "weight_float": -0.36411160230636597,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 7,
+          "class_idx": 2,
+          "weight_float": -1.1475582122802734,
+          "is_populated": true,
+          "resistor_ohms": 7500.0,
+          "resistor_str": "7.5k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 8,
+          "class_idx": 2,
+          "weight_float": -0.36501502990722656,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 9,
+          "class_idx": 2,
+          "weight_float": -0.3640076816082001,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 10,
+          "class_idx": 2,
+          "weight_float": 0.6024328470230103,
+          "is_populated": true,
+          "resistor_ohms": 18000.0,
+          "resistor_str": "18k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 11,
+          "class_idx": 2,
+          "weight_float": -0.11697674542665482,
+          "is_populated": true,
+          "resistor_ohms": 75000.0,
+          "resistor_str": "75k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 12,
+          "class_idx": 2,
+          "weight_float": 0.06642264872789383,
+          "is_populated": true,
+          "resistor_ohms": 200000.0,
+          "resistor_str": "200k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 13,
+          "class_idx": 2,
+          "weight_float": 0.2340834140777588,
+          "is_populated": true,
+          "resistor_ohms": 43000.0,
+          "resistor_str": "43k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 14,
+          "class_idx": 2,
+          "weight_float": 0.25824999809265137,
+          "is_populated": true,
+          "resistor_ohms": 43000.0,
+          "resistor_str": "43k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 15,
+          "class_idx": 2,
+          "weight_float": 0.03184211626648903,
+          "is_populated": true,
+          "resistor_ohms": 300000.0,
+          "resistor_str": "300k",
+          "polarity": "positive"
+        }
+      ]
+    },
+    {
+      "class_idx": 3,
+      "bias_float": -2.6601593494415283,
+      "bias_resistor_ohms": 18000.0,
+      "bias_resistor_str": "18k",
+      "bias_rail": "+5V_REF",
+      "inputs": [
+        {
+          "hidden_idx": 0,
+          "class_idx": 3,
+          "weight_float": 0.3634328246116638,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 1,
+          "class_idx": 3,
+          "weight_float": -0.16613870859146118,
+          "is_populated": true,
+          "resistor_ohms": 51000.0,
+          "resistor_str": "51k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 2,
+          "class_idx": 3,
+          "weight_float": 0.4077734053134918,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 3,
+          "class_idx": 3,
+          "weight_float": 0.23558378219604492,
+          "is_populated": true,
+          "resistor_ohms": 43000.0,
+          "resistor_str": "43k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 4,
+          "class_idx": 3,
+          "weight_float": -0.026105662807822227,
+          "is_populated": true,
+          "resistor_ohms": 390000.0,
+          "resistor_str": "390k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 5,
+          "class_idx": 3,
+          "weight_float": 0.36378297209739685,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 6,
+          "class_idx": 3,
+          "weight_float": 0.20628273487091064,
+          "is_populated": true,
+          "resistor_ohms": 47000.0,
+          "resistor_str": "47k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 7,
+          "class_idx": 3,
+          "weight_float": 0.28409260511398315,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 8,
+          "class_idx": 3,
+          "weight_float": -0.7407945990562439,
+          "is_populated": true,
+          "resistor_ohms": 12000.0,
+          "resistor_str": "12k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 9,
+          "class_idx": 3,
+          "weight_float": -0.2553488314151764,
+          "is_populated": true,
+          "resistor_ohms": 43000.0,
+          "resistor_str": "43k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 10,
+          "class_idx": 3,
+          "weight_float": 0.47009390592575073,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 11,
+          "class_idx": 3,
+          "weight_float": 0.06169528514146805,
+          "is_populated": true,
+          "resistor_ohms": 200000.0,
+          "resistor_str": "200k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 12,
+          "class_idx": 3,
+          "weight_float": -0.24618157744407654,
+          "is_populated": true,
+          "resistor_ohms": 43000.0,
+          "resistor_str": "43k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 13,
+          "class_idx": 3,
+          "weight_float": 0.04467462748289108,
+          "is_populated": true,
+          "resistor_ohms": 200000.0,
+          "resistor_str": "200k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 14,
+          "class_idx": 3,
+          "weight_float": -0.024596523493528366,
+          "is_populated": true,
+          "resistor_ohms": 390000.0,
+          "resistor_str": "390k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 15,
+          "class_idx": 3,
+          "weight_float": 0.15216344594955444,
+          "is_populated": true,
+          "resistor_ohms": 75000.0,
+          "resistor_str": "75k",
+          "polarity": "positive"
+        }
+      ]
+    },
+    {
+      "class_idx": 4,
+      "bias_float": -0.6103359460830688,
+      "bias_resistor_ohms": 75000.0,
+      "bias_resistor_str": "75k",
+      "bias_rail": "+5V_REF",
+      "inputs": [
+        {
+          "hidden_idx": 0,
+          "class_idx": 4,
+          "weight_float": -0.4050711989402771,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 1,
+          "class_idx": 4,
+          "weight_float": 0.07012403011322021,
+          "is_populated": true,
+          "resistor_ohms": 100000.0,
+          "resistor_str": "100k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 2,
+          "class_idx": 4,
+          "weight_float": -0.161418154835701,
+          "is_populated": true,
+          "resistor_ohms": 51000.0,
+          "resistor_str": "51k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 3,
+          "class_idx": 4,
+          "weight_float": -0.4700564444065094,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 4,
+          "class_idx": 4,
+          "weight_float": -0.4461808502674103,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 5,
+          "class_idx": 4,
+          "weight_float": 0.4799485504627228,
+          "is_populated": true,
+          "resistor_ohms": 20000.0,
+          "resistor_str": "20k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 6,
+          "class_idx": 4,
+          "weight_float": -1.0998023748397827,
+          "is_populated": true,
+          "resistor_ohms": 10000.0,
+          "resistor_str": "10k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 7,
+          "class_idx": 4,
+          "weight_float": -0.9155288338661194,
+          "is_populated": true,
+          "resistor_ohms": 10000.0,
+          "resistor_str": "10k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 8,
+          "class_idx": 4,
+          "weight_float": -0.0810159295797348,
+          "is_populated": true,
+          "resistor_ohms": 100000.0,
+          "resistor_str": "100k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 9,
+          "class_idx": 4,
+          "weight_float": 0.6038476228713989,
+          "is_populated": true,
+          "resistor_ohms": 18000.0,
+          "resistor_str": "18k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 10,
+          "class_idx": 4,
+          "weight_float": -2.503962516784668,
+          "is_populated": true,
+          "resistor_ohms": 3300.0,
+          "resistor_str": "3.3k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 11,
+          "class_idx": 4,
+          "weight_float": 0.19601266086101532,
+          "is_populated": true,
+          "resistor_ohms": 51000.0,
+          "resistor_str": "51k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 12,
+          "class_idx": 4,
+          "weight_float": 0.3895756006240845,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 13,
+          "class_idx": 4,
+          "weight_float": 0.310129314661026,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 14,
+          "class_idx": 4,
+          "weight_float": 0.7013093829154968,
+          "is_populated": true,
+          "resistor_ohms": 15000.0,
+          "resistor_str": "15k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 15,
+          "class_idx": 4,
+          "weight_float": 0.1638796329498291,
+          "is_populated": true,
+          "resistor_ohms": 51000.0,
+          "resistor_str": "51k",
+          "polarity": "positive"
+        }
+      ]
+    },
+    {
+      "class_idx": 5,
+      "bias_float": -0.3703250586986542,
+      "bias_resistor_ohms": 100000.0,
+      "bias_resistor_str": "100k",
+      "bias_rail": "+5V_REF",
+      "inputs": [
+        {
+          "hidden_idx": 0,
+          "class_idx": 5,
+          "weight_float": -1.2916778326034546,
+          "is_populated": true,
+          "resistor_ohms": 7500.0,
+          "resistor_str": "7.5k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 1,
+          "class_idx": 5,
+          "weight_float": -0.28289610147476196,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 2,
+          "class_idx": 5,
+          "weight_float": 0.2664714455604553,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 3,
+          "class_idx": 5,
+          "weight_float": -0.1194203570485115,
+          "is_populated": true,
+          "resistor_ohms": 75000.0,
+          "resistor_str": "75k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 4,
+          "class_idx": 5,
+          "weight_float": 0.4580264687538147,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 5,
+          "class_idx": 5,
+          "weight_float": -0.47367143630981445,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 6,
+          "class_idx": 5,
+          "weight_float": 0.8848012089729309,
+          "is_populated": true,
+          "resistor_ohms": 12000.0,
+          "resistor_str": "12k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 7,
+          "class_idx": 5,
+          "weight_float": 1.1476298570632935,
+          "is_populated": true,
+          "resistor_ohms": 7500.0,
+          "resistor_str": "7.5k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 8,
+          "class_idx": 5,
+          "weight_float": 0.004391924012452364,
+          "is_populated": true,
+          "resistor_ohms": 1000000.0,
+          "resistor_str": "1M",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 9,
+          "class_idx": 5,
+          "weight_float": 0.1504744291305542,
+          "is_populated": true,
+          "resistor_ohms": 75000.0,
+          "resistor_str": "75k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 10,
+          "class_idx": 5,
+          "weight_float": -0.19384123384952545,
+          "is_populated": true,
+          "resistor_ohms": 51000.0,
+          "resistor_str": "51k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 11,
+          "class_idx": 5,
+          "weight_float": 0.10854414105415344,
+          "is_populated": true,
+          "resistor_ohms": 100000.0,
+          "resistor_str": "100k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 12,
+          "class_idx": 5,
+          "weight_float": -0.36296403408050537,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 13,
+          "class_idx": 5,
+          "weight_float": -0.12859304249286652,
+          "is_populated": true,
+          "resistor_ohms": 75000.0,
+          "resistor_str": "75k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 14,
+          "class_idx": 5,
+          "weight_float": 0.10412034392356873,
+          "is_populated": true,
+          "resistor_ohms": 100000.0,
+          "resistor_str": "100k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 15,
+          "class_idx": 5,
+          "weight_float": 0.0107044642791152,
+          "is_populated": true,
+          "resistor_ohms": 1000000.0,
+          "resistor_str": "1M",
+          "polarity": "positive"
+        }
+      ]
+    },
+    {
+      "class_idx": 6,
+      "bias_float": 1.5843702554702759,
+      "bias_resistor_ohms": 33000.0,
+      "bias_resistor_str": "33k",
+      "bias_rail": "-5V_REF",
+      "inputs": [
+        {
+          "hidden_idx": 0,
+          "class_idx": 6,
+          "weight_float": -1.4265168905258179,
+          "is_populated": true,
+          "resistor_ohms": 7500.0,
+          "resistor_str": "7.5k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 1,
+          "class_idx": 6,
+          "weight_float": 0.14785756170749664,
+          "is_populated": true,
+          "resistor_ohms": 75000.0,
+          "resistor_str": "75k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 2,
+          "class_idx": 6,
+          "weight_float": -0.3567788004875183,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 3,
+          "class_idx": 6,
+          "weight_float": -1.1398093700408936,
+          "is_populated": true,
+          "resistor_ohms": 10000.0,
+          "resistor_str": "10k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 4,
+          "class_idx": 6,
+          "weight_float": -0.2243865430355072,
+          "is_populated": true,
+          "resistor_ohms": 43000.0,
+          "resistor_str": "43k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 5,
+          "class_idx": 6,
+          "weight_float": -1.15056574344635,
+          "is_populated": true,
+          "resistor_ohms": 7500.0,
+          "resistor_str": "7.5k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 6,
+          "class_idx": 6,
+          "weight_float": 0.25563475489616394,
+          "is_populated": true,
+          "resistor_ohms": 43000.0,
+          "resistor_str": "43k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 7,
+          "class_idx": 6,
+          "weight_float": 0.5202644467353821,
+          "is_populated": true,
+          "resistor_ohms": 20000.0,
+          "resistor_str": "20k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 8,
+          "class_idx": 6,
+          "weight_float": -0.5014421939849854,
+          "is_populated": true,
+          "resistor_ohms": 20000.0,
+          "resistor_str": "20k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 9,
+          "class_idx": 6,
+          "weight_float": 0.3607689440250397,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 10,
+          "class_idx": 6,
+          "weight_float": -0.7353019118309021,
+          "is_populated": true,
+          "resistor_ohms": 15000.0,
+          "resistor_str": "15k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 11,
+          "class_idx": 6,
+          "weight_float": -0.10726533085107803,
+          "is_populated": true,
+          "resistor_ohms": 100000.0,
+          "resistor_str": "100k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 12,
+          "class_idx": 6,
+          "weight_float": 0.5190467834472656,
+          "is_populated": true,
+          "resistor_ohms": 20000.0,
+          "resistor_str": "20k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 13,
+          "class_idx": 6,
+          "weight_float": 0.15204058587551117,
+          "is_populated": true,
+          "resistor_ohms": 75000.0,
+          "resistor_str": "75k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 14,
+          "class_idx": 6,
+          "weight_float": -0.27159643173217773,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 15,
+          "class_idx": 6,
+          "weight_float": 0.10150887817144394,
+          "is_populated": true,
+          "resistor_ohms": 100000.0,
+          "resistor_str": "100k",
+          "polarity": "positive"
+        }
+      ]
+    },
+    {
+      "class_idx": 7,
+      "bias_float": 0.5655767917633057,
+      "bias_resistor_ohms": 100000.0,
+      "bias_resistor_str": "100k",
+      "bias_rail": "-5V_REF",
+      "inputs": [
+        {
+          "hidden_idx": 0,
+          "class_idx": 7,
+          "weight_float": 0.31041058897972107,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 1,
+          "class_idx": 7,
+          "weight_float": -0.0335710272192955,
+          "is_populated": true,
+          "resistor_ohms": 300000.0,
+          "resistor_str": "300k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 2,
+          "class_idx": 7,
+          "weight_float": -0.32298028469085693,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 3,
+          "class_idx": 7,
+          "weight_float": 0.2585541009902954,
+          "is_populated": true,
+          "resistor_ohms": 43000.0,
+          "resistor_str": "43k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 4,
+          "class_idx": 7,
+          "weight_float": 0.32339900732040405,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 5,
+          "class_idx": 7,
+          "weight_float": -0.2657312750816345,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 6,
+          "class_idx": 7,
+          "weight_float": -0.25513598322868347,
+          "is_populated": true,
+          "resistor_ohms": 43000.0,
+          "resistor_str": "43k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 7,
+          "class_idx": 7,
+          "weight_float": -0.3645873963832855,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 8,
+          "class_idx": 7,
+          "weight_float": 0.363361120223999,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 9,
+          "class_idx": 7,
+          "weight_float": 0.20668047666549683,
+          "is_populated": true,
+          "resistor_ohms": 47000.0,
+          "resistor_str": "47k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 10,
+          "class_idx": 7,
+          "weight_float": 0.500993013381958,
+          "is_populated": true,
+          "resistor_ohms": 20000.0,
+          "resistor_str": "20k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 11,
+          "class_idx": 7,
+          "weight_float": 0.11679543554782867,
+          "is_populated": true,
+          "resistor_ohms": 75000.0,
+          "resistor_str": "75k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 12,
+          "class_idx": 7,
+          "weight_float": -1.9664372205734253,
+          "is_populated": true,
+          "resistor_ohms": 5100.0,
+          "resistor_str": "5.1k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 13,
+          "class_idx": 7,
+          "weight_float": 0.11940957605838776,
+          "is_populated": true,
+          "resistor_ohms": 75000.0,
+          "resistor_str": "75k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 14,
+          "class_idx": 7,
+          "weight_float": 0.3870738744735718,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 15,
+          "class_idx": 7,
+          "weight_float": 0.1428116410970688,
+          "is_populated": true,
+          "resistor_ohms": 75000.0,
+          "resistor_str": "75k",
+          "polarity": "positive"
+        }
+      ]
+    },
+    {
+      "class_idx": 8,
+      "bias_float": 0.11479838192462921,
+      "bias_resistor_ohms": 470000.0,
+      "bias_resistor_str": "470k",
+      "bias_rail": "-5V_REF",
+      "inputs": [
+        {
+          "hidden_idx": 0,
+          "class_idx": 8,
+          "weight_float": -0.36244210600852966,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 1,
+          "class_idx": 8,
+          "weight_float": -0.13422158360481262,
+          "is_populated": true,
+          "resistor_ohms": 75000.0,
+          "resistor_str": "75k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 2,
+          "class_idx": 8,
+          "weight_float": 0.15805764496326447,
+          "is_populated": true,
+          "resistor_ohms": 75000.0,
+          "resistor_str": "75k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 3,
+          "class_idx": 8,
+          "weight_float": -0.2530811131000519,
+          "is_populated": true,
+          "resistor_ohms": 43000.0,
+          "resistor_str": "43k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 4,
+          "class_idx": 8,
+          "weight_float": -1.1400870084762573,
+          "is_populated": true,
+          "resistor_ohms": 10000.0,
+          "resistor_str": "10k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 5,
+          "class_idx": 8,
+          "weight_float": 0.07945498824119568,
+          "is_populated": true,
+          "resistor_ohms": 100000.0,
+          "resistor_str": "100k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 6,
+          "class_idx": 8,
+          "weight_float": 0.01314907893538475,
+          "is_populated": true,
+          "resistor_ohms": 680000.0,
+          "resistor_str": "680k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 7,
+          "class_idx": 8,
+          "weight_float": 0.056955546140670776,
+          "is_populated": true,
+          "resistor_ohms": 200000.0,
+          "resistor_str": "200k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 8,
+          "class_idx": 8,
+          "weight_float": 0.7425039410591125,
+          "is_populated": true,
+          "resistor_ohms": 12000.0,
+          "resistor_str": "12k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 9,
+          "class_idx": 8,
+          "weight_float": -0.29231497645378113,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 10,
+          "class_idx": 8,
+          "weight_float": -0.26299548149108887,
+          "is_populated": true,
+          "resistor_ohms": 43000.0,
+          "resistor_str": "43k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 11,
+          "class_idx": 8,
+          "weight_float": 0.0917171835899353,
+          "is_populated": true,
+          "resistor_ohms": 100000.0,
+          "resistor_str": "100k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 12,
+          "class_idx": 8,
+          "weight_float": 0.06928800791501999,
+          "is_populated": true,
+          "resistor_ohms": 100000.0,
+          "resistor_str": "100k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 13,
+          "class_idx": 8,
+          "weight_float": -0.07033511996269226,
+          "is_populated": true,
+          "resistor_ohms": 100000.0,
+          "resistor_str": "100k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 14,
+          "class_idx": 8,
+          "weight_float": -0.7371066808700562,
+          "is_populated": true,
+          "resistor_ohms": 15000.0,
+          "resistor_str": "15k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 15,
+          "class_idx": 8,
+          "weight_float": -0.1278027594089508,
+          "is_populated": true,
+          "resistor_ohms": 75000.0,
+          "resistor_str": "75k",
+          "polarity": "negative"
+        }
+      ]
+    },
+    {
+      "class_idx": 9,
+      "bias_float": -1.175599217414856,
+      "bias_resistor_ohms": 43000.0,
+      "bias_resistor_str": "43k",
+      "bias_rail": "+5V_REF",
+      "inputs": [
+        {
+          "hidden_idx": 0,
+          "class_idx": 9,
+          "weight_float": 0.3618156313896179,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 1,
+          "class_idx": 9,
+          "weight_float": -0.17700080573558807,
+          "is_populated": true,
+          "resistor_ohms": 51000.0,
+          "resistor_str": "51k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 2,
+          "class_idx": 9,
+          "weight_float": 0.08089656382799149,
+          "is_populated": true,
+          "resistor_ohms": 100000.0,
+          "resistor_str": "100k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 3,
+          "class_idx": 9,
+          "weight_float": -0.5151801705360413,
+          "is_populated": true,
+          "resistor_ohms": 20000.0,
+          "resistor_str": "20k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 4,
+          "class_idx": 9,
+          "weight_float": -0.05098738521337509,
+          "is_populated": true,
+          "resistor_ohms": 200000.0,
+          "resistor_str": "200k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 5,
+          "class_idx": 9,
+          "weight_float": 0.5015762448310852,
+          "is_populated": true,
+          "resistor_ohms": 20000.0,
+          "resistor_str": "20k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 6,
+          "class_idx": 9,
+          "weight_float": -0.46008437871932983,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 7,
+          "class_idx": 9,
+          "weight_float": -1.1478992700576782,
+          "is_populated": true,
+          "resistor_ohms": 7500.0,
+          "resistor_str": "7.5k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 8,
+          "class_idx": 9,
+          "weight_float": 0.36301517486572266,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 9,
+          "class_idx": 9,
+          "weight_float": -0.5274938344955444,
+          "is_populated": true,
+          "resistor_ohms": 18000.0,
+          "resistor_str": "18k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 10,
+          "class_idx": 9,
+          "weight_float": -0.7407920956611633,
+          "is_populated": true,
+          "resistor_ohms": 12000.0,
+          "resistor_str": "12k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 11,
+          "class_idx": 9,
+          "weight_float": -0.12622211873531342,
+          "is_populated": true,
+          "resistor_ohms": 75000.0,
+          "resistor_str": "75k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 12,
+          "class_idx": 9,
+          "weight_float": -0.46780937910079956,
+          "is_populated": true,
+          "resistor_ohms": 22000.0,
+          "resistor_str": "22k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 13,
+          "class_idx": 9,
+          "weight_float": -0.061566710472106934,
+          "is_populated": true,
+          "resistor_ohms": 200000.0,
+          "resistor_str": "200k",
+          "polarity": "negative"
+        },
+        {
+          "hidden_idx": 14,
+          "class_idx": 9,
+          "weight_float": 0.3627275228500366,
+          "is_populated": true,
+          "resistor_ohms": 33000.0,
+          "resistor_str": "33k",
+          "polarity": "positive"
+        },
+        {
+          "hidden_idx": 15,
+          "class_idx": 9,
+          "weight_float": 0.03477059677243233,
+          "is_populated": true,
+          "resistor_ohms": 300000.0,
+          "resistor_str": "300k",
+          "polarity": "positive"
+        }
+      ]
+    }
+  ]
+}
