@@ -27,7 +27,17 @@ digits_cache.csv.gz
 *.kicad_prl
 *.kicad_pcb-bak
 *.kicad_sch-bak
+*-save.kicad_pcb
 drc_*.json
+
+# FreeRouting
+*.jar
+freerouting/
+
+# KiCad locks & Editor history
+*.lck
+~*
+.history/
 
 # OS generated
 .DS_Store

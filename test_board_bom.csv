@@ -1,0 +1,16 @@
+Item,Reference,Quantity,Value,Footprint,Description,Kit / Source
+1,"R_PD0, R_PD1, R_PD2, R_PD3, R1_00, R1_10, Rf1_0, Rin_0, Rrelu_0, Rpd_act0, R1_21, R1_31, Rf1_1, Rin_1, Rrelu_1, Rpd_act1, R2_00, R2_10, Rf2_0, Rf2_1",20,10k,Resistor_SMD:R_0805_2012Metric,1% 0805 Thick Film SMD Resistor,60-Value Kit
+2,"Rb1_0, Rb1_1",2,18k,Resistor_SMD:R_0805_2012Metric,1% 0805 Thick Film SMD Resistor (Layer 1 Bias),60-Value Kit
+3,Rb2_0,1,15k,Resistor_SMD:R_0805_2012Metric,1% 0805 Thick Film SMD Resistor (Layer 2 Output 0 Bias),60-Value Kit
+4,Rb2_1,1,22k,Resistor_SMD:R_0805_2012Metric,1% 0805 Thick Film SMD Resistor (Layer 2 Output 1 Ref Bias),60-Value Kit
+5,"R_LED0, R_LED1",2,1k,Resistor_SMD:R_0805_2012Metric,1% 0805 Thick Film SMD Resistor (LED Limiter),60-Value Kit
+6,"C1, C2, C3, C4",4,0.1uF,Capacitor_SMD:C_0805_2012Metric,50V X7R 0805 Ceramic Bypass Capacitor,Standard SMD Kit
+7,"D1_0, D2_0, D1_1, D2_1",4,1N4148,Diode_SMD:D_SOD-123,75V 150mA High-Speed Switching Diode,SOD-123
+8,LED1,1,Red_Vert,LED_SMD:LED_0805_2012Metric,0805 Red SMD LED (Vertical Class Indicator),Standard 0805
+9,LED0,1,Green_Horiz,LED_SMD:LED_0805_2012Metric,0805 Green SMD LED (Horizontal Class Indicator),Standard 0805
+10,"U1, U2",2,TL074,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,Quad Low-Noise JFET-Input Operational Amplifier,SOIC-14
+11,SW1,1,4-DIP,Button_Switch_SMD:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W8.61mm_P2.54mm_LowProfile,4-Position SPST SMD Slide DIP Switch,SMD DIP-4
+12,"J_PWR, J_OUT",2,PinHeader_1x04,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,4-Pin 2.54mm Pitch Male Pin Header,Standard 2.54mm
+13,J_IN,1,PinHeader_1x05,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,5-Pin 2.54mm Pitch Male Pin Header,Standard 2.54mm
+14,"TP_+12V, TP_+5V, TP_GND, TP_-12V, TP_X0, TP_X1, TP_X2, TP_X3, TP_SUM0, TP_ACT0, TP_SUM1, TP_ACT1, TP_OUT0, TP_OUT1",14,TestPoint_1.5mm,TestPoint:TestPoint_Pad_D1.5mm,1.5mm Diameter Surface Mount Test Pad,SMD Test Pad
+15,"H1, H2, H3, H4",4,M3_NPTH,MountingHole:MountingHole_3.2mm_M3,3.2mm M3 Non-Plated Mounting Hole,Mechanical

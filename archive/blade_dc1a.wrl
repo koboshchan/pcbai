@@ -1,71 +1,1663 @@
 #VRML V2.0 utf8
-# Exact 94.28mm x 100.0mm Daughtercard Blade standing vertically in 72P Slot
+# =========================================================================
+# BLADE RACK ASSEMBLY: BLADE 1: L1 SYNAPTIC WEIGHTS (NEURONS 0..3) - 256 SYNAPSES
+# Dimensions: 94.28mm wide x 100.0mm high x 1.57mm thick
+# Standing vertically in 72-pin straight backplane connector slot
+# =========================================================================
 Transform {
   children [
-    # PCB Blade
+    # 1. Main PCB Laminate Core & Soldermask
     Transform {
       translation 0 0 56.60
       children [
         Shape {
           appearance Appearance {
             material Material {
-              diffuseColor 0.08 0.32 0.22
-              specularColor 0.3 0.4 0.3
-              shininess 0.5
+              diffuseColor 0.05 0.28 0.14
+              specularColor 0.35 0.45 0.35
+              shininess 0.6
             }
           }
-          geometry Box { size 94.28 1.57 100.0 }
+          geometry Box { size 94.28 1.57 100.00 }
         }
       ]
     },
-    # Silkscreen Text Banner on Daughtercard
+
+    # 2. Silkscreen Title Banner (At top of blade: Z = 101.5mm, above LEDs and chips)
     Transform {
-      translation 0 0.81 72.0
+      translation 0 0.8000 101.50
       children [
         Shape {
           appearance Appearance {
             material Material {
               diffuseColor 0.95 0.95 0.95
-              specularColor 0.5 0.5 0.5
+              specularColor 0.4 0.4 0.4
               shininess 0.2
             }
           }
-          geometry Box { size 84.0 0.04 14.0 }
+          geometry Box { size 70.0 0.02 4.0 }
         }
       ]
     },
-    # Gold Contact Fingers (Front Row wiping inside socket)
-    Transform {
-      translation 0 0.80 10.60
-      children [
-        Shape {
-          appearance Appearance {
-            material Material {
-              diffuseColor 0.85 0.70 0.20
-              specularColor 0.95 0.90 0.60
-              shininess 0.9
-            }
-          }
-          geometry Box { size 88.90 0.04 8.00 }
-        }
-      ]
-    },
-    # Gold Contact Fingers (Back Row wiping inside socket)
-    Transform {
-      translation 0 -0.80 10.60
-      children [
-        Shape {
-          appearance Appearance {
-            material Material {
-              diffuseColor 0.85 0.70 0.20
-              specularColor 0.95 0.90 0.60
-              shininess 0.9
-            }
-          }
-          geometry Box { size 88.90 0.04 8.00 }
-        }
-      ]
-    }
 
+    # 3. Insertion Stop Line at 9.0mm Socket Insertion Depth (Z = 15.60mm)
+    Transform {
+      translation 0 0.8000 15.60
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.95 0.95 0.95
+              specularColor 0.3 0.3 0.3
+              shininess 0.2
+            }
+          }
+          geometry Box { size 88.0 0.02 0.40 }
+        }
+      ]
+    },
+
+    # 4. Gold Card Edge Contact Fingers (Front Row wiping into socket)
+    Transform {
+      translation 0 0.7950 10.60
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.88 0.72 0.22
+              specularColor 0.98 0.92 0.65
+              shininess 0.92
+            }
+          }
+          geometry Box { size 88.90 0.02 8.00 }
+        }
+      ]
+    },
+
+    # 5. Gold Card Edge Contact Fingers (Back Row wiping into socket)
+    Transform {
+      translation 0 -0.7950 10.60
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.88 0.72 0.22
+              specularColor 0.98 0.92 0.65
+              shininess 0.92
+            }
+          }
+          geometry Box { size 88.90 0.02 8.00 }
+        }
+      ]
+    },
+
+    # 6. Top Corner M3 Ejector / Mounting Holes (Left and Right)
+    Transform {
+      translation -42.14 0.7950 101.60
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.88 0.72 0.22
+              specularColor 0.98 0.92 0.65
+              shininess 0.92
+            }
+          }
+          geometry Box { size 6.0 0.02 6.0 }
+        }
+      ]
+    },
+    Transform {
+      translation 42.14 0.7950 101.60
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.88 0.72 0.22
+              specularColor 0.98 0.92 0.65
+              shininess 0.92
+            }
+          }
+          geometry Box { size 6.0 0.02 6.0 }
+        }
+      ]
+    },
+
+    Transform {
+      translation -11.430 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ DEF Resistor0805_P Transform {
+        children [
+          # Center ceramic body
+          Transform {
+            translation 0 0.2750 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.07 0.07 0.08
+                    specularColor 0.35 0.35 0.35
+                    shininess 0.5
+                  }
+                }
+                geometry Box { size 1.20 0.55 1.25 }
+              }
+            ]
+          },
+          # Left silver terminal cap
+          Transform {
+            translation -0.80 0.2750 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.85 0.85 0.88
+                    specularColor 0.98 0.98 0.98
+                    shininess 0.9
+                  }
+                }
+                geometry Box { size 0.40 0.57 1.27 }
+              }
+            ]
+          },
+          # Right silver terminal cap
+          Transform {
+            translation 0.80 0.2750 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.85 0.85 0.88
+                    specularColor 0.98 0.98 0.98
+                    shininess 0.9
+                  }
+                }
+                geometry Box { size 0.40 0.57 1.27 }
+              }
+            ]
+          },
+          # Top laser marking stripe
+          Transform {
+            translation 0 0.5550 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.35 0.35 0.35
+                    specularColor 0.2 0.2 0.2
+                    shininess 0.2
+                  }
+                }
+                geometry Box { size 0.80 0.02 0.70 }
+              }
+            ]
+          }
+        ]
+      } ]
+    },
+    Transform {
+      translation -13.970 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -29.210 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 6.350 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -26.670 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 26.670 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 11.430 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 1.270 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -13.970 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -11.430 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 8.890 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 13.970 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -26.670 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 26.670 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -16.510 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 26.670 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -8.890 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -24.130 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -39.370 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -36.830 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -44.450 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -13.970 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -8.890 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -29.210 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 1.270 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 8.890 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -11.430 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 6.350 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 34.290 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -13.970 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -21.590 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 34.290 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -26.670 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 39.360 0.785 70.600
+      rotation 0 1 0 0.0000
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -6.350 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 8.890 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -19.050 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -16.510 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -44.450 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -16.510 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -3.810 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 31.750 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -34.290 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -26.670 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -36.830 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -21.590 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 8.890 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 1.270 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 43.360 0.785 50.600
+      rotation 0 1 0 0.0000
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -19.050 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 1.270 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 29.210 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -41.910 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 13.970 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -3.810 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 34.290 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -41.910 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -34.290 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 6.350 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -1.270 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -29.210 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -13.970 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -29.210 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 31.750 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 8.890 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -44.450 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 13.970 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -39.370 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 11.430 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -16.510 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 19.050 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -31.750 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -39.370 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 29.210 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 11.430 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 24.130 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 1.270 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 34.290 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 8.890 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 38.360 0.785 50.600
+      rotation 0 1 0 0.0000
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -19.050 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -8.890 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -16.510 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 11.430 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -36.830 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 21.590 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 1.270 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -6.350 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -39.370 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -3.810 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -34.290 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 34.290 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 31.750 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 3.810 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 26.670 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 29.210 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -1.270 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -19.050 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 34.290 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -6.350 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -34.290 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 19.050 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -29.210 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 29.210 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 26.670 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -41.910 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -34.290 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 29.210 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -11.430 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -1.270 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 19.050 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -36.830 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 6.350 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -41.910 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 31.750 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 3.810 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -44.450 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 42.410 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -16.510 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 13.970 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -34.290 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 31.750 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -21.590 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -24.130 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -21.590 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 16.510 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -8.890 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -21.590 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 3.810 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 24.130 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -19.050 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -41.910 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 45.860 0.785 59.100
+      rotation 0 1 0 1.5708
+      children [ DEF Capacitor0805_P Transform {
+        children [
+          # Tan MLCC ceramic body
+          Transform {
+            translation 0 0.3250 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.68 0.52 0.36
+                    specularColor 0.35 0.30 0.22
+                    shininess 0.35
+                  }
+                }
+                geometry Box { size 1.20 0.65 1.25 }
+              }
+            ]
+          },
+          # Left silver terminal
+          Transform {
+            translation -0.80 0.3250 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.85 0.85 0.88
+                    specularColor 0.98 0.98 0.98
+                    shininess 0.9
+                  }
+                }
+                geometry Box { size 0.40 0.67 1.27 }
+              }
+            ]
+          },
+          # Right silver terminal
+          Transform {
+            translation 0.80 0.3250 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.85 0.85 0.88
+                    specularColor 0.98 0.98 0.98
+                    shininess 0.9
+                  }
+                }
+                geometry Box { size 0.40 0.67 1.27 }
+              }
+            ]
+          }
+        ]
+      } ]
+    },
+    Transform {
+      translation -29.210 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -34.290 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 8.890 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -29.210 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -13.970 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 34.290 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 21.590 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 19.050 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -19.050 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -41.910 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 29.210 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 3.810 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -6.350 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -44.450 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -26.670 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 19.050 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 39.360 0.785 77.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 34.290 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 21.590 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 3.810 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -26.670 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 6.350 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -39.370 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -16.510 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -8.890 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 13.970 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 16.510 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -21.590 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 3.810 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -24.130 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -13.970 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 16.510 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -39.370 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 31.750 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -13.970 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 3.810 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 43.360 0.785 70.600
+      rotation 0 1 0 0.0000
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 26.670 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 13.970 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -44.450 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 16.510 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 13.970 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -6.350 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -1.270 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 19.050 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -1.270 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 33.360 0.785 59.100
+      rotation 0 1 0 0.0000
+      children [ USE Capacitor0805_P ]
+    },
+    Transform {
+      translation 13.970 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -44.450 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -19.050 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -31.750 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 6.350 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 11.430 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -31.750 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -31.750 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -3.810 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 24.130 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 16.510 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -8.890 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -11.430 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -36.830 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -44.450 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -24.130 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -24.130 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -34.290 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -3.810 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -3.810 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 26.670 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 1.270 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 6.350 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 24.130 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -24.130 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 21.590 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -1.270 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -36.830 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -6.350 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 44.310 0.785 38.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 29.210 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 8.890 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 19.050 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 11.430 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -31.750 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 21.590 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 31.750 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -1.270 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -11.430 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 26.670 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 1.270 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 24.130 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -11.430 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -6.350 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -3.810 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -31.750 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 16.510 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 3.810 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -31.750 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -24.130 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -29.210 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -3.810 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -41.910 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -1.270 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 31.750 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 29.210 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -19.050 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -8.890 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -11.430 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -26.670 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -39.370 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -6.350 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -21.590 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -21.590 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -39.370 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 16.510 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 24.130 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 21.590 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 24.130 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 19.050 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 6.350 0.785 28.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 16.510 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 11.430 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 11.430 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 40.860 0.785 59.100
+      rotation 0 1 0 0.0000
+      children [ DEF SOIC14_P Transform {
+        children [
+          # Epoxy IC body
+          Transform {
+            translation 0 0.9500 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.11 0.11 0.12
+                    specularColor 0.22 0.22 0.22
+                    shininess 0.35
+                  }
+                }
+                geometry Box { size 8.65 1.30 3.90 }
+              }
+            ]
+          },
+          # Pin 1 index dot
+          Transform {
+            translation -3.50 1.6100 -1.20
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.04 0.04 0.04
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.1
+                  }
+                }
+                geometry Box { size 0.50 0.04 0.50 }
+              }
+            ]
+          },
+          # Laser marking text
+          Transform {
+            translation 0 1.6100 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.40 0.40 0.42
+                    specularColor 0.2 0.2 0.2
+                    shininess 0.2
+                  }
+                }
+                geometry Box { size 6.00 0.02 1.20 }
+              }
+            ]
+          },
+          # Side A leads (Pins 1..7)
+          Transform {
+            translation 0 0.2500 -2.45
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.86 0.86 0.89
+                    specularColor 0.98 0.98 0.98
+                    shininess 0.92
+                  }
+                }
+                geometry Box { size 8.20 0.45 1.00 }
+              }
+            ]
+          },
+          # Side B leads (Pins 8..14)
+          Transform {
+            translation 0 0.2500 2.45
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.86 0.86 0.89
+                    specularColor 0.98 0.98 0.98
+                    shininess 0.92
+                  }
+                }
+                geometry Box { size 8.20 0.45 1.00 }
+              }
+            ]
+          }
+        ]
+      } ]
+    },
+    Transform {
+      translation -8.890 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 21.590 0.785 73.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -36.830 0.785 36.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -41.910 0.785 89.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -24.130 0.785 81.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -16.510 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 38.360 0.785 43.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -31.750 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -36.830 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 24.130 0.785 52.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation 21.590 0.785 44.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
+    Transform {
+      translation -26.670 0.785 65.600
+      rotation 0 1 0 1.5708
+      children [ USE Resistor0805_P ]
+    },
   ]
 }
