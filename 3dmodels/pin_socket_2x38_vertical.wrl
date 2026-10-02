@@ -1,0 +1,90 @@
+#VRML V2.0 utf8
+# =========================================================================
+# 76-Pin (2x38) 2.54mm Pitch Vertical Female Pin Socket Strip for Motherboard
+# =========================================================================
+Transform {
+  children [
+    # 1. Main Black Plastic Insulator Body
+    Transform {
+      translation 0 0 4.25
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.12 0.12 0.12
+              specularColor 0.35 0.35 0.35
+              shininess 0.45
+            }
+          }
+          geometry Box { size 96.52 5.00 8.50 }
+        }
+      ]
+    },
+
+    # 2. Top Insertion Slot Cavity
+    Transform {
+      translation 0 0 7.00
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.04 0.04 0.04
+              specularColor 0.10 0.10 0.10
+              shininess 0.20
+            }
+          }
+          geometry Box { size 94.62 3.20 3.00 }
+        }
+      ]
+    },
+
+    # 3. Internal Gold Contact Beams
+    Transform {
+      translation 0 0 6.00
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.88 0.76 0.28
+              specularColor 0.98 0.92 0.60
+              shininess 0.95
+            }
+          }
+          geometry Box { size 94.00 2.54 2.00 }
+        }
+      ]
+    },
+
+    # 4. Solder Tails (Through-Hole Pins extending below PCB: Z = 0 to -3.2mm)
+    Transform {
+      translation 0 -1.27 -1.60
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.82 0.82 0.85
+              specularColor 0.95 0.95 0.95
+              shininess 0.90
+            }
+          }
+          geometry Box { size 94.62 0.64 3.20 }
+        }
+      ]
+    },
+    Transform {
+      translation 0 1.27 -1.60
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.82 0.82 0.85
+              specularColor 0.95 0.95 0.95
+              shininess 0.90
+            }
+          }
+          geometry Box { size 94.62 0.64 3.20 }
+        }
+      ]
+    }
+  ]
+}

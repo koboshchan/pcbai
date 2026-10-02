@@ -1,220 +1,1562 @@
 #VRML V2.0 utf8
-# Exact 94.28mm x 100.0mm Daughtercard Blade standing vertically in 72P Slot
+# =========================================================================
+# BLADE RACK ASSEMBLY: BLADE 6: L2 SYNAPSE MATRIX + 10-WAY WTA CLASSIFIER + 10 LEDs
+# Dimensions: 94.28mm wide x 100.0mm high x 1.57mm thick
+# Standing vertically in 72-pin straight backplane connector slot
+# =========================================================================
 Transform {
   children [
-    # PCB Blade
+    # 1. Main PCB Laminate Core & Soldermask
     Transform {
       translation 0 0 56.60
       children [
         Shape {
           appearance Appearance {
             material Material {
-              diffuseColor 0.35 0.22 0.10
-              specularColor 0.3 0.4 0.3
-              shininess 0.5
+              diffuseColor 0.12 0.12 0.14
+              specularColor 0.35 0.45 0.35
+              shininess 0.6
             }
           }
-          geometry Box { size 94.28 1.57 100.0 }
+          geometry Box { size 94.28 1.57 100.00 }
         }
       ]
     },
-    # Silkscreen Text Banner on Daughtercard
+
+    # 2. Silkscreen Title Banner (At top of blade: Z = 101.5mm, above LEDs and chips)
     Transform {
-      translation 0 0.81 72.0
+      translation 0 -0.8000 101.50
       children [
         Shape {
           appearance Appearance {
             material Material {
               diffuseColor 0.95 0.95 0.95
-              specularColor 0.5 0.5 0.5
+              specularColor 0.4 0.4 0.4
               shininess 0.2
             }
           }
-          geometry Box { size 84.0 0.04 14.0 }
+          geometry Box { size 70.0 0.02 4.0 }
         }
       ]
     },
-    # Gold Contact Fingers (Front Row wiping inside socket)
+
+    # 3. Insertion Stop Line at 9.0mm Socket Insertion Depth (Z = 15.60mm)
     Transform {
-      translation 0 0.80 10.60
+      translation 0 -0.8000 15.60
       children [
         Shape {
           appearance Appearance {
             material Material {
-              diffuseColor 0.85 0.70 0.20
-              specularColor 0.95 0.90 0.60
-              shininess 0.9
+              diffuseColor 0.95 0.95 0.95
+              specularColor 0.3 0.3 0.3
+              shininess 0.2
             }
           }
-          geometry Box { size 88.90 0.04 8.00 }
+          geometry Box { size 88.0 0.02 0.40 }
         }
       ]
     },
-    # Gold Contact Fingers (Back Row wiping inside socket)
+
+    # 4. Gold Card Edge Contact Fingers (Front Row wiping into socket)
     Transform {
-      translation 0 -0.80 10.60
+      translation 0 -0.7950 10.60
       children [
         Shape {
           appearance Appearance {
             material Material {
-              diffuseColor 0.85 0.70 0.20
-              specularColor 0.95 0.90 0.60
-              shininess 0.9
+              diffuseColor 0.88 0.72 0.22
+              specularColor 0.98 0.92 0.65
+              shininess 0.92
             }
           }
-          geometry Box { size 88.90 0.04 8.00 }
+          geometry Box { size 88.90 0.02 8.00 }
         }
       ]
-    }
+    },
+
+    # 5. Gold Card Edge Contact Fingers (Back Row wiping into socket)
     Transform {
-      translation -28.80 0.90 94.0
+      translation 0 0.7950 10.60
       children [
         Shape {
           appearance Appearance {
             material Material {
-              diffuseColor 0.95 0.85 0.10
-              emissiveColor 0.80 0.70 0.10
-              shininess 0.9
+              diffuseColor 0.88 0.72 0.22
+              specularColor 0.98 0.92 0.65
+              shininess 0.92
             }
           }
-          geometry Box { size 2.0 1.2 2.0 }
+          geometry Box { size 88.90 0.02 8.00 }
         }
       ]
-    }
+    },
+
+    # 6. Top Corner M3 Ejector / Mounting Holes (Left and Right)
     Transform {
-      translation -22.40 0.90 94.0
+      translation -42.14 -0.7950 101.60
       children [
         Shape {
           appearance Appearance {
             material Material {
-              diffuseColor 0.95 0.85 0.10
-              emissiveColor 0.80 0.70 0.10
-              shininess 0.9
+              diffuseColor 0.88 0.72 0.22
+              specularColor 0.98 0.92 0.65
+              shininess 0.92
             }
           }
-          geometry Box { size 2.0 1.2 2.0 }
+          geometry Box { size 6.0 0.02 6.0 }
         }
       ]
-    }
+    },
     Transform {
-      translation -16.00 0.90 94.0
+      translation 42.14 -0.7950 101.60
       children [
         Shape {
           appearance Appearance {
             material Material {
-              diffuseColor 0.95 0.85 0.10
-              emissiveColor 0.80 0.70 0.10
-              shininess 0.9
+              diffuseColor 0.88 0.72 0.22
+              specularColor 0.98 0.92 0.65
+              shininess 0.92
             }
           }
-          geometry Box { size 2.0 1.2 2.0 }
+          geometry Box { size 6.0 0.02 6.0 }
         }
       ]
-    }
+    },
+
     Transform {
-      translation -9.60 0.90 94.0
-      children [
-        Shape {
-          appearance Appearance {
-            material Material {
-              diffuseColor 0.95 0.85 0.10
-              emissiveColor 0.80 0.70 0.10
-              shininess 0.9
-            }
+      translation 34.290 -0.785 36.800
+      rotation 0 1 0 -1.5708
+      children [ DEF Resistor0805_N Transform {
+        children [
+          # Center ceramic body
+          Transform {
+            translation 0 -0.2750 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.07 0.07 0.08
+                    specularColor 0.35 0.35 0.35
+                    shininess 0.5
+                  }
+                }
+                geometry Box { size 1.20 0.55 1.25 }
+              }
+            ]
+          },
+          # Left silver terminal cap
+          Transform {
+            translation -0.80 -0.2750 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.85 0.85 0.88
+                    specularColor 0.98 0.98 0.98
+                    shininess 0.9
+                  }
+                }
+                geometry Box { size 0.40 0.57 1.27 }
+              }
+            ]
+          },
+          # Right silver terminal cap
+          Transform {
+            translation 0.80 -0.2750 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.85 0.85 0.88
+                    specularColor 0.98 0.98 0.98
+                    shininess 0.9
+                  }
+                }
+                geometry Box { size 0.40 0.57 1.27 }
+              }
+            ]
+          },
+          # Top laser marking stripe
+          Transform {
+            translation 0 -0.5550 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.35 0.35 0.35
+                    specularColor 0.2 0.2 0.2
+                    shininess 0.2
+                  }
+                }
+                geometry Box { size 0.80 0.02 0.70 }
+              }
+            ]
           }
-          geometry Box { size 2.0 1.2 2.0 }
-        }
-      ]
-    }
+        ]
+      } ]
+    },
     Transform {
-      translation -3.20 0.90 94.0
-      children [
-        Shape {
-          appearance Appearance {
-            material Material {
-              diffuseColor 0.95 0.85 0.10
-              emissiveColor 0.80 0.70 0.10
-              shininess 0.9
-            }
-          }
-          geometry Box { size 2.0 1.2 2.0 }
-        }
-      ]
-    }
+      translation 29.210 -0.785 42.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
     Transform {
-      translation 3.20 0.90 94.0
-      children [
-        Shape {
-          appearance Appearance {
-            material Material {
-              diffuseColor 0.95 0.85 0.10
-              emissiveColor 0.80 0.70 0.10
-              shininess 0.9
-            }
+      translation -7.260 -0.785 94.600
+      rotation 0 1 0 -0.0000
+      children [ DEF LED0805Green_N Transform {
+        children [
+          # Terminal end caps
+          Transform {
+            translation -0.85 -0.1500 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.85 0.75 0.25
+                    specularColor 0.95 0.90 0.60
+                    shininess 0.9
+                  }
+                }
+                geometry Box { size 0.35 0.30 1.25 }
+              }
+            ]
+          },
+          Transform {
+            translation 0.85 -0.1500 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.85 0.75 0.25
+                    specularColor 0.95 0.90 0.60
+                    shininess 0.9
+                  }
+                }
+                geometry Box { size 0.35 0.30 1.25 }
+              }
+            ]
+          },
+          # Translucent emerald green lens
+          Transform {
+            translation 0 -0.4500 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.12 0.95 0.30
+                    emissiveColor 0.35 1.0 0.50
+                    specularColor 0.7 1.0 0.7
+                    transparency 0.12
+                    shininess 0.9
+                  }
+                }
+                geometry Box { size 1.30 0.70 1.25 }
+              }
+            ]
+          },
+          # Glowing emissive semiconductor core (brilliant glow under raytracer)
+          Transform {
+            translation 0 -0.3500 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.6 1.0 0.7
+                    emissiveColor 0.9 1.0 0.9
+                    shininess 1.0
+                  }
+                }
+                geometry Box { size 0.60 0.45 0.60 }
+              }
+            ]
           }
-          geometry Box { size 2.0 1.2 2.0 }
-        }
-      ]
-    }
+        ]
+      } ]
+    },
     Transform {
-      translation 9.60 0.90 94.0
-      children [
-        Shape {
-          appearance Appearance {
-            material Material {
-              diffuseColor 0.95 0.85 0.10
-              emissiveColor 0.80 0.70 0.10
-              shininess 0.9
-            }
-          }
-          geometry Box { size 2.0 1.2 2.0 }
-        }
-      ]
-    }
+      translation 26.670 -0.785 83.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
     Transform {
-      translation 16.00 0.90 94.0
-      children [
-        Shape {
-          appearance Appearance {
-            material Material {
-              diffuseColor 0.95 0.85 0.10
-              emissiveColor 0.80 0.70 0.10
-              shininess 0.9
-            }
-          }
-          geometry Box { size 2.0 1.2 2.0 }
-        }
-      ]
-    }
+      translation 36.830 -0.785 68.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
     Transform {
-      translation 22.40 0.90 94.0
-      children [
-        Shape {
-          appearance Appearance {
-            material Material {
-              diffuseColor 0.95 0.85 0.10
-              emissiveColor 0.80 0.70 0.10
-              shininess 0.9
-            }
-          }
-          geometry Box { size 2.0 1.2 2.0 }
-        }
-      ]
-    }
+      translation 11.430 -0.785 57.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
     Transform {
-      translation 28.80 0.90 94.0
-      children [
-        Shape {
-          appearance Appearance {
-            material Material {
-              diffuseColor 0.95 0.85 0.10
-              emissiveColor 0.80 0.70 0.10
-              shininess 0.9
-            }
+      translation 36.830 -0.785 78.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 44.450 -0.785 36.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 11.430 -0.785 78.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 36.830 -0.785 83.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -0.860 -0.785 91.100
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 13.970 -0.785 73.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 19.050 -0.785 42.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 34.290 -0.785 57.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 36.830 -0.785 73.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 36.830 -0.785 42.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -29.360 -0.785 60.410
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 34.290 -0.785 52.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 44.450 -0.785 73.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 16.510 -0.785 47.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 29.210 -0.785 78.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 31.750 -0.785 57.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 6.350 -0.785 36.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 8.890 -0.785 47.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 0.140 -0.785 29.060
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 29.210 -0.785 68.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 31.750 -0.785 73.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -8.860 -0.785 56.600
+      rotation 0 1 0 -0.0000
+      children [ DEF Capacitor0805_N Transform {
+        children [
+          # Tan MLCC ceramic body
+          Transform {
+            translation 0 -0.3250 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.68 0.52 0.36
+                    specularColor 0.35 0.30 0.22
+                    shininess 0.35
+                  }
+                }
+                geometry Box { size 1.20 0.65 1.25 }
+              }
+            ]
+          },
+          # Left silver terminal
+          Transform {
+            translation -0.80 -0.3250 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.85 0.85 0.88
+                    specularColor 0.98 0.98 0.98
+                    shininess 0.9
+                  }
+                }
+                geometry Box { size 0.40 0.67 1.27 }
+              }
+            ]
+          },
+          # Right silver terminal
+          Transform {
+            translation 0.80 -0.3250 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.85 0.85 0.88
+                    specularColor 0.98 0.98 0.98
+                    shininess 0.9
+                  }
+                }
+                geometry Box { size 0.40 0.67 1.27 }
+              }
+            ]
           }
-          geometry Box { size 2.0 1.2 2.0 }
-        }
-      ]
-    }
+        ]
+      } ]
+    },
+    Transform {
+      translation -29.360 -0.785 85.410
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 6.350 -0.785 42.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 34.290 -0.785 73.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 0.140 -0.785 59.140
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 39.370 -0.785 52.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 6.350 -0.785 68.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 39.370 -0.785 68.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 16.510 -0.785 62.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -31.860 -0.785 79.060
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -14.860 -0.785 56.600
+      rotation 0 1 0 -0.0000
+      children [ DEF SOIC14_N Transform {
+        children [
+          # Epoxy IC body
+          Transform {
+            translation 0 -0.9500 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.11 0.11 0.12
+                    specularColor 0.22 0.22 0.22
+                    shininess 0.35
+                  }
+                }
+                geometry Box { size 8.65 1.30 3.90 }
+              }
+            ]
+          },
+          # Pin 1 index dot
+          Transform {
+            translation -3.50 -1.6100 -1.20
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.04 0.04 0.04
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.1
+                  }
+                }
+                geometry Box { size 0.50 0.04 0.50 }
+              }
+            ]
+          },
+          # Laser marking text
+          Transform {
+            translation 0 -1.6100 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.40 0.40 0.42
+                    specularColor 0.2 0.2 0.2
+                    shininess 0.2
+                  }
+                }
+                geometry Box { size 6.00 0.02 1.20 }
+              }
+            ]
+          },
+          # Side A leads (Pins 1..7)
+          Transform {
+            translation 0 -0.2500 -2.45
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.86 0.86 0.89
+                    specularColor 0.98 0.98 0.98
+                    shininess 0.92
+                  }
+                }
+                geometry Box { size 8.20 0.45 1.00 }
+              }
+            ]
+          },
+          # Side B leads (Pins 8..14)
+          Transform {
+            translation 0 -0.2500 2.45
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.86 0.86 0.89
+                    specularColor 0.98 0.98 0.98
+                    shininess 0.92
+                  }
+                }
+                geometry Box { size 8.20 0.45 1.00 }
+              }
+            ]
+          }
+        ]
+      } ]
+    },
+    Transform {
+      translation 13.970 -0.785 78.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 29.210 -0.785 36.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -31.860 -0.785 59.140
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 44.450 -0.785 78.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 44.450 -0.785 57.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -31.860 -0.785 54.060
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -14.860 -0.785 81.600
+      rotation 0 1 0 -0.0000
+      children [ USE SOIC14_N ]
+    },
+    Transform {
+      translation 13.970 -0.785 57.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -20.860 -0.785 56.600
+      rotation 0 1 0 -0.0000
+      children [ USE Capacitor0805_N ]
+    },
+    Transform {
+      translation 16.510 -0.785 78.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 21.590 -0.785 57.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -8.860 -0.785 25.290
+      rotation 0 1 0 -0.0000
+      children [ DEF DiodeSOD123_N Transform {
+        children [
+          # Black molded body
+          Transform {
+            translation 0 -0.6200 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.10 0.10 0.10
+                    specularColor 0.20 0.20 0.20
+                    shininess 0.3
+                  }
+                }
+                geometry Box { size 2.00 0.95 1.60 }
+              }
+            ]
+          },
+          # White cathode band
+          Transform {
+            translation -0.75 -0.6300 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.95 0.95 0.95
+                    specularColor 0.4 0.4 0.4
+                    shininess 0.2
+                  }
+                }
+                geometry Box { size 0.35 0.97 1.62 }
+              }
+            ]
+          },
+          # Silver leads
+          Transform {
+            translation -1.25 -0.1000 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.85 0.85 0.88
+                    specularColor 0.95 0.95 0.95
+                    shininess 0.9
+                  }
+                }
+                geometry Box { size 0.60 0.20 0.80 }
+              }
+            ]
+          },
+          Transform {
+            translation 1.25 -0.1000 0
+            children [
+              Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 0.85 0.85 0.88
+                    specularColor 0.95 0.95 0.95
+                    shininess 0.9
+                  }
+                }
+                geometry Box { size 0.60 0.20 0.80 }
+              }
+            ]
+          }
+        ]
+      } ]
+    },
+    Transform {
+      translation -24.860 -0.785 26.600
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 24.740 -0.785 91.100
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 13.970 -0.785 62.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 31.140 -0.785 91.100
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 26.670 -0.785 57.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 24.130 -0.785 68.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 26.670 -0.785 78.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 8.890 -0.785 42.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 31.750 -0.785 47.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 44.450 -0.785 68.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 34.290 -0.785 42.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -0.860 -0.785 94.600
+      rotation 0 1 0 -0.0000
+      children [ USE LED0805Green_N ]
+    },
+    Transform {
+      translation 16.510 -0.785 83.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 36.830 -0.785 47.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 8.890 -0.785 57.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 39.370 -0.785 83.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -2.360 -0.785 60.410
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 21.590 -0.785 62.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 21.590 -0.785 68.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 31.750 -0.785 83.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 0.140 -0.785 54.060
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -8.860 -0.785 50.290
+      rotation 0 1 0 -0.0000
+      children [ USE DiodeSOD123_N ]
+    },
+    Transform {
+      translation -13.660 -0.785 94.600
+      rotation 0 1 0 -0.0000
+      children [ USE LED0805Green_N ]
+    },
+    Transform {
+      translation 39.370 -0.785 73.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 18.340 -0.785 94.600
+      rotation 0 1 0 -0.0000
+      children [ USE LED0805Green_N ]
+    },
+    Transform {
+      translation 41.910 -0.785 57.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 21.590 -0.785 36.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 39.370 -0.785 62.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 36.830 -0.785 57.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 31.750 -0.785 68.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 36.830 -0.785 36.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 11.430 -0.785 62.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 24.130 -0.785 78.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 24.130 -0.785 83.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 11.430 -0.785 36.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 24.130 -0.785 62.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -2.360 -0.785 27.790
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 41.910 -0.785 78.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 16.510 -0.785 68.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -20.060 -0.785 94.600
+      rotation 0 1 0 -0.0000
+      children [ USE LED0805Green_N ]
+    },
+    Transform {
+      translation 0.140 -0.785 84.140
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 26.670 -0.785 36.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 21.590 -0.785 52.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -20.860 -0.785 81.600
+      rotation 0 1 0 -0.0000
+      children [ USE Capacitor0805_N ]
+    },
+    Transform {
+      translation 24.130 -0.785 73.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -2.360 -0.785 52.790
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 41.910 -0.785 83.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 11.430 -0.785 73.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 36.830 -0.785 62.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 19.050 -0.785 83.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -8.860 -0.785 37.910
+      rotation 0 1 0 -0.0000
+      children [ USE DiodeSOD123_N ]
+    },
+    Transform {
+      translation 8.890 -0.785 36.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 6.350 -0.785 47.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 39.370 -0.785 57.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -13.660 -0.785 91.100
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 0.140 -0.785 79.060
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 0.140 -0.785 34.140
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 44.450 -0.785 62.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 6.350 -0.785 52.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 39.370 -0.785 42.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -20.860 -0.785 31.600
+      rotation 0 1 0 -0.0000
+      children [ USE Capacitor0805_N ]
+    },
+    Transform {
+      translation 8.890 -0.785 78.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 19.050 -0.785 57.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 29.210 -0.785 47.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -2.360 -0.785 35.410
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 13.970 -0.785 47.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 6.350 -0.785 57.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 44.450 -0.785 83.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 24.130 -0.785 36.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 16.510 -0.785 57.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 41.910 -0.785 62.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 21.590 -0.785 78.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -20.860 -0.785 75.290
+      rotation 0 1 0 -3.1416
+      children [ USE DiodeSOD123_N ]
+    },
+    Transform {
+      translation -29.360 -0.785 77.790
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 11.430 -0.785 42.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -14.860 -0.785 31.600
+      rotation 0 1 0 -0.0000
+      children [ USE SOIC14_N ]
+    },
+    Transform {
+      translation 6.350 -0.785 62.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 6.350 -0.785 78.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 16.510 -0.785 42.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 13.970 -0.785 42.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 19.050 -0.785 73.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -8.860 -0.785 87.910
+      rotation 0 1 0 -0.0000
+      children [ USE DiodeSOD123_N ]
+    },
+    Transform {
+      translation -29.360 -0.785 52.790
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 11.430 -0.785 47.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 39.370 -0.785 47.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 31.750 -0.785 78.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 26.670 -0.785 52.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 13.970 -0.785 36.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 34.290 -0.785 83.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 31.750 -0.785 62.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -26.460 -0.785 94.600
+      rotation 0 1 0 -0.0000
+      children [ USE LED0805Green_N ]
+    },
+    Transform {
+      translation 5.540 -0.785 91.100
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 39.370 -0.785 36.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 19.050 -0.785 62.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 44.450 -0.785 47.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 24.130 -0.785 52.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 13.970 -0.785 83.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 29.210 -0.785 73.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -8.860 -0.785 81.600
+      rotation 0 1 0 -0.0000
+      children [ USE Capacitor0805_N ]
+    },
+    Transform {
+      translation 34.290 -0.785 62.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 29.210 -0.785 52.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 39.370 -0.785 78.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -31.860 -0.785 84.140
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 29.210 -0.785 57.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -26.460 -0.785 91.100
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -8.860 -0.785 31.600
+      rotation 0 1 0 -0.0000
+      children [ USE Capacitor0805_N ]
+    },
+    Transform {
+      translation 41.910 -0.785 52.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 11.430 -0.785 68.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 31.750 -0.785 52.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 24.130 -0.785 47.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 41.910 -0.785 73.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 21.590 -0.785 42.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 44.450 -0.785 52.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -7.260 -0.785 91.100
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 31.750 -0.785 36.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -20.860 -0.785 50.290
+      rotation 0 1 0 -3.1416
+      children [ USE DiodeSOD123_N ]
+    },
+    Transform {
+      translation 26.670 -0.785 68.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 21.590 -0.785 73.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 41.910 -0.785 47.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 21.590 -0.785 47.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 19.050 -0.785 47.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 11.430 -0.785 83.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 34.290 -0.785 47.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 19.050 -0.785 36.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 16.510 -0.785 52.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 44.450 -0.785 42.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 24.130 -0.785 57.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 29.210 -0.785 62.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 19.050 -0.785 68.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 13.970 -0.785 68.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 31.750 -0.785 42.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 41.910 -0.785 42.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 26.670 -0.785 73.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 11.430 -0.785 52.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 19.050 -0.785 52.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 21.590 -0.785 83.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 41.910 -0.785 36.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 8.890 -0.785 73.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 26.670 -0.785 47.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 36.830 -0.785 52.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 6.350 -0.785 73.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 26.670 -0.785 42.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 29.210 -0.785 83.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 19.050 -0.785 78.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -20.860 -0.785 62.910
+      rotation 0 1 0 -3.1416
+      children [ USE DiodeSOD123_N ]
+    },
+    Transform {
+      translation 16.510 -0.785 36.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 11.940 -0.785 94.600
+      rotation 0 1 0 -0.0000
+      children [ USE LED0805Green_N ]
+    },
+    Transform {
+      translation 24.740 -0.785 94.600
+      rotation 0 1 0 -0.0000
+      children [ USE LED0805Green_N ]
+    },
+    Transform {
+      translation 13.970 -0.785 52.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 26.670 -0.785 62.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 8.890 -0.785 62.800
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 5.540 -0.785 94.600
+      rotation 0 1 0 -0.0000
+      children [ USE LED0805Green_N ]
+    },
+    Transform {
+      translation 6.350 -0.785 83.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 11.940 -0.785 91.100
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 34.290 -0.785 78.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -2.360 -0.785 85.410
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -20.060 -0.785 91.100
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 8.890 -0.785 52.400
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 24.130 -0.785 42.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 8.890 -0.785 68.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -2.360 -0.785 77.790
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -8.860 -0.785 75.290
+      rotation 0 1 0 -0.0000
+      children [ USE DiodeSOD123_N ]
+    },
+    Transform {
+      translation -20.860 -0.785 87.910
+      rotation 0 1 0 -3.1416
+      children [ USE DiodeSOD123_N ]
+    },
+    Transform {
+      translation 18.340 -0.785 91.100
+      rotation 0 1 0 -0.0000
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 41.910 -0.785 68.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation -8.860 -0.785 62.910
+      rotation 0 1 0 -0.0000
+      children [ USE DiodeSOD123_N ]
+    },
+    Transform {
+      translation 8.890 -0.785 83.600
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 34.290 -0.785 68.000
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
+    Transform {
+      translation 31.140 -0.785 94.600
+      rotation 0 1 0 -0.0000
+      children [ USE LED0805Green_N ]
+    },
+    Transform {
+      translation 16.510 -0.785 73.200
+      rotation 0 1 0 -1.5708
+      children [ USE Resistor0805_N ]
+    },
   ]
 }

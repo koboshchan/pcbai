@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Connector_EdgeMount")(type "KiCad")(uri "${KIPRJMOD}/footprints/Connector_EdgeMount.pretty")(options "")(descr "Edge mount and straddle connectors"))
+  (lib (name "Connector_PinSocket_2.54mm")(type "KiCad")(uri "${KIPRJMOD}/footprints/Connector_PinSocket_2.54mm.pretty")(options "")(descr "Pin socket connectors"))
+)
