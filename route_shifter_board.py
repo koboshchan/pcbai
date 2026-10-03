@@ -196,6 +196,14 @@ def import_ses_and_verify():
         t_bb.SetNet(board.FindNet(n_name))
         board.Add(t_bb)
 
+    # Ensure all PTH pads include F.Mask for solder mask exposure
+    for fp in board.GetFootprints():
+        for p in fp.Pads():
+            if p.GetAttribute() == pcbnew.PAD_ATTRIB_PTH:
+                ls = p.GetLayerSet()
+                ls.AddLayer(pcbnew.F_Mask)
+                p.SetLayerSet(ls)
+
     print(f"   Tracks on board: {fcu_count} F.Cu tracks from SES, {bcu_count} B.Cu tracks removed, {vias_count} vias removed")
     board.Save(BOARD_PATH)
 

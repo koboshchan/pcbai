@@ -372,6 +372,14 @@ def create_board():
         cy = ch_y[i]
         add_label(f"CH{ch_idx}", 22.5, cy - 4.5, size_mm=0.8, bold=True)
 
+    # Ensure all PTH pads include F.Mask for solder mask exposure
+    for fp in board.GetFootprints():
+        for p in fp.Pads():
+            if p.GetAttribute() == pcbnew.PAD_ATTRIB_PTH:
+                ls = p.GetLayerSet()
+                ls.AddLayer(pcbnew.F_Mask)
+                p.SetLayerSet(ls)
+
     board.Save(BOARD_PATH)
     print(f"Saved initial unrouted board to {BOARD_PATH}")
 
