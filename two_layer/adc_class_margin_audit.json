@@ -1,0 +1,101 @@
+{
+  "model_sha256": "e4db3ea4ed3252640e43a6b23ca038ff0aa3c71949da3c558098b31f9a981474",
+  "dataset": "official held-out MNIST10000, six-bit quantized grayscale",
+  "device": "NVIDIA GeForce RTX 4070 SUPER",
+  "nominal_correct": 9501,
+  "score_top_two_gap_V_quantiles": {
+    "min": 0.0005640924499894506,
+    "p01": 0.17559633142668926,
+    "p05": 0.9090755076515319,
+    "median": 5.482865752410385,
+    "p95": 10.566916863949182,
+    "max": 20.23427256651579
+  },
+  "ADC_LSB_V": 0.0008058608058608059,
+  "nominal_score_to_ADC_gain": 0.047619047619047616,
+  "neural_noise_gain": {
+    "layer1": [
+      16.280420260984577,
+      7.19746884423004,
+      18.414352032843173,
+      20.542791188804422,
+      21.108454731795547,
+      21.84066228319872,
+      21.585268282701467,
+      23.722768260639313,
+      19.580069187054523,
+      24.833280816638062,
+      21.345868184808417,
+      3.3073593073593073,
+      17.744537760148845,
+      3.347554254530999,
+      22.78352867727124,
+      2.8813131313131315
+    ],
+    "layer2": [
+      8.923118058412177,
+      9.548620611035112,
+      5.14575334795923,
+      3.9385605135605135,
+      9.23035415635036,
+      6.815130485421093,
+      9.095387031775541,
+      5.165648735416177,
+      5.587650700553926,
+      7.0358798178565625
+    ]
+  },
+  "bounded_independent_ADC_error": [
+    {
+      "per_channel_bound_LSB": 0,
+      "per_channel_bound_V": 0.0,
+      "guaranteed_correct_under_bound": 9499,
+      "guaranteed_correct_fraction": 0.9499000000000001,
+      "prediction_stability_sufficient_count_including_quantization_guard": 9979
+    },
+    {
+      "per_channel_bound_LSB": 1,
+      "per_channel_bound_V": 0.0008058608058608059,
+      "guaranteed_correct_under_bound": 9494,
+      "guaranteed_correct_fraction": 0.9494,
+      "prediction_stability_sufficient_count_including_quantization_guard": 9966
+    },
+    {
+      "per_channel_bound_LSB": 2,
+      "per_channel_bound_V": 0.0016117216117216117,
+      "guaranteed_correct_under_bound": 9488,
+      "guaranteed_correct_fraction": 0.9488000000000001,
+      "prediction_stability_sufficient_count_including_quantization_guard": 9950
+    },
+    {
+      "per_channel_bound_LSB": 4,
+      "per_channel_bound_V": 0.0032234432234432234,
+      "guaranteed_correct_under_bound": 9470,
+      "guaranteed_correct_fraction": 0.9470000000000001,
+      "prediction_stability_sufficient_count_including_quantization_guard": 9908
+    },
+    {
+      "per_channel_bound_LSB": 8,
+      "per_channel_bound_V": 0.006446886446886447,
+      "guaranteed_correct_under_bound": 9428,
+      "guaranteed_correct_fraction": 0.9428000000000001,
+      "prediction_stability_sufficient_count_including_quantization_guard": 9833
+    },
+    {
+      "per_channel_bound_LSB": 16,
+      "per_channel_bound_V": 0.012893772893772894,
+      "guaranteed_correct_under_bound": 9352,
+      "guaranteed_correct_fraction": 0.9352,
+      "prediction_stability_sufficient_count_including_quantization_guard": 9673
+    },
+    {
+      "per_channel_bound_LSB": 32,
+      "per_channel_bound_V": 0.025787545787545788,
+      "guaranteed_correct_under_bound": 9147,
+      "guaranteed_correct_fraction": 0.9147000000000001,
+      "prediction_stability_sufficient_count_including_quantization_guard": 9368
+    }
+  ],
+  "fabrication_ready": false,
+  "limitations": "Nominal resistor-only static model, optimistic loaded swing, ideal12bit ADC. Each deterministic bound allows independent adversarial per-channel error after ideal conversion, not measured noise, ENOB, DNL or an error distribution. Classification stability is a sufficient condition only; zero gaps/ties cannot be certified. No automatic oversampling/averaging claim."
+}

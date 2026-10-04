@@ -1,0 +1,4176 @@
+{
+  "pad_number_net_footprint_identity_preserved": true,
+  "root_sha256": {
+    "daughtercard1a_weights_l1.kicad_pcb": "122b1b6d3c09998e049da28b7b60dedfbee928276f70223cf2ea60514164cb62",
+    "daughtercard1b_weights_l1.kicad_pcb": "4bf5e33c5c07b833605774c31a338811b2272e7de962d33ce4132b757126ac8c",
+    "daughtercard1c_weights_l1.kicad_pcb": "2e6fec0ac7579c3f4c5e286cf17cafd3d5d0cb7a52b15d686ec29fdd0445727c",
+    "daughtercard1d_weights_l1.kicad_pcb": "a8ba7741ffd99b00c77091dabaab10c1cf53a9e9d3d2d9334973041a79f0d36d",
+    "daughtercard2_relu_l1.kicad_pcb": "42fc357bfbaf93abd0712731d19f891e4bdfa7f04dc811d13bf31f6ddebe5328",
+    "daughtercard3_weights_l2_wta.kicad_pcb": "b99322f08b6775fca6e6faaf91fbde6995e8a9f012504130714f470eca129631",
+    "full_system_assembly.kicad_pcb": "860247b72b9bf2bce079061fc3b7380bb5dcde057b8236ec04c08fe6eda5c3be",
+    "motherboard.kicad_pcb": "c1355b9f9643b9f938beb7f0eb18ad618cf223558a93f8b78b50b5bd96cf895f",
+    "shifter_board.kicad_pcb": "7a0ce1129ba945db2a621836acd2f18cb712753ab74d8ddfa15930c0f90d98fc",
+    "test_board_70x100.kicad_pcb": "63b31d07d6e664a165583f3a51911795b5950f80c98738fab3b21fa799132a80",
+    "test_board_freerouted.kicad_pcb": "dc302155fc862ab7f87e5bde4af8eddfe0fe02fedb4d6d0d1b8c4f85253acb7c",
+    "test_board_single_layer.kicad_pcb": "d9817597085d6fc0df9664babe2290efa70e005dccd8848b86c704cf76c25f5d",
+    "test_board_unrouted.kicad_pcb": "e94804ad3b3d7e608b7eca440b6a92029c134e60779dfbb244ab5a5357eac27e"
+  },
+  "flipped": [
+    "U_SR1",
+    "U_SR2",
+    "U_SR3",
+    "U_SR4",
+    "U_SR5",
+    "U_SR6",
+    "U_SR7",
+    "U_SR8"
+  ],
+  "bottom_JLC_SMD": [
+    {
+      "reference": "C_BULK_N",
+      "value": "100uF",
+      "footprint": "CP_Elec_8x10"
+    },
+    {
+      "reference": "C_BULK_P",
+      "value": "100uF",
+      "footprint": "CP_Elec_8x10"
+    },
+    {
+      "reference": "C_PWM_0",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_1",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_10",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_11",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_12",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_13",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_14",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_15",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_16",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_17",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_18",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_19",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_2",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_20",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_21",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_22",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_23",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_24",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_25",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_26",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_27",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_28",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_29",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_3",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_30",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_31",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_32",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_33",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_34",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_35",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_36",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_37",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_38",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_39",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_4",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_40",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_41",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_42",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_43",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_44",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_45",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_46",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_47",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_48",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_49",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_5",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_50",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_51",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_52",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_53",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_54",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_55",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_56",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_57",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_58",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_59",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_6",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_60",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_61",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_62",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_63",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_7",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_8",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_PWM_9",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_RAIL_N",
+      "value": "0.1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_RAIL_P",
+      "value": "0.1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_REG_BULK",
+      "value": "10uF",
+      "footprint": "CP_Elec_5x5.8"
+    },
+    {
+      "reference": "C_REG_IN",
+      "value": "1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "C_REG_OUT",
+      "value": "0.1uF",
+      "footprint": "C_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_0",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_1",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_10",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_11",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_12",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_13",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_14",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_15",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_16",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_17",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_18",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_19",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_2",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_20",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_21",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_22",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_23",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_24",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_25",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_26",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_27",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_28",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_29",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_3",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_30",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_31",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_32",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_33",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_34",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_35",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_36",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_37",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_38",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_39",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_4",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_40",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_41",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_42",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_43",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_44",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_45",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_46",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_47",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_48",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_49",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_5",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_50",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_51",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_52",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_53",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_54",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_55",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_56",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_57",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_58",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_59",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_6",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_60",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_61",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_62",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_63",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_7",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_8",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_PWM_9",
+      "value": "10k",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_REF_LINK",
+      "value": "0R",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "R_REG_MINLOAD",
+      "value": "820",
+      "footprint": "R_0805_2012Metric"
+    },
+    {
+      "reference": "U_SR1",
+      "value": "74AHCT595S16-13",
+      "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+    },
+    {
+      "reference": "U_SR2",
+      "value": "74AHCT595S16-13",
+      "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+    },
+    {
+      "reference": "U_SR3",
+      "value": "74AHCT595S16-13",
+      "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+    },
+    {
+      "reference": "U_SR4",
+      "value": "74AHCT595S16-13",
+      "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+    },
+    {
+      "reference": "U_SR5",
+      "value": "74AHCT595S16-13",
+      "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+    },
+    {
+      "reference": "U_SR6",
+      "value": "74AHCT595S16-13",
+      "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+    },
+    {
+      "reference": "U_SR7",
+      "value": "74AHCT595S16-13",
+      "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+    },
+    {
+      "reference": "U_SR8",
+      "value": "74AHCT595S16-13",
+      "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+    }
+  ],
+  "top_manual_SMD": [
+    {
+      "reference": "C_SR1",
+      "value": "0.1uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    {
+      "reference": "C_SR2",
+      "value": "0.1uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    {
+      "reference": "C_SR3",
+      "value": "0.1uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    {
+      "reference": "C_SR4",
+      "value": "0.1uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    {
+      "reference": "C_SR5",
+      "value": "0.1uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    {
+      "reference": "C_SR6",
+      "value": "0.1uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    {
+      "reference": "C_SR7",
+      "value": "0.1uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    {
+      "reference": "C_SR8",
+      "value": "0.1uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    {
+      "reference": "D_HI_0",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_HI_1",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_HI_2",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_HI_3",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_HI_4",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_HI_5",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_HI_6",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_HI_7",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_HI_8",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_HI_9",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_LO_0",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_LO_1",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_LO_2",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_LO_3",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_LO_4",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_LO_5",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_LO_6",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_LO_7",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_LO_8",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "D_LO_9",
+      "value": "1N4148W",
+      "footprint": "D_SOD-123"
+    },
+    {
+      "reference": "R_ADC_0",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_ADC_1",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_ADC_2",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_ADC_3",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_ADC_4",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_ADC_5",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_ADC_6",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_ADC_7",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_ADC_8",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_ADC_9",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_BOT_0",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_BOT_1",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_BOT_2",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_BOT_3",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_BOT_4",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_BOT_5",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_BOT_6",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_BOT_7",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_BOT_8",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_BOT_9",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_REF_0",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_REF_1",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_REF_2",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_REF_3",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_REF_4",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_REF_5",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_REF_6",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_REF_7",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_REF_8",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_REF_9",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_TOP_0",
+      "value": "220k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_TOP_1",
+      "value": "220k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_TOP_2",
+      "value": "220k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_TOP_3",
+      "value": "220k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_TOP_4",
+      "value": "220k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_TOP_5",
+      "value": "220k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_TOP_6",
+      "value": "220k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_TOP_7",
+      "value": "220k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_TOP_8",
+      "value": "220k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R_TOP_9",
+      "value": "220k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    }
+  ],
+  "manual_THT_or_mechanical": [
+    {
+      "reference": "H1",
+      "value": "MountingHole",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3_Pad"
+    },
+    {
+      "reference": "H2",
+      "value": "MountingHole",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3_Pad"
+    },
+    {
+      "reference": "H3",
+      "value": "MountingHole",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3_Pad"
+    },
+    {
+      "reference": "H4",
+      "value": "MountingHole",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3_Pad"
+    },
+    {
+      "reference": "J_ADC_REF",
+      "value": "3V3_GND_FROM_MCU",
+      "footprint": "PinHeader_1x02_P2.54mm_Vertical"
+    },
+    {
+      "reference": "J_MCU_SCORES",
+      "value": "Scores_DIV_3V3_Out",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
+    },
+    {
+      "reference": "J_MCU_SPI",
+      "value": "MCU_3V3_SPI_PIN1_NC",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+    },
+    {
+      "reference": "J_PWR_IN",
+      "value": "+15V_GND_-15V",
+      "footprint": "PinHeader_1x03_P2.54mm_Vertical"
+    },
+    {
+      "reference": "J_SLOT0",
+      "value": "Slot0: DC1A (L1 Neurons 0..3)",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_2x38_P2.54mm_Vertical"
+    },
+    {
+      "reference": "J_SLOT1",
+      "value": "Slot1: DC1B (L1 Neurons 4..7)",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_2x38_P2.54mm_Vertical"
+    },
+    {
+      "reference": "J_SLOT2",
+      "value": "Slot2: DC1C (L1 Neurons 8..11)",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_2x38_P2.54mm_Vertical"
+    },
+    {
+      "reference": "J_SLOT3",
+      "value": "Slot3: DC1D (L1 Neurons 12..15)",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_2x38_P2.54mm_Vertical"
+    },
+    {
+      "reference": "J_SLOT4",
+      "value": "Slot4: DC2 (16x Active Precision ReLU)",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_2x38_P2.54mm_Vertical"
+    },
+    {
+      "reference": "J_SLOT5",
+      "value": "Slot5: DC3 (L2 Weights + 10-Way WTA)",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_2x38_P2.54mm_Vertical"
+    },
+    {
+      "reference": "U_REG5",
+      "value": "L7805CV",
+      "footprint": "TO-220-3_Vertical"
+    }
+  ],
+  "silk": {
+    "reference_count": 228,
+    "clean": true,
+    "violations": [],
+    "method": "Conservative text/pad axis-aligned bounding boxes, not a rendered glyph or solder-mask DRC.",
+    "limits_mm": {
+      "pad_clearance": 0.2,
+      "reference_clearance": 0.15,
+      "edge_clearance": 0.25,
+      "minimum_height": 0.8,
+      "stroke": 0.12
+    },
+    "removed_silk_items": 407,
+    "placed": [
+      {
+        "reference": "R_REG_MINLOAD",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          53.645,
+          89.67619,
+          55.0022,
+          99.323809
+        ],
+        "distance_mm": 2.3236000000000527
+      },
+      {
+        "reference": "J_MCU_SCORES",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          46.14,
+          95.5214,
+          55.406668,
+          96.8786
+        ],
+        "distance_mm": 19.673333999999997
+      },
+      {
+        "reference": "C_REG_BULK",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          86.92,
+          90.185714,
+          88.2772,
+          97.814286
+        ],
+        "distance_mm": 4.598600000000005
+      },
+      {
+        "reference": "R_REF_LINK",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          43.259762,
+          91.3214,
+          50.355,
+          92.6786
+        ],
+        "distance_mm": 5.192618999999993
+      },
+      {
+        "reference": "C_REG_OUT",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          67.67,
+          90.585714,
+          69.0272,
+          97.414286
+        ],
+        "distance_mm": 2.3486000000000047
+      },
+      {
+        "reference": "J_ADC_REF",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          95.07,
+          11.738095,
+          96.4272,
+          18.261905
+        ],
+        "distance_mm": 1.7485999999999962
+      },
+      {
+        "reference": "J_MCU_SPI",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          57.42,
+          0.738095,
+          58.7772,
+          7.261905
+        ],
+        "distance_mm": 8.098600000000005
+      },
+      {
+        "reference": "C_BULK_N",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          97.22,
+          19.928571,
+          98.5772,
+          26.071428
+        ],
+        "distance_mm": 5.898600000000023
+      },
+      {
+        "reference": "C_BULK_P",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          13.22,
+          13.947619,
+          14.5772,
+          20.052381
+        ],
+        "distance_mm": 5.8986
+      },
+      {
+        "reference": "C_PWM_10",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          59.814285,
+          34.3214,
+          66.185715,
+          35.6786
+        ],
+        "distance_mm": 4.0
+      },
+      {
+        "reference": "C_PWM_11",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          66.564285,
+          34.3214,
+          72.935715,
+          35.6786
+        ],
+        "distance_mm": 4.190763653560053
+      },
+      {
+        "reference": "C_PWM_12",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          73.314285,
+          34.3214,
+          79.685715,
+          35.6786
+        ],
+        "distance_mm": 4.716990566028302
+      },
+      {
+        "reference": "C_PWM_13",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          80.064285,
+          34.3214,
+          86.435715,
+          35.6786
+        ],
+        "distance_mm": 5.482928049865327
+      },
+      {
+        "reference": "C_PWM_14",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          92.814285,
+          38.3214,
+          99.185715,
+          39.6786
+        ],
+        "distance_mm": 11.0
+      },
+      {
+        "reference": "C_PWM_15",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          87.314285,
+          34.3214,
+          93.685715,
+          35.6786
+        ],
+        "distance_mm": 4.0
+      },
+      {
+        "reference": "C_PWM_16",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          4.814285,
+          45.3214,
+          11.185715,
+          46.6786
+        ],
+        "distance_mm": 4.0
+      },
+      {
+        "reference": "C_PWM_17",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          11.564285,
+          45.3214,
+          17.935715,
+          46.6786
+        ],
+        "distance_mm": 4.190763653560053
+      },
+      {
+        "reference": "C_PWM_18",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          18.314285,
+          45.3214,
+          24.685715,
+          46.6786
+        ],
+        "distance_mm": 4.716990566028302
+      },
+      {
+        "reference": "C_PWM_19",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          25.064285,
+          45.3214,
+          31.435715,
+          46.6786
+        ],
+        "distance_mm": 5.482928049865327
+      },
+      {
+        "reference": "C_PWM_20",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          26.814285,
+          56.3214,
+          33.185715,
+          57.6786
+        ],
+        "distance_mm": 7.0
+      },
+      {
+        "reference": "C_PWM_21",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          32.314285,
+          45.3214,
+          38.685715,
+          46.6786
+        ],
+        "distance_mm": 4.0
+      },
+      {
+        "reference": "C_PWM_22",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          39.064285,
+          45.3214,
+          45.435715,
+          46.6786
+        ],
+        "distance_mm": 4.190763653560053
+      },
+      {
+        "reference": "C_PWM_23",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          45.814285,
+          45.3214,
+          52.185715,
+          46.6786
+        ],
+        "distance_mm": 4.716990566028302
+      },
+      {
+        "reference": "C_PWM_24",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          52.564285,
+          45.3214,
+          58.935715,
+          46.6786
+        ],
+        "distance_mm": 5.482928049865327
+      },
+      {
+        "reference": "C_PWM_25",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          54.564285,
+          56.3214,
+          60.935715,
+          57.6786
+        ],
+        "distance_mm": 7.00446286306095
+      },
+      {
+        "reference": "C_PWM_26",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          59.814285,
+          45.3214,
+          66.185715,
+          46.6786
+        ],
+        "distance_mm": 4.0
+      },
+      {
+        "reference": "C_PWM_27",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          66.564285,
+          45.3214,
+          72.935715,
+          46.6786
+        ],
+        "distance_mm": 4.190763653560053
+      },
+      {
+        "reference": "C_PWM_28",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          73.314285,
+          45.3214,
+          79.685715,
+          46.6786
+        ],
+        "distance_mm": 4.716990566028302
+      },
+      {
+        "reference": "C_PWM_29",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          80.064285,
+          45.3214,
+          86.435715,
+          46.6786
+        ],
+        "distance_mm": 5.482928049865327
+      },
+      {
+        "reference": "C_PWM_30",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          81.564285,
+          56.3214,
+          87.935715,
+          57.6786
+        ],
+        "distance_mm": 7.00446286306095
+      },
+      {
+        "reference": "C_PWM_31",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          92.17,
+          49.3214,
+          98.54143,
+          50.6786
+        ],
+        "distance_mm": 4.855715000000004
+      },
+      {
+        "reference": "C_PWM_32",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          4.814285,
+          56.3214,
+          11.185715,
+          57.6786
+        ],
+        "distance_mm": 4.0
+      },
+      {
+        "reference": "C_PWM_33",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          11.564285,
+          56.3214,
+          17.935715,
+          57.6786
+        ],
+        "distance_mm": 4.190763653560053
+      },
+      {
+        "reference": "C_PWM_34",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          18.314285,
+          56.3214,
+          24.685715,
+          57.6786
+        ],
+        "distance_mm": 4.716990566028302
+      },
+      {
+        "reference": "C_PWM_35",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          33.564285,
+          56.3214,
+          39.935715,
+          57.6786
+        ],
+        "distance_mm": 12.886523968859873
+      },
+      {
+        "reference": "C_PWM_36",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          40.314285,
+          56.3214,
+          46.685715,
+          57.6786
+        ],
+        "distance_mm": 14.080127840328723
+      },
+      {
+        "reference": "C_PWM_37",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          47.064285,
+          56.3214,
+          53.435715,
+          57.6786
+        ],
+        "distance_mm": 15.282751715577925
+      },
+      {
+        "reference": "C_PWM_38",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          38.064285,
+          78.8214,
+          44.435715,
+          80.1786
+        ],
+        "distance_mm": 18.501689112078388
+      },
+      {
+        "reference": "C_PWM_39",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          61.314285,
+          56.3214,
+          67.685715,
+          57.6786
+        ],
+        "distance_mm": 18.439088914585774
+      },
+      {
+        "reference": "C_PWM_40",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          48.564285,
+          78.8214,
+          54.935715,
+          80.1786
+        ],
+        "distance_mm": 18.501689112078388
+      },
+      {
+        "reference": "C_PWM_41",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          68.064285,
+          56.3214,
+          74.435715,
+          57.6786
+        ],
+        "distance_mm": 14.320003491619685
+      },
+      {
+        "reference": "C_PWM_42",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          74.814285,
+          56.3214,
+          81.185715,
+          57.6786
+        ],
+        "distance_mm": 15.524174696260024
+      },
+      {
+        "reference": "C_PWM_43",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          65.064285,
+          78.8214,
+          71.435715,
+          80.1786
+        ],
+        "distance_mm": 18.501689112078388
+      },
+      {
+        "reference": "C_PWM_44",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          88.314285,
+          56.3214,
+          94.685715,
+          57.6786
+        ],
+        "distance_mm": 17.95132307101624
+      },
+      {
+        "reference": "C_PWM_45",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          92.814285,
+          60.0714,
+          99.185715,
+          61.4286
+        ],
+        "distance_mm": 16.50189383070925
+      },
+      {
+        "reference": "C_PWM_46",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          92.814285,
+          67.5714,
+          99.185715,
+          68.9286
+        ],
+        "distance_mm": 13.174312126255398
+      },
+      {
+        "reference": "C_PWM_47",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          92.314285,
+          58.3214,
+          98.685715,
+          59.6786
+        ],
+        "distance_mm": 5.385164807134504
+      },
+      {
+        "reference": "C_PWM_48",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          4.814285,
+          67.3214,
+          11.185715,
+          68.6786
+        ],
+        "distance_mm": 4.0
+      },
+      {
+        "reference": "C_PWM_49",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          11.564285,
+          67.3214,
+          17.935715,
+          68.6786
+        ],
+        "distance_mm": 4.190763653560053
+      },
+      {
+        "reference": "C_PWM_50",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          18.314285,
+          67.3214,
+          24.685715,
+          68.6786
+        ],
+        "distance_mm": 4.716990566028302
+      },
+      {
+        "reference": "C_PWM_51",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          25.064285,
+          67.3214,
+          31.435715,
+          68.6786
+        ],
+        "distance_mm": 5.482928049865327
+      },
+      {
+        "reference": "C_PWM_52",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          26.814285,
+          78.8214,
+          33.185715,
+          80.1786
+        ],
+        "distance_mm": 7.5
+      },
+      {
+        "reference": "C_PWM_53",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          32.314285,
+          67.3214,
+          38.685715,
+          68.6786
+        ],
+        "distance_mm": 4.0
+      },
+      {
+        "reference": "C_PWM_54",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          39.064285,
+          67.3214,
+          45.435715,
+          68.6786
+        ],
+        "distance_mm": 4.190763653560053
+      },
+      {
+        "reference": "C_PWM_55",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          45.814285,
+          67.3214,
+          52.185715,
+          68.6786
+        ],
+        "distance_mm": 4.716990566028302
+      },
+      {
+        "reference": "C_PWM_56",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          52.564285,
+          67.3214,
+          58.935715,
+          68.6786
+        ],
+        "distance_mm": 5.482928049865327
+      },
+      {
+        "reference": "C_PWM_57",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          55.314285,
+          78.8214,
+          61.685715,
+          80.1786
+        ],
+        "distance_mm": 7.566372975210778
+      },
+      {
+        "reference": "C_PWM_58",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          59.814285,
+          67.3214,
+          66.185715,
+          68.6786
+        ],
+        "distance_mm": 4.0
+      },
+      {
+        "reference": "C_PWM_59",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          66.564285,
+          67.3214,
+          72.935715,
+          68.6786
+        ],
+        "distance_mm": 4.190763653560053
+      },
+      {
+        "reference": "C_PWM_60",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          73.314285,
+          67.3214,
+          79.685715,
+          68.6786
+        ],
+        "distance_mm": 4.716990566028302
+      },
+      {
+        "reference": "C_PWM_61",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          80.064285,
+          67.3214,
+          86.435715,
+          68.6786
+        ],
+        "distance_mm": 5.482928049865327
+      },
+      {
+        "reference": "C_PWM_62",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          81.564285,
+          78.8214,
+          87.935715,
+          80.1786
+        ],
+        "distance_mm": 7.504165509901817
+      },
+      {
+        "reference": "C_PWM_63",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          92.17,
+          71.3214,
+          98.54143,
+          72.6786
+        ],
+        "distance_mm": 4.855715000000004
+      },
+      {
+        "reference": "C_RAIL_N",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          85.67,
+          27.3214,
+          91.241428,
+          28.6786
+        ],
+        "distance_mm": 4.455714
+      },
+      {
+        "reference": "C_RAIL_P",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          9.67,
+          22.233333,
+          11.0272,
+          27.766666
+        ],
+        "distance_mm": 2.3486000000000526
+      },
+      {
+        "reference": "C_REG_IN",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          56.972799,
+          91.119047,
+          58.329999,
+          96.880952
+        ],
+        "distance_mm": 2.348600000000058
+      },
+      {
+        "reference": "J_PWR_IN",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          78.15,
+          93.119047,
+          79.5072,
+          98.880952
+        ],
+        "distance_mm": 6.828600000000027
+      },
+      {
+        "reference": "R_PWM_10",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          59.814285,
+          27.8214,
+          66.185715,
+          29.1786
+        ],
+        "distance_mm": 8.299999999999997
+      },
+      {
+        "reference": "R_PWM_11",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          66.564285,
+          27.8214,
+          72.935715,
+          29.1786
+        ],
+        "distance_mm": 8.393598751429565
+      },
+      {
+        "reference": "R_PWM_12",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          73.314285,
+          27.8214,
+          79.685715,
+          29.1786
+        ],
+        "distance_mm": 8.668333173107731
+      },
+      {
+        "reference": "R_PWM_13",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          80.3214,
+          23.064285,
+          81.6786,
+          29.435715
+        ],
+        "distance_mm": 10.656101538555268
+      },
+      {
+        "reference": "R_PWM_14",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          83.814285,
+          25.5714,
+          90.185715,
+          26.9286
+        ],
+        "distance_mm": 10.737900167164899
+      },
+      {
+        "reference": "R_PWM_15",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          92.145,
+          36.1214,
+          98.51643,
+          37.4786
+        ],
+        "distance_mm": 4.830714999999998
+      },
+      {
+        "reference": "R_PWM_16",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          2.814285,
+          27.8214,
+          9.185715,
+          29.1786
+        ],
+        "distance_mm": 19.403350226185164
+      },
+      {
+        "reference": "R_PWM_17",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          11.814285,
+          27.8214,
+          18.185715,
+          29.1786
+        ],
+        "distance_mm": 19.358202395883765
+      },
+      {
+        "reference": "R_PWM_18",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          18.564285,
+          27.8214,
+          24.935715,
+          29.1786
+        ],
+        "distance_mm": 19.49493523969751
+      },
+      {
+        "reference": "R_PWM_19",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          25.314285,
+          27.8214,
+          31.685715,
+          29.1786
+        ],
+        "distance_mm": 19.710149669649894
+      },
+      {
+        "reference": "R_PWM_20",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          32.064285,
+          27.8214,
+          38.435715,
+          29.1786
+        ],
+        "distance_mm": 20.001312456936418
+      },
+      {
+        "reference": "R_PWM_21",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          38.814285,
+          27.8214,
+          45.185715,
+          29.1786
+        ],
+        "distance_mm": 20.365166338628317
+      },
+      {
+        "reference": "R_PWM_22",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          45.564285,
+          27.8214,
+          51.935715,
+          29.1786
+        ],
+        "distance_mm": 20.797896528254963
+      },
+      {
+        "reference": "R_PWM_23",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          52.314285,
+          27.8214,
+          58.685715,
+          29.1786
+        ],
+        "distance_mm": 21.29530464679949
+      },
+      {
+        "reference": "R_PWM_24",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          48.564285,
+          25.5714,
+          54.935715,
+          26.9286
+        ],
+        "distance_mm": 21.551450067222852
+      },
+      {
+        "reference": "R_PWM_25",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          64.314285,
+          25.5714,
+          70.685715,
+          26.9286
+        ],
+        "distance_mm": 23.7571568164206
+      },
+      {
+        "reference": "R_PWM_26",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          60.0714,
+          20.814285,
+          61.4286,
+          27.185715
+        ],
+        "distance_mm": 23.90611846369042
+      },
+      {
+        "reference": "R_PWM_27",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          65.064285,
+          23.3214,
+          71.435715,
+          24.6786
+        ],
+        "distance_mm": 23.80131298899285
+      },
+      {
+        "reference": "R_PWM_28",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          92.814285,
+          47.3214,
+          99.185715,
+          48.6786
+        ],
+        "distance_mm": 22.000909072126998
+      },
+      {
+        "reference": "R_PWM_29",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          74.3214,
+          20.814285,
+          75.6786,
+          27.185715
+        ],
+        "distance_mm": 24.22168449963792
+      },
+      {
+        "reference": "R_PWM_30",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          86.814285,
+          45.3714,
+          93.185715,
+          46.7286
+        ],
+        "distance_mm": 5.297405025104273
+      },
+      {
+        "reference": "R_PWM_31",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          92.064285,
+          27.8214,
+          98.435715,
+          29.1786
+        ],
+        "distance_mm": 19.875927651307244
+      },
+      {
+        "reference": "R_PWM_32",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          5.064285,
+          78.8214,
+          11.435715,
+          80.1786
+        ],
+        "distance_mm": 20.701509606789553
+      },
+      {
+        "reference": "R_PWM_33",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          11.814285,
+          78.8214,
+          18.185715,
+          80.1786
+        ],
+        "distance_mm": 20.754276667713576
+      },
+      {
+        "reference": "R_PWM_34",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          18.564285,
+          78.8214,
+          24.935715,
+          80.1786
+        ],
+        "distance_mm": 20.881870126978573
+      },
+      {
+        "reference": "R_PWM_35",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          21.564285,
+          81.0714,
+          27.935715,
+          82.4286
+        ],
+        "distance_mm": 22.951361615381344
+      },
+      {
+        "reference": "R_PWM_36",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          28.314285,
+          81.0714,
+          34.685715,
+          82.4286
+        ],
+        "distance_mm": 22.998967368123296
+      },
+      {
+        "reference": "R_PWM_37",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          35.064285,
+          81.0714,
+          41.435715,
+          82.4286
+        ],
+        "distance_mm": 23.114173141170337
+      },
+      {
+        "reference": "R_PWM_38",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          41.814285,
+          81.0714,
+          48.185715,
+          82.4286
+        ],
+        "distance_mm": 23.2959760473778
+      },
+      {
+        "reference": "R_PWM_39",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          48.564285,
+          81.0714,
+          54.935715,
+          82.4286
+        ],
+        "distance_mm": 23.542833304426214
+      },
+      {
+        "reference": "R_PWM_40",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          55.314285,
+          81.0714,
+          61.685715,
+          82.4286
+        ],
+        "distance_mm": 23.852725211178704
+      },
+      {
+        "reference": "R_PWM_41",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          62.064285,
+          81.0714,
+          68.435715,
+          82.4286
+        ],
+        "distance_mm": 24.223232649669203
+      },
+      {
+        "reference": "R_PWM_42",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          71.814285,
+          78.8214,
+          78.185715,
+          80.1786
+        ],
+        "distance_mm": 23.926763257908497
+      },
+      {
+        "reference": "R_PWM_43",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          68.814285,
+          81.0714,
+          75.185715,
+          82.4286
+        ],
+        "distance_mm": 23.215350525029773
+      },
+      {
+        "reference": "R_PWM_44",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          75.564285,
+          81.0714,
+          81.935715,
+          82.4286
+        ],
+        "distance_mm": 23.43640330767501
+      },
+      {
+        "reference": "R_PWM_45",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          82.314285,
+          81.0714,
+          88.685715,
+          82.4286
+        ],
+        "distance_mm": 23.721351141956482
+      },
+      {
+        "reference": "R_PWM_46",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          88.314285,
+          78.8214,
+          94.685715,
+          80.1786
+        ],
+        "distance_mm": 21.69654350351687
+      },
+      {
+        "reference": "R_PWM_47",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          89.064285,
+          81.0714,
+          95.435715,
+          82.4286
+        ],
+        "distance_mm": 23.01662442670515
+      },
+      {
+        "reference": "R_PWM_48",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          5.064285,
+          81.0714,
+          11.435715,
+          82.4286
+        ],
+        "distance_mm": 11.952614776692172
+      },
+      {
+        "reference": "R_PWM_49",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          11.814285,
+          81.0714,
+          18.185715,
+          82.4286
+        ],
+        "distance_mm": 12.04377432535167
+      },
+      {
+        "reference": "R_PWM_50",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          15.564285,
+          83.3214,
+          21.935715,
+          84.6786
+        ],
+        "distance_mm": 14.20220053372012
+      },
+      {
+        "reference": "R_PWM_51",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          22.314285,
+          83.3214,
+          28.685715,
+          84.6786
+        ],
+        "distance_mm": 14.2351677194194
+      },
+      {
+        "reference": "R_PWM_52",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          29.064285,
+          83.3214,
+          35.435715,
+          84.6786
+        ],
+        "distance_mm": 14.377152012829248
+      },
+      {
+        "reference": "R_PWM_53",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          35.814285,
+          83.3214,
+          42.185715,
+          84.6786
+        ],
+        "distance_mm": 14.624978632463026
+      },
+      {
+        "reference": "R_PWM_54",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          42.564285,
+          83.3214,
+          48.935715,
+          84.6786
+        ],
+        "distance_mm": 14.973393069040833
+      },
+      {
+        "reference": "R_PWM_55",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          49.314285,
+          83.3214,
+          55.685715,
+          84.6786
+        ],
+        "distance_mm": 15.415576538034511
+      },
+      {
+        "reference": "R_PWM_56",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          56.064285,
+          83.3214,
+          62.435715,
+          84.6786
+        ],
+        "distance_mm": 15.9437291748198
+      },
+      {
+        "reference": "R_PWM_57",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          62.814285,
+          83.3214,
+          69.185715,
+          84.6786
+        ],
+        "distance_mm": 16.549622352186773
+      },
+      {
+        "reference": "R_PWM_58",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          69.564285,
+          83.3214,
+          75.935715,
+          84.6786
+        ],
+        "distance_mm": 17.225054426619387
+      },
+      {
+        "reference": "R_PWM_59",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          76.314285,
+          83.3214,
+          82.685715,
+          84.6786
+        ],
+        "distance_mm": 17.962182495454165
+      },
+      {
+        "reference": "R_PWM_60",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          83.064285,
+          83.3214,
+          89.435715,
+          84.6786
+        ],
+        "distance_mm": 18.75373296173325
+      },
+      {
+        "reference": "R_PWM_61",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          89.814285,
+          83.3214,
+          96.185715,
+          84.6786
+        ],
+        "distance_mm": 19.593111034238543
+      },
+      {
+        "reference": "R_PWM_62",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          80.064285,
+          89.3214,
+          86.435715,
+          90.6786
+        ],
+        "distance_mm": 20.27566275119016
+      },
+      {
+        "reference": "R_PWM_63",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          92.145,
+          69.1214,
+          98.51643,
+          70.4786
+        ],
+        "distance_mm": 4.830714999999998
+      },
+      {
+        "reference": "C_PWM_0",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          0.720475,
+          38.3214,
+          6.33,
+          39.6786
+        ],
+        "distance_mm": 4.4747629999999985
+      },
+      {
+        "reference": "C_PWM_1",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          10.3214,
+          34.945237,
+          11.6786,
+          40.554762
+        ],
+        "distance_mm": 2.7950849718747373
+      },
+      {
+        "reference": "C_PWM_2",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          15.8214,
+          34.945237,
+          17.1786,
+          40.554762
+        ],
+        "distance_mm": 2.7950849718747373
+      },
+      {
+        "reference": "C_PWM_3",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          21.3214,
+          34.945237,
+          22.6786,
+          40.554762
+        ],
+        "distance_mm": 2.7950849718747373
+      },
+      {
+        "reference": "C_PWM_4",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          26.8214,
+          34.945237,
+          28.1786,
+          40.554762
+        ],
+        "distance_mm": 2.7950849718747373
+      },
+      {
+        "reference": "C_PWM_5",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          32.3214,
+          34.945237,
+          33.6786,
+          40.554762
+        ],
+        "distance_mm": 2.7950849718747373
+      },
+      {
+        "reference": "C_PWM_6",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          37.8214,
+          34.945237,
+          39.1786,
+          40.554762
+        ],
+        "distance_mm": 2.7950849718747373
+      },
+      {
+        "reference": "C_PWM_7",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          43.3214,
+          34.945237,
+          44.6786,
+          40.554762
+        ],
+        "distance_mm": 2.7950849718747373
+      },
+      {
+        "reference": "C_PWM_8",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          48.8214,
+          34.945237,
+          50.1786,
+          40.554762
+        ],
+        "distance_mm": 2.7950849718747373
+      },
+      {
+        "reference": "C_PWM_9",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          54.3214,
+          34.945237,
+          55.6786,
+          40.554762
+        ],
+        "distance_mm": 2.7950849718747373
+      },
+      {
+        "reference": "J_SLOT0",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          98.06,
+          29.480952,
+          99.4172,
+          34.519048
+        ],
+        "distance_mm": 48.738600000000005
+      },
+      {
+        "reference": "J_SLOT1",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          98.06,
+          40.480952,
+          99.4172,
+          45.519048
+        ],
+        "distance_mm": 48.738600000000005
+      },
+      {
+        "reference": "J_SLOT2",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          98.06,
+          51.480952,
+          99.4172,
+          56.519048
+        ],
+        "distance_mm": 48.738600000000005
+      },
+      {
+        "reference": "J_SLOT3",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          98.06,
+          62.480952,
+          99.4172,
+          67.519048
+        ],
+        "distance_mm": 48.738600000000005
+      },
+      {
+        "reference": "J_SLOT4",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          98.06,
+          73.480952,
+          99.4172,
+          78.519048
+        ],
+        "distance_mm": 48.738600000000005
+      },
+      {
+        "reference": "J_SLOT5",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          98.06,
+          84.480952,
+          99.4172,
+          89.519048
+        ],
+        "distance_mm": 48.738600000000005
+      },
+      {
+        "reference": "R_ADC_0",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          26.82,
+          34.866666,
+          28.1772,
+          40.133333
+        ],
+        "distance_mm": 2.49860000000005
+      },
+      {
+        "reference": "R_ADC_1",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          75.82,
+          34.866666,
+          77.1772,
+          40.133333
+        ],
+        "distance_mm": 2.4986000000000463
+      },
+      {
+        "reference": "R_ADC_2",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          26.82,
+          45.866666,
+          28.1772,
+          51.133333
+        ],
+        "distance_mm": 2.49860000000005
+      },
+      {
+        "reference": "R_ADC_3",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          75.82,
+          45.866666,
+          77.1772,
+          51.133333
+        ],
+        "distance_mm": 2.4986000000000463
+      },
+      {
+        "reference": "R_ADC_4",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          26.82,
+          56.866666,
+          28.1772,
+          62.133333
+        ],
+        "distance_mm": 2.49860000000005
+      },
+      {
+        "reference": "R_ADC_5",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          75.82,
+          56.866666,
+          77.1772,
+          62.133333
+        ],
+        "distance_mm": 2.4986000000000463
+      },
+      {
+        "reference": "R_ADC_6",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          26.82,
+          67.866666,
+          28.1772,
+          73.133333
+        ],
+        "distance_mm": 2.49860000000005
+      },
+      {
+        "reference": "R_ADC_7",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          75.82,
+          67.866666,
+          77.1772,
+          73.133333
+        ],
+        "distance_mm": 2.4986000000000463
+      },
+      {
+        "reference": "R_ADC_8",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          26.82,
+          78.866666,
+          28.1772,
+          84.133333
+        ],
+        "distance_mm": 2.49860000000005
+      },
+      {
+        "reference": "R_ADC_9",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          75.82,
+          78.866666,
+          77.1772,
+          84.133333
+        ],
+        "distance_mm": 2.4986000000000463
+      },
+      {
+        "reference": "R_BOT_0",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          14.82,
+          34.885714,
+          16.1772,
+          40.114286
+        ],
+        "distance_mm": 2.4985999999999997
+      },
+      {
+        "reference": "R_BOT_1",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          63.82,
+          34.885714,
+          65.1772,
+          40.114286
+        ],
+        "distance_mm": 2.4986000000000104
+      },
+      {
+        "reference": "R_BOT_2",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          14.82,
+          45.885714,
+          16.1772,
+          51.114286
+        ],
+        "distance_mm": 2.4985999999999997
+      },
+      {
+        "reference": "R_BOT_3",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          63.82,
+          45.885714,
+          65.1772,
+          51.114286
+        ],
+        "distance_mm": 2.4986000000000104
+      },
+      {
+        "reference": "R_BOT_4",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          14.82,
+          56.885714,
+          16.1772,
+          62.114286
+        ],
+        "distance_mm": 2.4985999999999997
+      },
+      {
+        "reference": "R_BOT_5",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          63.82,
+          56.885714,
+          65.1772,
+          62.114286
+        ],
+        "distance_mm": 2.4986000000000104
+      },
+      {
+        "reference": "R_BOT_6",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          14.82,
+          67.885714,
+          16.1772,
+          73.114286
+        ],
+        "distance_mm": 2.4985999999999997
+      },
+      {
+        "reference": "R_BOT_7",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          63.82,
+          67.885714,
+          65.1772,
+          73.114286
+        ],
+        "distance_mm": 2.4986000000000104
+      },
+      {
+        "reference": "R_BOT_8",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          14.82,
+          78.885714,
+          16.1772,
+          84.114286
+        ],
+        "distance_mm": 2.4985999999999997
+      },
+      {
+        "reference": "R_BOT_9",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          63.82,
+          78.885714,
+          65.1772,
+          84.114286
+        ],
+        "distance_mm": 2.4986000000000104
+      },
+      {
+        "reference": "R_PWM_0",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          0.745475,
+          36.1214,
+          6.355,
+          37.4786
+        ],
+        "distance_mm": 4.449762999999998
+      },
+      {
+        "reference": "R_PWM_1",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          0.195238,
+          34.5714,
+          5.804763,
+          35.9286
+        ],
+        "distance_mm": 10.613788202145358
+      },
+      {
+        "reference": "R_PWM_2",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          18.8214,
+          21.945237,
+          20.1786,
+          27.554762
+        ],
+        "distance_mm": 12.060368982746752
+      },
+      {
+        "reference": "R_PWM_3",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          24.195238,
+          25.5714,
+          29.804763,
+          26.9286
+        ],
+        "distance_mm": 10.842163068318053
+      },
+      {
+        "reference": "R_PWM_4",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          30.195238,
+          25.5714,
+          35.804763,
+          26.9286
+        ],
+        "distance_mm": 10.96824963246187
+      },
+      {
+        "reference": "R_PWM_5",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          38.3214,
+          21.945237,
+          39.6786,
+          27.554762
+        ],
+        "distance_mm": 12.54800781000713
+      },
+      {
+        "reference": "R_PWM_6",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          44.3214,
+          21.945237,
+          45.6786,
+          27.554762
+        ],
+        "distance_mm": 12.696554650770418
+      },
+      {
+        "reference": "R_PWM_7",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          46.5714,
+          21.945237,
+          47.9286,
+          27.554762
+        ],
+        "distance_mm": 12.07331768819159
+      },
+      {
+        "reference": "R_PWM_8",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          48.945238,
+          23.3214,
+          54.554763,
+          24.6786
+        ],
+        "distance_mm": 12.802441173463752
+      },
+      {
+        "reference": "R_PWM_9",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          54.8214,
+          19.695237,
+          56.1786,
+          25.304762
+        ],
+        "distance_mm": 14.439182802361078
+      },
+      {
+        "reference": "R_REF_0",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          20.82,
+          34.904761,
+          22.1772,
+          40.095238
+        ],
+        "distance_mm": 2.49860000000005
+      },
+      {
+        "reference": "R_REF_1",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          69.82,
+          34.904761,
+          71.1772,
+          40.095238
+        ],
+        "distance_mm": 2.4986000000000463
+      },
+      {
+        "reference": "R_REF_2",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          20.82,
+          45.904761,
+          22.1772,
+          51.095238
+        ],
+        "distance_mm": 2.49860000000005
+      },
+      {
+        "reference": "R_REF_3",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          69.82,
+          45.904761,
+          71.1772,
+          51.095238
+        ],
+        "distance_mm": 2.4986000000000463
+      },
+      {
+        "reference": "R_REF_4",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          20.82,
+          56.904761,
+          22.1772,
+          62.095238
+        ],
+        "distance_mm": 2.49860000000005
+      },
+      {
+        "reference": "R_REF_5",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          69.82,
+          56.904761,
+          71.1772,
+          62.095238
+        ],
+        "distance_mm": 2.4986000000000463
+      },
+      {
+        "reference": "R_REF_6",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          20.82,
+          67.904761,
+          22.1772,
+          73.095238
+        ],
+        "distance_mm": 2.49860000000005
+      },
+      {
+        "reference": "R_REF_7",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          69.82,
+          67.904761,
+          71.1772,
+          73.095238
+        ],
+        "distance_mm": 2.4986000000000463
+      },
+      {
+        "reference": "R_REF_8",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          20.82,
+          78.904761,
+          22.1772,
+          84.095238
+        ],
+        "distance_mm": 2.49860000000005
+      },
+      {
+        "reference": "R_REF_9",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          69.82,
+          78.904761,
+          71.1772,
+          84.095238
+        ],
+        "distance_mm": 2.4986000000000463
+      },
+      {
+        "reference": "R_TOP_0",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          8.82,
+          34.885714,
+          10.1772,
+          40.114286
+        ],
+        "distance_mm": 2.4985999999999997
+      },
+      {
+        "reference": "R_TOP_1",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          57.82,
+          34.885714,
+          59.1772,
+          40.114286
+        ],
+        "distance_mm": 2.4986000000000033
+      },
+      {
+        "reference": "R_TOP_2",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          8.82,
+          45.885714,
+          10.1772,
+          51.114286
+        ],
+        "distance_mm": 2.4985999999999997
+      },
+      {
+        "reference": "R_TOP_3",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          57.82,
+          45.885714,
+          59.1772,
+          51.114286
+        ],
+        "distance_mm": 2.4986000000000033
+      },
+      {
+        "reference": "R_TOP_4",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          8.82,
+          56.885714,
+          10.1772,
+          62.114286
+        ],
+        "distance_mm": 2.4985999999999997
+      },
+      {
+        "reference": "R_TOP_5",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          57.82,
+          56.885714,
+          59.1772,
+          62.114286
+        ],
+        "distance_mm": 2.4986000000000033
+      },
+      {
+        "reference": "R_TOP_6",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          8.82,
+          67.885714,
+          10.1772,
+          73.114286
+        ],
+        "distance_mm": 2.4985999999999997
+      },
+      {
+        "reference": "R_TOP_7",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          57.82,
+          67.885714,
+          59.1772,
+          73.114286
+        ],
+        "distance_mm": 2.4986000000000033
+      },
+      {
+        "reference": "R_TOP_8",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          8.82,
+          78.885714,
+          10.1772,
+          84.114286
+        ],
+        "distance_mm": 2.4985999999999997
+      },
+      {
+        "reference": "R_TOP_9",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          57.82,
+          78.885714,
+          59.1772,
+          84.114286
+        ],
+        "distance_mm": 2.4986000000000033
+      },
+      {
+        "reference": "D_HI_0",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          35.32,
+          35.4,
+          36.6772,
+          39.6
+        ],
+        "distance_mm": 2.9986000000000033
+      },
+      {
+        "reference": "D_HI_1",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          84.32,
+          35.4,
+          85.6772,
+          39.6
+        ],
+        "distance_mm": 2.998599999999996
+      },
+      {
+        "reference": "D_HI_2",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          35.32,
+          46.4,
+          36.6772,
+          50.6
+        ],
+        "distance_mm": 2.9986000000000033
+      },
+      {
+        "reference": "D_HI_3",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          84.32,
+          46.4,
+          85.6772,
+          50.6
+        ],
+        "distance_mm": 2.998599999999996
+      },
+      {
+        "reference": "D_HI_4",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          35.32,
+          57.4,
+          36.6772,
+          61.6
+        ],
+        "distance_mm": 2.9986000000000033
+      },
+      {
+        "reference": "D_HI_5",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          84.32,
+          57.4,
+          85.6772,
+          61.6
+        ],
+        "distance_mm": 2.998599999999996
+      },
+      {
+        "reference": "D_HI_6",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          35.32,
+          68.4,
+          36.6772,
+          72.6
+        ],
+        "distance_mm": 2.9986000000000033
+      },
+      {
+        "reference": "D_HI_7",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          84.32,
+          68.4,
+          85.6772,
+          72.6
+        ],
+        "distance_mm": 2.998599999999996
+      },
+      {
+        "reference": "D_HI_8",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          35.32,
+          79.4,
+          36.6772,
+          83.6
+        ],
+        "distance_mm": 2.9986000000000033
+      },
+      {
+        "reference": "D_HI_9",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          84.32,
+          79.4,
+          85.6772,
+          83.6
+        ],
+        "distance_mm": 2.998599999999996
+      },
+      {
+        "reference": "D_LO_0",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          43.32,
+          35.266666,
+          44.6772,
+          39.733333
+        ],
+        "distance_mm": 2.998600000000045
+      },
+      {
+        "reference": "D_LO_1",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          92.32,
+          35.266666,
+          93.6772,
+          39.733333
+        ],
+        "distance_mm": 2.998600000000038
+      },
+      {
+        "reference": "D_LO_2",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          43.32,
+          46.266666,
+          44.6772,
+          50.733333
+        ],
+        "distance_mm": 2.998600000000045
+      },
+      {
+        "reference": "D_LO_3",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          92.32,
+          46.266666,
+          93.6772,
+          50.733333
+        ],
+        "distance_mm": 2.998600000000038
+      },
+      {
+        "reference": "D_LO_4",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          43.32,
+          57.266666,
+          44.6772,
+          61.733333
+        ],
+        "distance_mm": 2.998600000000045
+      },
+      {
+        "reference": "D_LO_5",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          92.32,
+          57.266666,
+          93.6772,
+          61.733333
+        ],
+        "distance_mm": 2.998600000000038
+      },
+      {
+        "reference": "D_LO_6",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          43.32,
+          68.266666,
+          44.6772,
+          72.733333
+        ],
+        "distance_mm": 2.998600000000045
+      },
+      {
+        "reference": "D_LO_7",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          92.32,
+          68.266666,
+          93.6772,
+          72.733333
+        ],
+        "distance_mm": 2.998600000000038
+      },
+      {
+        "reference": "D_LO_8",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          43.32,
+          79.266666,
+          44.6772,
+          83.733333
+        ],
+        "distance_mm": 2.998600000000045
+      },
+      {
+        "reference": "D_LO_9",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          92.32,
+          79.266666,
+          93.6772,
+          83.733333
+        ],
+        "distance_mm": 2.998600000000038
+      },
+      {
+        "reference": "U_REG5",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          67.1725,
+          94.633333,
+          68.5297,
+          99.366667
+        ],
+        "distance_mm": 1.8511000000000024
+      },
+      {
+        "reference": "C_SR1",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          27.67,
+          6.7044,
+          32.496667,
+          8.2956
+        ],
+        "distance_mm": 4.083333
+      },
+      {
+        "reference": "C_SR2",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          47.67,
+          6.7044,
+          52.496667,
+          8.2956
+        ],
+        "distance_mm": 4.083333000000003
+      },
+      {
+        "reference": "C_SR3",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          67.67,
+          6.7044,
+          72.496667,
+          8.2956
+        ],
+        "distance_mm": 4.08333300000001
+      },
+      {
+        "reference": "C_SR4",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          79.503332,
+          6.7044,
+          84.329999,
+          8.2956
+        ],
+        "distance_mm": 4.083334000000008
+      },
+      {
+        "reference": "C_SR5",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          87.67,
+          17.2044,
+          92.496667,
+          18.7956
+        ],
+        "distance_mm": 4.08333300000001
+      },
+      {
+        "reference": "C_SR6",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          67.67,
+          17.2044,
+          72.496667,
+          18.7956
+        ],
+        "distance_mm": 4.08333300000001
+      },
+      {
+        "reference": "C_SR7",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          47.67,
+          17.2044,
+          52.496667,
+          18.7956
+        ],
+        "distance_mm": 4.083333000000003
+      },
+      {
+        "reference": "C_SR8",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          27.67,
+          17.2044,
+          32.496667,
+          18.7956
+        ],
+        "distance_mm": 4.083333
+      },
+      {
+        "reference": "U_SR1",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          23.695,
+          10.7044,
+          28.569286,
+          12.2956
+        ],
+        "distance_mm": 6.132142999999999
+      },
+      {
+        "reference": "U_SR2",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          43.695,
+          10.7044,
+          48.569286,
+          12.2956
+        ],
+        "distance_mm": 6.132142999999999
+      },
+      {
+        "reference": "U_SR3",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          63.695,
+          10.7044,
+          68.569286,
+          12.2956
+        ],
+        "distance_mm": 6.132142999999999
+      },
+      {
+        "reference": "U_SR4",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          83.695,
+          10.7044,
+          88.569286,
+          12.2956
+        ],
+        "distance_mm": 6.132142999999999
+      },
+      {
+        "reference": "U_SR5",
+        "height_mm": 1.0,
+        "angle_deg": 90,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          83.694999,
+          19.562857,
+          85.286199,
+          24.437143
+        ],
+        "distance_mm": 4.490599999999986
+      },
+      {
+        "reference": "U_SR6",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          63.695,
+          21.2044,
+          68.569286,
+          22.7956
+        ],
+        "distance_mm": 6.132142999999999
+      },
+      {
+        "reference": "U_SR7",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          31.430714,
+          21.2044,
+          36.305,
+          22.7956
+        ],
+        "distance_mm": 6.132142999999999
+      },
+      {
+        "reference": "U_SR8",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "B.Silkscreen",
+        "bbox_mm": [
+          23.695,
+          21.2044,
+          28.569286,
+          22.7956
+        ],
+        "distance_mm": 6.132142999999999
+      },
+      {
+        "reference": "H1",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          7.97,
+          4.2044,
+          10.13,
+          5.7956
+        ],
+        "distance_mm": 4.050000000000001
+      },
+      {
+        "reference": "H2",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          89.87,
+          4.2044,
+          92.03,
+          5.7956
+        ],
+        "distance_mm": 4.049999999999997
+      },
+      {
+        "reference": "H3",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          7.97,
+          94.2044,
+          10.13,
+          95.7956
+        ],
+        "distance_mm": 4.050000000000001
+      },
+      {
+        "reference": "H4",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          89.87,
+          94.2044,
+          92.03,
+          95.7956
+        ],
+        "distance_mm": 4.049999999999997
+      }
+    ],
+    "unplaced": [],
+    "release_ready": true
+  },
+  "placement_errors": 0,
+  "unconnected": 499,
+  "drc_categories": {
+    "lib_footprint_issues": 68
+  },
+  "pcb_sha256": "97d6a6da4fdec36a46d509b74ea1dd32ca2d020ad9ea75884412242826e7301e",
+  "release_authorized": false,
+  "non_AHCT_placements_preserved_except_C_RAIL_N": true,
+  "moved_conflicting_capacitor": {
+    "reference": "C_RAIL_N",
+    "before_xy_mm": [
+      84,
+      25
+    ],
+    "after_xy_mm": [
+      84,
+      28
+    ]
+  },
+  "silk_association_visual_review_pending": true
+}
