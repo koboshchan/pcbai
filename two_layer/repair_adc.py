@@ -39,24 +39,16 @@ def build():
     for z in list(board.Zones()):board.Delete(z)
     board.SetCopperLayerCount(2)
     parts={f.GetReference():f for f in board.GetFootprints()}
-    rt=parts['R_TOP_0']; diode_source=p.LoadBoard(str(SOURCE/'daughtercard2_relu_l1.kicad_pcb'))
-    dt=next(f for f in diode_source.GetFootprints() if f.GetReference().startswith('D'))
-    # Rebuild diode geometry explicitly for known stock SOD-123 K=1,A=2.
-    dt=p.FOOTPRINT(board);dt.SetLayer(p.F_Cu)
-    dt.SetFPID(p.LIB_ID('Diode_SMD','D_SOD-123'))
-    for n,x in [('1',-1.65),('2',1.65)]:
-        pad=p.PAD(dt);pad.SetNumber(n);pad.SetAttribute(p.PAD_ATTRIB_SMD)
-        pad.SetShape(p.PAD_SHAPE_RECT);pad.SetSize(p.VECTOR2I(mm(.9),mm(1.2)))
-        pad.SetPosition(p.VECTOR2I(mm(x),0));pad.SetLayerSet(layers(p.F_Cu,p.F_Mask,p.F_Paste));dt.Add(pad)
-    # Dedicated MCU 3.3V/GND header, not an invented existing rail.
-    header=p.FOOTPRINT(board);header.SetLayer(p.F_Cu)
+    rt=parts['R_TOP_0']
+    # Stock package and header use installed KiCad10 library geometry,
+    # including courtyard/fab/mask/paste and correct diode K=1,A=2.
+    dt=p.FootprintLoad('/usr/share/kicad/footprints/Diode_SMD.pretty','D_SOD-123')
+    assert dt is not None
+    header=p.FootprintLoad('/usr/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty','PinHeader_1x02_P2.54mm_Vertical')
+    assert header is not None
     configure(header,'J_ADC_REF','3V3_GND_FROM_MCU',94,15)
-    for n,x,nname in [('1',0,'+3V3_ADC'),('2',2.54,'GND')]:
-        pad=p.PAD(header);pad.SetNumber(n);pad.SetAttribute(p.PAD_ATTRIB_PTH)
-        pad.SetShape(p.PAD_SHAPE_CIRCLE);pad.SetSize(p.VECTOR2I(mm(1.7),mm(1.7)))
-        pad.SetDrillSize(p.VECTOR2I(mm(1),mm(1)))
-        pad.SetPosition(p.VECTOR2I(mm(94+x),mm(15)))
-        pad.SetLayerSet(p.LSET.AllCuMask());pad.SetNet(net(board,nname));header.Add(pad)
+    for pad in header.Pads():
+        pad.SetNet(net(board,'+3V3_ADC' if pad.GetNumber()=='1' else 'GND'))
     board.Add(header)
     manifest=[]
     for i in range(10):
