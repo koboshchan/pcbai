@@ -1,0 +1,85 @@
+{
+ "scope": "render-only; saved PCBs untouched, no reroute/fab",
+ "boards": {
+  "DC1a": {
+   "file": "daughtercard1a_weights_l1_differential_repaired.kicad_pcb",
+   "sha256_before": "2954d17724d1cfd290225ee60bec2bfb9f9382dad0b09c4303918d32bb40375b",
+   "sha256_after": "2954d17724d1cfd290225ee60bec2bfb9f9382dad0b09c4303918d32bb40375b",
+   "footprint": "Connector_EdgeMount:PinHeader_2x38_Straddle_P2.54mm at (50,100) rot0",
+   "pads_F": 38,
+   "pads_B": 38,
+   "pitch_mm_measured": 2.54,
+   "pad_x_local": [
+    -46.99,
+    46.99
+   ],
+   "pad_center_y_local": -2.45,
+   "pad_size": [
+    1.5,
+    4.1
+   ],
+   "F_B_x_aligned": true,
+   "pins_vs_pads": "38 top+38 bottom model pins at exact pad x centres, visually verified in closeup"
+  },
+  "DC1c": {
+   "file": "daughtercard1c_weights_l1_differential_repaired.kicad_pcb",
+   "sha256_before": "3fb7a7a89070453b1c1c8a219a7379496183ca8dac2b594b74c5bef4cf45aa4a",
+   "sha256_after": "3fb7a7a89070453b1c1c8a219a7379496183ca8dac2b594b74c5bef4cf45aa4a",
+   "footprint": "Connector_EdgeMount:PinHeader_2x38_Straddle_P2.54mm at (50,100) rot0",
+   "pads_F": 38,
+   "pads_B": 38,
+   "pitch_mm_measured": 2.54,
+   "pad_x_local": [
+    -46.99,
+    46.99
+   ],
+   "pad_center_y_local": -2.45,
+   "pad_size": [
+    1.5,
+    4.1
+   ],
+   "F_B_x_aligned": true,
+   "pins_vs_pads": "38 top+38 bottom model pins at exact pad x centres, visually verified in closeup"
+  }
+ },
+ "header_nominal": {
+  "rows": 2,
+  "positions_per_row": 38,
+  "row_spacing_mm": 2.54,
+  "pin_square_mm": 0.635,
+  "sources": [
+   "https://www.samtec.com/products/tsw (0.635 mm sq post, 2.54 pitch; -D double row 2.54 row spacing per catalog https://suddendocs.samtec.com/catalog_english/tsw_th.pdf)",
+   "https://gct.co/board-to-board-connector/2-54mm-pin-header-socket (BG040 dual row, 0.64 mm sq)",
+   "Amphenol/FCI BergStik catalog (0.64 mm sq contacts)"
+  ],
+  "note": "generic nominal; user's exact SKU unknown, cheap headers vary ~0.6-0.64 mm"
+ },
+ "board": {
+  "thickness_mm": 1.6,
+  "source": "kicad_pcb (general (thickness 1.6))",
+  "outer_copper_um_assumed": 35
+ },
+ "mechanics": {
+  "inner_pin_gap_mm": 1.905,
+  "board_plus_cu_mm": 1.67,
+  "gap_bare_board_total_mm": 0.305,
+  "gap_per_side_to_pad_mm_centred": 0.1175,
+  "contact_without_bending": false,
+  "FLAG": "MISMATCH: pins do not touch pads as-is. Needs pins squeezed/bent inward ~0.12 mm each row, clamping, or solder fill of gap. Not physically qualified.",
+  "model_not_faked": "row spacing kept 2.54, gap shown in model and straddle_fit_cross_section.png"
+ },
+ "engagement": {
+  "pad_span_from_edge_mm": [
+   0.4,
+   4.5
+  ],
+  "model_pin_inboard_end_mm": 3.0,
+  "pin_over_pad_mm": 2.6,
+  "plastic_bar_mm_outside_edge": [
+   0.1,
+   2.64
+  ],
+  "note": "pin tail length assumed ~3 mm generic, not SKU-verified"
+ },
+ "model": "two_layer/renders/model_assets/pin_header_2x38_straddle_corrected.wrl (gen_straddle_2x38.py); root 3dmodels/pin_header_2x38_straddle.wrl NOT modified"
+}
