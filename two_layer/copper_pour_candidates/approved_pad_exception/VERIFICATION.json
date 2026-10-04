@@ -1,0 +1,36 @@
+{
+  "kicad_version": "10.0.6",
+  "geometry": {
+    "daughtercard1a_weights_l1_differential": {
+      "all_pass": true,
+      "minimum_exempt_pad_mm": 0.40000000000000563,
+      "minimum_nonexempt_mm": 0.5005
+    },
+    "daughtercard1b_weights_l1_differential": {
+      "all_pass": true,
+      "minimum_exempt_pad_mm": 0.40000000000000563,
+      "minimum_nonexempt_mm": 0.5005
+    },
+    "daughtercard1c_weights_l1_differential": {
+      "all_pass": true,
+      "minimum_exempt_pad_mm": 0.40000000000000563,
+      "minimum_nonexempt_mm": 0.5005
+    },
+    "daughtercard1d_weights_l1_differential": {
+      "all_pass": true,
+      "minimum_exempt_pad_mm": 0.40000000000000563,
+      "minimum_nonexempt_mm": 0.5005
+    },
+    "daughtercard2_relu_l1_buffered": {
+      "all_pass": true,
+      "minimum_exempt_pad_mm": 0.40000000000000563,
+      "minimum_nonexempt_mm": 0.5005
+    },
+    "daughtercard3_weights_l2_wta_differential": {
+      "all_pass": true,
+      "minimum_exempt_pad_mm": 0.40000000000000563,
+      "minimum_nonexempt_mm": 0.5005
+    }
+  },
+  "negative_controls_pass": true
+}

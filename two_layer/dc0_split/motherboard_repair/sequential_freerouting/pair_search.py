@@ -1,0 +1,2 @@
+from scoped_search import *
+net=sys.argv[1];b=p.LoadBoard(str(D/'via_fixed.kicad_pcb'));d=json.load(open(D/'via_fixed_drc.json'));v=next(v for v in d['unconnected_items'] if '['+net+']' in v['items'][0]['description']);allitems=list(b.GetTracks())+[q for f in b.GetFootprints() for q in f.Pads()];pair=[next(t for t in allitems if t.m_Uuid.AsString()==it['uuid']) for it in v['items']];r=plan(b,net,pair=pair);r['pair']=v['items'];write('PAIR_'+net.replace('+','P')+'.json',r)
