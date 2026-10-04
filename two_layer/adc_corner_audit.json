@@ -1,0 +1,37 @@
+{
+  "normal_score_bound_V": [
+    -15,
+    15
+  ],
+  "reference_tolerance_percent": 5,
+  "divider_tolerance_percent": 5,
+  "minimum_case": {
+    "score": -15,
+    "reference": 3.135,
+    "resistors": [
+      209000.0,
+      23100.0,
+      20900.0
+    ],
+    "voltage": 0.6666270783847978
+  },
+  "maximum_case": {
+    "score": 15,
+    "reference": 3.465,
+    "resistors": [
+      209000.0,
+      20900.0,
+      23100.0
+    ],
+    "voltage": 2.4766033254156765
+  },
+  "min_upper_reference_margin_V": 0.823004750593824,
+  "powered_range_pass": true,
+  "poweroff_zero_drop_injection_bound_A_per_channel": 6.603842807576599e-05,
+  "poweroff_total_A_10channels": 0.0006603842807576599,
+  "nominal_endpoints_15V": [
+    0.8571428571428571,
+    2.2857142857142856
+  ],
+  "limits": "External1N4148WsiliconclampsNOTguaranteedtoengagebeforeMCUinternalESDandNOTpoweroffbackfeedproof. GPIOreferenceandMCUpoweredfirst,analograilsenabledlast/offfirst. NoADCsamplingtimingguaranteeuntiltargetMCUacquisitionimpedance/timingchecked. Noopenresistorfaultproof."
+}
