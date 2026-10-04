@@ -50,7 +50,7 @@ def search(b,net,a,c,extra):
   for v,w in options:
    ng=g+w
    if ng<cost.get(v,float('inf')):cost[v]=ng;parent[v]=q;heapq.heappush(queue,(ng+h(v),ng,v))
-  if len(done)>1800000:break
+  if len(done)>8000000:break
  print('no path visited',len(done),flush=True)
  return None
 
@@ -79,8 +79,11 @@ for iteration in range(10):
   def ends(item):
    pos=item.GetPosition() if not isinstance(item,p.PCB_TRACK) or isinstance(item,p.PCB_VIA) else item.GetStart();xy=(p.ToMM(pos.x),p.ToMM(pos.y))
    layers=[k for ll,k in [(p.F_Cu,0),(p.B_Cu,1)] if item.IsOnLayer(ll)]
-   return [xy+(l,) for l in layers]
-  for extra in [-.08,-.03,0]:
+   points=[xy]
+   if isinstance(item,p.PCB_TRACK) and not isinstance(item,p.PCB_VIA):
+    z=item.GetEnd();points.append((p.ToMM(z.x),p.ToMM(z.y)))
+   return [pt+(l,) for pt in points for l in layers]
+  for extra in [0,.01]:
    for a in ends(u):
     for c in ends(v):
      path=search(b,net,a,c,extra)
