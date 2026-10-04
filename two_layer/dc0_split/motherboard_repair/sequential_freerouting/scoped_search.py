@@ -28,7 +28,7 @@ def plan(b,net,ref=None,num=None,pair=None):
   for layer,k in [(p.F_Cu,0),(p.B_Cu,1)]:
    if t.IsOnLayer(layer):drawtrack(trackims[k],t)
  hard=[distance_transform_edt(~np.array(im,dtype=bool))*step for im in ims];soft=[distance_transform_edt(~np.array(im,dtype=bool))*step for im in trackims]
- blocked=[(d<.31)|(soft[k]<.31) for k,d in enumerate(hard)];softb=[d<.33 for d in soft];viapad=(hard[0]>.515)&(hard[1]>.515);viatrack=(soft[0]>.54)&(soft[1]>.54)
+ blocked=[(d<.31) for k,d in enumerate(hard)];softb=[d<.33 for d in soft];viapad=(hard[0]>.515)&(hard[1]>.515);viatrack=(soft[0]>.54)&(soft[1]>.54)
  def ends(t):
   poss=[t.GetPosition()] if isinstance(t,p.PCB_VIA) or isinstance(t,p.PAD) else [t.GetStart(),t.GetEnd()]
   return [(round(pt(q)[0]),round(pt(q)[1]),k) for q in poss for ll,k in [(p.F_Cu,0),(p.B_Cu,1)] if t.IsOnLayer(ll)]
