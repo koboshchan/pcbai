@@ -1,0 +1,267 @@
+{
+  "board": "motherboard_adc_repaired_unrouted.kicad_pcb",
+  "regulator": "ST L7805CV",
+  "LCSC": "C111887",
+  "regulator_output_V": [
+    4.75,
+    5.25
+  ],
+  "required_model": "PWM high and +5V_REF co-vary with common regulator output; driver load droop separate",
+  "sources": [
+    "https://www.st.com/resource/en/datasheet/l78.pdf",
+    "https://www.lcsc.com/product-detail/C111887.html",
+    "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf",
+    "https://www.lcsc.com/product-detail/shift-registers_nexperia-74ahct595d-112_C554704.html"
+  ],
+  "input": "+15V,GND,-15V only; MCU separately provides3V3_ADC and SPI",
+  "MCU_pin1": "NC, never attach5V",
+  "negative_reference": "unsourced preserved unused bus",
+  "thermal": {
+    "normal_BCM": {
+      "clock_duty": 0.09215999999999999,
+      "cpd_multiplier": 1,
+      "dynamic_A": 0.014708735999999998,
+      "TTL_extra_A": 0.0375,
+      "static_A": 0.00064,
+      "filters_A": 0.03536842105263158,
+      "serial_capacitance_A": 0.00193536,
+      "minimum_load_A": 0.006739409499358151,
+      "bias_bound_A": 0.0010906011120483767,
+      "Iout_A": 0.09798252766403812,
+      "P_reg_W": 1.2242828043044192,
+      "Tj_bare_TO220_C": 111.21414021522097,
+      "Tj_bare_D2PAK_C": 126.5176752690262,
+      "Tj_with_10C_W_sink_and_2C_W_interface_C": 70.81280767317513
+    },
+    "continuous_clock": {
+      "clock_duty": 1,
+      "cpd_multiplier": 1,
+      "dynamic_A": 0.1596,
+      "TTL_extra_A": 0.0375,
+      "static_A": 0.00064,
+      "filters_A": 0.03536842105263158,
+      "serial_capacitance_A": 0.021,
+      "minimum_load_A": 0.006739409499358151,
+      "bias_bound_A": 0.0010906011120483767,
+      "Iout_A": 0.26193843166403813,
+      "P_reg_W": 3.0277977483044194,
+      "Tj_bare_TO220_C": 201.38988741522098,
+      "Tj_bare_D2PAK_C": 239.2373592690262,
+      "Tj_with_10C_W_sink_and_2C_W_interface_C": 101.47256172117514
+    },
+    "continuous_clock_CPD_50pct_margin": {
+      "clock_duty": 1,
+      "cpd_multiplier": 1.5,
+      "dynamic_A": 0.2394,
+      "TTL_extra_A": 0.0375,
+      "static_A": 0.00064,
+      "filters_A": 0.03536842105263158,
+      "serial_capacitance_A": 0.021,
+      "minimum_load_A": 0.006739409499358151,
+      "bias_bound_A": 0.0010906011120483767,
+      "Iout_A": 0.34173843166403806,
+      "P_reg_W": 3.9055977483044186,
+      "Tj_bare_TO220_C": 245.27988741522094,
+      "Tj_bare_D2PAK_C": 294.0998592690262,
+      "Tj_with_10C_W_sink_and_2C_W_interface_C": 116.39516172117511
+    }
+  },
+  "bias_paths": [
+    [
+      "daughtercard1a_weights_l1_differential_repaired_unrouted.kicad_pcb",
+      "Rb_N2",
+      1100000.0,
+      2.0095693779904308e-05
+    ],
+    [
+      "daughtercard1a_weights_l1_differential_repaired_unrouted.kicad_pcb",
+      "Rb_N0",
+      6200000.0,
+      3.565365025466893e-06
+    ],
+    [
+      "daughtercard1b_weights_l1_differential_repaired_unrouted.kicad_pcb",
+      "Rb_N7",
+      390000.0,
+      5.668016194331984e-05
+    ],
+    [
+      "daughtercard1b_weights_l1_differential_repaired_unrouted.kicad_pcb",
+      "Rb_N6",
+      1100000.0,
+      2.0095693779904308e-05
+    ],
+    [
+      "daughtercard1b_weights_l1_differential_repaired_unrouted.kicad_pcb",
+      "Rb_N4",
+      330000.0,
+      6.698564593301435e-05
+    ],
+    [
+      "daughtercard1b_weights_l1_differential_repaired_unrouted.kicad_pcb",
+      "Rb_N5",
+      330000.0,
+      6.698564593301435e-05
+    ],
+    [
+      "daughtercard1c_weights_l1_differential_repaired_unrouted.kicad_pcb",
+      "Rb_N9",
+      270000.0,
+      8.187134502923976e-05
+    ],
+    [
+      "daughtercard1c_weights_l1_differential_repaired_unrouted.kicad_pcb",
+      "Rb_N8",
+      820000.0,
+      2.6957637997432607e-05
+    ],
+    [
+      "daughtercard1d_weights_l1_differential_repaired_unrouted.kicad_pcb",
+      "Rb_N14",
+      200000.0,
+      0.00011052631578947369
+    ],
+    [
+      "daughtercard1d_weights_l1_differential_repaired_unrouted.kicad_pcb",
+      "Rb_N12",
+      750000.0,
+      2.9473684210526317e-05
+    ],
+    [
+      "daughtercard3_weights_l2_wta_differential_repaired_unrouted.kicad_pcb",
+      "Rb_L2_5",
+      2000000.0,
+      1.1052631578947368e-05
+    ],
+    [
+      "daughtercard3_weights_l2_wta_differential_repaired_unrouted.kicad_pcb",
+      "Rb_L2_0",
+      270000.0,
+      8.187134502923976e-05
+    ],
+    [
+      "daughtercard3_weights_l2_wta_differential_repaired_unrouted.kicad_pcb",
+      "Rb_L2_9",
+      360000.0,
+      6.140350877192983e-05
+    ],
+    [
+      "daughtercard3_weights_l2_wta_differential_repaired_unrouted.kicad_pcb",
+      "Rb_L2_4",
+      560000.0,
+      3.9473684210526316e-05
+    ],
+    [
+      "daughtercard3_weights_l2_wta_differential_repaired_unrouted.kicad_pcb",
+      "Rb_L2_7",
+      3900000.0,
+      5.668016194331983e-06
+    ],
+    [
+      "daughtercard3_weights_l2_wta_differential_repaired_unrouted.kicad_pcb",
+      "Rb_L2_2",
+      560000.0,
+      3.9473684210526316e-05
+    ],
+    [
+      "daughtercard3_weights_l2_wta_differential_repaired_unrouted.kicad_pcb",
+      "Rb_L2_6",
+      240000.0,
+      9.210526315789474e-05
+    ],
+    [
+      "daughtercard3_weights_l2_wta_differential_repaired_unrouted.kicad_pcb",
+      "Rb_L2_3",
+      160000.0,
+      0.0001381578947368421
+    ],
+    [
+      "daughtercard3_weights_l2_wta_differential_repaired_unrouted.kicad_pcb",
+      "Rb_L2_1",
+      160000.0,
+      0.0001381578947368421
+    ]
+  ],
+  "thermal_release_passed": false,
+  "thermal_note": "Heatsink <=10C/W at actual50C local ambient with interface<=2C/W is REQUIRED; physical fitting and thermal bench test pending. CPD is typical, not guaranteed maximum. 50pct multiplier is engineering margin, not datasheet guarantee. No bare-package operation authorization. Minimum normal junction0C for C version. Current budget25 TTL inputs =3 shared MCU lines*8+DS first; MR tied5V. Includes bounded rail-to-bias resistor current.",
+  "preserved_filters": 64,
+  "preserved_ADC_and_slot_pad_nets": true,
+  "power_parts": {
+    "C_REG_OUT": {
+      "pads": {
+        "1": "+5V",
+        "2": "GND"
+      },
+      "value": "0.1uF",
+      "xy": [
+        66000000,
+        94000000
+      ],
+      "angle": 180.0
+    },
+    "R_REG_MINLOAD": {
+      "pads": {
+        "1": "+5V",
+        "2": "GND"
+      },
+      "value": "820",
+      "xy": [
+        52000000,
+        94500000
+      ],
+      "angle": 180.0
+    },
+    "C_REG_IN": {
+      "pads": {
+        "1": "+15V",
+        "2": "GND"
+      },
+      "value": "0.33uF",
+      "xy": [
+        60000000,
+        94000000
+      ],
+      "angle": 180.0
+    },
+    "R_REF_LINK": {
+      "pads": {
+        "1": "+5V",
+        "2": "+5V_REF"
+      },
+      "value": "0R",
+      "xy": [
+        52000000,
+        92000000
+      ],
+      "angle": 180.0
+    },
+    "U_REG5": {
+      "pads": {
+        "1": "+15V",
+        "2": "GND",
+        "3": "+5V"
+      },
+      "value": "L7805CV",
+      "xy": [
+        61000000,
+        96000000
+      ],
+      "angle": 0.0
+    },
+    "C_REG_BULK": {
+      "pads": {
+        "1": "+5V",
+        "2": "GND"
+      },
+      "value": "10uF",
+      "xy": [
+        83000000,
+        94000000
+      ],
+      "angle": 180.0
+    }
+  },
+  "drc_error_count": 0,
+  "unconnected_count": 499,
+  "fabrication_ready": false
+}
