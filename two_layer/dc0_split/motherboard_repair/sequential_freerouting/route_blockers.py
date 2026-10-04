@@ -1,7 +1,7 @@
 from run import *
-b=p.LoadBoard(str(D/'manual_paths.kicad_pcb'));raw=p.LoadBoard(str(D/'scoped_raw.kicad_pcb'));sesids={t.m_Uuid.AsString() for t in raw.GetTracks()};ret=[]
+b=p.LoadBoard(str(D/'manual_paths.kicad_pcb'));raw=p.LoadBoard(str(D/'scoped_raw.kicad_pcb'));sesgeom={tuple(v) for v in copper(raw).values()};ret=[];geoms=copper(b)
 for t in list(b.GetTracks()):
- if t.m_Uuid.AsString() in sesids:ret.append(t);b.Remove(t)
+ if tuple(geoms[t.m_Uuid.AsString()]) in sesgeom:ret.append(t);b.Remove(t)
 for net,x,y,nx,ny in [('IN_58',87.36,64.96,87.36,65.12),('IN_58',85.52,34.,85.44,34.08)]:
  old=s.xy(x,y);new=s.xy(nx,ny)
  for t in b.GetTracks():
