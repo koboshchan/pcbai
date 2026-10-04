@@ -45,14 +45,14 @@ def main():
   return f
  reg=add('Package_TO_SOT_THT','TO-220-3_Vertical','U_REG5','L7805CV',66,97,{'1':'+15V','2':'GND','3':'+5V'},False,'LCSC C111887; ST; pin1 IN pin2 GND tab GND pin3 OUT; optional recommended glued25mm coin <2mm, no unmeasured cooling credit; outboard exclusion x50.96..75.96 y99.8..124.8 z0..35mm; bench qualification pending')
  reg.SetOrientationDegrees(180)
- add('Capacitor_SMD','C_0805_2012Metric','C_REG_IN','0.33uF',60,94,{'1':'+15V','2':'GND'},True,'50V X7R; >=0.33uF effective capacitance required')
+ add('Capacitor_SMD','C_0805_2012Metric','C_REG_IN','1uF',60,94,{'1':'+15V','2':'GND'},True,'Samsung CL21B105KBFNNNE LCSC C28323; JLC Basic SMT; 50V X7R +/-10%; practical 7805 input bypass margin over 0.33uF datasheet suggestion; no guaranteed effective-capacitance floor')
  add('Capacitor_SMD','C_0805_2012Metric','C_REG_OUT','0.1uF',66,94,{'1':'+5V','2':'GND'},True,'50V X7R')
  add('Capacitor_SMD','CP_Elec_5x5.8','C_REG_BULK','10uF',83,94,{'1':'+5V','2':'GND'},True,'>=16V polarized; burst local reservoir; qualification pending')
  add('Resistor_SMD','R_0805_2012Metric','R_REF_LINK','0R',52,92,{'1':'+5V','2':'+5V_REF'},True,'Shared regulator source for PWM high and bias; 0ohm, do not omit')
  add('Resistor_SMD','R_0805_2012Metric','R_REG_MINLOAD','820',52,94.5,{'1':'+5V','2':'GND'},True,'5%; >=0.125W; ensures >=5mA regulator load even with MCU absent and all outputs low')
  for f in b.GetFootprints():
   if f.GetReference().startswith('U_SR'):
-   assert f.GetValue() in ('74HCT595D','74AHCT595D');f.SetValue('74AHCT595D');f.SetLibDescription('Nexperia 74AHCT595D,112 SO16 LCSC C554704; supply4.5..5.5V TTL inputs')
+   assert f.GetValue() in ('74HCT595D','74AHCT595D','74AHCT595S16-13');f.SetValue('74AHCT595S16-13');f.SetLibDescription('Diodes 74AHCT595S16-13 SO16 LCSC C126402; JLC assembled; supply4.5..5.5V TTL inputs')
   if f.GetReference()=='J_MCU_SPI':
    f.SetValue('MCU_3V3_SPI_PIN1_NC');
    for q in f.Pads():
