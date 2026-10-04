@@ -1,7 +1,7 @@
 from pathlib import Path
 import json,sys,hashlib
 import pcbnew as p
-D=Path('/work/pcbai/two_layer/dc0_split/motherboard_repair/approved_bodge_CRB');sys.path.insert(0,str(D));from run import copper,refs,s
+D=Path(__file__).resolve().parent;sys.path.insert(0,str(D));from run import copper,refs,s
 pre=p.LoadBoard(str(D/'pre_crb.kicad_pcb'));post=p.LoadBoard(str(D/'post_crb.kicad_pcb'))
 a=copper(pre);b=copper(post);added={k:v for k,v in b.items() if k not in a};assert all(b.get(k)==v for k,v in a.items());assert len(added)==1;assert next(iter(added.values()))[0]=='+5V'
 def footprints(path):
