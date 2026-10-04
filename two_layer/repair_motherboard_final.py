@@ -31,9 +31,9 @@ def main():
  mapping=[]
  for f in b.GetFootprints():
   if f.GetReference().startswith('U_SR'):
-   assert f.GetValue() in ('74HCT595D','74AHCT595D')
-   f.SetValue('74AHCT595D')
-   f.SetLibDescription('Nexperia 74AHCT595D,112; SOIC-16; LCSC C554704; 5V supply, TTL-compatible 3.3V MCU inputs')
+   assert f.GetValue() in ('74HCT595D','74AHCT595D','74AHCT595S16-13')
+   f.SetValue('74AHCT595S16-13')
+   f.SetLibDescription('Diodes 74AHCT595S16-13; SOIC-16; LCSC C126402; JLC assembled; 5V supply, TTL-compatible 3.3V MCU inputs')
    for q in f.Pads():
     m=re.fullmatch(r'(?:RAW_)?IN_(\d+)',q.GetNetname())
     if m:
