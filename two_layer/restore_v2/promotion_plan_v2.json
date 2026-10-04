@@ -78,5 +78,15 @@
     "prior_sha256": "63067e3afa5c16b202c32afd75bb2bbee179e9c245ccbbe944a3a22adbd5bc81",
     "staged_sha256": "3d0cf4b4fb5b9d4cf5f5ff6781ebb3580ffd89570dfc8a8c90b53f5c0c6be2d4",
     "action": "active_hybrid_exporter"
+  },
+  "power_BOM_preliminary.csv": {
+    "prior_sha256": "a1a756d3b7f876f1e42ebbb14d82840414e637b7a7a86e349446df63160775a9",
+    "staged_sha256": "a0f2b3eabbbaecfd07196458b792dd6fe2c3c6697f544eb3e2fb3940e8fbe46d",
+    "action": "active_motherboard_sourcing_overlay_remap"
+  },
+  "APPROVED_AHCT_ASSEMBLY.md": {
+    "prior_sha256": "a015d5b1b9f64742fee71e0ed48701066a7477a490d2c06ddb6be15a1baa7fa4",
+    "staged_sha256": "4391fe264384ffdf62e3d2e51ade6db78887af9532bad050a7ba5e1f2494ff47",
+    "action": "active_motherboard_sourcing_overlay_remap"
   }
 }
