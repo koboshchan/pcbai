@@ -9,4 +9,6 @@ Snapshot sources (sha256):
 - daughtercard2_relu_l1_buffered_repaired_unrouted.kicad_pcb 36636f2b45d11333cc7da1707b726ed013bc67eb504cc10b8b9a3ea75fbef05b
 - daughtercard3_weights_l2_wta_differential_repaired_unrouted.kicad_pcb bc081a5c71e1c610898f2a0a98594859485534ff0c0a91daa0c76108b0bc6dbc
 
+Actual PNG size is 1568x1176 (kicad-cli output at 1600x1200 request).
+
 Caveats (verified by inspecting the PNGs): unrouted (no copper tracks), footprints show bare pads only because 3D models are absent, bottom sides show only straddle-header pads and mounting holes, silkscreen reference text overlaps (e.g. D_CLAMP/D_RECT on DC2). The 0.4 mm pad-setback freerouting run may replace these boards. Motherboard not rendered yet (waiting for power_audit.json / regulator worker).
