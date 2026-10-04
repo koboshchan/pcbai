@@ -7,7 +7,7 @@ def xy(x,y):return p.VECTOR2I(p.FromMM(x),p.FromMM(y))
 def main():
  b=p.LoadBoard(str(S/'DC0.kicad_pcb'));m=p.LoadBoard(str(S/'motherboard.kicad_pcb'));j=next(f for f in b.GetFootprints() if f.GetReference()=='J0');jd=next(f for f in m.GetFootprints() if f.GetReference()=='JD0');jp={q.GetNumber():q for q in j.Pads()};mp={q.GetNumber():q for q in jd.Pads()};mapping=json.loads((R/'split_identity.json').read_text())['pinmap'];rows=[]
  for n in range(1,77):
-  q=jp[str(n)];r=mp[str(n)];assert q.GetNetname()==r.GetNetname()==mapping[str(n)];assert abs(q.GetPosition().x-r.GetPosition().x)<=1;assert q.GetLayer()==(p.F_Cu if n%2 else p.B_Cu);assert r.GetAttribute()==p.PAD_ATTRIB_PTH
+  q=jp[str(n)];r=mp[str(n)];assert q.GetNetname()==r.GetNetname()==mapping[str(n)];assert abs(q.GetPosition().x-r.GetPosition().x)<=1;assert q.GetLayerSet().Contains(p.F_Cu if n%2 else p.B_Cu) and not q.GetLayerSet().Contains(p.B_Cu if n%2 else p.F_Cu);assert r.GetAttribute()==p.PAD_ATTRIB_PTH
   setback=100-mm(q.GetPosition().y)-mm(q.GetSize().y)/2;assert abs(setback-.4)<1e-6;rows.append({'pin':n,'uuid':q.m_Uuid.AsString(),'net':q.GetNetname(),'edge_setback_mm':setback,'x_mm':mm(q.GetPosition().x),'layer':b.GetLayerName(q.GetLayer())})
  assert abs(mm(jp['75'].GetPosition().x-jp['1'].GetPosition().x)-93.98)<1e-6
  controls={}
