@@ -1,0 +1,3 @@
+Rendering commands
+
+Run bash /home/kit/ads_render.sh BOARD only after final validation. The script uses genuine KiCad CLI top and bottom views at 2000 x 2800, checks the board hash before and after, and copies images into /home/kit/renders/ads1115_breakout/. These views show the supplied footprint models and KiCad's default soldermask rendering. The etched board should be bare copper, so the rendered surface finish is illustrative. Purchased ADS1115 modules and seven hand-installed insulated wire links are not modeled. No board modifications are made for rendering.
