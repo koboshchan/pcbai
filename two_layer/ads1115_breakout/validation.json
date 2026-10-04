@@ -1,0 +1,22 @@
+{
+  "board_sha256": "763d27c4de606c7a79eabf7d248ecf81870f24103d28a187082887ed844e0eca",
+  "errors": 0,
+  "unconnected": 0,
+  "warnings": 28,
+  "tracks": 123,
+  "widths_mm": [
+    0.5,
+    0.8
+  ],
+  "jumpers": 5,
+  "page_points": [
+    612,
+    792
+  ],
+  "pdf_polarity_verified": true,
+  "unit_scale_points_per_mm": 2.834645669291339,
+  "board_dimension_points": [
+    141.73228346456693,
+    198.42519685039372
+  ]
+}
