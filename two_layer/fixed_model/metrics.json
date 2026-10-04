@@ -28,6 +28,17 @@
     ]
   },
   "mc": {
-    "status": "pending CUDA1000, no CPU board loop"
-  }
+    "board_realizations": 1000,
+    "examples_each": 10000,
+    "seed": 51005,
+    "min": 0.9447000000000001,
+    "mean": 0.9490848000000001,
+    "max": 0.9533,
+    "std": 0.0012050149463890558,
+    "p05": 0.9470000000000001,
+    "status": "completed historical nominal5V fixed50ohm driver CUDA1000",
+    "source": "cuda_mc.json",
+    "rail_driver_corner_MC": "not performed"
+  },
+  "commonrail_sensitivity": "commonrail_sensitivity.json"
 }

@@ -1,6 +1,6 @@
 {
   "status": "authoritative grayscale6bit PWM MNIST trained component model, metrics.json",
-  "input": "64 grayscale6bit 74HCT595D BCM PWM outputs with10k/1uF RC;3.3V logic input",
+  "input": "64 grayscale6bit Nexperia74AHCT595D SO16 C554704 BCM PWM outputs with10k/1uF RC;3.3V logic input",
   "rf_ohms": 100000,
   "layer1": [
     {
@@ -6268,5 +6268,19 @@
     "swing_V": 13.5,
     "rectifier_max_V": 12.7,
     "architecture": "differential summers with16 ACT followers"
+  },
+  "shared_5V_rail": {
+    "source": "onboard L7805CV TO220 C111887, +15V to +5V linear regulator",
+    "range_V": [
+      4.75,
+      5.25
+    ],
+    "loads": [
+      "AHCT595 VCC/PWM high",
+      "all +5V_REF bias resistors in both layers"
+    ],
+    "sensitivity": "commonrail_sensitivity.json",
+    "nominal_driver_ohms_assumption": 50,
+    "not_hardware_qualification": true
   }
 }
