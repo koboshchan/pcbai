@@ -48,7 +48,7 @@ def build():
         clone(board,cap,f'C_{ref}N','0.1uF',x+6,y-7,{'1':'-15V','2':'GND'})
     for fp in board.GetFootprints():
         if fp.GetReference().startswith('C'):
-            properties=dict(fp.GetProperties());properties['Voltage Rating']='50V';fp.SetProperties(properties)
+            fp.SetField('Voltage Rating','50V')
         for pad in fp.Pads():
             if pad.GetNetname() in ('+12V','-12V'):
                 pad.SetNet(net(board,pad.GetNetname().replace('12V','15V')))
