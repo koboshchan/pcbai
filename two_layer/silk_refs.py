@@ -102,6 +102,15 @@ def candidates(fp, ref, layer, height):
             yield angle, x+dx, y+dy
 
 
+def board_drawings(board):
+    """KiCad 10 builds differ in GetDrawings() SWIG typemap coverage."""
+    try:
+        return list(board.GetDrawings())
+    except TypeError:
+        # The legacy DRAWINGS wrapper has its own iterator typemap.
+        return list(board.Drawings())
+
+
 def apply_silk(board):
     """Place actual reference fields on component-side silk and return audit.
 
@@ -112,7 +121,7 @@ def apply_silk(board):
     """
     silks = (pcbnew.F_SilkS, pcbnew.B_SilkS)
     removed = 0
-    for drawing in list(board.GetDrawings()):
+    for drawing in board_drawings(board):
         if drawing.GetLayer() in silks:
             board.Delete(drawing)
             removed += 1
@@ -185,6 +194,11 @@ def audit_silk(board):
         box = rect(r)
         if not r.IsVisible() or r.GetLayer()!=layer:
             bad.append([name,'hidden_or_wrong_side'])
+        if r.IsMirrored() != (layer == pcbnew.B_SilkS):
+            bad.append([name,'wrong_mirroring'])
+        for item in fp.GraphicalItems():
+            if item.GetLayer() in (pcbnew.F_SilkS, pcbnew.B_SilkS):
+                bad.append([name,'remaining_footprint_silk_art'])
         if pcbnew.ToMM(r.GetTextHeight()) < .799 or pcbnew.ToMM(r.GetTextThickness()) < .119:
             bad.append([name,'text_too_small'])
         if fp.Value().IsVisible():
@@ -198,6 +212,9 @@ def audit_silk(board):
             if layer==other_layer and intersects(box,expand(other_box,.15)):
                 bad.append([name,'reference_clearance',other])
         refs.append((name,layer,box))
+    for item in board_drawings(board):
+        if item.GetLayer() in (pcbnew.F_SilkS, pcbnew.B_SilkS):
+            bad.append(['board','remaining_board_silk_art'])
     return {'reference_count':len(refs),'clean':not bad,'violations':bad,
             'method':'Conservative text/pad axis-aligned bounding boxes, not a rendered glyph or solder-mask DRC.',
             'limits_mm':{'pad_clearance':.20,'reference_clearance':.15,'edge_clearance':.25,'minimum_height':.8,'stroke':.12}}
@@ -218,5 +235,6 @@ if __name__ == '__main__':
     pcbnew.SaveBoard(args.output,board)
     # Round-trip audit catches any serialization changes.
     report['roundtrip_audit'] = audit_silk(pcbnew.LoadBoard(args.output))
+    report['release_ready'] = report['release_ready'] and report['roundtrip_audit']['clean']
     Path(args.report).write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({k:report[k] for k in ('reference_count','clean','unplaced','release_ready')}))
