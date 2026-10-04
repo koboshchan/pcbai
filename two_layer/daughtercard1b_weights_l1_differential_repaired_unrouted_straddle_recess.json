@@ -1,0 +1,9 @@
+{
+  "board": "two_layer/daughtercard1b_weights_l1_differential_repaired_unrouted.kicad_pcb",
+  "modified_lands": 0,
+  "edge_setback_mm": 0.5,
+  "electrical_identity_unchanged": true,
+  "header_position_unchanged": true,
+  "mechanical_pin_reach_requires_validation": true,
+  "lands": []
+}
