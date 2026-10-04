@@ -1,0 +1,145 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-03T16:01:10",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "test_shared_pad.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [IN_0] of W1",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 10.0
+                    },
+                    "uuid": "a2cd22ac-60d8-400c-8ec0-df2f8d3cdab8"
+                },
+                {
+                    "description": "PTH pad 1 [IN_0] of W1",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 20.0
+                    },
+                    "uuid": "b6de3c99-9d26-4524-82b7-5f8294fa97b1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [IN_0] of W1",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 20.0
+                    },
+                    "uuid": "b6de3c99-9d26-4524-82b7-5f8294fa97b1"
+                },
+                {
+                    "description": "PTH pad 1 [IN_0] of W2",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 30.0
+                    },
+                    "uuid": "6e40c84e-8c21-411b-90ed-eec1ab6722e5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Board has malformed outline (no edges found on Edge.Cuts layer)",
+            "items": [
+                {
+                    "description": "PCB",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "0f3bf17d-0344-4e8a-9947-22e3bc9ca4af"
+                }
+            ],
+            "severity": "error",
+            "type": "invalid_outline"
+        },
+        {
+            "description": "Drilled holes co-located",
+            "items": [
+                {
+                    "description": "PTH pad 1 [IN_0] of W2",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 20.0
+                    },
+                    "uuid": "3440e584-280a-471f-876e-b353360508c4"
+                },
+                {
+                    "description": "PTH pad 1 [IN_0] of W1",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 20.0
+                    },
+                    "uuid": "b6de3c99-9d26-4524-82b7-5f8294fa97b1"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of W2",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "12e6f6b2-6653-43a0-a0a0-5f998019331f"
+                },
+                {
+                    "description": "Reference field of W1",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "4b46c7a4-6fcd-43f8-8f36-87c9910a75e7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}
