@@ -1,0 +1,107 @@
+[
+  {
+    "board": "two_layer/daughtercard1a_weights_l1_differential_repaired_unrouted.kicad_pcb",
+    "before_identity_sha256": "ea88f8307b91ba8b2c2059956da6190815d208a2d8023bd198910fc7d6c3d776",
+    "after_identity_sha256": "ea88f8307b91ba8b2c2059956da6190815d208a2d8023bd198910fc7d6c3d776",
+    "identity_preserved": true,
+    "headers_mounts_edges_preserved": true,
+    "counts": {
+      "silk_over_copper": 39,
+      "text_thickness": 4,
+      "text_height": 4,
+      "lib_footprint_issues": 199,
+      "silk_edge_clearance": 3
+    },
+    "placement_clean": true
+  },
+  {
+    "board": "two_layer/daughtercard1b_weights_l1_differential_repaired_unrouted.kicad_pcb",
+    "before_identity_sha256": "cb0b47e3031c92629e4ad01e6503226b2e2762d50d912a0e5f7458aa5388d0fa",
+    "after_identity_sha256": "cb0b47e3031c92629e4ad01e6503226b2e2762d50d912a0e5f7458aa5388d0fa",
+    "identity_preserved": true,
+    "headers_mounts_edges_preserved": true,
+    "counts": {
+      "silk_over_copper": 39,
+      "text_thickness": 4,
+      "text_height": 4,
+      "lib_footprint_issues": 199,
+      "silk_edge_clearance": 3
+    },
+    "placement_clean": true
+  },
+  {
+    "board": "two_layer/daughtercard1c_weights_l1_differential_repaired_unrouted.kicad_pcb",
+    "before_identity_sha256": "48dafa9c16335780af066ca01869abb1e3d0ce65667a9549513d0e7c31ce93d6",
+    "after_identity_sha256": "48dafa9c16335780af066ca01869abb1e3d0ce65667a9549513d0e7c31ce93d6",
+    "identity_preserved": true,
+    "headers_mounts_edges_preserved": true,
+    "counts": {
+      "silk_over_copper": 39,
+      "text_thickness": 4,
+      "text_height": 4,
+      "lib_footprint_issues": 199,
+      "silk_edge_clearance": 3
+    },
+    "placement_clean": true
+  },
+  {
+    "board": "two_layer/daughtercard1d_weights_l1_differential_repaired_unrouted.kicad_pcb",
+    "before_identity_sha256": "b3e9b182599c1c274d819f253b070ae825d374b361535d6615b55531193e37f7",
+    "after_identity_sha256": "b3e9b182599c1c274d819f253b070ae825d374b361535d6615b55531193e37f7",
+    "identity_preserved": true,
+    "headers_mounts_edges_preserved": true,
+    "counts": {
+      "silk_over_copper": 39,
+      "text_thickness": 4,
+      "text_height": 4,
+      "lib_footprint_issues": 193,
+      "silk_edge_clearance": 3
+    },
+    "placement_clean": true
+  },
+  {
+    "board": "two_layer/daughtercard2_relu_l1_buffered_repaired_unrouted.kicad_pcb",
+    "before_identity_sha256": "3019e67160402033709c1f0ddcfda0ca029442ca13f29eff6575d3042f76a82c",
+    "after_identity_sha256": "3019e67160402033709c1f0ddcfda0ca029442ca13f29eff6575d3042f76a82c",
+    "identity_preserved": true,
+    "headers_mounts_edges_preserved": true,
+    "counts": {
+      "silk_overlap": 16,
+      "silk_over_copper": 96,
+      "text_thickness": 12,
+      "text_height": 8,
+      "lib_footprint_issues": 59,
+      "silk_edge_clearance": 3
+    },
+    "placement_clean": true
+  },
+  {
+    "board": "two_layer/daughtercard3_weights_l2_wta_differential_repaired_unrouted.kicad_pcb",
+    "before_identity_sha256": "e60615d5d287ba1b8e79749dc11d17ef3ae7d1ad33e03b02b1f615463ac8355d",
+    "after_identity_sha256": "e60615d5d287ba1b8e79749dc11d17ef3ae7d1ad33e03b02b1f615463ac8355d",
+    "identity_preserved": true,
+    "headers_mounts_edges_preserved": true,
+    "counts": {
+      "silk_over_copper": 3,
+      "text_thickness": 10,
+      "text_height": 10,
+      "lib_footprint_issues": 182,
+      "silk_edge_clearance": 3
+    },
+    "placement_clean": true
+  },
+  {
+    "board": "two_layer/motherboard_adc_repaired_unrouted.kicad_pcb",
+    "before_identity_sha256": "27cea7a60c99be39a8b96e4dcf5c9e057e71c88da5549083fd2255b785332674",
+    "after_identity_sha256": "27cea7a60c99be39a8b96e4dcf5c9e057e71c88da5549083fd2255b785332674",
+    "identity_preserved": true,
+    "headers_mounts_edges_preserved": true,
+    "counts": {
+      "silk_over_copper": 8,
+      "text_thickness": 20,
+      "text_height": 20,
+      "lib_footprint_issues": 70
+    },
+    "placement_clean": true
+  }
+]
