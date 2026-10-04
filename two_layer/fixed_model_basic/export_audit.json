@@ -1,0 +1,11 @@
+{
+  "resistor_count": 1034,
+  "unique_values": 21,
+  "extended_resistors": 0,
+  "changed_resistors": 799,
+  "exact_original_neural_pad_connectivity_preserved": true,
+  "original_neural_component_count": 896,
+  "fixed_model_circuit_sha256": "e4db3ea4ed3252640e43a6b23ca038ff0aa3c71949da3c558098b31f9a981474",
+  "fee_saved_USD_user_assumption": 186,
+  "nonneural_change_note": "R_REG_MINLOAD820ohm is Extended. Nearest Basic680ohm draws7.353mA and36.765mW at5V, within selected125mW resistor rating; regulator thermal increase12.554mW at15Vin. No steady-state classifier transfer change assumed. Requalify rail regulation/thermal in hardware."
+}

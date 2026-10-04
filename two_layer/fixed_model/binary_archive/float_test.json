@@ -1,0 +1,16 @@
+{
+  "test_examples": 10000,
+  "dataset": "official MNIST test split; frozen cached original8x8 crop/BOX preprocessing;binary threshold2.5V into0/5V",
+  "checkpoint": "trained_float.npz same validation-selected weights behind physical manifest",
+  "device": "NVIDIA GeForce RTX 4070 SUPER",
+  "dtype": "float64",
+  "float_unquantized_no_loading_no_clipping": {
+    "correct": 8385,
+    "accuracy": 0.8385
+  },
+  "float_clipping_only_no_loading_no_quantization": {
+    "correct": 8373,
+    "accuracy": 0.8373
+  },
+  "test_used_for_selection": false
+}
