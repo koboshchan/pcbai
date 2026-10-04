@@ -6,9 +6,11 @@ R=Path(__file__).resolve().parent;sys.path.insert(0,str(R));import successor100 
 D=R/'motherboard_repair';out=D/'motherboard.kicad_pcb';b=p.LoadBoard(str(out));phys=refs.physical(b);ident=s.identity(b);shutil.copyfile(out,D/'pre_open_repair.kicad_pcb')
 # Re-route only two incomplete signal nets, freeing their partial protected routes.
 removed=[]
-for t in list(b.GetTracks()):
+tracks=[t for t in b.GetTracks()]
+zones=[z for z in b.Zones()]
+for t in tracks:
  if t.GetNetname() in ['ADC_2','IN_58']:removed.append(t.m_Uuid.AsString());b.Remove(t)
-for z in list(b.Zones()):b.Delete(z)
+for z in zones:b.Remove(z)
 dsn=D/'signal_repair.dsn';assert p.ExportSpecctraDSN(b,str(dsn));text=dsn.read_text();guards=''
 for n,(x1,y1,x2,y2) in enumerate([(-10000,-110000,500,10000),(99500,-110000,110000,10000),(-10000,-500,110000,10000),(-10000,-110000,110000,-99500)]):
  for layer in ['F.Cu','B.Cu']:guards+=f'    (keepout edge_guard_{n}_{layer} (rect {layer} {x1} {y1} {x2} {y2}))\n'
