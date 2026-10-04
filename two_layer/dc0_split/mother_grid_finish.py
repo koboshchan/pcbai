@@ -29,6 +29,7 @@ def search(b,net,a,c,extra):
  for m in masks:m[:8,:]=True;m[-8:,:]=True;m[:,:8]=True;m[:,-8:]=True
  vias=(distance_transform_edt(~masks[0])>=3)&(distance_transform_edt(~masks[1])>=3)
  start=tuple([round(a[0]/step),round(a[1]/step),a[2]]);end=tuple([round(c[0]/step),round(c[1]/step),c[2]])
+ print('grid',net,start,end,'blocked',masks[start[2]][start[1],start[0]],masks[end[2]][end[1],end[0]],flush=True)
  def h(q):return math.hypot(q[0]-end[0],q[1]-end[1])+ (0 if q[2]==end[2] else 12)
  queue=[(h(start),0,start)];cost={start:0};parent={};done=set();moves=[(1,0,1),(-1,0,1),(0,1,1),(0,-1,1),(1,1,1.414),(1,-1,1.414),(-1,1,1.414),(-1,-1,1.414)]
  while queue:
@@ -50,6 +51,7 @@ def search(b,net,a,c,extra):
    ng=g+w
    if ng<cost.get(v,float('inf')):cost[v]=ng;parent[v]=q;heapq.heappush(queue,(ng+h(v),ng,v))
   if len(done)>1800000:break
+ print('no path visited',len(done),flush=True)
  return None
 
 def add(b,net,path,a,c):
