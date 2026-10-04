@@ -1,0 +1,36 @@
+[
+  {
+    "reference_count": 79,
+    "clean": true,
+    "unplaced": [],
+    "release_ready": true,
+    "board": "daughtercard2_relu_l1.kicad_pcb",
+    "roundtrip_clean": true,
+    "electrical_and_placement_unchanged": true
+  },
+  {
+    "reference_count": 270,
+    "clean": true,
+    "unplaced": [],
+    "release_ready": true,
+    "board": "daughtercard1a_weights_l1.kicad_pcb",
+    "roundtrip_clean": true,
+    "electrical_and_placement_unchanged": true
+  },
+  {
+    "reference_count": 50,
+    "clean": false,
+    "unplaced": [
+      "R_TOP_2",
+      "R_TOP_3",
+      "R_TOP_4",
+      "R_TOP_5",
+      "R_TOP_6",
+      "R_TOP_7"
+    ],
+    "release_ready": false,
+    "board": "motherboard.kicad_pcb",
+    "roundtrip_clean": false,
+    "electrical_and_placement_unchanged": true
+  }
+]
