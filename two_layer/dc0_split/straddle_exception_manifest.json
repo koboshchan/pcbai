@@ -1,0 +1,463 @@
+{
+  "reference": "J0",
+  "global_edge_mm": 0.5,
+  "pad_only_edge_mm": 0.4,
+  "pads": [
+    {
+      "number": "76",
+      "uuid": "bf2d49ab-e75c-4184-aa4b-844907958b7b",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "75",
+      "uuid": "c48e0cb9-f212-4d5c-8e96-3dea137a9de3",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "74",
+      "uuid": "e1630b36-2de1-470c-8f20-5b4abcef18bf",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "73",
+      "uuid": "57c625e9-4a8f-4db7-8616-95d236d4276d",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "72",
+      "uuid": "0065fba8-66aa-444e-b051-393f5c60e812",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "71",
+      "uuid": "98b2e848-785d-4b33-8b3a-be55682534b0",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "70",
+      "uuid": "de07a5b3-d836-414d-9295-b33f79a3ab4f",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "69",
+      "uuid": "7d8e4b5a-9789-4624-958e-057c2dfa2857",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "68",
+      "uuid": "ec49afcb-4723-4a01-94f9-821c26ab2077",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "67",
+      "uuid": "3b546885-4c1c-4321-b373-f5dc9a619424",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "66",
+      "uuid": "ec83b560-e9a1-4e74-a69f-b26e6545dea1",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "65",
+      "uuid": "85c99867-f68a-4ca3-ae90-8646b204aec3",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "64",
+      "uuid": "bf1107ab-43bc-412d-bdd7-c6b1285c875b",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "63",
+      "uuid": "e3121533-058a-4606-90da-b16a3f515d76",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "62",
+      "uuid": "a68a0cfb-2d2b-4faa-be9c-cc2aae698a42",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "61",
+      "uuid": "57eabe0f-c161-462d-b22c-41fbc3dc8a57",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "60",
+      "uuid": "c675177f-c79b-4274-b2fe-19a8fbc79b19",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "59",
+      "uuid": "8458d81d-ac7b-4294-b072-93db5aa57512",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "58",
+      "uuid": "3d26a2f5-f921-4a09-8068-8e8c29590f95",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "57",
+      "uuid": "0da5f562-63df-45ac-a6a4-340c25a84dfe",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "56",
+      "uuid": "3aa0ce30-5dbf-4a62-8aee-72f8d8da80c5",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "55",
+      "uuid": "a17fc5f7-6398-4dc5-ab62-88eeec9a344e",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "54",
+      "uuid": "c5307776-d8b4-46bc-824e-fe761cddf525",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "53",
+      "uuid": "bb64f767-b743-46b3-a972-8227d9c835d2",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "52",
+      "uuid": "332a5ce9-dcce-4ef6-8cd2-2fcb3e88839e",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "51",
+      "uuid": "385bf60d-f3bd-4dd3-85b4-b9ad2655a16b",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "50",
+      "uuid": "2e67d4c8-2bc2-4693-ae85-1f161a227733",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "49",
+      "uuid": "4ff6f702-b00b-43a4-b278-643b6fe1fe30",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "48",
+      "uuid": "fd071a99-a7f1-4a4b-b246-116b6b9371c1",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "47",
+      "uuid": "8368a430-cebd-4163-ba76-ebfe04f80dd1",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "46",
+      "uuid": "14721647-b1b8-413f-b7be-dbf34fc941f4",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "45",
+      "uuid": "cce7bd2c-793d-41ca-be83-c9651e80ebe2",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "44",
+      "uuid": "6a21448e-3790-480e-8340-5b4da55c8bb0",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "43",
+      "uuid": "b9bb1b47-66ae-4244-bab2-1de80a005df8",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "42",
+      "uuid": "727cd68d-d6b1-468c-957b-5b6e4a821b21",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "41",
+      "uuid": "6b73c22d-2aa1-4fc9-9113-d3ed4bc0e56a",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "40",
+      "uuid": "f608ba2c-ef4e-43d2-b85b-c03094aa2463",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "39",
+      "uuid": "f75c63c0-5db8-4cc3-b84e-a07254f766ec",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "38",
+      "uuid": "29fbe8b1-be7e-4cfc-a554-d41b11cd0c47",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "37",
+      "uuid": "b431d81b-ba1f-442f-8485-1222e9dafd63",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "36",
+      "uuid": "7428f58f-89d2-488b-9174-e3b493da50c3",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "35",
+      "uuid": "5887f03f-eaaa-4d33-a07f-2f4e2a37a14d",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "34",
+      "uuid": "78c6e82b-d3be-46e4-9935-e9a7fd3d4975",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "33",
+      "uuid": "1b29fc4a-a7dd-470e-b83d-0eab11d6603c",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "32",
+      "uuid": "ef6861f6-f793-459d-9bdf-5dabf727da98",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "31",
+      "uuid": "e6168400-87de-4163-8ca7-b0f5306a990e",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "30",
+      "uuid": "33451549-3846-49fd-8f71-bde382003f0f",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "29",
+      "uuid": "6047d067-33e6-46cd-8203-4f9917f12469",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "28",
+      "uuid": "d859c50e-ff83-4869-bd03-c448a32b4ce6",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "27",
+      "uuid": "454afeb8-dbf4-4270-a8da-de750dcfa7a4",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "26",
+      "uuid": "9fc8a961-2a00-4bf9-90a6-b2c6e74ccffb",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "25",
+      "uuid": "56d73f8e-82f3-4063-8922-157475991ef9",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "24",
+      "uuid": "fa77e703-bd39-40f4-8381-f908b6ca1923",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "23",
+      "uuid": "496aaf2e-78a8-46c1-bffa-2e36d9527965",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "22",
+      "uuid": "4260f185-90f8-4cf3-9216-40401b021ec4",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "21",
+      "uuid": "9fb9326b-8372-4adc-b02f-534c046e5865",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "20",
+      "uuid": "5049b4b9-982f-4560-b02d-82f3fac774ea",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "19",
+      "uuid": "7cd633e1-6a6b-4da0-8e86-9fe51fb3a1d7",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "18",
+      "uuid": "2dab7792-1714-4af3-88f4-214164ce8082",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "17",
+      "uuid": "a6fdf6c4-0a5d-4458-a74a-b0b0a648c1d3",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "16",
+      "uuid": "b1c800c6-3cd2-4b06-8ca1-e5d6c99afaef",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "15",
+      "uuid": "9f26e7ab-c1f6-497f-a21c-72bde0bd0854",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "14",
+      "uuid": "50bbeeaf-f29c-4477-8d61-6b630a6a61e9",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "13",
+      "uuid": "484766ce-a18a-4aeb-8b4c-e2aa56d9afee",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "12",
+      "uuid": "21e6a326-4458-4c36-b903-867b164666a1",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "11",
+      "uuid": "5d026879-0582-4c5f-9644-5e5ec9a2a497",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "10",
+      "uuid": "b168423a-fce9-4065-b879-8db9b2faa181",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "9",
+      "uuid": "056c1aad-ce5e-45a4-9896-4227cbb9d347",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "8",
+      "uuid": "cfcff906-fb78-488e-b92f-b04c38a5ad26",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "7",
+      "uuid": "633f08c3-6ed8-474e-a6df-b06394b07d3b",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "6",
+      "uuid": "65886b6b-7012-412f-9bf9-71fa18166db8",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "5",
+      "uuid": "82a4efd2-d5c5-4b45-baba-15354fdd58bf",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "4",
+      "uuid": "a0c3cdf7-8e93-4e19-ac97-2cda87f7c00b",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "3",
+      "uuid": "6dc780ba-9271-4bb5-9c3d-a8330f5f48c3",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "2",
+      "uuid": "1389ce0e-056d-4bfe-9420-09bcc9d1d80f",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    },
+    {
+      "number": "1",
+      "uuid": "efae39fe-e965-42f7-ab06-366a464963c1",
+      "layer": "F.Cu",
+      "edge_setback_mm": 0.4
+    }
+  ]
+}

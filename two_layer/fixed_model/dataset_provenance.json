@@ -1,0 +1,11 @@
+{
+  "train": {
+    "url": "https://huggingface.co/datasets/ylecun/mnist/resolve/main/mnist/train-00000-of-00001.parquet",
+    "sha256": "f2c01285a9f89399335b00ee4e8d499dc4e46db5e39c74903ce5618d895eb3bf"
+  },
+  "test": {
+    "url": "https://huggingface.co/datasets/ylecun/mnist/resolve/main/mnist/test-00000-of-00001.parquet",
+    "sha256": "d49fcf556ce25b002b302e318ce4a11098bbfe5d4499c3f35d7c72297c52374b"
+  },
+  "preprocess": "Original pipeline crop intensity>20 with2pxpadding, square-expanded bounding box, PIL BOX8x8; grayscale voltage0..5V,6bit PWM quantization"
+}

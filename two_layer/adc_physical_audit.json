@@ -1,0 +1,11 @@
+{
+  "HCT_3V3logic_repair_pass": true,
+  "confirmed_15Vrail_labels_pass": true,
+  "channels": 10,
+  "offset_divider_and_series_nets_pass": true,
+  "silicon_clamp_package_polarity_pass": true,
+  "dedicated_reference_header_pass": true,
+  "geometry": "Standard KiCad10 library SOD123and1x02header includingcourtyard/mask; resistorcloneoriginal",
+  "unrouted": true,
+  "fabrication_ready": false
+}

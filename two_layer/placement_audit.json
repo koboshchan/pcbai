@@ -1,0 +1,93 @@
+[
+  {
+    "board": "two_layer/daughtercard1a_weights_l1_differential_repaired_unrouted.kicad_pcb",
+    "before_identity_sha256": "17791c044050ee64982daadafe535fe3f2ee125c914cc2b3fb73bf60603694b4",
+    "after_identity_sha256": "17791c044050ee64982daadafe535fe3f2ee125c914cc2b3fb73bf60603694b4",
+    "identity_preserved": true,
+    "headers_mounts_edges_preserved": true,
+    "counts": {
+      "silk_over_copper": 43,
+      "text_thickness": 4,
+      "text_height": 4,
+      "lib_footprint_issues": 197,
+      "silk_edge_clearance": 3
+    },
+    "placement_clean": true
+  },
+  {
+    "board": "two_layer/daughtercard1b_weights_l1_differential_repaired_unrouted.kicad_pcb",
+    "before_identity_sha256": "d469e80c87eda3a0492960fb1e0bff77232fca62be780b5a19487388f8088dd0",
+    "after_identity_sha256": "d469e80c87eda3a0492960fb1e0bff77232fca62be780b5a19487388f8088dd0",
+    "identity_preserved": true,
+    "headers_mounts_edges_preserved": true,
+    "counts": {
+      "silk_over_copper": 43,
+      "text_thickness": 4,
+      "text_height": 4,
+      "lib_footprint_issues": 199,
+      "silk_edge_clearance": 3
+    },
+    "placement_clean": true
+  },
+  {
+    "board": "two_layer/daughtercard1c_weights_l1_differential_repaired_unrouted.kicad_pcb",
+    "before_identity_sha256": "d23c4161356ffb13c6faede33b3111b6127b0f368139bf4135a6b82c78994338",
+    "after_identity_sha256": "d23c4161356ffb13c6faede33b3111b6127b0f368139bf4135a6b82c78994338",
+    "identity_preserved": true,
+    "headers_mounts_edges_preserved": true,
+    "counts": {
+      "silk_over_copper": 43,
+      "text_thickness": 4,
+      "text_height": 4,
+      "lib_footprint_issues": 187,
+      "silk_edge_clearance": 3
+    },
+    "placement_clean": true
+  },
+  {
+    "board": "two_layer/daughtercard1d_weights_l1_differential_repaired_unrouted.kicad_pcb",
+    "before_identity_sha256": "bf50928b46632ad6ba0d82ad1392322c844a2ae204e43e1e41033428ff16f28a",
+    "after_identity_sha256": "bf50928b46632ad6ba0d82ad1392322c844a2ae204e43e1e41033428ff16f28a",
+    "identity_preserved": true,
+    "headers_mounts_edges_preserved": true,
+    "counts": {
+      "silk_over_copper": 43,
+      "text_thickness": 4,
+      "text_height": 4,
+      "lib_footprint_issues": 147,
+      "silk_edge_clearance": 3
+    },
+    "placement_clean": true
+  },
+  {
+    "board": "two_layer/daughtercard2_relu_l1_buffered_repaired_unrouted.kicad_pcb",
+    "before_identity_sha256": "3019e67160402033709c1f0ddcfda0ca029442ca13f29eff6575d3042f76a82c",
+    "after_identity_sha256": "3019e67160402033709c1f0ddcfda0ca029442ca13f29eff6575d3042f76a82c",
+    "identity_preserved": true,
+    "headers_mounts_edges_preserved": true,
+    "counts": {
+      "silk_overlap": 16,
+      "silk_over_copper": 128,
+      "text_thickness": 12,
+      "text_height": 8,
+      "lib_footprint_issues": 59,
+      "silk_edge_clearance": 3
+    },
+    "placement_clean": true
+  },
+  {
+    "board": "two_layer/daughtercard3_weights_l2_wta_differential_repaired_unrouted.kicad_pcb",
+    "before_identity_sha256": "505023ffa57ef0e0faefc71693af5d8b7c990c4d24e60290d11215fcb7f87a2d",
+    "after_identity_sha256": "505023ffa57ef0e0faefc71693af5d8b7c990c4d24e60290d11215fcb7f87a2d",
+    "identity_preserved": true,
+    "headers_mounts_edges_preserved": true,
+    "counts": {
+      "silk_over_copper": 15,
+      "text_thickness": 10,
+      "text_height": 10,
+      "lib_footprint_issues": 163,
+      "silk_edge_clearance": 3
+    },
+    "placement_clean": true
+  }
+]

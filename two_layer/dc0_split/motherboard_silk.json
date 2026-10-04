@@ -1,0 +1,1807 @@
+{
+  "reference_count": 85,
+  "clean": true,
+  "violations": [],
+  "method": "Actual KiCad stroked glyph shapes, conservative pad bounding boxes; no font or clearance reduction. Text bounding boxes may overlap when the actual strokes do not.",
+  "limits_mm": {
+    "height": 0.8,
+    "stroke": 0.12,
+    "pad_clearance": 0.2,
+    "glyph_clearance": 0.15,
+    "edge_clearance": 0.25
+  },
+  "adjacency": {
+    "clean": true,
+    "violations": [],
+    "references": [
+      {
+        "reference": "JD0",
+        "legacy_role": "JD0",
+        "label_to_own_pad_body_gap_mm": 0.47474499999999953,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DH5",
+        "legacy_role": "D_HI_5",
+        "label_to_own_pad_body_gap_mm": 0.4504750000000115,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RR5",
+        "legacy_role": "R_REF_5",
+        "label_to_own_pad_body_gap_mm": 0.4504750000000115,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DL0",
+        "legacy_role": "D_LO_0",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RR2",
+        "legacy_role": "R_REF_2",
+        "label_to_own_pad_body_gap_mm": 0.4504759999999983,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DL8",
+        "legacy_role": "D_LO_8",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RB4",
+        "legacy_role": "R_BOT_4",
+        "label_to_own_pad_body_gap_mm": 0.3742859999999997,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RT3",
+        "legacy_role": "R_TOP_3",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RR8",
+        "legacy_role": "R_REF_8",
+        "label_to_own_pad_body_gap_mm": 0.4504759999999983,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DH4",
+        "legacy_role": "D_HI_4",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RA4",
+        "legacy_role": "R_ADC_4",
+        "label_to_own_pad_body_gap_mm": 0.4504759999999983,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RA2",
+        "legacy_role": "R_ADC_2",
+        "label_to_own_pad_body_gap_mm": 0.4504759999999983,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RB7",
+        "legacy_role": "R_BOT_7",
+        "label_to_own_pad_body_gap_mm": 0.3742859999999979,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RT9",
+        "legacy_role": "R_TOP_9",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DH0",
+        "legacy_role": "D_HI_0",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RT0",
+        "legacy_role": "R_TOP_0",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000001,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DH1",
+        "legacy_role": "D_HI_1",
+        "label_to_own_pad_body_gap_mm": 0.4504750000000115,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RA9",
+        "legacy_role": "R_ADC_9",
+        "label_to_own_pad_body_gap_mm": 0.450476000000009,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RT5",
+        "legacy_role": "R_TOP_5",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RA1",
+        "legacy_role": "R_ADC_1",
+        "label_to_own_pad_body_gap_mm": 0.450476000000009,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RR1",
+        "legacy_role": "R_REF_1",
+        "label_to_own_pad_body_gap_mm": 0.4504750000000115,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RA6",
+        "legacy_role": "R_ADC_6",
+        "label_to_own_pad_body_gap_mm": 0.4504759999999983,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DL5",
+        "legacy_role": "D_LO_5",
+        "label_to_own_pad_body_gap_mm": 0.450476000000009,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "UR5",
+        "legacy_role": "U_REG5",
+        "label_to_own_pad_body_gap_mm": 0.45047599999999477,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "JAD",
+        "legacy_role": "J_MCU_SCORES",
+        "label_to_own_pad_body_gap_mm": 0.3742850000000004,
+        "maximum_mm": 3.0
+      },
+      {
+        "reference": "H1",
+        "legacy_role": "H1",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000001,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RA7",
+        "legacy_role": "R_ADC_7",
+        "label_to_own_pad_body_gap_mm": 0.450476000000009,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RA0",
+        "legacy_role": "R_ADC_0",
+        "label_to_own_pad_body_gap_mm": 0.4504759999999983,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DL2",
+        "legacy_role": "D_LO_2",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DH6",
+        "legacy_role": "D_HI_6",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DH7",
+        "legacy_role": "D_HI_7",
+        "label_to_own_pad_body_gap_mm": 0.4504750000000115,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RB0",
+        "legacy_role": "R_BOT_0",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000001,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RR6",
+        "legacy_role": "R_REF_6",
+        "label_to_own_pad_body_gap_mm": 0.4504759999999983,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DH8",
+        "legacy_role": "D_HI_8",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DL1",
+        "legacy_role": "D_LO_1",
+        "label_to_own_pad_body_gap_mm": 0.450476000000009,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "H2",
+        "legacy_role": "H2",
+        "label_to_own_pad_body_gap_mm": 0.45047599999999477,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DL4",
+        "legacy_role": "D_LO_4",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RR7",
+        "legacy_role": "R_REF_7",
+        "label_to_own_pad_body_gap_mm": 0.3742860000000121,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "JAR",
+        "legacy_role": "J_ADC_REF",
+        "label_to_own_pad_body_gap_mm": 0.3742850000000004,
+        "maximum_mm": 3.0
+      },
+      {
+        "reference": "RB8",
+        "legacy_role": "R_BOT_8",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000001,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "JS0",
+        "legacy_role": "J_SLOT0",
+        "label_to_own_pad_body_gap_mm": 0.47474499999999864,
+        "maximum_mm": 3.0
+      },
+      {
+        "reference": "RR4",
+        "legacy_role": "R_REF_4",
+        "label_to_own_pad_body_gap_mm": 0.3742859999999979,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "JS1",
+        "legacy_role": "J_SLOT1",
+        "label_to_own_pad_body_gap_mm": 0.47474500000000575,
+        "maximum_mm": 3.0
+      },
+      {
+        "reference": "H4",
+        "legacy_role": "H4",
+        "label_to_own_pad_body_gap_mm": 0.45047599999999477,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RA8",
+        "legacy_role": "R_ADC_8",
+        "label_to_own_pad_body_gap_mm": 0.4504759999999983,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RB2",
+        "legacy_role": "R_BOT_2",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000001,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DL3",
+        "legacy_role": "D_LO_3",
+        "label_to_own_pad_body_gap_mm": 0.450476000000009,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RT2",
+        "legacy_role": "R_TOP_2",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000001,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "JS3",
+        "legacy_role": "J_SLOT3",
+        "label_to_own_pad_body_gap_mm": 0.47474500000000575,
+        "maximum_mm": 3.0
+      },
+      {
+        "reference": "RT8",
+        "legacy_role": "R_TOP_8",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000001,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RA5",
+        "legacy_role": "R_ADC_5",
+        "label_to_own_pad_body_gap_mm": 0.450476000000009,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RT7",
+        "legacy_role": "R_TOP_7",
+        "label_to_own_pad_body_gap_mm": 0.3742859999999979,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DL7",
+        "legacy_role": "D_LO_7",
+        "label_to_own_pad_body_gap_mm": 0.450476000000009,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RR3",
+        "legacy_role": "R_REF_3",
+        "label_to_own_pad_body_gap_mm": 0.4504750000000115,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "JS2",
+        "legacy_role": "J_SLOT2",
+        "label_to_own_pad_body_gap_mm": 0.47474500000000575,
+        "maximum_mm": 3.0
+      },
+      {
+        "reference": "H3",
+        "legacy_role": "H3",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000001,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RB6",
+        "legacy_role": "R_BOT_6",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000001,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RR0",
+        "legacy_role": "R_REF_0",
+        "label_to_own_pad_body_gap_mm": 0.4504759999999983,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RR9",
+        "legacy_role": "R_REF_9",
+        "label_to_own_pad_body_gap_mm": 0.4504750000000115,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RB5",
+        "legacy_role": "R_BOT_5",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DL6",
+        "legacy_role": "D_LO_6",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RB9",
+        "legacy_role": "R_BOT_9",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RT4",
+        "legacy_role": "R_TOP_4",
+        "label_to_own_pad_body_gap_mm": 0.37428600000000056,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "JS5",
+        "legacy_role": "J_SLOT5",
+        "label_to_own_pad_body_gap_mm": 0.47474499999999864,
+        "maximum_mm": 3.0
+      },
+      {
+        "reference": "DL9",
+        "legacy_role": "D_LO_9",
+        "label_to_own_pad_body_gap_mm": 0.450476000000009,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DH3",
+        "legacy_role": "D_HI_3",
+        "label_to_own_pad_body_gap_mm": 0.4504750000000115,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RB1",
+        "legacy_role": "R_BOT_1",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "JP",
+        "legacy_role": "J_PWR_IN",
+        "label_to_own_pad_body_gap_mm": 0.3742849999999862,
+        "maximum_mm": 3.0
+      },
+      {
+        "reference": "JS4",
+        "legacy_role": "J_SLOT4",
+        "label_to_own_pad_body_gap_mm": 0.47474499999999864,
+        "maximum_mm": 3.0
+      },
+      {
+        "reference": "DH2",
+        "legacy_role": "D_HI_2",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "DH9",
+        "legacy_role": "D_HI_9",
+        "label_to_own_pad_body_gap_mm": 0.4504750000000115,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "JSPI",
+        "legacy_role": "J_MCU_SPI",
+        "label_to_own_pad_body_gap_mm": 0.3742850000000004,
+        "maximum_mm": 3.0
+      },
+      {
+        "reference": "RA3",
+        "legacy_role": "R_ADC_3",
+        "label_to_own_pad_body_gap_mm": 0.450476000000009,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RB3",
+        "legacy_role": "R_BOT_3",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RT1",
+        "legacy_role": "R_TOP_1",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RT6",
+        "legacy_role": "R_TOP_6",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000001,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RM",
+        "legacy_role": "R_REG_MINLOAD",
+        "label_to_own_pad_body_gap_mm": 0.4504760000000019,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "RRL",
+        "legacy_role": "R_REF_LINK",
+        "label_to_own_pad_body_gap_mm": 0.3361890000000045,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "CRP",
+        "legacy_role": "C_RAIL_P",
+        "label_to_own_pad_body_gap_mm": 0.41238000000000063,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "CBP",
+        "legacy_role": "C_BULK_P",
+        "label_to_own_pad_body_gap_mm": 0.4747450000000004,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "CRI",
+        "legacy_role": "C_REG_IN",
+        "label_to_own_pad_body_gap_mm": 0.4504749999999973,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "CRN",
+        "legacy_role": "C_RAIL_N",
+        "label_to_own_pad_body_gap_mm": 0.4504739999999998,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "CRB",
+        "legacy_role": "C_REG_BULK",
+        "label_to_own_pad_body_gap_mm": 0.41237999999999886,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "CRO",
+        "legacy_role": "C_REG_OUT",
+        "label_to_own_pad_body_gap_mm": 0.4123790000000014,
+        "maximum_mm": 4.01
+      },
+      {
+        "reference": "CBN",
+        "legacy_role": "C_BULK_N",
+        "label_to_own_pad_body_gap_mm": 0.47474499999999864,
+        "maximum_mm": 4.01
+      }
+    ]
+  },
+  "placed": [
+    {
+      "reference": "JSPI",
+      "angle_deg": 0,
+      "bbox_mm": [
+        57.574285,
+        3.503855,
+        59.941905,
+        4.423855
+      ],
+      "anchor_mm": [
+        58.79619,
+        4.0
+      ],
+      "distance_mm": 8.796190000000003
+    },
+    {
+      "reference": "CBN",
+      "angle_deg": 0,
+      "bbox_mm": [
+        90.911426,
+        20.355255,
+        93.126665,
+        21.275255
+      ],
+      "anchor_mm": [
+        91.9999995,
+        20.8514
+      ],
+      "distance_mm": 2.1486000000000565
+    },
+    {
+      "reference": "CBP",
+      "angle_deg": 0,
+      "bbox_mm": [
+        6.89238,
+        14.355255,
+        9.107619,
+        15.275255
+      ],
+      "anchor_mm": [
+        8.0,
+        14.8514
+      ],
+      "distance_mm": 2.1486
+    },
+    {
+      "reference": "CRB",
+      "angle_deg": 0,
+      "bbox_mm": [
+        87.11238,
+        93.503855,
+        89.327619,
+        94.423855
+      ],
+      "anchor_mm": [
+        88.22,
+        94.0
+      ],
+      "distance_mm": 5.219999999999999
+    },
+    {
+      "reference": "CRI",
+      "angle_deg": 0,
+      "bbox_mm": [
+        61.900475,
+        93.503855,
+        63.658571,
+        94.423855
+      ],
+      "anchor_mm": [
+        62.760476000000004,
+        94.0
+      ],
+      "distance_mm": 2.760476000000004
+    },
+    {
+      "reference": "CRN",
+      "angle_deg": 0,
+      "bbox_mm": [
+        85.900474,
+        24.503855,
+        88.115713,
+        25.423855
+      ],
+      "anchor_mm": [
+        86.989047,
+        25.0
+      ],
+      "distance_mm": 2.9890469999999993
+    },
+    {
+      "reference": "CRO",
+      "angle_deg": 0,
+      "bbox_mm": [
+        67.862379,
+        93.503855,
+        70.115713,
+        94.423855
+      ],
+      "anchor_mm": [
+        68.989047,
+        94.0
+      ],
+      "distance_mm": 2.9890469999999993
+    },
+    {
+      "reference": "CRP",
+      "angle_deg": 0,
+      "bbox_mm": [
+        9.86238,
+        24.503855,
+        12.077619,
+        25.423855
+      ],
+      "anchor_mm": [
+        10.97,
+        25.0
+      ],
+      "distance_mm": 2.9700000000000006
+    },
+    {
+      "reference": "DH0",
+      "angle_deg": 0,
+      "bbox_mm": [
+        35.550476,
+        37.003855,
+        37.727618,
+        37.923855
+      ],
+      "anchor_mm": [
+        36.62,
+        37.5
+      ],
+      "distance_mm": 3.6199999999999974
+    },
+    {
+      "reference": "DH1",
+      "angle_deg": 0,
+      "bbox_mm": [
+        84.550475,
+        37.003855,
+        86.727617,
+        37.923855
+      ],
+      "anchor_mm": [
+        85.61999999999999,
+        37.5
+      ],
+      "distance_mm": 3.6199999999999903
+    },
+    {
+      "reference": "DH2",
+      "angle_deg": 0,
+      "bbox_mm": [
+        35.550476,
+        48.003855,
+        37.727618,
+        48.923855
+      ],
+      "anchor_mm": [
+        36.62,
+        48.5
+      ],
+      "distance_mm": 3.6199999999999974
+    },
+    {
+      "reference": "DH3",
+      "angle_deg": 0,
+      "bbox_mm": [
+        84.550475,
+        48.003855,
+        86.727617,
+        48.923855
+      ],
+      "anchor_mm": [
+        85.61999999999999,
+        48.5
+      ],
+      "distance_mm": 3.6199999999999903
+    },
+    {
+      "reference": "DH4",
+      "angle_deg": 0,
+      "bbox_mm": [
+        35.550476,
+        58.96576,
+        37.765714,
+        59.923855
+      ],
+      "anchor_mm": [
+        36.62,
+        59.5
+      ],
+      "distance_mm": 3.6199999999999974
+    },
+    {
+      "reference": "DH5",
+      "angle_deg": 0,
+      "bbox_mm": [
+        84.550475,
+        59.003855,
+        86.727617,
+        59.923855
+      ],
+      "anchor_mm": [
+        85.61999999999999,
+        59.5
+      ],
+      "distance_mm": 3.6199999999999903
+    },
+    {
+      "reference": "DH6",
+      "angle_deg": 0,
+      "bbox_mm": [
+        35.550476,
+        70.003855,
+        37.727618,
+        70.923855
+      ],
+      "anchor_mm": [
+        36.62,
+        70.5
+      ],
+      "distance_mm": 3.6199999999999974
+    },
+    {
+      "reference": "DH7",
+      "angle_deg": 0,
+      "bbox_mm": [
+        84.550475,
+        70.003855,
+        86.765713,
+        70.923855
+      ],
+      "anchor_mm": [
+        85.61999999999999,
+        70.5
+      ],
+      "distance_mm": 3.6199999999999903
+    },
+    {
+      "reference": "DH8",
+      "angle_deg": 0,
+      "bbox_mm": [
+        35.550476,
+        81.003855,
+        37.727618,
+        81.923855
+      ],
+      "anchor_mm": [
+        36.62,
+        81.5
+      ],
+      "distance_mm": 3.6199999999999974
+    },
+    {
+      "reference": "DH9",
+      "angle_deg": 0,
+      "bbox_mm": [
+        84.550475,
+        81.003855,
+        86.727617,
+        81.923855
+      ],
+      "anchor_mm": [
+        85.61999999999999,
+        81.5
+      ],
+      "distance_mm": 3.6199999999999903
+    },
+    {
+      "reference": "DL0",
+      "angle_deg": 0,
+      "bbox_mm": [
+        43.550476,
+        37.003855,
+        45.537142,
+        37.923855
+      ],
+      "anchor_mm": [
+        44.524762,
+        37.5
+      ],
+      "distance_mm": 3.5247620000000026
+    },
+    {
+      "reference": "DL1",
+      "angle_deg": 0,
+      "bbox_mm": [
+        92.550476,
+        37.003855,
+        94.537142,
+        37.923855
+      ],
+      "anchor_mm": [
+        93.524762,
+        37.5
+      ],
+      "distance_mm": 3.5247619999999955
+    },
+    {
+      "reference": "DL2",
+      "angle_deg": 0,
+      "bbox_mm": [
+        43.550476,
+        48.003855,
+        45.537142,
+        48.923855
+      ],
+      "anchor_mm": [
+        44.524762,
+        48.5
+      ],
+      "distance_mm": 3.5247620000000026
+    },
+    {
+      "reference": "DL3",
+      "angle_deg": 0,
+      "bbox_mm": [
+        92.550476,
+        48.003855,
+        94.537142,
+        48.923855
+      ],
+      "anchor_mm": [
+        93.524762,
+        48.5
+      ],
+      "distance_mm": 3.5247619999999955
+    },
+    {
+      "reference": "DL4",
+      "angle_deg": 0,
+      "bbox_mm": [
+        43.550476,
+        58.96576,
+        45.575238,
+        59.923855
+      ],
+      "anchor_mm": [
+        44.524762,
+        59.5
+      ],
+      "distance_mm": 3.5247620000000026
+    },
+    {
+      "reference": "DL5",
+      "angle_deg": 0,
+      "bbox_mm": [
+        92.550476,
+        59.003855,
+        94.537142,
+        59.923855
+      ],
+      "anchor_mm": [
+        93.524762,
+        59.5
+      ],
+      "distance_mm": 3.5247619999999955
+    },
+    {
+      "reference": "DL6",
+      "angle_deg": 0,
+      "bbox_mm": [
+        43.550476,
+        70.003855,
+        45.537142,
+        70.923855
+      ],
+      "anchor_mm": [
+        44.524762,
+        70.5
+      ],
+      "distance_mm": 3.5247620000000026
+    },
+    {
+      "reference": "DL7",
+      "angle_deg": 0,
+      "bbox_mm": [
+        92.550476,
+        70.003855,
+        94.575238,
+        70.923855
+      ],
+      "anchor_mm": [
+        93.524762,
+        70.5
+      ],
+      "distance_mm": 3.5247619999999955
+    },
+    {
+      "reference": "DL8",
+      "angle_deg": 0,
+      "bbox_mm": [
+        43.550476,
+        81.003855,
+        45.537142,
+        81.923855
+      ],
+      "anchor_mm": [
+        44.524762,
+        81.5
+      ],
+      "distance_mm": 3.5247620000000026
+    },
+    {
+      "reference": "DL9",
+      "angle_deg": 0,
+      "bbox_mm": [
+        92.550476,
+        81.003855,
+        94.537142,
+        81.923855
+      ],
+      "anchor_mm": [
+        93.524762,
+        81.5
+      ],
+      "distance_mm": 3.5247619999999955
+    },
+    {
+      "reference": "JAD",
+      "angle_deg": 0,
+      "bbox_mm": [
+        46.294285,
+        95.703855,
+        48.242857,
+        96.623855
+      ],
+      "anchor_mm": [
+        47.287619,
+        96.2
+      ],
+      "distance_mm": 16.187618999999998
+    },
+    {
+      "reference": "JAR",
+      "angle_deg": 0,
+      "bbox_mm": [
+        95.224285,
+        14.503855,
+        97.172857,
+        15.423855
+      ],
+      "anchor_mm": [
+        96.217619,
+        15.0
+      ],
+      "distance_mm": 2.217618999999999
+    },
+    {
+      "reference": "JD0",
+      "angle_deg": 0,
+      "bbox_mm": [
+        48.96857,
+        6.535255,
+        50.993332,
+        7.455255
+      ],
+      "anchor_mm": [
+        49.9999995,
+        7.0314000000000005
+      ],
+      "distance_mm": 2.9686000000000416
+    },
+    {
+      "reference": "JS0",
+      "angle_deg": 0,
+      "bbox_mm": [
+        48.987618,
+        28.485255,
+        50.974285,
+        29.405255
+      ],
+      "anchor_mm": [
+        50.0,
+        28.9814
+      ],
+      "distance_mm": 3.0185999999999993
+    },
+    {
+      "reference": "JS1",
+      "angle_deg": 0,
+      "bbox_mm": [
+        48.987618,
+        39.485255,
+        50.974285,
+        40.405255
+      ],
+      "anchor_mm": [
+        50.0,
+        39.9814
+      ],
+      "distance_mm": 3.0185999999999993
+    },
+    {
+      "reference": "JS2",
+      "angle_deg": 0,
+      "bbox_mm": [
+        48.987618,
+        50.485255,
+        50.974285,
+        51.405255
+      ],
+      "anchor_mm": [
+        50.0,
+        50.9814
+      ],
+      "distance_mm": 3.0185999999999993
+    },
+    {
+      "reference": "JS3",
+      "angle_deg": 0,
+      "bbox_mm": [
+        48.987618,
+        61.485255,
+        50.974285,
+        62.405255
+      ],
+      "anchor_mm": [
+        50.0,
+        61.9814
+      ],
+      "distance_mm": 3.0185999999999993
+    },
+    {
+      "reference": "JS4",
+      "angle_deg": 0,
+      "bbox_mm": [
+        48.987618,
+        72.44716,
+        51.012381,
+        73.405255
+      ],
+      "anchor_mm": [
+        50.0,
+        72.9814
+      ],
+      "distance_mm": 3.0186000000000064
+    },
+    {
+      "reference": "JS5",
+      "angle_deg": 0,
+      "bbox_mm": [
+        48.987618,
+        83.485255,
+        50.974285,
+        84.405255
+      ],
+      "anchor_mm": [
+        50.0,
+        83.9814
+      ],
+      "distance_mm": 3.0186000000000064
+    },
+    {
+      "reference": "RA0",
+      "angle_deg": 0,
+      "bbox_mm": [
+        27.050476,
+        37.003855,
+        29.075237,
+        37.923855
+      ],
+      "anchor_mm": [
+        28.043809000000003,
+        37.5
+      ],
+      "distance_mm": 3.043809000000003
+    },
+    {
+      "reference": "RA1",
+      "angle_deg": 0,
+      "bbox_mm": [
+        76.050476,
+        37.003855,
+        78.075237,
+        37.923855
+      ],
+      "anchor_mm": [
+        77.043809,
+        37.5
+      ],
+      "distance_mm": 3.043808999999996
+    },
+    {
+      "reference": "RA2",
+      "angle_deg": 0,
+      "bbox_mm": [
+        27.050476,
+        48.003855,
+        29.075237,
+        48.923855
+      ],
+      "anchor_mm": [
+        28.043809000000003,
+        48.5
+      ],
+      "distance_mm": 3.043809000000003
+    },
+    {
+      "reference": "RA3",
+      "angle_deg": 0,
+      "bbox_mm": [
+        76.050476,
+        48.003855,
+        78.075237,
+        48.923855
+      ],
+      "anchor_mm": [
+        77.043809,
+        48.5
+      ],
+      "distance_mm": 3.043808999999996
+    },
+    {
+      "reference": "RA4",
+      "angle_deg": 0,
+      "bbox_mm": [
+        27.050476,
+        58.96576,
+        29.113333,
+        59.923855
+      ],
+      "anchor_mm": [
+        28.043809000000003,
+        59.5
+      ],
+      "distance_mm": 3.043809000000003
+    },
+    {
+      "reference": "RA5",
+      "angle_deg": 0,
+      "bbox_mm": [
+        76.050476,
+        59.003855,
+        78.075237,
+        59.923855
+      ],
+      "anchor_mm": [
+        77.043809,
+        59.5
+      ],
+      "distance_mm": 3.043808999999996
+    },
+    {
+      "reference": "RA6",
+      "angle_deg": 0,
+      "bbox_mm": [
+        27.050476,
+        70.003855,
+        29.075237,
+        70.923855
+      ],
+      "anchor_mm": [
+        28.043809000000003,
+        70.5
+      ],
+      "distance_mm": 3.043809000000003
+    },
+    {
+      "reference": "RA7",
+      "angle_deg": 0,
+      "bbox_mm": [
+        76.050476,
+        70.003855,
+        78.113333,
+        70.923855
+      ],
+      "anchor_mm": [
+        77.043809,
+        70.5
+      ],
+      "distance_mm": 3.043808999999996
+    },
+    {
+      "reference": "RA8",
+      "angle_deg": 0,
+      "bbox_mm": [
+        27.050476,
+        81.003855,
+        29.075237,
+        81.923855
+      ],
+      "anchor_mm": [
+        28.043809000000003,
+        81.5
+      ],
+      "distance_mm": 3.043809000000003
+    },
+    {
+      "reference": "RA9",
+      "angle_deg": 0,
+      "bbox_mm": [
+        76.050476,
+        81.003855,
+        78.075237,
+        81.923855
+      ],
+      "anchor_mm": [
+        77.043809,
+        81.5
+      ],
+      "distance_mm": 3.043808999999996
+    },
+    {
+      "reference": "RB0",
+      "angle_deg": 0,
+      "bbox_mm": [
+        15.050476,
+        37.003855,
+        17.189523,
+        37.923855
+      ],
+      "anchor_mm": [
+        16.100952,
+        37.5
+      ],
+      "distance_mm": 3.1009519999999995
+    },
+    {
+      "reference": "RB1",
+      "angle_deg": 0,
+      "bbox_mm": [
+        64.050476,
+        37.003855,
+        66.189523,
+        37.923855
+      ],
+      "anchor_mm": [
+        65.100952,
+        37.5
+      ],
+      "distance_mm": 3.1009520000000066
+    },
+    {
+      "reference": "RB2",
+      "angle_deg": 0,
+      "bbox_mm": [
+        15.050476,
+        48.003855,
+        17.189523,
+        48.923855
+      ],
+      "anchor_mm": [
+        16.100952,
+        48.5
+      ],
+      "distance_mm": 3.1009519999999995
+    },
+    {
+      "reference": "RB3",
+      "angle_deg": 0,
+      "bbox_mm": [
+        64.050476,
+        48.003855,
+        66.189523,
+        48.923855
+      ],
+      "anchor_mm": [
+        65.100952,
+        48.5
+      ],
+      "distance_mm": 3.1009520000000066
+    },
+    {
+      "reference": "RB4",
+      "angle_deg": 0,
+      "bbox_mm": [
+        8.848571,
+        58.96576,
+        11.025714,
+        59.923855
+      ],
+      "anchor_mm": [
+        9.899047,
+        59.5
+      ],
+      "distance_mm": 3.1009530000000005
+    },
+    {
+      "reference": "RB5",
+      "angle_deg": 0,
+      "bbox_mm": [
+        64.050476,
+        59.003855,
+        66.189523,
+        59.923855
+      ],
+      "anchor_mm": [
+        65.100952,
+        59.5
+      ],
+      "distance_mm": 3.1009520000000066
+    },
+    {
+      "reference": "RB6",
+      "angle_deg": 0,
+      "bbox_mm": [
+        15.050476,
+        70.003855,
+        17.189523,
+        70.923855
+      ],
+      "anchor_mm": [
+        16.100952,
+        70.5
+      ],
+      "distance_mm": 3.1009519999999995
+    },
+    {
+      "reference": "RB7",
+      "angle_deg": 0,
+      "bbox_mm": [
+        57.848571,
+        70.003855,
+        60.025714,
+        70.923855
+      ],
+      "anchor_mm": [
+        58.899047,
+        70.5
+      ],
+      "distance_mm": 3.100952999999997
+    },
+    {
+      "reference": "RB8",
+      "angle_deg": 0,
+      "bbox_mm": [
+        15.050476,
+        81.003855,
+        17.189523,
+        81.923855
+      ],
+      "anchor_mm": [
+        16.100952,
+        81.5
+      ],
+      "distance_mm": 3.1009519999999995
+    },
+    {
+      "reference": "RB9",
+      "angle_deg": 0,
+      "bbox_mm": [
+        64.050476,
+        81.003855,
+        66.189523,
+        81.923855
+      ],
+      "anchor_mm": [
+        65.100952,
+        81.5
+      ],
+      "distance_mm": 3.1009520000000066
+    },
+    {
+      "reference": "RR0",
+      "angle_deg": 0,
+      "bbox_mm": [
+        21.050476,
+        37.003855,
+        23.189523,
+        37.923855
+      ],
+      "anchor_mm": [
+        22.100952,
+        37.5
+      ],
+      "distance_mm": 3.1009519999999995
+    },
+    {
+      "reference": "RR1",
+      "angle_deg": 0,
+      "bbox_mm": [
+        70.050475,
+        37.003855,
+        72.189522,
+        37.923855
+      ],
+      "anchor_mm": [
+        71.10095199999999,
+        37.5
+      ],
+      "distance_mm": 3.1009519999999924
+    },
+    {
+      "reference": "RR2",
+      "angle_deg": 0,
+      "bbox_mm": [
+        21.050476,
+        48.003855,
+        23.189523,
+        48.923855
+      ],
+      "anchor_mm": [
+        22.100952,
+        48.5
+      ],
+      "distance_mm": 3.1009519999999995
+    },
+    {
+      "reference": "RR3",
+      "angle_deg": 0,
+      "bbox_mm": [
+        70.050475,
+        48.003855,
+        72.189522,
+        48.923855
+      ],
+      "anchor_mm": [
+        71.10095199999999,
+        48.5
+      ],
+      "distance_mm": 3.1009519999999924
+    },
+    {
+      "reference": "RR4",
+      "angle_deg": 0,
+      "bbox_mm": [
+        14.848571,
+        58.96576,
+        17.025714,
+        59.923855
+      ],
+      "anchor_mm": [
+        15.899047000000001,
+        59.5
+      ],
+      "distance_mm": 3.1009529999999987
+    },
+    {
+      "reference": "RR5",
+      "angle_deg": 0,
+      "bbox_mm": [
+        70.050475,
+        59.003855,
+        72.189522,
+        59.923855
+      ],
+      "anchor_mm": [
+        71.10095199999999,
+        59.5
+      ],
+      "distance_mm": 3.1009519999999924
+    },
+    {
+      "reference": "RR6",
+      "angle_deg": 0,
+      "bbox_mm": [
+        21.050476,
+        70.003855,
+        23.189523,
+        70.923855
+      ],
+      "anchor_mm": [
+        22.100952,
+        70.5
+      ],
+      "distance_mm": 3.1009519999999995
+    },
+    {
+      "reference": "RR7",
+      "angle_deg": 0,
+      "bbox_mm": [
+        63.848571,
+        70.003855,
+        66.025714,
+        70.923855
+      ],
+      "anchor_mm": [
+        64.89904700000001,
+        70.5
+      ],
+      "distance_mm": 3.10095299999999
+    },
+    {
+      "reference": "RR8",
+      "angle_deg": 0,
+      "bbox_mm": [
+        21.050476,
+        81.003855,
+        23.189523,
+        81.923855
+      ],
+      "anchor_mm": [
+        22.100952,
+        81.5
+      ],
+      "distance_mm": 3.1009519999999995
+    },
+    {
+      "reference": "RR9",
+      "angle_deg": 0,
+      "bbox_mm": [
+        70.050475,
+        81.003855,
+        72.189522,
+        81.923855
+      ],
+      "anchor_mm": [
+        71.10095199999999,
+        81.5
+      ],
+      "distance_mm": 3.1009519999999924
+    },
+    {
+      "reference": "RRL",
+      "angle_deg": 0,
+      "bbox_mm": [
+        53.761189,
+        91.503855,
+        55.862141,
+        92.423855
+      ],
+      "anchor_mm": [
+        54.868809,
+        92.0
+      ],
+      "distance_mm": 2.868808999999999
+    },
+    {
+      "reference": "RT0",
+      "angle_deg": 0,
+      "bbox_mm": [
+        9.050476,
+        37.003855,
+        10.999047,
+        37.923855
+      ],
+      "anchor_mm": [
+        10.005714,
+        37.5
+      ],
+      "distance_mm": 3.0057139999999993
+    },
+    {
+      "reference": "RT1",
+      "angle_deg": 0,
+      "bbox_mm": [
+        58.050476,
+        37.003855,
+        59.999047,
+        37.923855
+      ],
+      "anchor_mm": [
+        59.005714,
+        37.5
+      ],
+      "distance_mm": 3.0057139999999976
+    },
+    {
+      "reference": "RT2",
+      "angle_deg": 0,
+      "bbox_mm": [
+        9.050476,
+        48.003855,
+        10.999047,
+        48.923855
+      ],
+      "anchor_mm": [
+        10.005714,
+        48.5
+      ],
+      "distance_mm": 3.0057139999999993
+    },
+    {
+      "reference": "RT3",
+      "angle_deg": 0,
+      "bbox_mm": [
+        58.050476,
+        48.003855,
+        59.999047,
+        48.923855
+      ],
+      "anchor_mm": [
+        59.005714,
+        48.5
+      ],
+      "distance_mm": 3.0057139999999976
+    },
+    {
+      "reference": "RT4",
+      "angle_deg": 0,
+      "bbox_mm": [
+        3.039047,
+        58.96576,
+        5.025714,
+        59.923855
+      ],
+      "anchor_mm": [
+        3.994285,
+        59.5
+      ],
+      "distance_mm": 3.005715
+    },
+    {
+      "reference": "RT5",
+      "angle_deg": 0,
+      "bbox_mm": [
+        58.050476,
+        59.003855,
+        59.999047,
+        59.923855
+      ],
+      "anchor_mm": [
+        59.005714,
+        59.5
+      ],
+      "distance_mm": 3.0057139999999976
+    },
+    {
+      "reference": "RT6",
+      "angle_deg": 0,
+      "bbox_mm": [
+        9.050476,
+        70.003855,
+        10.999047,
+        70.923855
+      ],
+      "anchor_mm": [
+        10.005714,
+        70.5
+      ],
+      "distance_mm": 3.0057139999999993
+    },
+    {
+      "reference": "RT7",
+      "angle_deg": 0,
+      "bbox_mm": [
+        52.039047,
+        70.003855,
+        54.025714,
+        70.923855
+      ],
+      "anchor_mm": [
+        52.994285000000005,
+        70.5
+      ],
+      "distance_mm": 3.005714999999995
+    },
+    {
+      "reference": "RT8",
+      "angle_deg": 0,
+      "bbox_mm": [
+        9.050476,
+        81.003855,
+        10.999047,
+        81.923855
+      ],
+      "anchor_mm": [
+        10.005714,
+        81.5
+      ],
+      "distance_mm": 3.0057139999999993
+    },
+    {
+      "reference": "RT9",
+      "angle_deg": 0,
+      "bbox_mm": [
+        58.050476,
+        81.003855,
+        59.999047,
+        81.923855
+      ],
+      "anchor_mm": [
+        59.005714,
+        81.5
+      ],
+      "distance_mm": 3.0057139999999976
+    },
+    {
+      "reference": "UR5",
+      "angle_deg": 0,
+      "bbox_mm": [
+        67.402976,
+        96.503855,
+        69.580118,
+        97.423855
+      ],
+      "anchor_mm": [
+        68.4725,
+        97.0
+      ],
+      "distance_mm": 2.4724999999999966
+    },
+    {
+      "reference": "H1",
+      "angle_deg": 0,
+      "bbox_mm": [
+        8.200476,
+        4.503855,
+        9.577618,
+        5.423855
+      ],
+      "anchor_mm": [
+        8.870000000000001,
+        5.0
+      ],
+      "distance_mm": 3.870000000000001
+    },
+    {
+      "reference": "H2",
+      "angle_deg": 0,
+      "bbox_mm": [
+        98.200476,
+        4.503855,
+        99.577618,
+        5.423855
+      ],
+      "anchor_mm": [
+        98.87,
+        5.0
+      ],
+      "distance_mm": 3.8700000000000045
+    },
+    {
+      "reference": "H3",
+      "angle_deg": 0,
+      "bbox_mm": [
+        8.200476,
+        94.503855,
+        9.577618,
+        95.423855
+      ],
+      "anchor_mm": [
+        8.870000000000001,
+        95.0
+      ],
+      "distance_mm": 3.870000000000001
+    },
+    {
+      "reference": "H4",
+      "angle_deg": 0,
+      "bbox_mm": [
+        98.200476,
+        94.46576,
+        99.615714,
+        95.423855
+      ],
+      "anchor_mm": [
+        98.87,
+        95.0
+      ],
+      "distance_mm": 3.8700000000000045
+    },
+    {
+      "reference": "JP",
+      "angle_deg": 0,
+      "bbox_mm": [
+        78.304285,
+        95.503855,
+        79.567143,
+        96.423855
+      ],
+      "anchor_mm": [
+        78.954762,
+        96.0
+      ],
+      "distance_mm": 6.954762000000002
+    },
+    {
+      "reference": "RM",
+      "angle_deg": 0,
+      "bbox_mm": [
+        53.875476,
+        94.003855,
+        55.328809,
+        94.923855
+      ],
+      "anchor_mm": [
+        54.602143,
+        94.5
+      ],
+      "distance_mm": 2.602142999999998
+    }
+  ],
+  "unplaced": []
+}
