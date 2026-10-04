@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-04T16:10:41",
+    "date": "2026-10-04T16:16:46",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -37,89 +37,20 @@
             "description": "Silkscreen clearance",
             "items": [
                 {
-                    "description": "Segment of JM2 on F.Silkscreen",
+                    "description": "Segment of JM2 on B.Silkscreen",
                     "pos": {
                         "x": 38.73,
                         "y": 25.67
                     },
-                    "uuid": "623ca664-e7f1-4eec-9699-1aeeb2c8f9b6"
+                    "uuid": "61d5ea03-c08d-46f2-98a4-c600b032cb16"
                 },
                 {
-                    "description": "PCB text 'W5' on F.Silkscreen",
+                    "description": "PCB text 'W1' on B.Silkscreen",
                     "pos": {
                         "x": 32.38,
                         "y": 25.3
                     },
-                    "uuid": "9410ed8a-d1c2-4a48-a9eb-453915dda58a"
-                }
-            ],
-            "severity": "warning",
-            "type": "silk_overlap"
-        },
-        {
-            "description": "Silkscreen clearance",
-            "items": [
-                {
-                    "description": "PCB text 'GND' on F.Silkscreen",
-                    "pos": {
-                        "x": 42.5,
-                        "y": 28.54
-                    },
-                    "uuid": "29e83401-8946-4f0c-bae5-eae644440b3f"
-                },
-                {
-                    "description": "Segment of JM2 on F.Silkscreen",
-                    "pos": {
-                        "x": 41.33,
-                        "y": 27.0
-                    },
-                    "uuid": "3fa95f0b-17e7-4c94-ac64-0dafbbf7f4c9"
-                }
-            ],
-            "severity": "warning",
-            "type": "silk_overlap"
-        },
-        {
-            "description": "Silkscreen clearance",
-            "items": [
-                {
-                    "description": "Segment of JM2 on F.Silkscreen",
-                    "pos": {
-                        "x": 41.33,
-                        "y": 28.33
-                    },
-                    "uuid": "1ebcb975-9e14-431a-b2fc-e0338485ddcb"
-                },
-                {
-                    "description": "PCB text 'GND' on F.Silkscreen",
-                    "pos": {
-                        "x": 42.5,
-                        "y": 28.54
-                    },
-                    "uuid": "29e83401-8946-4f0c-bae5-eae644440b3f"
-                }
-            ],
-            "severity": "warning",
-            "type": "silk_overlap"
-        },
-        {
-            "description": "Silkscreen clearance",
-            "items": [
-                {
-                    "description": "PCB text 'W2' on F.Silkscreen",
-                    "pos": {
-                        "x": 10.5,
-                        "y": 16.3
-                    },
-                    "uuid": "23f2d681-c879-4278-92cc-a49d5611784f"
-                },
-                {
-                    "description": "Segment of JAD on F.Silkscreen",
-                    "pos": {
-                        "x": 10.5,
-                        "y": 16.67
-                    },
-                    "uuid": "3ecaa352-31f5-47b3-96c3-552faf9e5a14"
+                    "uuid": "81bcb06d-0cba-4b63-8620-0d36a4e99e0a"
                 }
             ],
             "severity": "warning",
@@ -129,20 +60,20 @@
             "description": "Silkscreen clipped by solder mask",
             "items": [
                 {
-                    "description": "Segment of C1 on F.Silkscreen",
+                    "description": "PCB text 'W6' on B.Silkscreen",
                     "pos": {
-                        "x": 45.08,
-                        "y": 52.015
+                        "x": 10.5,
+                        "y": 36.62
                     },
-                    "uuid": "746657fc-95bf-432c-a1ad-8cb91847eb8c"
+                    "uuid": "880618f8-a484-455a-b944-742c8e912701"
                 },
                 {
-                    "description": "PTH pad 1 [3V3] of C1",
+                    "description": "PTH pad 5 [ADC_4] of JAD",
                     "pos": {
-                        "x": 46.0,
-                        "y": 50.0
+                        "x": 10.5,
+                        "y": 35.78
                     },
-                    "uuid": "99581529-8491-4f5c-a888-dc59621a7b57"
+                    "uuid": "9c4f9bc8-d37f-454a-a3fb-c19884a2cd80"
                 }
             ],
             "severity": "warning",
@@ -152,20 +83,20 @@
             "description": "Silkscreen clipped by solder mask",
             "items": [
                 {
-                    "description": "Segment of C1 on F.Silkscreen",
+                    "description": "PCB text 'W7' on B.Silkscreen",
                     "pos": {
-                        "x": 46.92,
-                        "y": 50.485
+                        "x": 10.5,
+                        "y": 39.16
                     },
-                    "uuid": "52dfdf22-2c04-466e-9dcb-a471fac98761"
+                    "uuid": "4df8fa39-9fc9-4a08-bc0a-3f09143359a0"
                 },
                 {
-                    "description": "PTH pad 1 [3V3] of C1",
+                    "description": "PTH pad 4 [ADC_3] of JAD",
                     "pos": {
-                        "x": 46.0,
-                        "y": 50.0
+                        "x": 10.5,
+                        "y": 38.32
                     },
-                    "uuid": "99581529-8491-4f5c-a888-dc59621a7b57"
+                    "uuid": "1ec39b45-8236-4039-a410-dadfba087981"
                 }
             ],
             "severity": "warning",
@@ -175,20 +106,20 @@
             "description": "Silkscreen clipped by solder mask",
             "items": [
                 {
-                    "description": "PCB text 'W3' on F.Silkscreen",
+                    "description": "PCB text 'W4' on B.Silkscreen",
                     "pos": {
                         "x": 10.5,
-                        "y": 23.92
+                        "y": 41.699999
                     },
-                    "uuid": "40f10749-2298-49ba-bb4c-9a29946c788d"
+                    "uuid": "13622cdd-ecf8-400f-ab65-1a1a1f3b72cb"
                 },
                 {
                     "description": "PTH pad 3 [ADC_2] of JAD",
                     "pos": {
                         "x": 10.5,
-                        "y": 23.08
+                        "y": 40.86
                     },
-                    "uuid": "18875624-d651-4d20-9a07-bc28b15a7469"
+                    "uuid": "e8f0219a-2621-466e-b0b6-546ce059693e"
                 }
             ],
             "severity": "warning",
@@ -198,20 +129,66 @@
             "description": "Silkscreen clipped by solder mask",
             "items": [
                 {
-                    "description": "PCB text 'W1' on F.Silkscreen",
+                    "description": "PCB text 'W5' on B.Silkscreen",
                     "pos": {
                         "x": 10.5,
-                        "y": 34.08
+                        "y": 44.239999
                     },
-                    "uuid": "d933920c-43bf-4fe7-86b2-9b108414661b"
+                    "uuid": "dfe95bf7-345d-4ac0-87c9-3dabe990c9ab"
                 },
                 {
-                    "description": "PTH pad 7 [ADC_6] of JAD",
+                    "description": "PTH pad 2 [ADC_1] of JAD",
                     "pos": {
                         "x": 10.5,
-                        "y": 33.24
+                        "y": 43.4
                     },
-                    "uuid": "21ed63af-5913-40d2-b529-a49c7a5a1828"
+                    "uuid": "fba1a180-dfb5-4217-9fe2-dcfd52c70b63"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'W3' on B.Silkscreen",
+                    "pos": {
+                        "x": 10.5,
+                        "y": 23.92
+                    },
+                    "uuid": "35641e7c-8193-4141-a500-46ed9bd85bc7"
+                },
+                {
+                    "description": "PTH pad 10 [ADC_9] of JAD",
+                    "pos": {
+                        "x": 10.5,
+                        "y": 23.08
+                    },
+                    "uuid": "5a260bc1-921e-4d48-a1b9-3b02a9a030b8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'W2' on B.Silkscreen",
+                    "pos": {
+                        "x": 10.5,
+                        "y": 21.38
+                    },
+                    "uuid": "f6e54925-9e5e-4c22-8adf-f4da85abc17b"
+                },
+                {
+                    "description": "PTH pad 11 [GND] of JAD",
+                    "pos": {
+                        "x": 10.5,
+                        "y": 20.54
+                    },
+                    "uuid": "168e6d65-2146-4fe5-9d66-8c3101c8ec55"
                 }
             ],
             "severity": "warning",
@@ -221,12 +198,12 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
             "items": [
                 {
-                    "description": "PCB text '1' on F.Silkscreen",
+                    "description": "PCB text '12' on B.Silkscreen",
                     "pos": {
                         "x": 12.8,
-                        "y": 18.0
+                        "y": 17.999999
                     },
-                    "uuid": "e0143f32-1c7a-4102-85b8-f3482f103800"
+                    "uuid": "b23fa26f-fa61-4105-ac2a-8ab9876768fc"
                 }
             ],
             "severity": "warning",
@@ -236,12 +213,12 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
             "items": [
                 {
-                    "description": "PCB text '2' on F.Silkscreen",
+                    "description": "PCB text '11' on B.Silkscreen",
                     "pos": {
                         "x": 12.8,
                         "y": 20.54
                     },
-                    "uuid": "dc5383ab-955b-4563-b238-88e65dde580d"
+                    "uuid": "d5c1d447-d992-4aae-adc9-11b1c8a98501"
                 }
             ],
             "severity": "warning",
@@ -251,12 +228,12 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
             "items": [
                 {
-                    "description": "PCB text '3' on F.Silkscreen",
+                    "description": "PCB text '10' on B.Silkscreen",
                     "pos": {
                         "x": 12.8,
                         "y": 23.08
                     },
-                    "uuid": "a0cd37fe-7768-4ea8-9e9b-d67b773f2930"
+                    "uuid": "6f67ee55-8673-465f-b66e-e293d8b86595"
                 }
             ],
             "severity": "warning",
@@ -266,12 +243,12 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
             "items": [
                 {
-                    "description": "PCB text '4' on F.Silkscreen",
+                    "description": "PCB text '9' on B.Silkscreen",
                     "pos": {
                         "x": 12.8,
-                        "y": 25.62
+                        "y": 25.619999
                     },
-                    "uuid": "44f1af13-ba17-4421-b0a1-b6bd74c679cd"
+                    "uuid": "e6b965d3-c8c8-4a10-9e9f-9ed7b69c63f1"
                 }
             ],
             "severity": "warning",
@@ -281,12 +258,12 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
             "items": [
                 {
-                    "description": "PCB text '5' on F.Silkscreen",
+                    "description": "PCB text '8' on B.Silkscreen",
                     "pos": {
                         "x": 12.8,
-                        "y": 28.16
+                        "y": 28.159999
                     },
-                    "uuid": "16994e94-ef28-4fff-a012-f711bda588e9"
+                    "uuid": "144b037f-6a63-4d98-8a77-fb0f7ddea13b"
                 }
             ],
             "severity": "warning",
@@ -296,12 +273,12 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
             "items": [
                 {
-                    "description": "PCB text '6' on F.Silkscreen",
+                    "description": "PCB text '7' on B.Silkscreen",
                     "pos": {
                         "x": 12.8,
-                        "y": 30.7
+                        "y": 30.699999
                     },
-                    "uuid": "77b6606b-3b73-49ae-8fa4-320f6510138b"
+                    "uuid": "db17ea6a-50ef-4933-ae75-b3caa7180c9d"
                 }
             ],
             "severity": "warning",
@@ -311,12 +288,12 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
             "items": [
                 {
-                    "description": "PCB text '7' on F.Silkscreen",
+                    "description": "PCB text '6' on B.Silkscreen",
                     "pos": {
                         "x": 12.8,
-                        "y": 33.24
+                        "y": 33.239999
                     },
-                    "uuid": "7bd3e22a-7343-4e6b-8a4b-be29d93f43bc"
+                    "uuid": "2fd9367d-699b-4fc9-80d2-910527c058ae"
                 }
             ],
             "severity": "warning",
@@ -326,12 +303,12 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
             "items": [
                 {
-                    "description": "PCB text '8' on F.Silkscreen",
+                    "description": "PCB text '5' on B.Silkscreen",
                     "pos": {
                         "x": 12.8,
                         "y": 35.78
                     },
-                    "uuid": "406f9edd-3b31-434b-bc15-8e2e93855eb1"
+                    "uuid": "57014914-c3a8-408c-94c5-88354d20369e"
                 }
             ],
             "severity": "warning",
@@ -341,12 +318,12 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
             "items": [
                 {
-                    "description": "PCB text '9' on F.Silkscreen",
+                    "description": "PCB text '4' on B.Silkscreen",
                     "pos": {
                         "x": 12.8,
                         "y": 38.32
                     },
-                    "uuid": "31e02040-e016-4c67-a88e-7fbb1ca3db23"
+                    "uuid": "f3de59a7-d017-4ba9-9abe-e5bfba48d2fe"
                 }
             ],
             "severity": "warning",
@@ -356,12 +333,12 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
             "items": [
                 {
-                    "description": "PCB text '10' on F.Silkscreen",
+                    "description": "PCB text '3' on B.Silkscreen",
                     "pos": {
                         "x": 12.8,
                         "y": 40.86
                     },
-                    "uuid": "0f31bb5f-7972-4c48-9f67-19776a3bb3ee"
+                    "uuid": "c15148d2-5902-4a9e-99c7-1b50f3e3275a"
                 }
             ],
             "severity": "warning",
@@ -371,12 +348,12 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
             "items": [
                 {
-                    "description": "PCB text '11' on F.Silkscreen",
+                    "description": "PCB text '2' on B.Silkscreen",
                     "pos": {
                         "x": 12.8,
                         "y": 43.4
                     },
-                    "uuid": "c24275b9-2943-4ee5-a602-90625a4443a1"
+                    "uuid": "64ea9130-17df-42da-b8bc-9ed3954333f3"
                 }
             ],
             "severity": "warning",
@@ -386,12 +363,12 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
             "items": [
                 {
-                    "description": "PCB text '12' on F.Silkscreen",
+                    "description": "PCB text '1' on B.Silkscreen",
                     "pos": {
                         "x": 12.8,
                         "y": 45.94
                     },
-                    "uuid": "ec0d2799-cc8c-4256-946e-8ea083fd5788"
+                    "uuid": "3a4c8571-ca42-45a4-aacf-0204a19f9eef"
                 }
             ],
             "severity": "warning",
@@ -401,12 +378,12 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
             "items": [
                 {
-                    "description": "PCB text '< MOTHER' on F.Silkscreen",
+                    "description": "PCB text '< MOTHER' on B.Silkscreen",
                     "pos": {
                         "x": 5.4,
                         "y": 16.0
                     },
-                    "uuid": "0dbc1262-c85f-4263-b019-805817d02f3d"
+                    "uuid": "3f1a4b64-7f61-4a02-b6c2-6d397ee3c9ae"
                 }
             ],
             "severity": "warning",
@@ -416,12 +393,12 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
             "items": [
                 {
-                    "description": "PCB text 'W2' on F.Silkscreen",
+                    "description": "PCB text 'W2' on B.Silkscreen",
                     "pos": {
                         "x": 10.5,
-                        "y": 16.3
+                        "y": 21.38
                     },
-                    "uuid": "23f2d681-c879-4278-92cc-a49d5611784f"
+                    "uuid": "f6e54925-9e5e-4c22-8adf-f4da85abc17b"
                 }
             ],
             "severity": "warning",
@@ -431,12 +408,12 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
             "items": [
                 {
-                    "description": "PCB text 'W3' on F.Silkscreen",
+                    "description": "PCB text 'W3' on B.Silkscreen",
                     "pos": {
                         "x": 10.5,
                         "y": 23.92
                     },
-                    "uuid": "40f10749-2298-49ba-bb4c-9a29946c788d"
+                    "uuid": "35641e7c-8193-4141-a500-46ed9bd85bc7"
                 }
             ],
             "severity": "warning",
@@ -446,12 +423,12 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
             "items": [
                 {
-                    "description": "PCB text 'W1' on F.Silkscreen",
+                    "description": "PCB text 'W6' on B.Silkscreen",
                     "pos": {
                         "x": 10.5,
-                        "y": 34.08
+                        "y": 36.62
                     },
-                    "uuid": "d933920c-43bf-4fe7-86b2-9b108414661b"
+                    "uuid": "880618f8-a484-455a-b944-742c8e912701"
                 }
             ],
             "severity": "warning",
@@ -461,12 +438,57 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
             "items": [
                 {
-                    "description": "PCB text 'W5' on F.Silkscreen",
+                    "description": "PCB text 'W7' on B.Silkscreen",
+                    "pos": {
+                        "x": 10.5,
+                        "y": 39.16
+                    },
+                    "uuid": "4df8fa39-9fc9-4a08-bc0a-3f09143359a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'W4' on B.Silkscreen",
+                    "pos": {
+                        "x": 10.5,
+                        "y": 41.699999
+                    },
+                    "uuid": "13622cdd-ecf8-400f-ab65-1a1a1f3b72cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'W5' on B.Silkscreen",
+                    "pos": {
+                        "x": 10.5,
+                        "y": 44.239999
+                    },
+                    "uuid": "dfe95bf7-345d-4ac0-87c9-3dabe990c9ab"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'W1' on B.Silkscreen",
                     "pos": {
                         "x": 32.38,
                         "y": 25.3
                     },
-                    "uuid": "9410ed8a-d1c2-4a48-a9eb-453915dda58a"
+                    "uuid": "81bcb06d-0cba-4b63-8620-0d36a4e99e0a"
                 }
             ],
             "severity": "warning",
@@ -476,46 +498,16 @@
             "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
             "items": [
                 {
-                    "description": "PCB text 'W4' on F.Silkscreen",
-                    "pos": {
-                        "x": 40.0,
-                        "y": 25.3
-                    },
-                    "uuid": "e65d93f2-8e93-4295-914c-f92d695eca63"
-                }
-            ],
-            "severity": "warning",
-            "type": "text_height"
-        },
-        {
-            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
-            "items": [
-                {
-                    "description": "PCB text 'C1 100n DNP' on F.Silkscreen",
+                    "description": "PCB text 'C1 100n DNP' on B.Silkscreen",
                     "pos": {
                         "x": 44.0,
                         "y": 55.0
                     },
-                    "uuid": "87462566-ae86-4df9-8818-cce932a5ab4d"
+                    "uuid": "ac9235d8-c9c1-45cc-bb7f-255002dde4f3"
                 }
             ],
             "severity": "warning",
             "type": "text_height"
-        },
-        {
-            "description": "Track has unconnected end",
-            "items": [
-                {
-                    "description": "Track [3V3] on F.Cu, length 0.2000 mm",
-                    "pos": {
-                        "x": 44.6,
-                        "y": 37.8
-                    },
-                    "uuid": "7a14d0b8-5edb-42a1-99e8-34effb4623dd"
-                }
-            ],
-            "severity": "warning",
-            "type": "track_dangling"
         }
     ]
 }
