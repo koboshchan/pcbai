@@ -1,0 +1,33 @@
+{
+ "scope": "render-only; temp copies /tmp/r4; source boards unchanged; no CAD/copper/footprint edits",
+ "renderer": "local kicad-cli 10.0.6 pcb render --quality basic -w 2400 -h 1600 --zoom 0.85 --floor --perspective (high quality skipped: prior DC0 high stalled >20min)",
+ "sources": {
+  "post_crb.kicad_pcb": {
+   "sha256_before": "2d9c31c29f547419fe03c09b5cdac557ec5b5b10c9daffc802865c56e55777fa",
+   "sha256_after": "2d9c31c29f547419fe03c09b5cdac557ec5b5b10c9daffc802865c56e55777fa"
+  },
+  "DC0_verified.kicad_pcb": {
+   "sha256_before": "1196b0d47c1c553b22a4061d3ac7e1c41cbf3d4a35dd5b7f1d4cda102bfdb34a",
+   "sha256_after": "1196b0d47c1c553b22a4061d3ac7e1c41cbf3d4a35dd5b7f1d4cda102bfdb34a"
+  }
+ },
+ "images": {
+  "motherboard_top": "3abc51bf022d83a8733c800ea4a32d054eeeb9e028ed27c71a472215653a604a",
+  "motherboard_bottom": "3d215ee46da38c70f39b95bec160b1ed6b5e4b2328d01599a545d83bce3c119c",
+  "DC0_top": "6bf8d0ac3ded6a410bac7fff3a6bc4261e14f52b323960bf5d23706148966722",
+  "DC0_bottom": "dff943616f76f98f858175af8609ff5a840cefad5285bef301e29ceb1988996e"
+ },
+ "model_only_substitutions_in_render_copies": {
+  "${KICAD10_3DMODEL_DIR},${KICAD8_3DMODEL_DIR}": "/home/kit/renders/dc0_placement_preview/models (KiCad stock STEP copies)",
+  "motherboard JS1-JS6 PinSocket_2x38 (/Users/lucaszhang/pcbai/3dmodels/pin_socket_2x38_vertical.wrl)": "renders/model_assets/pin_socket_2x38_vertical_render.wrl (gen_socket_2x38.py). original wrl authored in mm (KiCad VRML unit=2.54mm => rendered 2.54x oversize) with continuous tail bars; replaced by generic 5.08x8.5mm body + 76 discrete tails",
+  "motherboard JD0 DC0_Isolated:Socket2x38 (no model in board)": "ADDED same socket render model, origin offset 0, pads centred -46.99..46.99 / +/-1.27",
+  "DC0 J0 DC0_Isolated:Straddle2x38 (no model in board)": "ADDED two_layer/renders/model_assets/pin_header_2x38_straddle_corrected.wrl (commit 1723099), at (50,100) rot0: 2.54 rows straddling 1.6mm edge, plastic bar 0.1mm off edge, nominal ~0.12mm gap per face"
+ },
+ "model_coverage": {
+  "motherboard": "all footprints with models resolved (0805 R/C incl CRB, SOD-123 x20, CP_Elec_8x10 x2, TO-220, 1x02/1x03 headers, 7x 2x38 sockets); missing 0. JSPI/JAD pin rows and H1-H4 mount holes have no model in board (shown as pads)",
+  "DC0": "64 R0805 + 72 C0805 + 8 SOIC-16 + J0 straddle header; missing 0"
+ },
+ "not_rendered": "IN_38 bodge wire (bottom, JS1 B7 18.25,44.27 to JS2 B7 18.25,55.27, 11mm pad span, ~14mm insulated wire) NOT drawn; labelled on motherboard_bottom.png. raw board has 1 open by design; wire mandatory per BODGE_IN38.md",
+ "visual_check": "all 4 opened: populated parts visible, bottom views from underneath, DC0 J0 bar off edge with both rows, sockets correct scale",
+ "delivery_copy": "/home/kit/renders/approved_bodge_CRB/"
+}
