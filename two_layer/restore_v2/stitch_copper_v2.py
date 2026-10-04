@@ -5,7 +5,7 @@ import pcbnew as p
 import route_v2 as route
 import repair_ground_v2 as ground
 import json,sys,math
-source=Path(sys.argv[1]).resolve(); work=source.parent/'copper_stitch_v2';work.mkdir(exist_ok=True)
+source=Path(sys.argv[1]).resolve(); work=source.parent/'copper_stitch_conflict_v2';work.mkdir(exist_ok=False)
 pro=source.with_suffix('.kicad_pro').read_text(); b=p.LoadBoard(str(source)); identity=ground.fixed(b)
 def save(board,name):
  path=work/(name+'.kicad_pcb');p.SaveBoard(str(path),board);path.with_suffix('.kicad_pro').write_text(pro);return path
@@ -54,10 +54,18 @@ for roundno in range(3):
    for t in parts:added[t.m_Uuid.AsString()]=n
   path=save(board,f'trial_{roundno}_{pattern}');trial,tstats=route.drc(path)
   # Reject whole paths touching any actual error; re-audit after every rejection.
-  for prune in range(5):
+  for prune in range(140):
    violations=[v for v in trial['violations'] if v['severity']=='error']
    if not violations:break
-   reject={added[i['uuid']] for v in violations for i in v['items'] if i['uuid'] in added}
+   reject=set()
+   for violation in violations:
+    involved={added[i['uuid']] for i in violation['items'] if i['uuid'] in added}
+    if not involved:continue
+    # For conflicts between entirely new paths, discard just the longer path.
+    if len(involved)>1 and all(i['uuid'] in added for i in violation['items']):
+     def length(g):return sum(p.ToMM(t.GetLength()) for t in groups[g] if isinstance(t,p.PCB_TRACK))
+     reject.add(max(involved,key=length))
+    else:reject.update(involved)
    if not reject:raise RuntimeError('Original copper acquired error without rejectable additions')
    for g in reject:
     for t in groups.pop(g,[]):board.RemoveNative(t);added.pop(t.m_Uuid.AsString(),None)
