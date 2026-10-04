@@ -1,9 +1,0 @@
-{
-  "tests_passed": 4,
-  "powered_corner_min_V": 0.7561399333650642,
-  "powered_corner_max_V": 2.3867920038077104,
-  "powered_zero_drop_external_clamp_max_A": 0.0,
-  "poweroff_max_per_pin_A": 6.29728418708296e-05,
-  "poweroff_max_ten_pins_A": 0.0006297284187082961,
-  "note": "Silicon external clamps do not guarantee ADC absolute-voltage limit or prevent MCU rail backfeed. MCU3V3/GND first, analog last, analog off first. Powered voltage corners safe under stated steady-state +/-15V bound, transient model not included."
-}
