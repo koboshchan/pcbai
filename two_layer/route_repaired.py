@@ -21,7 +21,9 @@ def prepare(path):
     board=p.LoadBoard(str(path)); assert board.GetCopperLayerCount()==2
     assert len(list(board.GetTracks()))==0,'Candidate must be unrouted'
     stem=path.name.replace('_repaired_unrouted.kicad_pcb','')
-    source_stem=stem[:-4] if stem.endswith('_adc') else stem
+    source_stem=stem
+    for suffix in ('_adc','_differential','_buffered'):
+        if source_stem.endswith(suffix):source_stem=source_stem[:-len(suffix)]
     source_project=ROOT.parent/(source_stem+'.kicad_pro')
     project=json.loads(source_project.read_text())
     ds=project['board']['design_settings'];ds['drc_exclusions']=[]
