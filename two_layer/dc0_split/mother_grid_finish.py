@@ -6,7 +6,7 @@ from PIL import Image,ImageDraw
 from scipy.ndimage import distance_transform_edt
 import pcbnew as p
 R=Path(__file__).resolve().parent;sys.path.insert(0,str(R));import successor100 as s;import motherboard_refs as refs
-D=R/'motherboard_repair';out=D/'motherboard.kicad_pcb';step=.1;N=1001
+D=R/'motherboard_repair';out=D/'motherboard.kicad_pcb';step=.05;N=2001
 
 def point(pos):return (p.ToMM(pos.x)/step,p.ToMM(pos.y)/step)
 def search(b,net,a,c,extra):
@@ -26,8 +26,8 @@ def search(b,net,a,c,extra):
   else:
    k=0 if t.GetLayer()==p.F_Cu else 1;rad=p.ToMM(t.GetWidth())/2+.2+.1+extra;xy=point(t.GetStart());zz=point(t.GetEnd());dr[k].line([xy,zz],fill=1,width=math.ceil(rad*2/step));disk(k,xy,rad);disk(k,zz,rad)
  masks=[np.array(i,dtype=bool) for i in ims]
- for m in masks:m[:8,:]=True;m[-8:,:]=True;m[:,:8]=True;m[:,-8:]=True
- vias=(distance_transform_edt(~masks[0])>=3)&(distance_transform_edt(~masks[1])>=3)
+ for m in masks:e=math.ceil(.8/step);m[:e,:]=True;m[-e:,:]=True;m[:,:e]=True;m[:,-e:]=True
+ vias=(distance_transform_edt(~masks[0])>=math.ceil(.25/step))&(distance_transform_edt(~masks[1])>=math.ceil(.25/step))
  start=tuple([round(a[0]/step),round(a[1]/step),a[2]]);end=tuple([round(c[0]/step),round(c[1]/step),c[2]])
  print('grid',net,start,end,'blocked',masks[start[2]][start[1],start[0]],masks[end[2]][end[1],end[0]],flush=True)
  def h(q):return math.hypot(q[0]-end[0],q[1]-end[1])+ (0 if q[2]==end[2] else 12)
