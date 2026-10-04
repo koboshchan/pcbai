@@ -17,11 +17,6 @@ def prep(name,mode='fresh'):
   elif isinstance(t,p.PCB_VIA): t.SetLayerPair(p.F_Cu,p.B_Cu)
   elif t.GetLayer() not in [p.F_Cu,p.B_Cu]: t.SetLayer(p.B_Cu)
  b.SetCopperLayerCount(2)
- settings=b.GetDesignSettings()
- settings.m_MinClearance=p.FromMM(.2)
- settings.m_TrackMinWidth=p.FromMM(.2)
- settings.m_ViasMinSize=p.FromMM(.6)
- settings.m_MinThroughDrill=p.FromMM(.3)
  for d in list(b.GetDrawings()):
   if isinstance(d,p.PCB_TEXT) and d.GetLayer() in [p.F_SilkS,p.B_SilkS]: b.Remove(d)
  project=json.loads((SOURCE/(name+'.kicad_pro')).read_text())
