@@ -1,0 +1,172 @@
+[
+  {
+    "errors": 0,
+    "opens": 0,
+    "warnings": 197,
+    "categories": {
+      "lib_footprint_issues": 197
+    },
+    "source_sha256": "2954d17724d1cfd290225ee60bec2bfb9f9382dad0b09c4303918d32bb40375b",
+    "final_sha256": "411701736bf31a4fea4daa00a4a799c73f68594fa9ad799d7f6c0b23e9fc5448",
+    "source_unchanged": true,
+    "footprint_identity_sha256": "983879c3d83cf751b1900c237179b12c6177cc308b71f0d1c539b269f0a112d3",
+    "footprint_identity_unchanged": true,
+    "old_zone_count": 0,
+    "final_zone_count": 2,
+    "accepted_stitch_positions_mm": [],
+    "release_authorized": false,
+    "board": "daughtercard1a_weights_l1_differential",
+    "silk_min_height_mm": 0.8,
+    "silk_min_thickness_mm": 0.12,
+    "prior_source_unchanged": true,
+    "prior_project_unchanged": true,
+    "project_sha256": "866df6552d494af6f7e02bcc6f7e03e9c2ab438e3cd597e1c661bfb55fcd46a4",
+    "rules_sha256": "4a20a59e7f18822958559d462c6c764291617f9112ca6eae4957d8de56b3e2be",
+    "accepted": true
+  },
+  {
+    "errors": 0,
+    "opens": 0,
+    "warnings": 199,
+    "categories": {
+      "lib_footprint_issues": 199
+    },
+    "source_sha256": "3b720c292a842a584e030a6b8fb21fb373600280836980374d3699b85cc24151",
+    "final_sha256": "ab7b12434ce39144f09a3e04060e33f5af32dd37bac72266271951a89a8c1fd9",
+    "source_unchanged": true,
+    "footprint_identity_sha256": "ae6366b84ae848180d148eb28d4a514b4f2d0f41c4210632f92c55db61840189",
+    "footprint_identity_unchanged": true,
+    "old_zone_count": 0,
+    "final_zone_count": 2,
+    "accepted_stitch_positions_mm": [
+      [
+        24.9625,
+        24.9625
+      ]
+    ],
+    "release_authorized": false,
+    "board": "daughtercard1b_weights_l1_differential",
+    "silk_min_height_mm": 0.8,
+    "silk_min_thickness_mm": 0.12,
+    "prior_source_unchanged": true,
+    "prior_project_unchanged": true,
+    "project_sha256": "a6eae83ce458a45de6eec5449ee052a3d302f3a8d6cb95ac562605f276e3de74",
+    "rules_sha256": "486e213d26a4fc0e9362a1f543ca8fe3e0a2c31a2e5ff12a2b99e5f71ae2232d",
+    "accepted": true
+  },
+  {
+    "errors": 0,
+    "opens": 0,
+    "warnings": 187,
+    "categories": {
+      "lib_footprint_issues": 187
+    },
+    "source_sha256": "3fb7a7a89070453b1c1c8a219a7379496183ca8dac2b594b74c5bef4cf45aa4a",
+    "final_sha256": "c05650e99f225bec024150b1b3990e1a5b82bbda209ab5bf02a2192b9d56c235",
+    "source_unchanged": true,
+    "footprint_identity_sha256": "e8b48ce8721fefb1faf40686487fbaa91a3473ecc73beb8fecabfb78fad9b7cd",
+    "footprint_identity_unchanged": true,
+    "old_zone_count": 0,
+    "final_zone_count": 2,
+    "accepted_stitch_positions_mm": [],
+    "release_authorized": false,
+    "board": "daughtercard1c_weights_l1_differential",
+    "silk_min_height_mm": 0.8,
+    "silk_min_thickness_mm": 0.12,
+    "prior_source_unchanged": true,
+    "prior_project_unchanged": true,
+    "project_sha256": "536db593b4036c2d5d55fd2e8e113aa743c218cb9b07e1c980ea691d9e21239a",
+    "rules_sha256": "dadec8ab9d41e4884bac369108a9331638fa453b748b600fd34f8ee610c60360",
+    "accepted": true
+  },
+  {
+    "errors": 0,
+    "opens": 0,
+    "warnings": 147,
+    "categories": {
+      "lib_footprint_issues": 147
+    },
+    "source_sha256": "bfd4a7115bb734fb9704616ec69f11c57c2a2fcd538f8d11849a982725b841d7",
+    "final_sha256": "93e7c56788af2d300d5370a47e9df5c50f0e427f8b35aa23264bf07cb88d8f89",
+    "source_unchanged": true,
+    "footprint_identity_sha256": "740d322bc204000f033a58685e27791a5d4daa006934dfc3dbb90baec8053fd3",
+    "footprint_identity_unchanged": true,
+    "old_zone_count": 0,
+    "final_zone_count": 2,
+    "accepted_stitch_positions_mm": [
+      [
+        75.0375,
+        24.9625
+      ]
+    ],
+    "release_authorized": false,
+    "board": "daughtercard1d_weights_l1_differential",
+    "silk_min_height_mm": 0.8,
+    "silk_min_thickness_mm": 0.12,
+    "prior_source_unchanged": true,
+    "prior_project_unchanged": true,
+    "project_sha256": "c36b0557d5a97334d1c1e745a4b0cbe61f00447bd51d2fc90a7f6635c1406c46",
+    "rules_sha256": "02ebbfd277a40a2ca233fca9385859d7244474eb19ab2674961204106bfbb703",
+    "accepted": true
+  },
+  {
+    "errors": 0,
+    "opens": 0,
+    "warnings": 59,
+    "categories": {
+      "lib_footprint_issues": 59
+    },
+    "source_sha256": "f1fedb2c5fdc6529010a41f2048c27bb490a33e6c16147e1d7a03c1b4060bc15",
+    "final_sha256": "84bcda1e37c251ba3d6b874c498e8f63cf25dce7e4f642d17c61dc21843226db",
+    "source_unchanged": true,
+    "footprint_identity_sha256": "9551ecc96b7e010c6bff4ea4ab143a4d97747e64d682dcdef49e6086bb233ca4",
+    "footprint_identity_unchanged": true,
+    "old_zone_count": 0,
+    "final_zone_count": 2,
+    "accepted_stitch_positions_mm": [
+      [
+        24.9625,
+        24.9625
+      ]
+    ],
+    "release_authorized": false,
+    "board": "daughtercard2_relu_l1_buffered",
+    "silk_min_height_mm": 0.8,
+    "silk_min_thickness_mm": 0.12,
+    "prior_source_unchanged": true,
+    "prior_project_unchanged": true,
+    "project_sha256": "5deeba7619d2ae0d13b13eabd3c359bd38d9c5dcf58c3117df7da2ebea47e925",
+    "rules_sha256": "c48b3ffbff1dc388a75b44c6642d5f93205393b793ba2554cd66493fa7e6e7df",
+    "accepted": true
+  },
+  {
+    "errors": 0,
+    "opens": 0,
+    "warnings": 163,
+    "categories": {
+      "lib_footprint_issues": 163
+    },
+    "source_sha256": "fc5b97c1068092910be16ea4e342ae0c0c8524affe952ab55fb664f5fcde4a1e",
+    "final_sha256": "f7439f0bff036574fd7bf882f633fe14f8a619a6af245bf074093fe45ca0a644",
+    "source_unchanged": true,
+    "footprint_identity_sha256": "55f2cc282b3b011ef098f0624a667d5f554863d6c75539410fc8340942d6eafb",
+    "footprint_identity_unchanged": true,
+    "old_zone_count": 0,
+    "final_zone_count": 2,
+    "accepted_stitch_positions_mm": [
+      [
+        24.9625,
+        24.9625
+      ]
+    ],
+    "release_authorized": false,
+    "board": "daughtercard3_weights_l2_wta_differential",
+    "silk_min_height_mm": 0.8,
+    "silk_min_thickness_mm": 0.12,
+    "prior_source_unchanged": true,
+    "prior_project_unchanged": true,
+    "project_sha256": "498954ce88a50de8b8847ef3c206247b910cc5c194688ec7c5c973ba3a63e201",
+    "rules_sha256": "72da7099ed55a14a1d19ff6e47e9412c8087c3acea1351baea84039cd4877f06",
+    "accepted": true
+  }
+]
