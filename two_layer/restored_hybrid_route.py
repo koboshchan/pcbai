@@ -7,7 +7,7 @@ import route_repaired as route
 import silk_refs
 from restore_manual_motherboard import frozen_files
 ROOT=Path(__file__).resolve().parent
-RUN=ROOT/'restored_hybrid_route_run'
+RUN=ROOT/'restored_hybrid_shortrefs_run'
 SOURCE=ROOT/'motherboard_adc_repaired_unrouted.kicad_pcb'
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 spec=importlib.util.spec_from_file_location('archived_route_proofs',ROOT/'backups/retired_economic_long_route/economic_motherboard_long_route.py')
@@ -24,7 +24,7 @@ silk_refs.rect=glyph_rect
 def main():
     signal.signal(signal.SIGHUP,signal.SIG_IGN)
     RUN.mkdir(exist_ok=True)
-    restoration=json.loads((ROOT/'manual_motherboard_restoration.json').read_text())
+    restoration=json.loads((ROOT/'renamed_motherboard_restoration.json').read_text())
     assert restoration['placements_exactly_restored'] and restoration['placement_errors']==0 and restoration['silk']['clean']
     assert restoration['economic_exporter_active'] and sha(SOURCE)==restoration['pcb_sha256']
     frozen=frozen_files();b=p.LoadBoard(str(SOURCE));original=proofs.freeze(b);identity=route.checksum(b)
@@ -33,7 +33,9 @@ def main():
     edges=[g for g in b.GetDrawings() if g.GetLayer()==p.Edge_Cuts]
     xs=[p.ToMM(q.x) for g in edges for q in (g.GetStart(),g.GetEnd())];ys=[p.ToMM(q.y) for g in edges for q in (g.GetStart(),g.GetEnd())]
     assert max(xs)-min(xs)==100 and max(ys)-min(ys)==100
-    fps={f.GetReference():f for f in b.GetFootprints()}
+    import motherboard_refs as refs
+    fps=refs.indexed(b)
+    assert sha(refs.MAP)==restoration['reference_mapping_sha256']
     assert all(fps[f'{prefix}{i}'].GetLayer()==p.F_Cu for prefix in ('U_SR','C_SR') for i in range(1,9))
     pro=json.loads(SOURCE.with_suffix('.kicad_pro').read_text());rules=pro['board']['design_settings']['rules']
     assert rules['min_clearance']>=.2 and rules['min_track_width']>=.2 and rules['min_via_diameter']>=.6 and rules['min_through_hole_diameter']>=.3
