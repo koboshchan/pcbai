@@ -10,8 +10,11 @@ def transform(text):
  # Metadata-only exact replacements; values are distinct from footprint identifiers.
  old=[('"74AHCT595D"','"74AHCT595S16-13"'),('Nexperia 74AHCT595D,112','Diodes 74AHCT595S16-13'),('C554704','C126402')]
  # Require eight register footprint blocks, each with original/new approved value.
+ from motherboard_refs import MAP,canonical
  for i in range(1,9):
-  assert len(re.findall(r'\(property "Reference" "U_SR'+str(i)+r'"',text))==1, f'Missing/duplicate U_SR{i}'
+  legacy=f'U_SR{i}';actual=canonical(legacy) if MAP.exists() else legacy
+  count=sum(len(re.findall(r'\(property "Reference" "'+re.escape(ref)+r'"',text)) for ref in {legacy,actual})
+  assert count==1, f'Missing/duplicate register role {legacy}'
  assert text.count('(property "Value" "74AHCT595D"')+text.count('(property "Value" "74AHCT595S16-13"')==8
  for a,b in old:text=text.replace(a,b)
  assert text.count('(property "Value" "74AHCT595S16-13"')==8

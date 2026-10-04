@@ -7,7 +7,8 @@ ROOT=Path(__file__).resolve().parent
 
 def main():
     board=p.LoadBoard(str(ROOT/'motherboard_adc_repaired_unrouted.kicad_pcb'))
-    fs={f.GetReference():f for f in board.GetFootprints()}
+    from motherboard_refs import MAP,indexed
+    fs=indexed(board) if MAP.exists() else {f.GetReference():f for f in board.GetFootprints()}
     def assert_part(ref,value,connections):
         fp=fs[ref];assert fp.GetValue()==value
         actual={pad.GetNumber():pad.GetNetname() for pad in fp.Pads()}
@@ -26,7 +27,7 @@ def main():
     assert_part('J_ADC_REF','3V3_GND_FROM_MCU',{'1':'+3V3_ADC','2':'GND'})
     scores={pad.GetNumber():pad.GetNetname() for pad in fs['J_MCU_SCORES'].Pads()}
     assert scores=={**{str(i+1):f'ADC_{i}' for i in range(10)},'11':'GND','12':'GND'}
-    for i in range(1,9):assert fs[f'U_SR{i}'].GetValue()=='74HCT595D'
+    for i in range(1,9):assert fs[f'U_SR{i}'].GetValue()=='74AHCT595S16-13'
     for fp in fs.values():
         for pad in fp.Pads():assert pad.GetNetname() not in ('+12V','-12V')
     assert board.GetCopperLayerCount()==2 and len(list(board.GetTracks()))==0
