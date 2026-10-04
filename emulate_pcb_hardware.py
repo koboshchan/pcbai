@@ -197,10 +197,6 @@ class PhysicalPCBNetlist:
                         ohms = parse_resistor_value_ohms(r_fp["value"])
                         self.l1_resistors[(i, n)] = ohms
                         pol = +1
-                        for net_name in r_fp["pads"].values():
-                            if "NEG" in net_name:
-                                pol = -1
-                                break
                         if "polarity=negative" in r_fp["description"]:
                             pol = -1
                         self.l1_polarities[(i, n)] = pol
@@ -252,10 +248,6 @@ class PhysicalPCBNetlist:
                     ohms = parse_resistor_value_ohms(r_fp["value"])
                     self.l2_resistors[(k, c)] = ohms
                     pol = +1
-                    for net_name in r_fp["pads"].values():
-                        if "NEG" in net_name:
-                            pol = -1
-                            break
                     if "polarity=negative" in r_fp["description"]:
                         pol = -1
                     self.l2_polarities[(k, c)] = pol
