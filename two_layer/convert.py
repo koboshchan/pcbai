@@ -11,14 +11,13 @@ def manifest(b):
 def prep(name,mode='fresh'):
  b=p.LoadBoard(str(SOURCE/(name+'.kicad_pcb')))
  original=manifest(b)
- for z in list(b.Zones()): b.Remove(z)
+ for z in list(b.Zones()): b.Delete(z)
  for t in list(b.GetTracks()):
-  if mode=='fresh': b.Remove(t)
+  if mode=='fresh': b.Delete(t)
   elif isinstance(t,p.PCB_VIA): t.SetLayerPair(p.F_Cu,p.B_Cu)
   elif t.GetLayer() not in [p.F_Cu,p.B_Cu]: t.SetLayer(p.B_Cu)
  b.SetCopperLayerCount(2)
- for d in list(b.GetDrawings()):
-  if isinstance(d,p.PCB_TEXT) and d.GetLayer() in [p.F_SilkS,p.B_SilkS]: b.Remove(d)
+ # KiCad10 Debian SWIG does not wrap Drawings(); silk helper removes graphics later.
  project=json.loads((SOURCE/(name+'.kicad_pro')).read_text())
  ds=project['board']['design_settings'];ds['drc_exclusions']=[]
  ds['rules'].update(min_clearance=.2,min_track_width=.2,min_via_diameter=.6,min_through_hole_diameter=.3,min_via_annular_width=.15,min_copper_edge_clearance=.3,min_silk_clearance=.15,min_text_height=.8,min_text_thickness=.12)
