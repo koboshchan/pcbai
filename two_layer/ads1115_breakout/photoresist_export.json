@@ -1,0 +1,23 @@
+{
+  "page_points": [
+    612,
+    792
+  ],
+  "page_inches": [
+    8.5,
+    11
+  ],
+  "scale": 1,
+  "board_mm": [
+    50,
+    70
+  ],
+  "layer": "F.Cu",
+  "mirrored": true,
+  "negative": true,
+  "copper": "white",
+  "background": "black",
+  "drill_centering_dot_mm": 0.3,
+  "outline": "external corner marks",
+  "filename": "ads1115_photoresist_letter_mirrored_negative.pdf"
+}

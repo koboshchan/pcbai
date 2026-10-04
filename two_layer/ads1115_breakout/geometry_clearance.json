@@ -1,0 +1,10 @@
+{
+  "min_copper_clearance_mm": 0.5486857864728067,
+  "worst_nets": [
+    "GND",
+    "3V3"
+  ],
+  "min_edge_clearance_mm": 1.6000000000000014,
+  "min_NPTH_clearance_mm": 4.574194299533849,
+  "method": "Shapely vector unions, pad circles and round-cap track polygons, resolution 64"
+}
