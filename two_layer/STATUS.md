@@ -1,3 +1,7 @@
+# PAUSED, wrong source revision
+
+Lucas clarified the 76-pin straddle boards at repo root are OLD versions. All routing has been stopped on kat-box. No further CAD runs or exports until the parent supplies the correct newer files. Remote experimental files are checkpointed under paused_old_straddle_trial/ and are NOT deliverables. Seven routing jobs had already begun before this hold arrived; all were terminated, and no converted board received final DRC. Originals remain untouched. Architecture and safety findings below apply only to the old files audited, not to the unseen newer design.
+
 # Two-layer MNIST conversion
 
 Work in progress. NOT fabrication-ready. Original boards in the repository root are untouched.

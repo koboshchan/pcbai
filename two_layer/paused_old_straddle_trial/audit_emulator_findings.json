@@ -1,0 +1,733 @@
+{
+  "python": "/home/kit/ttt_analog/.venv/bin/python",
+  "dataset_exists": false,
+  "negative_weight_examples": [
+    {
+      "board": "daughtercard1a_weights_l1",
+      "reference": "R1_1_0",
+      "weight": {
+        "input_idx": 1,
+        "neuron_idx": 0,
+        "weight_float": -0.5784539580345154,
+        "is_populated": true,
+        "resistor_ohms": 18000.0,
+        "resistor_str": "18k",
+        "polarity": "negative"
+      },
+      "footprint": {
+        "reference": "R1_1_0",
+        "value": "18k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "IN_1"
+          },
+          {
+            "number": "2",
+            "net": "INV_N0"
+          }
+        ]
+      }
+    },
+    {
+      "board": "daughtercard1a_weights_l1",
+      "reference": "R1_2_0",
+      "weight": {
+        "input_idx": 2,
+        "neuron_idx": 0,
+        "weight_float": -0.5975781083106995,
+        "is_populated": true,
+        "resistor_ohms": 18000.0,
+        "resistor_str": "18k",
+        "polarity": "negative"
+      },
+      "footprint": {
+        "reference": "R1_2_0",
+        "value": "18k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "IN_2"
+          },
+          {
+            "number": "2",
+            "net": "INV_N0"
+          }
+        ]
+      }
+    },
+    {
+      "board": "daughtercard1a_weights_l1",
+      "reference": "R1_3_0",
+      "weight": {
+        "input_idx": 3,
+        "neuron_idx": 0,
+        "weight_float": -0.41063088178634644,
+        "is_populated": true,
+        "resistor_ohms": 22000.0,
+        "resistor_str": "22k",
+        "polarity": "negative"
+      },
+      "footprint": {
+        "reference": "R1_3_0",
+        "value": "22k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "IN_3"
+          },
+          {
+            "number": "2",
+            "net": "INV_N0"
+          }
+        ]
+      }
+    },
+    {
+      "board": "daughtercard1a_weights_l1",
+      "reference": "R1_7_0",
+      "weight": {
+        "input_idx": 7,
+        "neuron_idx": 0,
+        "weight_float": -0.20467634499073029,
+        "is_populated": true,
+        "resistor_ohms": 47000.0,
+        "resistor_str": "47k",
+        "polarity": "negative"
+      },
+      "footprint": {
+        "reference": "R1_7_0",
+        "value": "47k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "IN_7"
+          },
+          {
+            "number": "2",
+            "net": "INV_N0"
+          }
+        ]
+      }
+    },
+    {
+      "board": "daughtercard1a_weights_l1",
+      "reference": "R1_8_0",
+      "weight": {
+        "input_idx": 8,
+        "neuron_idx": 0,
+        "weight_float": -0.6721495389938354,
+        "is_populated": true,
+        "resistor_ohms": 15000.0,
+        "resistor_str": "15k",
+        "polarity": "negative"
+      },
+      "footprint": {
+        "reference": "R1_8_0",
+        "value": "15k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "IN_8"
+          },
+          {
+            "number": "2",
+            "net": "INV_N0"
+          }
+        ]
+      }
+    },
+    {
+      "board": "daughtercard3_weights_l2_wta",
+      "reference": "R2_0_0",
+      "weight": {
+        "hidden_idx": 0,
+        "class_idx": 0,
+        "weight_float": -0.7560460567474365,
+        "is_populated": true,
+        "resistor_ohms": 12000.0,
+        "resistor_str": "12k",
+        "polarity": "negative"
+      },
+      "footprint": {
+        "reference": "R2_0_0",
+        "value": "12k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "ACT_0"
+          },
+          {
+            "number": "2",
+            "net": "INV_L2_0"
+          }
+        ]
+      }
+    },
+    {
+      "board": "daughtercard3_weights_l2_wta",
+      "reference": "R2_3_0",
+      "weight": {
+        "hidden_idx": 3,
+        "class_idx": 0,
+        "weight_float": -0.7361975908279419,
+        "is_populated": true,
+        "resistor_ohms": 15000.0,
+        "resistor_str": "15k",
+        "polarity": "negative"
+      },
+      "footprint": {
+        "reference": "R2_3_0",
+        "value": "15k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "ACT_3"
+          },
+          {
+            "number": "2",
+            "net": "INV_L2_0"
+          }
+        ]
+      }
+    },
+    {
+      "board": "daughtercard3_weights_l2_wta",
+      "reference": "R2_4_0",
+      "weight": {
+        "hidden_idx": 4,
+        "class_idx": 0,
+        "weight_float": -0.02544235810637474,
+        "is_populated": true,
+        "resistor_ohms": 390000.0,
+        "resistor_str": "390k",
+        "polarity": "negative"
+      },
+      "footprint": {
+        "reference": "R2_4_0",
+        "value": "390k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "ACT_4"
+          },
+          {
+            "number": "2",
+            "net": "INV_L2_0"
+          }
+        ]
+      }
+    },
+    {
+      "board": "daughtercard3_weights_l2_wta",
+      "reference": "R2_5_0",
+      "weight": {
+        "hidden_idx": 5,
+        "class_idx": 0,
+        "weight_float": -1.5271332263946533,
+        "is_populated": true,
+        "resistor_ohms": 5600.0,
+        "resistor_str": "5.6k",
+        "polarity": "negative"
+      },
+      "footprint": {
+        "reference": "R2_5_0",
+        "value": "5.6k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "ACT_5"
+          },
+          {
+            "number": "2",
+            "net": "INV_L2_0"
+          }
+        ]
+      }
+    },
+    {
+      "board": "daughtercard3_weights_l2_wta",
+      "reference": "R2_6_0",
+      "weight": {
+        "hidden_idx": 6,
+        "class_idx": 0,
+        "weight_float": -0.5837578773498535,
+        "is_populated": true,
+        "resistor_ohms": 18000.0,
+        "resistor_str": "18k",
+        "polarity": "negative"
+      },
+      "footprint": {
+        "reference": "R2_6_0",
+        "value": "18k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "ACT_6"
+          },
+          {
+            "number": "2",
+            "net": "INV_L2_0"
+          }
+        ]
+      }
+    }
+  ],
+  "parser_differences": [
+    {
+      "board": "motherboard",
+      "reference": "U_SR8",
+      "differences": {
+        "10": {
+          "pcbnew": "+5V",
+          "emulator": null
+        }
+      },
+      "extra_pads": {}
+    }
+  ],
+  "adc_dividers": [
+    {
+      "class": 0,
+      "top": {
+        "reference": "R_TOP_0",
+        "value": "10k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "SCORE_0"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_0"
+          }
+        ]
+      },
+      "bottom": {
+        "reference": "R_BOT_0",
+        "value": "20k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_0"
+          }
+        ]
+      },
+      "ratio": 0.6666666666666666,
+      "raw_at_plus10_5V": 7.0,
+      "raw_at_minus10_5V": -7.0
+    },
+    {
+      "class": 1,
+      "top": {
+        "reference": "R_TOP_1",
+        "value": "10k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "SCORE_1"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_1"
+          }
+        ]
+      },
+      "bottom": {
+        "reference": "R_BOT_1",
+        "value": "20k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_1"
+          }
+        ]
+      },
+      "ratio": 0.6666666666666666,
+      "raw_at_plus10_5V": 7.0,
+      "raw_at_minus10_5V": -7.0
+    },
+    {
+      "class": 2,
+      "top": {
+        "reference": "R_TOP_2",
+        "value": "10k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "SCORE_2"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_2"
+          }
+        ]
+      },
+      "bottom": {
+        "reference": "R_BOT_2",
+        "value": "20k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_2"
+          }
+        ]
+      },
+      "ratio": 0.6666666666666666,
+      "raw_at_plus10_5V": 7.0,
+      "raw_at_minus10_5V": -7.0
+    },
+    {
+      "class": 3,
+      "top": {
+        "reference": "R_TOP_3",
+        "value": "10k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "SCORE_3"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_3"
+          }
+        ]
+      },
+      "bottom": {
+        "reference": "R_BOT_3",
+        "value": "20k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_3"
+          }
+        ]
+      },
+      "ratio": 0.6666666666666666,
+      "raw_at_plus10_5V": 7.0,
+      "raw_at_minus10_5V": -7.0
+    },
+    {
+      "class": 4,
+      "top": {
+        "reference": "R_TOP_4",
+        "value": "10k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "SCORE_4"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_4"
+          }
+        ]
+      },
+      "bottom": {
+        "reference": "R_BOT_4",
+        "value": "20k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_4"
+          }
+        ]
+      },
+      "ratio": 0.6666666666666666,
+      "raw_at_plus10_5V": 7.0,
+      "raw_at_minus10_5V": -7.0
+    },
+    {
+      "class": 5,
+      "top": {
+        "reference": "R_TOP_5",
+        "value": "10k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "SCORE_5"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_5"
+          }
+        ]
+      },
+      "bottom": {
+        "reference": "R_BOT_5",
+        "value": "20k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_5"
+          }
+        ]
+      },
+      "ratio": 0.6666666666666666,
+      "raw_at_plus10_5V": 7.0,
+      "raw_at_minus10_5V": -7.0
+    },
+    {
+      "class": 6,
+      "top": {
+        "reference": "R_TOP_6",
+        "value": "10k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "SCORE_6"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_6"
+          }
+        ]
+      },
+      "bottom": {
+        "reference": "R_BOT_6",
+        "value": "20k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_6"
+          }
+        ]
+      },
+      "ratio": 0.6666666666666666,
+      "raw_at_plus10_5V": 7.0,
+      "raw_at_minus10_5V": -7.0
+    },
+    {
+      "class": 7,
+      "top": {
+        "reference": "R_TOP_7",
+        "value": "10k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "SCORE_7"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_7"
+          }
+        ]
+      },
+      "bottom": {
+        "reference": "R_BOT_7",
+        "value": "20k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_7"
+          }
+        ]
+      },
+      "ratio": 0.6666666666666666,
+      "raw_at_plus10_5V": 7.0,
+      "raw_at_minus10_5V": -7.0
+    },
+    {
+      "class": 8,
+      "top": {
+        "reference": "R_TOP_8",
+        "value": "10k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "SCORE_8"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_8"
+          }
+        ]
+      },
+      "bottom": {
+        "reference": "R_BOT_8",
+        "value": "20k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_8"
+          }
+        ]
+      },
+      "ratio": 0.6666666666666666,
+      "raw_at_plus10_5V": 7.0,
+      "raw_at_minus10_5V": -7.0
+    },
+    {
+      "class": 9,
+      "top": {
+        "reference": "R_TOP_9",
+        "value": "10k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "SCORE_9"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_9"
+          }
+        ]
+      },
+      "bottom": {
+        "reference": "R_BOT_9",
+        "value": "20k",
+        "footprint": "R_0805_2012Metric",
+        "description": "",
+        "lib_description": "Resistor SMD 0805 (2012 Metric)",
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND"
+          },
+          {
+            "number": "2",
+            "net": "SCORE_DIV_9"
+          }
+        ]
+      },
+      "ratio": 0.6666666666666666,
+      "raw_at_plus10_5V": 7.0,
+      "raw_at_minus10_5V": -7.0
+    }
+  ],
+  "layer1_populated_negative_count": 563,
+  "layer2_populated_negative_count": 83,
+  "benchmark": {
+    "command": [
+      "/home/kit/ttt_analog/.venv/bin/python",
+      "/home/kit/pcbai/emulate_pcb_hardware.py",
+      "--benchmark"
+    ],
+    "returncode": 1,
+    "stdout": "Error: /home/kit/pcbai/mnist_cache/mnist_8x8_test.npz not found. Please run train_mnist_hardware.py first.\n",
+    "stderr": ""
+  }
+}
