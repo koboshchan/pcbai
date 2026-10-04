@@ -1,5 +1,15 @@
 # ACTIVE, repaired electrical design approved
 
+## Authoritative cooling and assembly decision
+
+Lucas closed the heatsink decision. Use a vertical TO-220 ST L7805CV with an optional glued coin approximately25mm diameter and under2mm thick. No rated10C/W heatsink is required, and heatsink research is cancelled. Reserve a25x25mm component-free envelope around/above the tab; the current placement projects this volume outboard at x50.96..75.96,y99.8..124.8mm. This is a mechanical exclusion, not a new copper keepout. The coin has no assumed thermal rating; document continuous-clock limits from the bare-package estimate and separately identify measured cooling if available. Clock-rate estimates are operating constraints, not bench thermal certification. Firmware must distinguish continuous clocks from short BCM shift bursts.
+
+Motherboard routing actually started on kat-box with pipeline PID22591 and Java FreeRouting PID22626. Logs are motherboard_coin_route_pipeline.log and motherboard_adc_route.log. A running job is not a zero-DRC result or a fabrication release.
+
+All through-hole parts, including the TO-220 regulator, headers and power connector, and all straddle edge contacts are hand-soldered by Lucas. Keep them in the full/manual BOM and mark assembly DNP; exclude them from JLC assembly BOM/CPL. Preserve adequate annular rings, thermal relief for pour connections, and soldering-iron clearance from SMD parts; final geometry audit remains required.
+
+The earlier mandatory-heatsink language below is superseded by this decision.
+
 ## Authoritative current checkpoint
 
 All six selected grayscale daughtercards are routed with zero strict DRC errors and zero unconnected items, checkpoint d143b5e. Five weighted-board resistor/opamp pad manifests pass the independent routed audit d07b1a4; the rail rename from +/-12V to +/-15V is authorized and does not change connector functions. Silkscreen and catalog footprint warnings remain separate release gates. Reference-only silk polishing is underway and must preserve all copper and physical electrical identities. The original root boards are unchanged.
