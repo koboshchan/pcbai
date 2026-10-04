@@ -29,7 +29,10 @@ def main():
     assert restoration['economic_exporter_active'] and sha(SOURCE)==restoration['pcb_sha256']
     frozen=frozen_files();b=p.LoadBoard(str(SOURCE));original=proofs.freeze(b);identity=route.checksum(b)
     assert b.GetCopperLayerCount()==2 and not list(b.GetTracks())
-    size=b.GetBoardEdgesBoundingBox().GetSize();assert abs(p.ToMM(size.x)-100)<.1 and abs(p.ToMM(size.y)-100)<.1
+    # Edge bounding boxes include the .15 mm drawing stroke. Check the actual contour coordinates.
+    edges=[g for g in b.GetDrawings() if g.GetLayer()==p.Edge_Cuts]
+    xs=[p.ToMM(q.x) for g in edges for q in (g.GetStart(),g.GetEnd())];ys=[p.ToMM(q.y) for g in edges for q in (g.GetStart(),g.GetEnd())]
+    assert max(xs)-min(xs)==100 and max(ys)-min(ys)==100
     fps={f.GetReference():f for f in b.GetFootprints()}
     assert all(fps[f'{prefix}{i}'].GetLayer()==p.F_Cu for prefix in ('U_SR','C_SR') for i in range(1,9))
     pro=json.loads(SOURCE.with_suffix('.kicad_pro').read_text());rules=pro['board']['design_settings']['rules']
@@ -54,7 +57,8 @@ def main():
         (RUN/'fresh48_drc.log').write_text(q.stdout+q.stderr)
         d=json.loads(drc.read_text());reloaded=p.LoadBoard(str(candidate))
         assert original==proofs.freeze(reloaded) and identity==route.checksum(reloaded) and frozen==frozen_files() and sha(SOURCE)==result['source_sha256']
-        silk=silk_refs.audit_silk(reloaded);assert silk['clean'],silk
+        from hybrid_silk import audit_silk
+        silk=audit_silk(reloaded);assert silk['clean'],silk
         result.update(pipeline_completed=True,errors=sum(v.get('severity')=='error' for v in d['violations']),unconnected=len(d.get('unconnected_items',[])),warnings=sum(v.get('severity')=='warning' for v in d['violations']),categories=dict(collections.Counter(v['type'] for v in d['violations'])),silk=silk,candidate_sha256=sha(candidate),frozen_identity_verified=True)
     except Exception as e:
         result.update(pipeline_completed=False,error=repr(e));raise
