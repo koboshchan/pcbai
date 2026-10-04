@@ -1,7 +1,7 @@
 Comment,Designator,Footprint,LCSC Part #
 Diodes 74AHCT595S16-13 - approved JLC Extended SMT assembly all8,"U_SR1,U_SR2,U_SR3,U_SR4,U_SR5,U_SR6,U_SR7,U_SR8",SOIC-16_3.9x9.9mm_P1.27mm,C126402
 ST L7805CV - manual TH assembly; cooling optional recommended; clock limits require qualification,U_REG5,TO-220-3_Vertical,C111887
-0.33uF 50V X7R - effective capacitance at15.75V >=0.33uF; purchasing part pending,C_REG_IN,C_0805_2012Metric,
+1uF 50V X7R +/-10% Samsung CL21B105KBFNNNE - JLC Basic SMT practical input bypass,C_REG_IN,C_0805_2012Metric,C28323
 0.1uF 50V X7R - purchasing part pending,C_REG_OUT,C_0805_2012Metric,
 10uF >=16V polarized - purchasing part pending,C_REG_BULK,CP_Elec_5x5.8,
 0ohm mandatory shared5V reference link - purchasing part pending,R_REF_LINK,R_0805_2012Metric,
