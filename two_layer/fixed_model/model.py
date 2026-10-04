@@ -58,11 +58,12 @@ def loaded(rows,n,rs,rng=None):
  # Every input resistor terminates at that neuron's common virtual node v+=P*x+PB.
  # Input commands through Rs see complete shared load, not independent weight noise.
  C=np.diag(G.sum(axis=0))-G.T@P
- T=np.linalg.solve(np.eye(n)+rs*C,np.eye(n))
- q=T@(rs*G.T@PB)
+ rv=np.asarray(rs);rowrs=rv[:,None] if rv.ndim else rv
+ T=np.linalg.solve(np.eye(n)+rowrs*C,np.eye(n))
+ q=T@(rv*(G.T@PB))
  return T.T@W.T, q@W.T+B, T,q,P,PB,G
 
-def infer(X,circuit,rng=None,source_ohms=50.,follower_ohms=1.,swing=10.):
+def infer(X,circuit,rng=None,source_ohms=10050.,follower_ohms=1.,swing=13.5):
  A,b,*_=loaded(circuit['layer1'],64,source_ohms,rng)
  sums=np.clip(X@A+b,-swing,swing)
  ratio=np.ones(16)
