@@ -18,7 +18,12 @@ def search(b,net,a,c,extra):
    if pad.GetNetname()==net:continue
    sz=pad.GetSize();r=max(p.ToMM(sz.x),p.ToMM(sz.y))/2+.2+.1+extra
    for layer,k in [(p.F_Cu,0),(p.B_Cu,1)]:
-    if pad.IsOnLayer(layer):disk(k,point(pad.GetPosition()),r)
+    if pad.IsOnLayer(layer):
+     x,y=point(pad.GetPosition());angle=math.radians(pad.GetOrientationDegrees());w=p.ToMM(sz.x)/2+.2+.1+extra;h=p.ToMM(sz.y)/2+.2+.1+extra
+     if pad.GetShape()==p.PAD_SHAPE_CIRCLE:disk(k,(x,y),r)
+     else:
+      corners=[(x+(xx*math.cos(angle)-yy*math.sin(angle))/step,y+(xx*math.sin(angle)+yy*math.cos(angle))/step) for xx,yy in [(-w,-h),(w,-h),(w,h),(-w,h)]]
+      dr[k].polygon(corners,fill=1)
  for t in b.GetTracks():
   if t.GetNetname()==net:continue
   if isinstance(t,p.PCB_VIA):
