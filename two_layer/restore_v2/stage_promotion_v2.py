@@ -36,6 +36,14 @@ def main():
  src=H/'export_sourcing_inventory.py';text=src.read_text();text=text.replace("H/'restored_hybrid_shortrefs_run/final_audit.json'","H/'restore_v2/route_run_v2/final_audit_v2.json'")
  assert 'motherboard_refs.role(f)' in text
  (OUT/src.name).write_text(text);plan[src.name]={'prior_sha256':sha(src),'staged_sha256':sha(OUT/src.name),'action':'active_hybrid_exporter'}
+ for name in ('power_BOM_preliminary.csv','APPROVED_AHCT_ASSEMBLY.md'):
+  src=H/name
+  if not src.exists():continue
+  text=src.read_text()
+  for old,new in sorted(mapping.items(),key=lambda q:-len(q[0])):text=re.sub(r'(?<![A-Za-z0-9_])'+re.escape(old)+r'(?![A-Za-z0-9_])',new,text)
+  if name.endswith('.csv'):text=text.replace('approved JLC Extended SMT assembly all8','approved MANUAL top-side sourcing/soldering by Lucas all8; excluded JLC bottom assembly')
+  else:text='# Current restored hybrid assembly supersedes all historical notes below\n\nMotherboard JLC Economic assembles bottom SMD only. U1 through U8 are Diodes 74AHCT595S16-13 C126402 on top, manually purchased and soldered by Lucas, excluded from JLC BOM/CPL. Every top SMD and every THT part is manual. CRI is 1uF C28323 on bottom. Reference names are reversible by UUID in old_to_new_refs.json. The following earlier SMT-assembly sourcing report is historical only and does not determine current assembly classification.\n\n'+text
+  (OUT/name).write_text(text);plan[name]={'prior_sha256':sha(src),'staged_sha256':sha(OUT/name),'action':'active_motherboard_sourcing_overlay_remap'}
  (ROOT/'promotion_plan_v2.json').write_text(json.dumps(plan,indent=2)+'\n')
  print(json.dumps({'staged':len(plan),'live_files_mutated':0}))
 if __name__=='__main__':main()
