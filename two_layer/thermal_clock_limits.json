@@ -17,7 +17,7 @@
   "P_slope_W_per_Hz": 1.4321999999999998e-07,
   "power_equation": "P=P0+P_slope*f_continuous",
   "bare_thetaJA_assumed": 50,
-  "coin_thetaJA": "UNKNOWN",
+  "coin_thetaJA": "UNKNOWN; coin superseded by hand-installed aluminum TO-220 heatsink, assembled heatsink thetaJA also unverified",
   "clock_limit_rows": [
     {
       "assumed_effective_thetaJA_C_per_W": 50,
