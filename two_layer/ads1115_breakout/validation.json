@@ -1,14 +1,14 @@
 {
-  "board_sha256": "763d27c4de606c7a79eabf7d248ecf81870f24103d28a187082887ed844e0eca",
+  "board_sha256": "474a99a752bd9366f885d383ab4faed7056444d6c796405eb6b82423656b2b39",
   "errors": 0,
   "unconnected": 0,
   "warnings": 28,
-  "tracks": 123,
+  "tracks": 135,
   "widths_mm": [
     0.5,
     0.8
   ],
-  "jumpers": 5,
+  "jumpers": 7,
   "page_points": [
     612,
     792

@@ -17,9 +17,13 @@ for n in names:
     z=p.NETINFO_ITEM(b,n); b.Add(z); nets[n]=z
 pads=[]; holes=[]
 def text(s,x,y,size=.9,layer=p.F_SilkS):
-    t=p.PCB_TEXT(b); t.SetText(s); t.SetPosition(v(x,y)); t.SetTextSize(v(size,size)); t.SetTextThickness(p.FromMM(.15)); t.SetLayer(layer); b.Add(t)
+    t=p.PCB_TEXT(b); t.SetText(s); t.SetPosition(v(x,y)); t.SetTextSize(v(size,size)); t.SetTextThickness(p.FromMM(.15)); t.SetLayer(p.B_SilkS if layer==p.F_SilkS else layer);t.SetMirrored(layer==p.F_SilkS); b.Add(t)
 def fp(lib,name,ref,x,y,ang,mapping):
     f=p.FootprintLoad(str(LIB/(lib+'.pretty')),name); b.Add(f); f.SetReference(ref); f.SetPosition(v(x,y)); f.SetOrientationDegrees(ang); f.Reference().SetVisible(False); f.Value().SetVisible(False)
+    if ref=='JAD':
+        f.SetPosition(v(x,y+11*2.54));f.Flip(f.GetPosition(),p.FLIP_DIRECTION_TOP_BOTTOM)
+    elif ref.startswith('JM'):f.Flip(f.GetPosition(),p.FLIP_DIRECTION_TOP_BOTTOM)
+    else:f.Flip(f.GetPosition(),p.FLIP_DIRECTION_LEFT_RIGHT)
     for a in f.Pads():
         if a.GetAttribute()==p.PAD_ATTRIB_PTH:
             a.SetSize(v(1.8,1.8)); a.SetDrillSize(v(1,1)); a.SetShape(p.PAD_SHAPE_CIRCLE if a.GetNumber()!='1' else p.PAD_SHAPE_RECT)
@@ -40,7 +44,7 @@ for k,y in enumerate([7,27,47]):
         d=p.PCB_SHAPE(); d.SetShape(p.SHAPE_T_SEGMENT); d.SetStart(v(*a)); d.SetEnd(v(*c)); d.SetWidth(p.FromMM(.15)); d.SetLayer(p.Dwgs_User); b.Add(d)
     for j,s in enumerate(['VDD','GND','SCL','SDA','ADDR','ALRT','A0','A1','A2','A3']):
         # Rotate names to fit the 2.54 mm pitch.
-        t=p.PCB_TEXT(b); t.SetText(s); t.SetPosition(v(40-2.54*j,y+3.4)); t.SetTextSize(v(.8,.8)); t.SetTextThickness(p.FromMM(.12)); t.SetTextAngle(p.EDA_ANGLE(90,p.DEGREES_T)); t.SetLayer(p.F_SilkS); b.Add(t)
+        t=p.PCB_TEXT(b); t.SetText(s); t.SetPosition(v(40-2.54*j,y+3.4)); t.SetTextSize(v(.8,.8)); t.SetTextThickness(p.FromMM(.12)); t.SetTextAngle(p.EDA_ANGLE(90,p.DEGREES_T)); t.SetLayer(p.B_SilkS);t.SetMirrored(True); b.Add(t)
 fp('Connector_PinHeader_2.54mm','PinHeader_1x04_P2.54mm_Vertical','JI2C',46,26,0,{1:'3V3',2:'GND',3:'SDA',4:'SCL'})
 fp('Connector_PinHeader_2.54mm','PinHeader_1x02_P2.54mm_Vertical','JAR',46,39,0,{1:'3V3',2:'GND'})
 fp('Capacitor_THT','C_Disc_D3.0mm_W1.6mm_P2.50mm','C1',46,50, -90,{1:'3V3',2:'GND'})
@@ -48,7 +52,7 @@ text('I2C',46,23.5); text('TO JAR',45,36.5,.85); text('C1 100n DNP',44,55,.75)
 for j,s in enumerate(['3V3','GND','SDA','SCL']):text(s,42.5,26+j*2.54,.8)
 text('3V3',42.5,39,.8);text('GND',42.5,41.54,.8)
 text('JAD',5,14,1.2);text('< MOTHER',5.4,16,.75)
-for j in range(12): text(str(j+1),12.8,18+j*2.54,.7)
+for j in range(12): text(str(j+1),12.8,45.94-j*2.54,.7)
 text('ADS1115 x3 / 3V3 ONLY',25,3.5,1.1); text('50 x 70 / F.Cu only',25,67.2,.9)
 for i,(x,y) in enumerate([(3.5,3.5),(46.5,3.5),(3.5,66.5),(46.5,66.5)]):
     f=p.FootprintLoad(str(LIB/'MountingHole.pretty'),'MountingHole_3.2mm_M3');b.Add(f);f.SetReference(f'H{i+1}');f.SetPosition(v(x,y));f.Reference().SetVisible(False);f.Value().SetVisible(False); holes.append((x,y))
@@ -65,7 +69,7 @@ base[:8]=True;base[-8:]=True;base[:,:8]=True;base[:,-8:]=True
 for x,y in holes:base|=(xx-x)**2+(yy-y)**2<=1.8**2
 netpoints={n:[(round(x/S),round(y/S)) for x,y,nn,*_ in pads if nn==n] for n in names}
 best=None
-for trial in range(30):
+for trial in range(100):
     rng=random.Random(7700+trial)
     order=[n for n in names if n.startswith('ADC_')];rng.shuffle(order)
     bus=['3V3','GND','SCL','SDA'];rng.shuffle(bus)
@@ -75,7 +79,7 @@ for trial in range(30):
         width=.8 if n in ['3V3','GND'] else .5
         mask=base.copy()
         for pd,(_,_,nn,*_) in zip(paddist,pads):
-            if nn!=n: mask |= pd < width/2+.65
+            if nn!=n: mask |= pd < width/2+.8
         for other,(trace,ow) in occupied.items():mask |= distance_transform_edt(~trace)*S < (width+ow)/2+.65
         costs=np.ones((NX,NY));costs[mask]=np.inf
         points=netpoints[n]; tree=np.zeros((NX,NY),bool);tree[points[0]]=True; paths=[]
