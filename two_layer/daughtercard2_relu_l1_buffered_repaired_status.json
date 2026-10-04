@@ -1,0 +1,1213 @@
+{
+  "candidate": "daughtercard2_relu_l1_buffered_repaired.kicad_pcb",
+  "errors": 0,
+  "unconnected": 0,
+  "warnings": 91,
+  "categories": {
+    "silk_over_copper": 32,
+    "lib_footprint_issues": 59
+  },
+  "silk": {
+    "reference_count": 91,
+    "clean": true,
+    "violations": [],
+    "method": "Conservative text/pad axis-aligned bounding boxes, not a rendered glyph or solder-mask DRC.",
+    "limits_mm": {
+      "pad_clearance": 0.2,
+      "reference_clearance": 0.15,
+      "edge_clearance": 0.25,
+      "minimum_height": 0.8,
+      "stroke": 0.12
+    },
+    "removed_silk_items": 127,
+    "placed": [
+      {
+        "reference": "J_STRADDLE_EDGE",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          44.547618,
+          93.922801,
+          55.452382,
+          95.280001
+        ],
+        "distance_mm": 5.398599000000004
+      },
+      {
+        "reference": "D_CLAMP_10",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          44.6414,
+          66.62,
+          45.9986,
+          74.210477
+        ],
+        "distance_mm": 4.6152390000000025
+      },
+      {
+        "reference": "D_CLAMP_11",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          78.6414,
+          66.62,
+          79.9986,
+          74.210477
+        ],
+        "distance_mm": 4.6152390000000025
+      },
+      {
+        "reference": "D_CLAMP_12",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          35.409523,
+          73.5214,
+          43.0,
+          74.8786
+        ],
+        "distance_mm": 6.1152390000000025
+      },
+      {
+        "reference": "D_CLAMP_13",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          81.64,
+          73.5214,
+          89.230477,
+          74.8786
+        ],
+        "distance_mm": 6.115238000000005
+      },
+      {
+        "reference": "D_CLAMP_14",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          35.409523,
+          85.1214,
+          43.0,
+          86.4786
+        ],
+        "distance_mm": 6.1152390000000025
+      },
+      {
+        "reference": "D_CLAMP_15",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          78.6414,
+          86.62,
+          79.9986,
+          94.210477
+        ],
+        "distance_mm": 4.6152390000000025
+      },
+      {
+        "reference": "C_U_BUF1N",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          23.669999,
+          11.509524,
+          25.027199,
+          18.490476
+        ],
+        "distance_mm": 2.3485999999999976
+      },
+      {
+        "reference": "C_U_BUF1P",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          9.67,
+          11.528571,
+          11.0272,
+          18.471428
+        ],
+        "distance_mm": 2.3486000000000526
+      },
+      {
+        "reference": "C_U_BUF2N",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          23.669999,
+          31.509524,
+          25.027199,
+          38.490476
+        ],
+        "distance_mm": 2.3485999999999976
+      },
+      {
+        "reference": "C_U_BUF2P",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          9.67,
+          31.528571,
+          11.0272,
+          38.471428
+        ],
+        "distance_mm": 2.3486000000000526
+      },
+      {
+        "reference": "C_U_BUF3N",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          23.669999,
+          51.509524,
+          25.027199,
+          58.490476
+        ],
+        "distance_mm": 2.3485999999999976
+      },
+      {
+        "reference": "C_U_BUF3P",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          9.67,
+          51.528571,
+          11.0272,
+          58.471428
+        ],
+        "distance_mm": 2.3486000000000526
+      },
+      {
+        "reference": "C_U_BUF4N",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          23.669999,
+          71.509524,
+          25.027199,
+          78.490476
+        ],
+        "distance_mm": 2.3485999999999976
+      },
+      {
+        "reference": "C_U_BUF4P",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          9.67,
+          71.528571,
+          11.0272,
+          78.471428
+        ],
+        "distance_mm": 2.3486000000000526
+      },
+      {
+        "reference": "D_CLAMP_0",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          44.6414,
+          6.551427,
+          45.9986,
+          13.379999
+        ],
+        "distance_mm": 4.234286000000001
+      },
+      {
+        "reference": "D_CLAMP_1",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          78.6414,
+          6.551427,
+          79.9986,
+          13.379999
+        ],
+        "distance_mm": 4.234286000000001
+      },
+      {
+        "reference": "D_CLAMP_2",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          44.6414,
+          26.619999,
+          45.9986,
+          33.448571
+        ],
+        "distance_mm": 4.234285999999997
+      },
+      {
+        "reference": "D_CLAMP_3",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          78.6414,
+          26.619999,
+          79.9986,
+          33.448571
+        ],
+        "distance_mm": 4.234285999999997
+      },
+      {
+        "reference": "D_CLAMP_4",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          36.171428,
+          33.5214,
+          43.0,
+          34.8786
+        ],
+        "distance_mm": 5.734285999999997
+      },
+      {
+        "reference": "D_CLAMP_5",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          81.639999,
+          33.5214,
+          88.468571,
+          34.8786
+        ],
+        "distance_mm": 5.734285999999997
+      },
+      {
+        "reference": "D_CLAMP_6",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          44.6414,
+          46.619999,
+          45.9986,
+          53.448571
+        ],
+        "distance_mm": 4.234285999999997
+      },
+      {
+        "reference": "D_CLAMP_7",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          78.6414,
+          46.619999,
+          79.9986,
+          53.448571
+        ],
+        "distance_mm": 4.234285999999997
+      },
+      {
+        "reference": "D_CLAMP_8",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          36.171428,
+          53.5214,
+          43.0,
+          54.8786
+        ],
+        "distance_mm": 5.734285999999997
+      },
+      {
+        "reference": "D_CLAMP_9",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          81.639999,
+          53.5214,
+          88.468571,
+          54.8786
+        ],
+        "distance_mm": 5.734285999999997
+      },
+      {
+        "reference": "D_RECT_10",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          53.64,
+          62.461904,
+          54.9972,
+          69.138096
+        ],
+        "distance_mm": 2.9986000000000033
+      },
+      {
+        "reference": "D_RECT_11",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          69.6428,
+          62.461904,
+          71.0,
+          69.138096
+        ],
+        "distance_mm": 2.998599999999982
+      },
+      {
+        "reference": "D_RECT_12",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          53.64,
+          70.861904,
+          54.9972,
+          77.538096
+        ],
+        "distance_mm": 2.9986000000000033
+      },
+      {
+        "reference": "D_RECT_13",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          69.6428,
+          70.861904,
+          71.0,
+          77.538096
+        ],
+        "distance_mm": 2.998599999999982
+      },
+      {
+        "reference": "D_RECT_14",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          53.64,
+          82.461903,
+          54.9972,
+          89.138095
+        ],
+        "distance_mm": 2.9986000000000033
+      },
+      {
+        "reference": "D_RECT_15",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          69.6428,
+          82.461903,
+          71.0,
+          89.138095
+        ],
+        "distance_mm": 2.998599999999982
+      },
+      {
+        "reference": "D_RECT_0",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          53.64,
+          11.242856,
+          54.9972,
+          17.157143
+        ],
+        "distance_mm": 2.998600000000045
+      },
+      {
+        "reference": "D_RECT_1",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          69.6428,
+          11.242856,
+          71.0,
+          17.157143
+        ],
+        "distance_mm": 2.9986000000000237
+      },
+      {
+        "reference": "D_RECT_2",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          53.64,
+          22.842856,
+          54.9972,
+          28.757143
+        ],
+        "distance_mm": 2.998600000000045
+      },
+      {
+        "reference": "D_RECT_3",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          69.6428,
+          22.842856,
+          71.0,
+          28.757143
+        ],
+        "distance_mm": 2.9986000000000237
+      },
+      {
+        "reference": "D_RECT_4",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          53.64,
+          31.242856,
+          54.9972,
+          37.157143
+        ],
+        "distance_mm": 2.998600000000045
+      },
+      {
+        "reference": "D_RECT_5",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          69.6428,
+          31.242856,
+          71.0,
+          37.157143
+        ],
+        "distance_mm": 2.9986000000000237
+      },
+      {
+        "reference": "D_RECT_6",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          53.64,
+          42.842856,
+          54.9972,
+          48.757143
+        ],
+        "distance_mm": 2.998600000000045
+      },
+      {
+        "reference": "D_RECT_7",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          69.6428,
+          42.842856,
+          71.0,
+          48.757143
+        ],
+        "distance_mm": 2.9986000000000237
+      },
+      {
+        "reference": "D_RECT_8",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          53.64,
+          51.242856,
+          54.9972,
+          57.157143
+        ],
+        "distance_mm": 2.998600000000045
+      },
+      {
+        "reference": "D_RECT_9",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          69.6428,
+          51.242856,
+          71.0,
+          57.157143
+        ],
+        "distance_mm": 2.9986000000000237
+      },
+      {
+        "reference": "R_FB_10",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          46.6414,
+          57.711428,
+          47.9986,
+          62.94
+        ],
+        "distance_mm": 3.4842859999999973
+      },
+      {
+        "reference": "R_FB_11",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          76.6414,
+          57.711428,
+          77.9986,
+          62.94
+        ],
+        "distance_mm": 3.4842859999999973
+      },
+      {
+        "reference": "R_FB_12",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          46.6414,
+          77.06,
+          47.9986,
+          82.288572
+        ],
+        "distance_mm": 3.4842859999999973
+      },
+      {
+        "reference": "R_FB_13",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          76.6414,
+          77.06,
+          77.9986,
+          82.288572
+        ],
+        "distance_mm": 3.4842859999999973
+      },
+      {
+        "reference": "R_FB_14",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          49.1414,
+          79.695714,
+          50.4986,
+          84.924286
+        ],
+        "distance_mm": 2.9154759474226504
+      },
+      {
+        "reference": "R_FB_15",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          74.1414,
+          79.695714,
+          75.4986,
+          84.924286
+        ],
+        "distance_mm": 2.9154759474226504
+      },
+      {
+        "reference": "R_IN_10",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          40.292799,
+          61.329047,
+          41.649999,
+          66.290952
+        ],
+        "distance_mm": 2.348600000000058
+      },
+      {
+        "reference": "R_IN_11",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          82.99,
+          61.329047,
+          84.3472,
+          66.290952
+        ],
+        "distance_mm": 2.348600000000058
+      },
+      {
+        "reference": "R_IN_12",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          42.6414,
+          77.06,
+          43.9986,
+          82.021905
+        ],
+        "distance_mm": 3.350953000000004
+      },
+      {
+        "reference": "R_IN_13",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          80.6414,
+          77.06,
+          81.9986,
+          82.021905
+        ],
+        "distance_mm": 3.350953000000004
+      },
+      {
+        "reference": "R_IN_14",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          36.688095,
+          83.1314,
+          41.65,
+          84.4886
+        ],
+        "distance_mm": 4.150953000000001
+      },
+      {
+        "reference": "R_IN_15",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          82.99,
+          81.329047,
+          84.3472,
+          86.290952
+        ],
+        "distance_mm": 2.348600000000058
+      },
+      {
+        "reference": "R_FB_0",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          46.6414,
+          17.06,
+          47.9986,
+          21.526667
+        ],
+        "distance_mm": 3.1033340000000003
+      },
+      {
+        "reference": "R_FB_1",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          76.6414,
+          17.06,
+          77.9986,
+          21.526667
+        ],
+        "distance_mm": 3.1033340000000003
+      },
+      {
+        "reference": "R_FB_2",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          48.99,
+          23.131399,
+          53.456667,
+          24.488599
+        ],
+        "distance_mm": 3.9033330000000035
+      },
+      {
+        "reference": "R_FB_3",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          71.183332,
+          23.131399,
+          75.649999,
+          24.488599
+        ],
+        "distance_mm": 3.903334000000001
+      },
+      {
+        "reference": "R_FB_4",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          46.6414,
+          37.06,
+          47.9986,
+          41.526667
+        ],
+        "distance_mm": 3.103334000000004
+      },
+      {
+        "reference": "R_FB_5",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          76.6414,
+          37.06,
+          77.9986,
+          41.526667
+        ],
+        "distance_mm": 3.103334000000004
+      },
+      {
+        "reference": "R_FB_6",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          48.99,
+          43.1314,
+          53.456667,
+          44.4886
+        ],
+        "distance_mm": 3.9033330000000035
+      },
+      {
+        "reference": "R_FB_7",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          71.183332,
+          43.1314,
+          75.649999,
+          44.4886
+        ],
+        "distance_mm": 3.903334000000001
+      },
+      {
+        "reference": "R_FB_8",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          48.99,
+          55.5114,
+          53.456667,
+          56.8686
+        ],
+        "distance_mm": 3.9033330000000035
+      },
+      {
+        "reference": "R_FB_9",
+        "height_mm": 0.8,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          71.183332,
+          55.5114,
+          75.649999,
+          56.8686
+        ],
+        "distance_mm": 3.903334000000001
+      },
+      {
+        "reference": "R_IN_0",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          40.292799,
+          14.09,
+          41.649999,
+          18.29
+        ],
+        "distance_mm": 2.3486000000000047
+      },
+      {
+        "reference": "R_IN_1",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          82.99,
+          14.09,
+          84.3472,
+          18.29
+        ],
+        "distance_mm": 2.3486000000000047
+      },
+      {
+        "reference": "R_IN_2",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          40.292799,
+          21.709999,
+          41.649999,
+          25.909999
+        ],
+        "distance_mm": 2.3486000000000047
+      },
+      {
+        "reference": "R_IN_3",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          82.99,
+          21.709999,
+          84.3472,
+          25.909999
+        ],
+        "distance_mm": 2.3486000000000047
+      },
+      {
+        "reference": "R_IN_4",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          42.6414,
+          37.06,
+          43.9986,
+          41.26
+        ],
+        "distance_mm": 2.969999999999999
+      },
+      {
+        "reference": "R_IN_5",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          80.6414,
+          37.06,
+          81.9986,
+          41.26
+        ],
+        "distance_mm": 2.969999999999999
+      },
+      {
+        "reference": "R_IN_6",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          40.292799,
+          41.71,
+          41.649999,
+          45.91
+        ],
+        "distance_mm": 2.3486000000000047
+      },
+      {
+        "reference": "R_IN_7",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          82.99,
+          41.71,
+          84.3472,
+          45.91
+        ],
+        "distance_mm": 2.3486000000000047
+      },
+      {
+        "reference": "R_IN_8",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          42.6414,
+          57.06,
+          43.9986,
+          61.26
+        ],
+        "distance_mm": 2.969999999999999
+      },
+      {
+        "reference": "R_IN_9",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          80.6414,
+          57.06,
+          81.9986,
+          61.26
+        ],
+        "distance_mm": 2.969999999999999
+      },
+      {
+        "reference": "U_BUF1",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          18.895,
+          12.633333,
+          20.2522,
+          17.366666
+        ],
+        "distance_mm": 4.5736000000000265
+      },
+      {
+        "reference": "U_BUF2",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          18.895,
+          32.633333,
+          20.2522,
+          37.366666
+        ],
+        "distance_mm": 4.5736000000000265
+      },
+      {
+        "reference": "U_BUF3",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          18.895,
+          52.633333,
+          20.2522,
+          57.366666
+        ],
+        "distance_mm": 4.5736000000000265
+      },
+      {
+        "reference": "U_BUF4",
+        "height_mm": 0.8,
+        "angle_deg": 90,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          18.895,
+          72.633333,
+          20.2522,
+          77.366666
+        ],
+        "distance_mm": 4.5736000000000265
+      },
+      {
+        "reference": "C_U1N",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          69.835238,
+          17.5388,
+          74.804762,
+          19.13
+        ],
+        "distance_mm": 1.6655999999999977
+      },
+      {
+        "reference": "C_U1P",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          49.859047,
+          17.5388,
+          54.780952,
+          19.13
+        ],
+        "distance_mm": 1.6656000000000728
+      },
+      {
+        "reference": "C_U2N",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          69.835238,
+          37.5388,
+          74.804762,
+          39.13
+        ],
+        "distance_mm": 1.6655999999999977
+      },
+      {
+        "reference": "C_U2P",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          49.859047,
+          37.5388,
+          54.780952,
+          39.13
+        ],
+        "distance_mm": 1.6656000000000728
+      },
+      {
+        "reference": "C_U3N",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          69.835238,
+          57.5388,
+          74.804762,
+          59.13
+        ],
+        "distance_mm": 1.6655999999999977
+      },
+      {
+        "reference": "C_U3P",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          49.859047,
+          57.5388,
+          54.780952,
+          59.13
+        ],
+        "distance_mm": 1.6656000000000728
+      },
+      {
+        "reference": "C_U4N",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          71.335238,
+          77.4544,
+          76.304762,
+          79.0456
+        ],
+        "distance_mm": 2.3048861143232218
+      },
+      {
+        "reference": "C_U4P",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          48.359048,
+          77.4544,
+          53.280953,
+          79.0456
+        ],
+        "distance_mm": 2.3048861143232218
+      },
+      {
+        "reference": "H1",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          7.97,
+          4.2044,
+          10.13,
+          5.7956
+        ],
+        "distance_mm": 4.050000000000001
+      },
+      {
+        "reference": "H2",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          89.87,
+          4.2044,
+          92.03,
+          5.7956
+        ],
+        "distance_mm": 4.049999999999997
+      },
+      {
+        "reference": "U1",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          66.215,
+          19.2044,
+          68.375,
+          20.7956
+        ],
+        "distance_mm": 4.975000000000001
+      },
+      {
+        "reference": "U2",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          66.215,
+          39.2044,
+          68.375,
+          40.7956
+        ],
+        "distance_mm": 4.975000000000001
+      },
+      {
+        "reference": "U3",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          66.215,
+          59.2044,
+          68.375,
+          60.7956
+        ],
+        "distance_mm": 4.975000000000001
+      },
+      {
+        "reference": "U4",
+        "height_mm": 1.0,
+        "angle_deg": 0,
+        "layer": "F.Silkscreen",
+        "bbox_mm": [
+          66.215,
+          79.2044,
+          68.375,
+          80.7956
+        ],
+        "distance_mm": 4.975000000000001
+      }
+    ],
+    "unplaced": [],
+    "release_ready": true
+  },
+  "release_ready": false,
+  "reason": "Pending authoritative trained netlist/model agreement and mechanical/silk validation"
+}
