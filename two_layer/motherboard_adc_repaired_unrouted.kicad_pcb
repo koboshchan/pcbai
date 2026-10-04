@@ -1149,87 +1149,6 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "202d8e80-f65c-4e67-a395-c2ed86fe987b")
-		(at 26 18)
-		(descr "Logic decoupling capacitor, Voltage=50V, X7R")
-		(property "Reference" "C_SR8"
-			(at 4.083333 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "266cfc23-920c-4588-99bd-e26519e17d72")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.12)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68a75bf8-9026-4260-a65e-0ddb579a33aa")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "49e87f00-5faf-4485-b6b7-ef33042b23dd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "87d4dc79-aa82-4701-aed5-41d0f9fe41bd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "+5V")
-			(uuid "d0587fdb-164c-418d-812c-b831c33ca299")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "0d78089b-780f-43ac-bf61-9e1cc0a4b7f4")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "20f41195-80e0-48e8-86cb-a1048301e58b")
@@ -5463,87 +5382,6 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "72e3d753-003e-4a9d-a753-31fd818f593d")
-		(at 66 7.5)
-		(descr "Logic decoupling capacitor, Voltage=50V, X7R")
-		(property "Reference" "C_SR3"
-			(at 4.083333 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "dc68b3e9-6eb0-4679-8190-7c2404222e45")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.12)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c58e0c59-e9ef-4137-8b0a-d2281de0e869")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5486e97f-f7a5-4baf-97f0-a15199338494")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aa83777d-dbe7-4e9b-93dd-cae8cae5ed25")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "+5V")
-			(uuid "9d7fa7c7-90c2-4672-b852-7838d6937f9f")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "26fec5b0-7ffe-4118-962f-d261fd8f9845")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "7867e144-34e6-431f-a679-b553160bc8cf")
@@ -7835,87 +7673,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "9cf2e9e4-f2dc-4505-b1dc-f20ab9dc2bc8")
-		(at 46 18)
-		(descr "Logic decoupling capacitor, Voltage=50V, X7R")
-		(property "Reference" "C_SR7"
-			(at 4.083333 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "46a29890-d7f7-4f57-aba0-5e0adf192e9b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.12)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6b3c5463-a486-461c-917d-658dcf64180c")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c45e9cb6-6ff2-41f5-8ecf-966d51eaeda1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2ca9cb91-cdb5-4588-9f93-e00cdb06521b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "+5V")
-			(uuid "d8cd652a-63c3-4ab7-baa9-184abbe318c8")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "f911040c-5cdb-4c1d-b463-74ac0b1611a5")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10875,87 +10632,6 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "c1b193eb-bb4d-4ff2-a874-1129ef392d88")
-		(at 26 7.5)
-		(descr "Logic decoupling capacitor, Voltage=50V, X7R")
-		(property "Reference" "C_SR1"
-			(at 4.083333 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "7842b84b-d12b-4fef-9422-990e5987dd15")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.12)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "33d7edeb-edec-4c20-9269-219e698e47d3")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4b813798-7da9-4be1-9701-f87ef6272140")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "75af8718-20e8-49d7-b535-8538fefbbb4f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "+5V")
-			(uuid "9c9dc359-33b7-408e-a32e-be552721a14f")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "0c37f7c0-a150-422f-a3e8-53292fefee8b")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x38_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c84ad1a6-ec1d-41d5-a9f7-d9bf4a2c3657")
@@ -12460,168 +12136,6 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "e3cbd30a-ea7a-4aab-8b03-2c3d183ed61e")
-		(at 66 18)
-		(descr "Logic decoupling capacitor, Voltage=50V, X7R")
-		(property "Reference" "C_SR6"
-			(at 4.083333 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "48df4bb5-c76b-4fb0-b32c-ae073fec0bd6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.12)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4f3bbecb-ae92-41c1-954d-9d54bc739e68")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "daa93c30-ac3e-456e-bc30-a34e5a91c299")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c491d350-e3f4-4c45-b8c1-3552d3864277")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "+5V")
-			(uuid "da3bc26c-9b31-47d8-82bc-325a2e45abb4")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "0ca23af3-8092-4f37-aee3-c9d744d77594")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "e488e93e-0888-4e0f-aac9-502e2e3b5e06")
-		(at 86 18)
-		(descr "Logic decoupling capacitor, Voltage=50V, X7R")
-		(property "Reference" "C_SR5"
-			(at 4.083333 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "1a0fedbb-4077-4c44-8c98-b23c8d16887c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.12)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "580cd1a2-d7ed-4e38-8009-5dc39920c35c")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f23d87c4-fc05-4f90-bd65-8c3e9c0c8d4e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2dbf798d-8dfd-491a-a815-c0d486a3e7fa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "+5V")
-			(uuid "0f691bd6-8249-4616-b6d5-1baac29ce072")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "d105548a-ecb0-4533-97ca-2ccd770cf929")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x38_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e87609a8-2145-4a52-b64d-2b900f132a80")
@@ -13619,87 +13133,6 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "ef51fdaa-9172-4ac4-bcd5-6738f55a691a")
-		(at 86 7.5)
-		(descr "Logic decoupling capacitor, Voltage=50V, X7R")
-		(property "Reference" "C_SR4"
-			(at -4.083335 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "4fb7fc13-32c1-4784-924c-6048c58ccfdd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.12)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1770a7a2-62c9-4f02-911a-92fce6b7d49e")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3a846e1b-8483-4a4e-a57e-07c65bedeaeb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7ba8321b-17a6-41fb-b014-811b9482bd43")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "+5V")
-			(uuid "56f51763-6e72-4408-8875-f5bda807dbcf")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "84359c7a-46a1-430e-9440-82de90b98815")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "f19a2257-dec8-4b44-8464-0adf7d146c71")
@@ -14126,87 +13559,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "f51c95f7-00cf-4232-abc5-a57e8b43988a")
-		(at 46 7.5)
-		(descr "Logic decoupling capacitor, Voltage=50V, X7R")
-		(property "Reference" "C_SR2"
-			(at 4.083333 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "5afd8493-126a-4068-8192-4db534372c65")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.12)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "50020602-42e0-4080-8696-ffddedde28a5")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f967fd6-1f4d-49d6-b46a-00ccd59a9fa2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "551d5e15-86ae-4bfe-82f5-46a085230337")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "+5V")
-			(uuid "993c59ea-3288-4ece-84ab-aace9f709796")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "94221065-e92b-427c-a7a3-6e4ad45f9764")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15924,6 +15276,91 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_0805_2012Metric"
+		(layer "B.Cu")
+		(uuid "202d8e80-f65c-4e67-a395-c2ed86fe987b")
+		(at 15.55 18.805 -90)
+		(descr "Logic decoupling capacitor, Voltage=50V, X7R")
+		(property "Reference" "C_SR8"
+			(at -3.636667 0 90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "266cfc23-920c-4588-99bd-e26519e17d72")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 0 -1.5 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "68a75bf8-9026-4260-a65e-0ddb579a33aa")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "49e87f00-5faf-4485-b6b7-ef33042b23dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "87d4dc79-aa82-4701-aed5-41d0f9fe41bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0 270)
+			(size 1 1.3)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "+5V")
+			(uuid "d0587fdb-164c-418d-812c-b831c33ca299")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0 270)
+			(size 1 1.3)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "0d78089b-780f-43ac-bf61-9e1cc0a4b7f4")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22836,6 +22273,91 @@
 			)
 		)
 	)
+	(footprint "Capacitor_SMD:C_0805_2012Metric"
+		(layer "B.Cu")
+		(uuid "72e3d753-003e-4a9d-a753-31fd818f593d")
+		(at 55.55 8.305 -90)
+		(descr "Logic decoupling capacitor, Voltage=50V, X7R")
+		(property "Reference" "C_SR3"
+			(at 0 2.836667 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "dc68b3e9-6eb0-4679-8190-7c2404222e45")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 0 -1.5 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c58e0c59-e9ef-4137-8b0a-d2281de0e869")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5486e97f-f7a5-4baf-97f0-a15199338494")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aa83777d-dbe7-4e9b-93dd-cae8cae5ed25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0 270)
+			(size 1 1.3)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "+5V")
+			(uuid "9d7fa7c7-90c2-4672-b852-7838d6937f9f")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0 270)
+			(size 1 1.3)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "26fec5b0-7ffe-4118-962f-d261fd8f9845")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "R_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "7446016e-e599-42eb-83a2-093ebcd511c7")
@@ -26096,6 +25618,91 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_0805_2012Metric"
+		(layer "B.Cu")
+		(uuid "9cf2e9e4-f2dc-4505-b1dc-f20ab9dc2bc8")
+		(at 35.55 18.805 -90)
+		(descr "Logic decoupling capacitor, Voltage=50V, X7R")
+		(property "Reference" "C_SR7"
+			(at 0 2.836667 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "46a29890-d7f7-4f57-aba0-5e0adf192e9b")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 0 -1.5 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6b3c5463-a486-461c-917d-658dcf64180c")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c45e9cb6-6ff2-41f5-8ecf-966d51eaeda1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2ca9cb91-cdb5-4588-9f93-e00cdb06521b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0 270)
+			(size 1 1.3)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "+5V")
+			(uuid "d8cd652a-63c3-4ab7-baa9-184abbe318c8")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0 270)
+			(size 1 1.3)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "f911040c-5cdb-4c1d-b463-74ac0b1611a5")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29729,6 +29336,91 @@
 			)
 		)
 	)
+	(footprint "Capacitor_SMD:C_0805_2012Metric"
+		(layer "B.Cu")
+		(uuid "c1b193eb-bb4d-4ff2-a874-1129ef392d88")
+		(at 15.55 8.305 -90)
+		(descr "Logic decoupling capacitor, Voltage=50V, X7R")
+		(property "Reference" "C_SR1"
+			(at 0 2.836668 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "7842b84b-d12b-4fef-9422-990e5987dd15")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 0 -1.5 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "33d7edeb-edec-4c20-9269-219e698e47d3")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4b813798-7da9-4be1-9701-f87ef6272140")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "75af8718-20e8-49d7-b535-8538fefbbb4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0 270)
+			(size 1 1.3)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "+5V")
+			(uuid "9c9dc359-33b7-408e-a32e-be552721a14f")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0 270)
+			(size 1 1.3)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "0c37f7c0-a150-422f-a3e8-53292fefee8b")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "c47ea13b-2d82-4227-8c60-563219fed90a")
@@ -32873,6 +32565,176 @@
 			)
 		)
 	)
+	(footprint "Capacitor_SMD:C_0805_2012Metric"
+		(layer "B.Cu")
+		(uuid "e3cbd30a-ea7a-4aab-8b03-2c3d183ed61e")
+		(at 55.55 17.805 -90)
+		(descr "Logic decoupling capacitor, Voltage=50V, X7R")
+		(property "Reference" "C_SR6"
+			(at 0 2.836667 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "48df4bb5-c76b-4fb0-b32c-ae073fec0bd6")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 0 -1.5 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4f3bbecb-ae92-41c1-954d-9d54bc739e68")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "daa93c30-ac3e-456e-bc30-a34e5a91c299")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c491d350-e3f4-4c45-b8c1-3552d3864277")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0 270)
+			(size 1 1.3)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "+5V")
+			(uuid "da3bc26c-9b31-47d8-82bc-325a2e45abb4")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0 270)
+			(size 1 1.3)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "0ca23af3-8092-4f37-aee3-c9d744d77594")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_0805_2012Metric"
+		(layer "B.Cu")
+		(uuid "e488e93e-0888-4e0f-aac9-502e2e3b5e06")
+		(at 75.55 18.805 -90)
+		(descr "Logic decoupling capacitor, Voltage=50V, X7R")
+		(property "Reference" "C_SR5"
+			(at 0 2.836667 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "1a0fedbb-4077-4c44-8c98-b23c8d16887c")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 0 -1.5 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "580cd1a2-d7ed-4e38-8009-5dc39920c35c")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f23d87c4-fc05-4f90-bd65-8c3e9c0c8d4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2dbf798d-8dfd-491a-a815-c0d486a3e7fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0 270)
+			(size 1 1.3)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "+5V")
+			(uuid "0f691bd6-8249-4616-b6d5-1baac29ce072")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0 270)
+			(size 1 1.3)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "d105548a-ecb0-4533-97ca-2ccd770cf929")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "e68930d2-8589-41cd-92b4-a954bddc1883")
@@ -33532,6 +33394,91 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_0805_2012Metric"
+		(layer "B.Cu")
+		(uuid "ef51fdaa-9172-4ac4-bcd5-6738f55a691a")
+		(at 75.55 8.305 -90)
+		(descr "Logic decoupling capacitor, Voltage=50V, X7R")
+		(property "Reference" "C_SR4"
+			(at 0 2.836667 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "4fb7fc13-32c1-4784-924c-6048c58ccfdd")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 0 -1.5 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1770a7a2-62c9-4f02-911a-92fce6b7d49e")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3a846e1b-8483-4a4e-a57e-07c65bedeaeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7ba8321b-17a6-41fb-b014-811b9482bd43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0 270)
+			(size 1 1.3)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "+5V")
+			(uuid "56f51763-6e72-4408-8875-f5bda807dbcf")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0 270)
+			(size 1 1.3)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "84359c7a-46a1-430e-9440-82de90b98815")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34265,6 +34212,91 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_0805_2012Metric"
+		(layer "B.Cu")
+		(uuid "f51c95f7-00cf-4232-abc5-a57e8b43988a")
+		(at 35.55 8.305 -90)
+		(descr "Logic decoupling capacitor, Voltage=50V, X7R")
+		(property "Reference" "C_SR2"
+			(at 0 2.836667 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "5afd8493-126a-4068-8192-4db534372c65")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 0 -1.5 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "50020602-42e0-4080-8696-ffddedde28a5")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5f967fd6-1f4d-49d6-b46a-00ccd59a9fa2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "551d5e15-86ae-4bfe-82f5-46a085230337")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0 270)
+			(size 1 1.3)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "+5V")
+			(uuid "993c59ea-3288-4ece-84ab-aace9f709796")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0 270)
+			(size 1 1.3)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "94221065-e92b-427c-a7a3-6e4ad45f9764")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
