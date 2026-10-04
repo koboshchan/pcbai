@@ -1,0 +1,7 @@
+__pycache__/
+*.kicad_prl
+exception_tests/*.kicad_pcb
+exception_tests/*.kicad_pro
+exception_tests/*.kicad_dru
+exception_tests/*.json
+route_*/
