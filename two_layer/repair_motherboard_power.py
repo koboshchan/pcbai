@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Onboard +15 -> +5 linear power. KiCad10 system Python only.
-Run after repair_motherboard_final.py. Thermal release requires heatsink testing.
+Run after repair_motherboard_final.py. Optional cooling requires measured qualification; conservative bare clock limits are separate.
 """
 from pathlib import Path
 import json,subprocess,math
@@ -43,7 +43,8 @@ def main():
   f.SetLibDescription(f.GetLibDescription()+'; '+desc)
   for q in f.Pads():q.SetNet(net(b,nets[q.GetNumber()]))
   return f
- add('Package_TO_SOT_THT','TO-220-3_Vertical','U_REG5','L7805CV',61,96,{'1':'+15V','2':'GND','3':'+5V'},False,'LCSC C111887; ST; pin1 IN pin2 GND tab GND pin3 OUT; mandatory external heatsink thetaSA<=10C/W in actual ambient, interface<=2C/W; mechanical fit and bench qualification pending')
+ reg=add('Package_TO_SOT_THT','TO-220-3_Vertical','U_REG5','L7805CV',66,97,{'1':'+15V','2':'GND','3':'+5V'},False,'LCSC C111887; ST; pin1 IN pin2 GND tab GND pin3 OUT; optional recommended glued25mm coin <2mm, no unmeasured cooling credit; outboard exclusion x50.96..75.96 y99.8..124.8 z0..35mm; bench qualification pending')
+ reg.SetOrientationDegrees(180)
  add('Capacitor_SMD','C_0805_2012Metric','C_REG_IN','0.33uF',60,94,{'1':'+15V','2':'GND'},True,'50V X7R; >=0.33uF effective capacitance required')
  add('Capacitor_SMD','C_0805_2012Metric','C_REG_OUT','0.1uF',66,94,{'1':'+5V','2':'GND'},True,'50V X7R')
  add('Capacitor_SMD','CP_Elec_5x5.8','C_REG_BULK','10uF',83,94,{'1':'+5V','2':'GND'},True,'>=16V polarized; burst local reservoir; qualification pending')
@@ -84,7 +85,7 @@ def main():
   load=dyn+ttl+icc+filters+serial+minimum+bias
   # Conservative independently combined current and voltage corners.
   diss=(15.75-4.75)*load+15.75*.0093
-  return {'clock_duty':duty,'cpd_multiplier':mult,'dynamic_A':dyn,'TTL_extra_A':ttl,'static_A':icc,'filters_A':filters,'serial_capacitance_A':serial,'minimum_load_A':minimum,'bias_bound_A':bias,'Iout_A':load,'P_reg_W':diss,'Tj_bare_TO220_C':50+50*diss,'Tj_bare_D2PAK_C':50+62.5*diss,'Tj_with_10C_W_sink_and_2C_W_interface_C':50+17*diss}
+  return {'clock_duty':duty,'cpd_multiplier':mult,'dynamic_A':dyn,'TTL_extra_A':ttl,'static_A':icc,'filters_A':filters,'serial_capacitance_A':serial,'minimum_load_A':minimum,'bias_bound_A':bias,'Iout_A':load,'P_reg_W':diss,'Tj_bare_TO220_C':50+50*diss,'Tj_bare_D2PAK_C':50+62.5*diss}
  # 6-bit BCM, base quantum3.2us, total63 quanta, 64-bit shifts at20MHz.
  frame_hz=1/(63*3.2e-6)
  duty=6*64/20e6*frame_hz
@@ -92,6 +93,6 @@ def main():
  drc=ROOT/'motherboard_power_placement_drc.json'
  subprocess.run(['kicad-cli','pcb','drc','--format','json','--all-track-errors','-o',str(drc),str(PCB)],check=True)
  d=json.loads(drc.read_text());errors=[v for v in d['violations'] if v.get('severity')=='error']
- report={'board':PCB.name,'regulator':'ST L7805CV','LCSC':'C111887','regulator_output_V':[4.75,5.25],'required_model':'PWM high and +5V_REF co-vary with common regulator output; driver load droop separate','sources':['https://www.st.com/resource/en/datasheet/l78.pdf','https://www.lcsc.com/product-detail/C111887.html','https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf','https://www.lcsc.com/product-detail/shift-registers_nexperia-74ahct595d-112_C554704.html'],'input':'+15V,GND,-15V only; MCU separately provides3V3_ADC and SPI','MCU_pin1':'NC, never attach5V','negative_reference':'unsourced preserved unused bus','thermal':thermal,'BCM_frame_hz':frame_hz,'AHCT_driver':ahct_drive_audit(),'repaired_schematic_final_gate':'Missing current repaired schematic; root HC/HCT sheets obsolete and untouched','bias_paths':bias_paths,'thermal_release_passed':False,'thermal_note':'Heatsink <=10C/W at actual50C local ambient with interface<=2C/W is REQUIRED; physical fitting and thermal bench test pending. CPD is typical, not guaranteed maximum. 50pct multiplier is engineering margin, not datasheet guarantee. No bare-package operation authorization. Minimum normal junction0C for C version. Current budget25 TTL inputs =3 shared MCU lines*8+DS first; MR tied5V. Includes bounded rail-to-bias resistor current.','preserved_filters':64,'preserved_ADC_and_slot_pad_nets':True,'power_parts':{r:after[r] for r in owned if r in after},'drc_error_count':len(errors),'unconnected_count':len(d.get('unconnected_items',[])),'fabrication_ready':False}
+ report={'board':PCB.name,'regulator':'ST L7805CV','LCSC':'C111887','regulator_output_V':[4.75,5.25],'required_model':'PWM high and +5V_REF co-vary with common regulator output; driver load droop separate','sources':['https://www.st.com/resource/en/datasheet/l78.pdf','https://www.lcsc.com/product-detail/C111887.html','https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf','https://www.lcsc.com/product-detail/shift-registers_nexperia-74ahct595d-112_C554704.html'],'input':'+15V,GND,-15V only; MCU separately provides3V3_ADC and SPI','MCU_pin1':'NC, never attach5V','negative_reference':'unsourced preserved unused bus','thermal':thermal,'BCM_frame_hz':frame_hz,'AHCT_driver':ahct_drive_audit(),'repaired_schematic_final_gate':'Missing current repaired schematic; root HC/HCT sheets obsolete and untouched','bias_paths':bias_paths,'thermal_release_passed':False,'thermal_note':'Cooling coin is optional/recommended and excluded from mandatory BOM, not a routing gate. Actual coin thermal resistance is UNKNOWN; no cooling credit until measurement. Use THERMAL_CLOCK_LIMITS.md conservative bare continuous-clock estimates, not 20MHz continuous. CPD typical plus50pct engineering margin is not guaranteed maximum. Low clock requires new PWM/RC accuracy simulation. Minimum normal junction0C. Current budget25 TTL inputs=3 shared MCU lines*8+DS first; MR tied5V; includes bounded rail-to-bias current.','preserved_filters':64,'preserved_ADC_and_slot_pad_nets':True,'power_parts':{r:after[r] for r in owned if r in after},'drc_error_count':len(errors),'unconnected_count':len(d.get('unconnected_items',[])),'fabrication_ready':False}
  (ROOT/'power_audit.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2));assert not errors
 if __name__=='__main__':main()
