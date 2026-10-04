@@ -7,7 +7,7 @@ def pos(x,y):return p.VECTOR2I(mm(x),mm(y))
 def sha(f):return hashlib.sha256(f.read_bytes()).hexdigest()
 def members(b):return {f.GetReference():{'uuid':f.m_Uuid.AsString(),'value':f.GetValue(),'footprint':f.GetFPID().GetLibItemName().wx_str(),'pads':sorted((q.GetNumber(),q.GetNetname()) for q in f.Pads())} for f in b.GetFootprints()}
 def header(b,ref,daughter):
- f=p.FOOTPRINT(b);f.SetReference(ref);f.SetValue('2x38_2.54mm_GENERIC_MANUAL_STRADDLE' if daughter else '2x38_2.54mm_GENERIC_MANUAL_SOCKET');b.Add(f);f.SetPosition(pos(50,40 if daughter else 10))
+ f=p.FOOTPRINT(b);fid=p.LIB_ID();fid.SetLibNickname(p.UTF8('DC0_Isolated'));fid.SetLibItemName(p.UTF8('Straddle2x38' if daughter else 'Socket2x38'));f.SetFPID(fid);f.SetReference(ref);f.SetValue('2x38_2.54mm_GENERIC_MANUAL_STRADDLE' if daughter else '2x38_2.54mm_GENERIC_MANUAL_SOCKET');b.Add(f);f.SetPosition(pos(50,40 if daughter else 10))
  for n in range(1,77):
   q=p.PAD(f);q.SetNumber(str(n));q.SetShape(p.PAD_SHAPE_RECT if n==1 else p.PAD_SHAPE_OVAL);x=3.01+((n-1)//2)*2.54
   if daughter:
