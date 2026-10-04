@@ -30,7 +30,7 @@ def data():
     X.append(x)
    np.savez_compressed(npz,X=np.array(X),y=np.array(table['label'],dtype=np.int64))
   d=np.load(npz);arrays.extend([d['X'],d['y']])
- provenance['preprocess']='Original pipeline crop intensity>20 with2pxpadding, square-expanded bounding box, PIL BOX8x8; binary threshold2.5V'
+ provenance['preprocess']='Original pipeline crop intensity>20 with2pxpadding, square-expanded bounding box, PIL BOX8x8; grayscale voltage0..5,6bit PWM quantization'
  (HERE/'dataset_provenance.json').write_text(json.dumps(provenance,indent=2))
  return arrays
 source=ast.parse((ROOT/'train_mnist_hardware.py').read_text())
@@ -62,16 +62,20 @@ class Net(torch.nn.Module):
   P=gp/totp[:,None];k=(gf+gn.sum(1)+gbn)/gf/totp
   coeff=gp*k[:,None]-gn/gf[:,None]
   G=g[:,:-1];C=torch.diag(G.sum(0))-G.T@P[:,:-1]
-  T=torch.linalg.inv(torch.eye(x.shape[1],device=device)+rs*C)
-  q=T@(rs*G.T@P[:,-1]*5)
+  source_r=torch.full((x.shape[1],),float(rs),device=device)
+  if self.noise and rs>1000:source_r=10000*(1+torch.empty_like(source_r).uniform_(-.05,.05))+50
+  T=torch.linalg.inv(torch.eye(x.shape[1],device=device)+source_r[:,None]*C)
+  q=T@(source_r*(G.T@P[:,-1])*5)
   actual=x@T.T+q
   return actual@coeff[:,:-1].T+coeff[:,-1]*5
  def forward(self,x):
-  sums=self.layer(x,self.fc1.weight,self.fc1.bias,50,True).clamp(-10,10)
-  h=(-sums).relu().clamp(max=9.2)
+  sums=self.layer(x,self.fc1.weight,self.fc1.bias,10050,True).clamp(-13.5,13.5)
+  h=(-sums).relu().clamp(max=12.7)
   if self.noise:h=h*((1+torch.empty(16,device=device).uniform_(-.01,.01))/(1+torch.empty(16,device=device).uniform_(-.01,.01)))
-  return self.layer(h,self.fc2.weight,self.fc2.bias,1).clamp(-10,10)
-X,y,Xt,yt=data();X=(X>=2.5).astype('float32')*5;Xt=(Xt>=2.5).astype('float32')*5
+  return self.layer(h,self.fc2.weight,self.fc2.bias,1).clamp(-13.5,13.5)
+X,y,Xt,yt=data();X=X.astype('float32');Xt=Xt.astype('float32')
+# Grayscale source duty quantized to six bits, never thresholded.
+X=np.round(X/5*63)/63*5;Xt=np.round(Xt/5*63)/63*5
 # 5000 validation samples are separated from training; test never selects epochs.
 perm=np.random.default_rng(42064).permutation(len(X));vi=perm[:5000];ti=perm[5000:]
 x=torch.tensor(X[ti],device=device);yy=torch.tensor(y[ti],device=device);xv=torch.tensor(X[vi],device=device);yv=torch.tensor(y[vi],device=device)
@@ -92,11 +96,16 @@ w1=net.fc1.weight.detach().cpu().numpy();b1=net.fc1.bias.detach().cpu().numpy();
 circ['layer1']=synthesize(-w1,-b1,e96);circ['layer2']=synthesize(w2,b2,e96)
 (HERE/'trained_circuit.json').write_text(json.dumps(circ,indent=2));np.savez(HERE/'trained_float.npz',w1=w1,b1=b1,w2=w2,b2=b2)
 metrics={'dataset':'official MNIST test10000, binary2.5V threshold after original preprocessing','train_count':55000,'validation_count':5000,'test_count':10000,'seed':42064,'best_validation':best,'device':device,'test_used_for_selection':False}
-for rs in [0,50,100]:
- adc,s,h=infer(Xt,circ,source_ohms=rs);pred=adc.argmax(1);metrics['nominal_source_'+str(rs)]={'correct':int((pred==yt).sum()),'accuracy':float((pred==yt).mean()),'adc_min':float(adc.min()),'adc_max':float(adc.max()),'hidden_max':float(h.max()),'score_absmax':float(abs(s).max()),'per_digit':[float((pred[yt==i]==i).mean()) for i in range(10)]}
+for rs in [10050]:
+ adc,s,h=infer(Xt,circ,source_ohms=rs,swing=13.5);pred=adc.argmax(1);metrics['nominal_source_'+str(rs)]={'correct':int((pred==yt).sum()),'accuracy':float((pred==yt).mean()),'adc_min':float(adc.min()),'adc_max':float(adc.max()),'hidden_max':float(h.max()),'score_absmax':float(abs(s).max()),'per_digit':[float((pred[yt==i]==i).mean()) for i in range(10)]}
 mc=[];rng=np.random.default_rng(51005)
-for trial in range(200):
+for trial in range(0):
  adc,s,h=infer(Xt,circ,rng);mc.append(float((adc.argmax(1)==yt).mean()))
  if trial%20==0:print('MC',trial,mc[-1],flush=True)
-metrics['mc']={'board_realizations':200,'examples_each':10000,'seed':51005,'distribution':'independent uniform physical resistor draws; weights5%;feedback,balance,rectifier,ADC1%; perboard shared across all images','min':min(mc),'mean':float(np.mean(mc)),'max':max(mc),'std':float(np.std(mc,ddof=1)),'p05':float(np.quantile(mc,.05)),'accuracy_samples':mc}
+metrics['mc']={'status':'pending CUDA1000, no CPU board loop'}
+metrics['dataset']='official MNIST grayscale6bit PWM, same crop BOX8x8, test10000'
+circ['status']='grayscale6bit PWM physical10050ohm source, validation-selected'
+circ['input_conditioning']={'series_ohms':10000,'series_tolerance':.05,'driver_ohms':50,'capacitance_F':1e-6,'pwm_bits':6,'source_high_V':5,'swing_V':13.5,'rectifier_max_V':12.7,'architecture':'differential summers with16 ACT followers'}
+(HERE/'trained_circuit.json').write_text(json.dumps(circ,indent=2))
+(HERE/'circuit.json').write_text(json.dumps(circ,indent=2))
 (HERE/'metrics.json').write_text(json.dumps(metrics,indent=2));print(json.dumps(metrics),flush=True)

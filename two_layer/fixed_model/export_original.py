@@ -18,9 +18,11 @@ for name in ['weights_layer1.json','weights_layer2.json']:
 out={'status':'PROVISIONAL existing trained weights mapped to repaired topology, pending binary retraining','input':'64 binary 74HC595 outputs, commanded 0 or 5V','rf_ohms':100000,'layer1':synthesize(-layers[0][0],-layers[0][1],e96),'layer2':synthesize(layers[1][0],layers[1][1],e96),'rails':'+/-15V replacing net labels +/-12V only if supply confirmed; swing simulation +/-10V conservative','rectifier':{'rin_ohms':10000,'rf_ohms':10000,'tolerance':.01,'diodes':'1N4148W SOD123','output':'RECT_k -> unity follower -> ACT_k','additional_TL074':4},'adc':{'score_to_mid_ohms':220000,'3V3_to_mid_ohms':22000,'GND_to_mid_ohms':22000,'mid_to_adc_ohms':1000,'divider_tolerance':.01,'diodes':'1N4148W SOD123, cathode 3V3 for upper clamp, anode GND for lower clamp','requires_3V3_header':True},'remove_or_disable':['all passive WTA diodes and common bus load','direct score LEDs, optional buffers required for indicators'],'equation':'out=(1+Rf*(Gn+Gbn))*Vplus-Rf*sum(gn*x); Vplus=sum(gp*x)/(Gp+Gbp)','balance':'one E96 1% resistor from selected leg to ground; rounded mismatch included explicitly','buffer_output_model_ohms':1,'input_source_model_ohms':50,'limitations':['HC595 source resistance model is assumed not measured, test 0/50/100ohm','static ideal opamp nodal model with clipping, not SPICE transient validation','rectifier raw output cannot drive mixed-sign L2 directly while off','no analog grayscale drive provided by original HC595','no unique analog winner LED claim']}
 if '--original' not in sys.argv:
  out=json.loads(Path(__file__).with_name('trained_circuit.json').read_text())
- out['status']='authoritative binary MNIST trained component model, metrics.json'
-out['rails']='Confirmed +/-15V supply; conservative static modeled output clip +/-10V'
-out['input']='64 binary 74HCT595D outputs, commanded 0 or5V;3.3V logic input'
+ out['status']='authoritative grayscale6bit PWM MNIST trained component model, metrics.json'
+out['rails']='Confirmed +/-15V supply; modeled output clip +/-13.5V with conservative10V sensitivity'
+out['input']='64 grayscale6bit 74HCT595D BCM PWM outputs with10k/1uF RC;3.3V logic input'
+out['input_source_model_ohms']=10050
+out['limitations']=['Static ideal opamp nodal model;13.5V swing not a datasheet loaded-output guarantee','PWM ripple and settling qualification separate from steady-state inference','Silicon diode clipping approximation, not SPICE transient validation','No unique analog winner LED claim']
 out['limitations']=[s.replace('HC595','HCT595') for s in out['limitations']]
 Path(__file__).with_name('circuit.json').write_text(json.dumps(out,indent=2))
 np.savez(Path(__file__).with_name('original_float.npz'),w1=layers[0][0],b1=layers[0][1],w2=layers[1][0],b2=layers[1][1])
