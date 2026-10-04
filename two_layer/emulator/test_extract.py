@@ -16,7 +16,7 @@ class CopperTests(unittest.TestCase):
             p=pcbnew.PAD(f);p.SetNumber('1');p.SetAttribute(pcbnew.PAD_ATTRIB_SMD)
             p.SetShape(pcbnew.PAD_SHAPE_RECT);p.SetSize(pcbnew.VECTOR2I(1000000,1000000))
             p.SetPosition(pcbnew.VECTOR2I(int(x*1e6),int(y*1e6)))
-            p.SetLayerSet(pcbnew.LSET(layer));p.SetNet(net);f.Add(p)
+            layers=pcbnew.LSET();layers.AddLayer(layer);p.SetLayerSet(layers);p.SetNet(net);f.Add(p)
         for x1,y1,x2,y2,layer,label in tracks:
             t=pcbnew.PCB_TRACK(b);t.SetStart(pcbnew.VECTOR2I(int(x1*1e6),int(y1*1e6)))
             t.SetEnd(pcbnew.VECTOR2I(int(x2*1e6),int(y2*1e6)));t.SetWidth(200000);t.SetLayer(layer)

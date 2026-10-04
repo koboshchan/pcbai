@@ -82,7 +82,7 @@ def extract_board(name, filename, max_error_nm=1000):
         return list(polygons(poly))
 
     for fp in sorted(board.GetFootprints(), key=lambda f: f.GetReference()):
-        comp = {'ref': fp.GetReference(), 'value': fp.GetValue(), 'footprint': fp.GetFPID().GetLibItemName(), 'pads': {}}
+        comp = {'ref': fp.GetReference(), 'value': fp.GetValue(), 'footprint': str(fp.GetFPID().GetLibItemName()), 'pads': {}}
         for pad in fp.Pads():
             if pad.GetAttribute() == pcbnew.PAD_ATTRIB_NPTH:
                 continue
