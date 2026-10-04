@@ -28,7 +28,7 @@ def prep(name,mode='fresh'):
  assert p.ExportSpecctraDSN(b,str(ROOT/(name+'.dsn')))
  text=(ROOT/(name+'.dsn')).read_text()
  text=re.sub(r'\(width\s+\d+\)', '(width 250)',text)
- text=re.sub(r'\(clearance\s+\d+', '(clearance 200',text)
+ text=re.sub(r'\(clearance\s+[\d.]+', '(clearance 200',text)
  (ROOT/(name+'.dsn')).write_text(text)
  return b
 
@@ -41,10 +41,15 @@ def finish(name):
  bb=b.GetBoardEdgesBoundingBox(); z=p.ZONE(b);z.SetLayer(p.B_Cu);z.SetNetCode(b.GetNetsByName()['GND'].GetNetCode());z.SetLocalClearance(p.FromMM(.2));z.SetThermalReliefGap(p.FromMM(.25));z.SetThermalReliefSpokeWidth(p.FromMM(.3));z.SetMinThickness(p.FromMM(.2));poly=z.Outline();poly.NewOutline()
  for x,y in [(0.5,0.5),(99.5,0.5),(99.5,99.5),(0.5,99.5)]:poly.Append(p.FromMM(x),p.FromMM(y))
  b.Add(z)
+ # Save routed copper independently so unfinished silk tooling cannot lose a run.
+ p.SaveBoard(str(ROOT/(name+'_routed_no_silk.kicad_pcb')),b)
  try:
   from silk_refs import apply_silk
-  apply_silk(b)
- except ImportError:pass
+  silk=apply_silk(b)
+ except Exception as exc:
+  silk={'release_ready':False,'error':str(exc)}
+  b=p.LoadBoard(str(ROOT/(name+'_routed_no_silk.kicad_pcb')))
+ (ROOT/(name+'_silk_audit.json')).write_text(json.dumps(silk,indent=2)+'\n')
  path=ROOT/(name+'.kicad_pcb');p.SaveBoard(str(path),b)
  result=subprocess.run(['kicad-cli','pcb','drc','--refill-zones','--save-board','--severity-all','--format','json','--output',str(ROOT/(name+'_drc.json')),str(path)],capture_output=True,text=True)
  (ROOT/(name+'_drc.log')).write_text(result.stdout+result.stderr)
