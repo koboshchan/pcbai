@@ -72,6 +72,7 @@ def build(model):
             for fp in board.GetFootprints():
                 if fp.GetReference().startswith('C'):
                     fp.SetField('Voltage Rating','50V')
+                    fp.GetField('Voltage Rating').SetVisible(False)  # metadata only; reference-only silk
                 if fp.GetValue()=='TL074':
                     q={pad.GetNumber():pad.GetNetname() for pad in fp.Pads()}
                     for output,minus,plus in CHANNELS:

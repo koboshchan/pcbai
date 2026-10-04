@@ -5220,6 +5220,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2b2cce21-43f7-42a7-b34a-926bc6a7987a")
 			(effects
 				(font
@@ -14973,6 +14974,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b2dc7f4d-0e91-46f3-ab3a-bc9cd3c09b6f")
 			(effects
 				(font

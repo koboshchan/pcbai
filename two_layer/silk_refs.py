@@ -128,6 +128,9 @@ def apply_silk(board):
     fps = list(board.GetFootprints())
     for fp in fps:
         fp.Value().SetVisible(False)
+        for field in fp.GetFields():
+            if not field.IsReference():
+                field.SetVisible(False)
         for item in list(fp.GraphicalItems()):
             if item.GetLayer() in silks:
                 fp.Delete(item)
@@ -201,8 +204,9 @@ def audit_silk(board):
                 bad.append([name,'remaining_footprint_silk_art'])
         if pcbnew.ToMM(r.GetTextHeight()) < .799 or pcbnew.ToMM(r.GetTextThickness()) < .119:
             bad.append([name,'text_too_small'])
-        if fp.Value().IsVisible():
-            bad.append([name,'visible_value'])
+        for field in fp.GetFields():
+            if not field.IsReference() and field.IsVisible():
+                bad.append([name,'visible_nonreference_field',field.GetName()])
         if not inside(box,bounds):
             bad.append([name,'edge_clearance'])
         for owner,p in pads[layer]:
