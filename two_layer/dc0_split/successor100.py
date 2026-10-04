@@ -83,6 +83,7 @@ def route(name):
 
 def main():
  result={'release_authorized':False,'boards':{}}
+ (S/'FINAL.json').unlink(missing_ok=True)
  try:
   prepare()
   for name in ['DC0','motherboard']:
