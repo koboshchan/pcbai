@@ -24,7 +24,7 @@ def plan(b,net,ref=None,num=None,pair=None):
     for ii in range(poly.OutlineCount()):
      o=poly.COutline(ii);ImageDraw.Draw(ims[k]).polygon([pt(o.CPoint(j)) for j in range(o.PointCount())],fill=1)
  for t in b.GetTracks():
-  if (t.GetNetname()==net and (not pair or t.m_Uuid==pair[1].m_Uuid)):continue
+  if t.GetNetname()==net:continue
   for layer,k in [(p.F_Cu,0),(p.B_Cu,1)]:
    if t.IsOnLayer(layer):drawtrack(trackims[k],t)
  hard=[distance_transform_edt(~np.array(im,dtype=bool))*step for im in ims];soft=[distance_transform_edt(~np.array(im,dtype=bool))*step for im in trackims]
@@ -36,6 +36,7 @@ def plan(b,net,ref=None,num=None,pair=None):
  for f in b.GetFootprints():
   for pad in f.Pads():
    if pad.GetNetname()==net and pad.m_Uuid!=target.m_Uuid:goals.update(ends(pad))
+ if pair:goals=set(ends(pair[1]))
  goals={q for q in goals if not blocked[q[2]][q[1],q[0]]};ga=np.array([(x,y) for x,y,k in goals]);starts=ends(target)
  def h(q):return np.sqrt(((ga-np.array(q[:2]))**2).sum(axis=1)).min()
  costs={q:0 for q in starts};queue=[(h(q),0,q) for q in starts];heapq.heapify(queue);parents={};done=set();moves=[(1,0,1),(-1,0,1),(0,1,1),(0,-1,1),(1,1,1.4143),(1,-1,1.4143),(-1,1,1.4143),(-1,-1,1.4143)]
@@ -62,7 +63,7 @@ def plan(b,net,ref=None,num=None,pair=None):
  for x,y,k in path:used[k][y,x]=True
  crossed=[]
  for t in b.GetTracks():
-  if (t.GetNetname()==net and (not pair or t.m_Uuid==pair[1].m_Uuid)):continue
+  if t.GetNetname()==net:continue
   im=image();drawtrack(im,t,.33);mask=np.array(im,dtype=bool)
   if any(np.any(mask&used[k]) for layer,k in [(p.F_Cu,0),(p.B_Cu,1)] if t.IsOnLayer(layer)):crossed.append(t.m_Uuid.AsString())
  print(net,'path',len(path),'explored',len(done),'blocking items',len(crossed),flush=True)
