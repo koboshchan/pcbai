@@ -1,413 +1,7 @@
 {
   "reference_count": 163,
-  "clean": false,
-  "violations": [
-    [
-      "R2_5_4",
-      "pad_clearance",
-      "R2_4_4"
-    ],
-    [
-      "R2_5_4",
-      "pad_clearance",
-      "R2_4_4"
-    ],
-    [
-      "R2_9_2",
-      "pad_clearance",
-      "R2_8_2"
-    ],
-    [
-      "R2_9_2",
-      "pad_clearance",
-      "R2_8_2"
-    ],
-    [
-      "R2_2_4",
-      "reference_clearance",
-      "R2_5_4"
-    ],
-    [
-      "R2_9_7",
-      "pad_clearance",
-      "R2_8_7"
-    ],
-    [
-      "R2_9_7",
-      "pad_clearance",
-      "R2_8_7"
-    ],
-    [
-      "R2_9_4",
-      "pad_clearance",
-      "R2_8_4"
-    ],
-    [
-      "R2_9_4",
-      "pad_clearance",
-      "R2_8_4"
-    ],
-    [
-      "R2_9_4",
-      "reference_clearance",
-      "R2_6_4"
-    ],
-    [
-      "R2_9_8",
-      "pad_clearance",
-      "R2_8_8"
-    ],
-    [
-      "R2_9_8",
-      "pad_clearance",
-      "R2_8_8"
-    ],
-    [
-      "R2_9_8",
-      "reference_clearance",
-      "R2_8_8"
-    ],
-    [
-      "R2_9_3",
-      "pad_clearance",
-      "R2_8_3"
-    ],
-    [
-      "R2_9_3",
-      "pad_clearance",
-      "R2_8_3"
-    ],
-    [
-      "R2_7_3",
-      "reference_clearance",
-      "R2_5_2"
-    ],
-    [
-      "R2_5_3",
-      "reference_clearance",
-      "R2_7_3"
-    ],
-    [
-      "R2_6_6",
-      "reference_clearance",
-      "R2_9_7"
-    ],
-    [
-      "R2_12_5",
-      "pad_clearance",
-      "R2_11_5"
-    ],
-    [
-      "R2_12_5",
-      "pad_clearance",
-      "R2_11_5"
-    ],
-    [
-      "R2_12_4",
-      "pad_clearance",
-      "R2_11_4"
-    ],
-    [
-      "R2_12_4",
-      "pad_clearance",
-      "R2_11_4"
-    ],
-    [
-      "R2_12_4",
-      "reference_clearance",
-      "R2_12_5"
-    ],
-    [
-      "R2_11_6",
-      "reference_clearance",
-      "R2_12_5"
-    ],
-    [
-      "R2_5_7",
-      "pad_clearance",
-      "R2_4_7"
-    ],
-    [
-      "R2_5_7",
-      "pad_clearance",
-      "R2_4_7"
-    ],
-    [
-      "R2_5_7",
-      "reference_clearance",
-      "R2_3_6"
-    ],
-    [
-      "R2_5_7",
-      "reference_clearance",
-      "R2_3_7"
-    ],
-    [
-      "R2_8_3",
-      "pad_clearance",
-      "R2_7_3"
-    ],
-    [
-      "R2_8_3",
-      "pad_clearance",
-      "R2_7_3"
-    ],
-    [
-      "R2_8_3",
-      "reference_clearance",
-      "R2_5_3"
-    ],
-    [
-      "R2_6_7",
-      "reference_clearance",
-      "R2_9_7"
-    ],
-    [
-      "R2_6_7",
-      "reference_clearance",
-      "R2_9_8"
-    ],
-    [
-      "R2_8_7",
-      "pad_clearance",
-      "R2_7_7"
-    ],
-    [
-      "R2_8_7",
-      "pad_clearance",
-      "R2_7_7"
-    ],
-    [
-      "R2_8_7",
-      "reference_clearance",
-      "R2_6_6"
-    ],
-    [
-      "R2_8_7",
-      "reference_clearance",
-      "R2_6_7"
-    ],
-    [
-      "R2_5_6",
-      "pad_clearance",
-      "R2_4_6"
-    ],
-    [
-      "R2_5_6",
-      "pad_clearance",
-      "R2_4_6"
-    ],
-    [
-      "R2_5_6",
-      "reference_clearance",
-      "R2_3_6"
-    ],
-    [
-      "R2_11_5",
-      "reference_clearance",
-      "R2_12_5"
-    ],
-    [
-      "R2_11_5",
-      "reference_clearance",
-      "R2_12_4"
-    ],
-    [
-      "R2_9_6",
-      "pad_clearance",
-      "R2_8_6"
-    ],
-    [
-      "R2_9_6",
-      "pad_clearance",
-      "R2_8_6"
-    ],
-    [
-      "R2_9_6",
-      "reference_clearance",
-      "R2_6_6"
-    ],
-    [
-      "R2_8_2",
-      "pad_clearance",
-      "R2_7_2"
-    ],
-    [
-      "R2_8_2",
-      "pad_clearance",
-      "R2_7_2"
-    ],
-    [
-      "R2_4_4",
-      "reference_clearance",
-      "R2_5_4"
-    ],
-    [
-      "R2_6_2",
-      "reference_clearance",
-      "R2_9_2"
-    ],
-    [
-      "R2_6_2",
-      "reference_clearance",
-      "R2_9_3"
-    ],
-    [
-      "R2_6_2",
-      "reference_clearance",
-      "R2_7_3"
-    ],
-    [
-      "R2_6_2",
-      "reference_clearance",
-      "R2_8_3"
-    ],
-    [
-      "R2_6_2",
-      "reference_clearance",
-      "R2_8_2"
-    ],
-    [
-      "R2_7_4",
-      "pad_clearance",
-      "R2_6_4"
-    ],
-    [
-      "R2_7_4",
-      "pad_clearance",
-      "R2_6_4"
-    ],
-    [
-      "R2_7_4",
-      "reference_clearance",
-      "R2_6_4"
-    ],
-    [
-      "R2_7_4",
-      "reference_clearance",
-      "R2_5_3"
-    ],
-    [
-      "R2_7_4",
-      "reference_clearance",
-      "R2_4_4"
-    ],
-    [
-      "R2_8_6",
-      "pad_clearance",
-      "R2_7_6"
-    ],
-    [
-      "R2_8_6",
-      "pad_clearance",
-      "R2_7_6"
-    ],
-    [
-      "R2_8_6",
-      "reference_clearance",
-      "R2_6_6"
-    ],
-    [
-      "R2_3_4",
-      "reference_clearance",
-      "R2_5_4"
-    ],
-    [
-      "R2_11_4",
-      "reference_clearance",
-      "R2_12_4"
-    ],
-    [
-      "R2_8_4",
-      "pad_clearance",
-      "R2_7_4"
-    ],
-    [
-      "R2_8_4",
-      "pad_clearance",
-      "R2_7_4"
-    ],
-    [
-      "R2_8_4",
-      "reference_clearance",
-      "R2_6_4"
-    ],
-    [
-      "R2_8_4",
-      "reference_clearance",
-      "R2_5_3"
-    ],
-    [
-      "R2_9_5",
-      "reference_clearance",
-      "R2_6_4"
-    ],
-    [
-      "R2_9_5",
-      "reference_clearance",
-      "R2_7_5"
-    ],
-    [
-      "R2_7_2",
-      "reference_clearance",
-      "R2_9_2"
-    ],
-    [
-      "R2_7_2",
-      "reference_clearance",
-      "R2_8_2"
-    ],
-    [
-      "R2_3_5",
-      "reference_clearance",
-      "R2_5_6"
-    ],
-    [
-      "R2_7_6",
-      "pad_clearance",
-      "R2_6_6"
-    ],
-    [
-      "R2_7_6",
-      "pad_clearance",
-      "R2_6_6"
-    ],
-    [
-      "R2_7_6",
-      "reference_clearance",
-      "R2_4_5"
-    ],
-    [
-      "R2_7_6",
-      "reference_clearance",
-      "R2_4_6"
-    ],
-    [
-      "R2_5_5",
-      "pad_clearance",
-      "R2_4_5"
-    ],
-    [
-      "R2_5_5",
-      "pad_clearance",
-      "R2_4_5"
-    ],
-    [
-      "R2_5_5",
-      "reference_clearance",
-      "R2_2_4"
-    ],
-    [
-      "R2_5_5",
-      "reference_clearance",
-      "R2_4_4"
-    ],
-    [
-      "R2_5_5",
-      "reference_clearance",
-      "R2_3_5"
-    ]
-  ],
+  "clean": true,
+  "violations": [],
   "method": "Conservative text/pad axis-aligned bounding boxes, not a rendered glyph or solder-mask DRC.",
   "limits_mm": {
     "pad_clearance": 0.2,
@@ -416,7 +10,7 @@
     "minimum_height": 0.8,
     "stroke": 0.12
   },
-  "removed_silk_items": 13,
+  "removed_silk_items": 0,
   "placed": [
     {
       "reference": "J_STRADDLE_EDGE",
@@ -577,41 +171,41 @@
     {
       "reference": "R2_10_2",
       "height_mm": 0.8,
-      "angle_deg": 0,
+      "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        25.776666,
-        35.219999,
-        31.043334,
-        36.577199
+        26.3328,
+        30.766665,
+        27.69,
+        36.033333
       ],
-      "distance_mm": 2.498599999999996
+      "distance_mm": 1.3985999999999983
     },
     {
       "reference": "R2_10_3",
       "height_mm": 0.8,
-      "angle_deg": 0,
+      "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        25.776666,
-        40.42,
-        31.043334,
-        41.7772
+        29.13,
+        35.966666,
+        30.4872,
+        41.233334
       ],
-      "distance_mm": 2.4986000000000104
+      "distance_mm": 1.3985999999999983
     },
     {
       "reference": "R2_10_4",
       "height_mm": 0.8,
-      "angle_deg": 0,
+      "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        25.776666,
-        45.619999,
-        31.043334,
-        46.977199
+        26.3328,
+        41.166666,
+        27.69,
+        46.433334
       ],
-      "distance_mm": 2.498599999999996
+      "distance_mm": 1.3985999999999983
     },
     {
       "reference": "R2_10_5",
@@ -619,51 +213,51 @@
       "angle_deg": 0,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        25.776666,
-        50.82,
-        31.043334,
-        52.1772
+        22.423332,
+        48.3214,
+        27.69,
+        49.6786
       ],
-      "distance_mm": 2.4986000000000033
+      "distance_mm": 3.3533340000000003
     },
     {
       "reference": "R2_10_6",
       "height_mm": 0.8,
-      "angle_deg": 0,
+      "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        25.776666,
-        56.02,
-        31.043334,
-        57.3772
+        26.3328,
+        51.566666,
+        27.69,
+        56.833334
       ],
-      "distance_mm": 2.498599999999996
+      "distance_mm": 1.3985999999999983
     },
     {
       "reference": "R2_10_7",
       "height_mm": 0.8,
-      "angle_deg": 0,
+      "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        25.776666,
-        61.219999,
-        31.043334,
-        62.577199
+        29.13,
+        56.766665,
+        30.4872,
+        62.033333
       ],
-      "distance_mm": 2.498599999999996
+      "distance_mm": 1.3985999999999983
     },
     {
       "reference": "R2_10_8",
       "height_mm": 0.8,
-      "angle_deg": 0,
+      "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        29.13,
-        63.9214,
-        34.396668,
-        65.2786
+        26.3328,
+        61.966666,
+        27.69,
+        67.233334
       ],
-      "distance_mm": 3.3533340000001495
+      "distance_mm": 1.3986000000003558
     },
     {
       "reference": "R2_10_9",
@@ -684,12 +278,12 @@
       "angle_deg": 0,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        31.316666,
-        40.6214,
-        36.583334,
-        41.9786
+        28.316665,
+        45.619999,
+        33.583333,
+        46.977199
       ],
-      "distance_mm": 3.90512483795333
+      "distance_mm": 2.498599999999996
     },
     {
       "reference": "R2_11_5",
@@ -697,12 +291,12 @@
       "angle_deg": 0,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        31.316666,
-        45.8214,
-        36.583334,
-        47.1786
+        28.316665,
+        50.82,
+        33.583333,
+        52.1772
       ],
-      "distance_mm": 3.90512483795333
+      "distance_mm": 2.4986000000000033
     },
     {
       "reference": "R2_11_6",
@@ -710,12 +304,12 @@
       "angle_deg": 0,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        31.316666,
-        51.0214,
-        36.583334,
-        52.3786
+        30.816666,
+        56.0214,
+        36.083334,
+        57.3786
       ],
-      "distance_mm": 3.90512483795333
+      "distance_mm": 3.53553390593274
     },
     {
       "reference": "R2_12_0",
@@ -746,15 +340,15 @@
     {
       "reference": "R2_12_2",
       "height_mm": 0.8,
-      "angle_deg": 90,
+      "angle_deg": 0,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        31.3114,
-        31.766666,
-        32.6686,
-        37.033334
+        30.856666,
+        35.219999,
+        36.123334,
+        36.577199
       ],
-      "distance_mm": 1.8027756377319946
+      "distance_mm": 2.498599999999996
     },
     {
       "reference": "R2_12_3",
@@ -770,17 +364,43 @@
       "distance_mm": 3.3533339999999967
     },
     {
+      "reference": "R2_12_4",
+      "height_mm": 0.8,
+      "angle_deg": 0,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        30.856666,
+        40.6228,
+        36.123334,
+        41.98
+      ],
+      "distance_mm": 2.498599999999996
+    },
+    {
+      "reference": "R2_12_5",
+      "height_mm": 0.8,
+      "angle_deg": 0,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        33.856666,
+        45.8214,
+        39.123334,
+        47.1786
+      ],
+      "distance_mm": 3.905124837953327
+    },
+    {
       "reference": "R2_12_6",
       "height_mm": 0.8,
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        34.3114,
-        52.566666,
-        35.6686,
-        57.833334
+        36.3114,
+        51.566666,
+        37.6686,
+        56.833334
       ],
-      "distance_mm": 1.8027756377319946
+      "distance_mm": 3.5
     },
     {
       "reference": "R2_12_7",
@@ -788,12 +408,12 @@
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        31.4128,
-        56.766665,
-        32.77,
-        62.033333
+        32.8114,
+        61.22,
+        34.1686,
+        66.486668
       ],
-      "distance_mm": 1.3985999999999876
+      "distance_mm": 4.453333999999998
     },
     {
       "reference": "R2_12_9",
@@ -837,15 +457,15 @@
     {
       "reference": "R2_13_4",
       "height_mm": 0.8,
-      "angle_deg": 90,
+      "angle_deg": 0,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        39.3514,
-        41.166666,
-        40.7086,
-        46.433334
+        36.396666,
+        40.6214,
+        41.663334,
+        41.9786
       ],
-      "distance_mm": 4.0
+      "distance_mm": 3.905124837953327
     },
     {
       "reference": "R2_13_5",
@@ -853,12 +473,12 @@
       "angle_deg": 0,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        36.896666,
+        37.896666,
         50.8214,
-        42.163334,
+        43.163334,
         52.1786
       ],
-      "distance_mm": 4.301162633521313
+      "distance_mm": 5.1478150704935
     },
     {
       "reference": "R2_14_0",
@@ -902,15 +522,15 @@
     {
       "reference": "R2_14_4",
       "height_mm": 0.8,
-      "angle_deg": 90,
+      "angle_deg": 0,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        40.8914,
-        41.166666,
-        42.2486,
-        46.433334
+        39.29,
+        43.1214,
+        44.556668,
+        44.4786
       ],
-      "distance_mm": 3.0
+      "distance_mm": 3.3533339999999967
     },
     {
       "reference": "R2_14_5",
@@ -918,12 +538,12 @@
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        42.3914,
-        46.616666,
-        43.7486,
-        51.883334
+        41.8914,
+        45.366666,
+        43.2486,
+        50.633334
       ],
-      "distance_mm": 4.5069390943299865
+      "distance_mm": 4.123105625617661
     },
     {
       "reference": "R2_14_6",
@@ -931,12 +551,12 @@
       "angle_deg": 0,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        35.936666,
-        56.02,
-        41.203334,
-        57.3772
+        37.936666,
+        56.0214,
+        43.203334,
+        57.3786
       ],
-      "distance_mm": 2.498599999999996
+      "distance_mm": 3.2015621187164243
     },
     {
       "reference": "R2_14_7",
@@ -996,12 +616,12 @@
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        43.9314,
+        43.4314,
         46.366666,
-        45.2886,
+        44.7886,
         51.633334
       ],
-      "distance_mm": 3.5
+      "distance_mm": 3.0
     },
     {
       "reference": "R2_15_6",
@@ -1854,25 +1474,77 @@
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        18.0314,
-        35.397618,
-        19.3886,
-        39.902381
+        19.0314,
+        31.147618,
+        20.3886,
+        35.652381
       ],
-      "distance_mm": 5.202163011671203
+      "distance_mm": 4.0
     },
     {
       "reference": "R2_5_3",
       "height_mm": 0.8,
-      "angle_deg": 0,
+      "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        18.207619,
-        40.4214,
-        22.712382,
-        41.7786
+        18.0314,
+        36.347618,
+        19.3886,
+        40.852381
       ],
-      "distance_mm": 5.367727638395972
+      "distance_mm": 3.0
+    },
+    {
+      "reference": "R2_5_4",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        19.7814,
+        41.547618,
+        21.1386,
+        46.052381
+      ],
+      "distance_mm": 4.75
+    },
+    {
+      "reference": "R2_5_5",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        20.2814,
+        46.747618,
+        21.6386,
+        51.252381
+      ],
+      "distance_mm": 5.25
+    },
+    {
+      "reference": "R2_5_6",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        20.2814,
+        51.947618,
+        21.6386,
+        56.452381
+      ],
+      "distance_mm": 5.25
+    },
+    {
+      "reference": "R2_5_7",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        20.2814,
+        57.147618,
+        21.6386,
+        61.652381
+      ],
+      "distance_mm": 5.25
     },
     {
       "reference": "R2_5_9",
@@ -1893,12 +1565,12 @@
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        17.5714,
-        16.675237,
-        18.9286,
-        21.18
+        18.97,
+        20.747618,
+        20.3272,
+        25.252381
       ],
-      "distance_mm": 4.072381
+      "distance_mm": 1.3986000000000878
     },
     {
       "reference": "R2_6_1",
@@ -1916,28 +1588,28 @@
     {
       "reference": "R2_6_2",
       "height_mm": 0.8,
-      "angle_deg": 0,
+      "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        19.747619,
-        35.2214,
-        24.252382,
-        36.5786
+        20.5714,
+        31.147618,
+        21.9286,
+        35.652381
       ],
-      "distance_mm": 4.5069390943299865
+      "distance_mm": 3.0
     },
     {
       "reference": "R2_6_4",
       "height_mm": 0.8,
-      "angle_deg": 0,
+      "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        19.747619,
-        45.6214,
-        24.252382,
-        46.9786
+        21.3214,
+        41.547618,
+        22.6786,
+        46.052381
       ],
-      "distance_mm": 4.5069390943299865
+      "distance_mm": 3.75
     },
     {
       "reference": "R2_6_5",
@@ -1945,38 +1617,38 @@
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        21.5714,
-        47.247618,
-        22.9286,
-        51.752381
+        21.8214,
+        49.997618,
+        23.1786,
+        54.502381
       ],
-      "distance_mm": 4.031128874149275
+      "distance_mm": 5.350233639758174
     },
     {
       "reference": "R2_6_6",
       "height_mm": 0.8,
-      "angle_deg": 0,
+      "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        20.247619,
-        56.0214,
-        24.752382,
-        57.3786
+        21.8214,
+        54.697618,
+        23.1786,
+        59.202381
       ],
-      "distance_mm": 4.930770730829005
+      "distance_mm": 5.062114182829147
     },
     {
       "reference": "R2_6_7",
       "height_mm": 0.8,
-      "angle_deg": 0,
+      "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        20.247619,
-        61.2214,
-        24.752382,
-        62.5786
+        21.8214,
+        59.397618,
+        23.1786,
+        63.902381
       ],
-      "distance_mm": 4.930770730829005
+      "distance_mm": 4.808846015417836
     },
     {
       "reference": "R2_6_9",
@@ -1984,12 +1656,12 @@
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        17.5714,
-        71.62,
-        18.9286,
-        76.124763
+        18.97,
+        67.547618,
+        20.3272,
+        72.052381
       ],
-      "distance_mm": 4.072382000000005
+      "distance_mm": 1.3986000000000878
     },
     {
       "reference": "R2_7_0",
@@ -1997,25 +1669,51 @@
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        20.1114,
-        16.675237,
-        21.4686,
-        21.18
+        85.72,
+        17.747618,
+        87.0772,
+        22.252381
       ],
-      "distance_mm": 4.072381
+      "distance_mm": 1.3986000000000913
     },
     {
       "reference": "R2_7_2",
       "height_mm": 0.8,
-      "angle_deg": 0,
+      "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        22.287619,
-        30.2214,
-        26.792382,
-        31.5786
+        85.72,
+        29.747618,
+        87.0772,
+        34.252381
       ],
-      "distance_mm": 4.5069390943299865
+      "distance_mm": 1.3986000000000913
+    },
+    {
+      "reference": "R2_7_3",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        85.72,
+        35.747618,
+        87.0772,
+        40.252381
+      ],
+      "distance_mm": 1.3986000000000913
+    },
+    {
+      "reference": "R2_7_4",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        85.72,
+        41.747618,
+        87.0772,
+        46.252381
+      ],
+      "distance_mm": 1.3986000000000913
     },
     {
       "reference": "R2_7_5",
@@ -2023,12 +1721,25 @@
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        23.1114,
-        47.247618,
-        24.4686,
-        51.752381
+        85.72,
+        47.747618,
+        87.0772,
+        52.252381
       ],
-      "distance_mm": 3.0413812651491097
+      "distance_mm": 1.3986000000000913
+    },
+    {
+      "reference": "R2_7_6",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        85.72,
+        53.747618,
+        87.0772,
+        58.252381
+      ],
+      "distance_mm": 1.3986000000000913
     },
     {
       "reference": "R2_7_7",
@@ -2036,12 +1747,12 @@
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        20.1114,
-        62.897618,
-        21.4686,
-        67.402381
+        85.72,
+        59.747618,
+        87.0772,
+        64.252381
       ],
-      "distance_mm": 5.750000000000007
+      "distance_mm": 1.3986000000000913
     },
     {
       "reference": "R2_7_9",
@@ -2049,12 +1760,12 @@
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        20.1114,
-        71.62,
-        21.4686,
-        76.124763
+        85.72,
+        71.747618,
+        87.0772,
+        76.252381
       ],
-      "distance_mm": 4.072382000000005
+      "distance_mm": 1.3986000000000913
     },
     {
       "reference": "R2_8_0",
@@ -2062,38 +1773,103 @@
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        22.6514,
-        16.675237,
-        24.0086,
-        21.18
+        90.72,
+        17.747618,
+        92.0772,
+        22.252381
       ],
-      "distance_mm": 4.072381
+      "distance_mm": 1.3986000000000913
     },
     {
       "reference": "R2_8_1",
       "height_mm": 0.8,
-      "angle_deg": 0,
+      "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        22.327619,
-        25.0214,
-        26.832382,
-        26.3786
+        90.72,
+        23.747618,
+        92.0772,
+        28.252381
       ],
-      "distance_mm": 2.7950849718747373
+      "distance_mm": 1.3986000000000913
+    },
+    {
+      "reference": "R2_8_2",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        90.72,
+        29.747618,
+        92.0772,
+        34.252381
+      ],
+      "distance_mm": 1.3986000000000913
+    },
+    {
+      "reference": "R2_8_3",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        90.72,
+        35.747618,
+        92.0772,
+        40.252381
+      ],
+      "distance_mm": 1.3986000000000913
+    },
+    {
+      "reference": "R2_8_4",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        90.72,
+        41.747618,
+        92.0772,
+        46.252381
+      ],
+      "distance_mm": 1.3986000000000913
+    },
+    {
+      "reference": "R2_8_6",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        90.72,
+        53.747618,
+        92.0772,
+        58.252381
+      ],
+      "distance_mm": 1.3986000000000913
+    },
+    {
+      "reference": "R2_8_7",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        90.72,
+        59.747618,
+        92.0772,
+        64.252381
+      ],
+      "distance_mm": 1.3986000000000913
     },
     {
       "reference": "R2_8_8",
       "height_mm": 0.8,
-      "angle_deg": 0,
+      "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        21.827619,
-        66.421399,
-        26.332382,
-        67.778599
+        90.72,
+        65.747618,
+        92.0772,
+        70.252381
       ],
-      "distance_mm": 2.6100766272276377
+      "distance_mm": 1.3986000000000913
     },
     {
       "reference": "R2_8_9",
@@ -2101,12 +1877,12 @@
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        22.6514,
-        71.62,
-        24.0086,
-        76.124763
+        90.72,
+        71.747618,
+        92.0772,
+        76.252381
       ],
-      "distance_mm": 4.072382000000005
+      "distance_mm": 1.3986000000000913
     },
     {
       "reference": "R2_9_0",
@@ -2114,12 +1890,12 @@
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        25.1914,
-        16.675237,
-        26.5486,
-        21.18
+        95.72,
+        17.747618,
+        97.0772,
+        22.252381
       ],
-      "distance_mm": 4.072381
+      "distance_mm": 1.3986000000000913
     },
     {
       "reference": "R2_9_1",
@@ -2127,12 +1903,103 @@
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        27.1914,
-        21.697618,
-        28.5486,
-        26.202381
+        95.72,
+        23.747618,
+        97.0772,
+        28.252381
       ],
-      "distance_mm": 4.697073557013984
+      "distance_mm": 1.3986000000000913
+    },
+    {
+      "reference": "R2_9_2",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        95.72,
+        29.747618,
+        97.0772,
+        34.252381
+      ],
+      "distance_mm": 1.3986000000000913
+    },
+    {
+      "reference": "R2_9_3",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        95.72,
+        35.747618,
+        97.0772,
+        40.252381
+      ],
+      "distance_mm": 1.3986000000000913
+    },
+    {
+      "reference": "R2_9_4",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        95.72,
+        41.747618,
+        97.0772,
+        46.252381
+      ],
+      "distance_mm": 1.3986000000000913
+    },
+    {
+      "reference": "R2_9_5",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        95.72,
+        47.747618,
+        97.0772,
+        52.252381
+      ],
+      "distance_mm": 1.3986000000000913
+    },
+    {
+      "reference": "R2_9_6",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        95.72,
+        53.747618,
+        97.0772,
+        58.252381
+      ],
+      "distance_mm": 1.3986000000000913
+    },
+    {
+      "reference": "R2_9_7",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        95.72,
+        59.747618,
+        97.0772,
+        64.252381
+      ],
+      "distance_mm": 1.3986000000000913
+    },
+    {
+      "reference": "R2_9_8",
+      "height_mm": 0.8,
+      "angle_deg": 90,
+      "layer": "F.Silkscreen",
+      "bbox_mm": [
+        95.72,
+        65.747618,
+        97.0772,
+        70.252381
+      ],
+      "distance_mm": 1.3986000000000913
     },
     {
       "reference": "R2_9_9",
@@ -2140,12 +2007,12 @@
       "angle_deg": 90,
       "layer": "F.Silkscreen",
       "bbox_mm": [
-        25.1914,
-        71.62,
-        26.5486,
-        76.124763
+        95.72,
+        71.747618,
+        97.0772,
+        76.252381
       ],
-      "distance_mm": 4.072382000000005
+      "distance_mm": 1.3986000000000913
     },
     {
       "reference": "C_U1N",
@@ -2265,28 +2132,6 @@
       "distance_mm": 5.1255999999999915
     }
   ],
-  "unplaced": [
-    "R2_12_4",
-    "R2_12_5",
-    "R2_5_4",
-    "R2_5_5",
-    "R2_5_6",
-    "R2_5_7",
-    "R2_7_3",
-    "R2_7_4",
-    "R2_7_6",
-    "R2_8_2",
-    "R2_8_3",
-    "R2_8_4",
-    "R2_8_6",
-    "R2_8_7",
-    "R2_9_2",
-    "R2_9_3",
-    "R2_9_4",
-    "R2_9_5",
-    "R2_9_6",
-    "R2_9_7",
-    "R2_9_8"
-  ],
-  "release_ready": false
+  "unplaced": [],
+  "release_ready": true
 }
