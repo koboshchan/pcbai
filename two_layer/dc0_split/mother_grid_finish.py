@@ -80,7 +80,7 @@ for iteration in range(10):
    pos=item.GetPosition() if not isinstance(item,p.PCB_TRACK) or isinstance(item,p.PCB_VIA) else item.GetStart();xy=(p.ToMM(pos.x),p.ToMM(pos.y))
    layers=[k for ll,k in [(p.F_Cu,0),(p.B_Cu,1)] if item.IsOnLayer(ll)]
    return [xy+(l,) for l in layers]
-  for extra in [.03,.08]:
+  for extra in [-.08,-.03,0]:
    for a in ends(u):
     for c in ends(v):
      path=search(b,net,a,c,extra)
