@@ -44,8 +44,8 @@ def main():
    # Interleaved vertical lanes, resistor right and capacitor left.
    # Both lie entirely between adjacent connector rows and near their own part.
    resistor=name.startswith('R_')
-   yield 90,x+(2.13 if resistor else -2.16),y+(.7 if resistor else -1.5)
-   for dx in (2.13,2.14,2.15,2.16,2.17,2.18,2.19,2.2,2.1,2.05,2.25):
+   yield 90,x+(2.122 if resistor else -2.151),y+(.7 if resistor else -1.5)
+   for dx in (2.122,2.151,2.1593,2.16,2.13,2.14,2.15,2.17,2.18,2.19,2.2,2.1,2.05,2.25):
     for dy in (0,.05,-.05,.1,-.1):
      yield 90,x+(dx if resistor else -dx),y+(.7 if resistor else -1.5)+dy
    # Search every local channel, never displace the label to a remote bank.
@@ -55,7 +55,8 @@ def main():
     for angle in (90,0):yield angle,x+dx,y+dy
   else:yield from original_candidates(fp,ref,layer,height)
  s.candidates=local_pattern
- audit=s.apply_silk(b)
+ from hybrid_silk import finish_local_search
+ audit=finish_local_search(b,s.apply_silk(b))
  audit['method']='Actual KiCad stroked glyph shape bounding boxes for text, conservative pad boxes; unchanged 0.20 mm pad and 0.15 mm text clearance.'
  association=[]
  for f in b.GetFootprints():
