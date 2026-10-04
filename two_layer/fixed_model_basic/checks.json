@@ -1,0 +1,30 @@
+{
+  "qat_float32_export_float64_score_max_error_V": 2.4401742628299417e-05,
+  "adc_powered_corner_min_V": 0.7561399333650642,
+  "adc_powered_corner_max_V": 2.3867920038077104,
+  "poweroff_per_pin_max_A": 6.29728418708296e-05,
+  "nominal_test_set_loading": {
+    "layer1": {
+      "driver_max_abs_mA": 0.2073773577840608,
+      "positive_node_min_V": 0.027036340273933184,
+      "positive_node_max_V": 2.59147814246165,
+      "feedback_max_abs_mA": 0.1455924085908287
+    },
+    "layer2": {
+      "driver_max_abs_mA": 0.8863252422486312,
+      "positive_node_min_V": 8.82688114988827e-07,
+      "positive_node_max_V": 4.848259416363613,
+      "feedback_max_abs_mA": 0.16476350643219806
+    }
+  },
+  "constraints_preserved": {
+    "summer_clip_V": 13.5,
+    "ReLU_clip_V": 12.7,
+    "source_ohms": 10050,
+    "ADC_bits": 12,
+    "PWM_bits": 6,
+    "rails": "+/-15V",
+    "rf_ohms": 100000
+  },
+  "caveat": "Static ideal nodal model. Not loaded TL074 swing/commonmode/current guarantees or hardware qualification. ADC divider unchanged. Silicon clamps do not guarantee absolute voltage nor prevent MCU rail backfeed; MCU3V3/GND first, analog last. PWM ripple/settling must be rerun for changed conductances before hardware signoff."
+}
