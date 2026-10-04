@@ -17,7 +17,7 @@ def main():
  write('SCOPED_FIXED_AUDIT.json',{'fixed_export_scopes':n,'baseline_remaining_items':len(b.GetTracks()),'removed':len(ids),'all_nonselected_fixed':True,'new_trace_width_mm':.2})
  with (D/'scoped_router.log').open('w') as log:subprocess.run(['java','-Xmx4g','-jar','/tmp/freerouting_actual48.jar','-de',str(dsn),'-do',str(D/'scoped.ses'),'--gui.enabled=false','-mt','2'],stdout=log,stderr=subprocess.STDOUT,check=True)
  raw=p.LoadBoard(str(src));assert p.ImportSpecctraSES(raw,str(D/'scoped.ses'));p.SaveBoard(str(D/'scoped_raw.kicad_pcb'),raw)
- for t in raw.GetTracks():new=t.Duplicate(False);new.m_Uuid=p.KIID();b.Add(new)
+ for t in raw.GetTracks():new=t.Duplicate();new.SetUuid(p.KIID());b.Add(new)
  for z in zones:b.Add(z.Duplicate(False))
  # Export only removes zones on this private in-memory baseline. Footprints never imported.
  out=D/'scoped_candidate.kicad_pcb';p.SaveBoard(str(out),b)
