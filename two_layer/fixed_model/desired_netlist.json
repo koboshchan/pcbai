@@ -505,7 +505,7 @@
       }
     },
     {
-      "ref": "RBAL1_0",
+      "ref": "R_BAL_1_0",
       "ohms": 18200.0,
       "tolerance": 0.01,
       "pads": {
@@ -665,7 +665,7 @@
       }
     },
     {
-      "ref": "RBAL1_1",
+      "ref": "R_BAL_1_1",
       "ohms": 29400.0,
       "tolerance": 0.01,
       "pads": {
@@ -1194,7 +1194,7 @@
       }
     },
     {
-      "ref": "RBAL1_2",
+      "ref": "R_BAL_1_2",
       "ohms": 14700.0,
       "tolerance": 0.01,
       "pads": {
@@ -1732,7 +1732,7 @@
       }
     },
     {
-      "ref": "RBAL1_3",
+      "ref": "R_BAL_1_3",
       "ohms": 22599.999999999996,
       "tolerance": 0.01,
       "pads": {
@@ -2272,7 +2272,7 @@
       }
     },
     {
-      "ref": "RBAL1_4",
+      "ref": "R_BAL_1_4",
       "ohms": 14300.0,
       "tolerance": 0.01,
       "pads": {
@@ -2810,7 +2810,7 @@
       }
     },
     {
-      "ref": "RBAL1_5",
+      "ref": "R_BAL_1_5",
       "ohms": 10000.0,
       "tolerance": 0.01,
       "pads": {
@@ -3330,7 +3330,7 @@
       }
     },
     {
-      "ref": "RBAL1_6",
+      "ref": "R_BAL_1_6",
       "ohms": 13000.0,
       "tolerance": 0.01,
       "pads": {
@@ -3832,7 +3832,7 @@
       }
     },
     {
-      "ref": "RBAL1_7",
+      "ref": "R_BAL_1_7",
       "ohms": 16200.000000000002,
       "tolerance": 0.01,
       "pads": {
@@ -4363,7 +4363,7 @@
       }
     },
     {
-      "ref": "RBAL1_8",
+      "ref": "R_BAL_1_8",
       "ohms": 8660.0,
       "tolerance": 0.01,
       "pads": {
@@ -4892,7 +4892,7 @@
       }
     },
     {
-      "ref": "RBAL1_9",
+      "ref": "R_BAL_1_9",
       "ohms": 18200.0,
       "tolerance": 0.01,
       "pads": {
@@ -5358,7 +5358,7 @@
       }
     },
     {
-      "ref": "RBAL1_10",
+      "ref": "R_BAL_1_10",
       "ohms": 35700.0,
       "tolerance": 0.01,
       "pads": {
@@ -5491,7 +5491,7 @@
       }
     },
     {
-      "ref": "RBAL1_11",
+      "ref": "R_BAL_1_11",
       "ohms": 90900.0,
       "tolerance": 0.01,
       "pads": {
@@ -6067,7 +6067,7 @@
       }
     },
     {
-      "ref": "RBAL1_12",
+      "ref": "R_BAL_1_12",
       "ohms": 15400.0,
       "tolerance": 0.01,
       "pads": {
@@ -6173,7 +6173,7 @@
       }
     },
     {
-      "ref": "RBAL1_13",
+      "ref": "R_BAL_1_13",
       "ohms": 52300.00000000001,
       "tolerance": 0.01,
       "pads": {
@@ -6711,7 +6711,7 @@
       }
     },
     {
-      "ref": "RBAL1_14",
+      "ref": "R_BAL_1_14",
       "ohms": 112999.99999999999,
       "tolerance": 0.01,
       "pads": {
@@ -6790,7 +6790,7 @@
       }
     },
     {
-      "ref": "RBAL1_15",
+      "ref": "R_BAL_1_15",
       "ohms": 61900.00000000001,
       "tolerance": 0.01,
       "pads": {
@@ -6943,7 +6943,7 @@
       }
     },
     {
-      "ref": "RBAL2_0",
+      "ref": "R_BAL_2_0",
       "ohms": 14700.0,
       "tolerance": 0.01,
       "pads": {
@@ -7094,7 +7094,7 @@
       }
     },
     {
-      "ref": "RBAL2_1",
+      "ref": "R_BAL_2_1",
       "ohms": 24900.000000000004,
       "tolerance": 0.01,
       "pads": {
@@ -7236,7 +7236,7 @@
       }
     },
     {
-      "ref": "RBAL2_2",
+      "ref": "R_BAL_2_2",
       "ohms": 35700.0,
       "tolerance": 0.01,
       "pads": {
@@ -7369,7 +7369,7 @@
       }
     },
     {
-      "ref": "RBAL2_3",
+      "ref": "R_BAL_2_3",
       "ohms": 61900.00000000001,
       "tolerance": 0.01,
       "pads": {
@@ -7529,7 +7529,7 @@
       }
     },
     {
-      "ref": "RBAL2_4",
+      "ref": "R_BAL_2_4",
       "ohms": 17400.0,
       "tolerance": 0.01,
       "pads": {
@@ -7698,7 +7698,7 @@
       }
     },
     {
-      "ref": "RBAL2_5",
+      "ref": "R_BAL_2_5",
       "ohms": 28000.0,
       "tolerance": 0.01,
       "pads": {
@@ -7858,7 +7858,7 @@
       }
     },
     {
-      "ref": "RBAL2_6",
+      "ref": "R_BAL_2_6",
       "ohms": 14300.0,
       "tolerance": 0.01,
       "pads": {
@@ -8000,7 +8000,7 @@
       }
     },
     {
-      "ref": "RBAL2_7",
+      "ref": "R_BAL_2_7",
       "ohms": 34000.0,
       "tolerance": 0.01,
       "pads": {
@@ -8097,7 +8097,7 @@
       }
     },
     {
-      "ref": "RBAL2_8",
+      "ref": "R_BAL_2_8",
       "ohms": 21000.0,
       "tolerance": 0.01,
       "pads": {
@@ -8239,7 +8239,7 @@
       }
     },
     {
-      "ref": "RBAL2_9",
+      "ref": "R_BAL_2_9",
       "ohms": 18200.0,
       "tolerance": 0.01,
       "pads": {
