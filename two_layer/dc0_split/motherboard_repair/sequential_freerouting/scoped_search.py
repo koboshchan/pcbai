@@ -28,7 +28,7 @@ def plan(b,net,ref=None,num=None,pair=None):
   for layer,k in [(p.F_Cu,0),(p.B_Cu,1)]:
    if t.IsOnLayer(layer):drawtrack(trackims[k],t)
  hard=[distance_transform_edt(~np.array(im,dtype=bool))*step for im in ims];soft=[distance_transform_edt(~np.array(im,dtype=bool))*step for im in trackims]
- blocked=[(d<.33)|(soft[k]<.36) for k,d in enumerate(hard)];softb=[d<.33 for d in soft];viapad=(hard[0]>.62)&(hard[1]>.62);viatrack=(soft[0]>.54)&(soft[1]>.54)
+ blocked=[(d<.31)|(soft[k]<.31) for k,d in enumerate(hard)];softb=[d<.33 for d in soft];viapad=(hard[0]>.515)&(hard[1]>.515);viatrack=(soft[0]>.54)&(soft[1]>.54)
  def ends(t):
   poss=[t.GetPosition()] if isinstance(t,p.PCB_VIA) or isinstance(t,p.PAD) else [t.GetStart(),t.GetEnd()]
   return [(round(pt(q)[0]),round(pt(q)[1]),k) for q in poss for ll,k in [(p.F_Cu,0),(p.B_Cu,1)] if t.IsOnLayer(ll)]
@@ -54,7 +54,7 @@ def plan(b,net,ref=None,num=None,pair=None):
    if not(10<=xx<N-10 and 10<=yy<N-10) or blocked[k][yy,xx]:continue
    if dx and dy and (blocked[k][y,xx] or blocked[k][yy,x]):continue
    opts.append(((xx,yy,k),w*(1+50*softb[k][yy,xx])))
-  if viapad[y,x] and soft[0][y,x]>.62 and soft[1][y,x]>.62:opts.append(((x,y,1-k),30+(0 if viatrack[y,x] else 500)))
+  if viapad[y,x] and soft[0][y,x]>.515 and soft[1][y,x]>.515:opts.append(((x,y,1-k),30+(0 if viatrack[y,x] else 500)))
   for z,w in opts:
    ng=g+w
    if ng<costs.get(z,1e99):costs[z]=ng;parents[z]=q;heapq.heappush(queue,(ng+h(z),ng,z))
@@ -64,7 +64,7 @@ def plan(b,net,ref=None,num=None,pair=None):
  crossed=[]
  for t in b.GetTracks():
   if t.GetNetname()==net:continue
-  im=image();drawtrack(im,t,.33);mask=np.array(im,dtype=bool)
+  im=image();drawtrack(im,t,.30);mask=np.array(im,dtype=bool)
   if any(np.any(mask&used[k]) for layer,k in [(p.F_Cu,0),(p.B_Cu,1)] if t.IsOnLayer(layer)):crossed.append(t.m_Uuid.AsString())
  print(net,'path',len(path),'explored',len(done),'blocking items',len(crossed),flush=True)
  return {'net':net,'path_mm':[(x*step,y*step,k) for x,y,k in path],'blocking_items':crossed}
