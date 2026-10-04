@@ -40,7 +40,7 @@ for l,n in [(1,16),(2,10)]:
    ref=(f'R1_{i}_{local_j}' if l==1 else f'R2_{i}_{j}') if e['source']=='input' else (f'Rb_N{j}' if l==1 else f'Rb_L2_{j}')
    items.append({'ref':ref,'ohms':e['ohms'],'tolerance':e['tolerance'],'pads':{'1':src,'2':p if e['leg']=='positive' else v}})
   items.append({'ref':f'Rf_N{j}' if l==1 else f'Rf_L2_{j}','ohms':row['rf_ohms'],'tolerance':.01,'pads':{'1':v,'2':o}})
-  if row['balance']:items.append({'ref':f'RBAL{l}_{j}','ohms':row['balance']['ohms'],'tolerance':.01,'pads':{'1':p if row['balance']['leg']=='positive' else v,'2':'GND'}})
+  if row['balance']:items.append({'ref':f'R_BAL_{l}_{j}','ohms':row['balance']['ohms'],'tolerance':.01,'pads':{'1':p if row['balance']['leg']=='positive' else v,'2':'GND'}})
   for fp in m[board]['footprints']:
    if fp['value']=='TL074':
     pads={a['number']:a['net'] for a in fp['pads']}
