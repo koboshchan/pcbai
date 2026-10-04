@@ -1,0 +1,153 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-03T16:01:27",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "test_adjacent_pads.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [IN_0] of W1",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 10.0
+                    },
+                    "uuid": "ca86a417-db5b-40df-b922-d69e056bd3b1"
+                },
+                {
+                    "description": "Track [IN_0] on F.Cu, length 1.2000 mm",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 18.8
+                    },
+                    "uuid": "04492e0f-22d3-4fb3-be8a-fde3b52005e0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [IN_0] on F.Cu, length 1.2000 mm",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 18.8
+                    },
+                    "uuid": "04492e0f-22d3-4fb3-be8a-fde3b52005e0"
+                },
+                {
+                    "description": "PTH pad 1 [IN_0] of W2",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 28.8
+                    },
+                    "uuid": "5fcc00a3-d8eb-42d3-aaae-7c0d16fc589e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "7f081dff-66d3-4567-9b16-e87e0aa964b3"
+                },
+                {
+                    "description": "Reference field of W2",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "53035631-9860-410e-a1bf-52252c8e9ccb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "7f081dff-66d3-4567-9b16-e87e0aa964b3"
+                },
+                {
+                    "description": "Reference field of W1",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "9106abba-1ff3-433f-895b-ac8f368b040c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of W2",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "53035631-9860-410e-a1bf-52252c8e9ccb"
+                },
+                {
+                    "description": "Reference field of W1",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "9106abba-1ff3-433f-895b-ac8f368b040c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}
