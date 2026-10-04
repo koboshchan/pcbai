@@ -5,7 +5,7 @@ import pcbnew as p
 import route_v2 as route
 import repair_ground_v2 as ground
 import json,sys,math
-source=Path(sys.argv[1]).resolve(); work=source.parent/'copper_stitch_v2';work.mkdir(exist_ok=False)
+source=Path(sys.argv[1]).resolve(); work=source.parent/'copper_stitch_v2';work.mkdir(exist_ok=True)
 pro=source.with_suffix('.kicad_pro').read_text(); b=p.LoadBoard(str(source)); identity=ground.fixed(b)
 def save(board,name):
  path=work/(name+'.kicad_pcb');p.SaveBoard(str(path),board);path.with_suffix('.kicad_pro').write_text(pro);return path
@@ -13,7 +13,7 @@ def save(board,name):
 d=json.loads(source.with_name(source.stem+'_drc.json').read_text());bad={i['uuid'] for v in d['violations'] if v['severity']=='error' for i in v['items']}
 removed=[]
 for t in list(b.GetTracks()):
- if t.m_Uuid.AsString() in bad:removed.append(t.m_Uuid.AsString());b.Remove(t)
+ if t.m_Uuid.AsString() in bad:removed.append(t.m_Uuid.AsString());b.RemoveNative(t)
 current=save(b,'clean_edges');d,stats=route.drc(current);assert stats['errors']==0,stats
 history=[{'stage':'edge_remove','removed':removed,**stats}]
 print(json.dumps(history[-1]),flush=True)
@@ -60,7 +60,7 @@ for roundno in range(3):
    reject={added[i['uuid']] for v in violations for i in v['items'] if i['uuid'] in added}
    if not reject:raise RuntimeError('Original copper acquired error without rejectable additions')
    for g in reject:
-    for t in groups.pop(g,[]):board.Remove(t);added.pop(t.m_Uuid.AsString(),None)
+    for t in groups.pop(g,[]):board.RemoveNative(t);added.pop(t.m_Uuid.AsString(),None)
    path=save(board,f'trial_{roundno}_{pattern}');trial,tstats=route.drc(path)
   assert tstats['errors']==0,tstats
   assert ground.fixed(board)==identity
