@@ -85,7 +85,7 @@
 		(layer "F.Cu")
 		(uuid "0020b614-fd8c-453d-a54d-d4a04fe9a6ee")
 		(at 33.49 28.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_12_1"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -98,7 +98,7 @@
 				)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "200k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -374,7 +374,7 @@
 		(layer "F.Cu")
 		(uuid "0096e1bb-f864-4946-9da2-cf5e45f65ca8")
 		(at 25.87 69.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_9_9"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -387,7 +387,7 @@
 				)
 			)
 		)
-		(property "Value" "470k"
+		(property "Value" "150k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -455,7 +455,7 @@
 		(layer "F.Cu")
 		(uuid "023641c2-de0f-4c2f-bc90-f2291f191d22")
 		(at 8.09 38.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_2_3"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -468,7 +468,7 @@
 				)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "240k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -536,7 +536,7 @@
 		(layer "F.Cu")
 		(uuid "02e98c8b-f3da-47a0-bad4-8757779c7243")
 		(at 3.01 64.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_0_8"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -549,7 +549,7 @@
 				)
 			)
 		)
-		(property "Value" "300k"
+		(property "Value" "180k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -617,7 +617,7 @@
 		(layer "F.Cu")
 		(uuid "044aac4e-a836-4c2f-b4fa-4df88113a97e")
 		(at 3.01 38.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_0_3"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -630,7 +630,7 @@
 				)
 			)
 		)
-		(property "Value" "270k"
+		(property "Value" "220k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -698,7 +698,7 @@
 		(layer "F.Cu")
 		(uuid "05047441-ecba-4a5b-8b4b-e986f36d56ae")
 		(at 5.55 38.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_1_3"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -779,7 +779,7 @@
 		(layer "F.Cu")
 		(uuid "051ec7ce-6ed6-4824-b3b1-aa1d5ce66c0d")
 		(at 41.11 54.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_15_6"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -792,7 +792,7 @@
 				)
 			)
 		)
-		(property "Value" "300k"
+		(property "Value" "360k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -840,89 +840,8 @@
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "POS_L2_6")
+			(net "INV_L2_6")
 			(uuid "031618e7-0f4b-457a-9b54-5db12e3dc0f5")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "065cae13-26cd-4956-bf4d-0f8370a3ea6a")
-		(at 36.03 69.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_13_9"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0eb639aa-589f-4bea-9a5d-db8f89e0289b")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "560k"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9a95b1f-4434-40a9-9979-f66b27ce88a3")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "902794d4-81c0-45d7-9e7d-8bd10375fa62")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2b98366-c07b-41a5-8a9e-611ef6e86cb0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_13")
-			(uuid "1ac0e03a-ff07-4931-b4bf-894091166f48")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "INV_L2_9")
-			(uuid "d65c8dcb-b78e-4274-9d3e-9a722f2faf69")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
@@ -941,7 +860,7 @@
 		(layer "F.Cu")
 		(uuid "06652247-9b60-43be-9343-f201a526e0d5")
 		(at 15.71 43.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_5_4"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -954,7 +873,7 @@
 				)
 			)
 		)
-		(property "Value" "560k"
+		(property "Value" "220k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1022,7 +941,7 @@
 		(layer "F.Cu")
 		(uuid "06ff9ece-03fa-41fe-836c-fba385b9900b")
 		(at 25.87 33.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_9_2"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -1035,7 +954,7 @@
 				)
 			)
 		)
-		(property "Value" "360k"
+		(property "Value" "180k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1101,90 +1020,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "07fe8e8b-1f49-4a2b-a67f-6181e46ed9e3")
-		(at 36.03 64.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_13_8"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "08e307b8-fa40-4e48-8701-7864524f9984")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "4.3M"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b8ea12bf-217a-4567-aa14-248917be9b0b")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d5c7207-3531-479a-8ca9-fb83eb56a8a4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7dbdb74f-f669-49d7-af66-382cc13330ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_13")
-			(uuid "c98fa17d-09a3-420f-83a5-6ea5916e9751")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "INV_L2_8")
-			(uuid "afff0ecb-6e65-41ee-a964-ebb2e15d41ef")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "0826b4f2-7251-439b-bb16-146d3bdd0183")
 		(at 5.55 49 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_1_5"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -1197,7 +1035,7 @@
 				)
 			)
 		)
-		(property "Value" "110k"
+		(property "Value" "82k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1263,9 +1101,89 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
+		(uuid "088c6db2-a27b-4422-bbd5-dd2a17ea336e")
+		(at 88 90)
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R_BAL_2_9"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "c835599b-f90a-442b-96af-6bd13f40ec11")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Value" "18.2k"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a3cca20-d03c-4ac3-9a09-03149afd8967")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70ef8326-2c99-45bf-b864-ac55d20b0f79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef043bd5-eb0f-4721-ab9c-7b528416936b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "POS_L2_9")
+			(uuid "81653775-e7dc-4e47-b27d-8ebc6b3dd789")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "1b9679b3-56a6-4ed6-95c7-a877cc2fd858")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
 		(uuid "09e2c369-0e47-43ed-9c2f-e74c7b509321")
 		(at 18.25 69.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_6_9"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -1278,7 +1196,7 @@
 				)
 			)
 		)
-		(property "Value" "470k"
+		(property "Value" "150k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1346,7 +1264,7 @@
 		(layer "F.Cu")
 		(uuid "09fbccc1-a2db-477f-be11-89ff1cf16c79")
 		(at 41.11 28.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_15_1"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -1359,7 +1277,7 @@
 				)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "160k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1427,7 +1345,7 @@
 		(layer "F.Cu")
 		(uuid "0b8fe98c-413c-4b87-8e7c-2a6b42fb1cf9")
 		(at 15.71 33.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_5_2"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -1440,7 +1358,7 @@
 				)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "130k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1508,7 +1426,7 @@
 		(layer "F.Cu")
 		(uuid "0c5fbf5c-f38a-4e9e-99d9-0dd7846e1970")
 		(at 8.09 33.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_2_2"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -1521,7 +1439,7 @@
 				)
 			)
 		)
-		(property "Value" "390k"
+		(property "Value" "300k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1587,171 +1505,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "0ea6170d-1558-4b68-bfe9-d2f2200e0e0a")
-		(at 20.79 28.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_7_1"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "94052e94-8c2a-491f-90aa-f398c5f4e6d7")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "560k"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5743066a-3ac3-4de1-bf15-a5423a4a604c")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ec0cc513-fd3c-45f7-b786-e3ef0c3af7d8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5e07b35f-ce63-48bd-ac36-0dfcb205f7ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_7")
-			(uuid "bca03616-d110-48cf-a16f-5ead475b784e")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_1")
-			(uuid "7bad989a-ef69-4d12-892e-2fb0e412113a")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "110f9ab6-5025-46d3-a3d8-2c466af51891")
-		(at 30.95 28.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_11_1"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "91981bf2-07f9-4721-ba14-452b48a1f9d3")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "110k"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ea8a4313-e404-4300-ad2a-f84303ddff2c")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "45da0759-474b-4fee-9eb3-a1d65471f7e3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "33f47e4a-aab5-44de-ad07-cedbeac3d726")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_11")
-			(uuid "5aa484b2-d984-433c-ad0e-973c741b6567")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "INV_L2_1")
-			(uuid "85162c94-1e2a-40bd-9681-e58cd9edd0fc")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "123f189d-3426-4ec7-a2ac-caf9af2f2ec2")
 		(at 52.32 21.19)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rf_L2_0"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -1830,89 +1586,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "124cb6f3-8286-4eb5-8b63-5db33268fe10")
-		(at 61 90)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R_BAL_2_6"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "812a22ed-0548-48b0-97a5-ff99bf3ff5a4")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "25.5k"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "65c5fc7b-7fdd-44cb-80a8-cbcdffb0af35")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5cc8a71e-f264-418c-89c7-98f91a5d992e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "27505ed9-4207-4f60-9c60-df7e88aecc86")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_6")
-			(uuid "4d6d9960-c03c-48e0-ab65-9efc0fbb5053")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "1f081dd7-efd1-48cc-815d-9f49d6b9610a")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "12d5830e-f275-4b04-a0ed-c730456b875d")
 		(at 20.79 69.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_7_9"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -1925,7 +1601,7 @@
 				)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "75k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1991,9 +1667,89 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
+		(uuid "169c0e92-8f3a-4e25-abcb-7b80971ed6ae")
+		(at 25 90)
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R_BAL_2_2"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "5fac0c11-2b17-49a3-903c-546345fb972a")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Value" "35.7k"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "566c1f16-894f-4d5c-b544-834f86b069eb")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18a68448-9876-4ace-b466-222567e5c011")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84428443-3925-4120-8511-7583f1f1e0e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "POS_L2_2")
+			(uuid "051ea9d1-e9b6-4631-8f33-b81f6f378d23")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "a30afe40-c377-4d37-afef-ce1add3c167a")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
 		(uuid "16bc1e19-c81a-4f4b-80fe-117275378aea")
 		(at 8.09 43.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_2_4"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -2006,7 +1762,7 @@
 				)
 			)
 		)
-		(property "Value" "560k"
+		(property "Value" "240k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2074,7 +1830,7 @@
 		(layer "F.Cu")
 		(uuid "1708499d-0d2d-48cf-a0ab-31467bcaa074")
 		(at 10.63 28.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_3_1"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -2202,6 +1958,17 @@
 				)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "55ea619a-52b2-48c6-a1c7-b8e87d3dc9ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" smd roundrect
 			(at -0.95 0)
@@ -2236,7 +2003,7 @@
 		(layer "F.Cu")
 		(uuid "1ac54d62-f06b-4875-acae-2b686fa7bb7f")
 		(at 15.71 69.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_5_9"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -2249,7 +2016,7 @@
 				)
 			)
 		)
-		(property "Value" "270k"
+		(property "Value" "180k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2317,7 +2084,7 @@
 		(layer "F.Cu")
 		(uuid "1b992454-bab0-4ae8-8286-bcc1df5f5841")
 		(at 18.25 43.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_6_4"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -2330,7 +2097,7 @@
 				)
 			)
 		)
-		(property "Value" "160k"
+		(property "Value" "68k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2396,9 +2163,90 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
+		(uuid "1d129e6c-18ed-42d1-b537-b7b4cffc0adf")
+		(at 25.87 59.4 90)
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R2_9_7"
+			(at 0 -1.5 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "03445c25-2bed-4fac-a3b0-52570d8fef8f")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Value" "620k"
+			(at 0 1.5 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "342f1dbe-3c93-4811-94a8-f4791c1efcd1")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6d2a3bb-a37f-4d9a-832a-b865a6b28dad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0cab71b-e5bb-4627-9a37-569e350a9fd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "ACT_9")
+			(uuid "b8324aca-f8c1-4e5d-90f9-cd34ede99829")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "POS_L2_7")
+			(uuid "50ab13ba-7394-4730-97f5-9bec8903a972")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
 		(uuid "1d8910f1-65b8-4b1c-9934-69f2c6a0169a")
 		(at 38.57 49 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_14_5"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -2411,7 +2259,7 @@
 				)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "2.7M"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2479,7 +2327,7 @@
 		(layer "F.Cu")
 		(uuid "24bce3bf-2ddf-4527-aa40-1699c003b1fa")
 		(at 47.32 77.54)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rb_L2_5"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -2492,7 +2340,7 @@
 				)
 			)
 		)
-		(property "Value" "820k"
+		(property "Value" "2M"
 			(at 0 1.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2560,7 +2408,7 @@
 		(layer "F.Cu")
 		(uuid "24f64270-4120-40e3-a5fe-8cf2e6d7d670")
 		(at 33.49 23 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_12_0"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -2573,7 +2421,7 @@
 				)
 			)
 		)
-		(property "Value" "360k"
+		(property "Value" "510k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2641,7 +2489,7 @@
 		(layer "F.Cu")
 		(uuid "258cdfb1-5cbe-4fd9-adc0-af3d4b4b10d1")
 		(at 28.41 33.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_10_2"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -2654,7 +2502,7 @@
 				)
 			)
 		)
-		(property "Value" "300k"
+		(property "Value" "150k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2720,14 +2568,13 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "27a46770-0310-49b8-96dc-d8e8f21bbe62")
-		(at 15.71 64.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_5_8"
-			(at 0 -1.5 90)
+		(uuid "280f8a0f-8f54-4117-817c-0ff0d9515f79")
+		(at 16 90)
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R_BAL_2_1"
+			(at 0 -2 0)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5494dbb5-c423-48b0-9531-782b9950d9bf")
+			(uuid "f08ac94c-036e-4c57-9ccc-f46c7e13a967")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -2735,11 +2582,11 @@
 				)
 			)
 		)
-		(property "Value" "1.8M"
-			(at 0 1.5 90)
+		(property "Value" "24.9k"
+			(at 0 1.5 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b4fa0ad6-54c7-4413-bde6-900339edac36")
+			(uuid "fd67542f-1bf0-443f-9b7c-351d717a4593")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -2748,10 +2595,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15a8a42e-0ec3-4ad4-b7e6-ac9ed4647475")
+			(uuid "14309cd4-d570-4d88-9c12-3b98e252eb92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,10 +2606,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7195205a-2bcb-4773-8f6f-ff27fadc5209")
+			(uuid "09b23681-2859-4182-9e56-a50cd6190bb3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,16 +2622,16 @@
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "ACT_5")
-			(uuid "eff6f8a4-d7cf-4341-b901-33ec944473f7")
+			(net "POS_L2_1")
+			(uuid "e3e177ca-07f6-4c97-95ff-b4c934d5bca3")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0)
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "INV_L2_8")
-			(uuid "cf27401d-10e3-45e3-8bae-1058a52c249e")
+			(net "GND")
+			(uuid "517c539b-1558-49a1-b7a7-5f091ad00d86")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
@@ -2803,7 +2650,7 @@
 		(layer "F.Cu")
 		(uuid "287ce313-483d-48d3-9c15-2e6b8c5a4e44")
 		(at 23.33 64.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_8_8"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -2816,7 +2663,7 @@
 				)
 			)
 		)
-		(property "Value" "180k"
+		(property "Value" "120k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2884,7 +2731,7 @@
 		(layer "F.Cu")
 		(uuid "2b600cd4-e617-4cd8-8e33-f10705eee6ae")
 		(at 3.01 43.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_0_4"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -2897,7 +2744,7 @@
 				)
 			)
 		)
-		(property "Value" "180k"
+		(property "Value" "270k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2965,7 +2812,7 @@
 		(layer "F.Cu")
 		(uuid "2c906e17-bb87-4f3d-acc2-c05eea3bf2dd")
 		(at 25.87 43.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_9_4"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -3046,7 +2893,7 @@
 		(layer "F.Cu")
 		(uuid "2d275cf0-b49b-4bc5-9de2-01a794d32400")
 		(at 13.17 64.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_4_8"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -3059,7 +2906,7 @@
 				)
 			)
 		)
-		(property "Value" "240k"
+		(property "Value" "62k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3127,7 +2974,7 @@
 		(layer "F.Cu")
 		(uuid "3152755e-27b9-47fe-8ef5-edbf0fb54aee")
 		(at 10.63 23 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_3_0"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -3140,7 +2987,7 @@
 				)
 			)
 		)
-		(property "Value" "240k"
+		(property "Value" "100k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3208,7 +3055,7 @@
 		(layer "F.Cu")
 		(uuid "33b7ad13-edc9-473b-8624-39e7d4cb9b10")
 		(at 8.09 23 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_2_0"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -3221,7 +3068,7 @@
 				)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "110k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3287,13 +3134,14 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "3524ffad-b350-4d93-9298-43df447c8754")
-		(at 43 90)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R_BAL_2_4"
-			(at 0 -2 0)
+		(uuid "35ce2c0c-26e0-479e-a09d-89ef020f9ba4")
+		(at 8.09 64.6 90)
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R2_2_8"
+			(at 0 -1.5 90)
 			(layer "F.SilkS")
-			(uuid "9b8b9613-a8c1-4257-b6ab-e55c1fb6f74c")
+			(hide yes)
+			(uuid "b46a26d9-437c-4b69-9b24-91d286451a23")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -3301,11 +3149,11 @@
 				)
 			)
 		)
-		(property "Value" "34k"
-			(at 0 1.5 0)
+		(property "Value" "5.1M"
+			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f4cb496-1a7c-4351-a878-79c57f7970dc")
+			(uuid "8fed40d6-3549-42b0-86a6-a8575aa22b14")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -3314,10 +3162,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6dc23759-ba0c-44e4-bd1d-a708488ec00d")
+			(uuid "43fde139-13be-4bd4-98e1-724021517723")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3325,10 +3173,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b53d4e5-e074-44ed-ab4b-63fc47c7e681")
+			(uuid "81865dc0-6759-48d5-b08a-a658c79f8960")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3341,16 +3189,16 @@
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "POS_L2_4")
-			(uuid "209620ed-7ad1-42d8-b26f-527eee1f6330")
+			(net "ACT_2")
+			(uuid "339d9ca7-fc2d-4697-aad2-8b116054ee63")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0)
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "95d2d676-cf29-4f34-844d-b47735b020ab")
+			(net "POS_L2_8")
+			(uuid "98963e9f-b399-4efc-a9ba-d4da93bf1b74")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
@@ -3367,14 +3215,14 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "37b64b41-e008-4abc-9106-b5efa0da20b6")
-		(at 30.95 69.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_11_9"
+		(uuid "38cf0dc3-114a-479c-a30e-a47ae0790a1b")
+		(at 41.11 49 90)
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R2_15_5"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "491c3690-ef42-4c09-af40-f3b7c19e91d8")
+			(uuid "d2468d13-ee48-4fb3-be42-02e932c1723f")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -3386,7 +3234,7 @@
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "caba9e7a-c5fc-442d-909b-9549d7a16ed7")
+			(uuid "10c87bf1-0cd9-4e78-96ef-c0cbddf528aa")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -3398,7 +3246,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7950e37c-678e-47d8-8c2c-39fb7732a772")
+			(uuid "0b887488-2350-4af7-91e7-45592126acc9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,7 +3257,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e6c6023d-a7a2-4c8a-8d45-c1a0f97c5b06")
+			(uuid "4e4d4d2b-218f-4fda-adf0-dc84f0c5edc9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,16 +3270,16 @@
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "ACT_11")
-			(uuid "c3dc7bca-e34b-4571-b39c-9db1a00c9cc2")
+			(net "ACT_15")
+			(uuid "2f0c2004-8ff0-42ec-894d-f713cffbba3e")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0)
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "POS_L2_9")
-			(uuid "f579c440-ee2d-4407-b44c-5dfdc1a4bc8d")
+			(net "INV_L2_5")
+			(uuid "dc3d1d3f-f5db-42d5-8a93-3710eb9bf4d9")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
@@ -3450,7 +3298,7 @@
 		(layer "F.Cu")
 		(uuid "3ab3817d-c5b8-4b1d-a894-d5373bde236a")
 		(at 8.09 59.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_2_7"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -3529,9 +3377,90 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
+		(uuid "3be52a48-3d31-4a39-8f95-350cde6eb9aa")
+		(at 38.57 23 90)
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R2_14_0"
+			(at 0 -1.5 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f9203cd2-ce50-4345-b618-852da92f79d1")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Value" "220k"
+			(at 0 1.5 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1e2d41d-0c8e-4475-8bf7-55e87795891b")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97185784-291c-436a-9425-fd5363a7fec3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5fc98a5-650a-4ed9-a140-3fbcc08e7631")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "ACT_14")
+			(uuid "aab3c3e9-e394-409e-a52c-ba64698cedea")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "INV_L2_0")
+			(uuid "58fe63b6-7f09-4ae0-a921-0574f2389227")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
 		(uuid "3c53bb2e-5df1-4d11-8377-ff9068fb4638")
 		(at 74.32 28.81)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rf_L2_7"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -3612,7 +3541,7 @@
 		(layer "F.Cu")
 		(uuid "3d3733a6-6dc0-4223-ba76-54c89de7b3e0")
 		(at 38.57 54.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_14_6"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -3625,7 +3554,7 @@
 				)
 			)
 		)
-		(property "Value" "560k"
+		(property "Value" "200k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3693,7 +3622,7 @@
 		(layer "F.Cu")
 		(uuid "3e839b11-4bf4-49f8-a967-7bc44dd112ec")
 		(at 28.41 69.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_10_9"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -3706,7 +3635,7 @@
 				)
 			)
 		)
-		(property "Value" "240k"
+		(property "Value" "110k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4029,6 +3958,17 @@
 				)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "9ad35de1-6dbc-49f5-8470-6643f8617506")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" smd roundrect
 			(at -0.95 0)
@@ -4110,6 +4050,17 @@
 				)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "80cab6bf-a1f8-4224-8a7f-22e87749eff4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" smd roundrect
 			(at -0.95 0)
@@ -4142,14 +4093,14 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "46a790ff-5c3c-4a8c-99d3-6ae26be1e16c")
-		(at 36.03 59.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_13_7"
+		(uuid "45a06de7-bbe5-4d41-b7a2-ee659cdf6f24")
+		(at 3.01 69.8 90)
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R2_0_9"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a245fa00-8c68-4bbb-94a3-d7061618dbec")
+			(uuid "f327cd78-ba1e-4512-a974-d06d43200fb4")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -4157,11 +4108,11 @@
 				)
 			)
 		)
-		(property "Value" "3.3M"
+		(property "Value" "300k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85df8e5b-1107-4c60-8639-68ae8fc923aa")
+			(uuid "be893627-f962-47f1-be72-79cce7b1171c")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -4173,7 +4124,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "125d590d-97f9-4582-8ca6-6347b65843c5")
+			(uuid "dfbc1526-8590-4361-a084-0147382b2410")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4135,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0484ede0-7c97-415c-ae83-fa247f3dd26e")
+			(uuid "8842ee29-77b8-4924-bd8f-c2df226e69ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,16 +4148,16 @@
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "ACT_13")
-			(uuid "f46e0ef7-842f-42f9-875e-7460de42e1f7")
+			(net "ACT_0")
+			(uuid "5f1a67df-bc9e-4ed0-b353-97cf49af109e")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0)
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "POS_L2_7")
-			(uuid "0355c4d4-b89a-4a3f-a64b-53b6834c9827")
+			(net "POS_L2_9")
+			(uuid "f44f003b-d43e-493a-9cac-8bd96e75afbb")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
@@ -4225,7 +4176,7 @@
 		(layer "F.Cu")
 		(uuid "49214e0f-9bb2-4be8-b4d0-1b9a4d380b24")
 		(at 10.63 64.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_3_8"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -4238,7 +4189,7 @@
 				)
 			)
 		)
-		(property "Value" "300k"
+		(property "Value" "200k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4306,7 +4257,7 @@
 		(layer "F.Cu")
 		(uuid "4c79a17c-66df-432f-86f9-c8acd2a01295")
 		(at 25.87 64.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_9_8"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -4319,7 +4270,7 @@
 				)
 			)
 		)
-		(property "Value" "430k"
+		(property "Value" "180k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4387,7 +4338,7 @@
 		(layer "F.Cu")
 		(uuid "4deb12c3-2b29-4a7f-99ca-dbcf54f0ab7c")
 		(at 47.32 22.46)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rb_L2_0"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -4400,7 +4351,7 @@
 				)
 			)
 		)
-		(property "Value" "300k"
+		(property "Value" "270k"
 			(at 0 1.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4468,7 +4419,7 @@
 		(layer "F.Cu")
 		(uuid "5019e3e3-49ee-4f94-9a64-80bb2d4a9480")
 		(at 25.87 38.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_9_3"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -4481,7 +4432,7 @@
 				)
 			)
 		)
-		(property "Value" "620k"
+		(property "Value" "270k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4547,9 +4498,90 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
+		(uuid "51f9cde1-a061-4a25-825e-b54a4077bbb4")
+		(at 5.55 23 90)
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R2_1_0"
+			(at 0 -1.5 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "32f1c14a-6c56-4415-9b90-4c1a969c3245")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Value" "240k"
+			(at 0 1.5 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72361e24-9d8e-44ea-9853-51779f1c6034")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ee08ea0-fc3a-4dc4-9065-a473082c25d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c2c8031-8207-4aa5-8dc8-520771b8d120")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "ACT_1")
+			(uuid "c1ae9d2b-32f6-417b-a6ab-697650b5a294")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "POS_L2_0")
+			(uuid "1ba5db27-c5d1-474f-adfc-646f382395e8")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
 		(uuid "529a56e6-e825-4cb8-9474-7edd1973ca44")
 		(at 38.57 69.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_14_9"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -4562,7 +4594,7 @@
 				)
 			)
 		)
-		(property "Value" "360k"
+		(property "Value" "300k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4630,7 +4662,7 @@
 		(layer "F.Cu")
 		(uuid "52c84564-0a3d-47eb-84a9-66140f65aa72")
 		(at 3.01 59.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_0_7"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -4643,7 +4675,7 @@
 				)
 			)
 		)
-		(property "Value" "270k"
+		(property "Value" "470k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4709,90 +4741,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "52e4040d-d5bc-4ad4-8b01-db72b33e1c16")
-		(at 33.49 64.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_12_8"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "bf808353-3258-4c86-a95c-ee0ef4911c7c")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "1.2M"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "779c8fb8-f48b-479e-a90e-15fae4cccf18")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e102c11b-fb34-49c8-8d99-ce59ed69c792")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0d0e0e15-6c08-4c23-99d1-48cc77f99124")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_12")
-			(uuid "15c99372-9328-4abb-b3e8-941257ef4159")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_8")
-			(uuid "810d6bea-7061-4e6d-a919-29a31ef33c43")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "53b06e71-ef35-4451-9966-5ea941987b32")
 		(at 3.01 49 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_0_5"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -4805,7 +4756,7 @@
 				)
 			)
 		)
-		(property "Value" "110k"
+		(property "Value" "56k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4873,7 +4824,7 @@
 		(layer "F.Cu")
 		(uuid "54ad8763-84b4-414c-8fd1-615effc6a85c")
 		(at 79.32 52.54)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rb_L2_9"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -4886,7 +4837,7 @@
 				)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "360k"
 			(at 0 1.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4954,7 +4905,7 @@
 		(layer "F.Cu")
 		(uuid "557bb06a-fdf1-4587-a28e-e91d27ee16cb")
 		(at 15.71 28.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_5_1"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -4967,7 +4918,7 @@
 				)
 			)
 		)
-		(property "Value" "130k"
+		(property "Value" "82k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5033,171 +4984,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "56fd1457-403f-408d-9d4d-c99fcbb242c2")
-		(at 5.55 33.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_1_2"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "43630ccf-3af6-42ad-96c4-717a3be85617")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "1M"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "47a04224-8263-4ec1-9e77-4cfb5db49e64")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99f4f0ea-713c-4dce-9b35-838ad73ea765")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "52a03970-3bb9-4fd2-b9f3-a2f7c452e275")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_1")
-			(uuid "8061d27b-101d-4e68-b08c-8a696f54367e")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_2")
-			(uuid "f2d825b8-28c0-48e1-af58-573c148f7e38")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "58d00658-3aaa-4e43-99f0-2673ce9efcfd")
-		(at 20.79 64.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_7_8"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "50849963-5a5c-48c5-89ee-953aeeef4ca7")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "820k"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f062894d-3a4c-46f3-8fa1-300c00d37175")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "408b2a97-574d-40af-beec-4f194ab9f6c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4e852372-1139-465b-b405-0250fc109c15")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_7")
-			(uuid "16296311-04a9-4695-8f59-7b190517cabb")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "INV_L2_8")
-			(uuid "fd812b4f-ae11-4597-b58d-6f15afde012c")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "5b83fd98-0c3e-404a-b2b1-279466676d08")
 		(at 20.79 38.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_7_3"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -5210,7 +4999,7 @@
 				)
 			)
 		)
-		(property "Value" "750k"
+		(property "Value" "270k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5258,7 +5047,7 @@
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "INV_L2_3")
+			(net "POS_L2_3")
 			(uuid "a0719ecb-c1af-4c09-bcc9-baa7c191d26b")
 		)
 		(embedded_fonts no)
@@ -5278,7 +5067,7 @@
 		(layer "F.Cu")
 		(uuid "5c8fa154-c4f0-4145-b50c-f6cdef7e0929")
 		(at 10.63 54.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_3_6"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -5291,7 +5080,7 @@
 				)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "68k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5359,7 +5148,7 @@
 		(layer "F.Cu")
 		(uuid "5d517711-e3b2-45c2-a0db-a7e25db752b3")
 		(at 47.32 72.46)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rb_L2_4"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -5372,7 +5161,7 @@
 				)
 			)
 		)
-		(property "Value" "390k"
+		(property "Value" "560k"
 			(at 0 1.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5440,7 +5229,7 @@
 		(layer "F.Cu")
 		(uuid "5da87b73-f27d-4560-83d3-889f9fad98a8")
 		(at 38.57 59.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_14_7"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -5453,7 +5242,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7M"
+		(property "Value" "240k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5519,9 +5308,90 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
+		(uuid "5effebc7-c99d-4166-8e1e-312fb4ae1d03")
+		(at 10.63 59.4 90)
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R2_3_7"
+			(at 0 -1.5 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "493fb8cd-1ab3-4e1d-a786-9b20ec3da1b3")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Value" "360k"
+			(at 0 1.5 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2aacbfdf-c54c-447b-970f-a374b0a2b6c0")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9107131-e3d0-4e28-8629-66b5d2cffad6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b498fc69-e19b-4587-9d2f-0da67d91d616")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "ACT_3")
+			(uuid "e7c8b314-490e-4ece-837b-70123f7580fd")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "POS_L2_7")
+			(uuid "bba90d73-27af-4fbd-ae4b-cfe4f1d7e1c6")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
 		(uuid "6172d5fb-cde3-4666-8404-80d69db8e132")
 		(at 23.33 69.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_8_9"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -5534,7 +5404,7 @@
 				)
 			)
 		)
-		(property "Value" "270k"
+		(property "Value" "300k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5602,7 +5472,7 @@
 		(layer "F.Cu")
 		(uuid "62cf4413-7bd2-417f-a5be-2a18c8fe8b15")
 		(at 33.49 54.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_12_6"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -5615,7 +5485,7 @@
 				)
 			)
 		)
-		(property "Value" "270k"
+		(property "Value" "180k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5683,7 +5553,7 @@
 		(layer "F.Cu")
 		(uuid "63ef293e-013a-4743-bde1-9b215e846ac7")
 		(at 15.71 38.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_5_3"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -5762,9 +5632,89 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
+		(uuid "64042964-73d2-4a16-802a-59656793002f")
+		(at 70 90)
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R_BAL_2_7"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "60543a36-76f9-4f43-bb88-de2aa64bc784")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Value" "34k"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1f1b62d-c36a-4642-92ad-78c881426d43")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30c6f54a-58c8-4be0-bf62-65fd6d0acd34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18b6dc4f-088a-4a29-8f55-6ac8e0d6abcf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "POS_L2_7")
+			(uuid "e3a62118-9a29-485a-aeb7-a29ed9130941")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "29efb921-8fa2-4c64-a02a-1bf043f8b949")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
 		(uuid "6469721e-6487-4319-965f-d911bdb49619")
 		(at 38.57 64.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_14_8"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -5777,7 +5727,7 @@
 				)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "110k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5843,9 +5793,170 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
+		(uuid "653596be-148a-4ddf-89dc-a75eccde8e35")
+		(at 43 90)
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R_BAL_2_4"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "8bbbe367-efcf-4870-8fd0-b573df21b75c")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Value" "17.4k"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1615f7aa-3a0f-4382-9903-84bb3fc1cf7a")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f116741b-1f79-4a64-be29-67223fb08a1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecae58d3-0c78-41dd-b432-7d6452c9f222")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "POS_L2_4")
+			(uuid "d6df0823-fa8e-47a8-bda3-564475a50104")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "b6cd23bb-6c3f-433e-b985-961cbf8616bf")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "675f8be0-1ed7-43f8-95c5-d53bbee3f74b")
+		(at 18.25 54.2 90)
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R2_6_6"
+			(at 0 -1.5 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "eb274177-5f89-4e3e-9d39-db51e1aebee0")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Value" "200k"
+			(at 0 1.5 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c2fc81b-9dea-41c0-a20d-c329fb9b26c2")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6af6d03b-3b87-46cc-866b-3371ddb00f4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23a5540e-10b7-41f6-94b3-bb8c3032c258")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "ACT_6")
+			(uuid "f8df1557-1d24-47f7-aa23-9b4f6d977aaf")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "POS_L2_6")
+			(uuid "c1fb85e7-3eb5-4077-956a-8b00b0453950")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
 		(uuid "67934f8f-9bc2-4510-bc6f-9efe264365fc")
 		(at 3.01 23 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_0_0"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -5858,7 +5969,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "91k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5926,7 +6037,7 @@
 		(layer "F.Cu")
 		(uuid "68be5327-887f-42be-ae3a-5b2386b874c2")
 		(at 13.17 59.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_4_7"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -5939,7 +6050,7 @@
 				)
 			)
 		)
-		(property "Value" "430k"
+		(property "Value" "390k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5987,8 +6098,89 @@
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "INV_L2_7")
+			(net "POS_L2_7")
 			(uuid "37c57113-3ab8-4df5-ba7e-385616018a38")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "68e622bb-c282-4762-9b37-500c890a6018")
+		(at 79.32 27.54)
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "Rb_L2_7"
+			(at 0 -1.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "20cbfead-f41e-4fdc-9acb-b29b635e45d3")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Value" "3.9M"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dca5bf90-9b9b-46db-a0c2-7fbc1f42c0e4")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa3d30e9-29fd-4ae3-be4d-e6db2b9fb36b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b56a43f3-aad3-4aec-9c81-44ea00318c49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "+5V_REF")
+			(uuid "3c66f594-59fe-49b7-ae1c-30d22864dded")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "POS_L2_7")
+			(uuid "cc3506b3-bbd8-4f2f-8adf-e87b75e16dd8")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
@@ -6007,7 +6199,7 @@
 		(layer "F.Cu")
 		(uuid "692e8bbc-9334-43cb-8a4b-d3952d62dbfd")
 		(at 20.79 23 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_7_0"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -6020,7 +6212,7 @@
 				)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "75k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6086,14 +6278,13 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "6f06a305-943b-462a-b53a-3f0daec64b7c")
-		(at 18.25 38.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_6_3"
-			(at 0 -1.5 90)
+		(uuid "6967990a-5971-4afd-b265-ee31731ab613")
+		(at 7 90)
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R_BAL_2_0"
+			(at 0 -2 0)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6b986fbf-1729-49e2-b722-36d603058e1e")
+			(uuid "8b5e95ed-29e4-4fec-a256-ae03c9045f07")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -6101,11 +6292,11 @@
 				)
 			)
 		)
-		(property "Value" "680k"
-			(at 0 1.5 90)
+		(property "Value" "14.7k"
+			(at 0 1.5 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "387b6df8-1d6f-49fc-88b3-3714cff5d95a")
+			(uuid "f3b02ba0-f633-4369-9fff-1feb73fbfd03")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -6114,10 +6305,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6e55974-b7ef-470f-858b-174594fd2989")
+			(uuid "e05654c7-b1a4-4018-98d3-a3051decdc6e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,10 +6316,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "59ae715f-640c-4440-a291-84d1114fa358")
+			(uuid "63b0e525-2db3-4de5-883b-e24fc734956a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6141,16 +6332,16 @@
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "ACT_6")
-			(uuid "7e367df5-d731-4713-aa7b-16fa7cce657b")
+			(net "POS_L2_0")
+			(uuid "fc96c6b8-9eda-4c0b-a7f0-8761355e0e17")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0)
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "INV_L2_3")
-			(uuid "8cceafe3-e066-48cb-9c5c-880f382887dc")
+			(net "GND")
+			(uuid "3754a605-7a22-4c80-99fa-33581f9a6796")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
@@ -6169,7 +6360,7 @@
 		(layer "F.Cu")
 		(uuid "70ef78e1-8d23-46d2-87db-6a95f864bc19")
 		(at 47.32 47.46)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rb_L2_2"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -6182,7 +6373,7 @@
 				)
 			)
 		)
-		(property "Value" "910k"
+		(property "Value" "560k"
 			(at 0 1.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6250,7 +6441,7 @@
 		(layer "F.Cu")
 		(uuid "7126e531-9e4e-489f-ab1d-9525910ccd54")
 		(at 52.32 53.81)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rf_L2_3"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -6331,7 +6522,7 @@
 		(layer "F.Cu")
 		(uuid "71476141-ec0d-4fe1-8a23-cae4582c6ba0")
 		(at 13.17 49 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_4_5"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -6620,7 +6811,7 @@
 		(layer "F.Cu")
 		(uuid "71d7741c-ce2e-4c0d-83e1-e6a9908eb2ac")
 		(at 18.25 28.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_6_1"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -6633,7 +6824,7 @@
 				)
 			)
 		)
-		(property "Value" "75k"
+		(property "Value" "43k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6699,9 +6890,89 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
+		(uuid "73982108-7f8d-41ec-8c2b-f64e3f19818d")
+		(at 61 90)
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R_BAL_2_6"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "79129539-a011-4c09-94be-a6dd250d8fee")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Value" "14.3k"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a19f46a-d2f3-4ebf-8254-a6b4ab0ec099")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "326f1fb9-b6aa-4ea9-af5e-1440c9cb5f5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f687403d-56aa-4521-bae2-0c29152309c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "POS_L2_6")
+			(uuid "bd48be73-3a08-4fb2-b2aa-8eb687392395")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "53314666-d791-4a2e-88c6-2511ae108a17")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
 		(uuid "73d93934-fd13-4478-b228-89a5e83721ec")
 		(at 25.87 23 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_9_0"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -6714,7 +6985,7 @@
 				)
 			)
 		)
-		(property "Value" "270k"
+		(property "Value" "100k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6782,7 +7053,7 @@
 		(layer "F.Cu")
 		(uuid "74de5106-2c9b-45b3-9a12-1ee5ceca7780")
 		(at 79.32 22.46)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rb_L2_6"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -6910,6 +7181,17 @@
 				)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "4193dfc8-7e3a-4918-9fe2-d158ef5ae76c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" smd roundrect
 			(at -0.95 0)
@@ -6942,90 +7224,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "75d84ffb-6efa-4cb0-8546-9f6995f58a4e")
-		(at 5.55 43.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_1_4"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "33316bc2-c359-4a07-83c5-091540207563")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "330k"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9f061c36-a592-48de-9c99-0729e41d9bdd")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "24acae56-3569-4fb6-ba8a-b2e163433528")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f912a2bb-f1d7-49dc-99d0-c3b4bad34c9e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_1")
-			(uuid "1e0abf2f-6c62-4fc8-8891-9d4988c598e8")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_4")
-			(uuid "03fd53bc-7da5-4206-9a03-9cd06ab792d1")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "766557d9-e13a-4bff-bf0d-d397814b3d2a")
 		(at 23.33 28.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_8_1"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -7038,7 +7239,7 @@
 				)
 			)
 		)
-		(property "Value" "240k"
+		(property "Value" "160k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7106,7 +7307,7 @@
 		(layer "F.Cu")
 		(uuid "78068b8d-2d14-4249-84dd-e881b9f79d67")
 		(at 3.01 54.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_0_6"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -7119,7 +7320,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "56k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7185,252 +7386,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "78091cec-1e1d-4aef-b410-e74410446893")
-		(at 30.95 23 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_11_0"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d9b93e5b-d453-42eb-a1cf-a637d013afe0")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "510k"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "835aef35-a64e-4e33-9709-6b7e6c64243c")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6889cee9-402b-4a24-bd87-5e01717e5273")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b50e90bf-3cf5-4383-9e2c-8432f2a25e81")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_11")
-			(uuid "ac51aefb-0fca-4d6a-97e0-e05e0550162e")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_0")
-			(uuid "12533c00-decd-48f9-9b36-dc683eec3631")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "7854f898-667d-4f2a-8115-7097124099e9")
-		(at 30.95 33.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_11_2"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b792458d-0b3a-4a4e-8ea6-5cdb0352437b")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "130k"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6dae509c-44ff-49f4-9b4a-382aa863b973")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3dd4ccdf-7388-459b-9214-d89590b969ce")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d031112b-f928-4386-a76d-0642cd8f9e1c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_11")
-			(uuid "9ff91e6f-73ad-43a1-8a8a-68fcebba83eb")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "INV_L2_2")
-			(uuid "09cbd013-82a8-4c7a-9e38-0b5ae790d858")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "7a133742-65ae-46da-ac7e-32f64b36b8d9")
-		(at 41.11 38.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_15_3"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0a1d53f2-5d98-4626-a3df-7bdbe2aea842")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "1.6M"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e2d1c31b-af26-447b-b530-f6263dcfd335")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e8ea6580-6db5-429e-86a9-1fe8bacd8e18")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0da73c4f-f044-4ea8-9083-cf46a812b97c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_15")
-			(uuid "4f3f0f45-2781-425a-9914-d1bb14047479")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_3")
-			(uuid "5dfb3698-1c81-48fb-9a59-c764bfe95264")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "7a9131eb-6541-408d-98f5-246c52ae3136")
 		(at 23.33 23 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_8_0"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -7443,7 +7401,7 @@
 				)
 			)
 		)
-		(property "Value" "750k"
+		(property "Value" "240k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7511,7 +7469,7 @@
 		(layer "F.Cu")
 		(uuid "7b2b9278-0f3e-41d9-ad0e-30f567f85648")
 		(at 28.41 54.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_10_6"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -7524,7 +7482,7 @@
 				)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "91k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7590,89 +7548,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "7b8c1638-b6dc-4cd3-b5df-57233fa45daa")
-		(at 25 90)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R_BAL_2_2"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "320ea22f-0903-47d0-baab-e9b648788620")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "44.2k"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2e878352-435a-45b5-bcd5-621be7a87d7e")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "77f0a628-0df0-4459-8392-513f4b6b5cbc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9d7e30eb-5d25-4a65-b611-0e7bcd4a510c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_2")
-			(uuid "46235d26-b6a5-45cf-a4ce-0a9432f77f7a")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "1275d8f4-8ab8-4336-a3b2-4ed6694aedb9")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "7cbe3e11-2b8c-4708-8e27-187ea17aa798")
 		(at 15.71 23 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_5_0"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -7685,7 +7563,7 @@
 				)
 			)
 		)
-		(property "Value" "82k"
+		(property "Value" "56k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7800,6 +7678,17 @@
 				)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "0cb64087-44ca-4a4e-8100-d950617f0c44")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" smd roundrect
 			(at -0.95 0)
@@ -7834,7 +7723,7 @@
 		(layer "F.Cu")
 		(uuid "7dd6e1b6-2496-4a83-8da5-a8c71ef033a9")
 		(at 33.49 49 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_12_5"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -7847,7 +7736,7 @@
 				)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "300k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7913,9 +7802,89 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
+		(uuid "7fdaf393-349c-4ca9-997d-fd2a6589c2b1")
+		(at 52 90)
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R_BAL_2_5"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "ac48297a-1ddf-4892-9619-49f5c0a4306d")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Value" "28k"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c545bcf0-eb48-4743-9874-38cbcb416d29")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac2258ee-b2b7-4de3-8e85-5d702f7fb778")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2115415a-6197-48b4-a907-5c8c2b32e7da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "POS_L2_5")
+			(uuid "6af1711b-bd7e-42c2-ac44-f75d0f709da2")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "0e2a797f-16fe-4bbe-a45f-ce8709b3a1c8")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
 		(uuid "7ff5ac43-ea1e-4e8b-960d-ccf85829e439")
 		(at 74.32 21.19)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rf_L2_6"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -7996,7 +7965,7 @@
 		(layer "F.Cu")
 		(uuid "8033f0fd-7c45-4f8d-84ce-b4e298588c15")
 		(at 33.49 43.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_12_4"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -8009,7 +7978,7 @@
 				)
 			)
 		)
-		(property "Value" "680k"
+		(property "Value" "200k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8077,7 +8046,7 @@
 		(layer "F.Cu")
 		(uuid "81df16e2-da72-4936-b4e6-c021df75f511")
 		(at 33.49 69.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_12_9"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -8156,89 +8125,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "843f2a86-d6a7-4308-8be4-21ec556b26b1")
-		(at 88 90)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R_BAL_2_9"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "18274a30-9a1c-4d45-a2a8-d2c106101a99")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "34.8k"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "87776e38-7765-44ce-a8ee-d21ecb8c7b09")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ff331989-aae8-4319-949d-2df8585e480f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a911e9f3-36ce-4045-ac57-9fd124657996")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_9")
-			(uuid "c5597211-9042-4cdf-b96b-e6254d8cd5ac")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "466c0c3f-b90f-4801-9da1-ecaaf793c4e7")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "84582055-a164-47be-8243-f219dab1e55e")
 		(at 18.25 23 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_6_0"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -8251,7 +8140,7 @@
 				)
 			)
 		)
-		(property "Value" "300k"
+		(property "Value" "200k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8317,9 +8206,90 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
+		(uuid "8466a95d-b2bc-48b0-8d2d-39572d850c7a")
+		(at 30.95 54.2 90)
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R2_11_6"
+			(at 0 -1.5 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a8b84239-1d0b-4c68-a2b8-5e77c366eff1")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Value" "180k"
+			(at 0 1.5 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "895abb77-9659-4153-a3bf-8fc7b571292c")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "819e1c82-81c9-410e-bb3c-9ff076242814")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0062d769-3843-4c8d-b9c8-0b44d141b13a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "ACT_11")
+			(uuid "de7cacdb-7137-4cf4-996a-e7f41bd414b6")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "INV_L2_6")
+			(uuid "db02cb65-2f3c-4a4e-aee3-34777bb761b9")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
 		(uuid "846de55b-1baf-4c6a-b86e-074106263035")
 		(at 28.41 43.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_10_4"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -8332,7 +8302,7 @@
 				)
 			)
 		)
-		(property "Value" "110k"
+		(property "Value" "33k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8398,90 +8368,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "8512b886-349e-4f47-9434-12b821e23870")
-		(at 30.95 38.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_11_3"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d630739a-b15b-4bf8-9231-ffec9369ff36")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "330k"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cb4703ec-21d8-4749-8961-fecff9cf13e5")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b8af89f2-2df4-47ad-8b75-506fbf4c2771")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "78b405bf-59fc-4dbb-be94-c4d9645c0ec8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_11")
-			(uuid "23f7126b-21b3-49d3-b492-28db6f5a7117")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "INV_L2_3")
-			(uuid "56acfd78-cffd-405f-8285-e43953ccb40b")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "8594723b-d9ec-4b4b-bbe5-0e8f4fa4ca8e")
 		(at 25.87 28.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_9_1"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -8494,7 +8383,7 @@
 				)
 			)
 		)
-		(property "Value" "240k"
+		(property "Value" "91k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8562,7 +8451,7 @@
 		(layer "F.Cu")
 		(uuid "8685f3a2-8c51-4ddf-b96e-5e0e997aba78")
 		(at 8.09 54.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_2_6"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -8575,7 +8464,7 @@
 				)
 			)
 		)
-		(property "Value" "360k"
+		(property "Value" "430k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8643,7 +8532,7 @@
 		(layer "F.Cu")
 		(uuid "86bce85a-4932-44e4-be90-ef6aeafa223a")
 		(at 36.03 28.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_13_1"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -8656,7 +8545,7 @@
 				)
 			)
 		)
-		(property "Value" "300k"
+		(property "Value" "820k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8724,7 +8613,7 @@
 		(layer "F.Cu")
 		(uuid "86ee7008-dafc-4a6f-a61a-9ffce4269730")
 		(at 15.71 59.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_5_7"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -8737,7 +8626,7 @@
 				)
 			)
 		)
-		(property "Value" "820k"
+		(property "Value" "200k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8785,89 +8674,8 @@
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "POS_L2_7")
+			(net "INV_L2_7")
 			(uuid "878fbf3b-4142-40d1-b8ba-687e377cc8e8")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "876aed7e-6ae3-42c1-9757-ca87b6a79876")
-		(at 41.11 64.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_15_8"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6754af63-e22c-42e4-88e5-37d4cb7e534e")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "680k"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "adf5ba75-d7f6-430e-8d28-84b9e2589fac")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "185379a4-500b-46fb-bc49-335ec04b0e77")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cf339003-b804-45f5-841a-40af51977d83")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_15")
-			(uuid "8486201e-b6bc-4680-bfc8-f7af806f3ba7")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "INV_L2_8")
-			(uuid "45f75ff2-fe59-4b6d-899b-9862ac41128c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
@@ -8886,7 +8694,7 @@
 		(layer "F.Cu")
 		(uuid "8926631e-87a0-4efc-a2dd-a44ec450abb5")
 		(at 52.32 78.81)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rf_L2_5"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -8967,7 +8775,7 @@
 		(layer "F.Cu")
 		(uuid "8a4daad0-d471-4f5b-a433-537bee9cc919")
 		(at 23.33 38.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_8_3"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -8980,7 +8788,7 @@
 				)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "91k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9046,90 +8854,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "8ea739dc-d28d-49f8-8387-75b544ffcf41")
-		(at 36.03 33.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_13_2"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "564f1164-3757-4a9e-9276-e472783c796d")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "330k"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "06bb53ee-f840-4117-8809-3ccc8cbd201e")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fe71029b-e18b-4bd1-8211-83ee68f87e44")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "15ef14c7-2313-449a-a47d-bdcfa5b7b80e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_13")
-			(uuid "30b01c52-ddd7-4751-84c5-7d8103d4b869")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_2")
-			(uuid "4c9bb56f-48fa-4392-937b-3150de862525")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "8f74b60d-37e9-4877-b8c7-94e8f97cc17d")
 		(at 18.25 59.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_6_7"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -9142,7 +8869,7 @@
 				)
 			)
 		)
-		(property "Value" "390k"
+		(property "Value" "330k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9210,7 +8937,7 @@
 		(layer "F.Cu")
 		(uuid "8fa1459a-4651-47dc-830b-014dd065f9e9")
 		(at 52.32 71.19)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rf_L2_4"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -9291,7 +9018,7 @@
 		(layer "F.Cu")
 		(uuid "905652cf-2bf4-49f9-ae4a-f097a1818efc")
 		(at 23.33 59.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_8_7"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -9304,7 +9031,7 @@
 				)
 			)
 		)
-		(property "Value" "270k"
+		(property "Value" "330k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9372,7 +9099,7 @@
 		(layer "F.Cu")
 		(uuid "91848051-7900-42da-a48e-c6d2f826cef6")
 		(at 15.71 54.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_5_6"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -9385,7 +9112,7 @@
 				)
 			)
 		)
-		(property "Value" "130k"
+		(property "Value" "68k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9453,7 +9180,7 @@
 		(layer "F.Cu")
 		(uuid "9413a11f-80a7-4cf2-a9c8-8ac04c1722c1")
 		(at 30.95 49 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_11_5"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -9466,7 +9193,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "240k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9514,7 +9241,7 @@
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "POS_L2_5")
+			(net "INV_L2_5")
 			(uuid "095b628f-6e0a-4703-9882-b5d8190a3c09")
 		)
 		(embedded_fonts no)
@@ -9534,7 +9261,7 @@
 		(layer "F.Cu")
 		(uuid "977edd4a-4a89-4b9f-b4dc-0111f66949a4")
 		(at 3.01 28.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_0_1"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -9547,7 +9274,7 @@
 				)
 			)
 		)
-		(property "Value" "240k"
+		(property "Value" "100k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9615,7 +9342,7 @@
 		(layer "F.Cu")
 		(uuid "9a05f7f5-7934-435f-a390-5a50eef55b83")
 		(at 20.79 59.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_7_7"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -9628,7 +9355,7 @@
 				)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "150k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9694,169 +9421,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "9a819306-c034-4fe1-aab7-4a74da24dd39")
-		(at 70 90)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R_BAL_2_7"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "357c11d4-e74b-4fa9-ac1b-61112fad0cde")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "64.9k"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a9cd276-884c-469a-b152-a327cb24b254")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a14a7f2f-5478-4a4c-9395-8206bda82218")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b1303530-1caa-4890-9884-a89cf52c4875")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_7")
-			(uuid "c5ffda1c-9a90-4c7b-81ff-ffc86dc23bab")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "6538dfbf-aabb-422c-8b4a-e9502366ea8b")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "9dacae75-db12-4e14-a90f-98588f380d63")
-		(at 7 90)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R_BAL_2_0"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "f3479f62-d181-4a73-81cb-a5fa3436062d")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "23.2k"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1cf6878b-36c6-46c1-a251-1419c3364e12")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fd270404-da69-4cd4-be2e-b6d7886e5934")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c8a852b8-9dcf-4cad-92f3-acda37712739")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_0")
-			(uuid "84456541-764b-49a1-be08-f2cc65b28450")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "efc6a5eb-2751-406b-aa63-6025b368c2f6")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "9dec2dad-3961-4ae7-b522-7afce50225b5")
 		(at 47.32 52.54)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rb_L2_3"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -9869,7 +9436,7 @@
 				)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "160k"
 			(at 0 1.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9937,7 +9504,7 @@
 		(layer "F.Cu")
 		(uuid "a2d9c432-1419-478d-bda2-d8ed268785fc")
 		(at 13.17 54.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_4_6"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -9950,7 +9517,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "300k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10018,7 +9585,7 @@
 		(layer "F.Cu")
 		(uuid "a366c267-4b94-47b5-9478-b6ce69d1d7c9")
 		(at 28.41 28.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_10_1"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -10031,7 +9598,7 @@
 				)
 			)
 		)
-		(property "Value" "91k"
+		(property "Value" "68k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10099,7 +9666,7 @@
 		(layer "F.Cu")
 		(uuid "a37d9742-cb75-4253-8564-6cc756c5f521")
 		(at 25.87 54.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_9_6"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -10112,7 +9679,7 @@
 				)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "620k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10180,7 +9747,7 @@
 		(layer "F.Cu")
 		(uuid "a3bc6953-532c-44c6-9941-b7ff4a8ee735")
 		(at 23.33 33.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_8_2"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -10193,7 +9760,7 @@
 				)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "200k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10261,7 +9828,7 @@
 		(layer "F.Cu")
 		(uuid "a5ef4460-0247-4509-8252-9e301c867496")
 		(at 52.32 46.19)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rf_L2_2"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -10342,7 +9909,7 @@
 		(layer "F.Cu")
 		(uuid "a768f77d-8b5d-4d33-8c1b-808381136800")
 		(at 13.17 43.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_4_4"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -10355,7 +9922,7 @@
 				)
 			)
 		)
-		(property "Value" "160k"
+		(property "Value" "120k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10421,90 +9988,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "a8abf5a4-044e-44c6-b3a2-8ec7fa08790a")
-		(at 5.55 64.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_1_8"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "853cc1ee-e639-4aeb-81ca-16c23d59fc57")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "150k"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c42ed266-3bbf-4d00-8a44-9da6b6dde989")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f9cfdab-78bb-42e1-8d87-9edd5a68a7a5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f4a8249b-e8df-4e33-ac6d-acf9187c9e6c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_1")
-			(uuid "cf457d8b-6037-4ca8-9646-8fa2fbf2e3a4")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "INV_L2_8")
-			(uuid "8d6dfbc2-08f9-44b1-b1c9-225d6b14a404")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "a9027f3f-c94b-40ef-a72a-7a8c4196ad03")
 		(at 74.32 53.81)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rf_L2_9"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -10585,7 +10071,7 @@
 		(layer "F.Cu")
 		(uuid "aa4feae7-9921-4fea-8fe1-ac0023ad3e92")
 		(at 20.79 49 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_7_5"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -10598,7 +10084,7 @@
 				)
 			)
 		)
-		(property "Value" "110k"
+		(property "Value" "68k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10666,7 +10152,7 @@
 		(layer "F.Cu")
 		(uuid "aaf75564-4ec3-4ffb-a06e-849886e3bac5")
 		(at 52.32 28.81)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rf_L2_1"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -10747,7 +10233,7 @@
 		(layer "F.Cu")
 		(uuid "ac331e70-4a97-41ed-984b-69849211c1da")
 		(at 18.25 49 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_6_5"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -10760,7 +10246,7 @@
 				)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "100k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10828,7 +10314,7 @@
 		(layer "F.Cu")
 		(uuid "afdc7f2d-05d7-4466-9eca-9034147bc893")
 		(at 28.41 49 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_10_5"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -10841,7 +10327,7 @@
 				)
 			)
 		)
-		(property "Value" "430k"
+		(property "Value" "220k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10907,14 +10393,13 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "b2d0ee6e-639c-423a-ab4a-6f76cb195435")
-		(at 18.25 64.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_6_8"
-			(at 0 -1.5 90)
+		(uuid "b174bb48-f065-4bfe-8b92-557e91a229ae")
+		(at 79 90)
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R_BAL_2_8"
+			(at 0 -2 0)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "10b0e30e-1e65-4a7a-b351-fc14083bb8f2")
+			(uuid "a3146c5d-0f37-4bd3-92f8-0e7257f28f3d")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -10922,11 +10407,11 @@
 				)
 			)
 		)
-		(property "Value" "620k"
-			(at 0 1.5 90)
+		(property "Value" "21k"
+			(at 0 1.5 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6fa9092-6153-402f-97e2-8cfb5c59fddd")
+			(uuid "356a21bb-8adf-4b51-9d3f-d5438e1ecfbc")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -10935,10 +10420,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "274ac30d-8dc2-4832-abf7-52d6c826580e")
+			(uuid "38610b5e-0dd4-41b0-a691-dbcbc14fddcd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10946,10 +10431,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99aa54ca-e5dd-4896-8bfb-34334dee0651")
+			(uuid "84cc4b0e-9113-45c7-b1cd-9d62acb5b42d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10962,16 +10447,16 @@
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "ACT_6")
-			(uuid "225399e6-4ece-4629-bee1-b2ae34a98d0d")
+			(net "POS_L2_8")
+			(uuid "3fb03904-19a4-40fc-aa19-e0f46d06e5f1")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0)
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "INV_L2_8")
-			(uuid "8691b9cc-67ab-4257-b208-b75f2a388d5c")
+			(net "GND")
+			(uuid "754ce4fd-96d7-434a-9323-d347087696df")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
@@ -10990,7 +10475,7 @@
 		(layer "F.Cu")
 		(uuid "b63191c0-2dfe-43da-8813-999334f30a21")
 		(at 13.17 33.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_4_2"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -11003,7 +10488,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "680k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11118,6 +10603,17 @@
 				)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "fe7cf90f-a202-411a-b31e-6e1815bf71e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" smd roundrect
 			(at -0.95 0)
@@ -11152,7 +10648,7 @@
 		(layer "F.Cu")
 		(uuid "bafd0676-8a56-4dc5-8ee8-4ab2c06df359")
 		(at 33.49 33.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_12_2"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -11233,7 +10729,7 @@
 		(layer "F.Cu")
 		(uuid "bb29080d-318e-4ac7-a28d-4e9096b912cc")
 		(at 18.25 33.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_6_2"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -11246,7 +10742,7 @@
 				)
 			)
 		)
-		(property "Value" "160k"
+		(property "Value" "220k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11314,7 +10810,7 @@
 		(layer "F.Cu")
 		(uuid "bc1dd68d-1984-4a16-9c4d-d178c221f2fd")
 		(at 20.79 43.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_7_4"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -11327,7 +10823,7 @@
 				)
 			)
 		)
-		(property "Value" "180k"
+		(property "Value" "100k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11393,90 +10889,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "bd1fcd20-2f70-4745-bcab-eeaccbb920d0")
-		(at 30.95 59.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_11_7"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a9ab757a-f490-4d53-8abb-a27bb4ba7a6f")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "330k"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7e599a13-7306-4cf7-ae27-fe06219a4e10")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "797a3ca8-ab3d-494a-af8b-b502986eb4a5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6a419994-fbd4-412c-b8ab-53b37ffc85e7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_11")
-			(uuid "31c505b3-c439-4a01-b286-af05903e2754")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_7")
-			(uuid "32c6aa4a-3333-4f85-873b-9a79b092248d")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "c33b2169-758f-459d-83c3-ce50a0882f51")
 		(at 23.33 54.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_8_6"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -11489,7 +10904,7 @@
 				)
 			)
 		)
-		(property "Value" "430k"
+		(property "Value" "270k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11557,7 +10972,7 @@
 		(layer "F.Cu")
 		(uuid "c5a61c7d-0c49-4984-a409-05f0b908671b")
 		(at 3.01 33.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_0_2"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -11570,7 +10985,7 @@
 				)
 			)
 		)
-		(property "Value" "430k"
+		(property "Value" "1.6M"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11618,89 +11033,8 @@
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "POS_L2_2")
+			(net "INV_L2_2")
 			(uuid "de57084b-8126-4754-b169-692703982f8a")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "c68854a3-a9b1-4a8d-a02f-27871e041ac4")
-		(at 5.55 54.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_1_6"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "64580aa4-ca15-440c-b9f9-1138146323b8")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "240k"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1d1012a4-5624-4429-bb43-d1cd22bb6ed8")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "43a0b7f0-9909-4fc9-9264-c66dfbbf0ed1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55d18168-ad1c-4766-85e2-9635329c1ad1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_1")
-			(uuid "51fca5f1-04c9-43b5-941a-5e2d90ff3a3f")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "INV_L2_6")
-			(uuid "13fed48e-83bb-4b2a-a768-cd95add06ce1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
@@ -11719,7 +11053,7 @@
 		(layer "F.Cu")
 		(uuid "c741fef7-c275-4574-abb6-983ad3d68d53")
 		(at 10.63 43.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_3_4"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -11732,7 +11066,7 @@
 				)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "130k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11798,90 +11132,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "c804f243-6cb0-4175-8b25-b4adb1b1b027")
-		(at 41.11 69.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_15_9"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0dd3eb72-bf2a-46d7-8227-9d613b0fb3cf")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "1M"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1fb977a8-f5cc-4a2b-8ed1-b3482089a4d8")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5fb6a4da-d14f-4878-98e2-f84540edf7be")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "32be9411-2b1a-4358-ac30-46095c9f9088")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_15")
-			(uuid "01365b89-87f8-4e33-a19a-19993f52f44f")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "INV_L2_9")
-			(uuid "79e6f2eb-bcd7-42f2-8614-596bfb00c0e4")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "c8a95960-e85d-4ef7-a04c-856197602479")
 		(at 47.32 27.54)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rb_L2_1"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -11894,7 +11147,7 @@
 				)
 			)
 		)
-		(property "Value" "180k"
+		(property "Value" "160k"
 			(at 0 1.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11962,7 +11215,7 @@
 		(layer "F.Cu")
 		(uuid "c96b90d8-32c9-435e-81b3-10858c46c8c9")
 		(at 30.95 43.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_11_4"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -11975,7 +11228,7 @@
 				)
 			)
 		)
-		(property "Value" "430k"
+		(property "Value" "180k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12043,7 +11296,7 @@
 		(layer "F.Cu")
 		(uuid "caf65dfb-f325-4748-90c4-b8754ee524f2")
 		(at 23.33 43.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_8_4"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -12056,7 +11309,7 @@
 				)
 			)
 		)
-		(property "Value" "1.8M"
+		(property "Value" "620k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12124,7 +11377,7 @@
 		(layer "F.Cu")
 		(uuid "cafcb4b5-0377-43c0-9a2b-a3a472412a09")
 		(at 74.32 46.19)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "Rf_L2_8"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -12203,9 +11456,89 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
+		(uuid "ced32ec9-79ec-482e-9d8b-edef36eb17a1")
+		(at 34 90)
+		(descr "Physical differential model; tolerance 0.01; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
+		(property "Reference" "R_BAL_2_3"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "9ff87894-9900-4fb5-aad4-6e93187f406f")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Value" "61.9k"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "392b532f-b086-4972-8d00-08fc67dc79d5")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.08)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7eaf8fe9-edbf-407f-8c7b-93da6a3761d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0eab314-cc1d-4851-8f84-7ccf49cb4349")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "POS_L2_3")
+			(uuid "1def5d8d-fb09-4a5d-b1c7-4ac6f2a907dd")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "e521aef8-75bd-4cb4-a834-acf0b2d72c76")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
 		(uuid "cf4060a8-deb5-420d-8520-88fdf644ee61")
 		(at 36.03 43.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_13_4"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -12218,7 +11551,7 @@
 				)
 			)
 		)
-		(property "Value" "390k"
+		(property "Value" "150k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12284,89 +11617,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "d00c9fe9-5def-4f6d-8529-6f66ea916ca1")
-		(at 34 90)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R_BAL_2_3"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "0c50a3b4-e3c1-4a5d-ab1f-d3106c0d5bd5")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "51.1k"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23842fe0-e4d4-4e67-8777-3e1614f65491")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "275a87ff-f575-4be0-9404-e1e6419944a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9c35cd7b-b2b8-4915-9073-04a8b78f93bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_3")
-			(uuid "389917c7-6280-43b8-8eed-86dcf1c67c1a")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "d553cea2-792a-4ae5-a2d8-4cd24d9881b5")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "d057a712-bbc6-4893-ace8-f8d3bfff6051")
 		(at 13.17 69.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_4_9"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -12379,7 +11632,7 @@
 				)
 			)
 		)
-		(property "Value" "300k"
+		(property "Value" "430k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12447,7 +11700,7 @@
 		(layer "F.Cu")
 		(uuid "d15a0a11-39bb-4496-be55-20968fa25e42")
 		(at 10.63 69.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_3_9"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -12460,7 +11713,7 @@
 				)
 			)
 		)
-		(property "Value" "240k"
+		(property "Value" "130k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12526,90 +11779,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "d8c1d550-6256-4c09-9818-90e0995e26cf")
-		(at 41.11 43.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_15_4"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4e0d8180-614c-4c7a-9cf0-780a9d11764a")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "510k"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8fb61dd0-675b-4738-8e4f-a218ea252bfa")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c2179597-fc98-4d6b-81b1-77e06b94ec9e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b09607f6-c57c-48c4-8f3e-64d452a1eb54")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_15")
-			(uuid "06758483-0d32-47f2-a922-9d510b83903a")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_4")
-			(uuid "d4c69229-1ea7-4e76-9008-23cb8224f59a")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "d9974376-5d2a-41b3-956b-c8dc18d46cf6")
 		(at 13.17 23 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_4_0"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -12622,7 +11794,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2M"
+		(property "Value" "1M"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12670,7 +11842,7 @@
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "POS_L2_0")
+			(net "INV_L2_0")
 			(uuid "07156164-e95b-4508-b58b-e5659e2dbf0f")
 		)
 		(embedded_fonts no)
@@ -12690,7 +11862,7 @@
 		(layer "F.Cu")
 		(uuid "d9a5add0-3e04-41df-91de-2041fa21db04")
 		(at 8.09 49 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_2_5"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -12771,7 +11943,7 @@
 		(layer "F.Cu")
 		(uuid "da66a088-c5e3-492a-baea-57275a6932ea")
 		(at 25.87 49 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_9_5"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -12784,7 +11956,7 @@
 				)
 			)
 		)
-		(property "Value" "820k"
+		(property "Value" "1M"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12832,7 +12004,7 @@
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "INV_L2_5")
+			(net "POS_L2_5")
 			(uuid "bc2dfe75-ea91-4c39-842d-1aed8e54d342")
 		)
 		(embedded_fonts no)
@@ -12852,7 +12024,7 @@
 		(layer "F.Cu")
 		(uuid "da7964d6-45bb-4979-8427-62428a14f95a")
 		(at 20.79 33.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_7_2"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -12865,7 +12037,7 @@
 				)
 			)
 		)
-		(property "Value" "160k"
+		(property "Value" "68k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12931,90 +12103,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "dbe9ddfc-c275-486f-80fc-37bb7f26de2f")
-		(at 5.55 59.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_1_7"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e94575ca-d1f2-4ce4-9529-a00ba32aea2c")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "180k"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a77b1983-dc9f-4e7b-bfe6-c7057de3baef")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "21afcf36-46cd-46db-a7a6-26b978ef4d1e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "db4c5ad8-d4e2-4d74-abbe-b3df16e8edb1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_1")
-			(uuid "bb7e9807-c3bf-43bd-8c9a-596c6bc110d8")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_7")
-			(uuid "0f2e4f24-29c2-4b11-af11-ca2c0d11f6bc")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "dcdc5fbc-5501-4ea2-982d-51f3e0482780")
 		(at 28.41 38.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_10_3"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -13027,7 +12118,7 @@
 				)
 			)
 		)
-		(property "Value" "430k"
+		(property "Value" "240k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13095,7 +12186,7 @@
 		(layer "F.Cu")
 		(uuid "ddf9a3b1-c356-4362-9dbb-8c8f2e501219")
 		(at 10.63 49 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_3_5"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -13108,7 +12199,7 @@
 				)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "470k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13174,89 +12265,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "df45acc5-30d3-40b4-a1fa-35616f9b0e19")
-		(at 79 90)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R_BAL_2_8"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "d2fac299-26ce-43f3-a335-a3db782e9a55")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "30.1k"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23cd1bfe-59c0-46a5-b9f0-f43add8ab667")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a7c24f71-40fa-4201-8528-4f1ef0695934")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "37a9e6cb-5b53-49f6-aa0d-e924b60b9dee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_8")
-			(uuid "a2a4d97c-42b9-470b-b7e1-c395235d4229")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "fe96f5df-3e93-4b54-bb4f-e70679cc9291")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "df523798-5cdc-4a7e-9218-c69afbf6747e")
 		(at 33.49 38.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_12_3"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -13269,7 +12280,7 @@
 				)
 			)
 		)
-		(property "Value" "750k"
+		(property "Value" "390k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13337,7 +12348,7 @@
 		(layer "F.Cu")
 		(uuid "e0630ff1-3859-40f7-8f7c-65acdb3a7cfe")
 		(at 8.09 28.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_2_1"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -13350,7 +12361,7 @@
 				)
 			)
 		)
-		(property "Value" "91k"
+		(property "Value" "51k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13418,7 +12429,7 @@
 		(layer "F.Cu")
 		(uuid "e1c4d5bf-6226-426e-b927-00db8ad068d2")
 		(at 20.79 54.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_7_6"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -13431,7 +12442,7 @@
 				)
 			)
 		)
-		(property "Value" "1.3M"
+		(property "Value" "220k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13499,7 +12510,7 @@
 		(layer "F.Cu")
 		(uuid "e324ae2d-7dd6-4d5f-beda-3cfd5db4eea7")
 		(at 33.49 59.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_12_7"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -13512,7 +12523,7 @@
 				)
 			)
 		)
-		(property "Value" "82k"
+		(property "Value" "43k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13580,7 +12591,7 @@
 		(layer "F.Cu")
 		(uuid "e4826e1e-088a-4b73-8123-c61b9a004de2")
 		(at 13.17 28.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_4_1"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -13593,7 +12604,7 @@
 				)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "120k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13661,7 +12672,7 @@
 		(layer "F.Cu")
 		(uuid "e59ddd15-a0b3-4b3f-b578-82c139867926")
 		(at 10.63 38.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_3_3"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -13674,7 +12685,7 @@
 				)
 			)
 		)
-		(property "Value" "1.8M"
+		(property "Value" "360k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13742,7 +12753,7 @@
 		(layer "F.Cu")
 		(uuid "e881c8f9-30e0-48cd-92e1-8b85d70b0589")
 		(at 13.17 38.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_4_3"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -13755,7 +12766,7 @@
 				)
 			)
 		)
-		(property "Value" "3.6M"
+		(property "Value" "750k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13823,7 +12834,7 @@
 		(layer "F.Cu")
 		(uuid "e9f03c67-4085-4276-90bf-163c33f066e1")
 		(at 38.57 43.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_14_4"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -13836,7 +12847,7 @@
 				)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "130k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13904,7 +12915,7 @@
 		(layer "F.Cu")
 		(uuid "ea472c06-9160-443f-a745-571e28ff1456")
 		(at 36.03 23 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_13_0"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -13917,7 +12928,7 @@
 				)
 			)
 		)
-		(property "Value" "750k"
+		(property "Value" "220k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13985,7 +12996,7 @@
 		(layer "F.Cu")
 		(uuid "ed7c8cf9-7ae5-4161-8c34-7b9caa50ab15")
 		(at 38.57 28.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_14_1"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -13998,7 +13009,7 @@
 				)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "100k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14064,89 +13075,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "efb84c33-ea28-4506-a553-082c8ea99687")
-		(at 52 90)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R_BAL_2_5"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "165a4202-fa0b-410e-9da5-f9d043a3f130")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "47.5k"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "49aac79e-743b-4b8d-a449-6536934bfde6")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c32ec3fc-eca8-41f7-9b56-03e207a02734")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bc110b01-5a1e-4ed8-952d-284123f35704")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_5")
-			(uuid "e9a6cfe4-84e5-402e-85c5-69b1cb6003ae")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "39af56bb-86b7-4295-a73b-a69fc30925d3")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "f0c5f51f-c733-48b0-bbfc-eb2ddb480ea8")
 		(at 28.41 59.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_10_7"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -14159,7 +13090,7 @@
 				)
 			)
 		)
-		(property "Value" "390k"
+		(property "Value" "180k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14227,7 +13158,7 @@
 		(layer "F.Cu")
 		(uuid "f28facaf-92a5-4eb4-a029-a86056a3a844")
 		(at 38.57 33.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_14_2"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -14306,332 +13237,9 @@
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
-		(uuid "f3b22b73-90a1-4e20-84b2-65bb571cece3")
-		(at 30.95 64.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_11_8"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "99a225b6-f707-415f-9c48-30903d9e681b")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "1.6M"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f1e41f1f-6ea1-4ec6-bd9f-d7493600088e")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "077ed86d-94eb-4083-9a24-e747fea491b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a0161eac-57ab-48f6-bcf4-c3aac97c138c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_11")
-			(uuid "cf36afca-90f4-44f8-a117-6bcb1ec76ff1")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "INV_L2_8")
-			(uuid "156a8715-5cd7-44b5-9bae-4ac7df00d8e9")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "f69081c5-883c-4ebc-bfc6-dfb096cb5a87")
-		(at 5.55 28.2 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_1_1"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "289da2fc-ec87-4ce8-a239-7f2e963fe073")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "1.5M"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fe1eb634-ff93-4ea7-aac1-f0ada20d3575")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f43f0af-7599-4702-b77a-ec986cb514e4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dce60e60-6a26-44aa-87c7-818a317b50ab")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_1")
-			(uuid "89887af8-9978-4553-9023-f8fbf5ba2236")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "INV_L2_1")
-			(uuid "4403f03c-8c7c-4dfa-b01c-f0fc1181fc2e")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "f74ddb4b-efd9-45cf-87ca-7e0959e7184b")
-		(at 79.32 47.46)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "Rb_L2_8"
-			(at 0 -1.5 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d1a584c2-3e28-4096-891b-84d8edd55113")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "6.8M"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a99c363c-2f8e-430f-8b05-89f01d758f17")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "78dd1583-504b-412f-8b9a-c10fa77fe8ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9ebe8a6b-1856-48a6-830a-d902f8b1cb45")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "+5V_REF")
-			(uuid "c0ec3ff6-1a7a-487d-9603-119fa41e1680")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_8")
-			(uuid "ce513965-28bb-401e-bf1e-9a2b887e1545")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "f774abca-0723-4b37-a74d-8ec8b7dddf82")
-		(at 16 90)
-		(descr "Physical differential model; tolerance 0.01; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R_BAL_2_1"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "0634bb65-ef56-4ec0-b9d0-d7fa1072291f")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "24.3k"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "75f0ad67-da96-4311-beca-60434b47169e")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fbbbcbeb-00ef-4eb3-b2ce-7dfd0e90604c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dfae15af-205d-4959-a3f9-0b345f336988")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "POS_L2_1")
-			(uuid "8dec2ce4-df18-497b-bce3-5a8a63b015e6")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "b46c5315-5c8e-4ddd-96c4-935031d70854")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
 		(uuid "f7a83b83-109e-4d65-9adc-a68c345e338a")
 		(at 5.55 69.8 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_1_9"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -14644,7 +13252,7 @@
 				)
 			)
 		)
-		(property "Value" "1.8M"
+		(property "Value" "180k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14692,7 +13300,7 @@
 			(size 1 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "POS_L2_9")
+			(net "INV_L2_9")
 			(uuid "a52f01dc-a3c4-4a73-b4f7-d8d3bb4f5063")
 		)
 		(embedded_fonts no)
@@ -14712,7 +13320,7 @@
 		(layer "F.Cu")
 		(uuid "f7e19d3e-27cf-4735-81fc-341686da124c")
 		(at 10.63 33.4 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_3_2"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -14725,7 +13333,7 @@
 				)
 			)
 		)
-		(property "Value" "160k"
+		(property "Value" "91k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15506,7 +14114,7 @@
 		(layer "F.Cu")
 		(uuid "f8ff244f-da7f-47e0-9879-9847a4d26a42")
 		(at 28.41 64.6 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_10_8"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -15519,7 +14127,7 @@
 				)
 			)
 		)
-		(property "Value" "470k"
+		(property "Value" "220k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15587,7 +14195,7 @@
 		(layer "F.Cu")
 		(uuid "fabd20ee-5d65-47fd-b820-71be1472f9b7")
 		(at 36.03 49 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_13_5"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -15600,7 +14208,7 @@
 				)
 			)
 		)
-		(property "Value" "750k"
+		(property "Value" "270k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15668,7 +14276,7 @@
 		(layer "F.Cu")
 		(uuid "fac11b1c-c181-412d-9052-0dfe52e906e8")
 		(at 15.71 49 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
+		(descr "Physical differential model; tolerance 0.05; model SHA256 2fb1276371682873bd59147d8e4a6b1f697d2c77f18f4b08f5e44be4eb6c3395")
 		(property "Reference" "R2_5_5"
 			(at 0 -1.5 90)
 			(layer "F.SilkS")
@@ -15681,7 +14289,7 @@
 				)
 			)
 		)
-		(property "Value" "240k"
+		(property "Value" "180k"
 			(at 0 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15731,87 +14339,6 @@
 			(roundrect_rratio 0.25)
 			(net "INV_L2_5")
 			(uuid "d1789684-8c2d-4aa1-9526-008ac8392c25")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "fc6be2ce-2112-410c-95c7-fdb7a03f1826")
-		(at 41.11 23 90)
-		(descr "Physical differential model; tolerance 0.05; model SHA256 d93abbf078b9d1bcfaba68062debedaabc4f53b17760d56e8856ef33bb61cd6f")
-		(property "Reference" "R2_15_0"
-			(at 0 -1.5 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "66f1a35a-bee2-4534-aa2c-b01ace2d114e")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Value" "360k"
-			(at 0 1.5 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0016c661-90fb-4958-bead-88cd47c37d21")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.08)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1732c29b-6a70-4f19-a53f-ebd70728bb38")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c8ff715b-334b-441b-ae67-35cf3c5fe2f1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "ACT_15")
-			(uuid "7d400419-af91-477a-b9d9-6fe5d01a753c")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "INV_L2_0")
-			(uuid "d70d15d9-71ec-45fe-ae1f-2b0a40e2c2fd")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
