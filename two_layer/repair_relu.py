@@ -49,6 +49,7 @@ def build():
     for fp in board.GetFootprints():
         if fp.GetReference().startswith('C'):
             fp.SetField('Voltage Rating','50V')
+            fp.GetField('Voltage Rating').SetVisible(False)  # metadata only; reference-only silk
         for pad in fp.Pads():
             if pad.GetNetname() in ('+12V','-12V'):
                 pad.SetNet(net(board,pad.GetNetname().replace('12V','15V')))
