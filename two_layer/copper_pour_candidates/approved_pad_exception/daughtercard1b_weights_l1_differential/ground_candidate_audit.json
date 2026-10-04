@@ -1,0 +1,22 @@
+{
+  "errors": 0,
+  "opens": 0,
+  "warnings": 199,
+  "categories": {
+    "lib_footprint_issues": 199
+  },
+  "source_sha256": "3b720c292a842a584e030a6b8fb21fb373600280836980374d3699b85cc24151",
+  "final_sha256": "ab7b12434ce39144f09a3e04060e33f5af32dd37bac72266271951a89a8c1fd9",
+  "source_unchanged": true,
+  "footprint_identity_sha256": "ae6366b84ae848180d148eb28d4a514b4f2d0f41c4210632f92c55db61840189",
+  "footprint_identity_unchanged": true,
+  "old_zone_count": 0,
+  "final_zone_count": 2,
+  "accepted_stitch_positions_mm": [
+    [
+      24.9625,
+      24.9625
+    ]
+  ],
+  "release_authorized": false
+}

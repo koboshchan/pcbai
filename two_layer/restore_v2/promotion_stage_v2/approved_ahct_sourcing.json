@@ -1,0 +1,35 @@
+{
+  "manufacturer": "Diodes Incorporated",
+  "mpn": "74AHCT595S16-13",
+  "lcsc": "C126402",
+  "footprint": "SOIC-16_3.9x9.9mm_P1.27mm",
+  "references": [
+    "U1",
+    "U2",
+    "U3",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8"
+  ],
+  "assembly": "MANUAL_TOP",
+  "dnp": false,
+  "manual": true,
+  "observed_LCSC_stock": 410,
+  "observed_JLC_stock": 413,
+  "observed_JLC_orderable": 405,
+  "checked_date_UTC": "2026-10-04",
+  "category": "Extended",
+  "sources": [
+    "https://www.lcsc.com/product-detail/C126402.html",
+    "https://jlcpcb.com/partdetail/DiodesIncorporated-74AHCT595S1613/C126402",
+    "https://www.diodes.com/datasheet/download/74AHCT595.pdf"
+  ],
+  "saved_CAD_field_update": "APPLIED_TO_UUID_ANCHORED_RESTORED_BOARD",
+  "final_CPL": "DEFERRED_UNTIL_FINAL_ROUTED_BOARD",
+  "historical_model": "preserved unchanged; Nexperia-based AHCT electrical assumptions are not a newly measured Diodes qualification",
+  "fabrication_ready": false,
+  "jlc_assembly_excluded": true,
+  "assembly_exclusion_reason": "Lucas purchases and solders all eight top C126402 AHCTs; motherboard JLC Economic assembles bottom SMD only"
+}

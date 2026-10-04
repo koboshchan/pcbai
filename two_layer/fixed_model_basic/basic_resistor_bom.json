@@ -1,0 +1,443 @@
+[
+  {
+    "ohms": 0.0,
+    "lcsc": "C17477",
+    "library": "Basic",
+    "stock": 6839637,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F0000T5E",
+    "attributes": {
+      "Resistance": "0\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1800ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17477",
+    "checked_utc": "2026-10-04T14:13:50.083272+00:00",
+    "quantity": 1
+  },
+  {
+    "ohms": 680.0,
+    "lcsc": "C17798",
+    "library": "Basic",
+    "stock": 1351912,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F6800T5E",
+    "attributes": {
+      "Resistance": "680\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17798",
+    "checked_utc": "2026-10-04T14:13:53.476572+00:00",
+    "quantity": 1
+  },
+  {
+    "ohms": 1000.0,
+    "lcsc": "C17513",
+    "library": "Basic",
+    "stock": 31080080,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F1001T5E",
+    "attributes": {
+      "Resistance": "1k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17513",
+    "checked_utc": "2026-10-04T14:13:52.323803+00:00",
+    "quantity": 10
+  },
+  {
+    "ohms": 10000.0,
+    "lcsc": "C17414",
+    "library": "Basic",
+    "stock": 60202366,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F1002T5E",
+    "attributes": {
+      "Resistance": "10k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17414",
+    "checked_utc": "2026-10-04T14:13:49.762773+00:00",
+    "quantity": 96
+  },
+  {
+    "ohms": 12000.0,
+    "lcsc": "C17444",
+    "library": "Basic",
+    "stock": 325901,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F1202T5E",
+    "attributes": {
+      "Resistance": "12k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17444",
+    "checked_utc": "2026-10-04T14:13:49.768767+00:00",
+    "quantity": 5
+  },
+  {
+    "ohms": 15000.0,
+    "lcsc": "C17475",
+    "library": "Basic",
+    "stock": 724862,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F1502T5E",
+    "attributes": {
+      "Resistance": "15k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17475",
+    "checked_utc": "2026-10-04T14:13:50.118951+00:00",
+    "quantity": 7
+  },
+  {
+    "ohms": 20000.0,
+    "lcsc": "C4328",
+    "library": "Basic",
+    "stock": 2456021,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F2002T5E",
+    "attributes": {
+      "Resistance": "20k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C4328",
+    "checked_utc": "2026-10-04T14:13:49.440069+00:00",
+    "quantity": 4
+  },
+  {
+    "ohms": 22000.0,
+    "lcsc": "C17560",
+    "library": "Basic",
+    "stock": 1735671,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F2202T5E",
+    "attributes": {
+      "Resistance": "22k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17560",
+    "checked_utc": "2026-10-04T14:13:51.483875+00:00",
+    "quantity": 22
+  },
+  {
+    "ohms": 24000.0,
+    "lcsc": "C17575",
+    "library": "Basic",
+    "stock": 455744,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F2402T5E",
+    "attributes": {
+      "Resistance": "24k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17575",
+    "checked_utc": "2026-10-04T14:13:51.510242+00:00",
+    "quantity": 4
+  },
+  {
+    "ohms": 27000.0,
+    "lcsc": "C17593",
+    "library": "Basic",
+    "stock": 176329,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F2702T5E",
+    "attributes": {
+      "Resistance": "27k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17593",
+    "checked_utc": "2026-10-04T14:13:51.750965+00:00",
+    "quantity": 4
+  },
+  {
+    "ohms": 30000.0,
+    "lcsc": "C17621",
+    "library": "Basic",
+    "stock": 887314,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F3002T5E",
+    "attributes": {
+      "Resistance": "30k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17621",
+    "checked_utc": "2026-10-04T14:13:52.145526+00:00",
+    "quantity": 6
+  },
+  {
+    "ohms": 33000.0,
+    "lcsc": "C17633",
+    "library": "Basic",
+    "stock": 475429,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F3302T5E",
+    "attributes": {
+      "Resistance": "33k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17633",
+    "checked_utc": "2026-10-04T14:13:52.452146+00:00",
+    "quantity": 13
+  },
+  {
+    "ohms": 47000.0,
+    "lcsc": "C17713",
+    "library": "Basic",
+    "stock": 1820626,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F4702T5E",
+    "attributes": {
+      "Resistance": "47k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17713",
+    "checked_utc": "2026-10-04T14:13:52.962709+00:00",
+    "quantity": 26
+  },
+  {
+    "ohms": 51000.0,
+    "lcsc": "C17737",
+    "library": "Basic",
+    "stock": 834754,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F5102T5E",
+    "attributes": {
+      "Resistance": "51k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17737",
+    "checked_utc": "2026-10-04T14:13:53.314592+00:00",
+    "quantity": 22
+  },
+  {
+    "ohms": 68000.0,
+    "lcsc": "C17801",
+    "library": "Basic",
+    "stock": 299743,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F6802T5E",
+    "attributes": {
+      "Resistance": "68k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17801",
+    "checked_utc": "2026-10-04T14:13:53.633832+00:00",
+    "quantity": 46
+  },
+  {
+    "ohms": 100000.0,
+    "lcsc": "C149504",
+    "library": "Basic",
+    "stock": 4197295,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F1003T5E",
+    "attributes": {
+      "Resistance": "100k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C149504",
+    "checked_utc": "2026-10-04T14:13:53.974252+00:00",
+    "quantity": 108
+  },
+  {
+    "ohms": 150000.0,
+    "lcsc": "C17470",
+    "library": "Basic",
+    "stock": 1013143,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F1503T5E",
+    "attributes": {
+      "Resistance": "150k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17470",
+    "checked_utc": "2026-10-04T14:13:49.787244+00:00",
+    "quantity": 112
+  },
+  {
+    "ohms": 200000.0,
+    "lcsc": "C17539",
+    "library": "Basic",
+    "stock": 669119,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F2003T5E",
+    "attributes": {
+      "Resistance": "200k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17539",
+    "checked_utc": "2026-10-04T14:13:50.839194+00:00",
+    "quantity": 80
+  },
+  {
+    "ohms": 220000.0,
+    "lcsc": "C17556",
+    "library": "Basic",
+    "stock": 257920,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F2203T5E",
+    "attributes": {
+      "Resistance": "220k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17556",
+    "checked_utc": "2026-10-04T14:13:51.134246+00:00",
+    "quantity": 81
+  },
+  {
+    "ohms": 470000.0,
+    "lcsc": "C17709",
+    "library": "Basic",
+    "stock": 407434,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F4703T5E",
+    "attributes": {
+      "Resistance": "470k\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17709",
+    "checked_utc": "2026-10-04T14:13:52.790180+00:00",
+    "quantity": 239
+  },
+  {
+    "ohms": 1000000.0,
+    "lcsc": "C17514",
+    "library": "Basic",
+    "stock": 2415205,
+    "tolerance": "\u00b11%",
+    "package": "0805",
+    "model": "0805W8F1004T5E",
+    "attributes": {
+      "Resistance": "1M\u03a9",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Power(Watts)": "125mW",
+      "Type": "Thick Film Resistor",
+      "Voltage-Supply(Max)": "150V",
+      "Tolerance": "\u00b11%",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103"
+    },
+    "url": "https://jlcpcb.com/partdetail/C17514",
+    "checked_utc": "2026-10-04T14:13:52.297309+00:00",
+    "quantity": 147
+  }
+]

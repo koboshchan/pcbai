@@ -1,0 +1,1381 @@
+{
+  "schema": 1,
+  "board": "motherboard_adc_repaired",
+  "old_to_new": {
+    "C_BULK_N": "CBN",
+    "C_BULK_P": "CBP",
+    "C_PWM_0": "CP0",
+    "C_PWM_1": "CP1",
+    "C_PWM_10": "CP10",
+    "C_PWM_11": "CP11",
+    "C_PWM_12": "CP12",
+    "C_PWM_13": "CP13",
+    "C_PWM_14": "CP14",
+    "C_PWM_15": "CP15",
+    "C_PWM_16": "CP16",
+    "C_PWM_17": "CP17",
+    "C_PWM_18": "CP18",
+    "C_PWM_19": "CP19",
+    "C_PWM_2": "CP2",
+    "C_PWM_20": "CP20",
+    "C_PWM_21": "CP21",
+    "C_PWM_22": "CP22",
+    "C_PWM_23": "CP23",
+    "C_PWM_24": "CP24",
+    "C_PWM_25": "CP25",
+    "C_PWM_26": "CP26",
+    "C_PWM_27": "CP27",
+    "C_PWM_28": "CP28",
+    "C_PWM_29": "CP29",
+    "C_PWM_3": "CP3",
+    "C_PWM_30": "CP30",
+    "C_PWM_31": "CP31",
+    "C_PWM_32": "CP32",
+    "C_PWM_33": "CP33",
+    "C_PWM_34": "CP34",
+    "C_PWM_35": "CP35",
+    "C_PWM_36": "CP36",
+    "C_PWM_37": "CP37",
+    "C_PWM_38": "CP38",
+    "C_PWM_39": "CP39",
+    "C_PWM_4": "CP4",
+    "C_PWM_40": "CP40",
+    "C_PWM_41": "CP41",
+    "C_PWM_42": "CP42",
+    "C_PWM_43": "CP43",
+    "C_PWM_44": "CP44",
+    "C_PWM_45": "CP45",
+    "C_PWM_46": "CP46",
+    "C_PWM_47": "CP47",
+    "C_PWM_48": "CP48",
+    "C_PWM_49": "CP49",
+    "C_PWM_5": "CP5",
+    "C_PWM_50": "CP50",
+    "C_PWM_51": "CP51",
+    "C_PWM_52": "CP52",
+    "C_PWM_53": "CP53",
+    "C_PWM_54": "CP54",
+    "C_PWM_55": "CP55",
+    "C_PWM_56": "CP56",
+    "C_PWM_57": "CP57",
+    "C_PWM_58": "CP58",
+    "C_PWM_59": "CP59",
+    "C_PWM_6": "CP6",
+    "C_PWM_60": "CP60",
+    "C_PWM_61": "CP61",
+    "C_PWM_62": "CP62",
+    "C_PWM_63": "CP63",
+    "C_PWM_7": "CP7",
+    "C_PWM_8": "CP8",
+    "C_PWM_9": "CP9",
+    "C_RAIL_N": "CRN",
+    "C_RAIL_P": "CRP",
+    "C_REG_BULK": "CRB",
+    "C_REG_IN": "CRI",
+    "C_REG_OUT": "CRO",
+    "C_SR1": "C1",
+    "C_SR2": "C2",
+    "C_SR3": "C3",
+    "C_SR4": "C4",
+    "C_SR5": "C5",
+    "C_SR6": "C6",
+    "C_SR7": "C7",
+    "C_SR8": "C8",
+    "D_HI_0": "DH0",
+    "D_HI_1": "DH1",
+    "D_HI_2": "DH2",
+    "D_HI_3": "DH3",
+    "D_HI_4": "DH4",
+    "D_HI_5": "DH5",
+    "D_HI_6": "DH6",
+    "D_HI_7": "DH7",
+    "D_HI_8": "DH8",
+    "D_HI_9": "DH9",
+    "D_LO_0": "DL0",
+    "D_LO_1": "DL1",
+    "D_LO_2": "DL2",
+    "D_LO_3": "DL3",
+    "D_LO_4": "DL4",
+    "D_LO_5": "DL5",
+    "D_LO_6": "DL6",
+    "D_LO_7": "DL7",
+    "D_LO_8": "DL8",
+    "D_LO_9": "DL9",
+    "H1": "H1",
+    "H2": "H2",
+    "H3": "H3",
+    "H4": "H4",
+    "J_ADC_REF": "JAR",
+    "J_MCU_SCORES": "JAD",
+    "J_MCU_SPI": "JSPI",
+    "J_PWR_IN": "JP",
+    "J_SLOT0": "JS0",
+    "J_SLOT1": "JS1",
+    "J_SLOT2": "JS2",
+    "J_SLOT3": "JS3",
+    "J_SLOT4": "JS4",
+    "J_SLOT5": "JS5",
+    "R_ADC_0": "RA0",
+    "R_ADC_1": "RA1",
+    "R_ADC_2": "RA2",
+    "R_ADC_3": "RA3",
+    "R_ADC_4": "RA4",
+    "R_ADC_5": "RA5",
+    "R_ADC_6": "RA6",
+    "R_ADC_7": "RA7",
+    "R_ADC_8": "RA8",
+    "R_ADC_9": "RA9",
+    "R_BOT_0": "RB0",
+    "R_BOT_1": "RB1",
+    "R_BOT_2": "RB2",
+    "R_BOT_3": "RB3",
+    "R_BOT_4": "RB4",
+    "R_BOT_5": "RB5",
+    "R_BOT_6": "RB6",
+    "R_BOT_7": "RB7",
+    "R_BOT_8": "RB8",
+    "R_BOT_9": "RB9",
+    "R_PWM_0": "RP0",
+    "R_PWM_1": "RP1",
+    "R_PWM_10": "RP10",
+    "R_PWM_11": "RP11",
+    "R_PWM_12": "RP12",
+    "R_PWM_13": "RP13",
+    "R_PWM_14": "RP14",
+    "R_PWM_15": "RP15",
+    "R_PWM_16": "RP16",
+    "R_PWM_17": "RP17",
+    "R_PWM_18": "RP18",
+    "R_PWM_19": "RP19",
+    "R_PWM_2": "RP2",
+    "R_PWM_20": "RP20",
+    "R_PWM_21": "RP21",
+    "R_PWM_22": "RP22",
+    "R_PWM_23": "RP23",
+    "R_PWM_24": "RP24",
+    "R_PWM_25": "RP25",
+    "R_PWM_26": "RP26",
+    "R_PWM_27": "RP27",
+    "R_PWM_28": "RP28",
+    "R_PWM_29": "RP29",
+    "R_PWM_3": "RP3",
+    "R_PWM_30": "RP30",
+    "R_PWM_31": "RP31",
+    "R_PWM_32": "RP32",
+    "R_PWM_33": "RP33",
+    "R_PWM_34": "RP34",
+    "R_PWM_35": "RP35",
+    "R_PWM_36": "RP36",
+    "R_PWM_37": "RP37",
+    "R_PWM_38": "RP38",
+    "R_PWM_39": "RP39",
+    "R_PWM_4": "RP4",
+    "R_PWM_40": "RP40",
+    "R_PWM_41": "RP41",
+    "R_PWM_42": "RP42",
+    "R_PWM_43": "RP43",
+    "R_PWM_44": "RP44",
+    "R_PWM_45": "RP45",
+    "R_PWM_46": "RP46",
+    "R_PWM_47": "RP47",
+    "R_PWM_48": "RP48",
+    "R_PWM_49": "RP49",
+    "R_PWM_5": "RP5",
+    "R_PWM_50": "RP50",
+    "R_PWM_51": "RP51",
+    "R_PWM_52": "RP52",
+    "R_PWM_53": "RP53",
+    "R_PWM_54": "RP54",
+    "R_PWM_55": "RP55",
+    "R_PWM_56": "RP56",
+    "R_PWM_57": "RP57",
+    "R_PWM_58": "RP58",
+    "R_PWM_59": "RP59",
+    "R_PWM_6": "RP6",
+    "R_PWM_60": "RP60",
+    "R_PWM_61": "RP61",
+    "R_PWM_62": "RP62",
+    "R_PWM_63": "RP63",
+    "R_PWM_7": "RP7",
+    "R_PWM_8": "RP8",
+    "R_PWM_9": "RP9",
+    "R_REF_0": "RR0",
+    "R_REF_1": "RR1",
+    "R_REF_2": "RR2",
+    "R_REF_3": "RR3",
+    "R_REF_4": "RR4",
+    "R_REF_5": "RR5",
+    "R_REF_6": "RR6",
+    "R_REF_7": "RR7",
+    "R_REF_8": "RR8",
+    "R_REF_9": "RR9",
+    "R_REF_LINK": "RRL",
+    "R_REG_MINLOAD": "RM",
+    "R_TOP_0": "RT0",
+    "R_TOP_1": "RT1",
+    "R_TOP_2": "RT2",
+    "R_TOP_3": "RT3",
+    "R_TOP_4": "RT4",
+    "R_TOP_5": "RT5",
+    "R_TOP_6": "RT6",
+    "R_TOP_7": "RT7",
+    "R_TOP_8": "RT8",
+    "R_TOP_9": "RT9",
+    "U_REG5": "UR5",
+    "U_SR1": "U1",
+    "U_SR2": "U2",
+    "U_SR3": "U3",
+    "U_SR4": "U4",
+    "U_SR5": "U5",
+    "U_SR6": "U6",
+    "U_SR7": "U7",
+    "U_SR8": "U8"
+  },
+  "new_to_old": {
+    "CBN": "C_BULK_N",
+    "CBP": "C_BULK_P",
+    "CP0": "C_PWM_0",
+    "CP1": "C_PWM_1",
+    "CP10": "C_PWM_10",
+    "CP11": "C_PWM_11",
+    "CP12": "C_PWM_12",
+    "CP13": "C_PWM_13",
+    "CP14": "C_PWM_14",
+    "CP15": "C_PWM_15",
+    "CP16": "C_PWM_16",
+    "CP17": "C_PWM_17",
+    "CP18": "C_PWM_18",
+    "CP19": "C_PWM_19",
+    "CP2": "C_PWM_2",
+    "CP20": "C_PWM_20",
+    "CP21": "C_PWM_21",
+    "CP22": "C_PWM_22",
+    "CP23": "C_PWM_23",
+    "CP24": "C_PWM_24",
+    "CP25": "C_PWM_25",
+    "CP26": "C_PWM_26",
+    "CP27": "C_PWM_27",
+    "CP28": "C_PWM_28",
+    "CP29": "C_PWM_29",
+    "CP3": "C_PWM_3",
+    "CP30": "C_PWM_30",
+    "CP31": "C_PWM_31",
+    "CP32": "C_PWM_32",
+    "CP33": "C_PWM_33",
+    "CP34": "C_PWM_34",
+    "CP35": "C_PWM_35",
+    "CP36": "C_PWM_36",
+    "CP37": "C_PWM_37",
+    "CP38": "C_PWM_38",
+    "CP39": "C_PWM_39",
+    "CP4": "C_PWM_4",
+    "CP40": "C_PWM_40",
+    "CP41": "C_PWM_41",
+    "CP42": "C_PWM_42",
+    "CP43": "C_PWM_43",
+    "CP44": "C_PWM_44",
+    "CP45": "C_PWM_45",
+    "CP46": "C_PWM_46",
+    "CP47": "C_PWM_47",
+    "CP48": "C_PWM_48",
+    "CP49": "C_PWM_49",
+    "CP5": "C_PWM_5",
+    "CP50": "C_PWM_50",
+    "CP51": "C_PWM_51",
+    "CP52": "C_PWM_52",
+    "CP53": "C_PWM_53",
+    "CP54": "C_PWM_54",
+    "CP55": "C_PWM_55",
+    "CP56": "C_PWM_56",
+    "CP57": "C_PWM_57",
+    "CP58": "C_PWM_58",
+    "CP59": "C_PWM_59",
+    "CP6": "C_PWM_6",
+    "CP60": "C_PWM_60",
+    "CP61": "C_PWM_61",
+    "CP62": "C_PWM_62",
+    "CP63": "C_PWM_63",
+    "CP7": "C_PWM_7",
+    "CP8": "C_PWM_8",
+    "CP9": "C_PWM_9",
+    "CRN": "C_RAIL_N",
+    "CRP": "C_RAIL_P",
+    "CRB": "C_REG_BULK",
+    "CRI": "C_REG_IN",
+    "CRO": "C_REG_OUT",
+    "C1": "C_SR1",
+    "C2": "C_SR2",
+    "C3": "C_SR3",
+    "C4": "C_SR4",
+    "C5": "C_SR5",
+    "C6": "C_SR6",
+    "C7": "C_SR7",
+    "C8": "C_SR8",
+    "DH0": "D_HI_0",
+    "DH1": "D_HI_1",
+    "DH2": "D_HI_2",
+    "DH3": "D_HI_3",
+    "DH4": "D_HI_4",
+    "DH5": "D_HI_5",
+    "DH6": "D_HI_6",
+    "DH7": "D_HI_7",
+    "DH8": "D_HI_8",
+    "DH9": "D_HI_9",
+    "DL0": "D_LO_0",
+    "DL1": "D_LO_1",
+    "DL2": "D_LO_2",
+    "DL3": "D_LO_3",
+    "DL4": "D_LO_4",
+    "DL5": "D_LO_5",
+    "DL6": "D_LO_6",
+    "DL7": "D_LO_7",
+    "DL8": "D_LO_8",
+    "DL9": "D_LO_9",
+    "H1": "H1",
+    "H2": "H2",
+    "H3": "H3",
+    "H4": "H4",
+    "JAR": "J_ADC_REF",
+    "JAD": "J_MCU_SCORES",
+    "JSPI": "J_MCU_SPI",
+    "JP": "J_PWR_IN",
+    "JS0": "J_SLOT0",
+    "JS1": "J_SLOT1",
+    "JS2": "J_SLOT2",
+    "JS3": "J_SLOT3",
+    "JS4": "J_SLOT4",
+    "JS5": "J_SLOT5",
+    "RA0": "R_ADC_0",
+    "RA1": "R_ADC_1",
+    "RA2": "R_ADC_2",
+    "RA3": "R_ADC_3",
+    "RA4": "R_ADC_4",
+    "RA5": "R_ADC_5",
+    "RA6": "R_ADC_6",
+    "RA7": "R_ADC_7",
+    "RA8": "R_ADC_8",
+    "RA9": "R_ADC_9",
+    "RB0": "R_BOT_0",
+    "RB1": "R_BOT_1",
+    "RB2": "R_BOT_2",
+    "RB3": "R_BOT_3",
+    "RB4": "R_BOT_4",
+    "RB5": "R_BOT_5",
+    "RB6": "R_BOT_6",
+    "RB7": "R_BOT_7",
+    "RB8": "R_BOT_8",
+    "RB9": "R_BOT_9",
+    "RP0": "R_PWM_0",
+    "RP1": "R_PWM_1",
+    "RP10": "R_PWM_10",
+    "RP11": "R_PWM_11",
+    "RP12": "R_PWM_12",
+    "RP13": "R_PWM_13",
+    "RP14": "R_PWM_14",
+    "RP15": "R_PWM_15",
+    "RP16": "R_PWM_16",
+    "RP17": "R_PWM_17",
+    "RP18": "R_PWM_18",
+    "RP19": "R_PWM_19",
+    "RP2": "R_PWM_2",
+    "RP20": "R_PWM_20",
+    "RP21": "R_PWM_21",
+    "RP22": "R_PWM_22",
+    "RP23": "R_PWM_23",
+    "RP24": "R_PWM_24",
+    "RP25": "R_PWM_25",
+    "RP26": "R_PWM_26",
+    "RP27": "R_PWM_27",
+    "RP28": "R_PWM_28",
+    "RP29": "R_PWM_29",
+    "RP3": "R_PWM_3",
+    "RP30": "R_PWM_30",
+    "RP31": "R_PWM_31",
+    "RP32": "R_PWM_32",
+    "RP33": "R_PWM_33",
+    "RP34": "R_PWM_34",
+    "RP35": "R_PWM_35",
+    "RP36": "R_PWM_36",
+    "RP37": "R_PWM_37",
+    "RP38": "R_PWM_38",
+    "RP39": "R_PWM_39",
+    "RP4": "R_PWM_4",
+    "RP40": "R_PWM_40",
+    "RP41": "R_PWM_41",
+    "RP42": "R_PWM_42",
+    "RP43": "R_PWM_43",
+    "RP44": "R_PWM_44",
+    "RP45": "R_PWM_45",
+    "RP46": "R_PWM_46",
+    "RP47": "R_PWM_47",
+    "RP48": "R_PWM_48",
+    "RP49": "R_PWM_49",
+    "RP5": "R_PWM_5",
+    "RP50": "R_PWM_50",
+    "RP51": "R_PWM_51",
+    "RP52": "R_PWM_52",
+    "RP53": "R_PWM_53",
+    "RP54": "R_PWM_54",
+    "RP55": "R_PWM_55",
+    "RP56": "R_PWM_56",
+    "RP57": "R_PWM_57",
+    "RP58": "R_PWM_58",
+    "RP59": "R_PWM_59",
+    "RP6": "R_PWM_6",
+    "RP60": "R_PWM_60",
+    "RP61": "R_PWM_61",
+    "RP62": "R_PWM_62",
+    "RP63": "R_PWM_63",
+    "RP7": "R_PWM_7",
+    "RP8": "R_PWM_8",
+    "RP9": "R_PWM_9",
+    "RR0": "R_REF_0",
+    "RR1": "R_REF_1",
+    "RR2": "R_REF_2",
+    "RR3": "R_REF_3",
+    "RR4": "R_REF_4",
+    "RR5": "R_REF_5",
+    "RR6": "R_REF_6",
+    "RR7": "R_REF_7",
+    "RR8": "R_REF_8",
+    "RR9": "R_REF_9",
+    "RRL": "R_REF_LINK",
+    "RM": "R_REG_MINLOAD",
+    "RT0": "R_TOP_0",
+    "RT1": "R_TOP_1",
+    "RT2": "R_TOP_2",
+    "RT3": "R_TOP_3",
+    "RT4": "R_TOP_4",
+    "RT5": "R_TOP_5",
+    "RT6": "R_TOP_6",
+    "RT7": "R_TOP_7",
+    "RT8": "R_TOP_8",
+    "RT9": "R_TOP_9",
+    "UR5": "U_REG5",
+    "U1": "U_SR1",
+    "U2": "U_SR2",
+    "U3": "U_SR3",
+    "U4": "U_SR4",
+    "U5": "U_SR5",
+    "U6": "U_SR6",
+    "U7": "U_SR7",
+    "U8": "U_SR8"
+  },
+  "uuid_roles": {
+    "0511b84a-6c1c-4a05-aeb8-38353f1cbc68": {
+      "old": "D_HI_5",
+      "new": "DH5"
+    },
+    "05b407bb-0ac2-4c22-b38e-b30bee7f9427": {
+      "old": "R_REF_5",
+      "new": "RR5"
+    },
+    "0d8ced13-7153-43e3-a67f-dcef3ce7382b": {
+      "old": "D_LO_0",
+      "new": "DL0"
+    },
+    "11b44370-a259-485e-89f8-cf28fcd7aa1f": {
+      "old": "R_REF_2",
+      "new": "RR2"
+    },
+    "185b6b68-56b8-405d-ba35-67ad8bd32c48": {
+      "old": "D_LO_8",
+      "new": "DL8"
+    },
+    "1ed3e506-8b56-42c0-9815-e239ef07b020": {
+      "old": "R_BOT_4",
+      "new": "RB4"
+    },
+    "1ee96fc6-0eb8-4cdb-a3d6-65e7e11453a2": {
+      "old": "R_TOP_3",
+      "new": "RT3"
+    },
+    "202d8e80-f65c-4e67-a395-c2ed86fe987b": {
+      "old": "C_SR8",
+      "new": "C8"
+    },
+    "20f41195-80e0-48e8-86cb-a1048301e58b": {
+      "old": "R_REF_8",
+      "new": "RR8"
+    },
+    "2169f5f6-03f5-4537-a4f1-d03706f13160": {
+      "old": "D_HI_4",
+      "new": "DH4"
+    },
+    "21cd91cf-1f48-4c77-9443-fbdd61508fc9": {
+      "old": "R_ADC_4",
+      "new": "RA4"
+    },
+    "27f30bff-fb4f-4172-9d62-f0cdc966591e": {
+      "old": "R_ADC_2",
+      "new": "RA2"
+    },
+    "29b40303-58a8-4ac9-809e-a5410ea11b45": {
+      "old": "R_BOT_7",
+      "new": "RB7"
+    },
+    "2c9dbcdd-4233-4cfb-a09e-4ecb9eefcb38": {
+      "old": "R_TOP_9",
+      "new": "RT9"
+    },
+    "35897c7b-cdc0-4d07-bf00-853324f1f333": {
+      "old": "D_HI_0",
+      "new": "DH0"
+    },
+    "3756435c-84f7-486c-a8fa-689b7103e0a3": {
+      "old": "R_TOP_0",
+      "new": "RT0"
+    },
+    "3c0d0c2e-c4ad-4913-927a-620de8676396": {
+      "old": "D_HI_1",
+      "new": "DH1"
+    },
+    "3c976a9b-e67f-4f66-8949-4c1e30f969de": {
+      "old": "R_ADC_9",
+      "new": "RA9"
+    },
+    "3eeca483-c92c-4e57-8363-abae09fc9fad": {
+      "old": "R_TOP_5",
+      "new": "RT5"
+    },
+    "3f89ebf8-fe16-4d79-a13d-e5f1c3d5c475": {
+      "old": "R_ADC_1",
+      "new": "RA1"
+    },
+    "41144461-4a77-4322-a66a-17f0434cd529": {
+      "old": "R_REF_1",
+      "new": "RR1"
+    },
+    "444f65f9-6408-4bb8-842d-2da714513f60": {
+      "old": "R_ADC_6",
+      "new": "RA6"
+    },
+    "46195ea2-a3b2-4366-b8a0-d4968f78d90c": {
+      "old": "D_LO_5",
+      "new": "DL5"
+    },
+    "4806be25-5624-4468-9578-cd74ad89ae08": {
+      "old": "U_REG5",
+      "new": "UR5"
+    },
+    "4c5e5244-59b3-4038-9604-6a225839a615": {
+      "old": "J_MCU_SCORES",
+      "new": "JAD"
+    },
+    "4cceccab-1c94-4a1b-871c-9cd0a5cf53a5": {
+      "old": "H1",
+      "new": "H1"
+    },
+    "4d613e23-9aa6-4179-85de-27c56cc5c6bd": {
+      "old": "U_SR3",
+      "new": "U3"
+    },
+    "4e41889c-f1fa-48ec-a05e-fb84fc2dd220": {
+      "old": "R_ADC_7",
+      "new": "RA7"
+    },
+    "4feadb45-4637-440a-8f09-b67d008cf3d2": {
+      "old": "R_ADC_0",
+      "new": "RA0"
+    },
+    "53a77784-df6b-4042-9915-fd0ee2a48442": {
+      "old": "U_SR5",
+      "new": "U5"
+    },
+    "58433bab-e8be-49a9-b77d-59d843023543": {
+      "old": "D_LO_2",
+      "new": "DL2"
+    },
+    "5a8c4614-2380-4adf-99bf-a291dc22f792": {
+      "old": "D_HI_6",
+      "new": "DH6"
+    },
+    "5b3c5784-7f2c-489b-8455-af39e5ef603e": {
+      "old": "D_HI_7",
+      "new": "DH7"
+    },
+    "6256cb30-9e7e-4097-bc9e-fb3f6a5fc832": {
+      "old": "R_BOT_0",
+      "new": "RB0"
+    },
+    "6614ab6e-b46b-4b86-8de1-6be678150dcc": {
+      "old": "R_REF_6",
+      "new": "RR6"
+    },
+    "6a84cf8a-9062-46a1-8de6-9b82ab566c5a": {
+      "old": "D_HI_8",
+      "new": "DH8"
+    },
+    "6c71b9e9-c63d-4500-aa97-0d4e342c5980": {
+      "old": "D_LO_1",
+      "new": "DL1"
+    },
+    "6f7d81d7-7543-495e-b70b-af2676902199": {
+      "old": "H2",
+      "new": "H2"
+    },
+    "6fedcdce-67e2-44d0-ba4d-ce7debc9ad27": {
+      "old": "D_LO_4",
+      "new": "DL4"
+    },
+    "70c25b4e-8655-4b5a-ae3a-10962ed4efaf": {
+      "old": "R_REF_7",
+      "new": "RR7"
+    },
+    "72e3d753-003e-4a9d-a753-31fd818f593d": {
+      "old": "C_SR3",
+      "new": "C3"
+    },
+    "7569146d-1dbf-47c6-9f31-3a81392de719": {
+      "old": "U_SR4",
+      "new": "U4"
+    },
+    "7867e144-34e6-431f-a679-b553160bc8cf": {
+      "old": "J_ADC_REF",
+      "new": "JAR"
+    },
+    "7bfb7187-46bb-443d-905f-ab24096a1244": {
+      "old": "R_BOT_8",
+      "new": "RB8"
+    },
+    "81048cff-4207-4cbb-a4e7-e624e08f6d6a": {
+      "old": "J_SLOT0",
+      "new": "JS0"
+    },
+    "85ff53f5-afc1-41fc-b8f7-86f1bacab226": {
+      "old": "R_REF_4",
+      "new": "RR4"
+    },
+    "86bf9e3f-0117-4bde-8239-f88d79b2b0d3": {
+      "old": "J_SLOT1",
+      "new": "JS1"
+    },
+    "8805d30f-84ba-4cef-b682-1a2c4b4a7fde": {
+      "old": "H4",
+      "new": "H4"
+    },
+    "882b5653-c82d-4e51-b920-500758f5c16f": {
+      "old": "R_ADC_8",
+      "new": "RA8"
+    },
+    "885d5b08-8b57-4732-ad6b-e7a921856002": {
+      "old": "U_SR2",
+      "new": "U2"
+    },
+    "8bda1f58-60e2-46fa-b648-c02ae7e704a2": {
+      "old": "R_BOT_2",
+      "new": "RB2"
+    },
+    "8ee9c8ae-857c-4712-aa5e-c0f98d92216c": {
+      "old": "D_LO_3",
+      "new": "DL3"
+    },
+    "9834d1cf-6107-421a-a126-4797ce118ba2": {
+      "old": "U_SR1",
+      "new": "U1"
+    },
+    "9cf2e9e4-f2dc-4505-b1dc-f20ab9dc2bc8": {
+      "old": "C_SR7",
+      "new": "C7"
+    },
+    "a0554d25-0a62-4c1f-8ee3-bc89b171e746": {
+      "old": "R_TOP_2",
+      "new": "RT2"
+    },
+    "a08a8fad-186f-4053-8ad7-cf50df2b6e13": {
+      "old": "J_SLOT3",
+      "new": "JS3"
+    },
+    "a0dfb9b3-0e6e-42fa-b915-c92756a6dcac": {
+      "old": "R_TOP_8",
+      "new": "RT8"
+    },
+    "a2312229-eb66-471a-883a-1af83355da26": {
+      "old": "R_ADC_5",
+      "new": "RA5"
+    },
+    "a2813188-0026-4bea-83fe-22933d2ce1ba": {
+      "old": "R_TOP_7",
+      "new": "RT7"
+    },
+    "a3d2c754-b275-4069-93d0-7a0fa269a94c": {
+      "old": "D_LO_7",
+      "new": "DL7"
+    },
+    "a529b385-66dd-4d4d-8ccd-17f0483c6683": {
+      "old": "R_REF_3",
+      "new": "RR3"
+    },
+    "a870b05d-6c7e-43bf-b372-d4521a029789": {
+      "old": "J_SLOT2",
+      "new": "JS2"
+    },
+    "a9be72b9-f964-4a4c-bea8-c993661d896e": {
+      "old": "H3",
+      "new": "H3"
+    },
+    "ab86633f-989b-47ff-b4ef-885ddf098d36": {
+      "old": "R_BOT_6",
+      "new": "RB6"
+    },
+    "b18a42cd-7a7b-4bee-9ad9-a54f65945335": {
+      "old": "U_SR7",
+      "new": "U7"
+    },
+    "b1cac4b8-16e1-46c2-917a-aa64f97cce55": {
+      "old": "R_REF_0",
+      "new": "RR0"
+    },
+    "b4072ad0-4555-4dc8-b0f3-73d549c924f2": {
+      "old": "R_REF_9",
+      "new": "RR9"
+    },
+    "b712fa2d-cf0e-482e-9979-4187de934e49": {
+      "old": "R_BOT_5",
+      "new": "RB5"
+    },
+    "b73a9a50-2067-43be-b843-cd211d4978db": {
+      "old": "D_LO_6",
+      "new": "DL6"
+    },
+    "b9af9be8-1cbe-4baf-aec6-fdd7d62c475c": {
+      "old": "R_BOT_9",
+      "new": "RB9"
+    },
+    "c017b2d2-7597-4e6c-9ae0-8e6b0f5ff039": {
+      "old": "R_TOP_4",
+      "new": "RT4"
+    },
+    "c1b193eb-bb4d-4ff2-a874-1129ef392d88": {
+      "old": "C_SR1",
+      "new": "C1"
+    },
+    "c84ad1a6-ec1d-41d5-a9f7-d9bf4a2c3657": {
+      "old": "J_SLOT5",
+      "new": "JS5"
+    },
+    "cef130ba-c4fc-4b7c-b65a-71c4b6d14dd6": {
+      "old": "D_LO_9",
+      "new": "DL9"
+    },
+    "cf8a30e8-fea9-4506-8e33-808ed9fee087": {
+      "old": "U_SR8",
+      "new": "U8"
+    },
+    "d4da5888-26f6-49ee-ba2c-0b90b5f95e15": {
+      "old": "D_HI_3",
+      "new": "DH3"
+    },
+    "da22df93-b0c1-469f-aa8a-debbf67ca7d1": {
+      "old": "R_BOT_1",
+      "new": "RB1"
+    },
+    "da412ef5-f6cf-41e7-9853-b98e9b446574": {
+      "old": "J_PWR_IN",
+      "new": "JP"
+    },
+    "e3cbd30a-ea7a-4aab-8b03-2c3d183ed61e": {
+      "old": "C_SR6",
+      "new": "C6"
+    },
+    "e488e93e-0888-4e0f-aac9-502e2e3b5e06": {
+      "old": "C_SR5",
+      "new": "C5"
+    },
+    "e87609a8-2145-4a52-b64d-2b900f132a80": {
+      "old": "J_SLOT4",
+      "new": "JS4"
+    },
+    "eed40471-0bfa-46f8-a5a5-9c124a405d87": {
+      "old": "D_HI_2",
+      "new": "DH2"
+    },
+    "ef51fdaa-9172-4ac4-bcd5-6738f55a691a": {
+      "old": "C_SR4",
+      "new": "C4"
+    },
+    "f0e83b86-0f95-4f06-868f-50675c8f231f": {
+      "old": "U_SR6",
+      "new": "U6"
+    },
+    "f19a2257-dec8-4b44-8464-0adf7d146c71": {
+      "old": "D_HI_9",
+      "new": "DH9"
+    },
+    "f3a58b7c-434f-4304-aaf9-650a3acc2a4b": {
+      "old": "J_MCU_SPI",
+      "new": "JSPI"
+    },
+    "f474744b-61e3-46cb-a31d-ca343e95ce5a": {
+      "old": "R_ADC_3",
+      "new": "RA3"
+    },
+    "f51c95f7-00cf-4232-abc5-a57e8b43988a": {
+      "old": "C_SR2",
+      "new": "C2"
+    },
+    "f7b7f104-348a-46a6-b0ff-f9eaf8838cd6": {
+      "old": "R_BOT_3",
+      "new": "RB3"
+    },
+    "fa1c6575-738d-4ad2-87fa-c14803f38d45": {
+      "old": "R_TOP_1",
+      "new": "RT1"
+    },
+    "fd6efdd6-ef4b-490b-963a-42876785804f": {
+      "old": "R_TOP_6",
+      "new": "RT6"
+    },
+    "0021e429-4ce3-4d00-af99-8bd092792eaf": {
+      "old": "R_PWM_57",
+      "new": "RP57"
+    },
+    "021ef1f9-3bd9-450c-80d0-dd24916880d1": {
+      "old": "C_PWM_62",
+      "new": "CP62"
+    },
+    "0745ed28-e638-49dd-b321-bd0e98dae678": {
+      "old": "C_PWM_24",
+      "new": "CP24"
+    },
+    "0ca012ce-2f92-4bcc-8978-68e30e43b384": {
+      "old": "R_REG_MINLOAD",
+      "new": "RM"
+    },
+    "0da8033c-bf6d-4355-afa8-0bf9973f710e": {
+      "old": "C_PWM_19",
+      "new": "CP19"
+    },
+    "146edd95-a86e-475f-a55f-ee895fe685f8": {
+      "old": "R_PWM_54",
+      "new": "RP54"
+    },
+    "16d2d787-093a-4ecf-af30-fdfbd35f5194": {
+      "old": "R_REF_LINK",
+      "new": "RRL"
+    },
+    "16e04f05-1c04-484c-b724-b311f2b334c7": {
+      "old": "C_PWM_51",
+      "new": "CP51"
+    },
+    "172d0aeb-997c-42d7-bf5b-62bf2a2f7d58": {
+      "old": "C_PWM_42",
+      "new": "CP42"
+    },
+    "17488924-ed5e-4edf-b8a2-814d24ea3649": {
+      "old": "C_PWM_38",
+      "new": "CP38"
+    },
+    "1ed9271d-cee7-4ba3-a6ee-7f546fe5b14e": {
+      "old": "R_PWM_23",
+      "new": "RP23"
+    },
+    "22cd61a0-56b3-49ff-a41b-54fb97062e1c": {
+      "old": "C_PWM_50",
+      "new": "CP50"
+    },
+    "235704e7-2667-4706-8609-b031d8ebc3e8": {
+      "old": "R_PWM_13",
+      "new": "RP13"
+    },
+    "2380056b-60a0-4cde-a19d-bb1cff25ab0d": {
+      "old": "C_PWM_3",
+      "new": "CP3"
+    },
+    "249b8a7f-f4ac-4450-8f26-e68288ef68f8": {
+      "old": "C_PWM_52",
+      "new": "CP52"
+    },
+    "24de8eb0-d2c7-4648-b3eb-44e55872f052": {
+      "old": "C_PWM_18",
+      "new": "CP18"
+    },
+    "27177831-4ec2-4bfb-8fc1-bda06761bec0": {
+      "old": "C_PWM_46",
+      "new": "CP46"
+    },
+    "2a480cb7-b033-44de-85a3-9ffc6344c339": {
+      "old": "C_RAIL_P",
+      "new": "CRP"
+    },
+    "2a68d06e-f324-46ea-a3fc-bf437435eb02": {
+      "old": "R_PWM_17",
+      "new": "RP17"
+    },
+    "2bba7cfd-4b60-485c-ad23-8228a6f5f207": {
+      "old": "C_PWM_11",
+      "new": "CP11"
+    },
+    "2cbb3ce0-dd9a-4e8c-b97b-0ba576d62efc": {
+      "old": "R_PWM_31",
+      "new": "RP31"
+    },
+    "2d049dbd-1ae6-4cac-a00d-68f69ad0d428": {
+      "old": "R_PWM_53",
+      "new": "RP53"
+    },
+    "35c25d24-4014-4586-91c5-175f0246086e": {
+      "old": "R_PWM_22",
+      "new": "RP22"
+    },
+    "35c63cbc-0dd1-411e-8b35-3148b013c06c": {
+      "old": "C_PWM_53",
+      "new": "CP53"
+    },
+    "39810ee7-39ce-443b-bd02-da7a18f667f7": {
+      "old": "R_PWM_46",
+      "new": "RP46"
+    },
+    "3abbe47c-db9b-4390-ac62-d3bf4ca46c13": {
+      "old": "C_BULK_P",
+      "new": "CBP"
+    },
+    "3aed24e0-a59c-448f-9340-ffd9d2f33d3d": {
+      "old": "C_PWM_25",
+      "new": "CP25"
+    },
+    "3ba56c8f-84cb-414b-b421-790e0e6ae68b": {
+      "old": "C_PWM_22",
+      "new": "CP22"
+    },
+    "41101c62-9ce8-4872-80b4-847334d20b89": {
+      "old": "C_PWM_15",
+      "new": "CP15"
+    },
+    "41f248d0-2b90-4332-b1e1-2586de0bbcc7": {
+      "old": "R_PWM_52",
+      "new": "RP52"
+    },
+    "432b800b-4c29-4064-a3b4-4ce0403cf3f6": {
+      "old": "C_REG_IN",
+      "new": "CRI"
+    },
+    "45ce52e3-603a-42c3-9807-0e25ad0af3f3": {
+      "old": "C_PWM_58",
+      "new": "CP58"
+    },
+    "48afb94c-dea7-4b47-ae19-d80234c4fb4e": {
+      "old": "R_PWM_16",
+      "new": "RP16"
+    },
+    "4a297700-77cd-4cd3-ac97-8ee00814d0fb": {
+      "old": "R_PWM_21",
+      "new": "RP21"
+    },
+    "4cb4f1d4-0f25-431e-bc5e-855931ce34d9": {
+      "old": "C_PWM_21",
+      "new": "CP21"
+    },
+    "4d0720a7-a020-46e6-b063-060af062c4a9": {
+      "old": "R_PWM_9",
+      "new": "RP9"
+    },
+    "4d62b6e5-d5d9-4733-80dd-b180330204bd": {
+      "old": "R_PWM_37",
+      "new": "RP37"
+    },
+    "4e1d59a2-07f8-4951-a81e-2e1a67e4188e": {
+      "old": "C_PWM_54",
+      "new": "CP54"
+    },
+    "5311215f-ef40-40de-8b07-ac1dabcb1492": {
+      "old": "C_PWM_2",
+      "new": "CP2"
+    },
+    "535fa5cd-80fc-4e7a-b703-0071b7d56847": {
+      "old": "R_PWM_30",
+      "new": "RP30"
+    },
+    "5935e42c-4708-4aef-ac9d-cb4e0e9c78a8": {
+      "old": "R_PWM_3",
+      "new": "RP3"
+    },
+    "59aaaa4b-2f61-4912-b945-c0aa0d6d7b0e": {
+      "old": "C_PWM_55",
+      "new": "CP55"
+    },
+    "5bf4ff0d-a3b3-412d-a8bb-d7c218a0b125": {
+      "old": "R_PWM_8",
+      "new": "RP8"
+    },
+    "5ef03d44-eeb4-4e06-8349-b27d57ad2423": {
+      "old": "R_PWM_40",
+      "new": "RP40"
+    },
+    "5f2ae351-fbef-4bf6-9fdb-3c0bb0156ab8": {
+      "old": "R_PWM_59",
+      "new": "RP59"
+    },
+    "6055c6dd-157f-4524-9e0c-eca856140125": {
+      "old": "C_PWM_39",
+      "new": "CP39"
+    },
+    "632f732f-e3b1-46f7-8d2b-1d23aed0456e": {
+      "old": "R_PWM_19",
+      "new": "RP19"
+    },
+    "6362dac3-afbb-44cf-9477-6a7d7a258788": {
+      "old": "R_PWM_33",
+      "new": "RP33"
+    },
+    "6517e760-88f8-4091-bc4a-e6574c2c8a27": {
+      "old": "R_PWM_14",
+      "new": "RP14"
+    },
+    "655fc11b-b200-48de-b4cc-85fe3b9c76a3": {
+      "old": "C_PWM_56",
+      "new": "CP56"
+    },
+    "6572016f-4ba4-49fa-9366-7f76cc949f54": {
+      "old": "C_PWM_5",
+      "new": "CP5"
+    },
+    "6a0c0bfc-b94c-4fb6-95ed-1d1facf9dc38": {
+      "old": "R_PWM_58",
+      "new": "RP58"
+    },
+    "6d4b4a59-e7c8-41c0-966e-4ecd05a2f187": {
+      "old": "R_PWM_0",
+      "new": "RP0"
+    },
+    "6d4e410e-175b-42e0-a066-b20a0b1471b0": {
+      "old": "C_PWM_31",
+      "new": "CP31"
+    },
+    "6eca66b8-7acf-44d1-aefa-a379966a9ccb": {
+      "old": "C_PWM_13",
+      "new": "CP13"
+    },
+    "6f5b9198-2f22-415e-b547-b3fa57f0e1ce": {
+      "old": "R_PWM_12",
+      "new": "RP12"
+    },
+    "70741313-c4fa-4df4-aad8-c6c367131927": {
+      "old": "C_PWM_17",
+      "new": "CP17"
+    },
+    "719e2cb5-713c-4b04-922a-aa954044e034": {
+      "old": "R_PWM_2",
+      "new": "RP2"
+    },
+    "7446016e-e599-42eb-83a2-093ebcd511c7": {
+      "old": "R_PWM_28",
+      "new": "RP28"
+    },
+    "74eeb9cd-4e06-4c2b-87f9-16c5984ee148": {
+      "old": "C_PWM_4",
+      "new": "CP4"
+    },
+    "78c277a4-14b8-4ece-86cd-643129876d6f": {
+      "old": "C_PWM_45",
+      "new": "CP45"
+    },
+    "7bd08993-4e8f-4fc8-8c22-6d035f898716": {
+      "old": "R_PWM_35",
+      "new": "RP35"
+    },
+    "7f65c6db-c31f-42d3-8ce4-ce6260592927": {
+      "old": "R_PWM_6",
+      "new": "RP6"
+    },
+    "820a57e7-4276-4fab-aedb-9a657649b6f2": {
+      "old": "R_PWM_1",
+      "new": "RP1"
+    },
+    "8405fdef-e177-4ab3-8966-d3ffcff3bbe6": {
+      "old": "C_PWM_27",
+      "new": "CP27"
+    },
+    "851d16fc-d2e0-4f65-8bd5-02167f63fb18": {
+      "old": "C_PWM_30",
+      "new": "CP30"
+    },
+    "8545060e-2094-40cf-9f6d-edc507bb6876": {
+      "old": "C_PWM_63",
+      "new": "CP63"
+    },
+    "85e892b0-bef5-4f0d-9af5-701702665cdb": {
+      "old": "R_PWM_60",
+      "new": "RP60"
+    },
+    "8afca769-0c79-45a4-be0f-cc4a9ba34df8": {
+      "old": "R_PWM_10",
+      "new": "RP10"
+    },
+    "8d698b2f-1afe-4ae6-b4f4-a0a09f140e8e": {
+      "old": "C_PWM_29",
+      "new": "CP29"
+    },
+    "8e674614-66aa-46a7-b359-d09b80c90456": {
+      "old": "R_PWM_56",
+      "new": "RP56"
+    },
+    "92bd721d-166d-41be-974e-47f23083f3dc": {
+      "old": "R_PWM_49",
+      "new": "RP49"
+    },
+    "9373e2c1-a136-4556-8695-45de979b417d": {
+      "old": "C_PWM_49",
+      "new": "CP49"
+    },
+    "9479517d-a09f-4631-991b-9ac946a20ded": {
+      "old": "C_PWM_57",
+      "new": "CP57"
+    },
+    "9481844f-f2d4-41bc-8e04-f13c6aa0c39d": {
+      "old": "R_PWM_55",
+      "new": "RP55"
+    },
+    "976f47b6-fed6-4f8c-9610-bf986f1f816a": {
+      "old": "R_PWM_5",
+      "new": "RP5"
+    },
+    "9782b10b-6e4e-4694-8bde-02667ec76a22": {
+      "old": "C_PWM_35",
+      "new": "CP35"
+    },
+    "9cb7fece-5306-46c9-97cd-8e1be8289d1d": {
+      "old": "C_PWM_8",
+      "new": "CP8"
+    },
+    "9cf4692b-985d-44a5-aa75-1dadcc48075b": {
+      "old": "R_PWM_45",
+      "new": "RP45"
+    },
+    "9e35c55d-6b6c-415c-8328-5a78d30e5cd4": {
+      "old": "R_PWM_4",
+      "new": "RP4"
+    },
+    "9f72bec2-b00b-4773-9c71-1bc54068749a": {
+      "old": "C_RAIL_N",
+      "new": "CRN"
+    },
+    "a0689c3c-a08c-476a-a86b-7ac267fbf0bc": {
+      "old": "R_PWM_25",
+      "new": "RP25"
+    },
+    "a3a020c7-592b-43ab-b859-d50f921937d1": {
+      "old": "R_PWM_24",
+      "new": "RP24"
+    },
+    "a5384c2f-eb21-4dc2-ad3c-64d32e3ea00b": {
+      "old": "C_PWM_14",
+      "new": "CP14"
+    },
+    "a5b3fe7f-dcbf-4023-9197-c814d315d1fb": {
+      "old": "R_PWM_34",
+      "new": "RP34"
+    },
+    "a645021b-01a1-461a-afe3-a4a0d5a1be6e": {
+      "old": "R_PWM_63",
+      "new": "RP63"
+    },
+    "a8375c3a-1731-437d-b825-53ed5be84932": {
+      "old": "C_PWM_10",
+      "new": "CP10"
+    },
+    "a885d2d0-a3e3-403a-956a-094f0d7c3274": {
+      "old": "R_PWM_20",
+      "new": "RP20"
+    },
+    "a9e2d1e1-e484-4329-b668-c95a65b96c9f": {
+      "old": "C_REG_BULK",
+      "new": "CRB"
+    },
+    "aac04659-85e2-418d-90db-01f7ebd6aede": {
+      "old": "R_PWM_48",
+      "new": "RP48"
+    },
+    "aca9e506-dd6b-4a75-a2ea-a393a119f377": {
+      "old": "C_PWM_47",
+      "new": "CP47"
+    },
+    "af30f910-7220-40df-8ec6-b5e74d6a388f": {
+      "old": "C_PWM_34",
+      "new": "CP34"
+    },
+    "af9022a4-b0ca-44ac-b6a7-c80cd2aa1a66": {
+      "old": "C_PWM_43",
+      "new": "CP43"
+    },
+    "afb73ccf-ed30-40e6-960d-e65b6e45c03c": {
+      "old": "R_PWM_7",
+      "new": "RP7"
+    },
+    "b0042f2a-1286-4825-8d16-a92f605d0500": {
+      "old": "C_PWM_41",
+      "new": "CP41"
+    },
+    "b523aa35-dfb1-4341-8007-3fc3e138084d": {
+      "old": "C_PWM_20",
+      "new": "CP20"
+    },
+    "b5377e73-e634-4fdc-ac98-a4b6b2dc0511": {
+      "old": "R_PWM_44",
+      "new": "RP44"
+    },
+    "bb3d70f6-b58c-44b1-ad36-187e98b82b43": {
+      "old": "C_PWM_26",
+      "new": "CP26"
+    },
+    "bf21a82a-f9e6-4765-822f-11cc372b426f": {
+      "old": "R_PWM_36",
+      "new": "RP36"
+    },
+    "bf2b743e-8cbd-4abf-ba2c-2442afa5c89e": {
+      "old": "C_PWM_6",
+      "new": "CP6"
+    },
+    "c0a4e9f6-5f05-4b33-b7bc-37e6542d2bd3": {
+      "old": "R_PWM_29",
+      "new": "RP29"
+    },
+    "c199df7b-c89f-4e74-b7f7-f219b87df162": {
+      "old": "R_PWM_43",
+      "new": "RP43"
+    },
+    "c47ea13b-2d82-4227-8c60-563219fed90a": {
+      "old": "C_PWM_12",
+      "new": "CP12"
+    },
+    "c5b917f0-6a33-47db-83e4-5d5b471d414d": {
+      "old": "R_PWM_41",
+      "new": "RP41"
+    },
+    "c5f1a714-fe6d-48f7-bd48-571e61bf78e3": {
+      "old": "R_PWM_50",
+      "new": "RP50"
+    },
+    "c6373209-75a2-4dfd-b377-00245902c90f": {
+      "old": "R_PWM_15",
+      "new": "RP15"
+    },
+    "c72d3bf8-f266-419f-ad24-569c9cba60ff": {
+      "old": "C_PWM_28",
+      "new": "CP28"
+    },
+    "c78a1bff-d6d0-4229-ae35-dc9733d61009": {
+      "old": "C_PWM_36",
+      "new": "CP36"
+    },
+    "c8e43f9b-3bb8-492f-8978-d4db0c6f6bf0": {
+      "old": "C_PWM_40",
+      "new": "CP40"
+    },
+    "c946801d-484a-4aaa-b3e5-411039939943": {
+      "old": "R_PWM_32",
+      "new": "RP32"
+    },
+    "cbcb69d0-a0a7-4867-b36e-9df93c568fff": {
+      "old": "C_PWM_9",
+      "new": "CP9"
+    },
+    "ce3cde58-3098-4f38-99af-89cf1d818db0": {
+      "old": "R_PWM_38",
+      "new": "RP38"
+    },
+    "ce717701-f44e-493c-bedd-1ae3815e5145": {
+      "old": "R_PWM_18",
+      "new": "RP18"
+    },
+    "d19964b7-51ea-484a-89ad-ea4900c80aa2": {
+      "old": "R_PWM_47",
+      "new": "RP47"
+    },
+    "d2725550-cd62-4a4d-8618-c8d04d17f9f3": {
+      "old": "C_PWM_59",
+      "new": "CP59"
+    },
+    "d61f790e-c306-4b1d-a944-2909484d6675": {
+      "old": "C_PWM_33",
+      "new": "CP33"
+    },
+    "d7b74564-ffdd-4f88-90b3-2f47a89fcc24": {
+      "old": "C_PWM_32",
+      "new": "CP32"
+    },
+    "dab87c19-55f6-490b-8c3e-e26d7e061e89": {
+      "old": "C_PWM_0",
+      "new": "CP0"
+    },
+    "dafcc148-7abb-428e-8b76-c264cec81793": {
+      "old": "R_PWM_61",
+      "new": "RP61"
+    },
+    "dce08a06-b308-4c9b-b39a-b9ba5fc97c5e": {
+      "old": "C_PWM_16",
+      "new": "CP16"
+    },
+    "de71f642-9730-424b-8260-90f9b183b1a5": {
+      "old": "C_PWM_1",
+      "new": "CP1"
+    },
+    "e17a2a21-57bf-4fe8-a076-24347715feac": {
+      "old": "C_PWM_48",
+      "new": "CP48"
+    },
+    "e244595a-70f3-4dcf-99bb-293c7a7e5b96": {
+      "old": "R_PWM_11",
+      "new": "RP11"
+    },
+    "e26a5d3f-b284-44de-9d79-cec2f383c9c6": {
+      "old": "R_PWM_62",
+      "new": "RP62"
+    },
+    "e68930d2-8589-41cd-92b4-a954bddc1883": {
+      "old": "C_PWM_60",
+      "new": "CP60"
+    },
+    "e830145b-c84f-40b6-91f2-3ca4571345dc": {
+      "old": "C_PWM_37",
+      "new": "CP37"
+    },
+    "eb09d0c8-475f-429f-94fc-ff3b65694ae6": {
+      "old": "R_PWM_26",
+      "new": "RP26"
+    },
+    "ec579f7d-53fa-4922-82cc-44f91c414728": {
+      "old": "C_REG_OUT",
+      "new": "CRO"
+    },
+    "ed7ed4a8-dd7a-4c8e-af10-30153cb1b840": {
+      "old": "R_PWM_27",
+      "new": "RP27"
+    },
+    "ef8a48e5-83a2-458c-8e55-71fffba44d3c": {
+      "old": "C_PWM_23",
+      "new": "CP23"
+    },
+    "f0361788-5190-4310-bfdb-ab945c6d976a": {
+      "old": "C_PWM_44",
+      "new": "CP44"
+    },
+    "f046bf01-3c45-40c1-8965-d37f6739c4d8": {
+      "old": "C_PWM_7",
+      "new": "CP7"
+    },
+    "f338679e-0113-4861-ad7c-172826207e49": {
+      "old": "R_PWM_39",
+      "new": "RP39"
+    },
+    "f6f18d82-a1d3-452c-9c5e-0ceb00070173": {
+      "old": "R_PWM_51",
+      "new": "RP51"
+    },
+    "fbaca62a-94cd-496d-9146-50dec21a6f9a": {
+      "old": "C_PWM_61",
+      "new": "CP61"
+    },
+    "fd36f639-6036-46ec-bb85-c35dda538f62": {
+      "old": "R_PWM_42",
+      "new": "RP42"
+    },
+    "feb3c943-2bec-4dc3-aaa5-39aa0d67fe70": {
+      "old": "C_BULK_N",
+      "new": "CBN"
+    }
+  },
+  "complete_reference_count": 228,
+  "reference_only": true,
+  "physical_identity_sha256": "90916705514e74b1cad5ffe94f7b5ae5caff24d6aae3c492d9128cb561c14a3c"
+}

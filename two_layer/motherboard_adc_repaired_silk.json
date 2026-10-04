@@ -1,0 +1,13 @@
+{
+  "reference_count": 228,
+  "clean": true,
+  "violations": [],
+  "method": "Conservative text/pad axis-aligned bounding boxes, not a rendered glyph or solder-mask DRC.",
+  "limits_mm": {
+    "pad_clearance": 0.2,
+    "reference_clearance": 0.15,
+    "edge_clearance": 0.25,
+    "minimum_height": 0.8,
+    "stroke": 0.12
+  }
+}

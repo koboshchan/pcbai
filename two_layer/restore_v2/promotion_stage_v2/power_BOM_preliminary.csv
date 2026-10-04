@@ -1,0 +1,8 @@
+Comment,Designator,Footprint,LCSC Part #
+Diodes 74AHCT595S16-13 - approved MANUAL top-side sourcing/soldering by Lucas all8; excluded JLC bottom assembly,"U1,U2,U3,U4,U5,U6,U7,U8",SOIC-16_3.9x9.9mm_P1.27mm,C126402
+ST L7805CV - manual TH assembly; cooling optional recommended; clock limits require qualification,UR5,TO-220-3_Vertical,C111887
+1uF 50V X7R +/-10% Samsung CL21B105KBFNNNE - JLC Basic SMT practical input bypass,CRI,C_0805_2012Metric,C28323
+0.1uF 50V X7R - purchasing part pending,CRO,C_0805_2012Metric,
+10uF >=16V polarized - purchasing part pending,CRB,CP_Elec_5x5.8,
+0ohm mandatory shared5V reference link - purchasing part pending,RRL,R_0805_2012Metric,
+820ohm5% >=0.125W minimum load - purchasing part pending,RM,R_0805_2012Metric,
