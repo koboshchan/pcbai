@@ -24,7 +24,10 @@ lines+=['','An initial conservative test ceiling is 1MHz continuous, bare-packag
 audit['thermal_note']=lines[0]+' See THERMAL_CLOCK_LIMITS.md; reduced-clock accuracy unqualified.'
 audit['cooling_optional']=True;audit['coin_thermal_resistance']='UNKNOWN';audit['thermal_clock_limits']=report
 for entry in audit['thermal'].values():entry.pop('Tj_with_10C_W_sink_and_2C_W_interface_C',None)
-if (ROOT/'coin_clearance_audit.json').exists():audit['coin_clearance']=json.loads((ROOT/'coin_clearance_audit.json').read_text())
+if (ROOT/'coin_clearance_audit.json').exists():
+ coin=json.loads((ROOT/'coin_clearance_audit.json').read_text());audit['coin_clearance']=coin
+ audit['power_parts']['U_REG5']['xy']=[round(x*1e6) for x in coin['regulator_anchor_mm']]
+ audit['power_parts']['U_REG5']['angle']=coin['rotation_deg']
 audit['mechanical_routing_blocked']=False;audit['thermal_release_passed']=False;audit['fabrication_ready']=False
 p.write_text(json.dumps(audit,indent=2)+'\n')
 print(json.dumps(report,indent=2))
