@@ -1,6 +1,6 @@
 {
   "status": "grayscale6bit PWM physical10050ohm source, validation-selected",
-  "input": "64 binary 74HCT595D outputs, commanded 0 or5V;3.3V logic input",
+  "input": "64 grayscale6bit Nexperia74AHCT595D SO16 C554704 BCM PWM outputs with10k/1uF RC;3.3V logic input",
   "rf_ohms": 100000,
   "layer1": [
     {
@@ -6253,10 +6253,10 @@
   "buffer_output_model_ohms": 1,
   "input_source_model_ohms": 50,
   "limitations": [
-    "HCT595 source resistance model is assumed not measured, test 0/50/100ohm",
+    "AHCT595 source resistance model is assumed not measured, test 0/50/100ohm",
     "static ideal opamp nodal model with clipping, not SPICE transient validation",
     "rectifier raw output cannot drive mixed-sign L2 directly while off",
-    "no analog grayscale drive provided by original HCT595",
+    "no analog grayscale drive provided by original AHCT595",
     "no unique analog winner LED claim"
   ],
   "input_conditioning": {
@@ -6269,5 +6269,19 @@
     "swing_V": 13.5,
     "rectifier_max_V": 12.7,
     "architecture": "differential summers with16 ACT followers"
+  },
+  "shared_5V_rail": {
+    "source": "onboard L7805CV TO220 C111887, +15V to +5V linear regulator",
+    "range_V": [
+      4.75,
+      5.25
+    ],
+    "loads": [
+      "AHCT595 VCC/PWM high",
+      "all +5V_REF bias resistors in both layers"
+    ],
+    "sensitivity": "commonrail_sensitivity.json",
+    "nominal_driver_ohms_assumption": 50,
+    "not_hardware_qualification": true
   }
 }
