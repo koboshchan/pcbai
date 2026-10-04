@@ -18,20 +18,20 @@
   "negative_reference": "unsourced preserved unused bus",
   "thermal": {
     "normal_BCM": {
-      "clock_duty": 0.09215999999999999,
+      "clock_duty": 0.09523809523809523,
       "cpd_multiplier": 1,
-      "dynamic_A": 0.014708735999999998,
+      "dynamic_A": 0.015199999999999998,
       "TTL_extra_A": 0.0375,
       "static_A": 0.00064,
       "filters_A": 0.03536842105263158,
-      "serial_capacitance_A": 0.00193536,
+      "serial_capacitance_A": 0.002,
       "minimum_load_A": 0.006739409499358151,
-      "bias_bound_A": 0.0010906011120483767,
-      "Iout_A": 0.09798252766403812,
-      "P_reg_W": 1.2242828043044192,
-      "Tj_bare_TO220_C": 111.21414021522097,
-      "Tj_bare_D2PAK_C": 126.5176752690262,
-      "Tj_with_10C_W_sink_and_2C_W_interface_C": 70.81280767317513
+      "bias_bound_A": 0.001090601112048377,
+      "Iout_A": 0.09853843166403811,
+      "P_reg_W": 1.230397748304419,
+      "Tj_bare_TO220_C": 111.51988741522095,
+      "Tj_bare_D2PAK_C": 126.8998592690262,
+      "Tj_with_10C_W_sink_and_2C_W_interface_C": 70.91676172117512
     },
     "continuous_clock": {
       "clock_duty": 1,
@@ -263,5 +263,49 @@
   },
   "drc_error_count": 0,
   "unconnected_count": 499,
-  "fabrication_ready": false
+  "fabrication_ready": false,
+  "BCM_frame_hz": 4960.31746031746,
+  "AHCT_driver": {
+    "datasheet_revision": "9, 9 May 2025",
+    "VIH_min_V": 2.0,
+    "VIL_max_V": 0.8,
+    "VCC_operating_V": [
+      4.5,
+      5.5
+    ],
+    "input_transition_max_ns_per_V": 20,
+    "output_test_VCC_V": 4.5,
+    "output_test_current_mA": 8,
+    "VOH_min_85C_V": 3.8,
+    "VOL_max_85C_V": 0.44,
+    "VOH_min_125C_V": 3.7,
+    "VOL_max_125C_V": 0.55,
+    "filter_channel_bound_A": 0.0005526315789473684,
+    "filter_bank_8_bound_A": 0.004421052631578947,
+    "continuous_serial_50pF_10MHz_average_A": 0.002625,
+    "bank_outputs_plus_serial_average_A": 0.007046052631578948,
+    "absolute_output_mA_not_design_rating": 25,
+    "absolute_bank_supply_mA": 75,
+    "serial_next_input_max_pF": 10,
+    "serial_assumed_total_pF": 50,
+    "serial_DC_leakage_125C_uA": 2,
+    "CPD_typical_pF": 190,
+    "guaranteed_rail_tracking": false,
+    "qualification": "8mA test rows are characterization conditions, not 25mA design permission. 0.553mA/channel and 4.421mA/filter bank are below test current. 50pF serial load is an assumption requiring routed capacitance and edge/peak-current verification; average current does not bound transient peaks. No guaranteed intermediate-load rail droop or linear output resistance; model must cover VOH/VOL and common rail separately. 1.5mA TTL allowance is specified at VI=VCC-2.1V, not a guarantee for all input voltages."
+  },
+  "repaired_schematic_final_gate": "Missing current repaired schematic; root HC/HCT sheets obsolete and untouched",
+  "stock_checked": "2026-10-04; public LCSC pages, not JLC assembly inventory",
+  "selected_stock": {
+    "C554704": {
+      "MPN": "74AHCT595D,112",
+      "status": "Not available now / Out of Stock",
+      "quantity": 0
+    },
+    "C111887": {
+      "MPN": "L7805CV",
+      "status": "in stock",
+      "quantity": 25952
+    }
+  },
+  "preliminary_BOM": "power_BOM_preliminary.csv; not order-ready; unselected passive codes deliberately blank; heatsink SKU pending"
 }
