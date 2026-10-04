@@ -1,6 +1,6 @@
 # Active coordination
 
-User explicitly requests all KiCad DRC, FreeRouting, preparation and exports on kat-box, not locally. KiCad10 installation is running there. Root originals copied to /work/pcbai; remote outputs /work/pcbai/two_layer. Local /home/kit/pcbai/two_layer is synchronization and git commit destination. Forge owns conversion/routing. Generic audit owns audit_*; generic silk owns silk_* and must not edit boards concurrently. New scripts should be copied to kat-box and executed there.
+User explicitly requests all KiCad DRC, FreeRouting, preparation and exports on kat-box, not locally. KiCad 10.0.6 is installed and verified there. All seven routing jobs have resumed after Lucas corrected the temporary source hold; 76-pin straddle-header boards ARE current. Preserve electrical nets/values. ADC/sign repairs remain separately documented and not authorized by the latest direct instruction. Root originals copied to /work/pcbai; remote outputs /work/pcbai/two_layer. Local /home/kit/pcbai/two_layer is synchronization and git commit destination. Forge owns conversion/routing. Generic audit owns audit_*; generic silk owns silk_* and must not edit boards concurrently. New scripts should be copied to kat-box and executed there.
 
 Local KiCad10 installed before user relocation instruction. In 10.0.6 GetDesignSettings() returns unwrapped SwigPyObject, so edit JSON .kicad_pro instead; SetCopperLayerCount, footprint net APIs and ExportSpecctraDSN available.
 
