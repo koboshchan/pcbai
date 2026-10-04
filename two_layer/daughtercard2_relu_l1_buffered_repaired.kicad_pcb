@@ -135,6 +135,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "752d32b2-e906-42be-b3f9-d3b1d9db0409")
 			(effects
 				(font
@@ -227,6 +228,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "96c2098e-12ae-42d3-bbd3-24d56a0378fb")
 			(effects
 				(font
@@ -319,6 +321,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a4cb4b4f-a40e-41ef-b937-cba1c82b8651")
 			(effects
 				(font
@@ -659,6 +662,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c0e66fc2-022d-4350-be6e-f85782733d11")
 			(effects
 				(font
@@ -4258,6 +4262,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "35693d5a-4716-4124-99b9-f437c36ed1d3")
 			(effects
 				(font
@@ -5104,6 +5109,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "71662461-d546-45e5-a43d-b125c3f7b81f")
 			(effects
 				(font
@@ -5358,6 +5364,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "21bf84cb-1176-4aa8-a098-a1e7d14fe52d")
 			(effects
 				(font
@@ -5450,6 +5457,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "30c22a4e-6fa2-4147-a13b-ff03f233ca82")
 			(effects
 				(font
@@ -6440,6 +6448,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5a65828f-aded-4aaf-802d-9f773964b554")
 			(effects
 				(font
@@ -7678,6 +7687,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "98629a1c-6a71-44a3-8558-5f9a75b9efd7")
 			(effects
 				(font
@@ -8428,6 +8438,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1bd65aa2-d698-4411-9c82-586397103b2d")
 			(effects
 				(font
@@ -8763,6 +8774,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0841939e-91af-4577-8046-af0f15e64c14")
 			(effects
 				(font
@@ -11163,6 +11175,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3b6a887e-8221-44b3-9d83-a7c694f4aae4")
 			(effects
 				(font
@@ -12090,6 +12103,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e60c9acc-bb16-4954-afcd-735fc831da62")
 			(effects
 				(font
@@ -13017,6 +13031,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fccacfac-bcee-4f1e-b67c-56a393312450")
 			(effects
 				(font
@@ -13109,6 +13124,7 @@
 		(property "Voltage Rating" "50V"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f4eb3c3d-7e81-41d8-a50a-526368e9db4f")
 			(effects
 				(font
