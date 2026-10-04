@@ -70,6 +70,8 @@ def build(model):
                 fp.SetLibDescription(f"Physical differential model; tolerance {entry['tolerance']:g}; model SHA256 {modelhash}")
             # Unused amplifier units require unity feedback, not grounded outputs.
             for fp in board.GetFootprints():
+                if fp.GetReference().startswith('C'):
+                    properties=dict(fp.GetProperties());properties['Voltage Rating']='50V';fp.SetProperties(properties)
                 if fp.GetValue()=='TL074':
                     q={pad.GetNumber():pad.GetNetname() for pad in fp.Pads()}
                     for output,minus,plus in CHANNELS:
