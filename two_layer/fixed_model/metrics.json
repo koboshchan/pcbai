@@ -67,7 +67,9 @@
       0.7680872150644202
     ]
   },
-  "mc": {
+  "authoritative_mc_file": "cuda_mc.json",
+  "loading_diagnostic_file": "loading_cuda.json",
+  "mc_cpu_legacy": {
     "board_realizations": 200,
     "examples_each": 10000,
     "seed": 51005,

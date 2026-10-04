@@ -1,6 +1,6 @@
 {
   "status": "authoritative binary MNIST trained component model, metrics.json",
-  "input": "64 binary 74HC595 outputs, commanded 0 or 5V",
+  "input": "64 binary 74HCT595D outputs, commanded 0 or5V;3.3V logic input",
   "rf_ohms": 100000,
   "layer1": [
     {
@@ -7241,7 +7241,7 @@
       ]
     }
   ],
-  "rails": "+/-15V replacing net labels +/-12V only if supply confirmed; swing simulation +/-10V conservative",
+  "rails": "Confirmed +/-15V supply; conservative static modeled output clip +/-10V",
   "rectifier": {
     "rin_ohms": 10000,
     "rf_ohms": 10000,
@@ -7268,10 +7268,10 @@
   "buffer_output_model_ohms": 1,
   "input_source_model_ohms": 50,
   "limitations": [
-    "HC595 source resistance model is assumed not measured, test 0/50/100ohm",
+    "HCT595 source resistance model is assumed not measured, test 0/50/100ohm",
     "static ideal opamp nodal model with clipping, not SPICE transient validation",
     "rectifier raw output cannot drive mixed-sign L2 directly while off",
-    "no analog grayscale drive provided by original HC595",
+    "no analog grayscale drive provided by original HCT595",
     "no unique analog winner LED claim"
   ]
 }
