@@ -89,7 +89,11 @@ for iteration in range(10):
     z=item.GetEnd();points.append((p.ToMM(z.x),p.ToMM(z.y)))
    return [pt+(l,) for pt in points for l in layers]
   for extra in [0,.01]:
-   for a in ends(u):
+   candidates=ends(u)
+   for track in b.GetTracks():
+    if track.GetNetname()==net:candidates.extend(ends(track))
+   candidates=list(dict.fromkeys(candidates));target=ends(v)[0];candidates.sort(key=lambda q:math.hypot(q[0]-target[0],q[1]-target[1]))
+   for a in candidates[:32]:
     for c in ends(v):
      path=search(b,net,a,c,extra)
      if path is None:continue
