@@ -1,0 +1,368 @@
+{
+  "board": "motherboard_adc_repaired_unrouted.kicad_pcb",
+  "pad_net_audit_passed": true,
+  "slot_bus_and_positions_preserved": true,
+  "adc_preserved": true,
+  "filters": [
+    {
+      "pixel": 0,
+      "driver": "U_SR1",
+      "driver_pad": "15"
+    },
+    {
+      "pixel": 1,
+      "driver": "U_SR1",
+      "driver_pad": "1"
+    },
+    {
+      "pixel": 2,
+      "driver": "U_SR1",
+      "driver_pad": "2"
+    },
+    {
+      "pixel": 3,
+      "driver": "U_SR1",
+      "driver_pad": "3"
+    },
+    {
+      "pixel": 4,
+      "driver": "U_SR1",
+      "driver_pad": "4"
+    },
+    {
+      "pixel": 5,
+      "driver": "U_SR1",
+      "driver_pad": "5"
+    },
+    {
+      "pixel": 6,
+      "driver": "U_SR1",
+      "driver_pad": "6"
+    },
+    {
+      "pixel": 7,
+      "driver": "U_SR1",
+      "driver_pad": "7"
+    },
+    {
+      "pixel": 8,
+      "driver": "U_SR2",
+      "driver_pad": "15"
+    },
+    {
+      "pixel": 9,
+      "driver": "U_SR2",
+      "driver_pad": "1"
+    },
+    {
+      "pixel": 10,
+      "driver": "U_SR2",
+      "driver_pad": "2"
+    },
+    {
+      "pixel": 11,
+      "driver": "U_SR2",
+      "driver_pad": "3"
+    },
+    {
+      "pixel": 12,
+      "driver": "U_SR2",
+      "driver_pad": "4"
+    },
+    {
+      "pixel": 13,
+      "driver": "U_SR2",
+      "driver_pad": "5"
+    },
+    {
+      "pixel": 14,
+      "driver": "U_SR2",
+      "driver_pad": "6"
+    },
+    {
+      "pixel": 15,
+      "driver": "U_SR2",
+      "driver_pad": "7"
+    },
+    {
+      "pixel": 16,
+      "driver": "U_SR3",
+      "driver_pad": "15"
+    },
+    {
+      "pixel": 17,
+      "driver": "U_SR3",
+      "driver_pad": "1"
+    },
+    {
+      "pixel": 18,
+      "driver": "U_SR3",
+      "driver_pad": "2"
+    },
+    {
+      "pixel": 19,
+      "driver": "U_SR3",
+      "driver_pad": "3"
+    },
+    {
+      "pixel": 20,
+      "driver": "U_SR3",
+      "driver_pad": "4"
+    },
+    {
+      "pixel": 21,
+      "driver": "U_SR3",
+      "driver_pad": "5"
+    },
+    {
+      "pixel": 22,
+      "driver": "U_SR3",
+      "driver_pad": "6"
+    },
+    {
+      "pixel": 23,
+      "driver": "U_SR3",
+      "driver_pad": "7"
+    },
+    {
+      "pixel": 24,
+      "driver": "U_SR4",
+      "driver_pad": "15"
+    },
+    {
+      "pixel": 25,
+      "driver": "U_SR4",
+      "driver_pad": "1"
+    },
+    {
+      "pixel": 26,
+      "driver": "U_SR4",
+      "driver_pad": "2"
+    },
+    {
+      "pixel": 27,
+      "driver": "U_SR4",
+      "driver_pad": "3"
+    },
+    {
+      "pixel": 28,
+      "driver": "U_SR4",
+      "driver_pad": "4"
+    },
+    {
+      "pixel": 29,
+      "driver": "U_SR4",
+      "driver_pad": "5"
+    },
+    {
+      "pixel": 30,
+      "driver": "U_SR4",
+      "driver_pad": "6"
+    },
+    {
+      "pixel": 31,
+      "driver": "U_SR4",
+      "driver_pad": "7"
+    },
+    {
+      "pixel": 32,
+      "driver": "U_SR8",
+      "driver_pad": "15"
+    },
+    {
+      "pixel": 33,
+      "driver": "U_SR8",
+      "driver_pad": "1"
+    },
+    {
+      "pixel": 34,
+      "driver": "U_SR8",
+      "driver_pad": "2"
+    },
+    {
+      "pixel": 35,
+      "driver": "U_SR8",
+      "driver_pad": "3"
+    },
+    {
+      "pixel": 36,
+      "driver": "U_SR8",
+      "driver_pad": "4"
+    },
+    {
+      "pixel": 37,
+      "driver": "U_SR8",
+      "driver_pad": "5"
+    },
+    {
+      "pixel": 38,
+      "driver": "U_SR8",
+      "driver_pad": "6"
+    },
+    {
+      "pixel": 39,
+      "driver": "U_SR8",
+      "driver_pad": "7"
+    },
+    {
+      "pixel": 40,
+      "driver": "U_SR7",
+      "driver_pad": "15"
+    },
+    {
+      "pixel": 41,
+      "driver": "U_SR7",
+      "driver_pad": "1"
+    },
+    {
+      "pixel": 42,
+      "driver": "U_SR7",
+      "driver_pad": "2"
+    },
+    {
+      "pixel": 43,
+      "driver": "U_SR7",
+      "driver_pad": "3"
+    },
+    {
+      "pixel": 44,
+      "driver": "U_SR7",
+      "driver_pad": "4"
+    },
+    {
+      "pixel": 45,
+      "driver": "U_SR7",
+      "driver_pad": "5"
+    },
+    {
+      "pixel": 46,
+      "driver": "U_SR7",
+      "driver_pad": "6"
+    },
+    {
+      "pixel": 47,
+      "driver": "U_SR7",
+      "driver_pad": "7"
+    },
+    {
+      "pixel": 48,
+      "driver": "U_SR6",
+      "driver_pad": "15"
+    },
+    {
+      "pixel": 49,
+      "driver": "U_SR6",
+      "driver_pad": "1"
+    },
+    {
+      "pixel": 50,
+      "driver": "U_SR6",
+      "driver_pad": "2"
+    },
+    {
+      "pixel": 51,
+      "driver": "U_SR6",
+      "driver_pad": "3"
+    },
+    {
+      "pixel": 52,
+      "driver": "U_SR6",
+      "driver_pad": "4"
+    },
+    {
+      "pixel": 53,
+      "driver": "U_SR6",
+      "driver_pad": "5"
+    },
+    {
+      "pixel": 54,
+      "driver": "U_SR6",
+      "driver_pad": "6"
+    },
+    {
+      "pixel": 55,
+      "driver": "U_SR6",
+      "driver_pad": "7"
+    },
+    {
+      "pixel": 56,
+      "driver": "U_SR5",
+      "driver_pad": "15"
+    },
+    {
+      "pixel": 57,
+      "driver": "U_SR5",
+      "driver_pad": "1"
+    },
+    {
+      "pixel": 58,
+      "driver": "U_SR5",
+      "driver_pad": "2"
+    },
+    {
+      "pixel": 59,
+      "driver": "U_SR5",
+      "driver_pad": "3"
+    },
+    {
+      "pixel": 60,
+      "driver": "U_SR5",
+      "driver_pad": "4"
+    },
+    {
+      "pixel": 61,
+      "driver": "U_SR5",
+      "driver_pad": "5"
+    },
+    {
+      "pixel": 62,
+      "driver": "U_SR5",
+      "driver_pad": "6"
+    },
+    {
+      "pixel": 63,
+      "driver": "U_SR5",
+      "driver_pad": "7"
+    }
+  ],
+  "filter_resistance_ohm": 10000,
+  "filter_capacitance_F": 1e-06,
+  "filter_resistor_tolerance": 0.05,
+  "filter_capacitor_nominal_tolerance": 0.1,
+  "capacitor_dc_bias_qualification_pending": true,
+  "input_source_model_note": "10k filter plus actual driver source impedance; no buffers",
+  "power_input": {
+    "1": "+15V",
+    "2": "GND",
+    "3": "-15V"
+  },
+  "reference_input": {
+    "1": "+5V_REF",
+    "2": "GND"
+  },
+  "logic_5V": "External J_MCU_SPI pin1; no connection to +5V_REF",
+  "negative_reference": "Backplane preserved but not sourced; final model must not use",
+  "bulk_caps": {
+    "positive": {
+      "1": "+15V",
+      "2": "GND"
+    },
+    "negative": {
+      "1": "GND",
+      "2": "-15V"
+    },
+    "value": "100uF50V",
+    "footprint": "CP_Elec_8x10",
+    "mpn": "EEE-FK1H101P"
+  },
+  "drc_counts": {
+    "silk_over_copper": 138,
+    "silk_overlap": 184,
+    "text_thickness": 20,
+    "text_height": 20,
+    "lib_footprint_issues": 68
+  },
+  "drc_error_count": 0,
+  "unconnected_count": 499,
+  "fabrication_ready": false
+}
