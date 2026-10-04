@@ -1,6 +1,6 @@
-# PAUSED, wrong source revision
+# RESUMED, unchanged electrical design
 
-Lucas clarified the 76-pin straddle boards at repo root are OLD versions. All routing has been stopped on kat-box. No further CAD runs or exports until the parent supplies the correct newer files. Remote experimental files are checkpointed under paused_old_straddle_trial/ and are NOT deliverables. Seven routing jobs had already begun before this hold arrived; all were terminated, and no converted board received final DRC. Originals remain untouched. Architecture and safety findings below apply only to the old files audited, not to the unseen newer design.
+Lucas corrected the temporary source-revision hold. The repo-root 76-pin straddle-header boards ARE current; only the README is old. Two-layer conversion resumes on kat-box with original values and pad nets preserved. ADC divider safety and negative-weight sign issues remain documented separately and must NOT be changed without approval. Interrupted first-run files remain checkpointed under paused_old_straddle_trial/ for provenance only, not deliverables. No converted board has final DRC yet. Originals remain untouched.
 
 # Two-layer MNIST conversion
 
