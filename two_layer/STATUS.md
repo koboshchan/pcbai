@@ -2,7 +2,11 @@
 
 Work in progress. NOT fabrication-ready. Original boards in the repository root are untouched.
 
-The repository README is stale. All seven actual PCB files declare KiCad 10 format (20260206). The ReLU board also declares four copper layers, contrary to the README. Baseline DRC and copper inventory are pending a KiCad 10 reader. Local KiCad 9 rejects these files; do not silently downgrade their file-format headers.
+The repository README is stale. All seven actual PCB files use KiCad 10 and FOUR copper layers, including DC2. Actual connectors are 76-pin straddle headers, not 72-pin card-edge sockets. KiCad 10.0.6 was installed locally before Lucas requested kat-box; all further preparation, routing, DRC and exports run on kat-box in /work/pcbai. Local copies are synchronized for commits.
+
+Baseline original DC2 full CLI DRC has zero electrical errors, zero unconnected and 164 warnings. This does not establish circuit correctness.
+
+CRITICAL original electrical defects found by independent audit: actual ADC divider is 10k top / 20k bottom, resulting in +7V at the nominal +10.5V score and negative ADC voltages for negative scores. No physical clamp was identified. The emulator clips these voltages in software. Negative trained weights (563 L1 and 83 L2) are connected to the same positive input nets as positive weights, with no corresponding sign-inversion circuitry identified. Footprint Description fields lack the polarity metadata expected by the emulator, which defaults signs positive; its L2 sign also disagrees with physical inverting summers. Preserve the original netlist during this conversion but do not label the hardware electrically safe or the original claimed 92.15% accuracy reproduced. The benchmark MNIST cache is absent; original --benchmark cannot execute. See audit_emulator_findings.json and audit_original_manifest.json. Production release requires these architecture/safety issues resolved separately, even after DRC zero/zero.
 
 | Board | Copper layers target | DRC errors | Unconnected | Production ZIP |
 |---|---|---|---|---|
