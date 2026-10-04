@@ -30,8 +30,7 @@
       "Iout_A": 0.09853843166403811,
       "P_reg_W": 1.230397748304419,
       "Tj_bare_TO220_C": 111.51988741522095,
-      "Tj_bare_D2PAK_C": 126.8998592690262,
-      "Tj_with_10C_W_sink_and_2C_W_interface_C": 70.91676172117512
+      "Tj_bare_D2PAK_C": 126.8998592690262
     },
     "continuous_clock": {
       "clock_duty": 1,
@@ -46,8 +45,7 @@
       "Iout_A": 0.26193843166403813,
       "P_reg_W": 3.0277977483044194,
       "Tj_bare_TO220_C": 201.38988741522098,
-      "Tj_bare_D2PAK_C": 239.2373592690262,
-      "Tj_with_10C_W_sink_and_2C_W_interface_C": 101.47256172117514
+      "Tj_bare_D2PAK_C": 239.2373592690262
     },
     "continuous_clock_CPD_50pct_margin": {
       "clock_duty": 1,
@@ -62,8 +60,7 @@
       "Iout_A": 0.34173843166403806,
       "P_reg_W": 3.9055977483044186,
       "Tj_bare_TO220_C": 245.27988741522094,
-      "Tj_bare_D2PAK_C": 294.0998592690262,
-      "Tj_with_10C_W_sink_and_2C_W_interface_C": 116.39516172117511
+      "Tj_bare_D2PAK_C": 294.0998592690262
     }
   },
   "bias_paths": [
@@ -183,7 +180,7 @@
     ]
   ],
   "thermal_release_passed": false,
-  "thermal_note": "Heatsink <=10C/W at actual50C local ambient with interface<=2C/W is REQUIRED; physical fitting and thermal bench test pending. CPD is typical, not guaranteed maximum. 50pct multiplier is engineering margin, not datasheet guarantee. No bare-package operation authorization. Minimum normal junction0C for C version. Current budget25 TTL inputs =3 shared MCU lines*8+DS first; MR tied5V. Includes bounded rail-to-bias resistor current.",
+  "thermal_note": "Conservative clock estimates for the vertical ST L7805CV. The glued coin is optional/recommended, not a required BOM item or routing gate. Its actual effective thermal resistance is unknown. These are engineering estimates, not guaranteed operating ratings. Bare-package calculations use 50C/W with local ambient, design junction 110C and absolute diagnostic 125C. Do not operate at the absolute diagnostic limit. See THERMAL_CLOCK_LIMITS.md; reduced-clock accuracy unqualified.",
   "preserved_filters": 64,
   "preserved_ADC_and_slot_pad_nets": true,
   "power_parts": {
@@ -307,5 +304,169 @@
       "quantity": 25952
     }
   },
-  "preliminary_BOM": "power_BOM_preliminary.csv; not order-ready; unselected passive codes deliberately blank; heatsink SKU pending"
+  "preliminary_BOM": "power_BOM_preliminary.csv; not order-ready; unselected passive codes deliberately blank; heatsink SKU pending",
+  "cooling_optional": true,
+  "coin_thermal_resistance": "UNKNOWN",
+  "thermal_clock_limits": {
+    "input_V": 15.75,
+    "output_dissipation_corner_V": 4.75,
+    "load_current_corner_V": 5.25,
+    "TTL_A": 0.0375,
+    "filter_A": 0.03536842105263158,
+    "minimum_load_A": 0.006739409499358151,
+    "ICC_A": 0.00064,
+    "bias_A": 0.0010906011120483767,
+    "ground_A": 0.0093,
+    "CPD_pF_typical": 190,
+    "CPD_engineering_multiplier": 1.5,
+    "serial_load_pF_assumed": 50,
+    "serial_toggle_frequency": "clock/2",
+    "static_load_A": 0.08133843166403812,
+    "P0_W": 1.0411977483044192,
+    "P_slope_W_per_Hz": 1.4321999999999998e-07,
+    "power_equation": "P=P0+P_slope*f_continuous",
+    "bare_thetaJA_assumed": 50,
+    "coin_thetaJA": "UNKNOWN",
+    "clock_limit_rows": [
+      {
+        "assumed_effective_thetaJA_C_per_W": 50,
+        "ambient_C": 25,
+        "design110_max_continuous_Hz": 4599931.934754788,
+        "absolute125_diagnostic_Hz": 6694611.448789142,
+        "coin_credit_authorized": false
+      },
+      {
+        "assumed_effective_thetaJA_C_per_W": 50,
+        "ambient_C": 40,
+        "design110_max_continuous_Hz": 2505252.420720435,
+        "absolute125_diagnostic_Hz": 4599931.934754788,
+        "coin_credit_authorized": false
+      },
+      {
+        "assumed_effective_thetaJA_C_per_W": 50,
+        "ambient_C": 50,
+        "design110_max_continuous_Hz": 1108799.4113642,
+        "absolute125_diagnostic_Hz": 3203478.9253985533,
+        "coin_credit_authorized": false
+      },
+      {
+        "assumed_effective_thetaJA_C_per_W": 40,
+        "ambient_C": 25,
+        "design110_max_continuous_Hz": 7567394.579636789,
+        "absolute125_diagnostic_Hz": 10185743.97217973,
+        "coin_credit_authorized": false
+      },
+      {
+        "assumed_effective_thetaJA_C_per_W": 40,
+        "ambient_C": 40,
+        "design110_max_continuous_Hz": 4949045.187093847,
+        "absolute125_diagnostic_Hz": 7567394.579636789,
+        "coin_credit_authorized": false
+      },
+      {
+        "assumed_effective_thetaJA_C_per_W": 40,
+        "ambient_C": 50,
+        "design110_max_continuous_Hz": 3203478.9253985533,
+        "absolute125_diagnostic_Hz": 5821828.317941494,
+        "coin_credit_authorized": false
+      },
+      {
+        "assumed_effective_thetaJA_C_per_W": 30,
+        "ambient_C": 25,
+        "design110_max_continuous_Hz": 12513165.654440124,
+        "absolute125_diagnostic_Hz": 16004298.177830711,
+        "coin_credit_authorized": false
+      },
+      {
+        "assumed_effective_thetaJA_C_per_W": 30,
+        "ambient_C": 40,
+        "design110_max_continuous_Hz": 9022033.131049534,
+        "absolute125_diagnostic_Hz": 12513165.654440124,
+        "coin_credit_authorized": false
+      },
+      {
+        "assumed_effective_thetaJA_C_per_W": 30,
+        "ambient_C": 50,
+        "design110_max_continuous_Hz": 6694611.448789142,
+        "absolute125_diagnostic_Hz": 10185743.97217973,
+        "coin_credit_authorized": false
+      },
+      {
+        "assumed_effective_thetaJA_C_per_W": 20,
+        "ambient_C": 25,
+        "design110_max_continuous_Hz": 22404707.80404679,
+        "absolute125_diagnostic_Hz": 27641406.58913267,
+        "coin_credit_authorized": false
+      },
+      {
+        "assumed_effective_thetaJA_C_per_W": 20,
+        "ambient_C": 40,
+        "design110_max_continuous_Hz": 17168009.018960908,
+        "absolute125_diagnostic_Hz": 22404707.80404679,
+        "coin_credit_authorized": false
+      },
+      {
+        "assumed_effective_thetaJA_C_per_W": 20,
+        "ambient_C": 50,
+        "design110_max_continuous_Hz": 13676876.495570319,
+        "absolute125_diagnostic_Hz": 18913575.2806562,
+        "coin_credit_authorized": false
+      },
+      {
+        "assumed_effective_thetaJA_C_per_W": 10,
+        "ambient_C": 25,
+        "design110_max_continuous_Hz": 52079334.25286679,
+        "absolute125_diagnostic_Hz": 62552731.823038556,
+        "coin_credit_authorized": false
+      },
+      {
+        "assumed_effective_thetaJA_C_per_W": 10,
+        "ambient_C": 40,
+        "design110_max_continuous_Hz": 41605936.68269502,
+        "absolute125_diagnostic_Hz": 52079334.25286679,
+        "coin_credit_authorized": false
+      },
+      {
+        "assumed_effective_thetaJA_C_per_W": 10,
+        "ambient_C": 50,
+        "design110_max_continuous_Hz": 34623671.63591385,
+        "absolute125_diagnostic_Hz": 45097069.20608561,
+        "coin_credit_authorized": false
+      }
+    ],
+    "accuracy_at_reduced_clock": "UNQUALIFIED; fresh PWM/RC ripple and coupled-network simulation required",
+    "guaranteed_limit": false,
+    "mechanical_cooling_optional": true
+  },
+  "coin_clearance": {
+    "regulator_anchor_mm": [
+      66,
+      97
+    ],
+    "rotation_deg": 180,
+    "component_free_volume_mm": {
+      "x": [
+        50.96,
+        75.96
+      ],
+      "y": [
+        99.8,
+        124.8
+      ],
+      "z": [
+        0,
+        35
+      ]
+    },
+    "top_component_collisions": [],
+    "pad_nets_preserved": true,
+    "copper_keepout_added": false,
+    "coin_thermal_credit": false,
+    "placement_errors": 0,
+    "placement_opens": 499,
+    "daughter_slot_contact_y_max_mm": 89.615,
+    "coin_y_min_mm": 99.8,
+    "mechanical_assembly_measurement_required": true
+  },
+  "mechanical_routing_blocked": false
 }
