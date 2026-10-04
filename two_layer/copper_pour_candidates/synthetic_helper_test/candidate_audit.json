@@ -1,0 +1,34 @@
+{
+  "errors": 0,
+  "opens": 0,
+  "warnings": 2,
+  "categories": {
+    "isolated_copper": 2
+  },
+  "source_sha256": "ba82e2729ca5155741613fb51e8b4cc4d6b4573e0e6792fcdcc45ccb40edfbe1",
+  "final_sha256": "16634d131e259cef930ff5f22ff136d791d62d3790bf3789241c11aee5913c07",
+  "source_unchanged": true,
+  "footprint_identity_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "footprint_identity_unchanged": true,
+  "old_zone_count": 0,
+  "final_zone_count": 2,
+  "accepted_stitch_positions_mm": [
+    [
+      4.9875,
+      4.9875
+    ],
+    [
+      15.0125,
+      4.9875
+    ],
+    [
+      4.9875,
+      15.0125
+    ],
+    [
+      15.0125,
+      15.0125
+    ]
+  ],
+  "release_authorized": false
+}

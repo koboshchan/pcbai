@@ -1,0 +1,607 @@
+{
+  "device": "NVIDIA GeForce RTX 4070 SUPER",
+  "dtype": "float64",
+  "examples": 10000,
+  "dataset": "official held-out MNIST, unchanged crop/BOX8x8 and 6bit quantization",
+  "circuit_sha256": "e4db3ea4ed3252640e43a6b23ca038ff0aa3c71949da3c558098b31f9a981474",
+  "co_variation": "Both layers B and PB scale by rail/5 before coupled KCL solve. Input commanded high uses same rail. C/T unchanged except source impedance; q recalculated from scaled PB. ADC reference remains 3.3V.",
+  "datasheet": {
+    "url": "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf",
+    "revision": "9, 9 May 2025",
+    "part": "Nexperia 74AHCT595D SO16/SOT109-1, C554704",
+    "recommended_VCC": [
+      4.5,
+      5.5
+    ],
+    "VIH_min_V": 2.0,
+    "VIL_max_V": 0.8,
+    "loaded_test": "VCC=4.5V, VI=VIH or VIL, VOH at -8mA and VOL at +8mA",
+    "VOH_min_V": [
+      3.94,
+      3.8,
+      3.7
+    ],
+    "VOL_max_V": [
+      0.36,
+      0.44,
+      0.55
+    ],
+    "temperature_ranges": [
+      "25C",
+      "-40..85C",
+      "-40..125C"
+    ],
+    "light_load_test": "VCC=4.5V, +/-50uA, VOH>=4.4V, VOL<=0.1V all specified temperatures",
+    "absolute_limits_not_operating_targets": {
+      "output_mA": 25,
+      "supply_mA": 75,
+      "ground_mA": 75
+    }
+  },
+  "limitations": "Nominal resistors only; historical 1000-board MC preserved separately and not rerun at rail/driver corners. Loaded endpoints are specifications at a stated current, not measured current-voltage curves; 50ohm and derived secants are assumptions, not certified bounds. Extrapolated rail-relative level corners are diagnostic only. Published endpoint cases set added driver impedance zero to avoid double-counting load drop. Fixed 13.5V/12.7V opamp clips remain optimistic. No offset, commonmode, bandwidth, capacitor dynamics, inter-channel driver mismatch, package simultaneous-switching, ground bounce, regulator noise, thermal, timing or hardware certification.",
+  "cases": [
+    {
+      "kind": "common_rail_only",
+      "rail_V": 4.75,
+      "high_V": 4.75,
+      "low_V": 0.0,
+      "driver_ohms": 50.0,
+      "correct": 9501,
+      "accuracy": 0.9501,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.3092638912203256e-14,
+        1.0658141036401503e-14
+      ],
+      "max_average_driver_current_mA": 0.1781409117943123,
+      "max_switching_current_from_static_nodes_mA": 0.47076999237096223
+    },
+    {
+      "kind": "common_rail_only",
+      "rail_V": 4.8,
+      "high_V": 4.8,
+      "low_V": 0.0,
+      "driver_ohms": 50.0,
+      "correct": 9501,
+      "accuracy": 0.9501,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.1316282072803006e-14,
+        1.2434497875801753e-14
+      ],
+      "max_average_driver_current_mA": 0.18001607928688404,
+      "max_switching_current_from_static_nodes_mA": 0.47572546597486715
+    },
+    {
+      "kind": "common_rail_only",
+      "rail_V": 4.85,
+      "high_V": 4.85,
+      "low_V": 0.0,
+      "driver_ohms": 50.0,
+      "correct": 9502,
+      "accuracy": 0.9502,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.1316282072803006e-14,
+        9.769962616701378e-15
+      ],
+      "max_average_driver_current_mA": 0.18189124677945567,
+      "max_switching_current_from_static_nodes_mA": 0.48068093957877195
+    },
+    {
+      "kind": "common_rail_only",
+      "rail_V": 4.9,
+      "high_V": 4.9,
+      "low_V": 0.0,
+      "driver_ohms": 50.0,
+      "correct": 9502,
+      "accuracy": 0.9502,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.842170943040401e-14,
+        1.0658141036401503e-14
+      ],
+      "max_average_driver_current_mA": 0.18376641427202742,
+      "max_switching_current_from_static_nodes_mA": 0.48563641318267686
+    },
+    {
+      "kind": "common_rail_only",
+      "rail_V": 4.95,
+      "high_V": 4.95,
+      "low_V": 0.0,
+      "driver_ohms": 50.0,
+      "correct": 9503,
+      "accuracy": 0.9503,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.3092638912203256e-14,
+        1.2434497875801753e-14
+      ],
+      "max_average_driver_current_mA": 0.18564158176459922,
+      "max_switching_current_from_static_nodes_mA": 0.4905918867865817
+    },
+    {
+      "kind": "common_rail_only",
+      "rail_V": 5.0,
+      "high_V": 5.0,
+      "low_V": 0.0,
+      "driver_ohms": 50.0,
+      "correct": 9501,
+      "accuracy": 0.9501,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.3092638912203256e-14,
+        1.2434497875801753e-14
+      ],
+      "max_average_driver_current_mA": 0.1875167492571707,
+      "max_switching_current_from_static_nodes_mA": 0.49554736039048647
+    },
+    {
+      "kind": "common_rail_only",
+      "rail_V": 5.05,
+      "high_V": 5.05,
+      "low_V": 0.0,
+      "driver_ohms": 50.0,
+      "correct": 9503,
+      "accuracy": 0.9503,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.398081733190338e-14,
+        1.0658141036401503e-14
+      ],
+      "max_average_driver_current_mA": 0.18939191674974243,
+      "max_switching_current_from_static_nodes_mA": 0.5005028339943914
+    },
+    {
+      "kind": "common_rail_only",
+      "rail_V": 5.1,
+      "high_V": 5.1,
+      "low_V": 0.0,
+      "driver_ohms": 50.0,
+      "correct": 9501,
+      "accuracy": 0.9501,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.4868995751603507e-14,
+        1.4210854715202004e-14
+      ],
+      "max_average_driver_current_mA": 0.19126708424231426,
+      "max_switching_current_from_static_nodes_mA": 0.5054583075982964
+    },
+    {
+      "kind": "common_rail_only",
+      "rail_V": 5.15,
+      "high_V": 5.15,
+      "low_V": 0.0,
+      "driver_ohms": 50.0,
+      "correct": 9502,
+      "accuracy": 0.9502,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.4868995751603507e-14,
+        9.769962616701378e-15
+      ],
+      "max_average_driver_current_mA": 0.19314225173488592,
+      "max_switching_current_from_static_nodes_mA": 0.5104137812022013
+    },
+    {
+      "kind": "common_rail_only",
+      "rail_V": 5.2,
+      "high_V": 5.2,
+      "low_V": 0.0,
+      "driver_ohms": 50.0,
+      "correct": 9501,
+      "accuracy": 0.9501,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.4868995751603507e-14,
+        1.1546319456101628e-14
+      ],
+      "max_average_driver_current_mA": 0.19501741922745755,
+      "max_switching_current_from_static_nodes_mA": 0.5153692548061061
+    },
+    {
+      "kind": "common_rail_only",
+      "rail_V": 5.25,
+      "high_V": 5.25,
+      "low_V": 0.0,
+      "driver_ohms": 50.0,
+      "correct": 9503,
+      "accuracy": 0.9503,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.6645352591003757e-14,
+        1.2434497875801753e-14
+      ],
+      "max_average_driver_current_mA": 0.19689258672002935,
+      "max_switching_current_from_static_nodes_mA": 0.5203247284100109
+    },
+    {
+      "kind": "published_loaded_endpoint_diagnostic",
+      "temperature": "25C",
+      "rail_V": 4.5,
+      "high_V": 3.94,
+      "low_V": 0.36,
+      "driver_ohms": 0.0,
+      "correct": 6998,
+      "accuracy": 0.6998,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.4868995751603507e-14,
+        1.4210854715202004e-14
+      ],
+      "max_average_driver_current_mA": 0.1385739731519043,
+      "max_switching_current_from_static_nodes_mA": 0.3622981470694592
+    },
+    {
+      "kind": "published_loaded_endpoint_diagnostic",
+      "temperature": "-40..85C",
+      "rail_V": 4.5,
+      "high_V": 3.8,
+      "low_V": 0.44,
+      "driver_ohms": 0.0,
+      "correct": 6305,
+      "accuracy": 0.6305,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.842170943040401e-14,
+        1.0658141036401503e-14
+      ],
+      "max_average_driver_current_mA": 0.1312023910794761,
+      "max_switching_current_from_static_nodes_mA": 0.3424872409210834
+    },
+    {
+      "kind": "published_loaded_endpoint_diagnostic",
+      "temperature": "-40..125C",
+      "rail_V": 4.5,
+      "high_V": 3.7,
+      "low_V": 0.55,
+      "driver_ohms": 0.0,
+      "correct": 5488,
+      "accuracy": 0.5488,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        3.019806626980426e-14,
+        1.4210854715202004e-14
+      ],
+      "max_average_driver_current_mA": 0.12454502241278446,
+      "max_switching_current_from_static_nodes_mA": 0.32438882155922727
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 4.75,
+      "high_V": 4.75,
+      "low_V": 0.0,
+      "driver_ohms": 0.0,
+      "correct": 9501,
+      "accuracy": 0.9501,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.3092638912203256e-14,
+        1.2434497875801753e-14
+      ],
+      "max_average_driver_current_mA": 0.17850887516008185,
+      "max_switching_current_from_static_nodes_mA": 0.47313084767341695
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 5.0,
+      "high_V": 5.0,
+      "low_V": 0.0,
+      "driver_ohms": 0.0,
+      "correct": 9501,
+      "accuracy": 0.9501,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.4868995751603507e-14,
+        1.2434497875801753e-14
+      ],
+      "max_average_driver_current_mA": 0.18790407911587562,
+      "max_switching_current_from_static_nodes_mA": 0.4980324712351758
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 5.25,
+      "high_V": 5.25,
+      "low_V": 0.0,
+      "driver_ohms": 0.0,
+      "correct": 9500,
+      "accuracy": 0.95,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.842170943040401e-14,
+        1.0658141036401503e-14
+      ],
+      "max_average_driver_current_mA": 0.19729928307166938,
+      "max_switching_current_from_static_nodes_mA": 0.5229340947969345
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 4.75,
+      "high_V": 4.75,
+      "low_V": 0.0,
+      "driver_ohms": 50.0,
+      "correct": 9501,
+      "accuracy": 0.9501,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.3092638912203256e-14,
+        1.0658141036401503e-14
+      ],
+      "max_average_driver_current_mA": 0.1781409117943123,
+      "max_switching_current_from_static_nodes_mA": 0.47076999237096223
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 5.0,
+      "high_V": 5.0,
+      "low_V": 0.0,
+      "driver_ohms": 50.0,
+      "correct": 9501,
+      "accuracy": 0.9501,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.3092638912203256e-14,
+        1.2434497875801753e-14
+      ],
+      "max_average_driver_current_mA": 0.1875167492571707,
+      "max_switching_current_from_static_nodes_mA": 0.49554736039048647
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 5.25,
+      "high_V": 5.25,
+      "low_V": 0.0,
+      "driver_ohms": 50.0,
+      "correct": 9503,
+      "accuracy": 0.9503,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.6645352591003757e-14,
+        1.2434497875801753e-14
+      ],
+      "max_average_driver_current_mA": 0.19689258672002935,
+      "max_switching_current_from_static_nodes_mA": 0.5203247284100109
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 4.75,
+      "high_V": 4.75,
+      "low_V": 0.0,
+      "driver_ohms": 70.0,
+      "correct": 9501,
+      "accuracy": 0.9501,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.1316282072803006e-14,
+        8.881784197001252e-15
+      ],
+      "max_average_driver_current_mA": 0.1779941667103932,
+      "max_switching_current_from_static_nodes_mA": 0.46983222067251285
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 5.0,
+      "high_V": 5.0,
+      "low_V": 0.0,
+      "driver_ohms": 70.0,
+      "correct": 9502,
+      "accuracy": 0.9502,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.220446049250313e-14,
+        1.0658141036401503e-14
+      ],
+      "max_average_driver_current_mA": 0.18736228074778238,
+      "max_switching_current_from_static_nodes_mA": 0.49456023228685564
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 5.25,
+      "high_V": 5.25,
+      "low_V": 0.0,
+      "driver_ohms": 70.0,
+      "correct": 9501,
+      "accuracy": 0.9501,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.3092638912203256e-14,
+        1.0658141036401503e-14
+      ],
+      "max_average_driver_current_mA": 0.19673039478517143,
+      "max_switching_current_from_static_nodes_mA": 0.5192882439011984
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 4.75,
+      "high_V": 4.75,
+      "low_V": 0.0,
+      "driver_ohms": 87.5,
+      "correct": 9502,
+      "accuracy": 0.9502,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        3.019806626980426e-14,
+        1.0658141036401503e-14
+      ],
+      "max_average_driver_current_mA": 0.1778659703510249,
+      "max_switching_current_from_static_nodes_mA": 0.46901472360271423
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 5.0,
+      "high_V": 5.0,
+      "low_V": 0.0,
+      "driver_ohms": 87.5,
+      "correct": 9501,
+      "accuracy": 0.9501,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        3.907985046680551e-14,
+        1.176836406102666e-14
+      ],
+      "max_average_driver_current_mA": 0.18722733721160512,
+      "max_switching_current_from_static_nodes_mA": 0.4936997090554887
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 5.25,
+      "high_V": 5.25,
+      "low_V": 0.0,
+      "driver_ohms": 87.5,
+      "correct": 9501,
+      "accuracy": 0.9501,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        4.263256414560601e-14,
+        1.4210854715202004e-14
+      ],
+      "max_average_driver_current_mA": 0.19658870407218534,
+      "max_switching_current_from_static_nodes_mA": 0.5183846945082631
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 4.75,
+      "high_V": 4.75,
+      "low_V": 0.0,
+      "driver_ohms": 100.0,
+      "correct": 9502,
+      "accuracy": 0.9502,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.4868995751603507e-14,
+        1.0658141036401503e-14
+      ],
+      "max_average_driver_current_mA": 0.17777451874751177,
+      "max_switching_current_from_static_nodes_mA": 0.4684325331525084
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 5.0,
+      "high_V": 5.0,
+      "low_V": 0.0,
+      "driver_ohms": 100.0,
+      "correct": 9501,
+      "accuracy": 0.9501,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.4868995751603507e-14,
+        1.0658141036401503e-14
+      ],
+      "max_average_driver_current_mA": 0.18713107236580184,
+      "max_switching_current_from_static_nodes_mA": 0.4930868770026403
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 5.25,
+      "high_V": 5.25,
+      "low_V": 0.0,
+      "driver_ohms": 100.0,
+      "correct": 9500,
+      "accuracy": 0.95,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.1316282072803006e-14,
+        1.4210854715202004e-14
+      ],
+      "max_average_driver_current_mA": 0.19648762598409192,
+      "max_switching_current_from_static_nodes_mA": 0.5177412208527724
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 4.75,
+      "high_V": 4.75,
+      "low_V": 0.0,
+      "driver_ohms": 200.0,
+      "correct": 9501,
+      "accuracy": 0.9501,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.5757174171303632e-14,
+        9.769962616701378e-15
+      ],
+      "max_average_driver_current_mA": 0.17704640290896528,
+      "max_switching_current_from_static_nodes_mA": 0.4638264265216514
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 5.0,
+      "high_V": 5.0,
+      "low_V": 0.0,
+      "driver_ohms": 200.0,
+      "correct": 9502,
+      "accuracy": 0.9502,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.3092638912203256e-14,
+        1.0658141036401503e-14
+      ],
+      "max_average_driver_current_mA": 0.18636463464101605,
+      "max_switching_current_from_static_nodes_mA": 0.4882383437070015
+    },
+    {
+      "kind": "impedance_sensitivity_not_guarantee",
+      "rail_V": 5.25,
+      "high_V": 5.25,
+      "low_V": 0.0,
+      "driver_ohms": 200.0,
+      "correct": 9500,
+      "accuracy": 0.95,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.4868995751603507e-14,
+        1.2434497875801753e-14
+      ],
+      "max_average_driver_current_mA": 0.1956828663730669,
+      "max_switching_current_from_static_nodes_mA": 0.5126502608923516
+    },
+    {
+      "kind": "extrapolated_loaded_level_stress_not_guarantee",
+      "rail_V": 4.75,
+      "high_V": 3.95,
+      "low_V": 0.55,
+      "driver_ohms": 50.0,
+      "correct": 5691,
+      "accuracy": 0.5691,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.1316282072803006e-14,
+        1.2434497875801753e-14
+      ],
+      "max_average_driver_current_mA": 0.13367635721699653,
+      "max_switching_current_from_static_nodes_mA": 0.347381141020452
+    },
+    {
+      "kind": "extrapolated_loaded_level_stress_not_guarantee",
+      "rail_V": 5.0,
+      "high_V": 4.2,
+      "low_V": 0.55,
+      "driver_ohms": 50.0,
+      "correct": 5904,
+      "accuracy": 0.5904,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.3092638912203256e-14,
+        1.2434497875801753e-14
+      ],
+      "max_average_driver_current_mA": 0.14305219467985505,
+      "max_switching_current_from_static_nodes_mA": 0.3719537874579271
+    },
+    {
+      "kind": "extrapolated_loaded_level_stress_not_guarantee",
+      "rail_V": 5.25,
+      "high_V": 4.45,
+      "low_V": 0.55,
+      "driver_ohms": 50.0,
+      "correct": 6079,
+      "accuracy": 0.6079,
+      "numpy_cuda_max_errors": [
+        4.440892098500626e-16,
+        2.6645352591003757e-14,
+        1.2434497875801753e-14
+      ],
+      "max_average_driver_current_mA": 0.15242803214271358,
+      "max_switching_current_from_static_nodes_mA": 0.39652643389540226
+    }
+  ]
+}

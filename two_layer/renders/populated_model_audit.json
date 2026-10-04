@@ -1,0 +1,6 @@
+{"package":"kicad-packages3d 10.0.6~ubuntu24.04.1","model_root":"/usr/share/kicad/3dmodels","boards":["daughtercard1a","daughtercard1c"],
+"models_unique_per_board":4,"missing":0,
+"resolved":["Capacitor_SMD.3dshapes/C_0805_2012Metric.step","Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step","Resistor_SMD.3dshapes/R_0805_2012Metric.step","/work/pcbai/3dmodels/pin_header_2x38_straddle.wrl (custom)"],
+"dc1a_instances":{"R_0805":191,"C_0805":2,"SOIC14":1,"straddle":1},
+"method":"render-only temp copy: ${KICAD8_3DMODEL_DIR} and Mac /Users/lucaszhang/pcbai/3dmodels prefixes rewritten; source .kicad_pcb untouched",
+"cmd":"kicad-cli pcb render -w 1600 -h 1600 --side top|bottom --quality high --background opaque"}

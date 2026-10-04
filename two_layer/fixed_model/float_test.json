@@ -1,0 +1,4 @@
+{
+  "status": "Previous binary float benchmark83.85% is historical, preserved in binary_archive/float_test.json. No separate grayscale float benchmark claimed. Grayscale95.01% is physical quantized loaded model, not ideal float.",
+  "grayscale_physical_metrics": "metrics.json"
+}

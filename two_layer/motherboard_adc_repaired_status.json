@@ -1,0 +1,24 @@
+{
+  "candidate": "motherboard_adc_repaired.kicad_pcb",
+  "errors": 0,
+  "unconnected": 202,
+  "warnings": 68,
+  "categories": {
+    "lib_footprint_issues": 68
+  },
+  "silk": {
+    "reference_count": 228,
+    "clean": true,
+    "violations": [],
+    "method": "Conservative text/pad axis-aligned bounding boxes, not a rendered glyph or solder-mask DRC.",
+    "limits_mm": {
+      "pad_clearance": 0.2,
+      "reference_clearance": 0.15,
+      "edge_clearance": 0.25,
+      "minimum_height": 0.8,
+      "stroke": 0.12
+    }
+  },
+  "release_ready": false,
+  "reason": "Pending authoritative trained netlist/model agreement and mechanical/silk validation"
+}

@@ -1,0 +1,3178 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-03T23:34:57",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "daughtercard2_relu_l1.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A16 [V_SUM_15] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 41.11,
+                        "y": 97.75
+                    },
+                    "uuid": "13e307b2-e01c-488e-9201-db08ff47254f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A17 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 43.65,
+                        "y": 97.75
+                    },
+                    "uuid": "07a10806-5bba-4063-b02e-0a680e1bb627"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A1 [V_SUM_0] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 3.01,
+                        "y": 97.75
+                    },
+                    "uuid": "44a01510-c8cd-4a18-89cf-95682a428fd8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A2 [V_SUM_1] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 5.55,
+                        "y": 97.75
+                    },
+                    "uuid": "509b7a7c-cb30-42c5-8e2f-f3694db6c451"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A3 [V_SUM_2] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 8.09,
+                        "y": 97.75
+                    },
+                    "uuid": "04bdac33-6031-4fdd-bf25-e1a49c12d7f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A4 [V_SUM_3] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 10.63,
+                        "y": 97.75
+                    },
+                    "uuid": "e780b3fb-a60c-4059-b62e-2fda387d67d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A5 [V_SUM_4] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 13.17,
+                        "y": 97.75
+                    },
+                    "uuid": "982c9b15-cf61-492f-b175-b7e2e4d8e058"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A6 [V_SUM_5] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 15.71,
+                        "y": 97.75
+                    },
+                    "uuid": "f9802d05-7b58-41a9-8c1f-6304c6831b37"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A7 [V_SUM_6] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 18.25,
+                        "y": 97.75
+                    },
+                    "uuid": "397953b3-cfce-4346-b6f6-7e2fd5957f57"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A8 [V_SUM_7] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 20.79,
+                        "y": 97.75
+                    },
+                    "uuid": "910acbeb-5939-4b46-8c88-a1f804d228de"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A9 [V_SUM_8] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 23.33,
+                        "y": 97.75
+                    },
+                    "uuid": "cd739531-443d-4002-8f63-ed08f81defb0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A10 [V_SUM_9] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 25.87,
+                        "y": 97.75
+                    },
+                    "uuid": "43a33507-f46b-4355-b6d7-6497f655cd0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A11 [V_SUM_10] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 28.41,
+                        "y": 97.75
+                    },
+                    "uuid": "c59bbb74-deff-4ffa-bf2b-fc17b3cc62f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A12 [V_SUM_11] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 30.95,
+                        "y": 97.75
+                    },
+                    "uuid": "0e4142ef-9c33-4aa7-8304-04b1bdd2e2c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A13 [V_SUM_12] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 33.49,
+                        "y": 97.75
+                    },
+                    "uuid": "8d8cd6c7-3ecc-4429-aacc-c6b724ee09bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A14 [V_SUM_13] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 36.03,
+                        "y": 97.75
+                    },
+                    "uuid": "b1c8600f-f0c6-446f-b2a2-864307906cf8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A15 [V_SUM_14] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 38.57,
+                        "y": 97.75
+                    },
+                    "uuid": "365bd901-32c7-4455-a9a0-e04e97c8372b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A28 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 71.59,
+                        "y": 97.75
+                    },
+                    "uuid": "bdaa7e5b-81dd-4314-ad20-b90adc6fdd0d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A29 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 74.13,
+                        "y": 97.75
+                    },
+                    "uuid": "d87e4194-5758-48d7-91a0-7e07b28876ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A30 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 76.67,
+                        "y": 97.75
+                    },
+                    "uuid": "759e62cb-30f3-4f73-b242-5a1df2278ef1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A31 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 79.21,
+                        "y": 97.75
+                    },
+                    "uuid": "7656944f-4166-466f-9fc8-883edd7c4a8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A32 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 81.75,
+                        "y": 97.75
+                    },
+                    "uuid": "bb2c2f59-0cf0-4da1-8b16-bebda5590c4c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A33 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 84.29,
+                        "y": 97.75
+                    },
+                    "uuid": "32f67a2f-d897-4832-9ccf-4a2ae9f60155"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A34 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 86.83,
+                        "y": 97.75
+                    },
+                    "uuid": "78285d40-f06e-4d5d-abaf-0b098a2bd00d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A35 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 89.37,
+                        "y": 97.75
+                    },
+                    "uuid": "24c90e06-6847-4466-8b66-82a93eb56e6e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A36 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 91.91,
+                        "y": 97.75
+                    },
+                    "uuid": "596e9062-e250-4156-b2bc-520312e5f25c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A37 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 94.45,
+                        "y": 97.75
+                    },
+                    "uuid": "f5eaf906-2924-4fdb-8eca-20eba986feef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A38 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 96.99,
+                        "y": 97.75
+                    },
+                    "uuid": "3d61de84-59a0-49ad-9540-50f59b26012e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A18 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 46.19,
+                        "y": 97.75
+                    },
+                    "uuid": "c612f52f-9114-4006-a0c3-4b3b287a2f11"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A19 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 48.73,
+                        "y": 97.75
+                    },
+                    "uuid": "656e7d7c-7f18-4f6e-a37e-e9da67fae269"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A20 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 51.27,
+                        "y": 97.75
+                    },
+                    "uuid": "b5afdd83-34ab-4c55-9c78-5818447e6084"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A21 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 53.81,
+                        "y": 97.75
+                    },
+                    "uuid": "09d877ce-cf30-4ea3-9ff2-dd0c91df7d69"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A22 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 56.35,
+                        "y": 97.75
+                    },
+                    "uuid": "fae860ad-bf16-446e-97d0-1bb244cb362c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A23 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 58.89,
+                        "y": 97.75
+                    },
+                    "uuid": "09bf90ec-1d04-4ac4-980c-d21883a332b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A24 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 61.43,
+                        "y": 97.75
+                    },
+                    "uuid": "01cad332-5b31-4da1-bfe7-e1fd820d7f67"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A25 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 63.97,
+                        "y": 97.75
+                    },
+                    "uuid": "356ae081-420c-4fec-b696-19cb8164671f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A26 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 66.51,
+                        "y": 97.75
+                    },
+                    "uuid": "c3dd2932-5a45-401a-886a-572c37e92bdb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 95.5
+                    },
+                    "uuid": "03397596-6ab3-4c7f-a174-4ac7e10fa2fd"
+                },
+                {
+                    "description": "Pad A27 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 69.05,
+                        "y": 97.75
+                    },
+                    "uuid": "c7c4be3b-6248-4c83-9a73-92341ad2b4e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A16 [V_SUM_15] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 41.11,
+                        "y": 97.75
+                    },
+                    "uuid": "13e307b2-e01c-488e-9201-db08ff47254f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A17 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 43.65,
+                        "y": 97.75
+                    },
+                    "uuid": "07a10806-5bba-4063-b02e-0a680e1bb627"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A1 [V_SUM_0] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 3.01,
+                        "y": 97.75
+                    },
+                    "uuid": "44a01510-c8cd-4a18-89cf-95682a428fd8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A2 [V_SUM_1] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 5.55,
+                        "y": 97.75
+                    },
+                    "uuid": "509b7a7c-cb30-42c5-8e2f-f3694db6c451"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A3 [V_SUM_2] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 8.09,
+                        "y": 97.75
+                    },
+                    "uuid": "04bdac33-6031-4fdd-bf25-e1a49c12d7f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A4 [V_SUM_3] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 10.63,
+                        "y": 97.75
+                    },
+                    "uuid": "e780b3fb-a60c-4059-b62e-2fda387d67d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A5 [V_SUM_4] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 13.17,
+                        "y": 97.75
+                    },
+                    "uuid": "982c9b15-cf61-492f-b175-b7e2e4d8e058"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A6 [V_SUM_5] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 15.71,
+                        "y": 97.75
+                    },
+                    "uuid": "f9802d05-7b58-41a9-8c1f-6304c6831b37"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A7 [V_SUM_6] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 18.25,
+                        "y": 97.75
+                    },
+                    "uuid": "397953b3-cfce-4346-b6f6-7e2fd5957f57"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A8 [V_SUM_7] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 20.79,
+                        "y": 97.75
+                    },
+                    "uuid": "910acbeb-5939-4b46-8c88-a1f804d228de"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A9 [V_SUM_8] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 23.33,
+                        "y": 97.75
+                    },
+                    "uuid": "cd739531-443d-4002-8f63-ed08f81defb0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A10 [V_SUM_9] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 25.87,
+                        "y": 97.75
+                    },
+                    "uuid": "43a33507-f46b-4355-b6d7-6497f655cd0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A11 [V_SUM_10] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 28.41,
+                        "y": 97.75
+                    },
+                    "uuid": "c59bbb74-deff-4ffa-bf2b-fc17b3cc62f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A12 [V_SUM_11] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 30.95,
+                        "y": 97.75
+                    },
+                    "uuid": "0e4142ef-9c33-4aa7-8304-04b1bdd2e2c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A13 [V_SUM_12] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 33.49,
+                        "y": 97.75
+                    },
+                    "uuid": "8d8cd6c7-3ecc-4429-aacc-c6b724ee09bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A14 [V_SUM_13] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 36.03,
+                        "y": 97.75
+                    },
+                    "uuid": "b1c8600f-f0c6-446f-b2a2-864307906cf8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A15 [V_SUM_14] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 38.57,
+                        "y": 97.75
+                    },
+                    "uuid": "365bd901-32c7-4455-a9a0-e04e97c8372b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A28 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 71.59,
+                        "y": 97.75
+                    },
+                    "uuid": "bdaa7e5b-81dd-4314-ad20-b90adc6fdd0d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A29 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 74.13,
+                        "y": 97.75
+                    },
+                    "uuid": "d87e4194-5758-48d7-91a0-7e07b28876ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A30 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 76.67,
+                        "y": 97.75
+                    },
+                    "uuid": "759e62cb-30f3-4f73-b242-5a1df2278ef1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A31 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 79.21,
+                        "y": 97.75
+                    },
+                    "uuid": "7656944f-4166-466f-9fc8-883edd7c4a8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A32 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 81.75,
+                        "y": 97.75
+                    },
+                    "uuid": "bb2c2f59-0cf0-4da1-8b16-bebda5590c4c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A33 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 84.29,
+                        "y": 97.75
+                    },
+                    "uuid": "32f67a2f-d897-4832-9ccf-4a2ae9f60155"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A34 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 86.83,
+                        "y": 97.75
+                    },
+                    "uuid": "78285d40-f06e-4d5d-abaf-0b098a2bd00d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A35 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 89.37,
+                        "y": 97.75
+                    },
+                    "uuid": "24c90e06-6847-4466-8b66-82a93eb56e6e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A36 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 91.91,
+                        "y": 97.75
+                    },
+                    "uuid": "596e9062-e250-4156-b2bc-520312e5f25c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A37 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 94.45,
+                        "y": 97.75
+                    },
+                    "uuid": "f5eaf906-2924-4fdb-8eca-20eba986feef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A38 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 96.99,
+                        "y": 97.75
+                    },
+                    "uuid": "3d61de84-59a0-49ad-9540-50f59b26012e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A18 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 46.19,
+                        "y": 97.75
+                    },
+                    "uuid": "c612f52f-9114-4006-a0c3-4b3b287a2f11"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A19 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 48.73,
+                        "y": 97.75
+                    },
+                    "uuid": "656e7d7c-7f18-4f6e-a37e-e9da67fae269"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A20 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 51.27,
+                        "y": 97.75
+                    },
+                    "uuid": "b5afdd83-34ab-4c55-9c78-5818447e6084"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A21 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 53.81,
+                        "y": 97.75
+                    },
+                    "uuid": "09d877ce-cf30-4ea3-9ff2-dd0c91df7d69"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A22 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 56.35,
+                        "y": 97.75
+                    },
+                    "uuid": "fae860ad-bf16-446e-97d0-1bb244cb362c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A23 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 58.89,
+                        "y": 97.75
+                    },
+                    "uuid": "09bf90ec-1d04-4ac4-980c-d21883a332b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A24 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 61.43,
+                        "y": 97.75
+                    },
+                    "uuid": "01cad332-5b31-4da1-bfe7-e1fd820d7f67"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A25 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 63.97,
+                        "y": 97.75
+                    },
+                    "uuid": "356ae081-420c-4fec-b696-19cb8164671f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A26 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 66.51,
+                        "y": 97.75
+                    },
+                    "uuid": "c3dd2932-5a45-401a-886a-572c37e92bdb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                },
+                {
+                    "description": "Pad A27 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 69.05,
+                        "y": 97.75
+                    },
+                    "uuid": "c7c4be3b-6248-4c83-9a73-92341ad2b4e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 59.32,
+                        "y": 16.0
+                    },
+                    "uuid": "753521bd-97c9-4433-9d64-14b7eb414b9c"
+                },
+                {
+                    "description": "Pad 1 [OP_OUT_0] of U1 on F.Cu",
+                    "pos": {
+                        "x": 59.62,
+                        "y": 16.19
+                    },
+                    "uuid": "3578524c-8e3a-4cb2-bd3b-eca05f3f5845"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of U2 on F.Silkscreen",
+                    "pos": {
+                        "x": 59.32,
+                        "y": 36.0
+                    },
+                    "uuid": "b3003537-5373-4418-b835-650839464a51"
+                },
+                {
+                    "description": "Pad 1 [OP_OUT_4] of U2 on F.Cu",
+                    "pos": {
+                        "x": 59.62,
+                        "y": 36.19
+                    },
+                    "uuid": "4a7ec8b1-009f-4ed8-ae08-fcbe597aa2bc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of U3 on F.Silkscreen",
+                    "pos": {
+                        "x": 59.32,
+                        "y": 56.0
+                    },
+                    "uuid": "a4ad5162-c503-448f-860d-7b523dbc28ab"
+                },
+                {
+                    "description": "Pad 1 [OP_OUT_8] of U3 on F.Cu",
+                    "pos": {
+                        "x": 59.62,
+                        "y": 56.19
+                    },
+                    "uuid": "2b4bb317-7e82-4e9f-876d-697cd515d63a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 59.32,
+                        "y": 76.0
+                    },
+                    "uuid": "7ac2b351-e659-436f-b5b0-f57cf089ac01"
+                },
+                {
+                    "description": "Pad 1 [OP_OUT_12] of U4 on F.Cu",
+                    "pos": {
+                        "x": 59.62,
+                        "y": 76.19
+                    },
+                    "uuid": "c3e12f4a-c0fc-45d9-b459-1a84f6cc8d7d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'Daughtercard 2: 16-Channel Precision Active ReLU' on F.Silkscreen",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 8.0
+                    },
+                    "uuid": "08c896e5-d99d-4eae-95bc-69d1b7e55644"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of H1",
+                    "pos": {
+                        "x": 5.0,
+                        "y": 5.0
+                    },
+                    "uuid": "e1db0082-ff3a-4d0e-9ed9-e138be98ab86"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'Daughtercard 2: 16-Channel Precision Active ReLU' on F.Silkscreen",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 8.0
+                    },
+                    "uuid": "08c896e5-d99d-4eae-95bc-69d1b7e55644"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of H2",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 5.0
+                    },
+                    "uuid": "731d776f-c1a1-4900-b4e9-47198c27c1e1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C_U1N",
+                    "pos": {
+                        "x": 72.32,
+                        "y": 20.0
+                    },
+                    "uuid": "01bece7a-2567-4832-8eae-627b15e5edf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C_U2P",
+                    "pos": {
+                        "x": 52.32,
+                        "y": 40.0
+                    },
+                    "uuid": "07c46332-58dc-4d67-8518-15b08b301181"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C_U2N",
+                    "pos": {
+                        "x": 72.32,
+                        "y": 40.0
+                    },
+                    "uuid": "0cdb468f-ec22-4b29-8651-6ee817e83d6c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_IN_12",
+                    "pos": {
+                        "x": 43.32,
+                        "y": 76.19
+                    },
+                    "uuid": "10d4b94b-40c0-4866-a432-9409f57dbf2e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_IN_8",
+                    "pos": {
+                        "x": 43.32,
+                        "y": 56.19
+                    },
+                    "uuid": "1123c306-987f-4d4b-80ff-330a3d3b6d3a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_FB_9",
+                    "pos": {
+                        "x": 77.32,
+                        "y": 56.19
+                    },
+                    "uuid": "119d5a03-ad2a-4a7e-8af4-1c3646602a8d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_IN_3",
+                    "pos": {
+                        "x": 81.32,
+                        "y": 23.81
+                    },
+                    "uuid": "1a961c05-f3fb-4063-bfcc-724efe971d32"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_CLAMP_5",
+                    "pos": {
+                        "x": 79.32,
+                        "y": 34.2
+                    },
+                    "uuid": "1ceb6233-4f8e-41b7-91df-328382e5e1cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_IN_5",
+                    "pos": {
+                        "x": 81.32,
+                        "y": 36.19
+                    },
+                    "uuid": "1e3b1ff0-7d49-401a-bc8f-e6afb1de4828"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_IN_7",
+                    "pos": {
+                        "x": 81.32,
+                        "y": 43.81
+                    },
+                    "uuid": "1e652b19-ad42-4946-be0e-8a3cf5f6f803"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_CLAMP_6",
+                    "pos": {
+                        "x": 45.32,
+                        "y": 45.8
+                    },
+                    "uuid": "2238b9b9-edd4-45e3-9ced-dea66024d4aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_RECT_5",
+                    "pos": {
+                        "x": 73.32,
+                        "y": 34.2
+                    },
+                    "uuid": "248f0208-f29d-40d3-bfe1-b571955ae91e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'Connector_EdgeMount' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint J_STRADDLE_EDGE",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 100.0
+                    },
+                    "uuid": "26244c26-15e8-4a0e-be97-1efba9975d7c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_RECT_12",
+                    "pos": {
+                        "x": 51.32,
+                        "y": 74.2
+                    },
+                    "uuid": "26bb2523-a1a0-41a3-ac39-a166c2911292"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_FB_12",
+                    "pos": {
+                        "x": 47.32,
+                        "y": 76.19
+                    },
+                    "uuid": "28f7669c-d5f2-4811-9a27-5bac621889e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_CLAMP_10",
+                    "pos": {
+                        "x": 45.32,
+                        "y": 65.8
+                    },
+                    "uuid": "2c1d366c-33d7-460d-8dec-023668a0922d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 62.32,
+                        "y": 20.0
+                    },
+                    "uuid": "2cada256-65d6-496c-88cf-9c5acfd23c4d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_RECT_13",
+                    "pos": {
+                        "x": 73.32,
+                        "y": 74.2
+                    },
+                    "uuid": "2f8e134e-1064-4bfb-a9f2-4c43facaed49"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_FB_15",
+                    "pos": {
+                        "x": 77.32,
+                        "y": 83.81
+                    },
+                    "uuid": "30a2529c-b031-4ef1-86d2-24c3575e8b81"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_RECT_9",
+                    "pos": {
+                        "x": 73.32,
+                        "y": 54.2
+                    },
+                    "uuid": "31d2f82b-37d9-46a6-a7a9-324b2d9adcdd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_CLAMP_9",
+                    "pos": {
+                        "x": 79.32,
+                        "y": 54.2
+                    },
+                    "uuid": "3a0e5614-6d98-4848-8400-c05b93cb2add"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_RECT_3",
+                    "pos": {
+                        "x": 73.32,
+                        "y": 25.8
+                    },
+                    "uuid": "3ad15218-7e81-4738-9683-632850c2d8a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_RECT_4",
+                    "pos": {
+                        "x": 51.32,
+                        "y": 34.2
+                    },
+                    "uuid": "3cf2c102-579c-4493-9fb5-aa50a6cc0d7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_RECT_6",
+                    "pos": {
+                        "x": 51.32,
+                        "y": 45.8
+                    },
+                    "uuid": "3e426e58-6c59-4f50-8cd2-dbde965960e1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_FB_13",
+                    "pos": {
+                        "x": 77.32,
+                        "y": 76.19
+                    },
+                    "uuid": "4196fd2b-40d2-4565-a972-742d40f91817"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_IN_10",
+                    "pos": {
+                        "x": 43.32,
+                        "y": 63.81
+                    },
+                    "uuid": "439c7886-e608-4a8d-bffd-95dc6c697a58"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_RECT_10",
+                    "pos": {
+                        "x": 51.32,
+                        "y": 65.8
+                    },
+                    "uuid": "4e469803-4403-4402-8312-913d9885d9e7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_RECT_2",
+                    "pos": {
+                        "x": 51.32,
+                        "y": 25.8
+                    },
+                    "uuid": "4f4c8ef7-a7aa-4051-a7f0-e43ec4bc994a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_CLAMP_8",
+                    "pos": {
+                        "x": 45.32,
+                        "y": 54.2
+                    },
+                    "uuid": "4fd680b0-ba79-4c9a-bf78-47eafb29043c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 62.32,
+                        "y": 60.0
+                    },
+                    "uuid": "50236997-a63b-444c-8225-9086c53cd2cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_CLAMP_13",
+                    "pos": {
+                        "x": 79.32,
+                        "y": 74.2
+                    },
+                    "uuid": "5124eeaf-bdf9-4c25-a12b-1ecd59bc243e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_IN_0",
+                    "pos": {
+                        "x": 43.32,
+                        "y": 16.19
+                    },
+                    "uuid": "52527844-e044-4e6d-8e08-2cc9f0624d29"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_FB_8",
+                    "pos": {
+                        "x": 47.32,
+                        "y": 56.19
+                    },
+                    "uuid": "5663840e-abe0-438c-b0f0-c1c93fb95482"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'MountingHole'",
+            "items": [
+                {
+                    "description": "Footprint H1",
+                    "pos": {
+                        "x": 5.0,
+                        "y": 5.0
+                    },
+                    "uuid": "5bb2b12c-70b0-4542-a420-f2eb7b346d0e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C_U3P",
+                    "pos": {
+                        "x": 52.32,
+                        "y": 60.0
+                    },
+                    "uuid": "5d6d6a08-6f8c-4640-b52d-c95569c4fa7e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_RECT_0",
+                    "pos": {
+                        "x": 51.32,
+                        "y": 14.2
+                    },
+                    "uuid": "605f0ce5-bdf0-4592-af49-e9d072f14f87"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_FB_5",
+                    "pos": {
+                        "x": 77.32,
+                        "y": 36.19
+                    },
+                    "uuid": "63393b9f-a481-4472-97ae-07eb4ebcc017"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'MountingHole'",
+            "items": [
+                {
+                    "description": "Footprint H2",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 5.0
+                    },
+                    "uuid": "6b2d2241-730f-456b-a259-78758c75196a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_RECT_8",
+                    "pos": {
+                        "x": 51.32,
+                        "y": 54.2
+                    },
+                    "uuid": "6f123a1c-94d2-4f45-af22-56b341c68d6f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_FB_1",
+                    "pos": {
+                        "x": 77.32,
+                        "y": 16.19
+                    },
+                    "uuid": "77fe5fa3-1c5a-4865-ac12-9fedf2411f82"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_CLAMP_12",
+                    "pos": {
+                        "x": 45.32,
+                        "y": 74.2
+                    },
+                    "uuid": "86638cd1-bf24-485c-8fec-c6cf64f3db81"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C_U3N",
+                    "pos": {
+                        "x": 72.32,
+                        "y": 60.0
+                    },
+                    "uuid": "89803fd7-c682-4d3f-9934-9aed792f0f85"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_RECT_11",
+                    "pos": {
+                        "x": 73.32,
+                        "y": 65.8
+                    },
+                    "uuid": "8c4c2b70-695c-4fc5-b081-ab3a420757a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_FB_10",
+                    "pos": {
+                        "x": 47.32,
+                        "y": 63.81
+                    },
+                    "uuid": "90f877cb-44a9-428a-990a-115d13d3d590"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_IN_15",
+                    "pos": {
+                        "x": 81.32,
+                        "y": 83.81
+                    },
+                    "uuid": "97866c4b-e821-4ae7-9594-3f2b0ba355cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_RECT_7",
+                    "pos": {
+                        "x": 73.32,
+                        "y": 45.8
+                    },
+                    "uuid": "98040142-dc91-486d-a6dc-84baba5d42e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_FB_11",
+                    "pos": {
+                        "x": 77.32,
+                        "y": 63.81
+                    },
+                    "uuid": "99ec0b79-bd39-4647-89c0-f2e5b554219b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_RECT_15",
+                    "pos": {
+                        "x": 73.32,
+                        "y": 85.8
+                    },
+                    "uuid": "9a7525d2-1328-4aad-815e-e3ae922387da"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_IN_2",
+                    "pos": {
+                        "x": 43.32,
+                        "y": 23.81
+                    },
+                    "uuid": "9a768815-c174-43e9-80c6-aacf51632521"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_CLAMP_14",
+                    "pos": {
+                        "x": 45.32,
+                        "y": 85.8
+                    },
+                    "uuid": "9b0110e1-ba54-4b45-af37-26ebea957d17"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_IN_4",
+                    "pos": {
+                        "x": 43.32,
+                        "y": 36.19
+                    },
+                    "uuid": "9f3e17d6-3341-4986-968e-dcab28e7505e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C_U4P",
+                    "pos": {
+                        "x": 52.32,
+                        "y": 80.0
+                    },
+                    "uuid": "9f6a4e20-a620-425b-80ef-2fc6c7178570"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_FB_14",
+                    "pos": {
+                        "x": 47.32,
+                        "y": 83.81
+                    },
+                    "uuid": "a068af6a-07bd-448b-808e-ba4aed29b8dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_FB_7",
+                    "pos": {
+                        "x": 77.32,
+                        "y": 43.81
+                    },
+                    "uuid": "a918cfa8-bc76-4f6f-88ca-9c89e777f75a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_IN_6",
+                    "pos": {
+                        "x": 43.32,
+                        "y": 43.81
+                    },
+                    "uuid": "ad05ca9e-37ed-424f-ae8b-fc31a9bf6a2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_FB_2",
+                    "pos": {
+                        "x": 47.32,
+                        "y": 23.81
+                    },
+                    "uuid": "bb49dc57-9a3d-4b9d-abc9-92a8aa9e312a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_FB_6",
+                    "pos": {
+                        "x": 47.32,
+                        "y": 43.81
+                    },
+                    "uuid": "bfc9f368-3b9b-4aa9-83e2-b341b20cf7ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_CLAMP_4",
+                    "pos": {
+                        "x": 45.32,
+                        "y": 34.2
+                    },
+                    "uuid": "c250b09e-8a84-4de1-a497-55511fe00155"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_IN_11",
+                    "pos": {
+                        "x": 81.32,
+                        "y": 63.81
+                    },
+                    "uuid": "c39e52f7-300e-4ac5-93ca-f0561f7f2430"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_CLAMP_1",
+                    "pos": {
+                        "x": 79.32,
+                        "y": 14.2
+                    },
+                    "uuid": "c6ea9364-c7d5-467c-b713-482f2e20a1af"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 62.32,
+                        "y": 40.0
+                    },
+                    "uuid": "cb00e962-04ca-455a-b482-49b3f3606943"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C_U4N",
+                    "pos": {
+                        "x": 72.32,
+                        "y": 80.0
+                    },
+                    "uuid": "cb8aa8b2-53b9-4318-bd3d-521ccdf2c648"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_RECT_1",
+                    "pos": {
+                        "x": 73.32,
+                        "y": 14.2
+                    },
+                    "uuid": "cdf45559-c321-4794-99cc-a6a9b8a0e227"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_IN_1",
+                    "pos": {
+                        "x": 81.32,
+                        "y": 16.19
+                    },
+                    "uuid": "d85665e1-bbe7-4e7e-8b5f-1c8aebfa8454"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_CLAMP_11",
+                    "pos": {
+                        "x": 79.32,
+                        "y": 65.8
+                    },
+                    "uuid": "d9249e34-03f1-4ad0-9cb1-16f89558ac86"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_FB_4",
+                    "pos": {
+                        "x": 47.32,
+                        "y": 36.19
+                    },
+                    "uuid": "dbb73bc3-f4af-4fa3-bc06-59daf20f36af"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 62.32,
+                        "y": 80.0
+                    },
+                    "uuid": "e5ac5a51-5daa-4e6c-980e-5ce60c59a479"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C_U1P",
+                    "pos": {
+                        "x": 52.32,
+                        "y": 20.0
+                    },
+                    "uuid": "e5e039b2-4a33-44c7-8881-1542d2f2809f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_CLAMP_15",
+                    "pos": {
+                        "x": 79.32,
+                        "y": 85.8
+                    },
+                    "uuid": "e791211b-fc2b-43fc-8add-7b72a39b8ab9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_IN_9",
+                    "pos": {
+                        "x": 81.32,
+                        "y": 56.19
+                    },
+                    "uuid": "eb6fd8c5-a568-4cb9-a31e-1f1172c53595"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_CLAMP_0",
+                    "pos": {
+                        "x": 45.32,
+                        "y": 14.2
+                    },
+                    "uuid": "ebb8c808-487d-443c-b177-dd474235518f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_FB_3",
+                    "pos": {
+                        "x": 77.32,
+                        "y": 23.81
+                    },
+                    "uuid": "ef7979ab-dfdf-4aca-974c-32b35b2899aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_CLAMP_7",
+                    "pos": {
+                        "x": 79.32,
+                        "y": 45.8
+                    },
+                    "uuid": "ef8b6dc7-dadb-4aef-bac1-2b786af22938"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_IN_13",
+                    "pos": {
+                        "x": 81.32,
+                        "y": 76.19
+                    },
+                    "uuid": "f186984f-0c66-4a28-b34c-f611f1498cc3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_RECT_14",
+                    "pos": {
+                        "x": 51.32,
+                        "y": 85.8
+                    },
+                    "uuid": "f4f77d8b-3496-4578-9b97-8a94f39c2dc4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_CLAMP_2",
+                    "pos": {
+                        "x": 45.32,
+                        "y": 25.8
+                    },
+                    "uuid": "f6406883-9fbb-4a74-9059-ec5039e14de4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_IN_14",
+                    "pos": {
+                        "x": 43.32,
+                        "y": 83.81
+                    },
+                    "uuid": "fac361ef-4804-46a5-87e9-24164687cec1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D_CLAMP_3",
+                    "pos": {
+                        "x": 79.32,
+                        "y": 25.8
+                    },
+                    "uuid": "faea4549-d19a-4ec7-979a-22cd73a7b3f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_FB_0",
+                    "pos": {
+                        "x": 47.32,
+                        "y": 16.19
+                    },
+                    "uuid": "fc42713d-0463-4342-b0fc-420cba47cef4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "66f85835-26c9-4918-911b-4f388d95635e"
+                },
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "ec1966af-d3d1-4e50-a56c-742182e3a1e0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "66f85835-26c9-4918-911b-4f388d95635e"
+                },
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 1.74,
+                        "y": 100.0
+                    },
+                    "uuid": "c9b244a1-ae64-4a88-a933-4d4b7be61a54"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "66f85835-26c9-4918-911b-4f388d95635e"
+                },
+                {
+                    "description": "Segment of J_STRADDLE_EDGE on F.Silkscreen",
+                    "pos": {
+                        "x": 98.26,
+                        "y": 100.0
+                    },
+                    "uuid": "9135efd3-f03a-4aac-ad1d-26355d6185f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+[
+  {
+    "case": "ordinary_pad_at_0p4",
+    "counts": {
+      "errors": 1,
+      "opens": 0,
+      "warnings": 198,
+      "categories": {
+        "copper_edge_clearance": 1,
+        "lib_footprint_issues": 197,
+        "silk_edge_clearance": 1
+      }
+    },
+    "target_uuid": "91212046-42f0-41b0-966d-f6d9d3aa0f27",
+    "target_edge_violations": [
+      {
+        "description": "Board edge clearance violation (rule 'Global all copper edge 0.5mm' clearance 0.5000 mm; actual 0.4000 mm)",
+        "items": [
+          {
+            "description": "Rectangle on Edge.Cuts",
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+          },
+          {
+            "description": "Pad A1 [<no net>] of NEGATIVE_ORDINARY_HEADER on F.Cu",
+            "pos": {
+              "x": 0.7,
+              "y": 10.0
+            },
+            "uuid": "91212046-42f0-41b0-966d-f6d9d3aa0f27"
+          }
+        ],
+        "severity": "error",
+        "type": "copper_edge_clearance"
+      }
+    ],
+    "edge_violation_count": 1,
+    "passed": true
+  },
+  {
+    "case": "track_at_0p4",
+    "counts": {
+      "errors": 1,
+      "opens": 0,
+      "warnings": 198,
+      "categories": {
+        "copper_edge_clearance": 1,
+        "lib_footprint_issues": 197,
+        "track_dangling": 1
+      }
+    },
+    "target_uuid": "bc81b922-90e4-40d1-825a-8c335c22c352",
+    "target_edge_violations": [
+      {
+        "description": "Board edge clearance violation (rule 'Global all copper edge 0.5mm' clearance 0.5000 mm; actual 0.4000 mm)",
+        "items": [
+          {
+            "description": "Rectangle on Edge.Cuts",
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+          },
+          {
+            "description": "Track [<no net>] on F.Cu, length 1.0000 mm",
+            "pos": {
+              "x": 0.5,
+              "y": 10.0
+            },
+            "uuid": "bc81b922-90e4-40d1-825a-8c335c22c352"
+          }
+        ],
+        "severity": "error",
+        "type": "copper_edge_clearance"
+      }
+    ],
+    "edge_violation_count": 1,
+    "passed": true
+  },
+  {
+    "case": "via_at_0p4",
+    "counts": {
+      "errors": 1,
+      "opens": 0,
+      "warnings": 197,
+      "categories": {
+        "copper_edge_clearance": 1,
+        "lib_footprint_issues": 197
+      }
+    },
+    "target_uuid": "5541c3bc-e05f-4513-a7ef-fb70e012d4e6",
+    "target_edge_violations": [
+      {
+        "description": "Board edge clearance violation (rule 'Global all copper edge 0.5mm' clearance 0.5000 mm; actual 0.4000 mm)",
+        "items": [
+          {
+            "description": "Rectangle on Edge.Cuts",
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+          },
+          {
+            "description": "Via [GND] on F.Cu - B.Cu",
+            "pos": {
+              "x": 0.7,
+              "y": 10.0
+            },
+            "uuid": "5541c3bc-e05f-4513-a7ef-fb70e012d4e6"
+          }
+        ],
+        "severity": "error",
+        "type": "copper_edge_clearance"
+      }
+    ],
+    "edge_violation_count": 1,
+    "passed": true
+  },
+  {
+    "case": "selected_pad_at_0p35",
+    "counts": {
+      "errors": 1,
+      "opens": 0,
+      "warnings": 197,
+      "categories": {
+        "copper_edge_clearance": 1,
+        "lib_footprint_issues": 197
+      }
+    },
+    "target_uuid": "58a29fed-7c93-4a19-a9f8-e080b0e570ba",
+    "target_edge_violations": [
+      {
+        "description": "Board edge clearance violation (rule 'Approved straddle A1 58a29fed-7c93-4a19-a9f8-e080b0e570ba' clearance 0.4000 mm; actual 0.3500 mm)",
+        "items": [
+          {
+            "description": "Rectangle on Edge.Cuts",
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+          },
+          {
+            "description": "Pad A1 [IN_0] of J_STRADDLE_EDGE on F.Cu",
+            "pos": {
+              "x": 3.01,
+              "y": 97.6
+            },
+            "uuid": "58a29fed-7c93-4a19-a9f8-e080b0e570ba"
+          }
+        ],
+        "severity": "error",
+        "type": "copper_edge_clearance"
+      }
+    ],
+    "edge_violation_count": 1,
+    "passed": true
+  },
+  {
+    "case": "exception_disabled",
+    "counts": {
+      "errors": 76,
+      "opens": 0,
+      "warnings": 197,
+      "categories": {
+        "copper_edge_clearance": 76,
+        "lib_footprint_issues": 197
+      }
+    },
+    "target_uuid": null,
+    "target_edge_violations": [],
+    "edge_violation_count": 76,
+    "passed": true
+  },
+  {
+    "case": "exception_threshold_0p41",
+    "counts": {
+      "errors": 76,
+      "opens": 0,
+      "warnings": 197,
+      "categories": {
+        "copper_edge_clearance": 76,
+        "lib_footprint_issues": 197
+      }
+    },
+    "target_uuid": null,
+    "target_edge_violations": [],
+    "edge_violation_count": 76,
+    "passed": true
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "regulator_anchor_mm": [
+    66,
+    97
+  ],
+  "rotation_deg": 180,
+  "component_free_volume_mm": {
+    "x": [
+      50.96,
+      75.96
+    ],
+    "y": [
+      99.8,
+      124.8
+    ],
+    "z": [
+      0,
+      35
+    ]
+  },
+  "top_component_collisions": [],
+  "pad_nets_preserved": true,
+  "copper_keepout_added": false,
+  "coin_thermal_credit": false,
+  "placement_errors": 0,
+  "placement_opens": 499,
+  "daughter_slot_contact_y_max_mm": 89.615,
+  "coin_y_min_mm": 99.8,
+  "mechanical_assembly_measurement_required": true
+}
