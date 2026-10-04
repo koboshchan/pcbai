@@ -26,8 +26,11 @@ def main():
     assert_part('J_ADC_REF','3V3_GND_FROM_MCU',{'1':'+3V3_ADC','2':'GND'})
     scores={pad.GetNumber():pad.GetNetname() for pad in fs['J_MCU_SCORES'].Pads()}
     assert scores=={**{str(i+1):f'ADC_{i}' for i in range(10)},'11':'GND','12':'GND'}
+    for i in range(1,9):assert fs[f'U_SR{i}'].GetValue()=='74HCT595D'
+    for fp in fs.values():
+        for pad in fp.Pads():assert pad.GetNetname() not in ('+12V','-12V')
     assert board.GetCopperLayerCount()==2 and len(list(board.GetTracks()))==0
-    result={'channels':10,'offset_divider_and_series_nets_pass':True,'silicon_clamp_package_polarity_pass':True,'dedicated_reference_header_pass':True,'geometry':'Standard KiCad10 library SOD123and1x02header includingcourtyard/mask; resistorcloneoriginal','unrouted':True,'fabrication_ready':False}
+    result={'HCT_3V3logic_repair_pass':True,'confirmed_15Vrail_labels_pass':True,'channels':10,'offset_divider_and_series_nets_pass':True,'silicon_clamp_package_polarity_pass':True,'dedicated_reference_header_pass':True,'geometry':'Standard KiCad10 library SOD123and1x02header includingcourtyard/mask; resistorcloneoriginal','unrouted':True,'fabrication_ready':False}
     (ROOT/'adc_physical_audit.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result))
 if __name__=='__main__':main()
