@@ -1,6 +1,5 @@
 {
   "pad_number_net_footprint_identity_preserved": true,
-  "non_AHCT_placements_preserved": true,
   "root_sha256": {
     "daughtercard1a_weights_l1.kicad_pcb": "122b1b6d3c09998e049da28b7b60dedfbee928276f70223cf2ea60514164cb62",
     "daughtercard1b_weights_l1.kicad_pcb": "4bf5e33c5c07b833605774c31a338811b2272e7de962d33ce4132b757126ac8c",
@@ -4160,5 +4159,18 @@
     "lib_footprint_issues": 68
   },
   "pcb_sha256": "97d6a6da4fdec36a46d509b74ea1dd32ca2d020ad9ea75884412242826e7301e",
-  "release_authorized": false
+  "release_authorized": false,
+  "non_AHCT_placements_preserved_except_C_RAIL_N": true,
+  "moved_conflicting_capacitor": {
+    "reference": "C_RAIL_N",
+    "before_xy_mm": [
+      84,
+      25
+    ],
+    "after_xy_mm": [
+      84,
+      28
+    ]
+  },
+  "silk_association_visual_review_pending": true
 }
