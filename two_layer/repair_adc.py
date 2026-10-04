@@ -64,6 +64,16 @@ def build():
         for pad in parts['J_MCU_SCORES'].Pads():
             if pad.GetNumber()==str(i+1):pad.SetNet(net(board,f'ADC_{i}'))
         manifest.append({'channel':i,'score_series_ohm':220000,'ref_ohm':22000,'ground_ohm':22000,'adc_series_ohm':1000,'reference_net':'+3V3_ADC','adc_net':f'ADC_{i}','diodes':{'high_K':'+3V3_ADC','high_A':f'ADC_{i}','low_K':f'ADC_{i}','low_A':'GND'}})
+    # HCT has guaranteed2V VIH at4.5..5.5V; HC at5V cannot be assumed
+    # compatible with3.3V controller. Same pinout, finalBOM must specifyHCT.
+    for fp in parts.values():
+        if fp.GetReference().startswith('U_SR'):
+            assert fp.GetValue()=='74HC595D'
+            fp.SetValue('74HCT595D')
+    for fp in board.GetFootprints():
+        for pad in fp.Pads():
+            if pad.GetNetname() in ('+12V','-12V'):
+                pad.SetNet(net(board,pad.GetNetname().replace('12V','15V')))
     path=ROOT/'motherboard_adc_repaired_unrouted.kicad_pcb'
     p.SaveBoard(str(path),board)
     p.LoadBoard(str(path))
