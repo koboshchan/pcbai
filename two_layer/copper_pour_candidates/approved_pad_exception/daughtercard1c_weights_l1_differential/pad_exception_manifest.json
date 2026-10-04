@@ -1,0 +1,1071 @@
+{
+  "reference": "J_STRADDLE_EDGE",
+  "footprint_uuid": "24d3f5b6-3529-4e06-b8ca-d68251847434",
+  "library_id": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x7f3c65537a50> >",
+  "pads": [
+    {
+      "number": "A1",
+      "uuid": "257346c2-ecb7-4565-8280-7572c849ebc4",
+      "position_mm": [
+        3.01,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A1'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A2",
+      "uuid": "5e40a2bd-80a9-4be0-8fc8-b47921a6ed64",
+      "position_mm": [
+        5.55,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A2'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A3",
+      "uuid": "9be809bd-84cc-4d9f-9550-9d635ad6bf8f",
+      "position_mm": [
+        8.09,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A3'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A4",
+      "uuid": "6ffe00a6-3496-4c68-b777-cfa2494d316f",
+      "position_mm": [
+        10.63,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A4'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A5",
+      "uuid": "3158b948-8835-4444-9b72-f983bafb6e42",
+      "position_mm": [
+        13.17,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A5'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A6",
+      "uuid": "98d8f05a-50d1-42c9-8950-408dd06114b8",
+      "position_mm": [
+        15.71,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A6'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A7",
+      "uuid": "099c4796-7e53-4546-b328-b1b2502ced04",
+      "position_mm": [
+        18.25,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A7'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A8",
+      "uuid": "01225478-0cad-4fe3-a780-456ff24bff1a",
+      "position_mm": [
+        20.79,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A8'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A9",
+      "uuid": "3e071a6d-84de-43f4-afcb-9d717980a6c7",
+      "position_mm": [
+        23.33,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A9'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A10",
+      "uuid": "90305f58-86b0-46fc-ad91-e83d97a7d832",
+      "position_mm": [
+        25.87,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A10'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A11",
+      "uuid": "6b3a2e69-2b50-41c9-be4a-dfd16e241b0b",
+      "position_mm": [
+        28.41,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A11'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A12",
+      "uuid": "60efe136-bd56-47da-b37a-77de65f31f9d",
+      "position_mm": [
+        30.95,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A12'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A13",
+      "uuid": "8a6ddc94-220d-49f7-aa13-0c4b1070a450",
+      "position_mm": [
+        33.49,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A13'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A14",
+      "uuid": "5c59241c-53eb-4438-8464-592c6f1289ac",
+      "position_mm": [
+        36.03,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A14'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A15",
+      "uuid": "c6c007fe-afee-4d1f-952d-32c752d0c5ee",
+      "position_mm": [
+        38.57,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A15'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A16",
+      "uuid": "31ec7010-38d3-4676-97e5-4188d95bd504",
+      "position_mm": [
+        41.11,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A16'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A17",
+      "uuid": "251fed7b-4f57-47ba-836b-0049160e0231",
+      "position_mm": [
+        43.65,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A17'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A18",
+      "uuid": "4d8e0d9e-0c9f-4f55-984d-fa08aab11cbc",
+      "position_mm": [
+        46.19,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A18'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A19",
+      "uuid": "841be789-668e-4414-94a7-576ac727e42a",
+      "position_mm": [
+        48.73,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A19'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A20",
+      "uuid": "461ace6d-964e-4f5a-a584-6ccd3cc1cbc8",
+      "position_mm": [
+        51.27,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A20'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A21",
+      "uuid": "29b03977-94d6-4e12-9750-9879179d0ee0",
+      "position_mm": [
+        53.81,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A21'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A22",
+      "uuid": "cafb36c2-68a8-4e15-b03c-3b3901a31344",
+      "position_mm": [
+        56.35,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A22'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A23",
+      "uuid": "9a127d5b-7773-44d6-b47a-0375ec3e4e6f",
+      "position_mm": [
+        58.89,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A23'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A24",
+      "uuid": "56b4e83e-ee73-4b20-abd7-924dcecebbc7",
+      "position_mm": [
+        61.43,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A24'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A25",
+      "uuid": "65718231-90f9-4856-be07-ae518f00eb62",
+      "position_mm": [
+        63.97,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A25'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A26",
+      "uuid": "e611e548-f681-4a76-a166-f372f1e534bd",
+      "position_mm": [
+        66.51,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A26'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A27",
+      "uuid": "39d2676d-054f-4516-a361-040c3cdbbf82",
+      "position_mm": [
+        69.05,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A27'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A28",
+      "uuid": "65a55dba-149f-42cd-a469-af77fcc4b3a7",
+      "position_mm": [
+        71.59,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A28'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A29",
+      "uuid": "d7e066b8-3626-4407-bc0c-4e6c3bde5b43",
+      "position_mm": [
+        74.13,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A29'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A30",
+      "uuid": "945d0a04-4222-4ad1-8f3f-ab2504935146",
+      "position_mm": [
+        76.67,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A30'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A31",
+      "uuid": "520aff8e-0bc0-471c-bcec-923c75cdd6b6",
+      "position_mm": [
+        79.21,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A31'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A32",
+      "uuid": "72f3dad9-8251-45ab-97a3-b3545cd2a17c",
+      "position_mm": [
+        81.75,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A32'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A33",
+      "uuid": "61c9516a-b7fd-437c-b0a2-dd3545b0df84",
+      "position_mm": [
+        84.29,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A33'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A34",
+      "uuid": "ad419401-3c31-4303-b9d9-edab12408df5",
+      "position_mm": [
+        86.83,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A34'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A35",
+      "uuid": "9fe8cb7d-5940-4e0c-b849-ae8b41020f49",
+      "position_mm": [
+        89.37,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A35'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A36",
+      "uuid": "a1769042-8d0f-42d4-aee1-f7e84d06f4a7",
+      "position_mm": [
+        91.91,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A36'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A37",
+      "uuid": "22a52d16-61cb-4fe3-b364-f9525a54c3b5",
+      "position_mm": [
+        94.45,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A37'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "A38",
+      "uuid": "26704bee-1851-4612-87ca-2e3e1aafd209",
+      "position_mm": [
+        96.99,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'A38'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B1",
+      "uuid": "62ab630f-832f-47f4-a11b-84950285024d",
+      "position_mm": [
+        3.01,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B1'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B2",
+      "uuid": "d62964f9-368a-4388-89c9-1ffce986b8ea",
+      "position_mm": [
+        5.55,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B2'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B3",
+      "uuid": "183bb9dd-66d9-432c-9748-233bd34863db",
+      "position_mm": [
+        8.09,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B3'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B4",
+      "uuid": "0c44c442-679d-4d07-bb2c-0b2eab60ba70",
+      "position_mm": [
+        10.63,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B4'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B5",
+      "uuid": "e070fd41-1011-4173-aebc-df37d34c2aa6",
+      "position_mm": [
+        13.17,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B5'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B6",
+      "uuid": "727116fb-83cb-4ee1-b278-4da400a3f68d",
+      "position_mm": [
+        15.71,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B6'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B7",
+      "uuid": "5d93cb00-166a-4442-9ecd-b74b3b8b60f8",
+      "position_mm": [
+        18.25,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B7'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B8",
+      "uuid": "2d97d030-45f1-4c58-a46e-798e10d642a2",
+      "position_mm": [
+        20.79,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B8'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B9",
+      "uuid": "fd88ff15-6494-4a51-8911-a291a722bf41",
+      "position_mm": [
+        23.33,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B9'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B10",
+      "uuid": "dfb0ac80-aa74-444a-852f-c2b397a5c581",
+      "position_mm": [
+        25.87,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B10'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B11",
+      "uuid": "c7e3ef89-01e6-46a9-9975-9f891b641381",
+      "position_mm": [
+        28.41,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B11'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B12",
+      "uuid": "f00a713b-57ce-44c1-a2db-789d8df9f963",
+      "position_mm": [
+        30.95,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B12'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B13",
+      "uuid": "56e4ed42-5b1f-4563-9c02-85e7d5a04282",
+      "position_mm": [
+        33.49,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B13'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B14",
+      "uuid": "b1d89658-e6fd-4888-8058-5b7b1855e566",
+      "position_mm": [
+        36.03,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B14'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B15",
+      "uuid": "6a95fbb5-12dc-41d6-ba06-920ee1e073ef",
+      "position_mm": [
+        38.57,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B15'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B16",
+      "uuid": "b18966c0-dacd-4e1d-9973-fafbe466582e",
+      "position_mm": [
+        41.11,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B16'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B17",
+      "uuid": "42279865-14e6-471f-91b3-2baee91455fc",
+      "position_mm": [
+        43.65,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B17'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B18",
+      "uuid": "54276fac-ce82-4a83-a3aa-7cb46bbf6cfa",
+      "position_mm": [
+        46.19,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B18'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B19",
+      "uuid": "5c0f96e7-b921-4121-a2bb-b1fb5fc8a110",
+      "position_mm": [
+        48.73,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B19'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B20",
+      "uuid": "9ee6dd3f-0e89-4487-86bd-60407db62d84",
+      "position_mm": [
+        51.27,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B20'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B21",
+      "uuid": "4046e396-9a22-4f3a-9ff6-a90d7e3dcd10",
+      "position_mm": [
+        53.81,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B21'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B22",
+      "uuid": "a4e402a3-4a00-475b-b947-6d8763e61aaf",
+      "position_mm": [
+        56.35,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B22'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B23",
+      "uuid": "7572418d-0af4-4f0e-80a2-8f44164dac63",
+      "position_mm": [
+        58.89,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B23'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B24",
+      "uuid": "59e4b53b-cbf2-4375-a3c1-88d03eb37c4e",
+      "position_mm": [
+        61.43,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B24'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B25",
+      "uuid": "79b55581-c365-432b-96cd-4bd422498308",
+      "position_mm": [
+        63.97,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B25'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B26",
+      "uuid": "68e19b6a-476d-400c-90e3-1ad499732371",
+      "position_mm": [
+        66.51,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B26'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B27",
+      "uuid": "a1ee721a-7e9c-4dac-824a-89c0207c91d3",
+      "position_mm": [
+        69.05,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B27'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B28",
+      "uuid": "509bb339-3218-4e71-9a3e-9d2e4f046018",
+      "position_mm": [
+        71.59,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B28'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B29",
+      "uuid": "74917d18-982e-408d-aa8c-de7afd60133a",
+      "position_mm": [
+        74.13,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B29'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B30",
+      "uuid": "03b56074-ddd8-4f8e-8eb8-34a63895a00c",
+      "position_mm": [
+        76.67,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B30'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B31",
+      "uuid": "109ecba2-e3de-4e2f-b53f-854bb74bae2f",
+      "position_mm": [
+        79.21,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B31'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B32",
+      "uuid": "d81368ad-2672-4144-8841-8789659390ef",
+      "position_mm": [
+        81.75,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B32'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B33",
+      "uuid": "99e5676d-5280-4883-89a1-cc86f5323ff4",
+      "position_mm": [
+        84.29,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B33'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B34",
+      "uuid": "5ef0bba3-9c69-40f7-bc90-3d9164a1dfec",
+      "position_mm": [
+        86.83,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B34'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B35",
+      "uuid": "db0bbaca-c079-4715-93e5-6ddcac453ac4",
+      "position_mm": [
+        89.37,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B35'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B36",
+      "uuid": "3ff0bbd8-b72c-4a92-9736-278547540020",
+      "position_mm": [
+        91.91,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B36'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B37",
+      "uuid": "44b42776-7a15-420b-a4a4-ae206110dc4a",
+      "position_mm": [
+        94.45,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B37'",
+      "minimum_mm": 0.4
+    },
+    {
+      "number": "B38",
+      "uuid": "ed25ca94-46ea-4eeb-9e21-59dce5adc8db",
+      "position_mm": [
+        96.99,
+        97.55
+      ],
+      "size_mm": [
+        1.5,
+        4.099999
+      ],
+      "condition": "A.Type == 'Pad' && A.memberOfFootprint('J_STRADDLE_EDGE') && A.Pad_Number == 'B38'",
+      "minimum_mm": 0.4
+    }
+  ]
+}
