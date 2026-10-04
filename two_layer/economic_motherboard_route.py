@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Bounded explicit Economic motherboard route, preserving audited silk."""
 from pathlib import Path
-import json,time,subprocess,hashlib
+import json,time,subprocess,hashlib,os
 import route_repaired as route
 import silk_refs
 ROOT=Path(__file__).resolve().parent
@@ -14,7 +14,7 @@ def main():
  if ses.exists():ses.rename(ROOT/'economic_motherboard_previous.ses')
  result={'release_authorized':False,'placement_sha256':placement['pcb_sha256']}
  try:
-  subprocess.run(['java','-Xmx6g','-jar',str(ROOT/'freerouting_bounded.jar'),'-de',str(dsn),'-do',str(ses),'--gui.enabled=false','-mp','4','-mt','1'],timeout=3600,check=True)
+  subprocess.run(['java','-Xmx6g','-jar',os.environ.get('ECONOMIC_ROUTER_JAR',str(ROOT/'freerouting_bounded.jar')),'-de',str(dsn),'-do',str(ses),'--gui.enabled=false','-mp','4','-mt','1'],timeout=3600,check=True)
   assert ses.exists() and ses.stat().st_size>100
   silk_refs.apply_silk=lambda b:silk_refs.audit_silk(b)
   route.finish(PCB,ses)
