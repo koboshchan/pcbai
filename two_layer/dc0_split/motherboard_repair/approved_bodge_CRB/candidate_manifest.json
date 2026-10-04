@@ -1,0 +1,43 @@
+{
+  "candidate": "/work/pcbai/two_layer/dc0_split/motherboard_repair/approved_bodge_CRB/post_crb.kicad_pcb",
+  "sha": "2d9c31c29f547419fe03c09b5cdac557ec5b5b10c9daffc802865c56e55777fa",
+  "pre_crb_sha": "712e19b2f461ccd1aa7053affc79b5e7babc7693eababe3192fc10941e6cd19b",
+  "CRB": {
+    "reference": "CRB",
+    "uuid": "a9e2d1e1-e484-4329-b668-c95a65b96c9f",
+    "old_footprint": "CP_Elec_5x5.8",
+    "new_footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "value": "10uF",
+    "specification": "10uF 25V X7R nonpolar ceramic",
+    "center_before": [
+      83000000,
+      94000000
+    ],
+    "center_after": [
+      83000000,
+      94000000
+    ],
+    "orientation_before": 180.0,
+    "orientation_after": 180.0,
+    "pad_net_before": {
+      "1": "+5V",
+      "2": "GND"
+    },
+    "pad_net_after": {
+      "1": "+5V",
+      "2": "GND"
+    },
+    "center_preserved": true,
+    "net_map_preserved": true,
+    "other_physical_unchanged": true,
+    "other_identity_unchanged": true,
+    "local_copper_added": [
+      "4bd02166-facf-4dfd-a6eb-974adfb9d3a0"
+    ],
+    "source_pre_sha": "712e19b2f461ccd1aa7053affc79b5e7babc7693eababe3192fc10941e6cd19b",
+    "LCSC": null,
+    "sourcing_status": "pending exact compatible part selection; obsolete electrolytic sourcing cleared"
+  },
+  "shared_BOM_pending_promotion": true,
+  "release_authorized": false
+}
