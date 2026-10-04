@@ -1225,12 +1225,12 @@
     {
       "board": "motherboard_adc_repaired_unrouted.kicad_pcb",
       "reference": "C_REG_IN",
-      "value": "0.33uF",
+      "value": "1uF",
       "footprint": "C_0805_2012Metric",
       "description": "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing); 50V X7R; >=0.33uF effective capacitance required",
-      "lcsc": "",
+      "lcsc": "C28323",
       "assembly": "JLC_SMD",
-      "stock_status": "unverified"
+      "stock_status": "verified_C28323_2026-10-04T07:49:15Z"
     },
     {
       "board": "motherboard_adc_repaired_unrouted.kicad_pcb",
