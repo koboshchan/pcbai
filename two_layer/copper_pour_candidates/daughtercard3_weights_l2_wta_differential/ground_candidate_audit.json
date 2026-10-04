@@ -1,0 +1,18 @@
+{
+  "errors": 76,
+  "opens": 0,
+  "warnings": 163,
+  "categories": {
+    "copper_edge_clearance": 76,
+    "lib_footprint_issues": 163
+  },
+  "source_sha256": "fc5b97c1068092910be16ea4e342ae0c0c8524affe952ab55fb664f5fcde4a1e",
+  "final_sha256": "c2bee06396869d1e3098187c89f323861555b430376b7c8ba2d5878a97fb7255",
+  "source_unchanged": true,
+  "footprint_identity_sha256": "55f2cc282b3b011ef098f0624a667d5f554863d6c75539410fc8340942d6eafb",
+  "footprint_identity_unchanged": true,
+  "old_zone_count": 0,
+  "final_zone_count": 2,
+  "accepted_stitch_positions_mm": [],
+  "release_authorized": false
+}

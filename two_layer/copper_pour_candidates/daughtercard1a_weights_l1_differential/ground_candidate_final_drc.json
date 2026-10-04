@@ -1,0 +1,4741 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-04T06:48:04",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "ground_candidate.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A1 [IN_0] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 3.01,
+                        "y": 97.55
+                    },
+                    "uuid": "58a29fed-7c93-4a19-a9f8-e080b0e570ba"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A2 [IN_1] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 5.55,
+                        "y": 97.55
+                    },
+                    "uuid": "fb17f2f6-b129-4891-be94-a54af7ac633e"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A3 [IN_2] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 8.09,
+                        "y": 97.55
+                    },
+                    "uuid": "7c718464-dbbe-413b-ba00-4b59760e4a7e"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A4 [IN_3] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 10.63,
+                        "y": 97.55
+                    },
+                    "uuid": "7414a4ae-8ab3-426c-9424-e85dec5e4025"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A5 [IN_4] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 13.17,
+                        "y": 97.55
+                    },
+                    "uuid": "30f9911c-42c7-4012-91be-974063b59433"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A6 [IN_5] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 15.71,
+                        "y": 97.55
+                    },
+                    "uuid": "4ef7eae5-a5e1-4e9b-85ad-15932a4ed63f"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A7 [IN_6] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 18.25,
+                        "y": 97.55
+                    },
+                    "uuid": "bcd86de2-3543-49a9-b152-f0104ea0e2cd"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A8 [IN_7] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 20.79,
+                        "y": 97.55
+                    },
+                    "uuid": "63e262c1-ada0-4b81-9c38-4163e6612bad"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A9 [IN_8] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 23.33,
+                        "y": 97.55
+                    },
+                    "uuid": "34426ca4-d4ea-40f5-b434-bcb272163e01"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A10 [IN_9] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 25.87,
+                        "y": 97.55
+                    },
+                    "uuid": "186509de-c638-4c84-a98a-2d1236d98715"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A11 [IN_10] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 28.41,
+                        "y": 97.55
+                    },
+                    "uuid": "0e00d424-bcd6-4675-bc4e-ece72bab3f3c"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A12 [IN_11] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 30.95,
+                        "y": 97.55
+                    },
+                    "uuid": "ddcc87fb-d7bf-46d4-ab42-37e26e3e3250"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A13 [IN_12] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 33.49,
+                        "y": 97.55
+                    },
+                    "uuid": "d95fed7c-0f30-4666-9451-53a936566fa5"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A14 [IN_13] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 36.03,
+                        "y": 97.55
+                    },
+                    "uuid": "a2779148-e068-4b29-b40e-bb5ba8a2dbb7"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A15 [IN_14] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 38.57,
+                        "y": 97.55
+                    },
+                    "uuid": "7cbff4dc-9950-469f-92d7-4c06a16370cc"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A16 [IN_15] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 41.11,
+                        "y": 97.55
+                    },
+                    "uuid": "ab5cccc4-908f-4d65-8830-d09c50f0b459"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A17 [IN_16] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 43.65,
+                        "y": 97.55
+                    },
+                    "uuid": "69f3f850-5b5e-4327-8681-a21f4a298e33"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A18 [IN_17] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 46.19,
+                        "y": 97.55
+                    },
+                    "uuid": "840df566-53b7-43af-9704-313c3aea5451"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A19 [IN_18] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 48.73,
+                        "y": 97.55
+                    },
+                    "uuid": "70ac828e-450b-4569-9be6-195fe0daebe5"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A20 [IN_19] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 51.27,
+                        "y": 97.55
+                    },
+                    "uuid": "9e531f04-f36e-4f65-aad6-4d0db550c9ae"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A21 [IN_20] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 53.81,
+                        "y": 97.55
+                    },
+                    "uuid": "bc80c559-1eb0-47d0-92fa-1ea2c6f99830"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A22 [IN_21] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 56.35,
+                        "y": 97.55
+                    },
+                    "uuid": "e98e6f0e-43b6-4eb5-b5c9-0328e022a78e"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A23 [IN_22] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 58.89,
+                        "y": 97.55
+                    },
+                    "uuid": "3f90bbd0-9f88-4995-bc37-51f7b699b7b2"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A24 [IN_23] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 61.43,
+                        "y": 97.55
+                    },
+                    "uuid": "940bdc51-96df-4499-bc7a-96b4d99cb1b4"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A25 [IN_24] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 63.97,
+                        "y": 97.55
+                    },
+                    "uuid": "7474b6e8-2fc4-497f-aa4e-6a94a5dda2e2"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A26 [IN_25] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 66.51,
+                        "y": 97.55
+                    },
+                    "uuid": "9c5039e5-e681-4efe-b3c0-52033505d465"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A27 [IN_26] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 69.05,
+                        "y": 97.55
+                    },
+                    "uuid": "5b5a9fc8-a080-44e2-96e3-90a524aff707"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A28 [IN_27] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 71.59,
+                        "y": 97.55
+                    },
+                    "uuid": "1b816c5c-ee4c-497a-98aa-60e5f77c298f"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A29 [IN_28] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 74.13,
+                        "y": 97.55
+                    },
+                    "uuid": "fa9e1c01-4e8e-45f0-a8d2-206e5559754a"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A30 [IN_29] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 76.67,
+                        "y": 97.55
+                    },
+                    "uuid": "6f48125c-c932-4639-b106-02f430a766bf"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A31 [IN_30] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 79.21,
+                        "y": 97.55
+                    },
+                    "uuid": "35cd10f6-a35b-4dd2-bf55-efed7cebe2c4"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A32 [IN_31] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 81.75,
+                        "y": 97.55
+                    },
+                    "uuid": "e4a6d206-d9bf-49c2-9678-7d2e17319317"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A33 [V_SUM_0] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 84.29,
+                        "y": 97.55
+                    },
+                    "uuid": "b69ce3cc-dc04-4fd6-b771-6a4877e515ad"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A34 [V_SUM_1] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 86.83,
+                        "y": 97.55
+                    },
+                    "uuid": "aca1609c-409e-43fa-90b3-553126bd09c6"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A35 [V_SUM_2] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 89.37,
+                        "y": 97.55
+                    },
+                    "uuid": "eeaa5003-9dfe-42a4-969c-1a611a90b7b6"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A36 [V_SUM_3] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 91.91,
+                        "y": 97.55
+                    },
+                    "uuid": "6f500b16-d2a6-4657-8116-84a94ddb72fe"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A37 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 94.45,
+                        "y": 97.55
+                    },
+                    "uuid": "c444fce2-ba37-4cb6-8a1e-17459df2c047"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad A38 [GND] of J_STRADDLE_EDGE on F.Cu",
+                    "pos": {
+                        "x": 96.99,
+                        "y": 97.55
+                    },
+                    "uuid": "1fc09c87-12af-4aa7-be2c-074819f3ea35"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B1 [IN_32] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 3.01,
+                        "y": 97.55
+                    },
+                    "uuid": "0084e8f0-2f5b-42af-8edc-c09aa056830a"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B2 [IN_33] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 5.55,
+                        "y": 97.55
+                    },
+                    "uuid": "d2d4438b-10b3-4934-bcc9-a673d133d6d1"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B3 [IN_34] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 8.09,
+                        "y": 97.55
+                    },
+                    "uuid": "3182f96a-59a1-44c0-9393-a819d2922698"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B4 [IN_35] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 10.63,
+                        "y": 97.55
+                    },
+                    "uuid": "1cfe1425-b79d-46cc-9098-8de90e2765c8"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B5 [IN_36] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 13.17,
+                        "y": 97.55
+                    },
+                    "uuid": "29d1f5d5-1cf9-48f1-9204-d75f72408adb"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B6 [IN_37] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 15.71,
+                        "y": 97.55
+                    },
+                    "uuid": "f8b78c48-bd57-4146-87bb-6b0f2ff2c7d1"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B7 [IN_38] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 18.25,
+                        "y": 97.55
+                    },
+                    "uuid": "2fb2fec9-ecc4-4b95-a22c-2a78eb233a96"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B8 [IN_39] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 20.79,
+                        "y": 97.55
+                    },
+                    "uuid": "cd6b598e-cf52-4626-b6eb-510e424c0dbe"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B9 [IN_40] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 23.33,
+                        "y": 97.55
+                    },
+                    "uuid": "a12c7e6b-e2fa-4b10-b446-57fd0618335a"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B10 [IN_41] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 25.87,
+                        "y": 97.55
+                    },
+                    "uuid": "fad91ef3-c85a-4496-ae8e-f35946373835"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B11 [IN_42] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 28.41,
+                        "y": 97.55
+                    },
+                    "uuid": "b9e9457d-a286-4bb4-8cc6-fadf054bb13c"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B12 [IN_43] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 30.95,
+                        "y": 97.55
+                    },
+                    "uuid": "9851823f-a982-422c-9bd1-5d8f9b05af4f"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B13 [IN_44] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 33.49,
+                        "y": 97.55
+                    },
+                    "uuid": "875b3c55-5c85-42f8-8202-bbee2cb5fd99"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B14 [IN_45] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 36.03,
+                        "y": 97.55
+                    },
+                    "uuid": "4abea70d-87c6-41d2-beb0-e7028add1ce4"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B15 [IN_46] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 38.57,
+                        "y": 97.55
+                    },
+                    "uuid": "59f55099-db95-4005-8879-eb358a9cde9b"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B16 [IN_47] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 41.11,
+                        "y": 97.55
+                    },
+                    "uuid": "bf6d8145-4198-40a5-965a-4e53ce112a83"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B17 [IN_48] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 43.65,
+                        "y": 97.55
+                    },
+                    "uuid": "1e2e5786-a29c-43cf-a108-8da46ecc2164"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B18 [IN_49] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 46.19,
+                        "y": 97.55
+                    },
+                    "uuid": "e5f607e7-07e3-4ead-af01-50ccf0e97bb1"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B19 [IN_50] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 48.73,
+                        "y": 97.55
+                    },
+                    "uuid": "f0982f69-7511-4ae3-a5cf-94db513a5038"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B20 [IN_51] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 51.27,
+                        "y": 97.55
+                    },
+                    "uuid": "0ded9fd2-8061-4796-8939-63a919cf4738"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B21 [IN_52] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 53.81,
+                        "y": 97.55
+                    },
+                    "uuid": "2073356d-f695-4b57-bdc0-b1727ee607c2"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B22 [IN_53] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 56.35,
+                        "y": 97.55
+                    },
+                    "uuid": "3e80d45b-869c-48dc-bdec-79fae2e2e110"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B23 [IN_54] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 58.89,
+                        "y": 97.55
+                    },
+                    "uuid": "3f148efe-c785-40c9-b18f-c7d63f5185b3"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B24 [IN_55] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 61.43,
+                        "y": 97.55
+                    },
+                    "uuid": "66ae719d-7cf8-449d-8fa9-95c303277683"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B25 [IN_56] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 63.97,
+                        "y": 97.55
+                    },
+                    "uuid": "3d802f42-e6fc-466e-a05f-2472aa171eb2"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B26 [IN_57] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 66.51,
+                        "y": 97.55
+                    },
+                    "uuid": "d7e8d193-ac2a-4dab-8a20-e7dc14333bf8"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B27 [IN_58] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 69.05,
+                        "y": 97.55
+                    },
+                    "uuid": "1edf21cd-f0a0-4d69-843c-fd2a9ddc31ac"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B28 [IN_59] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 71.59,
+                        "y": 97.55
+                    },
+                    "uuid": "601740ad-7edf-48bb-bec9-cd86c2c55238"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B29 [IN_60] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 74.13,
+                        "y": 97.55
+                    },
+                    "uuid": "1ffb5729-3d0b-4392-ba4d-0fa80cc3963b"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B30 [IN_61] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 76.67,
+                        "y": 97.55
+                    },
+                    "uuid": "42503b3a-62b9-400a-b7c6-a1afb5d21a1a"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B31 [IN_62] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 79.21,
+                        "y": 97.55
+                    },
+                    "uuid": "ba010090-4fd2-44b5-9bf7-69f3643047dc"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B32 [IN_63] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 81.75,
+                        "y": 97.55
+                    },
+                    "uuid": "2e927094-62b5-46db-8f81-f9529c699fb5"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B33 [+15V] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 84.29,
+                        "y": 97.55
+                    },
+                    "uuid": "3f5082f3-3e3e-4410-bc42-ff12ac52576f"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B34 [+15V] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 86.83,
+                        "y": 97.55
+                    },
+                    "uuid": "2dc0aa36-58d5-4e6e-a3a9-470602bc8823"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B35 [+5V_REF] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 89.37,
+                        "y": 97.55
+                    },
+                    "uuid": "7475ac59-39e9-4b05-9049-8dabe1d3443c"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B36 [-5V_REF] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 91.91,
+                        "y": 97.55
+                    },
+                    "uuid": "6db3d5c2-9ae4-4105-95a0-60958f54c383"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B37 [-15V] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 94.45,
+                        "y": 97.55
+                    },
+                    "uuid": "69fb58a9-403c-4003-a3d8-a8c05bf20fc6"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "d154d949-cbb3-4446-85d2-c00bf08ab5c2"
+                },
+                {
+                    "description": "Pad B38 [-15V] of J_STRADDLE_EDGE on B.Cu",
+                    "pos": {
+                        "x": 96.99,
+                        "y": 97.55
+                    },
+                    "uuid": "f4e3429c-727e-494a-833b-3aa3a1622153"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_31_2",
+                    "pos": {
+                        "x": 81.75,
+                        "y": 33.0
+                    },
+                    "uuid": "0244eed3-b525-474d-978f-761c0a150aa0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_9_1",
+                    "pos": {
+                        "x": 25.87,
+                        "y": 25.0
+                    },
+                    "uuid": "0529186d-23b5-4253-b57c-4a44bb28c5fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_45_3",
+                    "pos": {
+                        "x": 36.03,
+                        "y": 78.0
+                    },
+                    "uuid": "07339247-1794-44b3-9b01-546a63c06c2b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_20_0",
+                    "pos": {
+                        "x": 53.81,
+                        "y": 17.0
+                    },
+                    "uuid": "098e1128-a196-4233-b135-b8ee42c01466"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_46_3",
+                    "pos": {
+                        "x": 38.57,
+                        "y": 78.0
+                    },
+                    "uuid": "0b7fb59d-3b96-4a05-b81b-0bc9dbad250f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_60_2",
+                    "pos": {
+                        "x": 74.13,
+                        "y": 70.0
+                    },
+                    "uuid": "0bd141dd-454c-4f3e-8645-9265e20401fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_10_0",
+                    "pos": {
+                        "x": 28.41,
+                        "y": 17.0
+                    },
+                    "uuid": "0cd24d67-ad1f-40c6-be0e-82b31c8b28c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_27_3",
+                    "pos": {
+                        "x": 71.59,
+                        "y": 41.0
+                    },
+                    "uuid": "0f4715c0-ff4b-4d52-b22b-011a6babd0a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_38_0",
+                    "pos": {
+                        "x": 18.25,
+                        "y": 54.0
+                    },
+                    "uuid": "10b11387-0d1e-447f-b094-8b03bdef917d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_13_3",
+                    "pos": {
+                        "x": 36.03,
+                        "y": 41.0
+                    },
+                    "uuid": "1122d42f-8db9-45ad-9799-4fb9d21c0ccc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_0_3",
+                    "pos": {
+                        "x": 3.01,
+                        "y": 41.0
+                    },
+                    "uuid": "113afa82-aad5-45a7-a7b9-64b74c51f471"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_51_2",
+                    "pos": {
+                        "x": 51.27,
+                        "y": 70.0
+                    },
+                    "uuid": "11533037-44de-4776-b032-f237b515af45"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_29_0",
+                    "pos": {
+                        "x": 76.67,
+                        "y": 17.0
+                    },
+                    "uuid": "1248973c-39a8-4f2c-abe0-2915d146e917"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_11_2",
+                    "pos": {
+                        "x": 30.95,
+                        "y": 33.0
+                    },
+                    "uuid": "1441552d-a511-4bee-9de2-dce99ea59ead"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_37_0",
+                    "pos": {
+                        "x": 15.71,
+                        "y": 54.0
+                    },
+                    "uuid": "187e544e-fbec-4f9a-8640-60b70df3fcc8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_32_1",
+                    "pos": {
+                        "x": 3.01,
+                        "y": 62.0
+                    },
+                    "uuid": "19931bb4-2cac-40dd-b358-2549bb6a08d8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_35_1",
+                    "pos": {
+                        "x": 10.63,
+                        "y": 62.0
+                    },
+                    "uuid": "19ef2976-c453-4f64-a4ba-c7f1787086e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_1_2",
+                    "pos": {
+                        "x": 5.55,
+                        "y": 33.0
+                    },
+                    "uuid": "1b2abccc-7229-4690-b8f7-21582aeb2f8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_20_3",
+                    "pos": {
+                        "x": 53.81,
+                        "y": 41.0
+                    },
+                    "uuid": "1b4c20c0-0a17-4d8a-81bd-c6ea80733df7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_18_2",
+                    "pos": {
+                        "x": 48.73,
+                        "y": 33.0
+                    },
+                    "uuid": "1bf431e8-84eb-4b6f-abc2-68cdc1ef143b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_25_3",
+                    "pos": {
+                        "x": 66.51,
+                        "y": 41.0
+                    },
+                    "uuid": "1c5a604c-7f58-4863-912c-7717dff74a5c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_49_3",
+                    "pos": {
+                        "x": 46.19,
+                        "y": 78.0
+                    },
+                    "uuid": "1dd6fb32-a190-4ead-b263-2f05f80581ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_52_0",
+                    "pos": {
+                        "x": 53.81,
+                        "y": 54.0
+                    },
+                    "uuid": "1e0ae637-39ef-4590-b5d5-a4aa8a36cbb8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_0_0",
+                    "pos": {
+                        "x": 3.01,
+                        "y": 17.0
+                    },
+                    "uuid": "1e31fbbf-5b22-400f-896b-b3c2cf3dead7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_44_3",
+                    "pos": {
+                        "x": 33.49,
+                        "y": 78.0
+                    },
+                    "uuid": "1e579647-76eb-41ef-a6e0-5e0d3f2ca730"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_8_3",
+                    "pos": {
+                        "x": 23.33,
+                        "y": 41.0
+                    },
+                    "uuid": "1fd61ae5-bae8-43f3-9d06-965aedccb9ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_53_3",
+                    "pos": {
+                        "x": 56.35,
+                        "y": 78.0
+                    },
+                    "uuid": "221af40f-db11-4ec7-9e33-9a9800605b7d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_47_0",
+                    "pos": {
+                        "x": 41.11,
+                        "y": 54.0
+                    },
+                    "uuid": "221f8986-2bd4-4839-97d0-81a1cb134b50"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_39_0",
+                    "pos": {
+                        "x": 20.79,
+                        "y": 54.0
+                    },
+                    "uuid": "2237567e-455b-4073-970a-a9dfcd7a8d9f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_31_0",
+                    "pos": {
+                        "x": 81.75,
+                        "y": 17.0
+                    },
+                    "uuid": "25d9e171-45fd-4457-8317-09b8a78c0040"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_61_3",
+                    "pos": {
+                        "x": 76.67,
+                        "y": 78.0
+                    },
+                    "uuid": "2790f60a-9ef2-44a2-af3e-28ad3dd7f602"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_35_2",
+                    "pos": {
+                        "x": 10.63,
+                        "y": 70.0
+                    },
+                    "uuid": "27a49ac1-1929-4f9f-82eb-fded2b1d4697"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_12_0",
+                    "pos": {
+                        "x": 33.49,
+                        "y": 17.0
+                    },
+                    "uuid": "286794ea-fb82-4159-9e84-48d8c9daf850"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_34_2",
+                    "pos": {
+                        "x": 8.09,
+                        "y": 70.0
+                    },
+                    "uuid": "2c1b82d7-5a67-4587-a77b-f8a087f54ce9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_27_0",
+                    "pos": {
+                        "x": 71.59,
+                        "y": 17.0
+                    },
+                    "uuid": "2e72ab86-ec16-4f95-ae5d-24d6e4117db3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_41_1",
+                    "pos": {
+                        "x": 25.87,
+                        "y": 62.0
+                    },
+                    "uuid": "2fbb44ea-1dec-4154-8f0b-e801c419e2c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'MountingHole'",
+            "items": [
+                {
+                    "description": "Footprint H1",
+                    "pos": {
+                        "x": 5.0,
+                        "y": 5.0
+                    },
+                    "uuid": "307963d0-4c2c-4e63-8840-22c65c50a42e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_44_0",
+                    "pos": {
+                        "x": 33.49,
+                        "y": 54.0
+                    },
+                    "uuid": "30aeae47-0aa7-4dd0-a6f7-828ea4aa2c34"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_9_0",
+                    "pos": {
+                        "x": 25.87,
+                        "y": 17.0
+                    },
+                    "uuid": "30f7a867-d770-4155-999d-1631e5006fbe"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_19_3",
+                    "pos": {
+                        "x": 51.27,
+                        "y": 41.0
+                    },
+                    "uuid": "313b2136-ccdc-4566-a8ae-24551765a299"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_32_2",
+                    "pos": {
+                        "x": 3.01,
+                        "y": 70.0
+                    },
+                    "uuid": "33aaa593-eef1-415c-901f-ca8803129b3d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_39_2",
+                    "pos": {
+                        "x": 20.79,
+                        "y": 70.0
+                    },
+                    "uuid": "34706ba2-310b-41c4-9c29-6c9cccd98957"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_13_2",
+                    "pos": {
+                        "x": 36.03,
+                        "y": 33.0
+                    },
+                    "uuid": "35d2b645-f054-4819-bc44-881ad16b246e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_36_0",
+                    "pos": {
+                        "x": 13.17,
+                        "y": 54.0
+                    },
+                    "uuid": "38d79ca6-4a05-484e-8767-2a692d7a0e1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_60_0",
+                    "pos": {
+                        "x": 74.13,
+                        "y": 54.0
+                    },
+                    "uuid": "39365fba-a877-42c8-b50e-d569fdb0e68d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_44_2",
+                    "pos": {
+                        "x": 33.49,
+                        "y": 70.0
+                    },
+                    "uuid": "3939907d-cbc2-42ee-87d9-0d071a449659"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_59_0",
+                    "pos": {
+                        "x": 71.59,
+                        "y": 54.0
+                    },
+                    "uuid": "3a838bce-fcf9-445d-956d-8859b94bd556"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_29_2",
+                    "pos": {
+                        "x": 76.67,
+                        "y": 33.0
+                    },
+                    "uuid": "3c17b344-5fc4-4b90-bb65-f9de80ca05a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_40_0",
+                    "pos": {
+                        "x": 23.33,
+                        "y": 54.0
+                    },
+                    "uuid": "3c3ea02f-9e59-4fa3-a70d-cec51aca7f62"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_39_3",
+                    "pos": {
+                        "x": 20.79,
+                        "y": 78.0
+                    },
+                    "uuid": "3ca78e10-9c2a-48ae-9a74-fe610c9e585b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_29_3",
+                    "pos": {
+                        "x": 76.67,
+                        "y": 41.0
+                    },
+                    "uuid": "3d265e31-4074-4be3-a1c6-43284d65a25f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_42_2",
+                    "pos": {
+                        "x": 28.41,
+                        "y": 70.0
+                    },
+                    "uuid": "3dbe2c5e-98a1-4495-a746-2209ebe2344a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_33_2",
+                    "pos": {
+                        "x": 5.55,
+                        "y": 70.0
+                    },
+                    "uuid": "404a1ca5-62b9-4f1e-bbba-b0d8eab8866a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_21_0",
+                    "pos": {
+                        "x": 56.35,
+                        "y": 17.0
+                    },
+                    "uuid": "41618c9e-bddc-41ed-b993-9425b9cfea98"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_22_2",
+                    "pos": {
+                        "x": 58.89,
+                        "y": 33.0
+                    },
+                    "uuid": "445c2b29-8e1b-4104-af0e-3894ccf70fec"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_21_3",
+                    "pos": {
+                        "x": 56.35,
+                        "y": 41.0
+                    },
+                    "uuid": "46dff324-cd16-43b4-8f30-c6421823b160"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_38_2",
+                    "pos": {
+                        "x": 18.25,
+                        "y": 70.0
+                    },
+                    "uuid": "47517dd1-fe4e-4073-844e-01fa3ec9f834"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_4_0",
+                    "pos": {
+                        "x": 13.17,
+                        "y": 17.0
+                    },
+                    "uuid": "4758dda6-296a-4e9d-8a54-4e5c9b840c06"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_56_3",
+                    "pos": {
+                        "x": 63.97,
+                        "y": 78.0
+                    },
+                    "uuid": "48fb9114-28f0-4112-b6de-fb77eab21eb1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_26_3",
+                    "pos": {
+                        "x": 69.05,
+                        "y": 41.0
+                    },
+                    "uuid": "49180dc2-7f45-4960-8cc6-aa08fcc152c1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_53_2",
+                    "pos": {
+                        "x": 56.35,
+                        "y": 70.0
+                    },
+                    "uuid": "491d9995-af38-4b6f-9643-13a5a0addc04"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_8_1",
+                    "pos": {
+                        "x": 23.33,
+                        "y": 25.0
+                    },
+                    "uuid": "495b5d7f-4098-426d-8fe3-167be5e08641"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_55_3",
+                    "pos": {
+                        "x": 61.43,
+                        "y": 78.0
+                    },
+                    "uuid": "4ad13354-7f7c-4329-a1ef-e698e8f31ffa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C_U1P",
+                    "pos": {
+                        "x": 80.5,
+                        "y": 47.5
+                    },
+                    "uuid": "4ba07dcd-d3d2-4d8c-a63b-f8206b5cba20"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_5_2",
+                    "pos": {
+                        "x": 15.71,
+                        "y": 33.0
+                    },
+                    "uuid": "4c2339da-b9e6-45e3-8d19-eff7a48ca10b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint Rb_N2",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 61.0
+                    },
+                    "uuid": "4c3a84c2-9cdc-47c6-88f5-599faf3f25c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_18_0",
+                    "pos": {
+                        "x": 48.73,
+                        "y": 17.0
+                    },
+                    "uuid": "4e37d86d-6216-486d-a507-0f921ea79dfd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_34_0",
+                    "pos": {
+                        "x": 8.09,
+                        "y": 54.0
+                    },
+                    "uuid": "51031b6f-a1bf-49ca-bdac-51e365d9a56b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_27_2",
+                    "pos": {
+                        "x": 71.59,
+                        "y": 33.0
+                    },
+                    "uuid": "51999557-16da-4eae-8cf0-a0e138e1d043"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_10_2",
+                    "pos": {
+                        "x": 28.41,
+                        "y": 33.0
+                    },
+                    "uuid": "531466d7-69f2-406d-bca1-931071458908"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_3_2",
+                    "pos": {
+                        "x": 10.63,
+                        "y": 33.0
+                    },
+                    "uuid": "5383d8b1-cbc1-417b-a01d-3acbfb415de5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_BAL_1_2",
+                    "pos": {
+                        "x": 73.0,
+                        "y": 92.0
+                    },
+                    "uuid": "55544c8c-0f52-416b-b385-16ecde8b8742"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_55_2",
+                    "pos": {
+                        "x": 61.43,
+                        "y": 70.0
+                    },
+                    "uuid": "567951b3-c9a0-4308-a6f1-fbd370d7c9aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_6_0",
+                    "pos": {
+                        "x": 18.25,
+                        "y": 17.0
+                    },
+                    "uuid": "575f129f-31aa-442d-a792-b19af97e2756"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_15_0",
+                    "pos": {
+                        "x": 41.11,
+                        "y": 17.0
+                    },
+                    "uuid": "577794de-50d0-4bf5-ada9-956fd7f0b269"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_53_1",
+                    "pos": {
+                        "x": 56.35,
+                        "y": 62.0
+                    },
+                    "uuid": "579d99a9-8d5c-4533-b1eb-a9f92e68cb93"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_49_0",
+                    "pos": {
+                        "x": 46.19,
+                        "y": 54.0
+                    },
+                    "uuid": "58135cdf-0474-486d-8f14-a27447a3ecc9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_33_3",
+                    "pos": {
+                        "x": 5.55,
+                        "y": 78.0
+                    },
+                    "uuid": "58eeb6ba-59c7-41e0-bced-78dca5c895bf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_41_3",
+                    "pos": {
+                        "x": 25.87,
+                        "y": 78.0
+                    },
+                    "uuid": "5956a49b-5917-4367-a7ec-546e91b641d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_25_0",
+                    "pos": {
+                        "x": 66.51,
+                        "y": 17.0
+                    },
+                    "uuid": "59674abf-0647-4c31-be99-ee2312674d2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint Rf_N3",
+                    "pos": {
+                        "x": 90.5,
+                        "y": 36.0
+                    },
+                    "uuid": "59fef363-d229-4ef5-a023-29654d6850b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_60_3",
+                    "pos": {
+                        "x": 74.13,
+                        "y": 78.0
+                    },
+                    "uuid": "5c62cd15-e11d-407b-8a0e-31189d912f1e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_2_0",
+                    "pos": {
+                        "x": 8.09,
+                        "y": 17.0
+                    },
+                    "uuid": "5cefa461-e07a-4ed4-8ff5-cd0291cdd492"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_43_0",
+                    "pos": {
+                        "x": 30.95,
+                        "y": 54.0
+                    },
+                    "uuid": "5fc59447-b517-44a2-b32b-b68bd3db5d71"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_47_2",
+                    "pos": {
+                        "x": 41.11,
+                        "y": 70.0
+                    },
+                    "uuid": "60f2094d-9fce-483d-9305-907203c8e513"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_1_3",
+                    "pos": {
+                        "x": 5.55,
+                        "y": 41.0
+                    },
+                    "uuid": "6186f06a-1629-44d6-9b6f-fab701295961"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_23_2",
+                    "pos": {
+                        "x": 61.43,
+                        "y": 33.0
+                    },
+                    "uuid": "62a9b39b-9cc0-4813-b3cf-9b51f5491c32"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_41_0",
+                    "pos": {
+                        "x": 25.87,
+                        "y": 54.0
+                    },
+                    "uuid": "6384d21d-1057-4c41-81c9-b00587e4d487"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_22_3",
+                    "pos": {
+                        "x": 58.89,
+                        "y": 41.0
+                    },
+                    "uuid": "65f6b9df-d016-4323-b713-63ebfb39703c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_58_2",
+                    "pos": {
+                        "x": 69.05,
+                        "y": 70.0
+                    },
+                    "uuid": "677b77fd-8ac8-46fa-9800-529bc96a39a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_6_3",
+                    "pos": {
+                        "x": 18.25,
+                        "y": 41.0
+                    },
+                    "uuid": "68f83dd9-42bd-4e53-a067-51ae9d0c3567"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_30_2",
+                    "pos": {
+                        "x": 79.21,
+                        "y": 33.0
+                    },
+                    "uuid": "6a6d15e8-acc6-429e-8050-182daf1a28b7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_53_0",
+                    "pos": {
+                        "x": 56.35,
+                        "y": 54.0
+                    },
+                    "uuid": "72f72029-d3bb-47f9-9a56-78a297b672ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_48_3",
+                    "pos": {
+                        "x": 43.65,
+                        "y": 78.0
+                    },
+                    "uuid": "75919a19-23a9-47b4-bfb9-2c82b18a098d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_24_3",
+                    "pos": {
+                        "x": 63.97,
+                        "y": 41.0
+                    },
+                    "uuid": "767f50c3-8167-44db-9c7c-e94f7101af0f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_49_2",
+                    "pos": {
+                        "x": 46.19,
+                        "y": 70.0
+                    },
+                    "uuid": "76fcc08e-db6d-475e-96ca-30da4046174c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_31_1",
+                    "pos": {
+                        "x": 81.75,
+                        "y": 25.0
+                    },
+                    "uuid": "7dd4f61f-5f98-457d-b145-66cb4179338d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_21_2",
+                    "pos": {
+                        "x": 56.35,
+                        "y": 33.0
+                    },
+                    "uuid": "7ed7316f-775f-46af-adf0-4605e1df44ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_24_2",
+                    "pos": {
+                        "x": 63.97,
+                        "y": 33.0
+                    },
+                    "uuid": "802e5574-488c-4cd3-b644-f03362abaa2d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_26_2",
+                    "pos": {
+                        "x": 69.05,
+                        "y": 33.0
+                    },
+                    "uuid": "8035eb21-e502-4d77-acf9-83ae4a466946"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_33_0",
+                    "pos": {
+                        "x": 5.55,
+                        "y": 54.0
+                    },
+                    "uuid": "830d2d52-b4f4-4dca-a20a-1a60a76e25d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_30_3",
+                    "pos": {
+                        "x": 79.21,
+                        "y": 41.0
+                    },
+                    "uuid": "8337e769-56ae-4bab-8cfc-df184da0466b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_32_0",
+                    "pos": {
+                        "x": 3.01,
+                        "y": 54.0
+                    },
+                    "uuid": "84156ed9-fef9-4669-9366-d40df3ca3493"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_51_3",
+                    "pos": {
+                        "x": 51.27,
+                        "y": 78.0
+                    },
+                    "uuid": "84728601-5b5d-4594-9982-78b32036004b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_62_1",
+                    "pos": {
+                        "x": 79.21,
+                        "y": 62.0
+                    },
+                    "uuid": "84ffb300-e4e2-4416-9d85-fc021206ef84"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_17_3",
+                    "pos": {
+                        "x": 46.19,
+                        "y": 41.0
+                    },
+                    "uuid": "85160d99-7065-49a4-8da0-e5d8de8dc6e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'MountingHole'",
+            "items": [
+                {
+                    "description": "Footprint H2",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 5.0
+                    },
+                    "uuid": "852b54ce-b0f1-4b5d-938a-33b5d35649eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_62_0",
+                    "pos": {
+                        "x": 79.21,
+                        "y": 54.0
+                    },
+                    "uuid": "86954be4-1c22-44f2-8f6a-ec5f43ab477c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_16_2",
+                    "pos": {
+                        "x": 43.65,
+                        "y": 33.0
+                    },
+                    "uuid": "87b12eca-9088-4f29-af9d-7aefeddf8bbe"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_59_2",
+                    "pos": {
+                        "x": 71.59,
+                        "y": 70.0
+                    },
+                    "uuid": "87e10f1b-4953-47b8-b0da-886117e4b7d0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_33_1",
+                    "pos": {
+                        "x": 5.55,
+                        "y": 62.0
+                    },
+                    "uuid": "899f7312-252c-40b4-b977-95953133b297"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_23_3",
+                    "pos": {
+                        "x": 61.43,
+                        "y": 41.0
+                    },
+                    "uuid": "89ba40b5-f3de-48d6-9c26-1d1fe2547742"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_1_0",
+                    "pos": {
+                        "x": 5.55,
+                        "y": 17.0
+                    },
+                    "uuid": "8a12075a-9518-4e76-9dd2-48b9d28098d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_45_1",
+                    "pos": {
+                        "x": 36.03,
+                        "y": 62.0
+                    },
+                    "uuid": "8bbc1ea0-0926-4135-98e2-83780fcd5eca"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_8_0",
+                    "pos": {
+                        "x": 23.33,
+                        "y": 17.0
+                    },
+                    "uuid": "8e6b990d-ac39-4c06-8190-0521a5bbec9f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_9_3",
+                    "pos": {
+                        "x": 25.87,
+                        "y": 41.0
+                    },
+                    "uuid": "9240957e-fb6f-40d6-b231-ef676713772e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_47_3",
+                    "pos": {
+                        "x": 41.11,
+                        "y": 78.0
+                    },
+                    "uuid": "9408ec84-01ba-4809-90e5-7977f17a1324"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_24_0",
+                    "pos": {
+                        "x": 63.97,
+                        "y": 17.0
+                    },
+                    "uuid": "94587c56-2b62-4b80-b28e-349b2e25e7bf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint Rf_N2",
+                    "pos": {
+                        "x": 90.5,
+                        "y": 56.0
+                    },
+                    "uuid": "94c8e35a-1e33-47b6-920c-d0a565fae742"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_7_3",
+                    "pos": {
+                        "x": 20.79,
+                        "y": 41.0
+                    },
+                    "uuid": "9578d08d-7ae2-4065-877b-8d7404248a83"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_23_0",
+                    "pos": {
+                        "x": 61.43,
+                        "y": 17.0
+                    },
+                    "uuid": "975ebfb4-5697-46ee-820c-ead628f9024a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 88.0,
+                        "y": 47.5
+                    },
+                    "uuid": "998897aa-7d9a-426b-a5c5-5f1930fa4e31"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_52_2",
+                    "pos": {
+                        "x": 53.81,
+                        "y": 70.0
+                    },
+                    "uuid": "9bbdfe78-c82b-423b-8c73-936542a41bec"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_51_0",
+                    "pos": {
+                        "x": 51.27,
+                        "y": 54.0
+                    },
+                    "uuid": "9c46785f-49f5-45fd-94b5-576dcf562d60"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_19_2",
+                    "pos": {
+                        "x": 51.27,
+                        "y": 33.0
+                    },
+                    "uuid": "a1522377-198d-45dc-9c66-0c028f913fe4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_13_0",
+                    "pos": {
+                        "x": 36.03,
+                        "y": 17.0
+                    },
+                    "uuid": "a4ef5b8d-21d9-44a3-b751-3a31196c0187"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_31_3",
+                    "pos": {
+                        "x": 81.75,
+                        "y": 41.0
+                    },
+                    "uuid": "a72aa82d-0d12-4b60-9519-b234b0f4d5c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_43_3",
+                    "pos": {
+                        "x": 30.95,
+                        "y": 78.0
+                    },
+                    "uuid": "a7c234c1-1525-4f83-86c0-b4e07a15a7f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_59_3",
+                    "pos": {
+                        "x": 71.59,
+                        "y": 78.0
+                    },
+                    "uuid": "a8626e67-ce89-4858-a7bf-1cd621083601"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_37_1",
+                    "pos": {
+                        "x": 15.71,
+                        "y": 62.0
+                    },
+                    "uuid": "a897d8db-dda1-425c-bbb5-69c1868d62b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_35_0",
+                    "pos": {
+                        "x": 10.63,
+                        "y": 54.0
+                    },
+                    "uuid": "aa49039f-bcbc-4ddc-b6ae-90f0c051e271"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_2_2",
+                    "pos": {
+                        "x": 8.09,
+                        "y": 33.0
+                    },
+                    "uuid": "aa8844e6-1507-454f-a35d-39c6287e0714"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_50_3",
+                    "pos": {
+                        "x": 48.73,
+                        "y": 78.0
+                    },
+                    "uuid": "aa92b4ba-eca3-4e4a-879b-728800e5e254"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_37_2",
+                    "pos": {
+                        "x": 15.71,
+                        "y": 70.0
+                    },
+                    "uuid": "aafeabe5-4251-4e74-ae20-12bbbac27e6c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_5_3",
+                    "pos": {
+                        "x": 15.71,
+                        "y": 41.0
+                    },
+                    "uuid": "ab6576d9-6157-4a62-a56a-f34ece74dd3b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_BAL_1_0",
+                    "pos": {
+                        "x": 73.0,
+                        "y": 84.0
+                    },
+                    "uuid": "acd00226-2e25-4c4d-a33e-1281b30e9bcd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_16_3",
+                    "pos": {
+                        "x": 43.65,
+                        "y": 41.0
+                    },
+                    "uuid": "aced4b9a-36e3-4b90-b0db-a968be5dc2ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_63_3",
+                    "pos": {
+                        "x": 81.75,
+                        "y": 78.0
+                    },
+                    "uuid": "addae971-05eb-4936-80eb-cdb7173f87b8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_43_2",
+                    "pos": {
+                        "x": 30.95,
+                        "y": 70.0
+                    },
+                    "uuid": "af0aead3-4241-46e1-81e0-394334508224"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_18_3",
+                    "pos": {
+                        "x": 48.73,
+                        "y": 41.0
+                    },
+                    "uuid": "af618cc9-9e70-4a02-b18c-078ac35bb8a8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_2_3",
+                    "pos": {
+                        "x": 8.09,
+                        "y": 41.0
+                    },
+                    "uuid": "b4a05c23-e88f-4ff0-86af-6f0faf512ba4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_62_3",
+                    "pos": {
+                        "x": 79.21,
+                        "y": 78.0
+                    },
+                    "uuid": "b7097274-04e3-4a65-9ac8-d1d62257c9de"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint Rf_N1",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 56.0
+                    },
+                    "uuid": "b74f7eae-c258-4314-8415-d58f1287b42b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_52_1",
+                    "pos": {
+                        "x": 53.81,
+                        "y": 62.0
+                    },
+                    "uuid": "b759d49c-cb02-45ed-9ff9-15419d6d042b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_BAL_1_3",
+                    "pos": {
+                        "x": 67.0,
+                        "y": 84.0
+                    },
+                    "uuid": "baf5f30d-0a3e-424a-8ff3-44efbc7d3a8b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_42_0",
+                    "pos": {
+                        "x": 28.41,
+                        "y": 54.0
+                    },
+                    "uuid": "bc121f23-ba58-4422-b2d8-ca49d3a2d120"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_56_0",
+                    "pos": {
+                        "x": 63.97,
+                        "y": 54.0
+                    },
+                    "uuid": "bfbad0aa-2667-4ed6-b0bd-9cd6c2629463"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_10_3",
+                    "pos": {
+                        "x": 28.41,
+                        "y": 41.0
+                    },
+                    "uuid": "c30f5b69-5bf1-4775-a59f-be5dc51217ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_22_0",
+                    "pos": {
+                        "x": 58.89,
+                        "y": 17.0
+                    },
+                    "uuid": "c3c5a3fb-2dd9-4c03-8e52-fd9279aab9ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_61_2",
+                    "pos": {
+                        "x": 76.67,
+                        "y": 70.0
+                    },
+                    "uuid": "c4378bc3-6013-4c37-b5e2-47c0852fd78b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_3_0",
+                    "pos": {
+                        "x": 10.63,
+                        "y": 17.0
+                    },
+                    "uuid": "c5aeedea-54fc-47a7-ab75-c9d481fa6a60"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_57_2",
+                    "pos": {
+                        "x": 66.51,
+                        "y": 70.0
+                    },
+                    "uuid": "c615fa22-dcbb-4f89-9e94-2ba54a493885"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_EdgeMount'",
+            "items": [
+                {
+                    "description": "Footprint J_STRADDLE_EDGE",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 100.0
+                    },
+                    "uuid": "c7e19ec3-d6ab-4a7f-b8fa-03cae525523e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_62_2",
+                    "pos": {
+                        "x": 79.21,
+                        "y": 70.0
+                    },
+                    "uuid": "c8af2263-98c9-4b24-9f46-b1fbddf7e8c9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_30_0",
+                    "pos": {
+                        "x": 79.21,
+                        "y": 17.0
+                    },
+                    "uuid": "c9037362-78ae-4fff-8fa3-6bd14bd481d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_4_2",
+                    "pos": {
+                        "x": 13.17,
+                        "y": 33.0
+                    },
+                    "uuid": "c96025d5-3192-4e59-b1e4-786ef9880a7a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_57_3",
+                    "pos": {
+                        "x": 66.51,
+                        "y": 78.0
+                    },
+                    "uuid": "ca53a6d0-3263-4c53-87d9-87f5df4ad56f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_38_3",
+                    "pos": {
+                        "x": 18.25,
+                        "y": 78.0
+                    },
+                    "uuid": "cb86ca67-ce28-44fa-bd72-b01930ce5daa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_35_3",
+                    "pos": {
+                        "x": 10.63,
+                        "y": 78.0
+                    },
+                    "uuid": "cfd9b7df-9024-4ca5-9c9f-4d76055f2426"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_4_3",
+                    "pos": {
+                        "x": 13.17,
+                        "y": 41.0
+                    },
+                    "uuid": "d1f4e293-ec96-48d9-8fed-7727dc13171e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_63_2",
+                    "pos": {
+                        "x": 81.75,
+                        "y": 70.0
+                    },
+                    "uuid": "d258e7d7-94c5-4225-9197-55ac368d4e4e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_36_2",
+                    "pos": {
+                        "x": 13.17,
+                        "y": 70.0
+                    },
+                    "uuid": "d421765a-9300-45a5-b59b-779f79d87765"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_60_1",
+                    "pos": {
+                        "x": 74.13,
+                        "y": 62.0
+                    },
+                    "uuid": "d4c6f9b2-072a-4b71-b9aa-2901849e5f7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_28_0",
+                    "pos": {
+                        "x": 74.13,
+                        "y": 17.0
+                    },
+                    "uuid": "d7e21a30-8069-45b1-a001-cfda1afc5f90"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_28_3",
+                    "pos": {
+                        "x": 74.13,
+                        "y": 41.0
+                    },
+                    "uuid": "d81b8aee-ff21-4cf4-a423-2618e50ce8dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_3_3",
+                    "pos": {
+                        "x": 10.63,
+                        "y": 41.0
+                    },
+                    "uuid": "d90d8366-4912-4c6e-82b1-951ecc13839d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_14_0",
+                    "pos": {
+                        "x": 38.57,
+                        "y": 17.0
+                    },
+                    "uuid": "da31ea69-5a12-4bca-8480-84365a3c63d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_9_2",
+                    "pos": {
+                        "x": 25.87,
+                        "y": 33.0
+                    },
+                    "uuid": "da418f51-2923-457d-b11f-d583152b06e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_48_2",
+                    "pos": {
+                        "x": 43.65,
+                        "y": 70.0
+                    },
+                    "uuid": "daa3aaf8-502d-4ab9-aa2e-178ad9b29342"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_46_2",
+                    "pos": {
+                        "x": 38.57,
+                        "y": 70.0
+                    },
+                    "uuid": "db6efe4d-8a74-4f88-8d5a-f2938f27232d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_7_2",
+                    "pos": {
+                        "x": 20.79,
+                        "y": 33.0
+                    },
+                    "uuid": "dd956d9b-6a43-40f9-885a-89ea99db05a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_34_3",
+                    "pos": {
+                        "x": 8.09,
+                        "y": 78.0
+                    },
+                    "uuid": "de34b5dd-53d2-45a5-8381-0102ba6534d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_54_2",
+                    "pos": {
+                        "x": 58.89,
+                        "y": 70.0
+                    },
+                    "uuid": "de6f5a6a-5563-43bd-8414-9c93fe09dfee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_55_0",
+                    "pos": {
+                        "x": 61.43,
+                        "y": 54.0
+                    },
+                    "uuid": "e001a3a0-b90d-4115-a860-5ec6298f90e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_51_1",
+                    "pos": {
+                        "x": 51.27,
+                        "y": 62.0
+                    },
+                    "uuid": "e0f8f77f-24b4-423b-8bbb-ddeb5a9cbfb1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C_U1N",
+                    "pos": {
+                        "x": 93.5,
+                        "y": 47.5
+                    },
+                    "uuid": "e176bded-bc67-45de-a9c2-0325393e9f09"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_14_2",
+                    "pos": {
+                        "x": 38.57,
+                        "y": 33.0
+                    },
+                    "uuid": "e2759b58-b200-4021-a57a-85bc10ba482a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint Rf_N0",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 36.0
+                    },
+                    "uuid": "e43ffad7-ea49-4926-8ffb-8f0f395695f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_15_3",
+                    "pos": {
+                        "x": 41.11,
+                        "y": 41.0
+                    },
+                    "uuid": "e4be990e-3c4d-4bec-bcf7-92b9d730cfde"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_32_3",
+                    "pos": {
+                        "x": 3.01,
+                        "y": 78.0
+                    },
+                    "uuid": "e51e3341-f9f3-4f5c-aea3-7ee257f3ac7e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_61_0",
+                    "pos": {
+                        "x": 76.67,
+                        "y": 54.0
+                    },
+                    "uuid": "e6d61009-e332-41f6-bae4-a2d8c4f0407b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_40_3",
+                    "pos": {
+                        "x": 23.33,
+                        "y": 78.0
+                    },
+                    "uuid": "e8a5b7df-aebf-4003-8f89-e3697b475202"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_5_0",
+                    "pos": {
+                        "x": 15.71,
+                        "y": 17.0
+                    },
+                    "uuid": "e95d4979-d77a-4edc-b460-01c8237be143"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_50_0",
+                    "pos": {
+                        "x": 48.73,
+                        "y": 54.0
+                    },
+                    "uuid": "ede9906f-61b2-40c8-a943-b1baebb9dfa7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_54_0",
+                    "pos": {
+                        "x": 58.89,
+                        "y": 54.0
+                    },
+                    "uuid": "ee2c2f6d-ab4f-4cca-86c2-9ba792da2ee7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_54_3",
+                    "pos": {
+                        "x": 58.89,
+                        "y": 78.0
+                    },
+                    "uuid": "ee4bbd76-9321-4f8f-a9ab-6e0173be3b2f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R_BAL_1_1",
+                    "pos": {
+                        "x": 85.0,
+                        "y": 88.0
+                    },
+                    "uuid": "ef315b46-cd95-42d4-a3e2-2bee54b10c22"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_28_2",
+                    "pos": {
+                        "x": 74.13,
+                        "y": 33.0
+                    },
+                    "uuid": "f02faa79-eb13-4379-8c13-58950635dee0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_14_3",
+                    "pos": {
+                        "x": 38.57,
+                        "y": 41.0
+                    },
+                    "uuid": "f17e97ea-430e-4140-87b7-c45cb1a88b20"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_19_0",
+                    "pos": {
+                        "x": 51.27,
+                        "y": 17.0
+                    },
+                    "uuid": "f2bdc720-f133-4538-94bc-c41fa6d238ed"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_49_1",
+                    "pos": {
+                        "x": 46.19,
+                        "y": 62.0
+                    },
+                    "uuid": "f30224f5-ffc7-4f87-932e-b51635681438"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_17_2",
+                    "pos": {
+                        "x": 46.19,
+                        "y": 33.0
+                    },
+                    "uuid": "f55bdf4d-2e4c-4d70-a390-33c230132918"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_50_2",
+                    "pos": {
+                        "x": 48.73,
+                        "y": 70.0
+                    },
+                    "uuid": "f5f6645d-0387-4164-85d8-4d6fecfee42f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint Rb_N0",
+                    "pos": {
+                        "x": 86.0,
+                        "y": 31.0
+                    },
+                    "uuid": "f8bcef8c-140b-484d-9b7d-41c69d255680"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_26_0",
+                    "pos": {
+                        "x": 69.05,
+                        "y": 17.0
+                    },
+                    "uuid": "fbc16955-f6be-4c63-a3aa-2dab8ef01265"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_20_2",
+                    "pos": {
+                        "x": 53.81,
+                        "y": 33.0
+                    },
+                    "uuid": "ff5a2c2d-d912-414f-a776-bb232fa552d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1_6_2",
+                    "pos": {
+                        "x": 18.25,
+                        "y": 33.0
+                    },
+                    "uuid": "ff87eea8-6e14-4755-b675-641e56241b00"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        }
+    ]
+}
