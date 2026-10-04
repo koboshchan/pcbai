@@ -1,5 +1,15 @@
 # ACTIVE, repaired electrical design approved
 
+## Authoritative current checkpoint
+
+All six selected grayscale daughtercards are routed with zero strict DRC errors and zero unconnected items, checkpoint d143b5e. Five weighted-board resistor/opamp pad manifests pass the independent routed audit d07b1a4; the rail rename from +/-12V to +/-15V is authorized and does not change connector functions. Silkscreen and catalog footprint warnings remain separate release gates. Reference-only silk polishing is underway and must preserve all copper and physical electrical identities. The original root boards are unchanged.
+
+The only accepted supply inputs are +15V/GND/-15V and a separately powered 3.3V MCU. Older motherboard snapshots with external 5V logic/bias headers are superseded, not deliverables. The current motherboard revision uses Nexperia 74AHCT595D (SOIC-16, C554704) and an onboard ST L7805CV (TO-220, C111887) feeding both shift-register supply and +5V_REF. power_audit.json models regulator 4.75..5.25V and requires a real heatsink, nominal 10 C/W plus 2 C/W interface. Thermal estimates are assumptions, not measured qualification. Final motherboard routing and assembly/mechanical review are pending.
+
+Selected grayscale nominal accuracy is 95.01% on official held-out 10000 MNIST images. CUDA1000 component tolerance boards give mean 94.90848%, sampled minimum 94.47%. This is mixed 5% weight/bias/filter resistor and 1% precision resistor modeling, not every part 5%, and excludes independent offsets and capacitor dynamics. Six-bit coupled RC phase sampling has minimum 94.97% over the assumed capacitor cases. Driver/reference co-variation over the actual onboard regulator range, purchased TL074 swing/dynamic limits, firmware timing, acquisition and connector engagement still require qualification. Historical binary figures below are superseded for the selected build.
+
+Final Gerbers, BOM/CPL release and fabrication quotes remain withheld. Routed PNGs under renders/routed_grayscale_DC1a_* and DC1c_* are previews, not a fabrication signoff. Statements below record historical steps and must not override this checkpoint.
+
 ## Final fabrication quote handoff requirement
 
 For each final board also export JLC-format BOM CSV with the exact required columns Comment, Designator, Footprint, LCSC Part #, and CPL CSV for SMD parts only. Through-hole components must not appear in the assembly CPL. Verify LCSC catalog numbers/package/value/tolerance and prefer basic parts where available; never guess codes or call stock availability permanent. Mark IC-containing BOM groups in a separate assembly manifest/IC flag report without breaking the mandatory JLC columns. Also supply no-IC BOM/CPL variants, excluding TL074 and shift-register ICs, for the alternate assembly quote. Final shift registers are pin-compatible74HCT595D, not the electrically incompatible74HC595D at5V driven by3.3V MCU. List all assembly-file paths per board in the final handoff table. Generation is gated by final CAD/model agreement and fabrication validation.
@@ -52,12 +62,12 @@ CRITICAL original electrical defects found by independent audit: actual ADC divi
 | Board | Copper layers target | DRC errors | Unconnected | Production ZIP |
 |---|---|---|---|---|
 | Motherboard | 2 | Not run | Not run | withheld |
-| DC1A | 2 | Not run | Not run | withheld |
-| DC1B | 2 | Not run | Not run | withheld |
-| DC1C | 2 | Not run | Not run | withheld |
-| DC1D | 2 | Not run | Not run | withheld |
-| DC2 | 2 | Not run | Not run | withheld |
-| DC3 | 2 | Not run | Not run | withheld |
+| DC1A | 2 | 0 | 0 | withheld |
+| DC1B | 2 | 0 | 0 | withheld |
+| DC1C | 2 | 0 | 0 | withheld |
+| DC1D | 2 | 0 | 0 | withheld |
+| DC2 | 2 | 0 | 0 | withheld |
+| DC3 | 2 | 0 | 0 | withheld |
 
 Routing constraints: only F.Cu and B.Cu, trace width >=0.2 mm (prefer 0.25 mm), clearance >=0.2 mm, plated vias >=0.6 mm diameter / 0.3 mm drill, board outline <=100 x 100 mm. Preserve every footprint reference, value and pad net unless explicitly documented. Refill B.Cu ground after routing and rerun authoritative CLI DRC. Generate Gerber/drill archives only for zero-error, zero-unconnected boards. Check all copper layers independently, including pad layer masks and vias.
 
