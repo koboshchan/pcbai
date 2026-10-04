@@ -15,7 +15,7 @@ def run(path):
         with log.open('w') as output:
             subprocess.run(['/usr/bin/python3',str(ROOT/'route_repaired.py'),'prepare',str(path)],stdout=output,stderr=subprocess.STDOUT,check=True)
             dsn=ROOT/(stem+'_repaired.dsn')
-            subprocess.run(['java','-Xmx6g','-jar',str(ROOT/'freerouting_bounded.jar'),'-de',str(dsn),'-do',str(ses),'--gui.enabled=false','-mp','24','-mt','1'],stdout=output,stderr=subprocess.STDOUT,timeout=2400,check=True)
+            subprocess.run(['java','-Xmx6g','-jar',str(ROOT/'freerouting_bounded.jar'),'-de',str(dsn),'-do',str(ses),'--gui.enabled=false','-mp','12','-mt','1'],stdout=output,stderr=subprocess.STDOUT,timeout=3600,check=True)
             assert ses.exists() and ses.stat().st_size>100,'No usable session'
             subprocess.run(['/usr/bin/python3',str(ROOT/'route_repaired.py'),'finish',str(path),'--ses',str(ses)],stdout=output,stderr=subprocess.STDOUT,check=True)
         result['pipeline_completed']=True
