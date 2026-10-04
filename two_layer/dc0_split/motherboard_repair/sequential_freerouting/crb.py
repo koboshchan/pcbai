@@ -3,11 +3,15 @@ from run import *
 import csv
 
 def main():
- pre=json.loads((D/'PRE_CRB_AUDIT.json').read_text());assert pre['strict_pass'];source=D/'pre_crb.kicad_pcb';assert s.sha(source)==pre['sha'];b=p.LoadBoard(str(source));before=refs.physical(b);ids=s.identity(b);old=next(f for f in b.GetFootprints() if f.GetReference()=='CRB');uid=old.m_Uuid.AsString();center=old.GetPosition();ang=old.GetOrientationDegrees();nets={q.GetNumber():q.GetNetname() for q in old.Pads()};pos={q.GetNumber():q.GetPosition() for q in old.Pads()};reftext=old.Reference();valuetext=old.Value();new=p.FootprintLoad('/usr/share/kicad/footprints/Capacitor_SMD.pretty','C_0805_2012Metric');assert new;new.SetFPID(p.LIB_ID('Capacitor_SMD','C_0805_2012Metric'));new.m_Uuid=old.m_Uuid;new.SetReference('CRB');new.SetValue('10uF');new.SetPosition(center)
+ pre=json.loads((D/'PRE_CRB_AUDIT.json').read_text());assert pre['strict_pass'];source=D/'pre_crb.kicad_pcb';assert s.sha(source)==pre['sha'];b=p.LoadBoard(str(source));before=refs.physical(b);ids=s.identity(b);old=next(f for f in b.GetFootprints() if f.GetReference()=='CRB');uid=old.m_Uuid.AsString();center=old.GetPosition();ang=old.GetOrientationDegrees();nets={q.GetNumber():q.GetNetname() for q in old.Pads()};pos={q.GetNumber():q.GetPosition() for q in old.Pads()};reftext=old.Reference();valuetext=old.Value();new=p.FootprintLoad('/usr/share/kicad/footprints/Capacitor_SMD.pretty','C_0805_2012Metric');assert new;new.SetFPID(p.LIB_ID('Capacitor_SMD','C_0805_2012Metric'));new.SetUuid(old.m_Uuid);new.SetReference('CRB');new.SetValue('10uF');new.SetPosition(center)
  if old.GetLayer()==p.B_Cu:new.Flip(center,False)
  new.SetOrientationDegrees(ang)
  for a,c in [(new.Reference(),reftext),(new.Value(),valuetext)]:
   a.SetPosition(c.GetPosition());a.SetTextSize(c.GetTextSize());a.SetTextThickness(c.GetTextThickness());a.SetTextAngle(c.GetTextAngle());a.SetLayer(c.GetLayer());a.SetVisible(c.IsVisible())
+ for field in new.GetFields():
+  if not field.IsReference():field.SetVisible(False)
+ for g in list(new.GraphicalItems()):
+  if g.GetLayer() in (p.F_SilkS,p.B_SilkS):new.Delete(g)
  for q in new.Pads():q.SetNet(b.FindNet(nets[q.GetNumber()]))
  b.Remove(old);b.Add(new);routes=[]
  for q in new.Pads():
