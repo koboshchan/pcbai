@@ -1,0 +1,102 @@
+Value,Package,Total_qty
+0.1uF,0805 capacitor,41
+10uF,0805 capacitor,1
+1uF,0805 capacitor,65
+0R,0805 resistor,1
+1.1M,0805 resistor,12
+1.2M,0805 resistor,6
+1.3M,0805 resistor,7
+1.5M,0805 resistor,4
+1.6M,0805 resistor,4
+1.8M,0805 resistor,3
+100k,0805 resistor,45
+10k,0805 resistor,97
+110k,0805 resistor,29
+113k,0805 resistor,1
+120k,0805 resistor,17
+130k,0805 resistor,25
+13k,0805 resistor,1
+14.3k,0805 resistor,2
+14.7k,0805 resistor,2
+15.4k,0805 resistor,1
+150k,0805 resistor,34
+16.2k,0805 resistor,1
+160k,0805 resistor,38
+17.4k,0805 resistor,1
+18.2k,0805 resistor,3
+180k,0805 resistor,38
+1M,0805 resistor,10
+1k,0805 resistor,10
+2.2M,0805 resistor,4
+2.4M,0805 resistor,1
+2.7M,0805 resistor,1
+200k,0805 resistor,43
+20k,0805 resistor,1
+21k,0805 resistor,1
+22.6k,0805 resistor,1
+220k,0805 resistor,46
+22k,0805 resistor,20
+24.9k,0805 resistor,1
+240k,0805 resistor,34
+24k,0805 resistor,1
+270k,0805 resistor,46
+27k,0805 resistor,3
+28k,0805 resistor,1
+29.4k,0805 resistor,1
+2M,0805 resistor,8
+3.3M,0805 resistor,2
+3.9M,0805 resistor,1
+300k,0805 resistor,35
+30k,0805 resistor,1
+330k,0805 resistor,41
+33k,0805 resistor,4
+34k,0805 resistor,1
+35.7k,0805 resistor,2
+360k,0805 resistor,28
+36k,0805 resistor,3
+390k,0805 resistor,24
+39k,0805 resistor,6
+3M,0805 resistor,1
+430k,0805 resistor,24
+43k,0805 resistor,7
+470k,0805 resistor,25
+47k,0805 resistor,8
+5.1M,0805 resistor,1
+510k,0805 resistor,20
+51k,0805 resistor,8
+52.3k,0805 resistor,1
+560k,0805 resistor,21
+56k,0805 resistor,9
+6.2M,0805 resistor,1
+61.9k,0805 resistor,2
+620k,0805 resistor,11
+62k,0805 resistor,10
+680k,0805 resistor,16
+68k,0805 resistor,14
+750k,0805 resistor,18
+75k,0805 resistor,19
+8.66k,0805 resistor,1
+820,0805 resistor,1
+820k,0805 resistor,11
+82k,0805 resistor,17
+90.9k,0805 resistor,1
+910k,0805 resistor,9
+91k,0805 resistor,25
+2x38_2.54mm_GENERIC_MANUAL_SOCKET,"2x38 socket, 2.54 mm",1
+Slot0: DC1A (L1 Neurons 0..3),"2x38 socket, 2.54 mm",1
+Slot1: DC1B (L1 Neurons 4..7),"2x38 socket, 2.54 mm",1
+Slot2: DC1C (L1 Neurons 8..11),"2x38 socket, 2.54 mm",1
+Slot3: DC1D (L1 Neurons 12..15),"2x38 socket, 2.54 mm",1
+Slot4: DC2 (16x Active Precision ReLU),"2x38 socket, 2.54 mm",1
+Slot5: DC3 (L2 Weights + 10-Way WTA),"2x38 socket, 2.54 mm",1
+2x38_2.54mm_GENERIC_MANUAL_STRADDLE,"2x38 straddle, 2.54 mm",1
+PinHeader_2x38_Straddle,"2x38 straddle, 2.54 mm",6
+100uF,CP_Elec_8x10,2
+3V3_GND_FROM_MCU,PinHeader_1x02_P2.54mm_Vertical,1
++15V_GND_-15V,PinHeader_1x03_P2.54mm_Vertical,1
+MCU_3V3_SPI_PIN1_NC,PinHeader_1x06_P2.54mm_Vertical,1
+Scores_DIV_3V3_Out,PinHeader_1x12_P2.54mm_Vertical,1
+1N4148W,SOD-123,52
+TL074,"SOIC-14, 1.27 mm",15
+74AHCT595S16-13,"SOIC-16 / SOP-16, 1.27 mm",8
+L7805CV,TO-220-3_Vertical,1

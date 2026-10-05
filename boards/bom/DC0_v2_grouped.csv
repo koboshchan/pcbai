@@ -1,0 +1,6 @@
+value,footprint,side,tolerance_percent,qty
+0.1uF,Capacitor_SMD:C_0805_2012Metric,F,,8
+10k,R_0805_2012Metric,F,,64
+1uF,C_0805_2012Metric,F,,64
+2x38_2.54mm_GENERIC_MANUAL_STRADDLE,DC0_Isolated:Straddle2x38,F,,1
+74AHCT595S16-13,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,F,,8
