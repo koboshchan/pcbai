@@ -42,3 +42,10 @@ freerouting/
 # OS generated
 .DS_Store
 Thumbs.db
+
+# Generated current-layout artifacts and local KiCad state
+/out/
+**/backups/
+**/*-backups/
+training/**/data/
+training/**/mnist_cache/

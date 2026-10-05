@@ -1,0 +1,5 @@
+train_mnist_hardware.py, mnist_analog_model.pt and weights_layer1.json/weights_layer2.json are the original 64-input, 16-hidden-neuron, 10-output MNIST training source and exported weights.
+
+fixed_model/ contains the current trained differential conductance/PWM model, checkpoint, trained_float.npz, circuit/netlist exports and its evaluations. fixed_model_basic/ retains the separate value-only Basic-resistor training experiment and outputs; it is not the paid-board population authority. hct_vs_ahct/ contains the driver comparison evaluation and scoped results. provenance/ contains the original manifests still required by the export utilities, not alternative fabrication sources.
+
+Run training and model evaluations on KAT-BOX only. Python dependencies include numpy, torch, Pillow and pyarrow. Scripts resolve their own data files relative to training/. Training caches and logs are ignored. The delivered pcbai_model.zip contained the same fixed_model checkpoint, model.py, train.py, metrics.json and trained_float.npz, so it is not duplicated here.

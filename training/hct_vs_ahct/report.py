@@ -42,7 +42,7 @@ Rail sensitivity uses common595 VCC and BOTH layers'5V-referenced bias terms tog
 
 Sources are https://www.ti.com/lit/gpn/SN74HCT595 pages4,5,8; https://www.ti.com/lit/gpn/SN74AHCT595 pages4,5,7; and https://www.diodes.com/datasheet/download/74AHCT595.pdf page4. Manufacturer documents were retrieved and read directly.
 
-Reproduce on a CUDA machine with NumPy and PyTorch using OPENBLAS_NUM_THREADS=1 python3 two_layer/hct_vs_ahct/evaluate.py --boards 1000. Run python3 two_layer/hct_vs_ahct/report.py after evaluation. The project candidate and official dataset must be present. The recorded circuit SHA256 is{m['circuit_sha256']} and test archive SHA256 is{m['dataset_sha256']}.
+Reproduce on a CUDA machine with NumPy and PyTorch using OPENBLAS_NUM_THREADS=1 python3 training/hct_vs_ahct/evaluate.py --boards 1000. Run python3 training/hct_vs_ahct/report.py after evaluation. The project candidate and official dataset must be present. The recorded circuit SHA256 is{m['circuit_sha256']} and test archive SHA256 is{m['dataset_sha256']}.
 
 The plain decision is to use genuine HCT if the cheap listing really contains HCT in the correct footprint and the firmware clock respects its timing. AHCT's higher price is not justified by modeled accuracy or analog current headroom on this10k-filtered design. No cart change or fabrication approval is made by this report.
 '''
