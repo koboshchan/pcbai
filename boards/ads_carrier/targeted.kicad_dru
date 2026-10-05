@@ -1,0 +1,2 @@
+(version 1)
+(rule "power width" (condition "A.Type == 'Track' && (A.NetName == 'GND' || A.NetName == '3V3' || A.NetName =~ 'GND_J*' || A.NetName =~ '3V3_J*')") (constraint track_width (min 0.8mm)))
