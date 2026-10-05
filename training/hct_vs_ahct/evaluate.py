@@ -1,5 +1,5 @@
 """Averaged asymmetric PWM driver comparison, isolated from CAD and routing.
-Run on kat-box with python3 two_layer/hct_vs_ahct/evaluate.py.
+Run on kat-box with python3 training/hct_vs_ahct/evaluate.py.
 The historical exact physical draws are retained; no retraining or test selection.
 """
 import argparse, copy, hashlib, json, sys, time

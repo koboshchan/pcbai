@@ -6,7 +6,9 @@ from reportlab.lib.pagesizes import landscape,letter
 from reportlab.lib import colors
 from pypdf import PdfReader,PdfWriter
 (Path(__file__).resolve().parents[2]/'out').mkdir(exist_ok=True)
-O=Path(os.environ.get('BOM_DIR',str(Path(__file__).resolve().parents[2]/'boards/bom'))); data=json.load(open(O/'bom_data.json')); boards=data['boards']; names=data['names']; W,H=landscape(letter)
+ROOT=Path(__file__).resolve().parents[2]
+O=Path(os.environ.get('BOM_DIR',str(ROOT/'out/bom'))); O.mkdir(parents=True,exist_ok=True)
+data=json.load(open(ROOT/'boards/bom/bom_data.json')); boards=data['boards']; names=data['names']; W,H=landscape(letter)
 styles=getSampleStyleSheet();styles.add(ParagraphStyle(name='Small',fontName='Helvetica',fontSize=8,leading=10,spaceAfter=5));styles.add(ParagraphStyle(name='Tiny',fontName='Helvetica',fontSize=7,leading=9));styles.add(ParagraphStyle(name='Cell',fontName='Helvetica',fontSize=8.5,leading=10.5));styles.add(ParagraphStyle(name='Warn',fontName='Helvetica-Bold',fontSize=10,leading=14,backColor=colors.HexColor('#fff0cc'),borderPadding=7,spaceBefore=8,spaceAfter=10))
 story=[];sections={}
 def p(s,st='Small'):return Paragraph(html.escape(str(s)),styles[st])
