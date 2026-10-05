@@ -28,6 +28,11 @@ def main():
   socketnets={q.GetNumber():normalized(q.GetNetname(),slot*4) for q in socket.Pads()}
   assert {q.GetNumber():q.GetNetname() for q in connector.Pads()}==socketnets,('motherboard slot pin roles differ',slot)
  cards,_=snapshot();manifest=json.loads((HERE/'manifest.json').read_text());actual={f.GetReference():f for f in b.GetFootprints()}
+ keys={tuple(sorted(r['nets'])) for r in manifest['rows']}
+ matrix={tuple(sorted((f'IN_{i}',f'{leg}_N{j}'))) for i in range(64) for j in range(4) for leg in ('POS','INV')}
+ support={tuple(sorted((rail,f'{leg}_N{j}'))) for rail in ('+5V_REF','GND') for j in range(4) for leg in ('POS','INV')}|{tuple(sorted((f'INV_N{j}',f'V_SUM_{j}'))) for j in range(4)}
+ assert keys==matrix|support and len(manifest['rows'])==532,'Incomplete future-model footprint matrix'
+ assert sum(not r['cards'] for r in manifest['rows'])==112,'Added sites must default to DNP'
  variant_checks={}
  for c in 'abcd':
   expect=collections.Counter((tuple(sorted(f['pads'].items())),f['value']) for row in manifest['rows'] for c1,f in row['cards'].items() if c1==c)
