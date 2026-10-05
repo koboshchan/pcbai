@@ -45,6 +45,9 @@ def main():
    s=p.PCB_SHAPE(b);s.SetShape(p.SHAPE_T_SEGMENT);s.SetStart(xy(*a));s.SetEnd(xy(*z));s.SetWidth(mm(.15));s.SetLayer(layer);b.Add(s)
  assert b.GetCopperLayerCount()==2
  assert all(t.GetLayer() in [p.F_Cu,p.B_Cu] for t in b.GetTracks() if not isinstance(t,p.PCB_VIA))
+ assert all(t.GetWidth()>=mm(.2) for t in b.GetTracks() if not isinstance(t,p.PCB_VIA)),'Undersized track'
+ assert all(t.GetWidth()>=mm(.6) and t.GetDrillValue()>=mm(.3) for t in b.GetTracks() if isinstance(t,p.PCB_VIA)),'Undersized via'
+ assert all(str(f.GetFPID().GetLibItemName())=='R_0805_2012Metric' and f.GetLayer()==p.F_Cu for f in b.GetFootprints() if f.GetReference().startswith('R')),'Resistors must be top-side 0805'
  target=HERE/'dc1_universal.kicad_pcb';p.SaveBoard(str(target),b)
  (HERE/'dc1_universal.kicad_pro').write_text((HERE/'dc1_universal_unrouted.kicad_pro').read_text())
  cp=subprocess.run(['kicad-cli','pcb','drc','--all-track-errors','--severity-all','--format','json','-o',str(HERE/'drc.json'),str(target)],capture_output=True,text=True)
