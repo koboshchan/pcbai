@@ -24,12 +24,12 @@ if __name__=='__main__':
    if 'ohms' in e:e['ohms']=b[(board,e['ref'])]
  original=copy.deepcopy(net)
  # Include every non-neural resistor from current repaired manifests, without reading/writing CAD.
- motherboard=json.loads((T/'motherboard_adc_repaired_manifest.json').read_text())
+ motherboard=json.loads((T/'provenance/motherboard_adc_repaired_manifest.json').read_text())
  net['motherboard']=[]
  for ref,val,pads in motherboard['physical_components']:
   if not ref.startswith('R'):continue
   v=number(val);nv=nearest(v);a[('motherboard',ref)]=v;b[('motherboard',ref)]=nv;net['motherboard'].append({'ref':ref,'ohms':nv,'tolerance':.01,'pads':dict(pads)})
- m=json.loads((T/'audit_original_manifest.json').read_text());board='daughtercard2_relu_l1';net[board]=[]
+ m=json.loads((T/'provenance/audit_original_manifest.json').read_text());board='daughtercard2_relu_l1';net[board]=[]
  for f in m[board]['footprints']:
   ref=f['reference']
   if not ref.startswith('R'):continue

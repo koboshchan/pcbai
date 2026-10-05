@@ -6,7 +6,7 @@ import torch
 from PIL import Image
 import pyarrow.parquet as pq
 from model import VALUES,RF,synthesize,infer
-HERE=Path(__file__).resolve().parent; ROOT=HERE.parents[1]
+HERE=Path(__file__).resolve().parent; ROOT=HERE.parent
 torch.set_num_threads(8); torch.manual_seed(42064);np.random.seed(42064)
 device='cuda' if torch.cuda.is_available() else 'cpu'
 def data():

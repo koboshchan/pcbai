@@ -11,15 +11,15 @@ import os
 import sys
 import pcbnew
 
-WORKSPACE = "/Users/lucaszhang/pcbai"
+from pathlib import Path
+WORKSPACE = str(Path(__file__).resolve().parents[1])
 BOARDS = [
-    ("DC1A", "daughtercard1a_weights_l1.kicad_pcb"),
-    ("DC1B", "daughtercard1b_weights_l1.kicad_pcb"),
-    ("DC1C", "daughtercard1c_weights_l1.kicad_pcb"),
-    ("DC1D", "daughtercard1d_weights_l1.kicad_pcb"),
-    ("DC2",  "daughtercard2_relu_l1.kicad_pcb"),
-    ("DC3",  "daughtercard3_weights_l2_wta.kicad_pcb"),
-    ("MB",   "motherboard.kicad_pcb"),
+    ("DC0", "boards/dc0/DC0_verified.kicad_pcb"),
+    ("DC1", "boards/dc1/board.kicad_pcb"),
+    ("DC2", "boards/dc2/daughtercard2_relu_l1_buffered_repaired.kicad_pcb"),
+    ("DC3", "boards/dc3/dc3_universal.kicad_pcb"),
+    ("MB", "boards/motherboard/post_crb.kicad_pcb"),
+    ("ADS", "boards/ads_carrier/targeted.kicad_pcb"),
 ]
 
 def audit():
