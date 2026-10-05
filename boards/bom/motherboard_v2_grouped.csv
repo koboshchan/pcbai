@@ -1,0 +1,23 @@
+value,footprint,side,tolerance_percent,qty
++15V_GND_-15V,PinHeader_1x03_P2.54mm_Vertical,F,,1
+0.1uF,C_0805_2012Metric,B,,3
+0R,R_0805_2012Metric,B,,1
+100uF,CP_Elec_8x10,B,,2
+10uF,Capacitor_SMD:C_0805_2012Metric,B,,1
+1N4148W,D_SOD-123,F,,20
+1k,Resistor_SMD:R_0805_2012Metric,F,,10
+1uF,C_0805_2012Metric,B,,1
+220k,Resistor_SMD:R_0805_2012Metric,F,,10
+22k,Resistor_SMD:R_0805_2012Metric,F,,20
+2x38_2.54mm_GENERIC_MANUAL_SOCKET,DC0_Isolated:Socket2x38,F,,1
+3V3_GND_FROM_MCU,PinHeader_1x02_P2.54mm_Vertical,F,,1
+820,R_0805_2012Metric,B,,1
+L7805CV,TO-220-3_Vertical,F,,1
+MCU_3V3_SPI_PIN1_NC,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,F,,1
+Scores_DIV_3V3_Out,Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical,F,,1
+Slot0: DC1A (L1 Neurons 0..3),Connector_PinSocket_2.54mm:PinSocket_2x38_P2.54mm_Vertical,F,,1
+Slot1: DC1B (L1 Neurons 4..7),Connector_PinSocket_2.54mm:PinSocket_2x38_P2.54mm_Vertical,F,,1
+Slot2: DC1C (L1 Neurons 8..11),Connector_PinSocket_2.54mm:PinSocket_2x38_P2.54mm_Vertical,F,,1
+Slot3: DC1D (L1 Neurons 12..15),Connector_PinSocket_2.54mm:PinSocket_2x38_P2.54mm_Vertical,F,,1
+Slot4: DC2 (16x Active Precision ReLU),Connector_PinSocket_2.54mm:PinSocket_2x38_P2.54mm_Vertical,F,,1
+Slot5: DC3 (L2 Weights + 10-Way WTA),Connector_PinSocket_2.54mm:PinSocket_2x38_P2.54mm_Vertical,F,,1

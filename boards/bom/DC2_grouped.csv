@@ -1,0 +1,6 @@
+value,footprint,side,tolerance_percent,qty
+0.1uF,Capacitor_SMD:C_0805_2012Metric,F,,16
+10k,Resistor_SMD:R_0805_2012Metric,F,,32
+1N4148W,D_SOD-123,F,,32
+PinHeader_2x38_Straddle,Connector_EdgeMount:PinHeader_2x38_Straddle_P2.54mm,F,,1
+TL074,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,F,,8
