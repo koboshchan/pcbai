@@ -39,7 +39,6 @@ for name in names:
   story.append(p('MANDATORY BOTTOM BODGE WIRE: JS1 pad B7 to JS2 pad B7. Fit before powering the stack.','Warn'))
   story.append(p('72 top-mounted items, 9 back-mounted items. THT connectors on the top are soldered at their pins on the back. The two placement diagram pages follow this section.'))
  source=d['source']
- if name=='DC2':source='/work/dc1_4l_emu/fresh_main/two_layer/daughtercard2_relu_l1_buffered_repaired.kicad_pcb (copied read-only to source_snapshots/DC2.kicad_pcb)'
  story.append(p('Verified source: '+source,'Tiny'));story.append(p('SHA-256 '+d['sha256'],'Tiny'))
  if 'population_csv' in d:story.append(p('Population: '+d['population_csv']+' | SHA-256 '+d['population_sha256'],'Tiny'))
  if name=='motherboard_v2':story.append(p('Provenance note: fab quote-details.json retained the pre-mask-fix hash 271faeaa... . The authoritative fixed source hash above matches mb-jd0-mask/verification.json. No older source was used.','Tiny'))
@@ -82,7 +81,7 @@ r=PdfReader(O/'bom_body.pdf');w=PdfWriter();marker=[]
 for i,page in enumerate(r.pages):
  if 'Placement diagrams are inserted' in (page.extract_text() or ''):
   marker.append(i)
-  for dp in PdfReader(O/'motherboard_placement.pdf').pages:w.add_page(dp)
+  for dp in PdfReader(Path(__file__).resolve().parents[2]/'pdfs/motherboard_placement.pdf').pages:w.add_page(dp)
  else:w.add_page(page)
 assert len(marker)==1
 from io import BytesIO

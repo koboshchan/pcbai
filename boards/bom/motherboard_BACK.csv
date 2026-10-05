@@ -1,0 +1,10 @@
+reference,value,footprint,side,status,x_mm,y_mm
+CBN,100uF,CP_Elec_8x10,B,FIT,92.0,23.0
+CBP,100uF,CP_Elec_8x10,B,FIT,8.0,17.0
+CRB,10uF,Capacitor_SMD:C_0805_2012Metric,B,FIT,83.0,94.0
+CRI,1uF,C_0805_2012Metric,B,FIT,60.0,94.0
+CRN,0.1uF,C_0805_2012Metric,B,FIT,84.0,25.0
+CRO,0.1uF,C_0805_2012Metric,B,FIT,66.0,94.0
+CRP,0.1uF,C_0805_2012Metric,B,FIT,8.0,25.0
+RM,820,R_0805_2012Metric,B,FIT,52.0,94.5
+RRL,0R,R_0805_2012Metric,B,FIT,52.0,92.0
