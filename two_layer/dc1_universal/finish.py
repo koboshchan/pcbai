@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Import router output, verify variants/mechanics, and run strict KiCad DRC."""
 from pathlib import Path
-import collections,hashlib,json,subprocess
+import collections,hashlib,json,subprocess,sys
 import pcbnew as p
 from build import snapshot,normalized,xy,mm
 HERE=Path(__file__).resolve().parent
@@ -14,7 +14,10 @@ def mechanics(b):
 
 def main():
  b=p.LoadBoard(str(HERE/'dc1_universal_unrouted.kicad_pcb'));expected=identity(b)
- assert p.ImportSpecctraSES(b,str(HERE/'dc1_universal.ses'))
+ if len(sys.argv)>1:
+  b=p.LoadBoard(sys.argv[1])
+ else:
+  assert p.ImportSpecctraSES(b,str(HERE/'dc1_universal.ses'))
  assert identity(b)==expected,'Router modified component/pad net identity'
  sources=[p.LoadBoard(str(ROOT/f'daughtercard1{c}_weights_l1_differential_repaired.kicad_pcb')) for c in 'abcd']
  assert all(mechanics(x)==mechanics(b) for x in sources),'Mounting/connector/outline differs'
@@ -38,6 +41,8 @@ def main():
     assembled[(tuple(sorted(entry['pads'].items())),entry['value'])]+=1
   assert expect==assembled
   variant_checks[c]={'populated_resistors':sum(assembled.values()),'dnp_resistors':len(manifest['rows'])-sum(assembled.values()),'exact_source_resistor_value_and_netpair_match':True,'source_sha256':cards[c]['sha256']}
+ for d in list(b.GetDrawings()):
+  if d.GetLayer() in (p.F_SilkS,p.B_SilkS):b.Delete(d)
  # Arrow and L mark physical pin-1 end, same physical x on both PCB faces.
  for layer in (p.F_SilkS,p.B_SilkS):
   t=p.PCB_TEXT(b);t.SetText('L');t.SetPosition(xy(2.1,92.8));t.SetTextSize(xy(1,1));t.SetTextThickness(mm(.15));t.SetLayer(layer);t.SetMirrored(layer==p.B_SilkS);b.Add(t)
@@ -46,7 +51,7 @@ def main():
  assert b.GetCopperLayerCount()==2
  assert all(t.GetLayer() in [p.F_Cu,p.B_Cu] for t in b.GetTracks() if not isinstance(t,p.PCB_VIA))
  assert all(t.GetWidth()>=mm(.2) for t in b.GetTracks() if not isinstance(t,p.PCB_VIA)),'Undersized track'
- assert all(t.GetWidth()>=mm(.6) and t.GetDrillValue()>=mm(.3) for t in b.GetTracks() if isinstance(t,p.PCB_VIA)),'Undersized via'
+ assert all(t.GetWidth(p.F_Cu)>=mm(.6) and t.GetDrillValue()>=mm(.3) for t in b.GetTracks() if isinstance(t,p.PCB_VIA)),'Undersized via'
  assert all(str(f.GetFPID().GetLibItemName())=='R_0805_2012Metric' and f.GetLayer()==p.F_Cu for f in b.GetFootprints() if f.GetReference().startswith('R')),'Resistors must be top-side 0805'
  target=HERE/'dc1_universal.kicad_pcb';p.SaveBoard(str(target),b)
  (HERE/'dc1_universal.kicad_pro').write_text((HERE/'dc1_universal_unrouted.kicad_pro').read_text())
