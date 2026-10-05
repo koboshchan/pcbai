@@ -1,0 +1,16 @@
+Delivered candidate is FOUR LAYERS. Strict KiCad DRC reports 0 errors and 0 unconnected items. Lucas approved publishing this DC1 snapshot to main. Existing board files are unchanged.
+
+Layers are F.Cu, In1.Cu GND plane, In2.Cu signal routing, B.Cu. Thickness remains 1.6 mm. No new jumpers.
+
+Original 538 footprints, including all 532 resistor sites and their pad net names, positions, sizes, rotations, values and DNP attributes, match exactly. Existing connector pads, mounting footprints, outline and source copper match exactly. All 112 future DNP sites remain DNP in all four population CSVs. Population files have source-identical hashes in population-sha256.json.
+
+Independent physical copper connectivity audit found one connected component on each of the 81 pad-bearing nets. Resistor bodies were not counted as copper.
+
+15 remaining warnings are 6 library-footprint issues and 9 dangling vias. They are not hidden errors or opens. Source copper was deliberately retained.
+
+Source sha256 a76b30c0700d91ac038a8ab95b8ebbbbf993320cf3f620c172a5147b67468767
+Final sha256 b5d0b202d140751f72bbe6a50ee582ed0e2a69545f96704e8a4b415b7e787748
+
+The best completed two-layer repair is /work/dc1_universal/fix12/a1.kicad_pcb, with 0 errors and 10 opens. Protected connector Freerouting ended at 0 errors and 70 opens. The bounded physical 0805 jumper searches did not improve a1. These finite searches are not a proof that every conceivable two-layer redesign is impossible.
+
+Final PNGs in /home/kit/renders/dc1_fix12 are gated against this exact validated board hash. All routing, validation and rendering ran on KAT-BOX.
