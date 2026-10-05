@@ -1,0 +1,94 @@
+{
+  "board": "/work/ads_carrier/v3/targeted/targeted.kicad_pcb",
+  "sha256": "1405b457b5165d2e35f73687e214750d45674891fa2bcf8c7a0391e3425bfd74",
+  "strict_errors": 0,
+  "unconnected": 0,
+  "copper_island_logical_pass": true,
+  "headers": 48,
+  "all_other_nonjumper_terminals": 2,
+  "groups": {
+    "ADC_0": 1,
+    "ADC_1": 1,
+    "ADC_2": 1,
+    "ADC_3": 1,
+    "ADC_4": 1,
+    "ADC_5": 1,
+    "ADC_6": 1,
+    "ADC_7": 1,
+    "ADC_8": 1,
+    "ADC_9": 1,
+    "GND": 1,
+    "3V3": 1,
+    "SCL": 1,
+    "SDA": 1,
+    "NC_ALRT_JM2": 1,
+    "NC_ALRT_JM3": 1,
+    "NC_ALRT_JM1": 1
+  },
+  "shorts": [],
+  "jumpers": [
+    {
+      "reference": "R4",
+      "nets": [
+        "3V3_JT3",
+        "3V3_JT1"
+      ],
+      "x": 16.5,
+      "y": 56.0
+    },
+    {
+      "reference": "R5",
+      "nets": [
+        "3V3_JT2",
+        "3V3_JT5"
+      ],
+      "x": 15.625,
+      "y": 7.125
+    },
+    {
+      "reference": "R3",
+      "nets": [
+        "3V3_JT1",
+        "3V3"
+      ],
+      "x": 23.125,
+      "y": 57.625
+    },
+    {
+      "reference": "R6",
+      "nets": [
+        "3V3_JT5",
+        "3V3_JT4"
+      ],
+      "x": 16.625,
+      "y": 12.875
+    },
+    {
+      "reference": "R1",
+      "nets": [
+        "GND_JT1",
+        "GND"
+      ],
+      "x": 17.875,
+      "y": 62.875
+    },
+    {
+      "reference": "R2",
+      "nets": [
+        "3V3",
+        "3V3_JT2"
+      ],
+      "x": 23.875,
+      "y": 63.375
+    }
+  ],
+  "frozen_hardware_and_JAD": true,
+  "outline_and_module_envelopes_frozen": true,
+  "f_cu_only_width_and_power_verified": true,
+  "mechanical_pose_unchanged_nominal_only": true,
+  "clean": true,
+  "all_ADC_tracks_identical_locked_best": true,
+  "ADC_track_count": 24,
+  "original_best_and_placement_hashes_preserved": true,
+  "no_repo_edits_or_push": true
+}
