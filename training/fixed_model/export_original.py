@@ -1,7 +1,7 @@
 import sys,json,importlib.util,numpy as np
 from pathlib import Path
 from model import synthesize
-ROOT=Path(__file__).resolve().parents[2]
+ROOT=Path(__file__).resolve().parents[1]
 # E96 canonical IEC decade sequence from root source, no import dependencies.
 import ast
 source=ast.parse((ROOT/'train_mnist_hardware.py').read_text())
@@ -27,7 +27,7 @@ out['limitations']=[s.replace('HC595','HCT595') for s in out['limitations']]
 Path(__file__).with_name('circuit.json').write_text(json.dumps(out,indent=2))
 np.savez(Path(__file__).with_name('original_float.npz'),w1=layers[0][0],b1=layers[0][1],w2=layers[1][0],b2=layers[1][1])
 # Authoritative desired component pad net topology, local refs. Existing neuron IC pad slots from actual manifest.
-m=json.loads((ROOT/'two_layer/audit_original_manifest.json').read_text());boards={}
+m=json.loads((ROOT/'provenance/audit_original_manifest.json').read_text());boards={}
 for l,n in [(1,16),(2,10)]:
  rows=out['layer'+str(l)]
  for j,row in enumerate(rows):
