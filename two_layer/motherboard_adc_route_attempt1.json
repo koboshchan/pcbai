@@ -1,8 +1,0 @@
-{
-  "candidate": "/work/pcbai/two_layer/motherboard_adc_repaired_unrouted.kicad_pcb",
-  "release_ready": false,
-  "started": 1791099147.9145846,
-  "pipeline_completed": false,
-  "error": "Command '['java', '-Xmx6g', '-jar', '/work/pcbai/two_layer/freerouting_bounded.jar', '-de', '/work/pcbai/two_layer/motherboard_adc_repaired.dsn', '-do', '/work/pcbai/two_layer/motherboard_adc_repaired.ses', '--gui.enabled=false', '-mp', '24', '-mt', '1']' timed out after 2399.999976899009 seconds",
-  "seconds": 2400.6638922691345
-}
