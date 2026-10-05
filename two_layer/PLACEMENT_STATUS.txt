@@ -1,9 +1,0 @@
-All seven repaired candidates pass the placement-only copper and courtyard gate after remote KiCad 10 save/reload. No electrical components, values, pad nets, pad sizes, pad drills, pad layer sets, copper layer count, headers, mounting holes or board edges were changed.
-
-The motherboard's ten ADC networks are distributed as two channels per gap between the six slot rows. DC2's four added buffer chips and their decouplers occupy the empty left strip. DC3's feedback resistors were separated from bias pads, and its balance resistors use a distinct row.
-
-Reproduce after running the parent-owned electrical generators using /usr/bin/python3 two_layer/place_repaired.py two_layer/*_repaired_unrouted.kicad_pcb from /work/pcbai on kat-box. This writes placement_audit.json and refreshes each candidate's placement_drc.json. The script checks electrical and local pad geometry identity before saving, after placement, and after reloading; it rejects any identity difference.
-
-Each candidate has zero shorting_items, clearance, solder_mask_bridge and courtyards_overlap. Daughtercards retain the known 76 straddle-pad copper_edge_clearance violations pending the parent's separate connector fix. Motherboard has no copper_edge_clearance violations. Silkscreen and footprint-library warnings still need the separate cleanup stage. These are unrouted candidates, not fabrication-ready boards. No router or Gerber export was launched by this task.
-
-Candidates are daughtercard1a_weights_l1_differential_repaired_unrouted.kicad_pcb, daughtercard1b_weights_l1_differential_repaired_unrouted.kicad_pcb, daughtercard1c_weights_l1_differential_repaired_unrouted.kicad_pcb, daughtercard1d_weights_l1_differential_repaired_unrouted.kicad_pcb, daughtercard2_relu_l1_buffered_repaired_unrouted.kicad_pcb, daughtercard3_weights_l2_wta_differential_repaired_unrouted.kicad_pcb and motherboard_adc_repaired_unrouted.kicad_pcb, all in two_layer/ on both hosts.
