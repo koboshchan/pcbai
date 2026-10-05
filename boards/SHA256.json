@@ -1,0 +1,36 @@
+{
+  "dc0": {
+    "pcb": "boards/dc0/DC0_verified.kicad_pcb",
+    "sha256": "899da15d132ea29582af96c94f942296de6b0a254dbfdaa3360ae32ee56a69ea",
+    "fab": "boards/dc0/DC0_v2.zip",
+    "fab_sha256": "322b7bc3e908567cc47aebc3f7f32be5e113e3b99833124be34f4f74ccaa94c9"
+  },
+  "dc1": {
+    "pcb": "boards/dc1/board.kicad_pcb",
+    "sha256": "b5d0b202d140751f72bbe6a50ee582ed0e2a69545f96704e8a4b415b7e787748",
+    "fab": "boards/dc1/DC1.zip",
+    "fab_sha256": "caf6fa28adde0877484e919a317d03b40332eced3eec0394547aa091c6571244"
+  },
+  "dc2": {
+    "pcb": "boards/dc2/daughtercard2_relu_l1_buffered_repaired.kicad_pcb",
+    "sha256": "04167d23083c5d8512eeee996369d7a1ff4c091298bac89ebe6271c0bf2f0ce0",
+    "fab": "boards/dc2/DC2.zip",
+    "fab_sha256": "f9b5575e21fdf6b9c415706bde6b86440c790f76e18769a697504625ad61df15"
+  },
+  "dc3": {
+    "pcb": "boards/dc3/dc3_universal.kicad_pcb",
+    "sha256": "d7c2393ffd6dec2fd1368113ee96d8bb0d8e9bd686b861ff6524de71649526eb",
+    "fab": "boards/dc3/DC3_v2.zip",
+    "fab_sha256": "6413634d38c99c099e0b713bdf349151439f82e49dee730c7ae8a4d3d51fd7ee"
+  },
+  "motherboard": {
+    "pcb": "boards/motherboard/post_crb.kicad_pcb",
+    "sha256": "4932b44c056e39017216b71dfa885c8117e32a04a94834f4cd051757efb9d1ba",
+    "fab": "boards/motherboard/motherboard_v2.zip",
+    "fab_sha256": "ec1a4d4ffd345330263653657eaee5669ec7512b3e5fbaceb264e28053302e8e"
+  },
+  "ads_carrier": {
+    "pcb": "boards/ads_carrier/targeted.kicad_pcb",
+    "sha256": "1405b457b5165d2e35f73687e214750d45674891fa2bcf8c7a0391e3425bfd74"
+  }
+}
