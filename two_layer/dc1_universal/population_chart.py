@@ -31,7 +31,28 @@ for r in ROWS:
         grid[(int(ins[0][3:]), other)] = r
     else:
         central.append(r)
-central.sort(key=lambda r: r["reference"])
+
+def _role(r):
+    n = set(r["nets"])
+    return ("bias" if "+5V_REF" in n else "balance" if "GND" in n else "feedback")
+
+
+def _target(r):
+    return [n for n in r["nets"] if n not in ("GND", "+5V_REF") and not n.startswith("V_SUM")][0]
+
+
+# group central parts by net pair (role, then local node), not by ref number
+central.sort(key=lambda r: (("bias", "balance", "feedback").index(_role(r)),
+                            int(_target(r)[-1]), _target(r).split("_")[0] != "POS"))
+
+# Original boards had 420 positions (R001..R420); the 112 future-proof sites were
+# appended as R421..R532 and are DNP on every card.
+N_ORIG = 420
+ADDED = {r["reference"] for r in ROWS if int(r["reference"][1:]) > N_ORIG}
+assert len(ROWS) == M["universal_resistor_positions"] == 532
+assert len(grid) == M["input_positions"] == 512 and len(central) == 20
+assert len(ADDED) == M["added_default_dnp_positions"] and all(
+    not r["cards"] for r in ROWS if r["reference"] in ADDED)
 
 
 def neuron(card, n):
@@ -44,7 +65,7 @@ def cell(card, i, col):
         return ("", NO_FP, None)
     c = r["cards"].get(card)
     if c is None:
-        return (r["reference"], "DNP", None)
+        return (r["reference"], "DNP+" if r["reference"] in ADDED else "DNP", None)
     return (r["reference"], c["value"], c["tolerance"])
 
 
@@ -64,10 +85,12 @@ CELL = ParagraphStyle("c", fontName="Helvetica", fontSize=6.6, leading=7.6,
                       alignment=1)
 INK, MUTED, DNPBG, NOFPBG, PRECBG = (colors.HexColor(x) for x in
     ("#111111", "#8a8a8a", "#ffe9e6", "#ededed", "#e3efff"))
+ADDBG = colors.HexColor("#f3e6ff")
 
 LEGEND = ("<b>value</b> = solder 5% 0805.  <b>value</b> with <b>1%</b> tag on blue = "
           "solder 1% precision part.  <font color='#c0392b'><b>DNP</b></font> = leave pads "
-          "OPEN (never 0\u03a9).  \u2013 on grey = no footprint on the board.")
+          "OPEN (never 0\u03a9).  <font color='#7d3c98'><b>DNP+</b></font> on purple = "
+          "future-proof site added in the 532-site layout, open on all four cards.")
 
 
 def weight_table(card, lo, hi):
@@ -87,10 +110,11 @@ def weight_table(card, lo, hi):
             if val == NO_FP:
                 row.append(Paragraph(f"<font color='#999'>{NO_FP}</font>", CELL))
                 style.append(("BACKGROUND", (ci, ri), (ci, ri), NOFPBG))
-            elif val == "DNP":
+            elif val in ("DNP", "DNP+"):
+                add = val == "DNP+"
                 row.append(Paragraph(f"<font size=5.5 color='#888'>{ref}</font> "
-                                     f"<font color='#c0392b'><b>DNP</b></font>", CELL))
-                style.append(("BACKGROUND", (ci, ri), (ci, ri), DNPBG))
+                                     f"<font color='{'#7d3c98' if add else '#c0392b'}'><b>{val}</b></font>", CELL))
+                style.append(("BACKGROUND", (ci, ri), (ci, ri), ADDBG if add else DNPBG))
             else:
                 tag = " <font color='#1f5fbf'><b>1%</b></font>" if tol <= 0.01 else ""
                 row.append(Paragraph(f"<font size=5.5 color='#555'>{ref}</font> "
@@ -118,11 +142,8 @@ def central_table(card):
              ("ALIGN", (0, 0), (-1, -1), "CENTER")]
     for ri, r in enumerate(central, start=1):
         p1, p2 = r["pads"]["1"], r["pads"]["2"]
-        nets = set(r["nets"])
-        role = ("feedback" if any(n.startswith("V_SUM") for n in nets) else
-                "bias" if "+5V_REF" in nets else "balance")
-        nn = [n for n in r["nets"] if n[-2:-1] == "N" or "_N" in n or n.startswith("V_SUM")]
-        idx = int([n for n in r["nets"] if n not in ("GND", "+5V_REF")][0][-1])
+        role = _role(r)
+        idx = int(_target(r)[-1])
         c = r["cards"].get(card)
         if c:
             val, tol, orig = c["value"], f"{c['tolerance']*100:g}%", c["ref"]
@@ -130,9 +151,11 @@ def central_table(card):
                 style.append(("BACKGROUND", (7, ri), (8, ri), PRECBG))
             style.append(("FONTNAME", (7, ri), (7, ri), "Helvetica-Bold"))
         else:
-            val, tol, orig = "DNP (open)", "", ""
-            style.append(("BACKGROUND", (0, ri), (-1, ri), DNPBG))
-            style.append(("TEXTCOLOR", (7, ri), (7, ri), colors.HexColor("#c0392b")))
+            add = r["reference"] in ADDED
+            val, tol, orig = ("DNP+ (new)" if add else "DNP (open)"), "", ""
+            style.append(("BACKGROUND", (0, ri), (-1, ri), ADDBG if add else DNPBG))
+            style.append(("TEXTCOLOR", (7, ri), (7, ri),
+                          colors.HexColor("#7d3c98" if add else "#c0392b")))
         data.append([r["reference"], f"{r['x_mm']:g}", f"{r['y_mm']:g}", p1, p2, role,
                      f"N{neuron(card, idx)}", val, tol, orig])
     t = Table(data, colWidths=[16*mm, 14*mm, 14*mm, 24*mm, 24*mm, 20*mm, 16*mm,
@@ -164,14 +187,18 @@ def build_pdf():
     st = [Paragraph("DC1 universal board: population summary", H),
           Paragraph("One 100\u00d7100 mm board, four builds (a\u2013d). Each build fits only "
                     "the parts listed for its letter; every other resistor footprint "
-                    "is left open. Never fit a 0 \u03a9 link in a DNP position.", S),
+                    "is left open. Never fit a 0 \u03a9 link in a DNP position. "
+                    f"{len(ROWS)} resistor sites total: {len(grid)} input sites (full 64 inputs "
+                    f"\u00d7 4 neurons \u00d7 POS/INV matrix, every cell has a footprint) + "
+                    f"{len(central)} central bias/balance/feedback sites. {len(ADDED)} of these "
+                    "are future-proof additions, DNP on every card.", S),
           Spacer(1, 4)]
     data = [["Card", "Neurons", "Resistors fitted", "5% (weights, bias)", "1% (balance, feedback)",
-             "DNP footprints"]]
+             "DNP footprints", "of which new (DNP+)"]]
     for k in CARDS:
         n, p5, p1 = counts(k)
-        data.append([f"DC1{k}", f"N{neuron(k,0)}\u2013N{neuron(k,3)}", n, p5, p1, len(ROWS) - n])
-    t = Table(data, colWidths=[22*mm, 26*mm, 34*mm, 38*mm, 44*mm, 32*mm])
+        data.append([f"DC1{k}", f"N{neuron(k,0)}\u2013N{neuron(k,3)}", n, p5, p1, len(ROWS) - n, len(ADDED)])
+    t = Table(data, colWidths=[20*mm, 24*mm, 32*mm, 34*mm, 40*mm, 30*mm, 36*mm])
     t.setStyle(TableStyle([("GRID", (0, 0), (-1, -1), 0.3, colors.grey),
                            ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#222")),
                            ("TEXTCOLOR", (0, 0), (-1, 0), colors.white),
@@ -185,8 +212,9 @@ def build_pdf():
     st += [t, Spacer(1, 8), Paragraph(LEGEND, S), Spacer(1, 4),
            Paragraph("Board layout: IN0\u2013IN31 bank on the left half, IN32\u2013IN63 on the right, "
                      "one row per input, eight columns per bank (POS/INV for local N0\u2013N3). "
-                     "The 16 central resistors sit in two columns at x = 47 / 52.6 mm, "
-                     "y = 59\u201394 mm. Reference numbers in each cell match the silkscreen.", S),
+                     "The 20 central resistors sit in two columns at x = 47 / 52.6 mm, "
+                     "y = 44\u201394 mm (bias on +5V_REF to every POS/INV node, balance on GND "
+                     "to every node, feedback to V_SUM). Reference numbers in each cell match the silkscreen.", S),
            PageBreak()]
     for k in CARDS:
         for lo, hi, side in ((0, 32, "left bank"), (32, 64, "right bank")):
@@ -195,8 +223,8 @@ def build_pdf():
                              f"neurons N{neuron(k,0)}\u2013N{neuron(k,3)}", H),
                    Paragraph(LEGEND, S), Spacer(1, 2), weight_table(k, lo, hi), PageBreak()]
         st += [Paragraph(f"DC1{k} \u00b7 central resistors (feedback, bias, balance)", H),
-               Paragraph("x = 47 / 52.6 mm, y = 59\u201394 mm. Balance and feedback are 1% "
-                         "(blue); bias is 5%. Red rows stay open.", S), Spacer(1, 4),
+               Paragraph("x = 47 / 52.6 mm, y = 44\u201394 mm, grouped by net pair. Balance and "
+                         "feedback are 1% (blue); bias is 5%. Red and purple rows stay open.", S), Spacer(1, 4),
                central_table(k), Spacer(1, 8),
                Paragraph("Also fit the fixed parts: U1 TL074, C_U1P and C_U1N 0.1 \u00b5F 50 V "
                          "0805, J_STRADDLE_EDGE.", S), PageBreak()]
@@ -210,12 +238,16 @@ def build_md():
          "Generated by `population_chart.py` from `manifest.json`. The PDF "
          "(`population_chart.pdf`) has the same data laid out for printing.", "",
          "Legend: `value` = fit 5% 0805, `value*` = fit 1% precision, `DNP` = leave "
-         "pads open (never 0 Ω), `–` = no footprint on the board.", "",
+         "pads open (never 0 Ω), `DNP+` = future-proof site added in the 532-site layout, "
+         "open on every card.", "",
+         f"{len(ROWS)} sites: {len(grid)} input sites (64 inputs × 4 neurons × POS/INV, every "
+         f"matrix cell populated with a footprint) + {len(central)} central bias/balance/feedback "
+         f"sites at x 47/52.6 mm, y 44–94 mm. {len(ADDED)} sites are new and DNP on all cards.", "",
          "Fixed on every card: U1 TL074, C_U1P/C_U1N 0.1 µF 50 V 0805, J_STRADDLE_EDGE (76 pins).", "",
-         "| Card | Neurons | Fitted | 5% | 1% | DNP |", "|---|---|---|---|---|---|"]
+         "| Card | Neurons | Fitted | 5% | 1% | DNP | of which new (DNP+) |", "|---|---|---|---|---|---|---|"]
     for k in CARDS:
         n, p5, p1 = counts(k)
-        L.append(f"| DC1{k} | N{neuron(k,0)}–N{neuron(k,3)} | {n} | {p5} | {p1} | {len(ROWS)-n} |")
+        L.append(f"| DC1{k} | N{neuron(k,0)}–N{neuron(k,3)} | {n} | {p5} | {p1} | {len(ROWS)-n} | {len(ADDED)} |")
     for k in CARDS:
         L += ["", f"## DC1{k} (neurons N{neuron(k,0)}–N{neuron(k,3)})", ""]
         L += ["| IN | " + " | ".join(f"{c} (N{neuron(k,int(c[-1]))})" for c in COLS) + " |",
@@ -226,20 +258,20 @@ def build_md():
                 ref, val, tol = cell(k, i, col)
                 if val == NO_FP:
                     cells.append("–")
-                elif val == "DNP":
-                    cells.append(f"{ref} DNP")
+                elif val in ("DNP", "DNP+"):
+                    cells.append(f"{ref} {val}")
                 else:
                     cells.append(f"{ref} **{val}{'*' if tol <= 0.01 else ''}**")
             L.append(f"| IN{i} | " + " | ".join(cells) + " |")
         L += ["", f"Central resistors, DC1{k}:", "",
-              "| Ref | X | Y | Pad 1 | Pad 2 | Value | Tol | Original |",
-              "|---|---|---|---|---|---|---|---|"]
+              "| Ref | X | Y | Pad 1 | Pad 2 | Role | Value | Tol | Original |",
+              "|---|---|---|---|---|---|---|---|---|"]
         for r in central:
             c = r["cards"].get(k)
             v = (f"**{c['value']}{'*' if c['tolerance'] <= 0.01 else ''}**", f"{c['tolerance']*100:g}%",
-                 c["ref"]) if c else ("DNP", "", "")
+                 c["ref"]) if c else ("DNP+" if r["reference"] in ADDED else "DNP", "", "")
             L.append(f"| {r['reference']} | {r['x_mm']:g} | {r['y_mm']:g} | {r['pads']['1']} | "
-                     f"{r['pads']['2']} | {v[0]} | {v[1]} | {v[2]} |")
+                     f"{r['pads']['2']} | {_role(r)} | {v[0]} | {v[1]} | {v[2]} |")
     (HERE / "POPULATION.md").write_text("\n".join(L) + "\n")
 
 
