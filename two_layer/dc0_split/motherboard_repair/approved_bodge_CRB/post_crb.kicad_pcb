@@ -54347,4 +54347,186 @@
 		)
 	)
 	(embedded_fonts no)
+	(gr_poly
+		(pts
+			(xy 3.0100 29.4300)
+			(xy 3.6600 28.0300)
+			(xy 2.3600 28.0300)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b2dc1850-4e42-4317-b3a1-f600d32350cc")
+	)
+	(gr_text "1"
+		(at 3.0100 26.8300 0)
+		(layer "F.SilkS")
+		(uuid "b28a4e82-a1bf-4b74-b09a-e123d3d7bb0e")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+				(bold yes)
+			)
+		)
+	)
+	(gr_poly
+		(pts
+			(xy 3.0100 40.5300)
+			(xy 3.6600 39.1300)
+			(xy 2.3600 39.1300)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e521497f-c414-4def-a1fd-63f587fa458d")
+	)
+	(gr_text "1"
+		(at 3.0100 37.9300 0)
+		(layer "F.SilkS")
+		(uuid "ebc6548a-5ad0-4ac5-a210-0461f4746952")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+				(bold yes)
+			)
+		)
+	)
+	(gr_poly
+		(pts
+			(xy 3.0100 51.5300)
+			(xy 3.6600 50.1300)
+			(xy 2.3600 50.1300)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d63590e0-2250-4593-aecc-d29c206d656b")
+	)
+	(gr_text "1"
+		(at 3.0100 48.9300 0)
+		(layer "F.SilkS")
+		(uuid "5b945636-60e6-440b-bff5-0ff74db73e12")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+				(bold yes)
+			)
+		)
+	)
+	(gr_poly
+		(pts
+			(xy 1.8100 62.5300)
+			(xy 2.4600 61.1300)
+			(xy 1.1600 61.1300)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "0e80c6bc-4db6-4c06-831c-046c50386a07")
+	)
+	(gr_text "1"
+		(at 1.8100 59.9300 0)
+		(layer "F.SilkS")
+		(uuid "3c06c946-f07f-4f0d-a4ea-186587fd1278")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+				(bold yes)
+			)
+		)
+	)
+	(gr_poly
+		(pts
+			(xy 3.0100 73.5300)
+			(xy 3.6600 72.1300)
+			(xy 2.3600 72.1300)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "99f6de06-5c03-40c8-abc8-a9e4107cbe4c")
+	)
+	(gr_text "1"
+		(at 3.0100 70.9300 0)
+		(layer "F.SilkS")
+		(uuid "b7730d8f-432a-4ce5-b4f6-f390a456ac26")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+				(bold yes)
+			)
+		)
+	)
+	(gr_poly
+		(pts
+			(xy 3.0100 84.5300)
+			(xy 3.6600 83.1300)
+			(xy 2.3600 83.1300)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ade23c12-5679-457c-b2dd-545162e452eb")
+	)
+	(gr_text "1"
+		(at 3.0100 81.9300 0)
+		(layer "F.SilkS")
+		(uuid "fa6e597e-0b5a-40cd-a2a0-9701a7743ccf")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+				(bold yes)
+			)
+		)
+	)
+	(gr_poly
+		(pts
+			(xy 1.8000 8.7300)
+			(xy 0.4500 8.0800)
+			(xy 0.4500 9.3800)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "604a6a0c-2f6c-47c8-872e-3366fa101f8f")
+	)
+	(gr_text "1"
+		(at 1.1500 6.2000 0)
+		(layer "F.SilkS")
+		(uuid "a3ae28b1-9065-4605-b682-d4070df7eed1")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+				(bold yes)
+			)
+		)
+	)
 )
