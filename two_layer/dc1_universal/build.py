@@ -44,7 +44,21 @@ def configure(f,ref,value,x,y):
  return f
 
 def main():
- cards,union=snapshot(); b=p.LoadBoard(str(ROOT/'daughtercard1a_weights_l1_differential_repaired.kicad_pcb'))
+ cards,union=snapshot()
+ # Freeze existing refs/poses while adding every possible signed matrix and bias site.
+ old=json.loads((HERE/'manifest.json').read_text()) if (HERE/'manifest.json').exists() else {'rows':[]}
+ oldrows={tuple(sorted(r['nets'])):r for r in old['rows']}
+ nextref=max([int(r['reference'][1:]) for r in old['rows']]+[0])+1
+ for i in range(64):
+  for j in range(4):
+   for leg in ('POS','INV'):union.setdefault(tuple(sorted((f'IN_{i}',f'{leg}_N{j}'))),{})
+ for j in range(4):
+  for leg in ('POS','INV'):
+   union.setdefault(tuple(sorted(('+5V_REF',f'{leg}_N{j}'))),{})
+   union.setdefault(tuple(sorted(('GND',f'{leg}_N{j}'))),{})
+  union.setdefault(tuple(sorted((f'INV_N{j}',f'V_SUM_{j}'))),{})
+ assert len(union)==532
+ b=p.LoadBoard(str(ROOT/'daughtercard1a_weights_l1_differential_repaired.kicad_pcb'))
  fixed={f.GetReference():f for f in b.GetFootprints() if not f.GetReference().startswith('R')}
  mechanical={ref:{q.GetNumber():[q.GetPosition().x,q.GetPosition().y,q.GetNetname()] for q in f.Pads()} for ref,f in fixed.items() if ref.startswith(('J','H'))}
  for t in list(b.GetTracks()):b.Delete(t)
@@ -69,17 +83,21 @@ def main():
   if inp:
    dst=next(n for n in k if n!=inp);return (0,int(inp[3:]),int(dst[-1]),0 if dst.startswith('POS') else 1)
   return (1,)+k
- for i,key in enumerate(sorted(union,key=sortkey),1):
+ new_support_index=0
+ for key in sorted(union,key=sortkey):
   inp=next((n for n in key if n.startswith('IN_')),None)
   if inp:
    k=int(inp[3:]);dst=next(n for n in key if n!=inp);j=int(dst[-1]);leg=0 if dst.startswith('POS') else 1
    x=5.8+(j*2+leg)*5.2+(52 if k>=32 else 0);y=9.7+(k%32)*2.65
    pads={'1':inp,'2':dst}
   else:
-   other_index=sum(not any(n.startswith('IN_') for n in r['nets']) for r in rows)
-   x=47 if other_index%2==0 else 52.6;y=59+5*(other_index//2)
+   if key in oldrows:x,y=oldrows[key]['x_mm'],oldrows[key]['y_mm']
+   else:
+    x=47 if new_support_index%2==0 else 52.6;y=44+5*(new_support_index//2);new_support_index+=1
    pads={'1':key[0],'2':key[1]}
-  ref=f'R{i:03d}';f=p.Cast_to_FOOTPRINT(template.Duplicate(False));configure(f,ref,'POPULATION',x,y)
+  if key in oldrows:ref=oldrows[key]['reference']
+  else:ref=f'R{nextref:03d}';nextref+=1
+  f=p.Cast_to_FOOTPRINT(template.Duplicate(False));configure(f,ref,'POPULATION',x,y)
   for q in f.Pads():q.SetNet(net(pads[q.GetNumber()]))
   b.Add(f)
   row={'reference':ref,'nets':list(key),'pads':pads,'x_mm':x,'y_mm':y,'cards':union[key]};rows.append(row)
@@ -111,7 +129,7 @@ def main():
  project['net_settings']['classes'][0].update(clearance=.2,track_width=.25,via_diameter=.6,via_drill=.3)
  (HERE/'dc1_universal_unrouted.kicad_pro').write_text(json.dumps(project,indent=2)+'\n')
  assert p.ExportSpecctraDSN(b,str(HERE/'dc1_universal.dsn'))
- (HERE/'manifest.json').write_text(json.dumps({'cards':cards,'union_resistor_positions':len(rows),'input_positions':sum(any(n.startswith('IN_') for n in r['nets']) for r in rows),'rows':rows,'mechanical':mechanical},indent=2)+'\n')
+ (HERE/'manifest.json').write_text(json.dumps({'cards':cards,'universal_resistor_positions':len(rows),'union_resistor_positions':len(rows),'full_matrix_logical_weights':256,'added_default_dnp_positions':sum(not r['cards'] for r in rows),'input_positions':sum(any(n.startswith('IN_') for n in r['nets']) for r in rows),'rows':rows,'mechanical':mechanical},indent=2)+'\n')
  for c in cards:
   with (HERE/f'DC1{c}.csv').open('w',newline='') as out:
    w=csv.writer(out);w.writerow(['Reference','Value','Tolerance_percent','Original_reference','Pad1','Pad2','X_mm','Y_mm','Footprint'])
