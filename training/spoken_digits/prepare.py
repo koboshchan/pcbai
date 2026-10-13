@@ -8,7 +8,7 @@ D=H/'data'; D.mkdir(exist_ok=True)
 CLASSES=['zero','one','two','three','four','five','six','seven','eight','nine']
 URL='https://storage.googleapis.com/download.tensorflow.org/data/speech_commands_v0.02.tar.gz'
 def download():
- if (D/'download_complete.json').exists():return
+ if (D/'download_complete.json').exists() and (D/'validation_list.txt').exists() and (D/'testing_list.txt').exists():return
  req=urllib.request.urlopen(URL,timeout=120)
  sha=hashlib.sha256()
  class Reader:
@@ -18,12 +18,16 @@ def download():
  with tarfile.open(fileobj=Reader(),mode='r|gz') as tar:
   for m in tar:
    p=Path(m.name)
-   if m.isfile() and (m.name in ['validation_list.txt','testing_list.txt','LICENSE','README.md'] or (len(p.parts)==2 and p.parts[0] in CLASSES and p.suffix=='.wav')):
+   if m.isfile() and (p.as_posix() in ['validation_list.txt','testing_list.txt','LICENSE','README.md'] or (len(p.parts)==2 and p.parts[0] in CLASSES and p.suffix=='.wav')):
     dest=D/p;dest.parent.mkdir(exist_ok=True)
     dest.write_bytes(tar.extractfile(m).read());count+=1
     if count%5000==0:print('download retained',count,flush=True)
  # Drain response so checksum covers complete compressed archive.
- while req.read(1024*1024):pass
+ while True:
+  chunk=req.read(1024*1024)
+  if not chunk:break
+  sha.update(chunk)
+ assert sha.hexdigest()=='af14739ee7dc311471de98f5f9d2c9191b18aedfe957f4a6ff791c709868ff58'
  (D/'download_complete.json').write_text(json.dumps({'url':URL,'compressed_stream_sha256':sha.hexdigest(),'retained_files':count}))
 def features(bands,slices):
  out=D/f'features_{bands}x{slices}.npz'
@@ -57,6 +61,9 @@ def features(bands,slices):
  X=np.array(xs);s=np.array(splits);train=X[s==0]
  # Train-only per-feature robust scaling. Clip validation/test without fitting them.
  lo=np.quantile(train,.01,axis=0);hi=np.quantile(train,.99,axis=0)
+ speaker_sets=[{Path(names[i]).stem.split('_nohash_')[0] for i in np.where(s==k)[0]} for k in range(3)]
+ assert all(not speaker_sets[i]&speaker_sets[j] for i in range(3) for j in range(i))
+ (H/f'preprocess_{bands}x{slices}.json').write_text(json.dumps({'bands':bands,'slices':slices,'lo':lo.tolist(),'hi':hi.tolist(),'scaling_fit':'training only','speaker_sets_disjoint':True},indent=2))
  X=np.clip((X-lo)/np.maximum(hi-lo,1e-6),0,1).astype('float32')
  np.savez_compressed(out,X=np.round(X*63)/63*5,y=np.array(ys),split=s,names=np.array(names),lo=lo,hi=hi)
 if __name__=='__main__':

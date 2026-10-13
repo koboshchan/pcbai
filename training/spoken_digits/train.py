@@ -47,6 +47,8 @@ def train_layout(bands,slices):
  net.load_state_dict(torch.load(out/'hardware.pt',weights_only=True))
  w1=net.fc1.weight.detach().cpu().numpy();b1=net.fc1.bias.detach().cpu().numpy();w2=net.fc2.weight.detach().cpu().numpy();b2=net.fc2.bias.detach().cpu().numpy()
  c=json.loads((F/'circuit.json').read_text())
+ c['input']='64 spoken-digit log-mel features, 6-bit PWM 0..5V through 10050 ohm sources'
+ c.pop('shared_5V_rail',None)  # MNIST rail-sensitivity result does not qualify this model.
  c['layer1']=synthesize(-w1,-b1,e96);c['layer2']=synthesize(w2,b2,e96)
  c['status']='Speech Commands v2 digits, official splits, validation-selected, not fabricated-board weights'
  (out/'circuit.json').write_text(json.dumps(c,indent=2));np.savez(out/'trained_float.npz',w1=w1,b1=b1,w2=w2,b2=b2)
