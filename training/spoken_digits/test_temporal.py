@@ -1,7 +1,7 @@
 """Deterministic endpointing checks; no fitting on validation/test."""
 import unittest
 import numpy as np
-from temporal import voiced_bounds, pool_interval
+from temporal import voiced_bounds, pool_interval, alignment_bounds
 
 class Temporal(unittest.TestCase):
     def test_silence_noise_and_continuous(self):
@@ -31,6 +31,17 @@ class Temporal(unittest.TestCase):
         self.assertGreater(lo,1200)
         self.assertLessEqual(lo,4000)
         self.assertGreaterEqual(hi,9600)
+
+    def test_fixed_onset_windows(self):
+        x=np.zeros(16000);x[12800:]=.2*np.sin(np.arange(3200))
+        for ms in [500,600,700]:
+            lo,hi=alignment_bounds(x,f"4x16-alt-onset{ms}")
+            self.assertGreaterEqual(lo,12480)
+            self.assertLessEqual(lo,12800)
+            self.assertEqual(hi-lo,ms*16)
+            self.assertGreater(hi,16000)
+            self.assertEqual(alignment_bounds(np.zeros(16000),f"8x8-onset{ms}"),(0,ms*16))
+        with self.assertRaises(ValueError):alignment_bounds(x,"8x8-onset900")
 
     def test_fractional_pooling(self):
         np.testing.assert_allclose(pool_interval(np.ones((4,16000)),123.5,12345.5,16),1)

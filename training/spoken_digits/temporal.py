@@ -7,7 +7,10 @@ VAD_CONFIG = dict(sample_rate=16000, window_samples=320, hop_samples=160,
                   min_run_frames=3, margin_samples=480,
                   minimum_samples=1280, fallback="whole clip")
 
-def voiced_bounds(audio):
+ALIGNMENT_LABELS = [base + suffix for base in ["4x16-alt", "8x8"]
+                    for suffix in ["-trimmed", "-onset500", "-onset600", "-onset700"]]
+
+def detected_region(audio):
     """20ms RMS-energy windows, 10ms hop; never use labels or dataset splits."""
     x = np.asarray(audio, dtype=np.float64)
     if x.shape != (16000,):
@@ -27,12 +30,18 @@ def voiced_bounds(audio):
     ends = np.flatnonzero(np.diff(padded) == -1)
     keep = ends - starts >= 3
     if not np.any(keep):
-        return 0, len(x)
-    lo = max(0, int(starts[keep][0]) * 160 - 480)
-    hi = min(len(x), int(ends[keep][-1] - 1) * 160 + 320 + 480)
+        return None
+    return int(starts[keep][0]) * 160, int(ends[keep][-1] - 1) * 160 + 320
+
+def voiced_bounds(audio):
+    region = detected_region(audio)
+    if region is None:
+        return 0, len(audio)
+    lo = max(0, region[0] - 480)
+    hi = min(len(audio), region[1] + 480)
     if hi - lo < 1280:
         mid = (lo + hi) // 2
-        lo = min(max(0, mid - 640), len(x) - 1280)
+        lo = min(max(0, mid - 640), len(audio) - 1280)
         hi = lo + 1280
     return lo, hi
 
@@ -47,3 +56,25 @@ def pool_interval(values, start, end, bins):
                                  np.cumsum(values, axis=-1, dtype=np.float64)], axis=-1)
     integral = cumulative[..., indexes] + values[..., indexes] * (edges - indexes)
     return np.diff(integral, axis=-1) / np.diff(edges)
+
+def alignment_bounds(audio, label):
+    if label.endswith("-trimmed"):
+        return voiced_bounds(audio)
+    if "-onset" not in label:
+        return 0, 16000
+    duration_ms = int(label.rsplit("-onset", 1)[1])
+    if duration_ms not in (500, 600, 700):
+        raise ValueError("unsupported onset window")
+    region = detected_region(audio)
+    onset = 0 if region is None else region[0]
+    return onset, onset + duration_ms * 16
+
+def alignment_config(label):
+    if label.endswith("-trimmed"):
+        return {"type":"energy-VAD normalized-time pooling; no waveform pitch shift", **VAD_CONFIG}
+    if "-onset" in label:
+        return {"type":"fixed duration from detected onset; normalized-time pooling",
+                "duration_ms":int(label.rsplit("-onset",1)[1]), "pre_margin_ms":0,
+                "beyond_clip":"zero pad, never shift onset or shorten window",
+                "no_detection_onset":0, **VAD_CONFIG}
+    return {"type":"fixed one-second bins"}

@@ -4,7 +4,7 @@ from pathlib import Path
 import numpy as np
 import torch
 from scipy.signal import butter, sosfilt
-from temporal import voiced_bounds, pool_interval, VAD_CONFIG
+from temporal import alignment_bounds, alignment_config, pool_interval, ALIGNMENT_LABELS
 
 BAND_SETS = {
  "4x16": [1600, 2000, 2500, 3150],
@@ -52,8 +52,8 @@ def download():
  (D/'download_complete.json').write_text(json.dumps({'url':URL,'compressed_stream_sha256':sha.hexdigest(),'retained_files':count}))
 def features(bands,slices,label=None):
  label = label or f"{bands}x{slices}"
- trimmed = label.endswith("-trimmed")
- base_label = label.removesuffix("-trimmed")
+ trimmed = label in ALIGNMENT_LABELS
+ base_label = label.split("-onset")[0].removesuffix("-trimmed")
  centers = BAND_SETS.get(base_label)
  filters = envelope_filters(centers) if centers else None
  out=D/f'features_{label}.npz'
@@ -76,7 +76,9 @@ def features(bands,slices,label=None):
      assert w.getframerate()==16000 and w.getnchannels()==1 and w.getsampwidth()==2
      a=np.frombuffer(w.readframes(w.getnframes()),dtype='<i2').astype(np.float32)/32768
     audio.append(np.pad(a[:16000],(0,max(0,16000-len(a)))))
-   bounds = [voiced_bounds(a) for a in audio] if trimmed else None
+   bounds = [alignment_bounds(a, label) for a in audio] if trimmed else None
+   if "-onset" in label:
+    audio = [np.pad(a, (0, 16000)) for a in audio]  # exact fixed duration may extend beyond recording
    a=torch.tensor(np.array(audio))
    if filters is not None:
     if trimmed:
@@ -103,14 +105,14 @@ def features(bands,slices,label=None):
  lo=np.quantile(train,.01,axis=0);hi=np.quantile(train,.99,axis=0)
  speaker_sets=[{Path(names[i]).stem.split('_nohash_')[0] for i in np.where(s==k)[0]} for k in range(3)]
  assert all(not speaker_sets[i]&speaker_sets[j] for i in range(3) for j in range(i))
- (H/f'preprocess_{label}.json').write_text(json.dumps({'bands':bands,'slices':slices,'lo':lo.tolist(),'hi':hi.tolist(),'scaling_fit':'training only','speaker_sets_disjoint':True, 'temporal_alignment': ({'type':'energy-VAD normalized-time pooling; no waveform pitch shift', **VAD_CONFIG} if trimmed else {'type':'fixed one-second bins'}), 'frontend': ({'type':'causal Butterworth third-octave log-power envelopes', 'centers_hz':centers, 'edges_hz':[[c/2**(1/6),c*2**(1/6)] for c in centers], 'sos':[s.tolist() for s in filters], 'bandpass_order':4, 'initial_state':'zero per clip', 'samples_per_frame':None if trimmed else 1000, 'frame_ms':None if trimmed else 62.5, 'time_bins':'equal fractions of VAD interval' if trimmed else 'fixed 1000 samples', 'flattening':'band-major', 'power_floor':1e-10} if centers else {'type':'STFT triangular mel'})},indent=2))
+ (H/f'preprocess_{label}.json').write_text(json.dumps({'bands':bands,'slices':slices,'lo':lo.tolist(),'hi':hi.tolist(),'scaling_fit':'training only','speaker_sets_disjoint':True, 'temporal_alignment': alignment_config(label), 'frontend': ({'type':'causal Butterworth third-octave log-power envelopes', 'centers_hz':centers, 'edges_hz':[[c/2**(1/6),c*2**(1/6)] for c in centers], 'sos':[s.tolist() for s in filters], 'bandpass_order':4, 'initial_state':'zero per clip', 'samples_per_frame':None if trimmed else 1000, 'frame_ms':None if trimmed else 62.5, 'time_bins':'equal fractions of VAD interval' if trimmed else 'fixed 1000 samples', 'flattening':'band-major', 'power_floor':1e-10} if centers else {'type':'STFT triangular mel'})},indent=2))
  X=np.clip((X-lo)/np.maximum(hi-lo,1e-6),0,1).astype('float32')
  np.savez_compressed(out,X=np.round(X*63)/63*5,y=np.array(ys),split=s,names=np.array(names),lo=lo,hi=hi)
 if __name__=='__main__':
  download()
  import argparse
  parser=argparse.ArgumentParser()
- parser.add_argument("--layouts", nargs="+", choices=["8x8","16x4",*BAND_SETS,"8x8-trimmed","4x16-alt-trimmed"], default=["8x8","16x4"])
+ parser.add_argument("--layouts", nargs="+", choices=["8x8","16x4",*BAND_SETS,*ALIGNMENT_LABELS], default=["8x8","16x4"])
  args=parser.parse_args()
  for label in args.layouts:
   b,s=map(int,label.split("-")[0].split("x"));features(b,s,label)

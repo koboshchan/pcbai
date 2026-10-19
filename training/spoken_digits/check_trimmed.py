@@ -6,14 +6,14 @@ import numpy as np
 import torch
 from scipy.signal import sosfilt
 from prepare import BAND_SETS, envelope_filters
-from temporal import voiced_bounds, pool_interval
+from temporal import alignment_bounds, pool_interval, ALIGNMENT_LABELS
 
 H=Path(__file__).resolve().parent
 
 def main():
     base=np.load(H/"data/features_8x8.npz")
     torch.set_num_threads(8)
-    for label in ["8x8-trimmed","4x16-alt-trimmed"]:
+    for label in ALIGNMENT_LABELS:
         d=np.load(H/f"data/features_{label}.npz")
         p=json.loads((H/f"preprocess_{label}.json").read_text())
         for key in ["names","y","split"]:
@@ -31,7 +31,10 @@ def main():
             with wave.open(str(H/"data"/str(d["names"][i]))) as w:
                 a=np.frombuffer(w.readframes(w.getnframes()),dtype="<i2").astype(np.float32)/32768
             audio.append(np.pad(a[:16000],(0,max(0,16000-len(a)))))
-        a=np.array(audio);bounds=[voiced_bounds(x) for x in a]
+        bounds=[alignment_bounds(x,label) for x in audio]
+        if "-onset" in label:
+            audio=[np.pad(x,(0,16000)) for x in audio]
+        a=np.array(audio)
         if label.startswith("4"):
             filters=envelope_filters(BAND_SETS["4x16-alt"])
             power=np.stack([sosfilt(sos,a,axis=-1)**2 for sos in filters],axis=1)
@@ -54,7 +57,7 @@ def main():
     from train import Net, device
     from model import synthesize
     from train import e96
-    for label in ["8x8-trimmed","4x16-alt-trimmed"]:
+    for label in ALIGNMENT_LABELS:
         d=np.load(H/f"data/features_{label}.npz")
         m=json.loads((H/label/"metrics.json").read_text())
         xv=torch.tensor(d["X"][d["split"]==1],device=device)
