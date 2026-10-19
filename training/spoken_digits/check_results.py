@@ -9,6 +9,10 @@ class Results(unittest.TestCase):
    self.assertEqual(m['counts'],{'train':31158,'validation':3643,'test':4107})
    self.assertTrue(p['speaker_sets_disjoint']);self.assertEqual(len(p['lo']),64);self.assertEqual(len(p['hi']),64)
    self.assertFalse(m['test_used_for_selection'])
+   self.assertEqual(m['epochs'],60);self.assertEqual(len(m['logs']),60)
+   self.assertEqual([log['epoch'] for log in m['logs']],list(range(60)))
+   self.assertEqual(m['float_validation'],max(log['float_validation'] for log in m['logs']))
+   self.assertEqual(m['hardware_validation'],max(log['hardware_validation'] for log in m['logs'][15:]))
    if name.startswith('4x16'):
     front=p['frontend']
     self.assertEqual(p['bands'],4);self.assertEqual(p['slices'],16)
@@ -21,11 +25,18 @@ class Results(unittest.TestCase):
     self.assertAlmostEqual(sum(cm[i][i] for i in range(10))/4107,m[acc])
    samples=m['mc']['accuracy_samples'];self.assertEqual(len(samples),1000)
    self.assertAlmostEqual(sum(samples)/1000,m['mc']['mean']);self.assertEqual(min(samples),m['mc']['min'])
+   self.assertEqual(max(samples),m['mc']['max']);self.assertEqual(m['mc']['boards'],1000)
+   self.assertEqual(m['mc']['seed'],51005)
+   self.assertTrue(all(0<=a<=1 for a in samples))
+   self.assertEqual(len(m['solver_regression']),4)
    for r in m['solver_regression']:self.assertLess(max(r['errors']),1e-9)
    c=json.loads((H/name/'circuit.json').read_text())
    self.assertEqual(len(c['layer1']),16);self.assertEqual(len(c['layer2']),10)
  def test_selection(self):
   s=json.loads((H/'summary.json').read_text())
   self.assertEqual(len(s['results']),4)
+  for row in s['results']:
+   full=json.loads((H/row['layout']/'metrics.json').read_text())
+   self.assertEqual(row,{k:v for k,v in full.items() if k not in ['logs','float_confusion','hardware_confusion']})
   self.assertEqual(s['chosen_by_hardware_validation'],max(s['results'],key=lambda m:m['hardware_validation'])['layout'])
 if __name__=='__main__':unittest.main()
