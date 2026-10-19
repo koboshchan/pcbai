@@ -17,12 +17,13 @@ def check(label):
  for i in selected:
   a=read_audio(str(d["names"][i]));ss,on=windows(a);ix=np.flatnonzero(ids==i)
   np.testing.assert_array_equal(d["starts"][ix],ss);assert d["onset_starts"][i]==on
-  f=scale(raw_features(a,ss+[on],label),d["lo"],d["hi"])
-  np.testing.assert_array_equal(d["X"][ix],f[:-1]);np.testing.assert_array_equal(d["onset"][i],f[-1])
+  f=scale(augmented_features(a,label),d["lo"],d["hi"])
+  live=scale(raw_features(a,[on],label),d["lo"],d["hi"])
+  np.testing.assert_array_equal(d["X"][ix],f);np.testing.assert_array_equal(d["onset"][i],live[0])
  # Recompute scaler from ALL expanded training windows, without reading heldout audio.
  raw=[]
  for i in np.flatnonzero(s==0):
-  a=read_audio(str(d["names"][i]));ss,_=windows(a);raw.extend(raw_features(a,ss,label))
+  a=read_audio(str(d["names"][i]));ss,_=windows(a);raw.extend(augmented_features(a,label))
  raw=np.array(raw)
  np.testing.assert_array_equal(np.quantile(raw,.01,axis=0),d["lo"])
  np.testing.assert_array_equal(np.quantile(raw,.99,axis=0),d["hi"])

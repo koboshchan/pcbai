@@ -85,4 +85,4 @@ if __name__=="__main__":
     results=[]
     for label in LABELS:
         prepare(label);results.append(run(label))
-    (H/"summary400.json").write_text(json.dumps({"chosen_by_hardware_validation":max(results,key=lambda x:x["hardware_validation"])["layout"],"results":[{k:v for k,v in m.items() if k not in ["logs"]} for m in results]},indent=2))
+    (H/"summary400_silence.json").write_text(json.dumps({"chosen_by_hardware_validation":max(results,key=lambda x:x["hardware_validation"])["layout"],"results":[{k:v for k,v in m.items() if k not in ["logs"]} for m in results]},indent=2))

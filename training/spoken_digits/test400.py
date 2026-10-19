@@ -31,6 +31,36 @@ class Windows(unittest.TestCase):
      f=raw_features(a,[-4000,0,9600,14000],label)
      self.assertEqual(f.shape,(4,64));self.assertTrue(np.isfinite(f).all())
      np.testing.assert_array_equal(f[1],raw_features(a,[0],label)[0])
+ def test_short_word_silence_before_frontend(self):
+    from unittest.mock import patch
+    rng=np.random.default_rng(93)
+    for region in [(0,2000),(14000,16000),(5000,7000)]:
+     a=rng.normal(0,.8,16000).astype("float32")
+     b=rng.normal(0,.8,16000).astype("float32")
+     b[region[0]:region[1]]=a[region[0]:region[1]]
+     expected=np.zeros(16000,dtype="float32")
+     expected[region[0]:region[1]]=a[region[0]:region[1]]
+     np.testing.assert_array_equal(augmentation_audio(a,region),expected)
+     for start in starts_for_region(region):
+      w=padded_window(augmentation_audio(a,region),start)
+      lo,hi=region[0]-start,region[1]-start
+      np.testing.assert_array_equal(w[lo:hi],a[region[0]:region[1]])
+      self.assertTrue(np.all(w[:lo]==0));self.assertTrue(np.all(w[hi:]==0))
+     for label in LABELS:
+      with patch("window400.detected_region",return_value=region):
+       fa=augmented_features(a,label);fb=augmented_features(b,label)
+      np.testing.assert_array_equal(fa,fb)
+      np.testing.assert_array_equal(fa,raw_features(expected,starts_for_region(region),label))
+      self.assertFalse(np.array_equal(raw_features(a,[region[0]],label),raw_features(b,[region[0]],label)))
+ def test_long_and_fallback_keep_context(self):
+    from unittest.mock import patch
+    a=np.random.default_rng(9).normal(0,.1,16000).astype("float32")
+    for region in [None,(1000,9000),(1000,7400)]:
+     np.testing.assert_array_equal(augmentation_audio(a,region),a)
+     for label in LABELS:
+      with patch("window400.detected_region",return_value=region):
+       f=augmented_features(a,label)
+      np.testing.assert_array_equal(f,raw_features(a,starts_for_region(region),label))
  def test_grouped_score_not_vote(self):
     from train400 import evaluate_scores
     s=torch.zeros((1,3,10),device="cuda",dtype=torch.float64)

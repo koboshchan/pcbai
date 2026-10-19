@@ -7,7 +7,7 @@ from scipy.signal import sosfilt
 from prepare import H,D,envelope_filters,BAND_SETS
 from temporal import detected_region,pool_interval,VAD_CONFIG
 N=6400
-LABELS=["4x16-alt-aug400","8x8-aug400"]
+LABELS=["4x16-alt-aug400-silence","8x8-aug400-silence"]
 
 def starts_for_region(region):
     lo,hi=(0,16000) if region is None else region
@@ -50,6 +50,20 @@ def raw_features(audio,starts,label):
     log=torch.log10((torch.tensor(bank,dtype=torch.float32)@spec).clamp(min=1e-10)).numpy()
     return np.array([pool_interval(log,(s+N)/160,(s+N+N)/160,8).reshape(64) for s in starts])
 
+def augmentation_audio(audio, region):
+    """Silence outside a short detected word BEFORE filtering, not after pooling."""
+    a=np.asarray(audio,dtype=np.float32)
+    if region is not None and region[1]-region[0]<N:
+        out=np.zeros_like(a)
+        out[region[0]:region[1]]=a[region[0]:region[1]]
+        return out
+    return a
+
+def augmented_features(audio, label):
+    region=detected_region(audio)
+    starts=starts_for_region(region)
+    return raw_features(augmentation_audio(audio,region),starts,label)
+
 def read_audio(name):
     with wave.open(str(D/name)) as w:
         assert (w.getframerate(),w.getnchannels(),w.getsampwidth())==(16000,1,2)
@@ -68,8 +82,9 @@ def prepare(label):
     raw=[];onset=[];ids=[];starts=[];onsets=[]
     for i,name in enumerate(names):
         a=read_audio(str(name));ss,oo=windows(a)
-        both=raw_features(a,ss+[oo],label)
-        raw.extend(both[:-1]);onset.append(both[-1]);ids.extend([i]*len(ss));starts.extend(ss);onsets.append(oo)
+        features=augmented_features(a,label)
+        live=raw_features(a,[oo],label)[0]
+        raw.extend(features);onset.append(live);ids.extend([i]*len(ss));starts.extend(ss);onsets.append(oo)
         if i%5000==0:print(label,"features",i,flush=True)
     raw=np.array(raw);onset=np.array(onset);ids=np.array(ids);starts=np.array(starts)
     lo=np.quantile(raw[split[ids]==0],.01,axis=0);hi=np.quantile(raw[split[ids]==0],.99,axis=0)
@@ -78,8 +93,8 @@ def prepare(label):
       "vad":{**VAD_CONFIG,"margin_samples":0,"minimum_samples":None},
       "augmentation":"raw detected bounds; >400ms slide 100ms plus final end-aligned; exactly400 one; short end/start/center",
       "fallback":"whole original one-second clip, seven windows at 0..600ms",
-      "padding":"original surrounding audio, may contain background; zeros only outside original 1s; never shift or truncate word",
-      "filter_history":"full original clip plus 400ms zeros either side before filtering; causal SOS preserves original history; STFT noncausal centered context preserved",
+      "padding":"augmentation short words: preserve detected samples exactly, zero every outside sample BEFORE filters/STFT; end/start/center placements; long/fallback unchanged",
+      "filter_history":"augmentation short words: masked full clip plus zero extensions, no outside-word history; long/fallback and realtime onset: original full clip history/context retained; STFT centered noncausal",
       "pooling":"fixed400ms, no variable-time resizing, band-major; 4band power means then log; 8band log-mel fractional frame-cell means",
       "optimization":"expanded training windows only; no expanded validation/test independent identities",
       "scaling_fit":"1st/99th percentiles expanded TRAIN windows only; quantized6bit 0..5V",
