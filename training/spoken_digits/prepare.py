@@ -50,6 +50,41 @@ def download():
   sha.update(chunk)
  assert sha.hexdigest()=='af14739ee7dc311471de98f5f9d2c9191b18aedfe957f4a6ff791c709868ff58'
  (D/'download_complete.json').write_text(json.dumps({'url':URL,'compressed_stream_sha256':sha.hexdigest(),'retained_files':count}))
+def extract_batch(audio, label):
+ """Raw 64-feature vectors for a batch; no scaling fit and no disk writes."""
+ bands,slices=map(int,label.split("-")[0].split("x"))
+ trimmed=label in ALIGNMENT_LABELS
+ base_label=label.split("-onset")[0].removesuffix("-trimmed")
+ centers=BAND_SETS.get(base_label)
+ filters=envelope_filters(centers) if centers else None
+ hz=lambda m:700*(10**(m/2595)-1)
+ mel=lambda h:2595*np.log10(1+h/700)
+ edges=hz(np.linspace(mel(20),mel(8000),bands+2))
+ f=np.linspace(0,8000,257)
+ bank=np.maximum(0,np.minimum((f[None]-edges[:-2,None])/(edges[1:-1,None]-edges[:-2,None]),(edges[2:,None]-f[None])/(edges[2:,None]-edges[1:-1,None])))
+ bank=torch.tensor(bank,dtype=torch.float32)
+ bounds = [alignment_bounds(a, label) for a in audio] if trimmed else None
+ if "-onset" in label:
+  audio = [np.pad(a, (0, 16000)) for a in audio]  # exact fixed duration may extend beyond recording
+ a=torch.tensor(np.array(audio))
+ if filters is not None:
+  if trimmed:
+   power = np.stack([sosfilt(sos, a.numpy(), axis=-1)**2 for sos in filters], axis=1)
+   feat = np.array([np.log10(np.maximum(pool_interval(v, lo, hi, slices), 1e-10)).reshape(64)
+                    for v, (lo, hi) in zip(power, bounds)])
+  else:
+   feat=envelope_features(a.numpy(),filters)
+ else:
+  spec=torch.stft(a,512,160,400,torch.hann_window(400),return_complex=True).abs().square()
+  log=torch.log10((bank@spec).clamp(min=1e-10))
+  if trimmed:
+   # Centered STFT frames represent positions at hop intervals. Clamp to recorded time.
+   feat = np.array([pool_interval(v, lo / 160, min(hi / 160, v.shape[-1]), slices).reshape(64)
+                    for v, (lo, hi) in zip(log.numpy(), bounds)])
+  else:
+   feat=torch.stack([x.mean(-1) for x in torch.tensor_split(log,slices,dim=-1)],-1).reshape(len(audio),64).numpy()
+ return feat
+
 def features(bands,slices,label=None):
  label = label or f"{bands}x{slices}"
  trimmed = label in ALIGNMENT_LABELS
@@ -60,12 +95,6 @@ def features(bands,slices,label=None):
  if out.exists():return
  torch.set_num_threads(8)
  val=set((D/'validation_list.txt').read_text().splitlines());test=set((D/'testing_list.txt').read_text().splitlines())
- # Fixed 20Hz..8kHz triangular mel bank, 25ms windows / 10ms hop.
- hz=lambda m:700*(10**(m/2595)-1)
- mel=lambda h:2595*np.log10(1+h/700)
- edges=hz(np.linspace(mel(20),mel(8000),bands+2))
- f=np.linspace(0,8000,257); bank=np.maximum(0,np.minimum((f[None]-edges[:-2,None])/(edges[1:-1,None]-edges[:-2,None]),(edges[2:,None]-f[None])/(edges[2:,None]-edges[1:-1,None])))
- bank=torch.tensor(bank,dtype=torch.float32)
  xs=[];ys=[];splits=[];names=[]
  for yi,c in enumerate(CLASSES):
   files=sorted((D/c).glob('*.wav'))
@@ -76,26 +105,7 @@ def features(bands,slices,label=None):
      assert w.getframerate()==16000 and w.getnchannels()==1 and w.getsampwidth()==2
      a=np.frombuffer(w.readframes(w.getnframes()),dtype='<i2').astype(np.float32)/32768
     audio.append(np.pad(a[:16000],(0,max(0,16000-len(a)))))
-   bounds = [alignment_bounds(a, label) for a in audio] if trimmed else None
-   if "-onset" in label:
-    audio = [np.pad(a, (0, 16000)) for a in audio]  # exact fixed duration may extend beyond recording
-   a=torch.tensor(np.array(audio))
-   if filters is not None:
-    if trimmed:
-     power = np.stack([sosfilt(sos, a.numpy(), axis=-1)**2 for sos in filters], axis=1)
-     feat = np.array([np.log10(np.maximum(pool_interval(v, lo, hi, slices), 1e-10)).reshape(64)
-                      for v, (lo, hi) in zip(power, bounds)])
-    else:
-     feat=envelope_features(a.numpy(),filters)
-   else:
-    spec=torch.stft(a,512,160,400,torch.hann_window(400),return_complex=True).abs().square()
-    log=torch.log10((bank@spec).clamp(min=1e-10))
-    if trimmed:
-     # Centered STFT frames represent positions at hop intervals. Clamp to recorded time.
-     feat = np.array([pool_interval(v, lo / 160, min(hi / 160, v.shape[-1]), slices).reshape(64)
-                      for v, (lo, hi) in zip(log.numpy(), bounds)])
-    else:
-     feat=torch.stack([x.mean(-1) for x in torch.tensor_split(log,slices,dim=-1)],-1).reshape(len(batch),64).numpy()
+   feat=extract_batch(audio,label)
    xs.extend(feat);ys.extend([yi]*len(batch))
    for p in batch:
     rel=p.relative_to(D).as_posix();names.append(rel);splits.append(2 if rel in test else 1 if rel in val else 0)
@@ -105,7 +115,7 @@ def features(bands,slices,label=None):
  lo=np.quantile(train,.01,axis=0);hi=np.quantile(train,.99,axis=0)
  speaker_sets=[{Path(names[i]).stem.split('_nohash_')[0] for i in np.where(s==k)[0]} for k in range(3)]
  assert all(not speaker_sets[i]&speaker_sets[j] for i in range(3) for j in range(i))
- (H/f'preprocess_{label}.json').write_text(json.dumps({'bands':bands,'slices':slices,'lo':lo.tolist(),'hi':hi.tolist(),'scaling_fit':'training only','speaker_sets_disjoint':True, 'temporal_alignment': alignment_config(label), 'frontend': ({'type':'causal Butterworth third-octave log-power envelopes', 'centers_hz':centers, 'edges_hz':[[c/2**(1/6),c*2**(1/6)] for c in centers], 'sos':[s.tolist() for s in filters], 'bandpass_order':4, 'initial_state':'zero per clip', 'samples_per_frame':None if trimmed else 1000, 'frame_ms':None if trimmed else 62.5, 'time_bins':'equal fractions of VAD interval' if trimmed else 'fixed 1000 samples', 'flattening':'band-major', 'power_floor':1e-10} if centers else {'type':'STFT triangular mel'})},indent=2))
+ (H/f'preprocess_{label}.json').write_text(json.dumps({'bands':bands,'slices':slices,'lo':lo.tolist(),'hi':hi.tolist(),'scaling_fit':'training only','speaker_sets_disjoint':True, 'temporal_alignment': alignment_config(label), 'frontend': ({'type':'causal Butterworth third-octave log-power envelopes', 'centers_hz':centers, 'edges_hz':[[c/2**(1/6),c*2**(1/6)] for c in centers], 'sos':[s.tolist() for s in filters], 'bandpass_order':4, 'initial_state':'zero per clip', 'samples_per_frame':None if trimmed else 1000, 'frame_ms':None if trimmed else 62.5, 'time_bins':'equal fractions of selected interval' if trimmed else 'fixed 1000 samples', 'flattening':'band-major', 'power_floor':1e-10} if centers else {'type':'STFT triangular mel'})},indent=2))
  X=np.clip((X-lo)/np.maximum(hi-lo,1e-6),0,1).astype('float32')
  np.savez_compressed(out,X=np.round(X*63)/63*5,y=np.array(ys),split=s,names=np.array(names),lo=lo,hi=hi)
 if __name__=='__main__':

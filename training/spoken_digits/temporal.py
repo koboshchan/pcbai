@@ -76,5 +76,6 @@ def alignment_config(label):
         return {"type":"fixed duration from detected onset; normalized-time pooling",
                 "duration_ms":int(label.rsplit("-onset",1)[1]), "pre_margin_ms":0,
                 "beyond_clip":"zero pad, never shift onset or shorten window",
-                "no_detection_onset":0, **VAD_CONFIG}
+                "no_detection_onset":0, **VAD_CONFIG, "margin_samples":0,
+                "minimum_samples":None, "fallback":"onset zero, exact fixed duration"}
     return {"type":"fixed one-second bins"}
