@@ -4,6 +4,7 @@ from pathlib import Path
 import numpy as np
 import torch
 from scipy.signal import butter, sosfilt
+from temporal import voiced_bounds, pool_interval, VAD_CONFIG
 
 BAND_SETS = {
  "4x16": [1600, 2000, 2500, 3150],
@@ -51,7 +52,9 @@ def download():
  (D/'download_complete.json').write_text(json.dumps({'url':URL,'compressed_stream_sha256':sha.hexdigest(),'retained_files':count}))
 def features(bands,slices,label=None):
  label = label or f"{bands}x{slices}"
- centers = BAND_SETS.get(label)
+ trimmed = label.endswith("-trimmed")
+ base_label = label.removesuffix("-trimmed")
+ centers = BAND_SETS.get(base_label)
  filters = envelope_filters(centers) if centers else None
  out=D/f'features_{label}.npz'
  if out.exists():return
@@ -73,13 +76,24 @@ def features(bands,slices,label=None):
      assert w.getframerate()==16000 and w.getnchannels()==1 and w.getsampwidth()==2
      a=np.frombuffer(w.readframes(w.getnframes()),dtype='<i2').astype(np.float32)/32768
     audio.append(np.pad(a[:16000],(0,max(0,16000-len(a)))))
+   bounds = [voiced_bounds(a) for a in audio] if trimmed else None
    a=torch.tensor(np.array(audio))
    if filters is not None:
-    feat=envelope_features(a.numpy(),filters)
+    if trimmed:
+     power = np.stack([sosfilt(sos, a.numpy(), axis=-1)**2 for sos in filters], axis=1)
+     feat = np.array([np.log10(np.maximum(pool_interval(v, lo, hi, slices), 1e-10)).reshape(64)
+                      for v, (lo, hi) in zip(power, bounds)])
+    else:
+     feat=envelope_features(a.numpy(),filters)
    else:
     spec=torch.stft(a,512,160,400,torch.hann_window(400),return_complex=True).abs().square()
     log=torch.log10((bank@spec).clamp(min=1e-10))
-    feat=torch.stack([x.mean(-1) for x in torch.tensor_split(log,slices,dim=-1)],-1).reshape(len(batch),64).numpy()
+    if trimmed:
+     # Centered STFT frames represent positions at hop intervals. Clamp to recorded time.
+     feat = np.array([pool_interval(v, lo / 160, min(hi / 160, v.shape[-1]), slices).reshape(64)
+                      for v, (lo, hi) in zip(log.numpy(), bounds)])
+    else:
+     feat=torch.stack([x.mean(-1) for x in torch.tensor_split(log,slices,dim=-1)],-1).reshape(len(batch),64).numpy()
    xs.extend(feat);ys.extend([yi]*len(batch))
    for p in batch:
     rel=p.relative_to(D).as_posix();names.append(rel);splits.append(2 if rel in test else 1 if rel in val else 0)
@@ -89,14 +103,14 @@ def features(bands,slices,label=None):
  lo=np.quantile(train,.01,axis=0);hi=np.quantile(train,.99,axis=0)
  speaker_sets=[{Path(names[i]).stem.split('_nohash_')[0] for i in np.where(s==k)[0]} for k in range(3)]
  assert all(not speaker_sets[i]&speaker_sets[j] for i in range(3) for j in range(i))
- (H/f'preprocess_{label}.json').write_text(json.dumps({'bands':bands,'slices':slices,'lo':lo.tolist(),'hi':hi.tolist(),'scaling_fit':'training only','speaker_sets_disjoint':True, 'frontend': ({'type':'causal Butterworth third-octave log-power envelopes', 'centers_hz':centers, 'edges_hz':[[c/2**(1/6),c*2**(1/6)] for c in centers], 'sos':[s.tolist() for s in filters], 'bandpass_order':4, 'initial_state':'zero per clip', 'samples_per_frame':1000, 'frame_ms':62.5, 'flattening':'band-major', 'power_floor':1e-10} if centers else {'type':'STFT triangular mel'})},indent=2))
+ (H/f'preprocess_{label}.json').write_text(json.dumps({'bands':bands,'slices':slices,'lo':lo.tolist(),'hi':hi.tolist(),'scaling_fit':'training only','speaker_sets_disjoint':True, 'temporal_alignment': ({'type':'energy-VAD normalized-time pooling; no waveform pitch shift', **VAD_CONFIG} if trimmed else {'type':'fixed one-second bins'}), 'frontend': ({'type':'causal Butterworth third-octave log-power envelopes', 'centers_hz':centers, 'edges_hz':[[c/2**(1/6),c*2**(1/6)] for c in centers], 'sos':[s.tolist() for s in filters], 'bandpass_order':4, 'initial_state':'zero per clip', 'samples_per_frame':1000, 'frame_ms':62.5, 'flattening':'band-major', 'power_floor':1e-10} if centers else {'type':'STFT triangular mel'})},indent=2))
  X=np.clip((X-lo)/np.maximum(hi-lo,1e-6),0,1).astype('float32')
  np.savez_compressed(out,X=np.round(X*63)/63*5,y=np.array(ys),split=s,names=np.array(names),lo=lo,hi=hi)
 if __name__=='__main__':
  download()
  import argparse
  parser=argparse.ArgumentParser()
- parser.add_argument("--layouts", nargs="+", choices=["8x8","16x4",*BAND_SETS], default=["8x8","16x4"])
+ parser.add_argument("--layouts", nargs="+", choices=["8x8","16x4",*BAND_SETS,"8x8-trimmed","4x16-alt-trimmed"], default=["8x8","16x4"])
  args=parser.parse_args()
  for label in args.layouts:
   b,s=map(int,label.split("-")[0].split("x"));features(b,s,label)

@@ -75,13 +75,13 @@ def train_layout(bands,slices,label=None):
 if __name__=='__main__':
  import argparse
  parser=argparse.ArgumentParser()
- parser.add_argument("--layouts", nargs="+", choices=["8x8","16x4","4x16","4x16-alt"], default=["8x8","16x4"])
+ parser.add_argument("--layouts", nargs="+", choices=["8x8","16x4","4x16","4x16-alt","8x8-trimmed","4x16-alt-trimmed"], default=["8x8","16x4"])
  args=parser.parse_args()
  results=[]
  for label in args.layouts:
   b,s=map(int,label.split("-")[0].split("x"));results.append(train_layout(b,s,label))
  # Include already-delivered baselines without retraining or selecting on test.
- for label in ["8x8","16x4","4x16","4x16-alt"]:
+ for label in ["8x8","16x4","4x16","4x16-alt","8x8-trimmed","4x16-alt-trimmed"]:
   if label not in args.layouts and (H/label/"metrics.json").exists():
    results.append(json.loads((H/label/"metrics.json").read_text()))
  # Layout decision uses validation, never test results.
