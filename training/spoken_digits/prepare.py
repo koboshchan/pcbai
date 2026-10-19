@@ -3,6 +3,26 @@ import tarfile,urllib.request,hashlib,json,wave
 from pathlib import Path
 import numpy as np
 import torch
+from scipy.signal import butter, sosfilt
+
+BAND_SETS = {
+ "4x16": [1600, 2000, 2500, 3150],
+ "4x16-alt": [500, 1000, 2000, 4000],
+}
+
+def envelope_filters(centers):
+ """Causal two-biquad bandpass per band, third-octave -3dB edges."""
+ return [butter(2, [c / 2**(1/6), c * 2**(1/6)],
+                btype="bandpass", fs=16000, output="sos") for c in centers]
+
+def envelope_features(audio, filters):
+ """Log power over 16 exact, nonoverlapping 1000-sample windows."""
+ audio = np.asarray(audio)
+ if audio.ndim != 2 or audio.shape[1] != 16000:
+  raise ValueError("expected batch of one-second 16kHz clips")
+ powers = [np.mean(sosfilt(sos, audio, axis=-1).reshape(-1, 16, 1000)**2, axis=-1)
+           for sos in filters]
+ return np.log10(np.maximum(np.stack(powers, axis=1), 1e-10)).reshape(-1, 64)
 H=Path(__file__).resolve().parent
 D=H/'data'; D.mkdir(exist_ok=True)
 CLASSES=['zero','one','two','three','four','five','six','seven','eight','nine']
@@ -29,8 +49,11 @@ def download():
   sha.update(chunk)
  assert sha.hexdigest()=='af14739ee7dc311471de98f5f9d2c9191b18aedfe957f4a6ff791c709868ff58'
  (D/'download_complete.json').write_text(json.dumps({'url':URL,'compressed_stream_sha256':sha.hexdigest(),'retained_files':count}))
-def features(bands,slices):
- out=D/f'features_{bands}x{slices}.npz'
+def features(bands,slices,label=None):
+ label = label or f"{bands}x{slices}"
+ centers = BAND_SETS.get(label)
+ filters = envelope_filters(centers) if centers else None
+ out=D/f'features_{label}.npz'
  if out.exists():return
  torch.set_num_threads(8)
  val=set((D/'validation_list.txt').read_text().splitlines());test=set((D/'testing_list.txt').read_text().splitlines())
@@ -51,9 +74,12 @@ def features(bands,slices):
      a=np.frombuffer(w.readframes(w.getnframes()),dtype='<i2').astype(np.float32)/32768
     audio.append(np.pad(a[:16000],(0,max(0,16000-len(a)))))
    a=torch.tensor(np.array(audio))
-   spec=torch.stft(a,512,160,400,torch.hann_window(400),return_complex=True).abs().square()
-   log=torch.log10((bank@spec).clamp(min=1e-10))
-   feat=torch.stack([x.mean(-1) for x in torch.tensor_split(log,slices,dim=-1)],-1).reshape(len(batch),64).numpy()
+   if filters is not None:
+    feat=envelope_features(a.numpy(),filters)
+   else:
+    spec=torch.stft(a,512,160,400,torch.hann_window(400),return_complex=True).abs().square()
+    log=torch.log10((bank@spec).clamp(min=1e-10))
+    feat=torch.stack([x.mean(-1) for x in torch.tensor_split(log,slices,dim=-1)],-1).reshape(len(batch),64).numpy()
    xs.extend(feat);ys.extend([yi]*len(batch))
    for p in batch:
     rel=p.relative_to(D).as_posix();names.append(rel);splits.append(2 if rel in test else 1 if rel in val else 0)
@@ -63,9 +89,14 @@ def features(bands,slices):
  lo=np.quantile(train,.01,axis=0);hi=np.quantile(train,.99,axis=0)
  speaker_sets=[{Path(names[i]).stem.split('_nohash_')[0] for i in np.where(s==k)[0]} for k in range(3)]
  assert all(not speaker_sets[i]&speaker_sets[j] for i in range(3) for j in range(i))
- (H/f'preprocess_{bands}x{slices}.json').write_text(json.dumps({'bands':bands,'slices':slices,'lo':lo.tolist(),'hi':hi.tolist(),'scaling_fit':'training only','speaker_sets_disjoint':True},indent=2))
+ (H/f'preprocess_{label}.json').write_text(json.dumps({'bands':bands,'slices':slices,'lo':lo.tolist(),'hi':hi.tolist(),'scaling_fit':'training only','speaker_sets_disjoint':True, 'frontend': ({'type':'causal Butterworth third-octave log-power envelopes', 'centers_hz':centers, 'edges_hz':[[c/2**(1/6),c*2**(1/6)] for c in centers], 'sos':[s.tolist() for s in filters], 'bandpass_order':4, 'initial_state':'zero per clip', 'samples_per_frame':1000, 'frame_ms':62.5, 'flattening':'band-major', 'power_floor':1e-10} if centers else {'type':'STFT triangular mel'})},indent=2))
  X=np.clip((X-lo)/np.maximum(hi-lo,1e-6),0,1).astype('float32')
  np.savez_compressed(out,X=np.round(X*63)/63*5,y=np.array(ys),split=s,names=np.array(names),lo=lo,hi=hi)
 if __name__=='__main__':
  download()
- for b,s in [(8,8),(16,4)]:features(b,s)
+ import argparse
+ parser=argparse.ArgumentParser()
+ parser.add_argument("--layouts", nargs="+", choices=["8x8","16x4",*BAND_SETS], default=["8x8","16x4"])
+ args=parser.parse_args()
+ for label in args.layouts:
+  b,s=map(int,label.split("-")[0].split("x"));features(b,s,label)

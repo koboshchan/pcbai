@@ -15,9 +15,9 @@ Net=ns['Net'];e96=ns['e96'];device=ns['device']
 torch.set_num_threads(8)
 def confusion(y,p):
  return np.bincount(y*10+p,minlength=100).reshape(10,10).tolist()
-def train_layout(bands,slices):
+def train_layout(bands,slices,label=None):
  torch.manual_seed(42064);np.random.seed(42064)
- label=f'{bands}x{slices}';out=H/label;out.mkdir(exist_ok=True)
+ label=label or f'{bands}x{slices}';out=H/label;out.mkdir(exist_ok=True)
  d=np.load(H/'data'/f'features_{label}.npz')
  X=d['X'];y=d['y'];split=d['split']
  sets=[(torch.tensor(X[split==i],device=device),torch.tensor(y[split==i],device=device)) for i in range(3)]
@@ -47,7 +47,8 @@ def train_layout(bands,slices):
  net.load_state_dict(torch.load(out/'hardware.pt',weights_only=True))
  w1=net.fc1.weight.detach().cpu().numpy();b1=net.fc1.bias.detach().cpu().numpy();w2=net.fc2.weight.detach().cpu().numpy();b2=net.fc2.bias.detach().cpu().numpy()
  c=json.loads((F/'circuit.json').read_text())
- c['input']='64 spoken-digit log-mel features, 6-bit PWM 0..5V through 10050 ohm sources'
+ c['input']='64 spoken-digit features, 6-bit PWM 0..5V through 10050 ohm sources'
+ c['preprocessing']=f'../preprocess_{label}.json'
  c.pop('shared_5V_rail',None)  # MNIST rail-sensitivity result does not qualify this model.
  c['layer1']=synthesize(-w1,-b1,e96);c['layer2']=synthesize(w2,b2,e96)
  c['status']='Speech Commands v2 digits, official splits, validation-selected, not fabricated-board weights'
@@ -72,7 +73,17 @@ def train_layout(bands,slices):
  print('RESULT',label,metrics['float_test_accuracy'],metrics['hardware_nominal_accuracy'],metrics['mc']['mean'],metrics['mc']['min'],flush=True)
  return metrics
 if __name__=='__main__':
- results=[train_layout(8,8),train_layout(16,4)]
+ import argparse
+ parser=argparse.ArgumentParser()
+ parser.add_argument("--layouts", nargs="+", choices=["8x8","16x4","4x16","4x16-alt"], default=["8x8","16x4"])
+ args=parser.parse_args()
+ results=[]
+ for label in args.layouts:
+  b,s=map(int,label.split("-")[0].split("x"));results.append(train_layout(b,s,label))
+ # Include already-delivered baselines without retraining or selecting on test.
+ for label in ["8x8","16x4","4x16","4x16-alt"]:
+  if label not in args.layouts and (H/label/"metrics.json").exists():
+   results.append(json.loads((H/label/"metrics.json").read_text()))
  # Layout decision uses validation, never test results.
  winner=max(results,key=lambda m:m['hardware_validation'])
  (H/'summary.json').write_text(json.dumps({'chosen_by_hardware_validation':winner['layout'],'results':[{k:v for k,v in m.items() if k not in ['logs','float_confusion','hardware_confusion']} for m in results]},indent=2))
