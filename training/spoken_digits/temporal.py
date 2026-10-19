@@ -8,7 +8,7 @@ VAD_CONFIG = dict(sample_rate=16000, window_samples=320, hop_samples=160,
                   minimum_samples=1280, fallback="whole clip")
 
 ALIGNMENT_LABELS = [base + suffix for base in ["4x16-alt", "8x8"]
-                    for suffix in ["-trimmed", "-onset500", "-onset600", "-onset700"]]
+                    for suffix in ["-trimmed", "-onset300", "-onset500", "-onset700"]]
 
 def detected_region(audio):
     """20ms RMS-energy windows, 10ms hop; never use labels or dataset splits."""
@@ -63,7 +63,7 @@ def alignment_bounds(audio, label):
     if "-onset" not in label:
         return 0, 16000
     duration_ms = int(label.rsplit("-onset", 1)[1])
-    if duration_ms not in (500, 600, 700):
+    if duration_ms not in (300, 500, 700):
         raise ValueError("unsupported onset window")
     region = detected_region(audio)
     onset = 0 if region is None else region[0]

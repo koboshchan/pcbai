@@ -34,7 +34,7 @@ class Temporal(unittest.TestCase):
 
     def test_fixed_onset_windows(self):
         x=np.zeros(16000);x[12800:]=.2*np.sin(np.arange(3200))
-        for ms in [500,600,700]:
+        for ms in [300,500,700]:
             lo,hi=alignment_bounds(x,f"4x16-alt-onset{ms}")
             self.assertGreaterEqual(lo,12480)
             self.assertLessEqual(lo,12800)
