@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PCBAI · resistance probe</title>
+<link rel="stylesheet" href="style.css">
+<header><h1>PCBAI <span>resistance probe</span></h1><p>Two probes. One unpowered board.</p></header>
+<nav aria-label="Board controls"><label>Board <select id="board"></select></label><button id="front" aria-pressed="true">Front</button><button id="back" aria-pressed="false">Back (flipped)</button><button id="reset">Clear probes</button><button id="fit">Fit board</button><label><input id="refs" type="checkbox" checked> References</label></nav>
+<main><section aria-label="Interactive PCB" id="canvas"><svg id="pcb" role="img" aria-label="Click copper or a pad to place probes"></svg><p id="hint">Click a pad, via or track for A, then B. Scroll to zoom; drag empty space to pan.</p></section>
+<aside><div class="readout"><small>IDEAL DC RESISTANCE</small><output id="result" aria-live="polite">Place probe A</output></div><label class="probe">A <select id="a" aria-label="Probe A pad"><option value="">Choose a pad</option></select></label><label class="probe">B <select id="b" aria-label="Probe B pad"><option value="">Choose a pad</option></select></label><p id="nets"></p><h2>Current-carrying resistors</h2><p class="muted">Largest branch currents first, for a 1 A test current. These are branches, not a single series path.</p><div id="paths"></div><p id="notice"></p><details><summary>What this model includes</summary><p>Nominal fitted resistors only. Each named net is ideal copper. Capacitors, diodes, op-amps and other ICs are open. Connectors never short different nets. No external boards, bodges, power supplies or meter diode effects.</p><p>A real unpowered meter may differ because of IC protection paths, capacitors, tolerances or a bad solder joint. Remove power before probing.</p></details><p id="source" class="muted"></p></aside></main>
+<script src="solver.js"></script><script src="app.js"></script></html>
+
