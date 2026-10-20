@@ -52,11 +52,10 @@ atomically. An existing output path is never overwritten.
 
 Verified physical status2026-10-19
 Pico MicroPython1.25.0, empty filesystem, RAM execution compiled successfully.
-I2C scan found0x48/49/4a. Allzero input with100ms settle and3reads completed.
-ADC range.8844..2.234V; several reconstructed scores close to amplifier
-rails. This is not a passed circuit test. Before singlepixel tests, Pico
-USB disappeared. Hardware response, grayscale operation and MNIST accuracy
-are UNVERIFIED. No full MNIST test was started. Some0x49/0x4a raw readings
-are multiples16; check whether these modules are ADS1015 rather than1115
-before claiming16-bit precision. Both use the same voltage scaling but
-different data-rate tables.
+I2C scan found0x48/49/4a and an allzero command completed. Lucas then
+reported the motherboard jumper was missing. All initial analog readings
+are INVALID and must not be used for diagnosis, precision or accuracy
+claims. Repeat scan, allzero and singlepixel checks only after explicit
+confirmation the jumper is connected. USB also disappeared before the
+singlepixel tests. Hardware response, grayscale operation and MNIST
+accuracy remain UNVERIFIED. No full MNIST test was started.
