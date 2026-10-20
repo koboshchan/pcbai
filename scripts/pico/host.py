@@ -67,7 +67,7 @@ class Pico:
                 continue
             reply = json.loads(line)
             if "error" in reply:
-                raise RuntimeError(reply["error"])
+                raise RuntimeError(json.dumps(reply, separators=(",", ":")))
             return reply
         raise TimeoutError("No Pico reply")
 

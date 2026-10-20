@@ -34,6 +34,7 @@ class Controller:
         self.bus = I2C(0, sda=Pin(4), scl=Pin(5), freq=100000, timeout=50000)
         self.sm = self.data = self.reload = None
         self.buffer = self.pointer = None
+        self.adc_trace = []
 
     def off(self):
         self.oe.value(1)
@@ -80,16 +81,24 @@ class Controller:
     def read_adc(self, address, channel):
         cfg = 0x8000 | ((4 + channel) << 12) | 0x0200 | 0x0100 | 0x00e0 | 3
         self.bus.writeto_mem(address, 1, cfg.to_bytes(2, "big"))
+        # Allow the 25 us power-up interval before testing OS.
+        time.sleep_us(50)
         start = time.ticks_ms()
         while True:
             config = int.from_bytes(self.bus.readfrom_mem(address, 1, 2), "big")
+            if (config & 0x7fff) != (cfg & 0x7fff):
+                raise RuntimeError("ADC config readback mismatch")
             if config & 0x8000:
                 break
             if time.ticks_diff(time.ticks_ms(), start) > 25:
                 raise RuntimeError("ADC conversion timeout")
             time.sleep_us(200)
         raw = int.from_bytes(self.bus.readfrom_mem(address, 0, 2), "big")
-        return raw - 65536 if raw & 32768 else raw
+        raw = raw - 65536 if raw & 32768 else raw
+        self.adc_trace.append({"address":address,"channel":channel,
+                               "ticks_ms":start,"elapsed_ms":time.ticks_diff(time.ticks_ms(),start),
+                               "config":config,"raw":raw,"attempt":1,"retry_count":0})
+        return raw
 
     def measure(self, pixels, settle_ms=70, repeats=3):
         validate_pixels(pixels)
@@ -99,6 +108,7 @@ class Controller:
             raise ValueError("repeats must be 1..20")
         if self.bus.scan() != [72, 73, 74]:
             raise RuntimeError("expected ADS1115 addresses 0x48,0x49,0x4a")
+        self.adc_trace = []
         started = time.ticks_us()
         self.drive(pixels)
         try:
@@ -114,6 +124,7 @@ class Controller:
             raw = [sum(r[i] for r in readings) / repeats for i in range(10)]
             adc = [r * .000125 for r in raw]
             return {"raw": raw, "raw_repeats": readings, "adc_volts": adc,
+                    "adc_trace": self.adc_trace,
                     "scores": [score_voltage(v) for v in adc],
                     "settle_ms": settle_ms, "repeats": repeats,
                     "elapsed_us": time.ticks_diff(time.ticks_us(), started),
@@ -151,7 +162,8 @@ def main():
                     raise ValueError("unknown operation")
             except Exception as exc:
                 c.off()
-                reply = {"error": str(exc)}
+                reply = {"error": str(exc), "adc_trace": c.adc_trace,
+                         "retry_policy":"stop on first fault; no outlier retries"}
             print(json.dumps(reply))
     finally:
         c.off()
