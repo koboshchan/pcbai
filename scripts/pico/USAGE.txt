@@ -1,0 +1,62 @@
+This controller is for the paid original 64-16-10 MNIST stack.
+It does not change resistors or any PCB file.
+
+Install only host dependencies if absent
+python3 -m pip install pyserial numpy Pillow
+
+host.Pico loads encoding.py and firmware.py into RAM using raw USB REPL.
+No UF2 reflash, flash erasure, filesystem writes, or main.py replacement.
+It requires an otherwise idle /dev/cu.usbmodem* port. Exit, error and quit
+disable OE. USB interruption is not a hardware safety interlock. If the
+controller hangs or loses connection, power down the analog supply.
+
+Verified GPIO wiring
+GP19 MOSI, GP18 SCK, GP17 LATCH, GP16 active-low OE.
+I2C0 GP4 SDA, GP5 SCL at100kHz. Shared ground, Pico3V3 to ADC supplies.
+ADS sockets JM1/JM2/JM3 addresses0x48/0x49/0x4a.
+Scores0..3 use0x48 channels0..3,4..7 use0x49 channels0..3,
+8..9 use0x4a channels0..1. The two other0x4a channels are ground.
+220k/22k/22k divider nominal inverse is score=21*ADC-33, assuming3V3.
+Supply/resistor variation makes these reconstructed scores approximate.
+
+Paid DC0 SHA256899da15d132ea29582af96c94f942296de6b0a254dbfdaa3360ae32ee56a69ea
+Carrier SHA2561405b457b5165d2e35f73687e214750d45674891fa2bcf8c7a0391e3425bfd74
+The U1..U8 output blocks are0,8,16,24,56,48,40,32, not monotonic.
+SPI-mode0-compatible PIO sends bytes32,40,48,56,24,16,8,0 MSB-first.
+
+Pixels are grayscale0..63, not thresholded binary. PIO with chained DMA
+continuously cycles63 equal-duration, bit-reversed threshold frames.
+Every pixel has exactly value/63 high duty. A frame is196 PIO clocks,
+24.5us at8MHz; a full pulse-density cycle is1543.5us. Modulation continues
+through ADC conversions. OE remains LOW; a low phase is a shifted zero,
+never tri-state OE. RC filters are10k and1uF. Minimum requested initial
+settle70ms; elapsed_us includes settling and all sequential ADC reads.
+Actual pin timing, RC ripple and electrical settling still need physical
+qualification. The simulator uses averaged sources, not transient PWM.
+ADS conversion uses single-ended ±4.096V range and860SPS with ready polling.
+
+Run tests without hardware
+python3 -m unittest discover -s scripts/pico -p 'test_*.py'
+
+Run from scripts/pico on the Mac after reconnecting the Pico
+python3 evaluate.py --images /path/t10k-images-idx3-ubyte.gz --labels /path/t10k-labels-idx1-ubyte.gz --simulator /path/requested_1000.json --output /path/new-hardware-results.json
+
+Use --count10 first. The evaluator first checks scan and allzero/pixel0/
+pixel63 responses. Every ADC must stay within.70..2.50V and reconstructed
+scores within±17V. At least one singlepixel response must differ>2mV.
+These gates detect gross faults, not all assembly faults or clipped neurons.
+The simulator reference is the unchanged rounded variantB plus DC1C
+330k to220k and390k to470k, first1000 official test images,944correct.
+Per-image inputs, outputs, comparison, confusion and timing are saved
+atomically. An existing output path is never overwritten.
+
+Verified physical status2026-10-19
+Pico MicroPython1.25.0, empty filesystem, RAM execution compiled successfully.
+I2C scan found0x48/49/4a. Allzero input with100ms settle and3reads completed.
+ADC range.8844..2.234V; several reconstructed scores close to amplifier
+rails. This is not a passed circuit test. Before singlepixel tests, Pico
+USB disappeared. Hardware response, grayscale operation and MNIST accuracy
+are UNVERIFIED. No full MNIST test was started. Some0x49/0x4a raw readings
+are multiples16; check whether these modules are ADS1015 rather than1115
+before claiming16-bit precision. Both use the same voltage scaling but
+different data-rate tables.
