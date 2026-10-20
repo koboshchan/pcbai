@@ -4,6 +4,7 @@ import rp2
 import time
 import sys
 import json
+import gc
 from array import array
 from uctypes import addressof
 from encoding import words, validate_pixels, score_voltage
@@ -30,6 +31,7 @@ def pulse_density():
 
 class Controller:
     def __init__(self):
+        gc.collect()
         self.oe = Pin(16, Pin.OUT, value=1)
         self.bus = I2C(0, sda=Pin(4), scl=Pin(5), freq=100000, timeout=50000)
         self.sm = self.data = self.reload = None
@@ -57,6 +59,7 @@ class Controller:
     def drive(self, pixels):
         validate_pixels(pixels)
         self.off()
+        gc.collect()
         self.buffer = array("I", words(pixels))
         self.pointer = array("I", [addressof(self.buffer)])
         self.sm = rp2.StateMachine(0, pulse_density, freq=8000000,

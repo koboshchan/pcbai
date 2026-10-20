@@ -38,6 +38,10 @@ class Pico:
             self.serial.reset_input_buffer()
             self.serial.write(b"\x01")
             self.until(b"raw REPL")
+            # Reset RAM/peripheral state before loading another firmware instance.
+            # Repeated raw-REPL uploads otherwise retain old PIO programs.
+            self.serial.write(b"\x04")
+            self.until(b"raw REPL")
             root = Path(__file__).resolve().parent
             encoding = (root / "encoding.py").read_text()
             firmware = (root / "firmware.py").read_text()
