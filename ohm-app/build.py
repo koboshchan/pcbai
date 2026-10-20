@@ -48,7 +48,7 @@ def extract(path,name,overlay=None):
             labels.append({'x':pos[0],'y':pos[1],'text':ref,'layer':val(p,'layer')})
         value=(overlay or {}).get(ref,value)
         attr=child(f,'attr',[])
-        excluded=any(str(x)=='dnp' for x in attr)
+        excluded=any(str(x)=='dnp' for x in attr) or val(f,'dnp')=='yes'
         if ref.startswith('R') and not excluded:
             r=ohms(value)
             if r is not None:
@@ -78,6 +78,7 @@ def main():
                     overlay={r['Reference']:r['Value'] for r in csv.DictReader(f)}
                 b=extract(p,'DC1'+letter.upper(),overlay)
                 b['population']='boards/dc1/DC1'+letter+'.csv'
+                b['population_sha256']=hashlib.sha256((p.parent/('DC1'+letter+'.csv')).read_bytes()).hexdigest()
                 boards.append(b)
     (ROOT/'data'/'boards.json').write_text(json.dumps(boards,separators=(',',':')))
     print([(b['name'],len(b['pads']),len(b['edges']),len(b['warnings'])) for b in boards])
