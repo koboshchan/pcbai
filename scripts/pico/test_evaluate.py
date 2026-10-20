@@ -35,14 +35,37 @@ class Tests(unittest.TestCase):
     def evidence(self):
         return json.loads(self.out.read_text())
     def test_success(self):
-        p=Pico([{"addresses":[72,73,74]},reply(),reply(.003),reply(),reply()])
+        p=Pico([{"addresses":[72,73,74]},reply(),reply(.003),reply(),reply(),reply()])
         r=self.run_eval(p)
         self.assertEqual((r["status"],r["correct"],r["mismatches"],r["simulator_correct"]),
                          ("complete",1,1,0))
         self.assertEqual(r["confusion_matrix"][0][0],1)
+        self.assertEqual(r["final_zero"]["max_adc_delta_vs_start"],0)
+        self.assertEqual(p.calls[-1]["pixels"],[0]*64)
         self.assertTrue(all(c["settle_ms"]==70 for c in p.calls[1:]))
         self.assertEqual(p.calls[2]["pixels"],[63]+[0]*63)
         self.assertEqual(p.calls[3]["pixels"],[0]*63+[63])
+    def test_final_zero_failure(self):
+        p=Pico([{"addresses":[72,73,74]},reply(),reply(.003),reply(),reply(),
+                RuntimeError("unsafe or railed ADC reading [3.484]")])
+        with self.assertRaisesRegex(RuntimeError,"3.484"):
+            self.run_eval(p)
+        r=self.evidence()
+        self.assertEqual(r["status"],"failed")
+        self.assertEqual(r["completed"],1)
+        self.assertIn("3.484",r["final_zero"]["error"])
+        self.assertNotIn("accuracy",r)
+
+    def test_midrun_failure_stops(self):
+        p=Pico([{"addresses":[72,73,74]},reply(),reply(.003),reply(),
+                RuntimeError("unsafe or railed ADC reading [3.484]")])
+        with self.assertRaisesRegex(RuntimeError,"3.484"):
+            self.run_eval(p)
+        r=self.evidence()
+        self.assertIn("3.484",r["samples"][0]["error"])
+        self.assertEqual(len(p.calls),5)
+        self.assertNotIn("final_zero",r)
+
     def test_no_response_gate(self):
         p=Pico([{"addresses":[72,73,74]}]+[reply() for _ in range(3)])
         with self.assertRaisesRegex(ValueError,"No single-pixel"):

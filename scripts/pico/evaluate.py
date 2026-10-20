@@ -120,8 +120,14 @@ def evaluate(pico, images, labels, simulator, output, *, settle_ms=70, repeats=3
         save_report(output,report)
     def measure(pixels, destination):
         before=time.perf_counter()
-        response=pico.call(dict(op="measure",pixels=pixels,
-                                settle_ms=settle_ms,repeats=repeats))
+        try:
+            response=pico.call(dict(op="measure",pixels=pixels,
+                                    settle_ms=settle_ms,repeats=repeats))
+        except BaseException as exc:
+            destination.update(error=type(exc).__name__+": "+str(exc),
+                               seconds=time.perf_counter()-before)
+            save()
+            raise
         destination.update(response=response,seconds=time.perf_counter()-before)
         save()
         return validate_measurement(response)
@@ -168,6 +174,10 @@ def evaluate(pico, images, labels, simulator, output, *, settle_ms=70, repeats=3
             report["confusion_matrix"][row["label"]][prediction]+=1
             report["completed"]=index+1
             save()
+        report["final_zero"]={"name":"all_zero_end","pixels":[0]*64}
+        final=measure([0]*64,report["final_zero"])
+        report["final_zero"]["max_adc_delta_vs_start"]=max(
+            abs(a-b) for a,b in zip(zero,final["adc_volts"]))
         report["status"]="complete"
         report["accuracy"]=report["correct"]/len(simulator)
         save()
