@@ -1,4 +1,769 @@
 {
+  "physical_scale": {
+    "actual_media_box_points": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "page_inches": [
+      8.5,
+      11
+    ],
+    "page_mm": [
+      215.9,
+      279.4
+    ],
+    "page_rotation": 0,
+    "intended_board_bbox_page_points_top_left_origin": [
+      164.2677165354331,
+      296.7874015748032,
+      447.73228346456693,
+      495.21259842519686
+    ],
+    "intended_board_bbox_page_mm_top_left_origin": [
+      57.95,
+      104.7,
+      157.95,
+      174.7
+    ],
+    "intended_board_bbox_pdf_points_bottom_left_origin": [
+      164.2677165354331,
+      296.78740157480314,
+      447.73228346456693,
+      495.2125984251968
+    ],
+    "intended_board_size_points": [
+      283.46456692913387,
+      198.42519685039366
+    ],
+    "intended_board_size_mm": [
+      100,
+      70
+    ],
+    "measured_pdf_header_pitch_mm": 2.5399935404459635,
+    "units_points_per_mm": 2.834645669291339,
+    "artwork_scale": 1,
+    "scale_confirmation": "Actual vector anchor pitch and direct fixed-coordinate Gerber mask comparison; no fitted transform",
+    "print_instruction": "US Letter, Actual Size / 100%; disable Fit/Shrink and mirroring",
+    "printer_driver_settings": "not controlled by PDF; user must select Actual Size / 100%"
+  },
+  "all_nets_connectivity": {
+    "all_pads_checked": 170,
+    "all_nets_checked": 59,
+    "actual_pdf_components": 59,
+    "reference_components": 59,
+    "unassigned_pdf_components": 0,
+    "unassigned_reference_components": 0,
+    "every_net_connected": true,
+    "every_net_isolated": true,
+    "opens": 0,
+    "bridges": 0,
+    "method": "All 170 pad samples labeled in actual PDF and direct Gerber masks; each net occupies one component, distinct nets occupy distinct components; component mapping is bijective and covers all copper",
+    "nets": [
+      {
+        "net": "GND",
+        "pads": [
+          "J2.3",
+          "J2.8",
+          "J2.13",
+          "J2.18",
+          "J1.3",
+          "J1.8",
+          "J1.13",
+          "J1.18",
+          "C22.1",
+          "C4.1",
+          "C11.1",
+          "C9.1",
+          "C14.1",
+          "C10.1",
+          "C16.1",
+          "C23.1",
+          "C25.1",
+          "C19.1",
+          "C15.1",
+          "C12.1",
+          "C21.1",
+          "C20.1",
+          "C3.1",
+          "C1.1",
+          "C17.1",
+          "C26.1",
+          "C24.1",
+          "C7.1",
+          "C2.1",
+          "C8.1",
+          "C5.1",
+          "C13.1",
+          "C18.1",
+          "C6.1"
+        ],
+        "actual_pdf_component": 1,
+        "gerber_or_projection_component": 1,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP0",
+        "pads": [
+          "J1.1",
+          "R26.1"
+        ],
+        "actual_pdf_component": 59,
+        "gerber_or_projection_component": 59,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP1",
+        "pads": [
+          "J1.2",
+          "R25.1"
+        ],
+        "actual_pdf_component": 57,
+        "gerber_or_projection_component": 57,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP10",
+        "pads": [
+          "J1.14",
+          "R16.1"
+        ],
+        "actual_pdf_component": 29,
+        "gerber_or_projection_component": 29,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP11",
+        "pads": [
+          "J1.15",
+          "R15.1"
+        ],
+        "actual_pdf_component": 27,
+        "gerber_or_projection_component": 27,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP12",
+        "pads": [
+          "J1.16",
+          "R14.1"
+        ],
+        "actual_pdf_component": 25,
+        "gerber_or_projection_component": 25,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP13",
+        "pads": [
+          "J1.17",
+          "R13.1"
+        ],
+        "actual_pdf_component": 23,
+        "gerber_or_projection_component": 23,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP14",
+        "pads": [
+          "J1.19",
+          "R12.1"
+        ],
+        "actual_pdf_component": 20,
+        "gerber_or_projection_component": 20,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP15",
+        "pads": [
+          "J1.20",
+          "R11.1"
+        ],
+        "actual_pdf_component": 18,
+        "gerber_or_projection_component": 18,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP16",
+        "pads": [
+          "J2.1",
+          "R10.1"
+        ],
+        "actual_pdf_component": 16,
+        "gerber_or_projection_component": 16,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP17",
+        "pads": [
+          "J2.2",
+          "R9.1"
+        ],
+        "actual_pdf_component": 15,
+        "gerber_or_projection_component": 15,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP18",
+        "pads": [
+          "J2.4",
+          "R8.1"
+        ],
+        "actual_pdf_component": 13,
+        "gerber_or_projection_component": 13,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP19",
+        "pads": [
+          "J2.5",
+          "R7.1"
+        ],
+        "actual_pdf_component": 11,
+        "gerber_or_projection_component": 11,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP2",
+        "pads": [
+          "J1.4",
+          "R24.1"
+        ],
+        "actual_pdf_component": 55,
+        "gerber_or_projection_component": 55,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP20",
+        "pads": [
+          "J2.6",
+          "R6.1"
+        ],
+        "actual_pdf_component": 10,
+        "gerber_or_projection_component": 10,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP21",
+        "pads": [
+          "J2.7",
+          "R5.1"
+        ],
+        "actual_pdf_component": 8,
+        "gerber_or_projection_component": 8,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP22",
+        "pads": [
+          "J2.9",
+          "R4.1"
+        ],
+        "actual_pdf_component": 7,
+        "gerber_or_projection_component": 7,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP26",
+        "pads": [
+          "J2.11",
+          "R3.1"
+        ],
+        "actual_pdf_component": 5,
+        "gerber_or_projection_component": 5,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP27",
+        "pads": [
+          "J2.12",
+          "R2.1"
+        ],
+        "actual_pdf_component": 4,
+        "gerber_or_projection_component": 4,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP28",
+        "pads": [
+          "J2.14",
+          "R1.1"
+        ],
+        "actual_pdf_component": 2,
+        "gerber_or_projection_component": 2,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP3",
+        "pads": [
+          "J1.5",
+          "R23.1"
+        ],
+        "actual_pdf_component": 53,
+        "gerber_or_projection_component": 53,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP4",
+        "pads": [
+          "J1.6",
+          "R22.1"
+        ],
+        "actual_pdf_component": 51,
+        "gerber_or_projection_component": 51,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP5",
+        "pads": [
+          "J1.7",
+          "R21.1"
+        ],
+        "actual_pdf_component": 47,
+        "gerber_or_projection_component": 47,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP6",
+        "pads": [
+          "J1.9",
+          "R20.1"
+        ],
+        "actual_pdf_component": 42,
+        "gerber_or_projection_component": 42,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP7",
+        "pads": [
+          "J1.10",
+          "R19.1"
+        ],
+        "actual_pdf_component": 39,
+        "gerber_or_projection_component": 39,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP8",
+        "pads": [
+          "J1.11",
+          "R18.1"
+        ],
+        "actual_pdf_component": 36,
+        "gerber_or_projection_component": 36,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "GP9",
+        "pads": [
+          "J1.12",
+          "R17.1"
+        ],
+        "actual_pdf_component": 32,
+        "gerber_or_projection_component": 32,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "PICO_3V3_EN_NC",
+        "pads": [
+          "J2.17"
+        ],
+        "actual_pdf_component": 54,
+        "gerber_or_projection_component": 54,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "PICO_3V3_NC",
+        "pads": [
+          "J2.16"
+        ],
+        "actual_pdf_component": 52,
+        "gerber_or_projection_component": 52,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "PICO_ADC_VREF_NC",
+        "pads": [
+          "J2.15"
+        ],
+        "actual_pdf_component": 50,
+        "gerber_or_projection_component": 50,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "PICO_RUN_NC",
+        "pads": [
+          "J2.10"
+        ],
+        "actual_pdf_component": 35,
+        "gerber_or_projection_component": 35,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "PICO_VBUS_NC",
+        "pads": [
+          "J2.20"
+        ],
+        "actual_pdf_component": 58,
+        "gerber_or_projection_component": 58,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "PICO_VSYS_NC",
+        "pads": [
+          "J2.19"
+        ],
+        "actual_pdf_component": 56,
+        "gerber_or_projection_component": 56,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T1",
+        "pads": [
+          "J3.1",
+          "C1.2",
+          "R1.2"
+        ],
+        "actual_pdf_component": 3,
+        "gerber_or_projection_component": 3,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T10",
+        "pads": [
+          "J3.10",
+          "R19.2",
+          "C19.2"
+        ],
+        "actual_pdf_component": 40,
+        "gerber_or_projection_component": 40,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T11",
+        "pads": [
+          "J3.11",
+          "C21.2",
+          "R21.2"
+        ],
+        "actual_pdf_component": 43,
+        "gerber_or_projection_component": 43,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T12",
+        "pads": [
+          "J3.12",
+          "C23.2",
+          "R23.2"
+        ],
+        "actual_pdf_component": 45,
+        "gerber_or_projection_component": 45,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T13",
+        "pads": [
+          "J3.13",
+          "C25.2",
+          "R25.2"
+        ],
+        "actual_pdf_component": 48,
+        "gerber_or_projection_component": 48,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T14",
+        "pads": [
+          "J4.1",
+          "R2.2",
+          "C2.2"
+        ],
+        "actual_pdf_component": 6,
+        "gerber_or_projection_component": 6,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T15",
+        "pads": [
+          "J4.2",
+          "C4.2",
+          "R4.2"
+        ],
+        "actual_pdf_component": 12,
+        "gerber_or_projection_component": 12,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T16",
+        "pads": [
+          "J4.3",
+          "R6.2",
+          "C6.2"
+        ],
+        "actual_pdf_component": 17,
+        "gerber_or_projection_component": 17,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T17",
+        "pads": [
+          "J4.4",
+          "C8.2",
+          "R8.2"
+        ],
+        "actual_pdf_component": 21,
+        "gerber_or_projection_component": 21,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T18",
+        "pads": [
+          "J4.5",
+          "R10.2",
+          "C10.2"
+        ],
+        "actual_pdf_component": 24,
+        "gerber_or_projection_component": 24,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T19",
+        "pads": [
+          "J4.6",
+          "C12.2",
+          "R12.2"
+        ],
+        "actual_pdf_component": 28,
+        "gerber_or_projection_component": 28,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T2",
+        "pads": [
+          "J3.2",
+          "R3.2",
+          "C3.2"
+        ],
+        "actual_pdf_component": 9,
+        "gerber_or_projection_component": 9,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T20",
+        "pads": [
+          "J4.7",
+          "C14.2",
+          "R14.2"
+        ],
+        "actual_pdf_component": 31,
+        "gerber_or_projection_component": 31,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T21",
+        "pads": [
+          "J4.8",
+          "C16.2",
+          "R16.2"
+        ],
+        "actual_pdf_component": 34,
+        "gerber_or_projection_component": 34,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T22",
+        "pads": [
+          "J4.9",
+          "C18.2",
+          "R18.2"
+        ],
+        "actual_pdf_component": 38,
+        "gerber_or_projection_component": 38,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T23",
+        "pads": [
+          "J4.10",
+          "C20.2",
+          "R20.2"
+        ],
+        "actual_pdf_component": 41,
+        "gerber_or_projection_component": 41,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T24",
+        "pads": [
+          "J4.11",
+          "C22.2",
+          "R22.2"
+        ],
+        "actual_pdf_component": 44,
+        "gerber_or_projection_component": 44,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T25",
+        "pads": [
+          "J4.12",
+          "R24.2",
+          "C24.2"
+        ],
+        "actual_pdf_component": 46,
+        "gerber_or_projection_component": 46,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T26",
+        "pads": [
+          "J4.13",
+          "C26.2",
+          "R26.2"
+        ],
+        "actual_pdf_component": 49,
+        "gerber_or_projection_component": 49,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T3",
+        "pads": [
+          "J3.3",
+          "R5.2",
+          "C5.2"
+        ],
+        "actual_pdf_component": 14,
+        "gerber_or_projection_component": 14,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T4",
+        "pads": [
+          "J3.4",
+          "R7.2",
+          "C7.2"
+        ],
+        "actual_pdf_component": 19,
+        "gerber_or_projection_component": 19,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T5",
+        "pads": [
+          "J3.5",
+          "C9.2",
+          "R9.2"
+        ],
+        "actual_pdf_component": 22,
+        "gerber_or_projection_component": 22,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T6",
+        "pads": [
+          "J3.6",
+          "C11.2",
+          "R11.2"
+        ],
+        "actual_pdf_component": 26,
+        "gerber_or_projection_component": 26,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T7",
+        "pads": [
+          "J3.7",
+          "R13.2",
+          "C13.2"
+        ],
+        "actual_pdf_component": 30,
+        "gerber_or_projection_component": 30,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T8",
+        "pads": [
+          "J3.8",
+          "C15.2",
+          "R15.2"
+        ],
+        "actual_pdf_component": 33,
+        "gerber_or_projection_component": 33,
+        "opens": false,
+        "bridges": false
+      },
+      {
+        "net": "T9",
+        "pads": [
+          "J3.9",
+          "R17.2",
+          "C17.2"
+        ],
+        "actual_pdf_component": 37,
+        "gerber_or_projection_component": 37,
+        "opens": false,
+        "bridges": false
+      }
+    ]
+  },
   "reference": "gerbv RS274X + Excellon final fabrication files",
   "measured_actual_pdf_header_pitch_mm": 2.5399935404459635,
   "scale": 1,
@@ -1743,7 +2508,7 @@
   "missing_clear_pixel_max_distance_from_actual_pdf_copper_mm": 0.029934187070230513,
   "boundary_tolerance_mm": 0.03,
   "actual_pdf_copper_components": 59,
-  "pcb_projection_copper_components": 59,
+  "reference_copper_components": 59,
   "removed_old_GND_tracks": [
     {
       "a": [

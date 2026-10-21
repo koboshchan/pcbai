@@ -49,6 +49,20 @@ pitch=(pad_rectangles[1].x0-pad_rectangles[0].x0)/mm
 assert abs(pitch-2.54)<.0001
 
 assert len(doc)==1 and abs(page.rect.width-612)<1e-5 and abs(page.rect.height-792)<1e-5
+assert list(page.mediabox)==[0,0,612,792] and page.rotation==0
+board_box_points=list(fitz.Rect(pt([0,0]),pt([100,70])))
+board_size_points=[board_box_points[2]-board_box_points[0],board_box_points[3]-board_box_points[1]]
+assert abs(board_size_points[0]/mm-100)<1e-10 and abs(board_size_points[1]/mm-70)<1e-10
+physical_scale=dict(actual_media_box_points=list(page.mediabox),page_inches=[8.5,11],
+ page_mm=[215.9,279.4],page_rotation=page.rotation,
+ intended_board_bbox_page_points_top_left_origin=board_box_points,
+ intended_board_bbox_page_mm_top_left_origin=[57.95,104.7,157.95,174.7],
+ intended_board_bbox_pdf_points_bottom_left_origin=[board_box_points[0],792-board_box_points[3],board_box_points[2],792-board_box_points[1]],
+ intended_board_size_points=board_size_points,intended_board_size_mm=[100,70],
+ measured_pdf_header_pitch_mm=pitch,units_points_per_mm=mm,artwork_scale=1,
+ scale_confirmation='Actual vector anchor pitch and direct fixed-coordinate Gerber mask comparison; no fitted transform',
+ print_instruction='US Letter, Actual Size / 100%; disable Fit/Shrink and mirroring',
+ printer_driver_settings='not controlled by PDF; user must select Actual Size / 100%')
 ref=fitz.open();p=ref.new_page(width=612,height=792)
 p.draw_rect(p.rect,color=None,fill=(0,0,0))
 # Filled pad/zone polygons independently extracted from actual PCB, not SVG/PDF.
@@ -172,7 +186,22 @@ for row in pad_checks:
  mapping.setdefault(row['pdf_component'],set()).add(row['reference_component'])
  reverse.setdefault(row['reference_component'],set()).add(row['pdf_component'])
 assert all(len(c)==1 for c in list(mapping.values())+list(reverse.values()))
-out=dict(reference='gerbv RS274X + Excellon final fabrication files' if gerber_mode else 'KiCad PCB projection',
+net_summary=[]
+for net in sorted(net_components):
+ rows=[r for r in pad_checks if r['net']==net]
+ reference_ids={r['reference_component'] for r in rows}
+ assert len(reference_ids)==1
+ net_summary.append(dict(net=net,pads=[r['ref'] for r in rows],
+  actual_pdf_component=rows[0]['pdf_component'],gerber_or_projection_component=rows[0]['reference_component'],
+  opens=False,bridges=False))
+assert len(net_components)==na==nb==len(mapping)==len(reverse)
+connectivity_summary=dict(all_pads_checked=len(pad_checks),all_nets_checked=len(net_components),
+ actual_pdf_components=int(na),reference_components=int(nb),
+ unassigned_pdf_components=int(na-len(mapping)),unassigned_reference_components=int(nb-len(reverse)),
+ every_net_connected=True,every_net_isolated=True,opens=0,bridges=0,
+ method='All 170 pad samples labeled in actual PDF and direct Gerber masks; each net occupies one component, distinct nets occupy distinct components; component mapping is bijective and covers all copper',
+ nets=net_summary)
+out=dict(physical_scale=physical_scale,all_nets_connectivity=connectivity_summary,reference='gerbv RS274X + Excellon final fabrication files' if gerber_mode else 'KiCad PCB projection',
  measured_actual_pdf_header_pitch_mm=pitch,scale=1,mirrored=False,gerber_sha256=hashlib.sha256((R/'fabrication/fingerprint-B_Cu.gbl').read_bytes()).hexdigest(),
  drill_sha256=hashlib.sha256((R/'fabrication/fingerprint.drl').read_bytes()).hexdigest(),
  polarity_samples_gray=polarity_samples,all_pads_connectivity=pad_checks,connected_nets_checked=len(net_components),
@@ -185,7 +214,7 @@ out=dict(reference='gerbv RS274X + Excellon final fabrication files' if gerber_m
  conservative_min_edge_clearance_mm=lower,nonmirrored_xor_fraction=normal_mismatch,
  mirrored_xor_fraction=mirror_mismatch,extra_clear_pixel_max_distance_from_expected_copper_mm=extra_max,
  missing_clear_pixel_max_distance_from_actual_pdf_copper_mm=missing_max,
- boundary_tolerance_mm=.03,actual_pdf_copper_components=int(na),pcb_projection_copper_components=int(nb),
+ boundary_tolerance_mm=.03,actual_pdf_copper_components=int(na),reference_copper_components=int(nb),
  removed_old_GND_tracks=aux.get('removed_ground_tracks',[]),identified_disputed_features=features,
  conclusion='PASS: actual final PDF matches independently rendered final copper and drill reference within 0.03 mm boundary raster tolerance; every pad passes net connectivity with no shorts; no extra tab or edge contact.')
 (E/('final-pdf-gerber-audit.json' if gerber_mode else 'final-pdf-projection-audit.json')).write_text(json.dumps(out,indent=2)+'\n')
