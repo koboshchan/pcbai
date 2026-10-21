@@ -7,24 +7,24 @@
       "nets": {
         "1": "GP0",
         "2": "GP1",
+        "3": "GND",
         "4": "GP2",
         "5": "GP3",
         "6": "GP4",
         "7": "GP5",
+        "8": "GND",
         "9": "GP6",
         "10": "GP7",
         "11": "GP8",
         "12": "GP9",
-        "3": "GND",
-        "8": "GND",
         "13": "GND",
+        "14": "GP10",
+        "15": "GP11",
+        "16": "GP12",
+        "17": "GP13",
         "18": "GND",
-        "14": "SPARE_GP10",
-        "15": "SPARE_GP11",
-        "16": "SPARE_GP12",
-        "17": "SPARE_GP13",
-        "19": "SPARE_GP14",
-        "20": "SPARE_GP15"
+        "19": "GP14",
+        "20": "GP15"
       }
     },
     {
@@ -32,24 +32,24 @@
       "value": "PICO_RIGHT_PHYS21_40",
       "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical",
       "nets": {
-        "14": "GP28",
-        "12": "GP27",
-        "11": "GP26",
-        "9": "GP22",
-        "7": "GP21",
-        "6": "GP20",
-        "5": "GP19",
-        "4": "GP18",
-        "2": "GP17",
         "1": "GP16",
+        "2": "GP17",
         "3": "GND",
+        "4": "GP18",
+        "5": "GP19",
+        "6": "SPARE_GP20",
+        "7": "SPARE_GP21",
         "8": "GND",
-        "13": "GND",
-        "18": "GND",
+        "9": "SPARE_GP22",
         "10": "PICO_RUN_NC",
+        "11": "SPARE_GP26",
+        "12": "SPARE_GP27",
+        "13": "GND",
+        "14": "SPARE_GP28",
         "15": "PICO_ADC_VREF_NC",
         "16": "PICO_3V3_NC",
         "17": "PICO_3V3_EN_NC",
+        "18": "GND",
         "19": "PICO_VSYS_NC",
         "20": "PICO_VBUS_NC"
       }
@@ -57,7 +57,7 @@
     {
       "ref": "J3",
       "value": "DUT1_10_FEMALE",
-      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical",
+      "footprint": "PinSocket_1x10_P2.54mm_Vertical_2x10_block_modified (embedded, shared 2x10 silk box, abutting courtyards)",
       "nets": {
         "1": "T1",
         "2": "T2",
@@ -74,7 +74,7 @@
     {
       "ref": "J4",
       "value": "DUT11_20_FEMALE",
-      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical",
+      "footprint": "PinSocket_1x10_P2.54mm_Vertical_2x10_block_modified (embedded, shared 2x10 silk box, abutting courtyards)",
       "nets": {
         "1": "T11",
         "2": "T12",
@@ -93,8 +93,8 @@
       "value": "4.7k 1% 1/8W",
       "footprint": "Resistor_SMD:R_0805_2012Metric",
       "nets": {
-        "1": "T1",
-        "2": "GP0"
+        "1": "GP19",
+        "2": "T1"
       }
     },
     {
@@ -111,174 +111,12 @@
       "value": "4.7k 1% 1/8W",
       "footprint": "Resistor_SMD:R_0805_2012Metric",
       "nets": {
-        "1": "T2",
-        "2": "GP1"
-      }
-    },
-    {
-      "ref": "C2",
-      "value": "100nF X7R 10%",
-      "footprint": "Capacitor_SMD:C_0805_2012Metric",
-      "nets": {
-        "1": "T2",
-        "2": "GND"
-      }
-    },
-    {
-      "ref": "R3",
-      "value": "4.7k 1% 1/8W",
-      "footprint": "Resistor_SMD:R_0805_2012Metric",
-      "nets": {
-        "1": "T3",
-        "2": "GP2"
-      }
-    },
-    {
-      "ref": "C3",
-      "value": "100nF X7R 10%",
-      "footprint": "Capacitor_SMD:C_0805_2012Metric",
-      "nets": {
-        "1": "T3",
-        "2": "GND"
-      }
-    },
-    {
-      "ref": "R4",
-      "value": "4.7k 1% 1/8W",
-      "footprint": "Resistor_SMD:R_0805_2012Metric",
-      "nets": {
-        "1": "T4",
-        "2": "GP3"
-      }
-    },
-    {
-      "ref": "C4",
-      "value": "100nF X7R 10%",
-      "footprint": "Capacitor_SMD:C_0805_2012Metric",
-      "nets": {
-        "1": "T4",
-        "2": "GND"
-      }
-    },
-    {
-      "ref": "R5",
-      "value": "4.7k 1% 1/8W",
-      "footprint": "Resistor_SMD:R_0805_2012Metric",
-      "nets": {
-        "1": "T5",
-        "2": "GP4"
-      }
-    },
-    {
-      "ref": "C5",
-      "value": "100nF X7R 10%",
-      "footprint": "Capacitor_SMD:C_0805_2012Metric",
-      "nets": {
-        "1": "T5",
-        "2": "GND"
-      }
-    },
-    {
-      "ref": "R6",
-      "value": "4.7k 1% 1/8W",
-      "footprint": "Resistor_SMD:R_0805_2012Metric",
-      "nets": {
-        "1": "T6",
-        "2": "GP5"
-      }
-    },
-    {
-      "ref": "C6",
-      "value": "100nF X7R 10%",
-      "footprint": "Capacitor_SMD:C_0805_2012Metric",
-      "nets": {
-        "1": "T6",
-        "2": "GND"
-      }
-    },
-    {
-      "ref": "R7",
-      "value": "4.7k 1% 1/8W",
-      "footprint": "Resistor_SMD:R_0805_2012Metric",
-      "nets": {
-        "1": "T7",
-        "2": "GP6"
-      }
-    },
-    {
-      "ref": "C7",
-      "value": "100nF X7R 10%",
-      "footprint": "Capacitor_SMD:C_0805_2012Metric",
-      "nets": {
-        "1": "T7",
-        "2": "GND"
-      }
-    },
-    {
-      "ref": "R8",
-      "value": "4.7k 1% 1/8W",
-      "footprint": "Resistor_SMD:R_0805_2012Metric",
-      "nets": {
-        "1": "T8",
-        "2": "GP7"
-      }
-    },
-    {
-      "ref": "C8",
-      "value": "100nF X7R 10%",
-      "footprint": "Capacitor_SMD:C_0805_2012Metric",
-      "nets": {
-        "1": "T8",
-        "2": "GND"
-      }
-    },
-    {
-      "ref": "R9",
-      "value": "4.7k 1% 1/8W",
-      "footprint": "Resistor_SMD:R_0805_2012Metric",
-      "nets": {
-        "1": "T9",
-        "2": "GP8"
-      }
-    },
-    {
-      "ref": "C9",
-      "value": "100nF X7R 10%",
-      "footprint": "Capacitor_SMD:C_0805_2012Metric",
-      "nets": {
-        "1": "T9",
-        "2": "GND"
-      }
-    },
-    {
-      "ref": "R10",
-      "value": "4.7k 1% 1/8W",
-      "footprint": "Resistor_SMD:R_0805_2012Metric",
-      "nets": {
-        "1": "T10",
-        "2": "GP9"
-      }
-    },
-    {
-      "ref": "C10",
-      "value": "100nF X7R 10%",
-      "footprint": "Capacitor_SMD:C_0805_2012Metric",
-      "nets": {
-        "1": "T10",
-        "2": "GND"
-      }
-    },
-    {
-      "ref": "R11",
-      "value": "4.7k 1% 1/8W",
-      "footprint": "Resistor_SMD:R_0805_2012Metric",
-      "nets": {
-        "1": "GP28",
+        "1": "GP18",
         "2": "T11"
       }
     },
     {
-      "ref": "C11",
+      "ref": "C2",
       "value": "100nF X7R 10%",
       "footprint": "Capacitor_SMD:C_0805_2012Metric",
       "nets": {
@@ -287,16 +125,34 @@
       }
     },
     {
-      "ref": "R12",
+      "ref": "R3",
       "value": "4.7k 1% 1/8W",
       "footprint": "Resistor_SMD:R_0805_2012Metric",
       "nets": {
-        "1": "GP27",
+        "1": "GP17",
+        "2": "T2"
+      }
+    },
+    {
+      "ref": "C3",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T2",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R4",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "nets": {
+        "1": "GP16",
         "2": "T12"
       }
     },
     {
-      "ref": "C12",
+      "ref": "C4",
       "value": "100nF X7R 10%",
       "footprint": "Capacitor_SMD:C_0805_2012Metric",
       "nets": {
@@ -305,16 +161,34 @@
       }
     },
     {
-      "ref": "R13",
+      "ref": "R5",
       "value": "4.7k 1% 1/8W",
       "footprint": "Resistor_SMD:R_0805_2012Metric",
       "nets": {
-        "1": "GP26",
+        "1": "GP15",
+        "2": "T3"
+      }
+    },
+    {
+      "ref": "C5",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R6",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "nets": {
+        "1": "GP14",
         "2": "T13"
       }
     },
     {
-      "ref": "C13",
+      "ref": "C6",
       "value": "100nF X7R 10%",
       "footprint": "Capacitor_SMD:C_0805_2012Metric",
       "nets": {
@@ -323,16 +197,34 @@
       }
     },
     {
-      "ref": "R14",
+      "ref": "R7",
       "value": "4.7k 1% 1/8W",
       "footprint": "Resistor_SMD:R_0805_2012Metric",
       "nets": {
-        "1": "GP22",
+        "1": "GP13",
+        "2": "T4"
+      }
+    },
+    {
+      "ref": "C7",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T4",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R8",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "nets": {
+        "1": "GP12",
         "2": "T14"
       }
     },
     {
-      "ref": "C14",
+      "ref": "C8",
       "value": "100nF X7R 10%",
       "footprint": "Capacitor_SMD:C_0805_2012Metric",
       "nets": {
@@ -341,16 +233,34 @@
       }
     },
     {
-      "ref": "R15",
+      "ref": "R9",
       "value": "4.7k 1% 1/8W",
       "footprint": "Resistor_SMD:R_0805_2012Metric",
       "nets": {
-        "1": "GP21",
+        "1": "GP11",
+        "2": "T5"
+      }
+    },
+    {
+      "ref": "C9",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T5",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R10",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "nets": {
+        "1": "GP10",
         "2": "T15"
       }
     },
     {
-      "ref": "C15",
+      "ref": "C10",
       "value": "100nF X7R 10%",
       "footprint": "Capacitor_SMD:C_0805_2012Metric",
       "nets": {
@@ -359,16 +269,34 @@
       }
     },
     {
-      "ref": "R16",
+      "ref": "R11",
       "value": "4.7k 1% 1/8W",
       "footprint": "Resistor_SMD:R_0805_2012Metric",
       "nets": {
-        "1": "GP20",
+        "1": "GP9",
+        "2": "T6"
+      }
+    },
+    {
+      "ref": "C11",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T6",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R12",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "nets": {
+        "1": "GP8",
         "2": "T16"
       }
     },
     {
-      "ref": "C16",
+      "ref": "C12",
       "value": "100nF X7R 10%",
       "footprint": "Capacitor_SMD:C_0805_2012Metric",
       "nets": {
@@ -377,16 +305,34 @@
       }
     },
     {
-      "ref": "R17",
+      "ref": "R13",
       "value": "4.7k 1% 1/8W",
       "footprint": "Resistor_SMD:R_0805_2012Metric",
       "nets": {
-        "1": "GP19",
+        "1": "GP7",
+        "2": "T7"
+      }
+    },
+    {
+      "ref": "C13",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T7",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R14",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "nets": {
+        "1": "GP6",
         "2": "T17"
       }
     },
     {
-      "ref": "C17",
+      "ref": "C14",
       "value": "100nF X7R 10%",
       "footprint": "Capacitor_SMD:C_0805_2012Metric",
       "nets": {
@@ -395,16 +341,34 @@
       }
     },
     {
-      "ref": "R18",
+      "ref": "R15",
       "value": "4.7k 1% 1/8W",
       "footprint": "Resistor_SMD:R_0805_2012Metric",
       "nets": {
-        "1": "GP18",
+        "1": "GP5",
+        "2": "T8"
+      }
+    },
+    {
+      "ref": "C15",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T8",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R16",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "nets": {
+        "1": "GP4",
         "2": "T18"
       }
     },
     {
-      "ref": "C18",
+      "ref": "C16",
       "value": "100nF X7R 10%",
       "footprint": "Capacitor_SMD:C_0805_2012Metric",
       "nets": {
@@ -413,16 +377,34 @@
       }
     },
     {
-      "ref": "R19",
+      "ref": "R17",
       "value": "4.7k 1% 1/8W",
       "footprint": "Resistor_SMD:R_0805_2012Metric",
       "nets": {
-        "1": "GP17",
+        "1": "GP3",
+        "2": "T9"
+      }
+    },
+    {
+      "ref": "C17",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T9",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R18",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "nets": {
+        "1": "GP2",
         "2": "T19"
       }
     },
     {
-      "ref": "C19",
+      "ref": "C18",
       "value": "100nF X7R 10%",
       "footprint": "Capacitor_SMD:C_0805_2012Metric",
       "nets": {
@@ -431,11 +413,29 @@
       }
     },
     {
+      "ref": "R19",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "nets": {
+        "1": "GP1",
+        "2": "T10"
+      }
+    },
+    {
+      "ref": "C19",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T10",
+        "2": "GND"
+      }
+    },
+    {
       "ref": "R20",
       "value": "4.7k 1% 1/8W",
       "footprint": "Resistor_SMD:R_0805_2012Metric",
       "nets": {
-        "1": "GP16",
+        "1": "GP0",
         "2": "T20"
       }
     },
@@ -449,144 +449,165 @@
       }
     }
   ],
+  "layout": "bottom-view: DUT 2x10 at left, Pico at right; B.Cu GND pour",
   "gpio_map": [
     {
       "test": 1,
-      "gpio": 0,
-      "pico_physical": 1,
+      "gpio": 19,
+      "lane": 0,
+      "pico_physical": 25,
       "header": "J3",
       "pin": 1
     },
     {
       "test": 2,
-      "gpio": 1,
-      "pico_physical": 2,
+      "gpio": 17,
+      "lane": 2,
+      "pico_physical": 22,
       "header": "J3",
       "pin": 2
     },
     {
       "test": 3,
-      "gpio": 2,
-      "pico_physical": 4,
+      "gpio": 15,
+      "lane": 4,
+      "pico_physical": 20,
       "header": "J3",
       "pin": 3
     },
     {
       "test": 4,
-      "gpio": 3,
-      "pico_physical": 5,
+      "gpio": 13,
+      "lane": 6,
+      "pico_physical": 17,
       "header": "J3",
       "pin": 4
     },
     {
       "test": 5,
-      "gpio": 4,
-      "pico_physical": 6,
+      "gpio": 11,
+      "lane": 8,
+      "pico_physical": 15,
       "header": "J3",
       "pin": 5
     },
     {
       "test": 6,
-      "gpio": 5,
-      "pico_physical": 7,
+      "gpio": 9,
+      "lane": 10,
+      "pico_physical": 12,
       "header": "J3",
       "pin": 6
     },
     {
       "test": 7,
-      "gpio": 6,
-      "pico_physical": 9,
+      "gpio": 7,
+      "lane": 12,
+      "pico_physical": 10,
       "header": "J3",
       "pin": 7
     },
     {
       "test": 8,
-      "gpio": 7,
-      "pico_physical": 10,
+      "gpio": 5,
+      "lane": 14,
+      "pico_physical": 7,
       "header": "J3",
       "pin": 8
     },
     {
       "test": 9,
-      "gpio": 8,
-      "pico_physical": 11,
+      "gpio": 3,
+      "lane": 16,
+      "pico_physical": 5,
       "header": "J3",
       "pin": 9
     },
     {
       "test": 10,
-      "gpio": 9,
-      "pico_physical": 12,
+      "gpio": 1,
+      "lane": 18,
+      "pico_physical": 2,
       "header": "J3",
       "pin": 10
     },
     {
       "test": 11,
-      "gpio": 28,
-      "pico_physical": 34,
+      "gpio": 18,
+      "lane": 1,
+      "pico_physical": 24,
       "header": "J4",
       "pin": 1
     },
     {
       "test": 12,
-      "gpio": 27,
-      "pico_physical": 32,
+      "gpio": 16,
+      "lane": 3,
+      "pico_physical": 21,
       "header": "J4",
       "pin": 2
     },
     {
       "test": 13,
-      "gpio": 26,
-      "pico_physical": 31,
+      "gpio": 14,
+      "lane": 5,
+      "pico_physical": 19,
       "header": "J4",
       "pin": 3
     },
     {
       "test": 14,
-      "gpio": 22,
-      "pico_physical": 29,
+      "gpio": 12,
+      "lane": 7,
+      "pico_physical": 16,
       "header": "J4",
       "pin": 4
     },
     {
       "test": 15,
-      "gpio": 21,
-      "pico_physical": 27,
+      "gpio": 10,
+      "lane": 9,
+      "pico_physical": 14,
       "header": "J4",
       "pin": 5
     },
     {
       "test": 16,
-      "gpio": 20,
-      "pico_physical": 26,
+      "gpio": 8,
+      "lane": 11,
+      "pico_physical": 11,
       "header": "J4",
       "pin": 6
     },
     {
       "test": 17,
-      "gpio": 19,
-      "pico_physical": 25,
+      "gpio": 6,
+      "lane": 13,
+      "pico_physical": 9,
       "header": "J4",
       "pin": 7
     },
     {
       "test": 18,
-      "gpio": 18,
-      "pico_physical": 24,
+      "gpio": 4,
+      "lane": 15,
+      "pico_physical": 6,
       "header": "J4",
       "pin": 8
     },
     {
       "test": 19,
-      "gpio": 17,
-      "pico_physical": 22,
+      "gpio": 2,
+      "lane": 17,
+      "pico_physical": 4,
       "header": "J4",
       "pin": 9
     },
     {
       "test": 20,
-      "gpio": 16,
-      "pico_physical": 21,
+      "gpio": 0,
+      "lane": 19,
+      "pico_physical": 1,
       "header": "J4",
       "pin": 10
     }

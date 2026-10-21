@@ -6,7 +6,7 @@ from machine import Pin
 import rp2
 import time
 
-GPIO = (0,1,2,3,4,5,6,7,8,9,28,27,26,22,21,20,19,18,17,16)
+GPIO = (19,17,15,13,11,9,7,5,3,1,18,16,14,12,10,8,6,4,2,0)  # ports 1..20 (see manifest.json)
 PIO_HZ = 2_000_000
 # Two cycles per count, 1 us. INIT and sampling add a fixed ~1us calibrated offset.
 @rp2.asm_pio(set_init=rp2.PIO.IN_LOW)

@@ -1,22 +1,22 @@
-test_100k_1m_open_reference_classification_model (test_design.Tests.test_100k_1m_open_reference_classification_model) ... ok
-test_compare_raw_fingerprints (test_design.Tests.test_compare_raw_fingerprints) ... ok
-test_discharge_disables_pulls (test_design.Tests.test_discharge_disables_pulls) ... ok
-test_gpio_consistency (test_design.Tests.test_gpio_consistency) ... ok
-test_model_coupled_caps_and_value_separation (test_design.Tests.test_model_coupled_caps_and_value_separation) ... ok
-test_model_finite_precharge (test_design.Tests.test_model_finite_precharge) ... ok
-test_pair_coverage (test_design.Tests.test_pair_coverage) ... ok
-test_pio_assembles_and_terminates (test_design.Tests.test_pio_assembles_and_terminates) ... ok
-test_reference_csv_window (test_design.Tests.test_reference_csv_window) ... ok
-test_reference_measure_uses_no_sink_program_and_releases (test_design.Tests.test_reference_measure_uses_no_sink_program_and_releases) ... ok
-test_reference_missing_or_failed (test_design.Tests.test_reference_missing_or_failed) ... ok
-test_reference_pio_never_drives (test_design.Tests.test_reference_pio_never_drives) ... ok
-test_reference_quality (test_design.Tests.test_reference_quality) ... ok
-test_reference_scan_cleanup (test_design.Tests.test_reference_scan_cleanup) ... ok
-test_reset_bound (test_design.Tests.test_reset_bound) ... ok
-test_sources_parse (test_design.Tests.test_sources_parse) ... ok
-test_value_parser (test_design.Tests.test_value_parser) ... ok
+test_100k_1m_open_reference_classification_model (__main__.Tests.test_100k_1m_open_reference_classification_model) ... ok
+test_compare_raw_fingerprints (__main__.Tests.test_compare_raw_fingerprints) ... ok
+test_discharge_disables_pulls (__main__.Tests.test_discharge_disables_pulls) ... ok
+test_gpio_consistency (__main__.Tests.test_gpio_consistency) ... ok
+test_model_coupled_caps_and_value_separation (__main__.Tests.test_model_coupled_caps_and_value_separation) ... ok
+test_model_finite_precharge (__main__.Tests.test_model_finite_precharge) ... ok
+test_pair_coverage (__main__.Tests.test_pair_coverage) ... ok
+test_pio_assembles_and_terminates (__main__.Tests.test_pio_assembles_and_terminates) ... ok
+test_reference_csv_window (__main__.Tests.test_reference_csv_window) ... ok
+test_reference_measure_uses_no_sink_program_and_releases (__main__.Tests.test_reference_measure_uses_no_sink_program_and_releases) ... ok
+test_reference_missing_or_failed (__main__.Tests.test_reference_missing_or_failed) ... ok
+test_reference_pio_never_drives (__main__.Tests.test_reference_pio_never_drives) ... ok
+test_reference_quality (__main__.Tests.test_reference_quality) ... ok
+test_reference_scan_cleanup (__main__.Tests.test_reference_scan_cleanup) ... ok
+test_reset_bound (__main__.Tests.test_reset_bound) ... ok
+test_sources_parse (__main__.Tests.test_sources_parse) ... ok
+test_value_parser (__main__.Tests.test_value_parser) ... ok
 
 ----------------------------------------------------------------------
-Ran 17 tests in 0.247s
+Ran 17 tests in 0.231s
 
 OK

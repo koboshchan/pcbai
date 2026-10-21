@@ -14,5 +14,10 @@
   "smd_pads_bottom_only": 80,
   "through_hole_footprints": 4,
   "through_hole_pads": 60,
-  "mechanical_socket_spacing_mm": 17.78
+  "mechanical_socket_spacing_mm": 17.78,
+  "dut_block_pitch_mm": 2.54,
+  "zones": 1,
+  "zone_layers": [
+    "B.Cu"
+  ]
 }
