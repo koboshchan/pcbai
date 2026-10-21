@@ -86,5 +86,5 @@ if __name__=='__main__':
  dut=json.loads(Path(args.netlist).read_text());ports=json.loads(Path(args.ports).read_text())['port_nets']
  n=Network(dut,ports)
  with open(args.output,'w') as f:
-  w=csv.writer(f);w.writerow(['pair_a','pair_b','sense','sink','repeat','fall_us','status','window_us']);w.writerows(row+[int(args.timeout*1e6)] for row in n.fingerprints(args.threshold,args.timeout))
+  w=csv.writer(f,lineterminator="\n");w.writerow(['pair_a','pair_b','sense','sink','repeat','fall_us','status','window_us']);w.writerows(row+[int(args.timeout*1e6)] for row in n.fingerprints(args.threshold,args.timeout))
  print('20 no-sink references + 380 directed fingerprints, resistor-only/nonlinear-omitted model; calibrate threshold and use golden board')
