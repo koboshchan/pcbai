@@ -1,0 +1,1923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/w/fingerprint.kicad_sch</source>
+    <date>2026-10-21T02:09:21</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>fingerprint.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C1" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44fcde02-8de3-4cb2-955e-5a4f89aca780</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C2" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a10b3231-2bae-4261-891d-60e4b008f525</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C3" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53d9472a-03ad-4470-99d9-5e9acfb10aa8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C4" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fb59717-ec0b-4cd9-914c-4858732ca033</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C5" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea0cfff0-40c2-421c-b80c-d6b0024f152c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C6" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92d159a1-d513-4e87-9822-d7678fd6c486</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C7" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3206471-ab1e-40ce-9f7c-db70cbd8ad9f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C8" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>413353ba-2a58-4620-b5dd-29553b4b8db4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C9" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fa3ea14-ed29-415d-b796-839fa642993d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C10" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d54c937b-a87d-4f5d-976b-e425dc91836c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C11" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d1efbc1-2984-4740-a92f-0f999fa850a5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C12" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b3c0332-28c2-4e9d-a92a-c29309b1890c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C13" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93434208-53c2-4495-94c6-3eecbf545a63</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C14" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>773f0359-7f2e-445d-bbff-44f60bbca560</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C15">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C15" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c3aeb29-dd7e-4cf9-a656-976f909e3f6b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C16">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C16" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23639bf2-0b64-40ae-b7e5-42627dbe3682</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C17">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C17" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf05ece0-97b8-4361-bb79-03529cc42a1a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C18">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C18" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81bc1dc7-4c2d-4ac6-bec9-e17263b45e18</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C19">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C19" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a3c4185-b2a6-498b-8507-1c8c02575170</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C20">
+      <value>100nF X7R 10%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="C20" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d9debee-99f4-4156-b805-b96b2be19e4e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>PICO_LEFT_PHYS1_20</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="J1" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e1459a6-d9fb-46cf-95e1-c50450c6ae1f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="3"/>
+            <pin num="8"/>
+            <pin num="13"/>
+            <pin num="18"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="20"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>PICO_RIGHT_PHYS21_40</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="J2" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55a88fe4-d5cc-47c1-b3cf-b59189102005</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="14"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="9"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="8"/>
+            <pin num="13"/>
+            <pin num="18"/>
+            <pin num="10"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="20"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>DUT1_10_FEMALE</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="J3" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>451ee071-852c-4010-b588-46df36fe6ab9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>DUT11_20_FEMALE</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="J4" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58ed80bd-4f81-44d8-a9ab-24cb60c7f71a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R1" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a70a08b8-de7e-416f-bc9c-98d9157abe05</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R2" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54a6cd3e-002a-410c-aec9-0f50535a5958</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R3" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c317f03e-63e4-462c-8201-7d10622c0e49</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R4" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78424917-019d-49ff-bda3-989b4a2240a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R5" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d53432a-dbe8-4f48-906f-0d7ce47ee25e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R6" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4b473d7-d228-4f2e-a10b-cd95ce1407a2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R7" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db47004d-f93f-475b-9e90-3d95377b1238</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R8" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a30aa7b-7d4a-4362-b139-d1c7b008cee2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R9" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>baaf835a-4ae8-4018-b597-9b11ea84b7ce</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R10" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e18b5840-83f9-45d9-bf7d-087f86fb1ca7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R11" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>323ba27e-31b7-45da-af8d-ba80378f23bb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R12" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b42dcc4f-32cb-4ec6-957c-01c6000b221c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R13" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09f1443d-98b8-409c-9291-704d02f38d3d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R14" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>109791a5-42e0-4fce-ba6c-c1698fb1c669</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R15" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac925ef4-9b2d-4b5e-94a5-7a3d5ed48aa2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R16" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae24505a-6f9c-42a3-8d72-2edebf25faa6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R17" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03cf5d53-492a-4c0a-81ec-05f41c2ea57b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R18" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9e26986-04ec-4742-bdf4-27f326f47204</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R19" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22c7a223-ba1f-4c8c-828b-b4eedb7a4644</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>4.7k 1% 1/8W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fingerprint" part="R20" description=""/>
+      <property name="Sheetname" value="fingerprint"/>
+      <property name="Sheetfile" value="fingerprint.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b84607c-8a89-4ce2-b932-109b42f3f2f9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Fingerprint" part="C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C10">
+      <fields>
+        <field name="Reference">C10</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C11">
+      <fields>
+        <field name="Reference">C11</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C12">
+      <fields>
+        <field name="Reference">C12</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C13">
+      <fields>
+        <field name="Reference">C13</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C14">
+      <fields>
+        <field name="Reference">C14</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C15">
+      <fields>
+        <field name="Reference">C15</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C16">
+      <fields>
+        <field name="Reference">C16</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C17">
+      <fields>
+        <field name="Reference">C17</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C18">
+      <fields>
+        <field name="Reference">C18</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C19">
+      <fields>
+        <field name="Reference">C19</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C20">
+      <fields>
+        <field name="Reference">C20</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C3">
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C4">
+      <fields>
+        <field name="Reference">C4</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C5">
+      <fields>
+        <field name="Reference">C5</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C6">
+      <fields>
+        <field name="Reference">C6</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C7">
+      <fields>
+        <field name="Reference">C7</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C8">
+      <fields>
+        <field name="Reference">C8</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="C9">
+      <fields>
+        <field name="Reference">C9</field>
+        <field name="Value">100nF X7R 10%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">PICO_LEFT_PHYS1_20</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="J2">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">PICO_RIGHT_PHYS21_40</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="J3">
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">DUT1_10_FEMALE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="J4">
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">DUT11_20_FEMALE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R10">
+      <fields>
+        <field name="Reference">R10</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R11">
+      <fields>
+        <field name="Reference">R11</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R12">
+      <fields>
+        <field name="Reference">R12</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R13">
+      <fields>
+        <field name="Reference">R13</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R14">
+      <fields>
+        <field name="Reference">R14</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R15">
+      <fields>
+        <field name="Reference">R15</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R16">
+      <fields>
+        <field name="Reference">R16</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R17">
+      <fields>
+        <field name="Reference">R17</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R18">
+      <fields>
+        <field name="Reference">R18</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R19">
+      <fields>
+        <field name="Reference">R19</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R20">
+      <fields>
+        <field name="Reference">R20</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R6">
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R7">
+      <fields>
+        <field name="Reference">R7</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R8">
+      <fields>
+        <field name="Reference">R8</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fingerprint" part="R9">
+      <fields>
+        <field name="Reference">R9</field>
+        <field name="Value">4.7k 1% 1/8W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C17" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C18" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C19" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C20" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="13_13" pintype="passive"/>
+      <node ref="J1" pin="18" pinfunction="18_18" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="8_8" pintype="passive"/>
+      <node ref="J2" pin="13" pinfunction="13_13" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="18_18" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="8_8" pintype="passive"/>
+    </net>
+    <net code="2" name="/GP0" class="Default">
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="3" name="/GP1" class="Default">
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="4" name="/GP2" class="Default">
+      <node ref="J1" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="5" name="/GP3" class="Default">
+      <node ref="J1" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="6" name="/GP4" class="Default">
+      <node ref="J1" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="7" name="/GP5" class="Default">
+      <node ref="J1" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="8" name="/GP6" class="Default">
+      <node ref="J1" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="9" name="/GP7" class="Default">
+      <node ref="J1" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="10" name="/GP8" class="Default">
+      <node ref="J1" pin="11" pinfunction="11_11" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="11" name="/GP9" class="Default">
+      <node ref="J1" pin="12" pinfunction="12_12" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="12" name="/GP16" class="Default">
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R20" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="13" name="/GP17" class="Default">
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R19" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="14" name="/GP18" class="Default">
+      <node ref="J2" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="R18" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="15" name="/GP19" class="Default">
+      <node ref="J2" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="R17" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="16" name="/GP20" class="Default">
+      <node ref="J2" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="17" name="/GP21" class="Default">
+      <node ref="J2" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="18" name="/GP22" class="Default">
+      <node ref="J2" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="19" name="/GP26" class="Default">
+      <node ref="J2" pin="11" pinfunction="11_11" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="20" name="/GP27" class="Default">
+      <node ref="J2" pin="12" pinfunction="12_12" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="21" name="/GP28" class="Default">
+      <node ref="J2" pin="14" pinfunction="14_14" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="22" name="/PICO_3V3_EN_NC" class="Default">
+      <node ref="J2" pin="17" pinfunction="17_17" pintype="passive"/>
+    </net>
+    <net code="23" name="/PICO_3V3_NC" class="Default">
+      <node ref="J2" pin="16" pinfunction="16_16" pintype="passive"/>
+    </net>
+    <net code="24" name="/PICO_ADC_VREF_NC" class="Default">
+      <node ref="J2" pin="15" pinfunction="15_15" pintype="passive"/>
+    </net>
+    <net code="25" name="/PICO_RUN_NC" class="Default">
+      <node ref="J2" pin="10" pinfunction="10_10" pintype="passive"/>
+    </net>
+    <net code="26" name="/PICO_VBUS_NC" class="Default">
+      <node ref="J2" pin="20" pinfunction="20_20" pintype="passive"/>
+    </net>
+    <net code="27" name="/PICO_VSYS_NC" class="Default">
+      <node ref="J2" pin="19" pinfunction="19_19" pintype="passive"/>
+    </net>
+    <net code="28" name="/SPARE_GP10" class="Default">
+      <node ref="J1" pin="14" pinfunction="14_14" pintype="passive"/>
+    </net>
+    <net code="29" name="/SPARE_GP11" class="Default">
+      <node ref="J1" pin="15" pinfunction="15_15" pintype="passive"/>
+    </net>
+    <net code="30" name="/SPARE_GP12" class="Default">
+      <node ref="J1" pin="16" pinfunction="16_16" pintype="passive"/>
+    </net>
+    <net code="31" name="/SPARE_GP13" class="Default">
+      <node ref="J1" pin="17" pinfunction="17_17" pintype="passive"/>
+    </net>
+    <net code="32" name="/SPARE_GP14" class="Default">
+      <node ref="J1" pin="19" pinfunction="19_19" pintype="passive"/>
+    </net>
+    <net code="33" name="/SPARE_GP15" class="Default">
+      <node ref="J1" pin="20" pinfunction="20_20" pintype="passive"/>
+    </net>
+    <net code="34" name="/T1" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="35" name="/T2" class="Default">
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="36" name="/T3" class="Default">
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="37" name="/T4" class="Default">
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="38" name="/T5" class="Default">
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="39" name="/T6" class="Default">
+      <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="40" name="/T7" class="Default">
+      <node ref="C7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="41" name="/T8" class="Default">
+      <node ref="C8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="8_8" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="42" name="/T9" class="Default">
+      <node ref="C9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="43" name="/T10" class="Default">
+      <node ref="C10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="44" name="/T11" class="Default">
+      <node ref="C11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="45" name="/T12" class="Default">
+      <node ref="C12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="46" name="/T13" class="Default">
+      <node ref="C13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="47" name="/T14" class="Default">
+      <node ref="C14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="48" name="/T15" class="Default">
+      <node ref="C15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="49" name="/T16" class="Default">
+      <node ref="C16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="50" name="/T17" class="Default">
+      <node ref="C17" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="51" name="/T18" class="Default">
+      <node ref="C18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="8_8" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="52" name="/T19" class="Default">
+      <node ref="C19" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="53" name="/T20" class="Default">
+      <node ref="C20" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

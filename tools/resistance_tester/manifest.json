@@ -1,0 +1,597 @@
+{
+  "components": [
+    {
+      "ref": "J1",
+      "value": "PICO_LEFT_PHYS1_20",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical",
+      "nets": {
+        "1": "GP0",
+        "2": "GP1",
+        "4": "GP2",
+        "5": "GP3",
+        "6": "GP4",
+        "7": "GP5",
+        "9": "GP6",
+        "10": "GP7",
+        "11": "GP8",
+        "12": "GP9",
+        "3": "GND",
+        "8": "GND",
+        "13": "GND",
+        "18": "GND",
+        "14": "SPARE_GP10",
+        "15": "SPARE_GP11",
+        "16": "SPARE_GP12",
+        "17": "SPARE_GP13",
+        "19": "SPARE_GP14",
+        "20": "SPARE_GP15"
+      }
+    },
+    {
+      "ref": "J2",
+      "value": "PICO_RIGHT_PHYS21_40",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical",
+      "nets": {
+        "14": "GP28",
+        "12": "GP27",
+        "11": "GP26",
+        "9": "GP22",
+        "7": "GP21",
+        "6": "GP20",
+        "5": "GP19",
+        "4": "GP18",
+        "2": "GP17",
+        "1": "GP16",
+        "3": "GND",
+        "8": "GND",
+        "13": "GND",
+        "18": "GND",
+        "10": "PICO_RUN_NC",
+        "15": "PICO_ADC_VREF_NC",
+        "16": "PICO_3V3_NC",
+        "17": "PICO_3V3_EN_NC",
+        "19": "PICO_VSYS_NC",
+        "20": "PICO_VBUS_NC"
+      }
+    },
+    {
+      "ref": "J3",
+      "value": "DUT1_10_FEMALE",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical",
+      "nets": {
+        "1": "T1",
+        "2": "T2",
+        "3": "T3",
+        "4": "T4",
+        "5": "T5",
+        "6": "T6",
+        "7": "T7",
+        "8": "T8",
+        "9": "T9",
+        "10": "T10"
+      }
+    },
+    {
+      "ref": "J4",
+      "value": "DUT11_20_FEMALE",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical",
+      "nets": {
+        "1": "T11",
+        "2": "T12",
+        "3": "T13",
+        "4": "T14",
+        "5": "T15",
+        "6": "T16",
+        "7": "T17",
+        "8": "T18",
+        "9": "T19",
+        "10": "T20"
+      }
+    },
+    {
+      "ref": "R1",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "T1",
+        "2": "GP0"
+      }
+    },
+    {
+      "ref": "C1",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T1",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R2",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "T2",
+        "2": "GP1"
+      }
+    },
+    {
+      "ref": "C2",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T2",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R3",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "T3",
+        "2": "GP2"
+      }
+    },
+    {
+      "ref": "C3",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R4",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "T4",
+        "2": "GP3"
+      }
+    },
+    {
+      "ref": "C4",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T4",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R5",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "T5",
+        "2": "GP4"
+      }
+    },
+    {
+      "ref": "C5",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T5",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R6",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "T6",
+        "2": "GP5"
+      }
+    },
+    {
+      "ref": "C6",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T6",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R7",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "T7",
+        "2": "GP6"
+      }
+    },
+    {
+      "ref": "C7",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T7",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R8",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "T8",
+        "2": "GP7"
+      }
+    },
+    {
+      "ref": "C8",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T8",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R9",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "T9",
+        "2": "GP8"
+      }
+    },
+    {
+      "ref": "C9",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T9",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R10",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "T10",
+        "2": "GP9"
+      }
+    },
+    {
+      "ref": "C10",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T10",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R11",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "GP28",
+        "2": "T11"
+      }
+    },
+    {
+      "ref": "C11",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T11",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R12",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "GP27",
+        "2": "T12"
+      }
+    },
+    {
+      "ref": "C12",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T12",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R13",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "GP26",
+        "2": "T13"
+      }
+    },
+    {
+      "ref": "C13",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T13",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R14",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "GP22",
+        "2": "T14"
+      }
+    },
+    {
+      "ref": "C14",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T14",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R15",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "GP21",
+        "2": "T15"
+      }
+    },
+    {
+      "ref": "C15",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T15",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R16",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "GP20",
+        "2": "T16"
+      }
+    },
+    {
+      "ref": "C16",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T16",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R17",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "GP19",
+        "2": "T17"
+      }
+    },
+    {
+      "ref": "C17",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T17",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R18",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "GP18",
+        "2": "T18"
+      }
+    },
+    {
+      "ref": "C18",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T18",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R19",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "GP17",
+        "2": "T19"
+      }
+    },
+    {
+      "ref": "C19",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T19",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R20",
+      "value": "4.7k 1% 1/8W",
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",
+      "nets": {
+        "1": "GP16",
+        "2": "T20"
+      }
+    },
+    {
+      "ref": "C20",
+      "value": "100nF X7R 10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "T20",
+        "2": "GND"
+      }
+    }
+  ],
+  "gpio_map": [
+    {
+      "test": 1,
+      "gpio": 0,
+      "pico_physical": 1,
+      "header": "J3",
+      "pin": 1
+    },
+    {
+      "test": 2,
+      "gpio": 1,
+      "pico_physical": 2,
+      "header": "J3",
+      "pin": 2
+    },
+    {
+      "test": 3,
+      "gpio": 2,
+      "pico_physical": 4,
+      "header": "J3",
+      "pin": 3
+    },
+    {
+      "test": 4,
+      "gpio": 3,
+      "pico_physical": 5,
+      "header": "J3",
+      "pin": 4
+    },
+    {
+      "test": 5,
+      "gpio": 4,
+      "pico_physical": 6,
+      "header": "J3",
+      "pin": 5
+    },
+    {
+      "test": 6,
+      "gpio": 5,
+      "pico_physical": 7,
+      "header": "J3",
+      "pin": 6
+    },
+    {
+      "test": 7,
+      "gpio": 6,
+      "pico_physical": 9,
+      "header": "J3",
+      "pin": 7
+    },
+    {
+      "test": 8,
+      "gpio": 7,
+      "pico_physical": 10,
+      "header": "J3",
+      "pin": 8
+    },
+    {
+      "test": 9,
+      "gpio": 8,
+      "pico_physical": 11,
+      "header": "J3",
+      "pin": 9
+    },
+    {
+      "test": 10,
+      "gpio": 9,
+      "pico_physical": 12,
+      "header": "J3",
+      "pin": 10
+    },
+    {
+      "test": 11,
+      "gpio": 28,
+      "pico_physical": 34,
+      "header": "J4",
+      "pin": 1
+    },
+    {
+      "test": 12,
+      "gpio": 27,
+      "pico_physical": 32,
+      "header": "J4",
+      "pin": 2
+    },
+    {
+      "test": 13,
+      "gpio": 26,
+      "pico_physical": 31,
+      "header": "J4",
+      "pin": 3
+    },
+    {
+      "test": 14,
+      "gpio": 22,
+      "pico_physical": 29,
+      "header": "J4",
+      "pin": 4
+    },
+    {
+      "test": 15,
+      "gpio": 21,
+      "pico_physical": 27,
+      "header": "J4",
+      "pin": 5
+    },
+    {
+      "test": 16,
+      "gpio": 20,
+      "pico_physical": 26,
+      "header": "J4",
+      "pin": 6
+    },
+    {
+      "test": 17,
+      "gpio": 19,
+      "pico_physical": 25,
+      "header": "J4",
+      "pin": 7
+    },
+    {
+      "test": 18,
+      "gpio": 18,
+      "pico_physical": 24,
+      "header": "J4",
+      "pin": 8
+    },
+    {
+      "test": 19,
+      "gpio": 17,
+      "pico_physical": 22,
+      "header": "J4",
+      "pin": 9
+    },
+    {
+      "test": 20,
+      "gpio": 16,
+      "pico_physical": 21,
+      "header": "J4",
+      "pin": 10
+    }
+  ],
+  "series_ohms": 4700,
+  "cap_farads": 1e-07,
+  "jumpers": 0
+}

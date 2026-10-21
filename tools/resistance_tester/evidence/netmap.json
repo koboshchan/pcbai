@@ -1,0 +1,14 @@
+{
+  "expected_connections": 140,
+  "pcb_matches": true,
+  "schematic_matches": true,
+  "outline_mm": [
+    100,
+    70
+  ],
+  "front_tracks": 0,
+  "vias": 0,
+  "wire_links": 0,
+  "capacitors_bottom": 20,
+  "mechanical_socket_spacing_mm": 17.78
+}

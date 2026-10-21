@@ -1,0 +1,13 @@
+Unmodified KiCad library models, copyright KiCad library contributors.
+https://github.com/KiCad/kicad-packages3D
+https://gitlab.com/kicad/libraries/kicad-packages3D
+Distributed under CC-BY-SA 4.0 with the KiCad design-output exception.
+See LICENSE.md.
+
+Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.step
+Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x20_P2.54mm_Vertical.step
+Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x10_P2.54mm_Vertical.step
+Capacitor_SMD.3dshapes/C_0805_2012Metric.step
+
+The first three were downloaded from the official GitHub mirror.
+The capacitor model was reused from the existing KiCad render model cache.

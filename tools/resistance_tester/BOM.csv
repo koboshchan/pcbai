@@ -1,0 +1,45 @@
+Reference,Value,Footprint,Side
+J1,PICO_LEFT_PHYS1_20,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,Top
+J2,PICO_RIGHT_PHYS21_40,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,Top
+J3,DUT1_10_FEMALE,Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical,Top
+J4,DUT11_20_FEMALE,Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical,Top
+R1,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C1,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R2,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C2,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R3,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C3,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R4,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C4,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R5,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C5,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R6,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C6,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R7,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C7,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R8,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C8,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R9,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C9,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R10,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C10,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R11,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C11,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R12,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C12,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R13,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C13,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R14,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C14,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R15,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C15,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R16,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C16,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R17,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C17,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R18,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C18,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R19,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C19,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R20,4.7k 1% 1/8W,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,Top
+C20,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom

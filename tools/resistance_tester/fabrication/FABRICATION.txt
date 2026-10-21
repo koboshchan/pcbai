@@ -1,0 +1,13 @@
+100 x 70 mm outline, measured at outline centerline.
+SINGLE SIDED board, BOTTOM copper only.
+No F.Cu pattern, no vias, no wire links.
+Through-hole library pads are represented on both sides in the CAD model;
+the KiCad Gerber-job auto metadata therefore says two layers and is NOT
+an ordering specification. It is intentionally excluded from the fab ZIP.
+Order single-sided bottom copper explicitly. Plating is not required for
+home etching: solder through-hole components from the copper side.
+Track width 0.35 mm minimum, design clearance 0.25 mm.
+Board thickness 1.6 mm. THT drill sizes are encoded in fingerprint.drl.
+Capacitors all 0805 on B.Cu. Top axial resistors are small DIN0204 1/8W.
+Socket bodies are on top, Pico USB at the marked top end.
+Do not scale the output. Confirm final outline 100 x 70 mm with fabricator.
