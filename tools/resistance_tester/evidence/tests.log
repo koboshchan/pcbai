@@ -1,4 +1,5 @@
 test_compare_raw_fingerprints (__main__.Tests.test_compare_raw_fingerprints) ... ok
+test_discharge_disables_pulls (__main__.Tests.test_discharge_disables_pulls) ... ok
 test_gpio_consistency (__main__.Tests.test_gpio_consistency) ... ok
 test_model_coupled_caps_and_value_separation (__main__.Tests.test_model_coupled_caps_and_value_separation) ... ok
 test_model_finite_precharge (__main__.Tests.test_model_finite_precharge) ... ok
@@ -8,6 +9,6 @@ test_sources_parse (__main__.Tests.test_sources_parse) ... ok
 test_value_parser (__main__.Tests.test_value_parser) ... ok
 
 ----------------------------------------------------------------------
-Ran 8 tests in 2.504s
+Ran 9 tests in 1.495s
 
 OK

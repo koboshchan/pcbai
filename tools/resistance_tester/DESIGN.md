@@ -8,7 +8,7 @@ R1–R20 are 4.7 kΩ, 1%, 1/8 W axial resistors, DIN0204 body 3.6 × 1.6 mm, lea
 
 Every test port connects to its own GPIO through a finite 4.7 kΩ resistor and has a 100 nF capacitor to tester USB ground. The ground trunks pass beneath the top-side axial resistor bodies, so the circuit needs no wire crossovers. No DUT node is hard-clamped to ground. The sense GPIO is an input, and its series resistor remains present.
 
-For a scan, all 20 GPIOs are charged high for 50 ms. All become inputs with pulls explicitly disabled. PIO then enables one GPIO as a low output through its 4.7 kΩ resistor while timing another GPIO's first falling digital threshold crossing. All 18 other ports remain high-impedance but their capacitors stay in circuit. Each unordered pair is measured in both sink directions, for 190 pairs and 380 directed measurements per repeat.
+Before every directed measurement, all 20 GPIOs are driven low through their series resistors for 100 ms to reduce history dependence, then charged high for 50 ms. Hidden DUT rail capacitors may require a longer discharge hold; verify golden-board stability versus hold duration. This is not a guarantee that phantom-powered internal rails are discharged. All become inputs with pulls explicitly disabled. PIO then enables one GPIO as a low output through its 4.7 kΩ resistor while timing another GPIO's first falling digital threshold crossing. All 18 other ports remain high-impedance but their capacitors stay in circuit. Each unordered pair is measured in both sink directions, for 190 pairs and 380 directed measurements per repeat.
 
 This implementation uses full 3.3 V precharge, not low-voltage excitation. Passive attenuation would put the signal below the Pico digital input threshold; no low-voltage accuracy claim is made. Populated unpowered op-amp boards can have nonlinear protection/leakage paths at this excitation, so a known-good populated board measured with the same fixture is the authoritative baseline. The resistor-only netlist prediction is a topology aid, not a complete semiconductor model. Keep this limitation in mind once, rather than interpreting the output as individual resistor values.
 
@@ -47,16 +47,20 @@ Then record at least five captures of a known-good discharged daughtercard with 
 Copy firmware/main.py to the Pico as main.py. From its USB MicroPython REPL, run
 
     import main
-    main.scan(repeats=3, timeout_us=5000000)
+    main.scan(repeats=8, timeout_us=5000000)
 
 Or, with mpremote already installed and the file copied, capture raw CSV using
 
-    mpremote exec "import main; main.scan(repeats=3, timeout_us=5000000)" > measured.csv
+    mpremote exec "import main; main.scan(repeats=8, timeout_us=5000000)" > measured.csv
 
-Filter any REPL banners before passing the CSV to compare.py. Each row includes pair_a, pair_b, sense, sink, repeat, fall_us, status. scan() emits 1,140 data rows by default, covering 190 unordered pairs, both directions, three times. It may take tens of minutes when most ports time out. Ctrl-C always stops the state machine and releases every test GPIO to input.
+Filter any REPL banners before passing the CSV to compare.py. Each row includes pair_a, pair_b, sense, sink, repeat, fall_us, status. scan() emits 3,040 data rows by default, covering 190 unordered pairs, both directions, eight times. It may take tens of minutes when most ports time out. Ctrl-C always stops the state machine and releases every test GPIO to input.
 
-Verification for this release consists of KiCad 10.0.6 DRC with zero violations and zero unconnected items, a 140-pad independent PCB/schematic/Pico-pinout connectivity audit, all-eight software tests, and real top/bottom KiCad 3D renders inspected after generation. The 3D images depict the assembled carrier's four female sockets, axial resistors, and bottom capacitors; the removable Pico module itself is not modeled. Actual PCB readback confirms 20 resistors, 20 capacitors, no front tracks and no vias.
+Verification for this release consists of KiCad 10.0.6 DRC with zero violations and zero unconnected items, a 140-pad independent PCB/schematic/Pico-pinout connectivity audit, all-nine software tests, and real top/bottom KiCad 3D renders inspected after generation. The 3D images depict the assembled carrier's four female sockets, axial resistors, and bottom capacitors; the removable Pico module itself is not modeled. Actual PCB readback confirms 20 resistors, 20 capacitors, no front tracks and no vias.
 
 Run build_board.py with KiCad 10 pcbnew to regenerate the geometry and schematic using the committed project settings and installed KiCad footprint libraries. Run kicad-cli sch export netlist --format kicadxml -o evidence/schematic.xml fingerprint.kicad_sch, then /usr/bin/python3 check_netmap.py. Run python3 test_design.py in an environment with NumPy and SciPy. All heavy CAD/model work for this release ran on KAT-BOX, not on the user's Windows desktop or Mac.
 
 References are the RP2040 datasheet at https://pip-assets.raspberrypi.com/categories/814-rp2040/documents/RP-008371-DS-1-rp2040-datasheet.pdf?disposition=inline and the current MicroPython rp2 and StateMachine documentation at https://docs.micropython.org/en/latest/library/rp2.html and https://docs.micropython.org/en/latest/library/rp2.StateMachine.html . The vendored assembler comes unchanged from https://github.com/micropython/micropython/blob/master/ports/rp2/modules/rp2.py and retains its MIT copyright notice. Bundled unmodified 3D models come from the KiCad packages3D library, with their library license in models/LICENSE.md.
+
+The 100 Ω reference is a calibration check, not a supported single-shot resolution claim: its timing differs only slightly from a short because both timing capacitors discharge through the series resistor. Use at least eight repeats and per-pin threshold calibration; treat roughly 1 kΩ as the provisional single-shot lower range. Treat roughly 1 MΩ as an unvalidated practical upper range, not a guaranteed specification. The 30 MΩ reference only tests whether that particular fixture can separate high resistance from an open; no 30 MΩ measurement capability is claimed.
+
+The available X7R capacitors remain fitted as requested. Their bias dependence and dielectric absorption can limit repeatability; reject inconsistent calibration rather than assuming nominal capacitance. C0G/NP0 or suitable film would improve this if available, but requires a footprint and assembly review. A no-sink self-discharge capture for each port is still needed before characterizing the upper range; the current firmware does not provide that reference mode. Do not qualify megohm performance without it.

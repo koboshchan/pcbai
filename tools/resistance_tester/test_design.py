@@ -63,6 +63,17 @@ class Tests(unittest.TestCase):
    remain,_,_=emulate(code,100,counts*2)
    self.assertEqual(100-remain,counts)
   remain,_,_=emulate(code,100,None);self.assertEqual(remain,0xffffffff)
+ def test_discharge_disables_pulls(self):
+  fw=load_firmware();calls=[];holds=[]
+  class Recorder:
+   OUT=1
+   def __init__(self,*a,**kw):calls.append((a,kw))
+  fw.Pin=Recorder
+  fw.time=types.SimpleNamespace(sleep_ms=holds.append)
+  fw.discharge()
+  self.assertEqual(holds,[100])
+  self.assertEqual([a[0] for a,_ in calls],list(fw.GPIO))
+  self.assertTrue(all(k==dict(pull=None,value=0) for _,k in calls))
  def test_gpio_consistency(self):
   fw=load_firmware();manifest=json.loads((R/'manifest.json').read_text())
   self.assertEqual(list(fw.GPIO),[p['gpio'] for p in manifest['gpio_map']])

@@ -31,6 +31,14 @@ def release():
     for gpio in GPIO:
         Pin(gpio, Pin.IN, pull=None)
 
+def discharge(milliseconds=100):
+    """Reset fixture history through all twenty finite series resistors.
+    100ms is a starting hold, not proof that hidden DUT rail caps are empty.
+    """
+    for gpio in GPIO:
+        Pin(gpio, Pin.OUT, pull=None, value=0)
+    time.sleep_ms(milliseconds)
+
 def measure(sense, sink, timeout_us=5_000_000):
     """Test numbers 1..20. Return threshold time/status, not resistance."""
     if sense == sink or not (1 <= sense <= 20 and 1 <= sink <= 20):
@@ -41,8 +49,9 @@ def measure(sense, sink, timeout_us=5_000_000):
     sm.active(0)
     release()  # restores SIO mux after preceding PIO operation
     try:
+        discharge()
         for gpio in GPIO:
-            Pin(gpio, Pin.OUT, value=1)
+            Pin(gpio, Pin.OUT, pull=None, value=1)
         time.sleep_ms(50)
         initial_ok = all(Pin(gpio).value() for gpio in GPIO)
         release()
@@ -64,7 +73,7 @@ def measure(sense, sink, timeout_us=5_000_000):
         sm.active(0)
         release()
 
-def scan(repeats=3, timeout_us=5_000_000):
+def scan(repeats=8, timeout_us=5_000_000):
     """190 unordered pairs, both sink directions, repeated CSV via USB serial."""
     if repeats < 1:
         raise ValueError("positive repeats required")
