@@ -1,0 +1,651 @@
+{
+  "verified": true,
+  "mapping_correct_no_copper_or_firmware_change": true,
+  "source_url": "https://pip-assets.raspberrypi.com/categories/610-raspberry-pi-pico/documents/RP-008307-DS-2-pico-datasheet.pdf?disposition=inline",
+  "source_figures": [
+    2,
+    3,
+    4
+  ],
+  "source_pdf_pages": [
+    5,
+    7,
+    8
+  ],
+  "official_usb_up_top_corners": {
+    "top_left": 1,
+    "bottom_left": 20,
+    "bottom_right": 21,
+    "top_right": 40
+  },
+  "transform": "rotation 180 degrees ONLY, then translate center to (23.89,40.13); no reflection",
+  "assembly": "All four female headers and Pico above TOP/non-copper side, tails soldered B.Cu",
+  "top_view": "Pico LEFT, USB DOWN (+Y); DUT RIGHT, J4 left column ports14..26, J3 right column ports1..13; both downward",
+  "bottom_view": "DUT LEFT, Pico RIGHT",
+  "pico_pins": [
+    {
+      "pico_physical": 1,
+      "official_signal": "GP0",
+      "header": "J1",
+      "local_pad": 1,
+      "x_mm": 32.78,
+      "y_mm": 64.26,
+      "pcb_net": "GP0"
+    },
+    {
+      "pico_physical": 2,
+      "official_signal": "GP1",
+      "header": "J1",
+      "local_pad": 2,
+      "x_mm": 32.78,
+      "y_mm": 61.72,
+      "pcb_net": "GP1"
+    },
+    {
+      "pico_physical": 3,
+      "official_signal": "GND",
+      "header": "J1",
+      "local_pad": 3,
+      "x_mm": 32.78,
+      "y_mm": 59.18,
+      "pcb_net": "GND"
+    },
+    {
+      "pico_physical": 4,
+      "official_signal": "GP2",
+      "header": "J1",
+      "local_pad": 4,
+      "x_mm": 32.78,
+      "y_mm": 56.64,
+      "pcb_net": "GP2"
+    },
+    {
+      "pico_physical": 5,
+      "official_signal": "GP3",
+      "header": "J1",
+      "local_pad": 5,
+      "x_mm": 32.78,
+      "y_mm": 54.1,
+      "pcb_net": "GP3"
+    },
+    {
+      "pico_physical": 6,
+      "official_signal": "GP4",
+      "header": "J1",
+      "local_pad": 6,
+      "x_mm": 32.78,
+      "y_mm": 51.56,
+      "pcb_net": "GP4"
+    },
+    {
+      "pico_physical": 7,
+      "official_signal": "GP5",
+      "header": "J1",
+      "local_pad": 7,
+      "x_mm": 32.78,
+      "y_mm": 49.02,
+      "pcb_net": "GP5"
+    },
+    {
+      "pico_physical": 8,
+      "official_signal": "GND",
+      "header": "J1",
+      "local_pad": 8,
+      "x_mm": 32.78,
+      "y_mm": 46.48,
+      "pcb_net": "GND"
+    },
+    {
+      "pico_physical": 9,
+      "official_signal": "GP6",
+      "header": "J1",
+      "local_pad": 9,
+      "x_mm": 32.78,
+      "y_mm": 43.94,
+      "pcb_net": "GP6"
+    },
+    {
+      "pico_physical": 10,
+      "official_signal": "GP7",
+      "header": "J1",
+      "local_pad": 10,
+      "x_mm": 32.78,
+      "y_mm": 41.4,
+      "pcb_net": "GP7"
+    },
+    {
+      "pico_physical": 11,
+      "official_signal": "GP8",
+      "header": "J1",
+      "local_pad": 11,
+      "x_mm": 32.78,
+      "y_mm": 38.86,
+      "pcb_net": "GP8"
+    },
+    {
+      "pico_physical": 12,
+      "official_signal": "GP9",
+      "header": "J1",
+      "local_pad": 12,
+      "x_mm": 32.78,
+      "y_mm": 36.32,
+      "pcb_net": "GP9"
+    },
+    {
+      "pico_physical": 13,
+      "official_signal": "GND",
+      "header": "J1",
+      "local_pad": 13,
+      "x_mm": 32.78,
+      "y_mm": 33.78,
+      "pcb_net": "GND"
+    },
+    {
+      "pico_physical": 14,
+      "official_signal": "GP10",
+      "header": "J1",
+      "local_pad": 14,
+      "x_mm": 32.78,
+      "y_mm": 31.24,
+      "pcb_net": "GP10"
+    },
+    {
+      "pico_physical": 15,
+      "official_signal": "GP11",
+      "header": "J1",
+      "local_pad": 15,
+      "x_mm": 32.78,
+      "y_mm": 28.7,
+      "pcb_net": "GP11"
+    },
+    {
+      "pico_physical": 16,
+      "official_signal": "GP12",
+      "header": "J1",
+      "local_pad": 16,
+      "x_mm": 32.78,
+      "y_mm": 26.16,
+      "pcb_net": "GP12"
+    },
+    {
+      "pico_physical": 17,
+      "official_signal": "GP13",
+      "header": "J1",
+      "local_pad": 17,
+      "x_mm": 32.78,
+      "y_mm": 23.62,
+      "pcb_net": "GP13"
+    },
+    {
+      "pico_physical": 18,
+      "official_signal": "GND",
+      "header": "J1",
+      "local_pad": 18,
+      "x_mm": 32.78,
+      "y_mm": 21.08,
+      "pcb_net": "GND"
+    },
+    {
+      "pico_physical": 19,
+      "official_signal": "GP14",
+      "header": "J1",
+      "local_pad": 19,
+      "x_mm": 32.78,
+      "y_mm": 18.54,
+      "pcb_net": "GP14"
+    },
+    {
+      "pico_physical": 20,
+      "official_signal": "GP15",
+      "header": "J1",
+      "local_pad": 20,
+      "x_mm": 32.78,
+      "y_mm": 16.0,
+      "pcb_net": "GP15"
+    },
+    {
+      "pico_physical": 21,
+      "official_signal": "GP16",
+      "header": "J2",
+      "local_pad": 1,
+      "x_mm": 15.0,
+      "y_mm": 16.0,
+      "pcb_net": "GP16"
+    },
+    {
+      "pico_physical": 22,
+      "official_signal": "GP17",
+      "header": "J2",
+      "local_pad": 2,
+      "x_mm": 15.0,
+      "y_mm": 18.54,
+      "pcb_net": "GP17"
+    },
+    {
+      "pico_physical": 23,
+      "official_signal": "GND",
+      "header": "J2",
+      "local_pad": 3,
+      "x_mm": 15.0,
+      "y_mm": 21.08,
+      "pcb_net": "GND"
+    },
+    {
+      "pico_physical": 24,
+      "official_signal": "GP18",
+      "header": "J2",
+      "local_pad": 4,
+      "x_mm": 15.0,
+      "y_mm": 23.62,
+      "pcb_net": "GP18"
+    },
+    {
+      "pico_physical": 25,
+      "official_signal": "GP19",
+      "header": "J2",
+      "local_pad": 5,
+      "x_mm": 15.0,
+      "y_mm": 26.16,
+      "pcb_net": "GP19"
+    },
+    {
+      "pico_physical": 26,
+      "official_signal": "GP20",
+      "header": "J2",
+      "local_pad": 6,
+      "x_mm": 15.0,
+      "y_mm": 28.7,
+      "pcb_net": "GP20"
+    },
+    {
+      "pico_physical": 27,
+      "official_signal": "GP21",
+      "header": "J2",
+      "local_pad": 7,
+      "x_mm": 15.0,
+      "y_mm": 31.24,
+      "pcb_net": "GP21"
+    },
+    {
+      "pico_physical": 28,
+      "official_signal": "GND",
+      "header": "J2",
+      "local_pad": 8,
+      "x_mm": 15.0,
+      "y_mm": 33.78,
+      "pcb_net": "GND"
+    },
+    {
+      "pico_physical": 29,
+      "official_signal": "GP22",
+      "header": "J2",
+      "local_pad": 9,
+      "x_mm": 15.0,
+      "y_mm": 36.32,
+      "pcb_net": "GP22"
+    },
+    {
+      "pico_physical": 30,
+      "official_signal": "RUN",
+      "header": "J2",
+      "local_pad": 10,
+      "x_mm": 15.0,
+      "y_mm": 38.86,
+      "pcb_net": "PICO_RUN_NC"
+    },
+    {
+      "pico_physical": 31,
+      "official_signal": "GP26",
+      "header": "J2",
+      "local_pad": 11,
+      "x_mm": 15.0,
+      "y_mm": 41.4,
+      "pcb_net": "GP26"
+    },
+    {
+      "pico_physical": 32,
+      "official_signal": "GP27",
+      "header": "J2",
+      "local_pad": 12,
+      "x_mm": 15.0,
+      "y_mm": 43.94,
+      "pcb_net": "GP27"
+    },
+    {
+      "pico_physical": 33,
+      "official_signal": "AGND",
+      "header": "J2",
+      "local_pad": 13,
+      "x_mm": 15.0,
+      "y_mm": 46.48,
+      "pcb_net": "GND"
+    },
+    {
+      "pico_physical": 34,
+      "official_signal": "GP28",
+      "header": "J2",
+      "local_pad": 14,
+      "x_mm": 15.0,
+      "y_mm": 49.02,
+      "pcb_net": "GP28"
+    },
+    {
+      "pico_physical": 35,
+      "official_signal": "ADC_VREF",
+      "header": "J2",
+      "local_pad": 15,
+      "x_mm": 15.0,
+      "y_mm": 51.56,
+      "pcb_net": "PICO_ADC_VREF_NC"
+    },
+    {
+      "pico_physical": 36,
+      "official_signal": "3V3",
+      "header": "J2",
+      "local_pad": 16,
+      "x_mm": 15.0,
+      "y_mm": 54.1,
+      "pcb_net": "PICO_3V3_NC"
+    },
+    {
+      "pico_physical": 37,
+      "official_signal": "3V3_EN",
+      "header": "J2",
+      "local_pad": 17,
+      "x_mm": 15.0,
+      "y_mm": 56.64,
+      "pcb_net": "PICO_3V3_EN_NC"
+    },
+    {
+      "pico_physical": 38,
+      "official_signal": "GND",
+      "header": "J2",
+      "local_pad": 18,
+      "x_mm": 15.0,
+      "y_mm": 59.18,
+      "pcb_net": "GND"
+    },
+    {
+      "pico_physical": 39,
+      "official_signal": "VSYS",
+      "header": "J2",
+      "local_pad": 19,
+      "x_mm": 15.0,
+      "y_mm": 61.72,
+      "pcb_net": "PICO_VSYS_NC"
+    },
+    {
+      "pico_physical": 40,
+      "official_signal": "VBUS",
+      "header": "J2",
+      "local_pad": 20,
+      "x_mm": 15.0,
+      "y_mm": 64.26,
+      "pcb_net": "PICO_VBUS_NC"
+    }
+  ],
+  "dut_contacts": [
+    {
+      "port": 1,
+      "header": "J3",
+      "local_pad": 1,
+      "x_mm": 97.54,
+      "y_mm": 20.0,
+      "gpio": 28,
+      "pico_physical": 34,
+      "series_resistor": "R1"
+    },
+    {
+      "port": 2,
+      "header": "J3",
+      "local_pad": 2,
+      "x_mm": 97.54,
+      "y_mm": 22.54,
+      "gpio": 26,
+      "pico_physical": 31,
+      "series_resistor": "R3"
+    },
+    {
+      "port": 3,
+      "header": "J3",
+      "local_pad": 3,
+      "x_mm": 97.54,
+      "y_mm": 25.08,
+      "gpio": 21,
+      "pico_physical": 27,
+      "series_resistor": "R5"
+    },
+    {
+      "port": 4,
+      "header": "J3",
+      "local_pad": 4,
+      "x_mm": 97.54,
+      "y_mm": 27.62,
+      "gpio": 19,
+      "pico_physical": 25,
+      "series_resistor": "R7"
+    },
+    {
+      "port": 5,
+      "header": "J3",
+      "local_pad": 5,
+      "x_mm": 97.54,
+      "y_mm": 30.16,
+      "gpio": 17,
+      "pico_physical": 22,
+      "series_resistor": "R9"
+    },
+    {
+      "port": 6,
+      "header": "J3",
+      "local_pad": 6,
+      "x_mm": 97.54,
+      "y_mm": 32.7,
+      "gpio": 15,
+      "pico_physical": 20,
+      "series_resistor": "R11"
+    },
+    {
+      "port": 7,
+      "header": "J3",
+      "local_pad": 7,
+      "x_mm": 97.54,
+      "y_mm": 35.24,
+      "gpio": 13,
+      "pico_physical": 17,
+      "series_resistor": "R13"
+    },
+    {
+      "port": 8,
+      "header": "J3",
+      "local_pad": 8,
+      "x_mm": 97.54,
+      "y_mm": 37.78,
+      "gpio": 11,
+      "pico_physical": 15,
+      "series_resistor": "R15"
+    },
+    {
+      "port": 9,
+      "header": "J3",
+      "local_pad": 9,
+      "x_mm": 97.54,
+      "y_mm": 40.32,
+      "gpio": 9,
+      "pico_physical": 12,
+      "series_resistor": "R17"
+    },
+    {
+      "port": 10,
+      "header": "J3",
+      "local_pad": 10,
+      "x_mm": 97.54,
+      "y_mm": 42.86,
+      "gpio": 7,
+      "pico_physical": 10,
+      "series_resistor": "R19"
+    },
+    {
+      "port": 11,
+      "header": "J3",
+      "local_pad": 11,
+      "x_mm": 97.54,
+      "y_mm": 45.4,
+      "gpio": 5,
+      "pico_physical": 7,
+      "series_resistor": "R21"
+    },
+    {
+      "port": 12,
+      "header": "J3",
+      "local_pad": 12,
+      "x_mm": 97.54,
+      "y_mm": 47.94,
+      "gpio": 3,
+      "pico_physical": 5,
+      "series_resistor": "R23"
+    },
+    {
+      "port": 13,
+      "header": "J3",
+      "local_pad": 13,
+      "x_mm": 97.54,
+      "y_mm": 50.48,
+      "gpio": 1,
+      "pico_physical": 2,
+      "series_resistor": "R25"
+    },
+    {
+      "port": 14,
+      "header": "J4",
+      "local_pad": 1,
+      "x_mm": 95.0,
+      "y_mm": 20.0,
+      "gpio": 27,
+      "pico_physical": 32,
+      "series_resistor": "R2"
+    },
+    {
+      "port": 15,
+      "header": "J4",
+      "local_pad": 2,
+      "x_mm": 95.0,
+      "y_mm": 22.54,
+      "gpio": 22,
+      "pico_physical": 29,
+      "series_resistor": "R4"
+    },
+    {
+      "port": 16,
+      "header": "J4",
+      "local_pad": 3,
+      "x_mm": 95.0,
+      "y_mm": 25.08,
+      "gpio": 20,
+      "pico_physical": 26,
+      "series_resistor": "R6"
+    },
+    {
+      "port": 17,
+      "header": "J4",
+      "local_pad": 4,
+      "x_mm": 95.0,
+      "y_mm": 27.62,
+      "gpio": 18,
+      "pico_physical": 24,
+      "series_resistor": "R8"
+    },
+    {
+      "port": 18,
+      "header": "J4",
+      "local_pad": 5,
+      "x_mm": 95.0,
+      "y_mm": 30.16,
+      "gpio": 16,
+      "pico_physical": 21,
+      "series_resistor": "R10"
+    },
+    {
+      "port": 19,
+      "header": "J4",
+      "local_pad": 6,
+      "x_mm": 95.0,
+      "y_mm": 32.7,
+      "gpio": 14,
+      "pico_physical": 19,
+      "series_resistor": "R12"
+    },
+    {
+      "port": 20,
+      "header": "J4",
+      "local_pad": 7,
+      "x_mm": 95.0,
+      "y_mm": 35.24,
+      "gpio": 12,
+      "pico_physical": 16,
+      "series_resistor": "R14"
+    },
+    {
+      "port": 21,
+      "header": "J4",
+      "local_pad": 8,
+      "x_mm": 95.0,
+      "y_mm": 37.78,
+      "gpio": 10,
+      "pico_physical": 14,
+      "series_resistor": "R16"
+    },
+    {
+      "port": 22,
+      "header": "J4",
+      "local_pad": 9,
+      "x_mm": 95.0,
+      "y_mm": 40.32,
+      "gpio": 8,
+      "pico_physical": 11,
+      "series_resistor": "R18"
+    },
+    {
+      "port": 23,
+      "header": "J4",
+      "local_pad": 10,
+      "x_mm": 95.0,
+      "y_mm": 42.86,
+      "gpio": 6,
+      "pico_physical": 9,
+      "series_resistor": "R20"
+    },
+    {
+      "port": 24,
+      "header": "J4",
+      "local_pad": 11,
+      "x_mm": 95.0,
+      "y_mm": 45.4,
+      "gpio": 4,
+      "pico_physical": 6,
+      "series_resistor": "R22"
+    },
+    {
+      "port": 25,
+      "header": "J4",
+      "local_pad": 12,
+      "x_mm": 95.0,
+      "y_mm": 47.94,
+      "gpio": 2,
+      "pico_physical": 4,
+      "series_resistor": "R24"
+    },
+    {
+      "port": 26,
+      "header": "J4",
+      "local_pad": 13,
+      "x_mm": 95.0,
+      "y_mm": 50.48,
+      "gpio": 0,
+      "pico_physical": 1,
+      "series_resistor": "R26"
+    }
+  ],
+  "pcb_sha256": "bbe66ed242a623b022ecadb611f56fa77393f9e37f1a4962ddef4f78dd0fe59f",
+  "copper_track_and_pad_geometry_identical_to_previous_commit": true
+}

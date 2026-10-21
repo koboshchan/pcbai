@@ -30,7 +30,7 @@ for a,z in zip([(0,0),(100,0),(100,70),(0,70)],[(100,0),(100,70),(0,70),(0,0)]):
  s=p.PCB_SHAPE(b);s.SetShape(p.SHAPE_T_SEGMENT);s.SetLayer(p.Edge_Cuts);s.SetStart(v(*a));s.SetEnd(v(*z));s.SetWidth(p.FromMM(.05));b.Add(s)
 
 # ---- Bottom-view layout: DUT 2x13 at bottom-view LEFT (= high X in this top-view frame), Pico at bottom-view RIGHT (low X).
-# Pico is rotated 180 deg (USB end toward +Y). J1 = Pico pins 1-20 at inner column x=32.78, J2 = pins 21-40 at outer column x=15.
+# TOP/component view, mounted from above; no flip/mirror. Pico is rotated 180 deg (USB end toward +Y). J1 = Pico pins 1-20 at inner column x=32.78, J2 = pins 21-40 at outer column x=15.
 GPIO_LANES=[28,27,26,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]  # lane 0 = top ... lane 25 = bottom
 PIN_OF={28:('J2',14),27:('J2',12),26:('J2',11),22:('J2',9),21:('J2',7),20:('J2',6),19:('J2',5),18:('J2',4),17:('J2',2),16:('J2',1),15:('J1',20),14:('J1',19),13:('J1',17),12:('J1',16),11:('J1',15),10:('J1',14),
         9:('J1',12),8:('J1',11),7:('J1',10),6:('J1',9),5:('J1',7),4:('J1',6),3:('J1',5),2:('J1',4),1:('J1',2),0:('J1',1)}
@@ -48,6 +48,8 @@ j1=add('J1','PICO_LEFT_PHYS1_20','Connector_PinSocket_2.54mm','PinSocket_1x20_P2
 j2=add('J2','PICO_RIGHT_PHYS21_40','Connector_PinSocket_2.54mm','PinSocket_1x20_P2.54mm_Vertical',XO,YT,ns2)
 YD0=20.0
 for f in (j1,j2):
+ for it in list(f.GraphicalItems()):
+  if it.GetLayer()==p.F_SilkS:f.Remove(it)  # shared Pico assembly projection replaces conflicting socket silk
  f.SetFPID(p.LIB_ID('','Pico_1x20_female_oval_1.7x1.4'))
  for pad in f.Pads():pad.SetSize(v(1.7,1.4));pad.SetShape(p.PAD_SHAPE_RECT if pad.GetNumber()=='1' else p.PAD_SHAPE_OVAL)
 # J3 = DUT outer column (bottom-view leftmost) ports 1-13, J4 = inner column ports 14-26, both pin1 at top.
@@ -111,8 +113,16 @@ for q in parts:
  if q['ref'] in('J3','J4'):q['footprint']='PinSocket_1x13_P2.54mm_Vertical_2x13_block_modified (embedded, shared 2x13 silk box, abutting courtyards)'
  f=[x for x in b.GetFootprints() if x.GetReference()==q['ref']][0]
  q['nets']={a.GetNumber():a.GetNetname() for a in f.Pads() if a.GetNetname()}
-for txt,x,y,size in [('UNPOWERED DUT ONLY',45,68.6,1.3),('PICO USB',23,66,1),('1',92.4,YD0,1),('BOTTOM VIEW: DUT LEFT, PICO RIGHT',47,0.9,0.8)]:
+for txt,x,y,size in [('UNPOWERED DUT ONLY',45,68.6,1.3),('USB END',23.89,68,1),('1',92.4,YD0,1),('TOP: PICO LEFT / DUT RIGHT',47,0.9,0.8)]:
  t=p.PCB_TEXT(b);t.SetText(txt);t.SetPosition(v(x,y));t.SetTextSize(v(size,size));t.SetTextThickness(p.FromMM(.15));t.SetLayer(p.F_SilkS);b.Add(t)
+# Assembly guide only: actual 21x51 mm Pico projection on TOP silkscreen,
+# centered between socket rows. USB points +Y; sockets remain F.Cu/THT.
+# This is NOT a physical Pico body nor any extra copper.
+for xa,ya,xb,yb in [(13.39,14.63,34.39,65.63),(20.1,62.0,27.68,66.3)]:
+ sh=p.PCB_SHAPE(b);sh.SetShape(p.SHAPE_T_RECT);sh.SetLayer(p.F_SilkS)
+ sh.SetStart(v(xa,ya));sh.SetEnd(v(xb,yb));sh.SetWidth(p.FromMM(.15));b.Add(sh)
+for txt,x,y,size in [('PICO TOP',23.89,40,1.1),('1',30.1,64.26,.8),('20',30.1,16,.8),('21',17.7,16,.8),('40',17.7,64.26,.8),('J4',95,17,.8),('J3',97.54,17,.8)]:
+ t=p.PCB_TEXT(b);t.SetText(txt);t.SetPosition(v(x,y));t.SetTextSize(v(size,size));t.SetTextThickness(p.FromMM(.12));t.SetLayer(p.F_SilkS);b.Add(t)
 z_=p.ZONE(b);z_.SetLayer(p.B_Cu);z_.SetNet(net('GND'))
 ol=z_.Outline();ol.NewOutline()
 for q in [(0.6,0.6),(99.4,0.6),(99.4,69.4),(0.6,69.4)]:ol.Append(p.FromMM(q[0]),p.FromMM(q[1]))
@@ -131,7 +141,7 @@ template['net_settings']['classes'][0]['track_width']=.3
 template['board']['design_settings']['drc_exclusions']=[]
 (ROOT/'fingerprint.kicad_pro').write_text(json.dumps(template,indent=2)+'\n')
 mapping.sort(key=lambda m:m['test'])
-(ROOT/'manifest.json').write_text(json.dumps(dict(components=parts,layout='bottom-view: DUT 2x13 at left, Pico at right; B.Cu GND pour',port_count=26,unordered_pairs=325,directed_pairs=650,reference_count=26,repeats=8,scan_rows=5408,min_trace_mm=.3,min_clearance_mm=.4,gpio_map=mapping,series_ohms=4700,cap_farads=1e-7,jumpers=0),indent=2)+'\n')
+(ROOT/'manifest.json').write_text(json.dumps(dict(components=parts,layout='bottom-view: DUT 2x13 at left, Pico at right; B.Cu GND pour',assembly_side='TOP (F.Cu footprints, through-hole pins soldered on B.Cu)',pico_usb_direction_top='+Y (toward board bottom)',top_dut_left_column='J4 ports 14..26 top-to-bottom',top_dut_right_column='J3 ports 1..13 top-to-bottom',port_count=26,unordered_pairs=325,directed_pairs=650,reference_count=26,repeats=8,scan_rows=5408,min_trace_mm=.3,min_clearance_mm=.4,gpio_map=mapping,series_ohms=4700,cap_farads=1e-7,jumpers=0),indent=2)+'\n')
 with (ROOT/'BOM.csv').open('w') as f:
  w=csv.writer(f,lineterminator='\n');w.writerow(['Reference','Value','Footprint','Side'])
  for c in parts:w.writerow([c['ref'],c['value'],c['footprint'],'Bottom' if c['ref'].startswith(('C','R')) else 'Top'])

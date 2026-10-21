@@ -6,7 +6,15 @@
     "two_individual_1x13_dut_right": true,
     "two_1x20_pico_left": true,
     "obvious_collisions": false,
-    "overhang": false
+    "overhang": false,
+    "pico_projection_outline_visible": true,
+    "pico_body_rendered": false,
+    "usb_points_down": true,
+    "pico_top_left": true,
+    "dut_top_right": true,
+    "J4_dut_left_column": true,
+    "J3_dut_right_column": true,
+    "header_bodies_on_top_only": true
   },
   "bottom": {
     "path": "render-bottom.png",
@@ -30,11 +38,13 @@
     "nominal_body_overlap_mm": 0,
     "note": "Two separate 1x13 strip bodies nominally touch, not overlap. Select physical strip housings <=2.54mm wide."
   },
-  "gpio_map_updated": true,
-  "firmware_updated": true,
+  "gpio_map_updated": false,
+  "firmware_updated": false,
   "hardware_calibration_verified": false,
   "renders_sha256": {
-    "render-top.png": "f555611c8accedf56290766cf6c3b5509730bda07b1c668571e9f05ee229f6c5",
-    "render-bottom.png": "75e3cd300dc50c6094250c68a1bf0a3551a1019241c67782097bc0532cbf5275"
-  }
+    "render-top.png": "bd1407c2e637922f16f891c6574a655cd55b27e13b3116b9470dcebebf02213f",
+    "render-bottom.png": "73b176a07fc7cf774eb5c980b2954fc1a2b87baf191f3378ea8ab77497aeadc3"
+  },
+  "gpio_map_preserved": true,
+  "firmware_preserved": true
 }

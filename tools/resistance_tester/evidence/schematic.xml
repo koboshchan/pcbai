@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/work/fingerprint.kicad_sch</source>
-    <date>2026-10-21T03:34:15</date>
+    <date>2026-10-21T03:41:51</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -36,7 +36,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>94d013c7-c961-4cb5-9629-8be27edc6b41</tstamps>
+      <tstamps>b4dbe73a-d118-4b37-96af-e03e508a0e7b</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -58,7 +58,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>542fbf11-d3d2-4e5c-8349-e8412eac83da</tstamps>
+      <tstamps>77ae8da4-b6de-4a4e-af67-5b1df2051475</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -80,7 +80,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f517de74-9bcf-4e43-b244-02d56af9baba</tstamps>
+      <tstamps>6502d894-9ec7-49e0-85e4-2b11458974d6</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -102,7 +102,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>efa1588b-8fcd-49bd-ad83-801af0411d76</tstamps>
+      <tstamps>35f8b969-dece-4200-a1cf-dab39bf75364</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -124,7 +124,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>48f0ab34-d5cb-4f64-b4da-9d6ce6fa57a5</tstamps>
+      <tstamps>ea095fab-fad8-48d5-a519-3cd949b47651</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -146,7 +146,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e6a0f0e1-cc2e-4e8c-990c-3933a144e19d</tstamps>
+      <tstamps>3e251b59-81b0-4051-9e0e-bff214fdacee</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -168,7 +168,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>8cb0744f-0d4a-450f-b4b2-225faef8fb84</tstamps>
+      <tstamps>766122b4-3ee5-4bce-9b5e-5a00ecb841d4</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -190,7 +190,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e2414e84-bc38-45b5-ba28-8d45504c808a</tstamps>
+      <tstamps>32c4d502-cadf-4422-8dbd-02cfd42e5b71</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -212,7 +212,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>0c4e2277-28e6-401d-9180-311e141e297e</tstamps>
+      <tstamps>4f3c22fd-95e7-47ff-bd2e-2b230ccca547</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -234,7 +234,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9294cc92-d49b-4c53-abf9-08ee208a3963</tstamps>
+      <tstamps>f38b6cfb-5f80-4861-8381-960b620d6e5b</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -256,7 +256,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e047f375-b43b-4f8a-9145-f7a0deabd2de</tstamps>
+      <tstamps>dbac6385-ee53-4882-8644-3dd7b9fefcd0</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -278,7 +278,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3b2fd19c-125c-450b-9a8f-91b2038610a6</tstamps>
+      <tstamps>fad71cab-dd13-4e8b-b869-a11a4dcd2b70</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -300,7 +300,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2bf9c3d0-6c8c-4c50-b82e-7ba2a8d5bf1b</tstamps>
+      <tstamps>7a478eaf-42ee-4ac0-95dc-cab267dcf2d7</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -322,7 +322,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>1b1ce87e-bd4c-4ecf-a645-ff5763f95920</tstamps>
+      <tstamps>f073db3c-b270-4245-aaa2-7098c18623e3</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -344,7 +344,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>25828ba2-1e1a-4719-9cee-1545f507d185</tstamps>
+      <tstamps>8b38eed7-036f-498f-9c76-4b7ec4561671</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -366,7 +366,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ab85100f-5d86-429f-9dcc-200178d8b6c8</tstamps>
+      <tstamps>1ce3a0cc-873d-4339-8ae5-474f77ed9ceb</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -388,7 +388,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>51746d9b-02bf-4be2-8753-45a422919b85</tstamps>
+      <tstamps>b175bab1-3a9d-4dea-928a-7f660a0424ee</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -410,7 +410,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>98f8fe3a-22d0-4abb-959b-2935f5c4d9e3</tstamps>
+      <tstamps>e7112980-af8a-411b-b6de-f003ec322976</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -432,7 +432,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>358f937d-5192-42c4-856d-c608dafce302</tstamps>
+      <tstamps>3da41b3d-0dc3-4092-97ba-9c9897695b17</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -454,7 +454,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9ca6585a-e415-44b4-a614-edfe826ff0f6</tstamps>
+      <tstamps>ac4039a6-8bbc-4b04-ab44-2ec7d5ca27b9</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -476,7 +476,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ea939322-1344-44ce-a082-0487a79a29f0</tstamps>
+      <tstamps>ea041759-f94c-4e4a-9130-cb8c27acc01d</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -498,7 +498,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3938465c-10c0-4b16-bae1-b0bd365801aa</tstamps>
+      <tstamps>5bcee326-8dc5-49b8-8d90-3c7851afadd7</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -520,7 +520,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d92f5f3d-0b6b-473b-abbf-18c7ece11288</tstamps>
+      <tstamps>1aecf132-69bc-4070-bcab-daee95c23a7b</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -542,7 +542,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e692dcb3-47a3-4a9f-aca4-d1c8f45dedf2</tstamps>
+      <tstamps>11fffbaf-f5a9-4dfc-9f76-dd0c79c02e49</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -564,7 +564,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>febb9cb4-e1d4-4e05-8a67-6bcb429dae47</tstamps>
+      <tstamps>b79dcc83-9867-472d-b68b-14b685ccead7</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -586,7 +586,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>6180c677-ac6d-4fb7-86ce-cf93f4dd78e1</tstamps>
+      <tstamps>92291f59-45cf-498a-8551-883edfada144</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -608,7 +608,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>cf5cbfa4-d9ed-4a4c-b8b0-c00b5cb6625b</tstamps>
+      <tstamps>af7df91e-838c-4282-b261-17ecdbe7d373</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -648,7 +648,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>8d0eea60-6616-421f-8988-5d87de6aa5d4</tstamps>
+      <tstamps>9b36929e-784f-4974-b8b0-d188d2a6c796</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -688,7 +688,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f9e81e97-505c-4e6a-86a9-29b40ce999e7</tstamps>
+      <tstamps>1099e96d-0977-41d0-9e78-53dfc8c295df</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -721,7 +721,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d76ffa6e-8d8f-41be-80bb-f2580b903d11</tstamps>
+      <tstamps>664d9903-3541-49f3-abe8-97d0bf786d03</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -754,7 +754,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2b5c8da7-f67b-4bad-b84e-c06de9c04fb5</tstamps>
+      <tstamps>79997865-cb20-4ddd-a800-42991fb9445a</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -776,7 +776,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>fb39d395-73eb-480b-be5c-31d9c9710501</tstamps>
+      <tstamps>941a71f4-6a75-48ef-845a-c6ae5221cea7</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -798,7 +798,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>0a05849e-6ace-4ab9-a87f-11aa7b413d7e</tstamps>
+      <tstamps>deacfb68-ceae-4cc2-987d-2a5d67f7aa44</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -820,7 +820,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>4a19c758-0797-49ec-895b-a033705e4d62</tstamps>
+      <tstamps>02fb37d6-2299-4dd5-8d0b-2291e38b453c</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -842,7 +842,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>8f685328-c86b-4297-8bb5-d7d3ce7a15b2</tstamps>
+      <tstamps>5b3cbdc6-a96d-4c33-842d-66c167a76977</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -864,7 +864,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>8c197cfb-32ff-4f4e-8f85-09529c4a0a36</tstamps>
+      <tstamps>72b2718a-565f-4fa0-8c0b-25d9efff3cde</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -886,7 +886,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2c72f28c-df07-48b0-8dc4-f2427738e282</tstamps>
+      <tstamps>8e193b7b-6f1d-471f-9ac7-c8c6685c624e</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -908,7 +908,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>478779f8-50bb-44ce-be9d-e92cc0d61fe5</tstamps>
+      <tstamps>35c19133-b08a-4070-b9bc-a999fce52395</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -930,7 +930,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>4a438ca3-15d8-48b9-8385-6ba16cfb443c</tstamps>
+      <tstamps>945fd7a1-2c9b-4063-9942-94166df194b8</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -952,7 +952,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>50cd4dc1-be5c-4a4c-b245-e6ca74123db8</tstamps>
+      <tstamps>56a83ad1-8040-4a0f-91e7-eaa43dc9a0a0</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -974,7 +974,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>105ddf95-6c69-427f-8c9c-bf7e3372f317</tstamps>
+      <tstamps>d7418985-b139-4fb0-9912-90239ebe5c06</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -996,7 +996,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9ec6cb5e-229e-436e-9fbc-4bb28a3ab6ed</tstamps>
+      <tstamps>fecb5775-463b-4bb5-9642-3d0ff35ec530</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1018,7 +1018,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>83404492-ae82-449d-9ed9-c6c0584fb0d7</tstamps>
+      <tstamps>523a7e96-0fed-48f5-9ea9-ee1c970c8ba3</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1040,7 +1040,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>85b47710-ea28-4d8a-93b0-6b04234c01ed</tstamps>
+      <tstamps>d4780193-24f7-440a-878d-f4656b3fbead</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1062,7 +1062,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>80871ee5-3041-4e3c-b597-213445cb3466</tstamps>
+      <tstamps>936fba65-6c6d-4c93-ba97-c1e0d3c75017</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1084,7 +1084,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c6b029b9-af9d-4610-8136-d9db2d0f905e</tstamps>
+      <tstamps>fe36419b-daa2-4709-bc62-e1cddb525ac3</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1106,7 +1106,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c4db7e00-5750-4530-9bca-7c757d10ae06</tstamps>
+      <tstamps>b1038b88-e577-4a41-9fd5-7c6d44b57cee</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1128,7 +1128,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c6f79cc1-e1b9-42f6-b9d8-ea12c307f80c</tstamps>
+      <tstamps>dfaab0e7-9b67-4877-8e25-4806b12abee0</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1150,7 +1150,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>59fffa32-946b-4634-89df-9e7b026b1cde</tstamps>
+      <tstamps>e8b3c619-9166-4b01-9a92-967293e6a0bf</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1172,7 +1172,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>802542f4-e26c-4f08-8de5-0fd46a2a881d</tstamps>
+      <tstamps>d1bbf15e-5bdf-46bf-b929-b00232a8a292</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1194,7 +1194,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3e8b3792-9907-417f-841d-1c9449aeebc4</tstamps>
+      <tstamps>3260f46e-703b-46ad-8bcd-94e4d218cc41</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1216,7 +1216,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>19bcfb87-082b-4e04-8cf7-0d61da05f164</tstamps>
+      <tstamps>eb10755f-841b-4e46-bcd7-0efe21e204f1</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1238,7 +1238,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>86e7366e-b92a-4573-9181-da9c3edfab82</tstamps>
+      <tstamps>cceee3a5-dbe8-43be-8e9e-28540d64b5e8</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1260,7 +1260,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>4a45d29f-eae2-440e-8f9a-c325dd5793bc</tstamps>
+      <tstamps>727e34af-2089-43b2-a4ce-7246256096bc</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1282,7 +1282,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>caaf3c21-99ff-4d9c-b785-ef02ed9f6598</tstamps>
+      <tstamps>8274cf9a-02f5-4873-9d23-350a6c327e5b</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1304,7 +1304,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>6f5a1de6-3b8c-4aac-9fd7-29af8d0a571e</tstamps>
+      <tstamps>ac3ef744-fdb5-4743-a023-f8504b2d0932</tstamps>
       <units>
         <unit name="A">
           <pins>

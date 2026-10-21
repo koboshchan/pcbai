@@ -21,6 +21,6 @@ test_sources_parse (__main__.Tests.test_sources_parse) ... ok
 test_value_parser (__main__.Tests.test_value_parser) ... ok
 
 ----------------------------------------------------------------------
-Ran 21 tests in 0.313s
+Ran 21 tests in 0.282s
 
 OK

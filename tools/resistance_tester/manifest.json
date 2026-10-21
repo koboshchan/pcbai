@@ -564,6 +564,10 @@
     }
   ],
   "layout": "bottom-view: DUT 2x13 at left, Pico at right; B.Cu GND pour",
+  "assembly_side": "TOP (F.Cu footprints, through-hole pins soldered on B.Cu)",
+  "pico_usb_direction_top": "+Y (toward board bottom)",
+  "top_dut_left_column": "J4 ports 14..26 top-to-bottom",
+  "top_dut_right_column": "J3 ports 1..13 top-to-bottom",
   "port_count": 26,
   "unordered_pairs": 325,
   "directed_pairs": 650,
