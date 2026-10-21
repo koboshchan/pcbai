@@ -1,0 +1,54 @@
+{
+  "simulated_only": true,
+  "hardware_discrimination_not_verified": true,
+  "cases": [
+    {
+      "nominal_ohms": 100000.0,
+      "pair_seconds": 0.010231852177037495,
+      "pair_status": "ok",
+      "reference_seconds": null,
+      "reference_status": "timeout",
+      "quality": {
+        "pair": [
+          1,
+          2
+        ],
+        "classification": "sink_resolved",
+        "resistance_ohms": null,
+        "open_proven": false
+      }
+    },
+    {
+      "nominal_ohms": 1000000.0,
+      "pair_seconds": 0.09406553365993062,
+      "pair_status": "ok",
+      "reference_seconds": null,
+      "reference_status": "timeout",
+      "quality": {
+        "pair": [
+          1,
+          2
+        ],
+        "classification": "sink_resolved",
+        "resistance_ohms": null,
+        "open_proven": false
+      }
+    },
+    {
+      "nominal_ohms": null,
+      "pair_seconds": null,
+      "pair_status": "timeout",
+      "reference_seconds": null,
+      "reference_status": "timeout",
+      "quality": {
+        "pair": [
+          1,
+          2
+        ],
+        "classification": "open_compatible_unquantified",
+        "resistance_ohms": null,
+        "open_proven": false
+      }
+    }
+  ]
+}

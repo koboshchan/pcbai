@@ -37,7 +37,8 @@ class Network:
   for p in self.ports:g[p,p]+=1/self.rs;force[p]+=voltage/self.rs
   return self.response(g,np.zeros(len(g)),force)(seconds)
  def sink_response(self,sink,v0):
-  g=self.g.copy();g[self.ports[sink],self.ports[sink]]+=1/self.rs
+  g=self.g.copy()
+  if sink is not None:g[self.ports[sink],self.ports[sink]]+=1/self.rs
   return self.response(g,v0)
  def crossing(self,sense,sink,threshold=1.3,timeout=5.,v0=None):
   v0=self.precharge() if v0 is None else v0
@@ -56,8 +57,12 @@ class Network:
     return (lo+hi)/2,'ok'
    previous=t
   return None,'timeout'
- def fingerprints(self,threshold=1.3,timeout=5.):
+ def fingerprints(self,threshold=1.3,timeout=5.,references=True):
   v0=self.precharge()
+  if references:
+   for sense in range(20):
+    t,status=self.crossing(sense,None,threshold,timeout,v0)
+    yield [sense+1,0,sense+1,0,0,'' if t is None else t*1e6,status]
   # Same sink drives 19 sense nodes, so diagonalization is reused.
   responses=[self.sink_response(s,v0) for s in range(20)]
   times=np.r_[0,np.geomspace(1e-8,timeout,500)]
@@ -81,5 +86,5 @@ if __name__=='__main__':
  dut=json.loads(Path(args.netlist).read_text());ports=json.loads(Path(args.ports).read_text())['port_nets']
  n=Network(dut,ports)
  with open(args.output,'w') as f:
-  w=csv.writer(f);w.writerow(['pair_a','pair_b','sense','sink','repeat','fall_us','status']);w.writerows(n.fingerprints(args.threshold,args.timeout))
- print('380 directed fingerprints, resistor-only/nonlinear-omitted model; calibrate threshold and use golden board')
+  w=csv.writer(f);w.writerow(['pair_a','pair_b','sense','sink','repeat','fall_us','status','window_us']);w.writerows(row+[int(args.timeout*1e6)] for row in n.fingerprints(args.threshold,args.timeout))
+ print('20 no-sink references + 380 directed fingerprints, resistor-only/nonlinear-omitted model; calibrate threshold and use golden board')

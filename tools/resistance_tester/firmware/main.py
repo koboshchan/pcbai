@@ -27,6 +27,22 @@ def falling():
     label("park")
     jmp("park")
 
+@rp2.asm_pio()
+def self_falling():
+    # NO set pins/pindirs instructions: every tested GPIO stays high impedance.
+    pull(block)
+    mov(x, osr)
+    label("sample")
+    jmp(pin, "high")
+    jmp("done")
+    label("high")
+    jmp(x_dec, "sample")
+    label("done")
+    mov(isr, x)
+    push(block)
+    label("park")
+    jmp("park")
+
 def release():
     for gpio in GPIO:
         Pin(gpio, Pin.IN, pull=None)
@@ -39,24 +55,29 @@ def discharge(milliseconds=100):
         Pin(gpio, Pin.OUT, pull=None, value=0)
     time.sleep_ms(milliseconds)
 
-def measure(sense, sink, timeout_us=5_000_000):
-    """Test numbers 1..20. Return threshold time/status, not resistance."""
-    if sense == sink or not (1 <= sense <= 20 and 1 <= sink <= 20):
-        raise ValueError("distinct test ports 1..20 required")
+def measure(sense, sink, timeout_us=5_000_000, discharge_ms=100):
+    """Ports 1..20; sink=0 selects all-input leakage reference, not a sink."""
+    if sense == sink or not (1 <= sense <= 20 and 0 <= sink <= 20):
+        raise ValueError("sense 1..20; sink 0 (reference) or distinct port 1..20 required")
     if not 100 <= timeout_us <= 60_000_000:
         raise ValueError("timeout outside 100us..60s")
+    if not isinstance(discharge_ms, int) or discharge_ms < 100:
+        raise ValueError("discharge_ms must be an integer >=100")
     sm = rp2.StateMachine(0)
     sm.active(0)
     release()  # restores SIO mux after preceding PIO operation
     try:
-        discharge()
+        discharge(discharge_ms)
         for gpio in GPIO:
             Pin(gpio, Pin.OUT, pull=None, value=1)
         time.sleep_ms(50)
         initial_ok = all(Pin(gpio).value() for gpio in GPIO)
         release()
-        sm.init(falling, freq=PIO_HZ, jmp_pin=Pin(GPIO[sense-1]),
-                set_base=Pin(GPIO[sink-1]))
+        if sink:
+            sm.init(falling, freq=PIO_HZ, jmp_pin=Pin(GPIO[sense-1]),
+                    set_base=Pin(GPIO[sink-1]))
+        else:
+            sm.init(self_falling, freq=PIO_HZ, jmp_pin=Pin(GPIO[sense-1]))
         sm.put(timeout_us)
         sm.active(1)
         start = time.ticks_ms()
@@ -73,18 +94,26 @@ def measure(sense, sink, timeout_us=5_000_000):
         sm.active(0)
         release()
 
-def scan(repeats=8, timeout_us=5_000_000):
+def scan(repeats=8, timeout_us=5_000_000, discharge_ms=100, references=True):
     """190 unordered pairs, both sink directions, repeated CSV via USB serial."""
     if repeats < 1:
         raise ValueError("positive repeats required")
-    print("pair_a,pair_b,sense,sink,repeat,fall_us,status")
+    print("pair_a,pair_b,sense,sink,repeat,fall_us,status,window_us")
+    # References first, same discharge/precharge/window/repeats as pair captures.
+    # sink=0 is a CSV sentinel, never GPIO0.
+
     try:
+        if references:
+            for sense in range(1,21):
+                for rep in range(repeats):
+                    us,status=measure(sense,0,timeout_us,discharge_ms)
+                    print(sense,0,sense,0,rep,"" if us is None else us,status,timeout_us,sep=",")
         for a in range(1,21):
             for b in range(a+1,21):
                 for sense,sink in ((a,b),(b,a)):
                     for rep in range(repeats):
-                        us,status=measure(sense,sink,timeout_us)
-                        print(a,b,sense,sink,rep,"" if us is None else us,status,sep=",")
+                        us,status=measure(sense,sink,timeout_us,discharge_ms)
+                        print(a,b,sense,sink,rep,"" if us is None else us,status,timeout_us,sep=",")
     finally:
         release()
 
