@@ -1,0 +1,171 @@
+{
+  "pdf_sha256": "5e7575cbb21aacb84afadee8a566e40cbfdbef8d0e812a4457578d6cac815cee",
+  "board_sha256": "f3396c3f659745fc067ef989725b484832d5bb9a529454cedcbefde0b792f295",
+  "dpi": 1200,
+  "page_points": [
+    612,
+    792
+  ],
+  "board_bbox_page_mm": [
+    57.95,
+    104.7,
+    157.95,
+    174.7
+  ],
+  "compared_pixels": 15633608,
+  "registration": "absolute page coordinates; no fitted translation, rotation, scaling or mirroring",
+  "copper_polarity": "white/clear copper; black drill holes and etched gaps",
+  "edge_clearance_pixel_centers_mm": {
+    "left": 0.6075833333333307,
+    "top": 0.6147500000000008,
+    "right": 0.607583333333352,
+    "bottom": 0.6147500000000008
+  },
+  "conservative_min_edge_clearance_mm": 0.5969999999999973,
+  "nonmirrored_xor_fraction": 0.0007879179265592434,
+  "mirrored_xor_fraction": 0.37736266637873994,
+  "extra_clear_pixel_max_distance_from_expected_copper_mm": 0.021166666666666667,
+  "missing_clear_pixel_max_distance_from_actual_pdf_copper_mm": 0.021166666666666667,
+  "boundary_tolerance_mm": 0.03,
+  "actual_pdf_copper_components": 59,
+  "pcb_projection_copper_components": 59,
+  "removed_old_GND_tracks": [
+    {
+      "a": [
+        75.05,
+        24.26
+      ],
+      "b": [
+        66.0,
+        24.26
+      ]
+    },
+    {
+      "a": [
+        66.0,
+        24.26
+      ],
+      "b": [
+        64.11,
+        24.26
+      ]
+    },
+    {
+      "a": [
+        52.975,
+        13.125
+      ],
+      "b": [
+        13.5,
+        13.125
+      ]
+    },
+    {
+      "a": [
+        13.5,
+        13.125
+      ],
+      "b": [
+        13.5,
+        17.27
+      ]
+    },
+    {
+      "a": [
+        64.11,
+        24.26
+      ],
+      "b": [
+        52.975,
+        13.125
+      ]
+    },
+    {
+      "a": [
+        13.5,
+        17.27
+      ],
+      "b": [
+        18.0,
+        17.27
+      ]
+    }
+  ],
+  "identified_disputed_features": {
+    "lower_right_tab": {
+      "net": "T26",
+      "part": "C26.2",
+      "pad_bbox_mm": [
+        78.95,
+        67.055,
+        79.95,
+        68.505
+      ],
+      "pad_to_bottom_edge_mm": 1.495,
+      "feed_mm": [
+        [
+          79.45,
+          66.5
+        ],
+        [
+          79.45,
+          67.78
+        ]
+      ],
+      "identity": "functional capacitor signal pad, connected in actual PDF to R26.2 and J4.13, not a dangling GND escape",
+      "continuity": {
+        "points_mm": [
+          [
+            72.9125,
+            66.5
+          ],
+          [
+            79.45,
+            66.5
+          ],
+          [
+            79.45,
+            67.78
+          ],
+          [
+            95.65,
+            50.48
+          ]
+        ],
+        "pdf_copper_component": 49
+      }
+    },
+    "left_side_exit": {
+      "net": "GP28",
+      "part": "J2.14 to R1.1",
+      "turn_mm": [
+        0.8,
+        49.02
+      ],
+      "trace_leftmost_mm": 0.65,
+      "identity": "white signal turns upward inside board; adjacent black isolation opens to etched border, not copper touching edge",
+      "continuity": {
+        "points_mm": [
+          [
+            15.65,
+            49.02
+          ],
+          [
+            0.8,
+            49.02
+          ],
+          [
+            0.8,
+            0.8
+          ],
+          [
+            71.0875,
+            2.5
+          ]
+        ],
+        "pdf_copper_component": 2
+      }
+    }
+  },
+  "conclusion": "Actual PDF matches independently extracted FINAL PCB copper, including drill subtraction, within 0.03 mm boundary raster/tessellation tolerance; no added trace/tab, missing connection or edge contact."
+}
