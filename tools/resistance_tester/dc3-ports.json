@@ -1,0 +1,25 @@
+{
+  "description": "Flying leads to actual DC3 net labels. Do not interpret as a mating DC3 connector. ACT10..15 and rails remain unwired; internal DUT GND floats.",
+  "port_nets": [
+    "SCORE_0",
+    "SCORE_1",
+    "SCORE_2",
+    "SCORE_3",
+    "SCORE_4",
+    "SCORE_5",
+    "SCORE_6",
+    "SCORE_7",
+    "SCORE_8",
+    "SCORE_9",
+    "ACT_0",
+    "ACT_1",
+    "ACT_2",
+    "ACT_3",
+    "ACT_4",
+    "ACT_5",
+    "ACT_6",
+    "ACT_7",
+    "ACT_8",
+    "ACT_9"
+  ]
+}

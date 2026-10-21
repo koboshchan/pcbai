@@ -1,0 +1,4717 @@
+{
+  "source": "boards/dc3/dc3_universal.kicad_pcb",
+  "sha256": "d7c2393ffd6dec2fd1368113ee96d8bb0d8e9bd686b861ff6524de71649526eb",
+  "resistors": [
+    {
+      "ref": "R299",
+      "value": 300000.0,
+      "a": "ACT_14",
+      "b": "POS_L2_9"
+    },
+    {
+      "ref": "R015",
+      "value": 470000.0,
+      "a": "ACT_0",
+      "b": "POS_L2_7"
+    },
+    {
+      "ref": "R021",
+      "value": 240000.0,
+      "a": "ACT_1",
+      "b": "POS_L2_0"
+    },
+    {
+      "ref": "R164",
+      "value": 160000.0,
+      "a": "ACT_8",
+      "b": "INV_L2_1"
+    },
+    {
+      "ref": "R046",
+      "value": 300000.0,
+      "a": "ACT_2",
+      "b": "INV_L2_2"
+    },
+    {
+      "ref": "R242",
+      "value": 510000.0,
+      "a": "ACT_12",
+      "b": "INV_L2_0"
+    },
+    {
+      "ref": "RB3N",
+      "value": 160000.0,
+      "a": "+5V_REF",
+      "b": "INV_L2_3"
+    },
+    {
+      "ref": "R188",
+      "value": 270000.0,
+      "a": "ACT_9",
+      "b": "INV_L2_3"
+    },
+    {
+      "ref": "R253",
+      "value": 180000.0,
+      "a": "ACT_12",
+      "b": "POS_L2_6"
+    },
+    {
+      "ref": "R210",
+      "value": 33000.0,
+      "a": "ACT_10",
+      "b": "INV_L2_4"
+    },
+    {
+      "ref": "R289",
+      "value": 130000.0,
+      "a": "ACT_14",
+      "b": "POS_L2_4"
+    },
+    {
+      "ref": "R179",
+      "value": 300000.0,
+      "a": "ACT_8",
+      "b": "POS_L2_9"
+    },
+    {
+      "ref": "R100",
+      "value": 430000.0,
+      "a": "ACT_4",
+      "b": "INV_L2_9"
+    },
+    {
+      "ref": "R098",
+      "value": 62000.0,
+      "a": "ACT_4",
+      "b": "INV_L2_8"
+    },
+    {
+      "ref": "RB4N",
+      "value": 560000.0,
+      "a": "+5V_REF",
+      "b": "INV_L2_4"
+    },
+    {
+      "ref": "R074",
+      "value": 68000.0,
+      "a": "ACT_3",
+      "b": "INV_L2_6"
+    },
+    {
+      "ref": "R200",
+      "value": 150000.0,
+      "a": "ACT_9",
+      "b": "INV_L2_9"
+    },
+    {
+      "ref": "R006",
+      "value": 1600000.0,
+      "a": "ACT_0",
+      "b": "INV_L2_2"
+    },
+    {
+      "ref": "RF9",
+      "value": 100000.0,
+      "a": "INV_L2_9",
+      "b": "SCORE_9"
+    },
+    {
+      "ref": "R065",
+      "value": 91000.0,
+      "a": "ACT_3",
+      "b": "POS_L2_2"
+    },
+    {
+      "ref": "R142",
+      "value": 75000.0,
+      "a": "ACT_7",
+      "b": "INV_L2_0"
+    },
+    {
+      "ref": "R269",
+      "value": 150000.0,
+      "a": "ACT_13",
+      "b": "POS_L2_4"
+    },
+    {
+      "ref": "R126",
+      "value": 220000.0,
+      "a": "ACT_6",
+      "b": "INV_L2_2"
+    },
+    {
+      "ref": "R054",
+      "value": 430000.0,
+      "a": "ACT_2",
+      "b": "INV_L2_6"
+    },
+    {
+      "ref": "RB7P",
+      "value": 3900000.0,
+      "a": "+5V_REF",
+      "b": "POS_L2_7"
+    },
+    {
+      "ref": "R282",
+      "value": 220000.0,
+      "a": "ACT_14",
+      "b": "INV_L2_0"
+    },
+    {
+      "ref": "R295",
+      "value": 240000.0,
+      "a": "ACT_14",
+      "b": "POS_L2_7"
+    },
+    {
+      "ref": "R272",
+      "value": 270000.0,
+      "a": "ACT_13",
+      "b": "INV_L2_5"
+    },
+    {
+      "ref": "R136",
+      "value": 330000.0,
+      "a": "ACT_6",
+      "b": "INV_L2_7"
+    },
+    {
+      "ref": "R032",
+      "value": 82000.0,
+      "a": "ACT_1",
+      "b": "INV_L2_5"
+    },
+    {
+      "ref": "R218",
+      "value": 220000.0,
+      "a": "ACT_10",
+      "b": "INV_L2_8"
+    },
+    {
+      "ref": "R018",
+      "value": 180000.0,
+      "a": "ACT_0",
+      "b": "INV_L2_8"
+    },
+    {
+      "ref": "R146",
+      "value": 68000.0,
+      "a": "ACT_7",
+      "b": "INV_L2_2"
+    },
+    {
+      "ref": "RG5P",
+      "value": 28000.0,
+      "a": "POS_L2_5",
+      "b": "GND"
+    },
+    {
+      "ref": "R078",
+      "value": 200000.0,
+      "a": "ACT_3",
+      "b": "INV_L2_8"
+    },
+    {
+      "ref": "R088",
+      "value": 750000.0,
+      "a": "ACT_4",
+      "b": "INV_L2_3"
+    },
+    {
+      "ref": "R131",
+      "value": 100000.0,
+      "a": "ACT_6",
+      "b": "POS_L2_5"
+    },
+    {
+      "ref": "RB6P",
+      "value": 240000.0,
+      "a": "+5V_REF",
+      "b": "POS_L2_6"
+    },
+    {
+      "ref": "R112",
+      "value": 180000.0,
+      "a": "ACT_5",
+      "b": "INV_L2_5"
+    },
+    {
+      "ref": "R193",
+      "value": 620000.0,
+      "a": "ACT_9",
+      "b": "POS_L2_6"
+    },
+    {
+      "ref": "RG2P",
+      "value": 35700.0,
+      "a": "POS_L2_2",
+      "b": "GND"
+    },
+    {
+      "ref": "R150",
+      "value": 100000.0,
+      "a": "ACT_7",
+      "b": "INV_L2_4"
+    },
+    {
+      "ref": "R183",
+      "value": 91000.0,
+      "a": "ACT_9",
+      "b": "POS_L2_1"
+    },
+    {
+      "ref": "RF4",
+      "value": 100000.0,
+      "a": "INV_L2_4",
+      "b": "SCORE_4"
+    },
+    {
+      "ref": "R205",
+      "value": 150000.0,
+      "a": "ACT_10",
+      "b": "POS_L2_2"
+    },
+    {
+      "ref": "R153",
+      "value": 220000.0,
+      "a": "ACT_7",
+      "b": "POS_L2_6"
+    },
+    {
+      "ref": "R140",
+      "value": 150000.0,
+      "a": "ACT_6",
+      "b": "INV_L2_9"
+    },
+    {
+      "ref": "R122",
+      "value": 200000.0,
+      "a": "ACT_6",
+      "b": "INV_L2_0"
+    },
+    {
+      "ref": "R252",
+      "value": 300000.0,
+      "a": "ACT_12",
+      "b": "INV_L2_5"
+    },
+    {
+      "ref": "R083",
+      "value": 120000.0,
+      "a": "ACT_4",
+      "b": "POS_L2_1"
+    },
+    {
+      "ref": "R214",
+      "value": 91000.0,
+      "a": "ACT_10",
+      "b": "INV_L2_6"
+    },
+    {
+      "ref": "R189",
+      "value": 180000.0,
+      "a": "ACT_9",
+      "b": "POS_L2_4"
+    },
+    {
+      "ref": "R249",
+      "value": 200000.0,
+      "a": "ACT_12",
+      "b": "POS_L2_4"
+    },
+    {
+      "ref": "RF2",
+      "value": 100000.0,
+      "a": "INV_L2_2",
+      "b": "SCORE_2"
+    },
+    {
+      "ref": "R170",
+      "value": 620000.0,
+      "a": "ACT_8",
+      "b": "INV_L2_4"
+    },
+    {
+      "ref": "RF3",
+      "value": 100000.0,
+      "a": "INV_L2_3",
+      "b": "SCORE_3"
+    },
+    {
+      "ref": "R174",
+      "value": 270000.0,
+      "a": "ACT_8",
+      "b": "INV_L2_6"
+    },
+    {
+      "ref": "R067",
+      "value": 360000.0,
+      "a": "ACT_3",
+      "b": "POS_L2_3"
+    },
+    {
+      "ref": "R234",
+      "value": 180000.0,
+      "a": "ACT_11",
+      "b": "INV_L2_6"
+    },
+    {
+      "ref": "R119",
+      "value": 180000.0,
+      "a": "ACT_5",
+      "b": "POS_L2_9"
+    },
+    {
+      "ref": "RG9P",
+      "value": 18200.0,
+      "a": "POS_L2_9",
+      "b": "GND"
+    },
+    {
+      "ref": "R175",
+      "value": 330000.0,
+      "a": "ACT_8",
+      "b": "POS_L2_7"
+    },
+    {
+      "ref": "RB5N",
+      "value": 2000000.0,
+      "a": "+5V_REF",
+      "b": "INV_L2_5"
+    },
+    {
+      "ref": "R229",
+      "value": 180000.0,
+      "a": "ACT_11",
+      "b": "POS_L2_4"
+    },
+    {
+      "ref": "R256",
+      "value": 43000.0,
+      "a": "ACT_12",
+      "b": "INV_L2_7"
+    },
+    {
+      "ref": "R195",
+      "value": 620000.0,
+      "a": "ACT_9",
+      "b": "POS_L2_7"
+    },
+    {
+      "ref": "R056",
+      "value": 270000.0,
+      "a": "ACT_2",
+      "b": "INV_L2_7"
+    },
+    {
+      "ref": "R248",
+      "value": 390000.0,
+      "a": "ACT_12",
+      "b": "INV_L2_3"
+    },
+    {
+      "ref": "R028",
+      "value": 220000.0,
+      "a": "ACT_1",
+      "b": "INV_L2_3"
+    },
+    {
+      "ref": "R103",
+      "value": 82000.0,
+      "a": "ACT_5",
+      "b": "POS_L2_1"
+    },
+    {
+      "ref": "R014",
+      "value": 56000.0,
+      "a": "ACT_0",
+      "b": "INV_L2_6"
+    },
+    {
+      "ref": "R294",
+      "value": 200000.0,
+      "a": "ACT_14",
+      "b": "INV_L2_6"
+    },
+    {
+      "ref": "R207",
+      "value": 240000.0,
+      "a": "ACT_10",
+      "b": "POS_L2_3"
+    },
+    {
+      "ref": "R156",
+      "value": 150000.0,
+      "a": "ACT_7",
+      "b": "INV_L2_7"
+    },
+    {
+      "ref": "RF6",
+      "value": 100000.0,
+      "a": "INV_L2_6",
+      "b": "SCORE_6"
+    },
+    {
+      "ref": "R161",
+      "value": 240000.0,
+      "a": "ACT_8",
+      "b": "POS_L2_0"
+    },
+    {
+      "ref": "R130",
+      "value": 68000.0,
+      "a": "ACT_6",
+      "b": "INV_L2_4"
+    },
+    {
+      "ref": "R245",
+      "value": 1100000.0,
+      "a": "ACT_12",
+      "b": "POS_L2_2"
+    },
+    {
+      "ref": "R260",
+      "value": 160000.0,
+      "a": "ACT_12",
+      "b": "INV_L2_9"
+    },
+    {
+      "ref": "R147",
+      "value": 270000.0,
+      "a": "ACT_7",
+      "b": "POS_L2_3"
+    },
+    {
+      "ref": "R012",
+      "value": 56000.0,
+      "a": "ACT_0",
+      "b": "INV_L2_5"
+    },
+    {
+      "ref": "R072",
+      "value": 470000.0,
+      "a": "ACT_3",
+      "b": "INV_L2_5"
+    },
+    {
+      "ref": "RF5",
+      "value": 100000.0,
+      "a": "INV_L2_5",
+      "b": "SCORE_5"
+    },
+    {
+      "ref": "RG1P",
+      "value": 24900.0,
+      "a": "POS_L2_1",
+      "b": "GND"
+    },
+    {
+      "ref": "R312",
+      "value": 240000.0,
+      "a": "ACT_15",
+      "b": "INV_L2_5"
+    },
+    {
+      "ref": "R124",
+      "value": 43000.0,
+      "a": "ACT_6",
+      "b": "INV_L2_1"
+    },
+    {
+      "ref": "R133",
+      "value": 200000.0,
+      "a": "ACT_6",
+      "b": "POS_L2_6"
+    },
+    {
+      "ref": "R303",
+      "value": 160000.0,
+      "a": "ACT_15",
+      "b": "POS_L2_1"
+    },
+    {
+      "ref": "R177",
+      "value": 120000.0,
+      "a": "ACT_8",
+      "b": "POS_L2_8"
+    },
+    {
+      "ref": "R284",
+      "value": 100000.0,
+      "a": "ACT_14",
+      "b": "INV_L2_1"
+    },
+    {
+      "ref": "R094",
+      "value": 300000.0,
+      "a": "ACT_4",
+      "b": "INV_L2_6"
+    },
+    {
+      "ref": "R044",
+      "value": 51000.0,
+      "a": "ACT_2",
+      "b": "INV_L2_1"
+    },
+    {
+      "ref": "RG6P",
+      "value": 14300.0,
+      "a": "POS_L2_6",
+      "b": "GND"
+    },
+    {
+      "ref": "R191",
+      "value": 1000000.0,
+      "a": "ACT_9",
+      "b": "POS_L2_5"
+    },
+    {
+      "ref": "R116",
+      "value": 200000.0,
+      "a": "ACT_5",
+      "b": "INV_L2_7"
+    },
+    {
+      "ref": "R002",
+      "value": 91000.0,
+      "a": "ACT_0",
+      "b": "INV_L2_0"
+    },
+    {
+      "ref": "R003",
+      "value": 100000.0,
+      "a": "ACT_0",
+      "b": "POS_L2_1"
+    },
+    {
+      "ref": "R262",
+      "value": 220000.0,
+      "a": "ACT_13",
+      "b": "INV_L2_0"
+    },
+    {
+      "ref": "R080",
+      "value": 130000.0,
+      "a": "ACT_3",
+      "b": "INV_L2_9"
+    },
+    {
+      "ref": "RB0P",
+      "value": 270000.0,
+      "a": "+5V_REF",
+      "b": "POS_L2_0"
+    },
+    {
+      "ref": "R168",
+      "value": 91000.0,
+      "a": "ACT_8",
+      "b": "INV_L2_3"
+    },
+    {
+      "ref": "R047",
+      "value": 240000.0,
+      "a": "ACT_2",
+      "b": "POS_L2_3"
+    },
+    {
+      "ref": "RG0P",
+      "value": 14700.0,
+      "a": "POS_L2_0",
+      "b": "GND"
+    },
+    {
+      "ref": "R070",
+      "value": 130000.0,
+      "a": "ACT_3",
+      "b": "INV_L2_4"
+    },
+    {
+      "ref": "R298",
+      "value": 110000.0,
+      "a": "ACT_14",
+      "b": "INV_L2_8"
+    },
+    {
+      "ref": "RG8P",
+      "value": 21000.0,
+      "a": "POS_L2_8",
+      "b": "GND"
+    },
+    {
+      "ref": "R220",
+      "value": 110000.0,
+      "a": "ACT_10",
+      "b": "INV_L2_9"
+    },
+    {
+      "ref": "R085",
+      "value": 680000.0,
+      "a": "ACT_4",
+      "b": "POS_L2_2"
+    },
+    {
+      "ref": "R106",
+      "value": 130000.0,
+      "a": "ACT_5",
+      "b": "INV_L2_2"
+    },
+    {
+      "ref": "R019",
+      "value": 300000.0,
+      "a": "ACT_0",
+      "b": "POS_L2_9"
+    },
+    {
+      "ref": "R114",
+      "value": 68000.0,
+      "a": "ACT_5",
+      "b": "INV_L2_6"
+    },
+    {
+      "ref": "RB2P",
+      "value": 560000.0,
+      "a": "+5V_REF",
+      "b": "POS_L2_2"
+    },
+    {
+      "ref": "R095",
+      "value": 390000.0,
+      "a": "ACT_4",
+      "b": "POS_L2_7"
+    },
+    {
+      "ref": "R244",
+      "value": 200000.0,
+      "a": "ACT_12",
+      "b": "INV_L2_1"
+    },
+    {
+      "ref": "RF7",
+      "value": 100000.0,
+      "a": "INV_L2_7",
+      "b": "SCORE_7"
+    },
+    {
+      "ref": "RF0",
+      "value": 100000.0,
+      "a": "INV_L2_0",
+      "b": "SCORE_0"
+    },
+    {
+      "ref": "R198",
+      "value": 180000.0,
+      "a": "ACT_9",
+      "b": "INV_L2_8"
+    },
+    {
+      "ref": "R232",
+      "value": 240000.0,
+      "a": "ACT_11",
+      "b": "INV_L2_5"
+    },
+    {
+      "ref": "RG4P",
+      "value": 17400.0,
+      "a": "POS_L2_4",
+      "b": "GND"
+    },
+    {
+      "ref": "R151",
+      "value": 68000.0,
+      "a": "ACT_7",
+      "b": "POS_L2_5"
+    },
+    {
+      "ref": "R091",
+      "value": 300000.0,
+      "a": "ACT_4",
+      "b": "POS_L2_5"
+    },
+    {
+      "ref": "R186",
+      "value": 180000.0,
+      "a": "ACT_9",
+      "b": "INV_L2_2"
+    },
+    {
+      "ref": "R166",
+      "value": 200000.0,
+      "a": "ACT_8",
+      "b": "INV_L2_2"
+    },
+    {
+      "ref": "R062",
+      "value": 100000.0,
+      "a": "ACT_3",
+      "b": "INV_L2_0"
+    },
+    {
+      "ref": "RG3P",
+      "value": 61900.0,
+      "a": "POS_L2_3",
+      "b": "GND"
+    },
+    {
+      "ref": "R263",
+      "value": 820000.0,
+      "a": "ACT_13",
+      "b": "POS_L2_1"
+    },
+    {
+      "ref": "R051",
+      "value": 360000.0,
+      "a": "ACT_2",
+      "b": "POS_L2_5"
+    },
+    {
+      "ref": "R090",
+      "value": 120000.0,
+      "a": "ACT_4",
+      "b": "INV_L2_4"
+    },
+    {
+      "ref": "R064",
+      "value": 150000.0,
+      "a": "ACT_3",
+      "b": "INV_L2_1"
+    },
+    {
+      "ref": "R160",
+      "value": 75000.0,
+      "a": "ACT_7",
+      "b": "INV_L2_9"
+    },
+    {
+      "ref": "R102",
+      "value": 56000.0,
+      "a": "ACT_5",
+      "b": "INV_L2_0"
+    },
+    {
+      "ref": "RF1",
+      "value": 100000.0,
+      "a": "INV_L2_1",
+      "b": "SCORE_1"
+    },
+    {
+      "ref": "R007",
+      "value": 220000.0,
+      "a": "ACT_0",
+      "b": "POS_L2_3"
+    },
+    {
+      "ref": "R204",
+      "value": 68000.0,
+      "a": "ACT_10",
+      "b": "INV_L2_1"
+    },
+    {
+      "ref": "R215",
+      "value": 180000.0,
+      "a": "ACT_10",
+      "b": "POS_L2_7"
+    },
+    {
+      "ref": "RB9N",
+      "value": 360000.0,
+      "a": "+5V_REF",
+      "b": "INV_L2_9"
+    },
+    {
+      "ref": "RB1P",
+      "value": 160000.0,
+      "a": "+5V_REF",
+      "b": "POS_L2_1"
+    },
+    {
+      "ref": "R075",
+      "value": 360000.0,
+      "a": "ACT_3",
+      "b": "POS_L2_7"
+    },
+    {
+      "ref": "R182",
+      "value": 100000.0,
+      "a": "ACT_9",
+      "b": "INV_L2_0"
+    },
+    {
+      "ref": "R107",
+      "value": 270000.0,
+      "a": "ACT_5",
+      "b": "POS_L2_3"
+    },
+    {
+      "ref": "R285",
+      "value": 750000.0,
+      "a": "ACT_14",
+      "b": "POS_L2_2"
+    },
+    {
+      "ref": "R291",
+      "value": 2700000.0,
+      "a": "ACT_14",
+      "b": "POS_L2_5"
+    },
+    {
+      "ref": "R057",
+      "value": 5100000.0,
+      "a": "ACT_2",
+      "b": "POS_L2_8"
+    },
+    {
+      "ref": "RF8",
+      "value": 100000.0,
+      "a": "INV_L2_8",
+      "b": "SCORE_8"
+    },
+    {
+      "ref": "R109",
+      "value": 220000.0,
+      "a": "ACT_5",
+      "b": "POS_L2_4"
+    },
+    {
+      "ref": "R314",
+      "value": 360000.0,
+      "a": "ACT_15",
+      "b": "INV_L2_6"
+    },
+    {
+      "ref": "R212",
+      "value": 220000.0,
+      "a": "ACT_10",
+      "b": "INV_L2_5"
+    },
+    {
+      "ref": "R040",
+      "value": 180000.0,
+      "a": "ACT_1",
+      "b": "INV_L2_9"
+    },
+    {
+      "ref": "R082",
+      "value": 1000000.0,
+      "a": "ACT_4",
+      "b": "INV_L2_0"
+    },
+    {
+      "ref": "R041",
+      "value": 110000.0,
+      "a": "ACT_2",
+      "b": "POS_L2_0"
+    },
+    {
+      "ref": "R050",
+      "value": 240000.0,
+      "a": "ACT_2",
+      "b": "INV_L2_4"
+    },
+    {
+      "ref": "RG7P",
+      "value": 34000.0,
+      "a": "POS_L2_7",
+      "b": "GND"
+    },
+    {
+      "ref": "R010",
+      "value": 270000.0,
+      "a": "ACT_0",
+      "b": "INV_L2_4"
+    }
+  ],
+  "capacitors": [
+    {
+      "ref": "C_U3P",
+      "value": 1e-07,
+      "a": "GND",
+      "b": "+15V"
+    },
+    {
+      "ref": "C_U1P",
+      "value": 1e-07,
+      "a": "GND",
+      "b": "+15V"
+    },
+    {
+      "ref": "C_U3N",
+      "value": 1e-07,
+      "a": "-15V",
+      "b": "GND"
+    },
+    {
+      "ref": "C_U2P",
+      "value": 1e-07,
+      "a": "GND",
+      "b": "+15V"
+    },
+    {
+      "ref": "C_U1N",
+      "value": 1e-07,
+      "a": "-15V",
+      "b": "GND"
+    },
+    {
+      "ref": "C_U2N",
+      "value": 1e-07,
+      "a": "-15V",
+      "b": "GND"
+    }
+  ],
+  "headers": {
+    "J_STRADDLE_EDGE": {
+      "value": "PinHeader_2x38_Straddle",
+      "pins": {
+        "A1": "ACT_0",
+        "A2": "ACT_1",
+        "A3": "ACT_2",
+        "A4": "ACT_3",
+        "A5": "ACT_4",
+        "A6": "ACT_5",
+        "A7": "ACT_6",
+        "A8": "ACT_7",
+        "A9": "ACT_8",
+        "A10": "ACT_9",
+        "A11": "ACT_10",
+        "A12": "ACT_11",
+        "A13": "ACT_12",
+        "A14": "ACT_13",
+        "A15": "ACT_14",
+        "A16": "ACT_15",
+        "A17": "GND",
+        "A18": "GND",
+        "A19": "GND",
+        "A20": "GND",
+        "A21": "GND",
+        "A22": "GND",
+        "A23": "GND",
+        "A24": "GND",
+        "A25": "GND",
+        "A26": "GND",
+        "A27": "GND",
+        "A28": "GND",
+        "A29": "GND",
+        "A30": "GND",
+        "A31": "GND",
+        "A32": "GND",
+        "A33": "GND",
+        "A34": "GND",
+        "A35": "GND",
+        "A36": "GND",
+        "A37": "GND",
+        "A38": "GND",
+        "B1": "SCORE_0",
+        "B2": "SCORE_1",
+        "B3": "SCORE_2",
+        "B4": "SCORE_3",
+        "B5": "SCORE_4",
+        "B6": "SCORE_5",
+        "B7": "SCORE_6",
+        "B8": "SCORE_7",
+        "B9": "SCORE_8",
+        "B10": "SCORE_9",
+        "B11": "GND",
+        "B12": "GND",
+        "B13": "GND",
+        "B14": "GND",
+        "B15": "GND",
+        "B16": "GND",
+        "B17": "GND",
+        "B18": "GND",
+        "B19": "GND",
+        "B20": "GND",
+        "B21": "GND",
+        "B22": "GND",
+        "B23": "GND",
+        "B24": "GND",
+        "B25": "GND",
+        "B26": "GND",
+        "B27": "GND",
+        "B28": "GND",
+        "B29": "GND",
+        "B30": "GND",
+        "B31": "GND",
+        "B32": "GND",
+        "B33": "+15V",
+        "B34": "+15V",
+        "B35": "+5V_REF",
+        "B36": "-5V_REF",
+        "B37": "-15V",
+        "B38": "-15V"
+      }
+    }
+  },
+  "omitted_devices": [
+    {
+      "ref": "U3",
+      "value": "TL074",
+      "pins": {
+        "1": "SCORE_4",
+        "2": "INV_L2_4",
+        "3": "POS_L2_4",
+        "4": "+15V",
+        "5": "POS_L2_5",
+        "6": "INV_L2_5",
+        "7": "SCORE_5",
+        "8": "NC_U3_8",
+        "9": "NC_U3_8",
+        "10": "GND",
+        "11": "-15V",
+        "12": "GND",
+        "13": "NC_U3_14",
+        "14": "NC_U3_14"
+      },
+      "reason": "nonlinear or unsupported"
+    },
+    {
+      "ref": "R292",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_14",
+        "2": "INV_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R246",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_12",
+        "2": "INV_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R111",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_5",
+        "2": "POS_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RG6N",
+      "value": "DNP",
+      "pins": {
+        "1": "INV_L2_6",
+        "2": "GND"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R169",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_8",
+        "2": "POS_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R172",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_8",
+        "2": "INV_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RG3N",
+      "value": "DNP",
+      "pins": {
+        "1": "INV_L2_3",
+        "2": "GND"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R250",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_12",
+        "2": "INV_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R125",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_6",
+        "2": "POS_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R192",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_9",
+        "2": "INV_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R137",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_6",
+        "2": "POS_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R206",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_10",
+        "2": "INV_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R238",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "INV_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R084",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_4",
+        "2": "INV_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R059",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_2",
+        "2": "POS_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R279",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_13",
+        "2": "POS_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R004",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_0",
+        "2": "INV_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R199",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_9",
+        "2": "POS_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RG2N",
+      "value": "DNP",
+      "pins": {
+        "1": "INV_L2_2",
+        "2": "GND"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R233",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "POS_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R011",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_0",
+        "2": "POS_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R025",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_1",
+        "2": "POS_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RB1N",
+      "value": "DNP",
+      "pins": {
+        "1": "+5V_REF",
+        "2": "INV_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R152",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_7",
+        "2": "INV_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R196",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_9",
+        "2": "INV_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R159",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_7",
+        "2": "POS_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R264",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_13",
+        "2": "INV_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R309",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "POS_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R039",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_1",
+        "2": "POS_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R086",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_4",
+        "2": "INV_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R257",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_12",
+        "2": "POS_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R029",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_1",
+        "2": "POS_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R216",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_10",
+        "2": "INV_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R287",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_14",
+        "2": "POS_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RG1N",
+      "value": "DNP",
+      "pins": {
+        "1": "INV_L2_1",
+        "2": "GND"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R031",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_1",
+        "2": "POS_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R058",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_2",
+        "2": "INV_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R073",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_3",
+        "2": "POS_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R311",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "POS_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R068",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_3",
+        "2": "INV_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R305",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "POS_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R148",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_7",
+        "2": "INV_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R066",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_3",
+        "2": "INV_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R185",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_9",
+        "2": "POS_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R016",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_0",
+        "2": "INV_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R283",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_14",
+        "2": "POS_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R013",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_0",
+        "2": "POS_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R277",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_13",
+        "2": "POS_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R144",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_7",
+        "2": "INV_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R117",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_5",
+        "2": "POS_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R141",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_7",
+        "2": "POS_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RB2N",
+      "value": "DNP",
+      "pins": {
+        "1": "+5V_REF",
+        "2": "INV_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R092",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_4",
+        "2": "INV_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RB8N",
+      "value": "DNP",
+      "pins": {
+        "1": "+5V_REF",
+        "2": "INV_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R038",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_1",
+        "2": "INV_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "U1",
+      "value": "TL074",
+      "pins": {
+        "1": "SCORE_0",
+        "2": "INV_L2_0",
+        "3": "POS_L2_0",
+        "4": "+15V",
+        "5": "POS_L2_1",
+        "6": "INV_L2_1",
+        "7": "SCORE_1",
+        "8": "SCORE_7",
+        "9": "INV_L2_7",
+        "10": "POS_L2_7",
+        "11": "-15V",
+        "12": "POS_L2_6",
+        "13": "INV_L2_6",
+        "14": "SCORE_6"
+      },
+      "reason": "nonlinear or unsupported"
+    },
+    {
+      "ref": "R077",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_3",
+        "2": "POS_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RG5N",
+      "value": "DNP",
+      "pins": {
+        "1": "INV_L2_5",
+        "2": "GND"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R049",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_2",
+        "2": "POS_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R236",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "INV_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R034",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_1",
+        "2": "INV_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R121",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_6",
+        "2": "POS_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R052",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_2",
+        "2": "INV_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R280",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_13",
+        "2": "INV_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R300",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_14",
+        "2": "INV_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R042",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_2",
+        "2": "INV_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R194",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_9",
+        "2": "INV_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R023",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_1",
+        "2": "POS_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R267",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_13",
+        "2": "POS_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R167",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_8",
+        "2": "POS_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RB6N",
+      "value": "DNP",
+      "pins": {
+        "1": "+5V_REF",
+        "2": "INV_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R276",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_13",
+        "2": "INV_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R026",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_1",
+        "2": "INV_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R145",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_7",
+        "2": "POS_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R171",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_8",
+        "2": "POS_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R113",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_5",
+        "2": "POS_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R060",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_2",
+        "2": "INV_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R093",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_4",
+        "2": "POS_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R155",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_7",
+        "2": "POS_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R286",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_14",
+        "2": "INV_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R187",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_9",
+        "2": "POS_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R097",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_4",
+        "2": "POS_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R001",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_0",
+        "2": "POS_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R096",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_4",
+        "2": "INV_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R033",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_1",
+        "2": "POS_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R243",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_12",
+        "2": "POS_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RB8P",
+      "value": "DNP",
+      "pins": {
+        "1": "+5V_REF",
+        "2": "POS_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R128",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_6",
+        "2": "INV_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R037",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_1",
+        "2": "POS_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R231",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "POS_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R176",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_8",
+        "2": "INV_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "H1",
+      "value": "MountingHole",
+      "pins": {
+        "1": "GND"
+      },
+      "reason": "nonlinear or unsupported"
+    },
+    {
+      "ref": "R211",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_10",
+        "2": "POS_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R313",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "POS_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R173",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_8",
+        "2": "POS_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R209",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_10",
+        "2": "POS_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R213",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_10",
+        "2": "POS_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R296",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_14",
+        "2": "INV_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R158",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_7",
+        "2": "INV_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R101",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_5",
+        "2": "POS_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R129",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_6",
+        "2": "POS_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R197",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_9",
+        "2": "POS_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R275",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_13",
+        "2": "POS_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RB9P",
+      "value": "DNP",
+      "pins": {
+        "1": "+5V_REF",
+        "2": "POS_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "U2",
+      "value": "TL074",
+      "pins": {
+        "1": "SCORE_2",
+        "2": "INV_L2_2",
+        "3": "POS_L2_2",
+        "4": "+15V",
+        "5": "POS_L2_3",
+        "6": "INV_L2_3",
+        "7": "SCORE_3",
+        "8": "SCORE_9",
+        "9": "INV_L2_9",
+        "10": "POS_L2_9",
+        "11": "-15V",
+        "12": "POS_L2_8",
+        "13": "INV_L2_8",
+        "14": "SCORE_8"
+      },
+      "reason": "nonlinear or unsupported"
+    },
+    {
+      "ref": "R149",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_7",
+        "2": "POS_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R143",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_7",
+        "2": "POS_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R251",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_12",
+        "2": "POS_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R099",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_4",
+        "2": "POS_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R036",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_1",
+        "2": "INV_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R180",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_8",
+        "2": "INV_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RG4N",
+      "value": "DNP",
+      "pins": {
+        "1": "INV_L2_4",
+        "2": "GND"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R139",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_6",
+        "2": "POS_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R203",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_10",
+        "2": "POS_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R202",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_10",
+        "2": "INV_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R005",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_0",
+        "2": "POS_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R020",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_0",
+        "2": "INV_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R239",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "POS_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R009",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_0",
+        "2": "POS_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R069",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_3",
+        "2": "POS_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R308",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "INV_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R319",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "POS_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RB0N",
+      "value": "DNP",
+      "pins": {
+        "1": "+5V_REF",
+        "2": "INV_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R290",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_14",
+        "2": "INV_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R157",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_7",
+        "2": "POS_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R318",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "INV_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R270",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_13",
+        "2": "INV_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R265",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_13",
+        "2": "POS_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R163",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_8",
+        "2": "POS_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R237",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "POS_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R261",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_13",
+        "2": "POS_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R268",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_13",
+        "2": "INV_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R278",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_13",
+        "2": "INV_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R030",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_1",
+        "2": "INV_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R255",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_12",
+        "2": "POS_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R315",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "POS_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R241",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_12",
+        "2": "POS_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R310",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "INV_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R222",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "INV_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R081",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_4",
+        "2": "POS_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R266",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_13",
+        "2": "INV_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R208",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_10",
+        "2": "INV_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R258",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_12",
+        "2": "INV_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R293",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_14",
+        "2": "POS_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R045",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_2",
+        "2": "POS_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R127",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_6",
+        "2": "POS_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R302",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "INV_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R017",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_0",
+        "2": "POS_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R316",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "INV_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RB5P",
+      "value": "DNP",
+      "pins": {
+        "1": "+5V_REF",
+        "2": "POS_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RB7N",
+      "value": "DNP",
+      "pins": {
+        "1": "+5V_REF",
+        "2": "INV_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R027",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_1",
+        "2": "POS_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R230",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "INV_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R115",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_5",
+        "2": "POS_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "H2",
+      "value": "MountingHole",
+      "pins": {
+        "1": "GND"
+      },
+      "reason": "nonlinear or unsupported"
+    },
+    {
+      "ref": "R079",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_3",
+        "2": "POS_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R063",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_3",
+        "2": "POS_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R024",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_1",
+        "2": "INV_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R271",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_13",
+        "2": "POS_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R138",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_6",
+        "2": "INV_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R165",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_8",
+        "2": "POS_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R306",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "INV_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R274",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_13",
+        "2": "INV_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RB4P",
+      "value": "DNP",
+      "pins": {
+        "1": "+5V_REF",
+        "2": "POS_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R105",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_5",
+        "2": "POS_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R221",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "POS_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R008",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_0",
+        "2": "INV_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R123",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_6",
+        "2": "POS_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R297",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_14",
+        "2": "POS_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R201",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_10",
+        "2": "POS_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R135",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_6",
+        "2": "POS_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R317",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "POS_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R190",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_9",
+        "2": "INV_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R184",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_9",
+        "2": "INV_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R043",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_2",
+        "2": "POS_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R304",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "INV_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R134",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_6",
+        "2": "INV_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R071",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_3",
+        "2": "POS_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RG8N",
+      "value": "DNP",
+      "pins": {
+        "1": "INV_L2_8",
+        "2": "GND"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R254",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_12",
+        "2": "INV_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RB3P",
+      "value": "DNP",
+      "pins": {
+        "1": "+5V_REF",
+        "2": "POS_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R247",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_12",
+        "2": "POS_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R053",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_2",
+        "2": "POS_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R228",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "INV_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R273",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_13",
+        "2": "POS_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R219",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_10",
+        "2": "POS_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R235",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "POS_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R223",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "POS_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R225",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "POS_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R089",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_4",
+        "2": "POS_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R132",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_6",
+        "2": "INV_L2_5"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R162",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_8",
+        "2": "INV_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R320",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "INV_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R035",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_1",
+        "2": "POS_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R224",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "INV_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RG7N",
+      "value": "DNP",
+      "pins": {
+        "1": "INV_L2_7",
+        "2": "GND"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R061",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_3",
+        "2": "POS_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R226",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "INV_L2_2"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RG0N",
+      "value": "DNP",
+      "pins": {
+        "1": "INV_L2_0",
+        "2": "GND"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R288",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_14",
+        "2": "INV_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R087",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_4",
+        "2": "POS_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R281",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_14",
+        "2": "POS_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R108",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_5",
+        "2": "INV_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R022",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_1",
+        "2": "INV_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R301",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "POS_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R104",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_5",
+        "2": "INV_L2_1"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R154",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_7",
+        "2": "INV_L2_6"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R217",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_10",
+        "2": "POS_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R178",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_8",
+        "2": "INV_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R055",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_2",
+        "2": "POS_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R048",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_2",
+        "2": "INV_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "RG9N",
+      "value": "DNP",
+      "pins": {
+        "1": "INV_L2_9",
+        "2": "GND"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R240",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "INV_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R118",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_5",
+        "2": "INV_L2_8"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R227",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_11",
+        "2": "POS_L2_3"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R120",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_5",
+        "2": "INV_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R110",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_5",
+        "2": "INV_L2_4"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R181",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_9",
+        "2": "POS_L2_0"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R259",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_12",
+        "2": "POS_L2_9"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R076",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_3",
+        "2": "INV_L2_7"
+      },
+      "reason": "unparsed passive value"
+    },
+    {
+      "ref": "R307",
+      "value": "DNP",
+      "pins": {
+        "1": "ACT_15",
+        "2": "POS_L2_3"
+      },
+      "reason": "unparsed passive value"
+    }
+  ],
+  "pads": {
+    "U3": {
+      "1": "SCORE_4",
+      "2": "INV_L2_4",
+      "3": "POS_L2_4",
+      "4": "+15V",
+      "5": "POS_L2_5",
+      "6": "INV_L2_5",
+      "7": "SCORE_5",
+      "8": "NC_U3_8",
+      "9": "NC_U3_8",
+      "10": "GND",
+      "11": "-15V",
+      "12": "GND",
+      "13": "NC_U3_14",
+      "14": "NC_U3_14"
+    },
+    "R299": {
+      "1": "ACT_14",
+      "2": "POS_L2_9"
+    },
+    "R292": {
+      "1": "ACT_14",
+      "2": "INV_L2_5"
+    },
+    "R015": {
+      "1": "ACT_0",
+      "2": "POS_L2_7"
+    },
+    "R021": {
+      "1": "ACT_1",
+      "2": "POS_L2_0"
+    },
+    "R164": {
+      "1": "ACT_8",
+      "2": "INV_L2_1"
+    },
+    "R046": {
+      "1": "ACT_2",
+      "2": "INV_L2_2"
+    },
+    "R246": {
+      "1": "ACT_12",
+      "2": "INV_L2_2"
+    },
+    "R111": {
+      "1": "ACT_5",
+      "2": "POS_L2_5"
+    },
+    "RG6N": {
+      "1": "INV_L2_6",
+      "2": "GND"
+    },
+    "R242": {
+      "1": "ACT_12",
+      "2": "INV_L2_0"
+    },
+    "RB3N": {
+      "1": "+5V_REF",
+      "2": "INV_L2_3"
+    },
+    "R188": {
+      "1": "ACT_9",
+      "2": "INV_L2_3"
+    },
+    "R169": {
+      "1": "ACT_8",
+      "2": "POS_L2_4"
+    },
+    "R253": {
+      "1": "ACT_12",
+      "2": "POS_L2_6"
+    },
+    "R210": {
+      "1": "ACT_10",
+      "2": "INV_L2_4"
+    },
+    "R172": {
+      "1": "ACT_8",
+      "2": "INV_L2_5"
+    },
+    "RG3N": {
+      "1": "INV_L2_3",
+      "2": "GND"
+    },
+    "R250": {
+      "1": "ACT_12",
+      "2": "INV_L2_4"
+    },
+    "R125": {
+      "1": "ACT_6",
+      "2": "POS_L2_2"
+    },
+    "R192": {
+      "1": "ACT_9",
+      "2": "INV_L2_5"
+    },
+    "R289": {
+      "1": "ACT_14",
+      "2": "POS_L2_4"
+    },
+    "R137": {
+      "1": "ACT_6",
+      "2": "POS_L2_8"
+    },
+    "R206": {
+      "1": "ACT_10",
+      "2": "INV_L2_2"
+    },
+    "R179": {
+      "1": "ACT_8",
+      "2": "POS_L2_9"
+    },
+    "R238": {
+      "1": "ACT_11",
+      "2": "INV_L2_8"
+    },
+    "R084": {
+      "1": "ACT_4",
+      "2": "INV_L2_1"
+    },
+    "R059": {
+      "1": "ACT_2",
+      "2": "POS_L2_9"
+    },
+    "R279": {
+      "1": "ACT_13",
+      "2": "POS_L2_9"
+    },
+    "R004": {
+      "1": "ACT_0",
+      "2": "INV_L2_1"
+    },
+    "R100": {
+      "1": "ACT_4",
+      "2": "INV_L2_9"
+    },
+    "R199": {
+      "1": "ACT_9",
+      "2": "POS_L2_9"
+    },
+    "RG2N": {
+      "1": "INV_L2_2",
+      "2": "GND"
+    },
+    "R233": {
+      "1": "ACT_11",
+      "2": "POS_L2_6"
+    },
+    "R011": {
+      "1": "ACT_0",
+      "2": "POS_L2_5"
+    },
+    "R025": {
+      "1": "ACT_1",
+      "2": "POS_L2_2"
+    },
+    "RB1N": {
+      "1": "+5V_REF",
+      "2": "INV_L2_1"
+    },
+    "R098": {
+      "1": "ACT_4",
+      "2": "INV_L2_8"
+    },
+    "C_U3P": {
+      "1": "GND",
+      "2": "+15V"
+    },
+    "RB4N": {
+      "1": "+5V_REF",
+      "2": "INV_L2_4"
+    },
+    "R152": {
+      "1": "ACT_7",
+      "2": "INV_L2_5"
+    },
+    "R074": {
+      "1": "ACT_3",
+      "2": "INV_L2_6"
+    },
+    "R196": {
+      "1": "ACT_9",
+      "2": "INV_L2_7"
+    },
+    "R159": {
+      "1": "ACT_7",
+      "2": "POS_L2_9"
+    },
+    "R264": {
+      "1": "ACT_13",
+      "2": "INV_L2_1"
+    },
+    "R309": {
+      "1": "ACT_15",
+      "2": "POS_L2_4"
+    },
+    "R200": {
+      "1": "ACT_9",
+      "2": "INV_L2_9"
+    },
+    "R039": {
+      "1": "ACT_1",
+      "2": "POS_L2_9"
+    },
+    "R086": {
+      "1": "ACT_4",
+      "2": "INV_L2_2"
+    },
+    "R257": {
+      "1": "ACT_12",
+      "2": "POS_L2_8"
+    },
+    "R029": {
+      "1": "ACT_1",
+      "2": "POS_L2_4"
+    },
+    "R216": {
+      "1": "ACT_10",
+      "2": "INV_L2_7"
+    },
+    "R287": {
+      "1": "ACT_14",
+      "2": "POS_L2_3"
+    },
+    "R006": {
+      "1": "ACT_0",
+      "2": "INV_L2_2"
+    },
+    "RF9": {
+      "1": "INV_L2_9",
+      "2": "SCORE_9"
+    },
+    "R065": {
+      "1": "ACT_3",
+      "2": "POS_L2_2"
+    },
+    "RG1N": {
+      "1": "INV_L2_1",
+      "2": "GND"
+    },
+    "R031": {
+      "1": "ACT_1",
+      "2": "POS_L2_5"
+    },
+    "R142": {
+      "1": "ACT_7",
+      "2": "INV_L2_0"
+    },
+    "R058": {
+      "1": "ACT_2",
+      "2": "INV_L2_8"
+    },
+    "R269": {
+      "1": "ACT_13",
+      "2": "POS_L2_4"
+    },
+    "R073": {
+      "1": "ACT_3",
+      "2": "POS_L2_6"
+    },
+    "R126": {
+      "1": "ACT_6",
+      "2": "INV_L2_2"
+    },
+    "R311": {
+      "1": "ACT_15",
+      "2": "POS_L2_5"
+    },
+    "R068": {
+      "1": "ACT_3",
+      "2": "INV_L2_3"
+    },
+    "R054": {
+      "1": "ACT_2",
+      "2": "INV_L2_6"
+    },
+    "RB7P": {
+      "1": "+5V_REF",
+      "2": "POS_L2_7"
+    },
+    "R305": {
+      "1": "ACT_15",
+      "2": "POS_L2_2"
+    },
+    "R148": {
+      "1": "ACT_7",
+      "2": "INV_L2_3"
+    },
+    "R282": {
+      "1": "ACT_14",
+      "2": "INV_L2_0"
+    },
+    "R066": {
+      "1": "ACT_3",
+      "2": "INV_L2_2"
+    },
+    "R185": {
+      "1": "ACT_9",
+      "2": "POS_L2_2"
+    },
+    "R016": {
+      "1": "ACT_0",
+      "2": "INV_L2_7"
+    },
+    "R283": {
+      "1": "ACT_14",
+      "2": "POS_L2_1"
+    },
+    "R295": {
+      "1": "ACT_14",
+      "2": "POS_L2_7"
+    },
+    "R013": {
+      "1": "ACT_0",
+      "2": "POS_L2_6"
+    },
+    "R272": {
+      "1": "ACT_13",
+      "2": "INV_L2_5"
+    },
+    "R277": {
+      "1": "ACT_13",
+      "2": "POS_L2_8"
+    },
+    "R136": {
+      "1": "ACT_6",
+      "2": "INV_L2_7"
+    },
+    "R032": {
+      "1": "ACT_1",
+      "2": "INV_L2_5"
+    },
+    "R218": {
+      "1": "ACT_10",
+      "2": "INV_L2_8"
+    },
+    "R144": {
+      "1": "ACT_7",
+      "2": "INV_L2_1"
+    },
+    "R117": {
+      "1": "ACT_5",
+      "2": "POS_L2_8"
+    },
+    "R141": {
+      "1": "ACT_7",
+      "2": "POS_L2_0"
+    },
+    "RB2N": {
+      "1": "+5V_REF",
+      "2": "INV_L2_2"
+    },
+    "R018": {
+      "1": "ACT_0",
+      "2": "INV_L2_8"
+    },
+    "R146": {
+      "1": "ACT_7",
+      "2": "INV_L2_2"
+    },
+    "R092": {
+      "1": "ACT_4",
+      "2": "INV_L2_5"
+    },
+    "RB8N": {
+      "1": "+5V_REF",
+      "2": "INV_L2_8"
+    },
+    "RG5P": {
+      "1": "POS_L2_5",
+      "2": "GND"
+    },
+    "R078": {
+      "1": "ACT_3",
+      "2": "INV_L2_8"
+    },
+    "R038": {
+      "1": "ACT_1",
+      "2": "INV_L2_8"
+    },
+    "U1": {
+      "1": "SCORE_0",
+      "2": "INV_L2_0",
+      "3": "POS_L2_0",
+      "4": "+15V",
+      "5": "POS_L2_1",
+      "6": "INV_L2_1",
+      "7": "SCORE_1",
+      "8": "SCORE_7",
+      "9": "INV_L2_7",
+      "10": "POS_L2_7",
+      "11": "-15V",
+      "12": "POS_L2_6",
+      "13": "INV_L2_6",
+      "14": "SCORE_6"
+    },
+    "R077": {
+      "1": "ACT_3",
+      "2": "POS_L2_8"
+    },
+    "RG5N": {
+      "1": "INV_L2_5",
+      "2": "GND"
+    },
+    "R088": {
+      "1": "ACT_4",
+      "2": "INV_L2_3"
+    },
+    "C_U1P": {
+      "1": "GND",
+      "2": "+15V"
+    },
+    "R049": {
+      "1": "ACT_2",
+      "2": "POS_L2_4"
+    },
+    "R236": {
+      "1": "ACT_11",
+      "2": "INV_L2_7"
+    },
+    "C_U3N": {
+      "1": "-15V",
+      "2": "GND"
+    },
+    "R034": {
+      "1": "ACT_1",
+      "2": "INV_L2_6"
+    },
+    "R121": {
+      "1": "ACT_6",
+      "2": "POS_L2_0"
+    },
+    "R052": {
+      "1": "ACT_2",
+      "2": "INV_L2_5"
+    },
+    "R131": {
+      "1": "ACT_6",
+      "2": "POS_L2_5"
+    },
+    "RB6P": {
+      "1": "+5V_REF",
+      "2": "POS_L2_6"
+    },
+    "R112": {
+      "1": "ACT_5",
+      "2": "INV_L2_5"
+    },
+    "R280": {
+      "1": "ACT_13",
+      "2": "INV_L2_9"
+    },
+    "R193": {
+      "1": "ACT_9",
+      "2": "POS_L2_6"
+    },
+    "RG2P": {
+      "1": "POS_L2_2",
+      "2": "GND"
+    },
+    "R150": {
+      "1": "ACT_7",
+      "2": "INV_L2_4"
+    },
+    "R300": {
+      "1": "ACT_14",
+      "2": "INV_L2_9"
+    },
+    "R042": {
+      "1": "ACT_2",
+      "2": "INV_L2_0"
+    },
+    "R194": {
+      "1": "ACT_9",
+      "2": "INV_L2_6"
+    },
+    "R023": {
+      "1": "ACT_1",
+      "2": "POS_L2_1"
+    },
+    "R267": {
+      "1": "ACT_13",
+      "2": "POS_L2_3"
+    },
+    "R167": {
+      "1": "ACT_8",
+      "2": "POS_L2_3"
+    },
+    "R183": {
+      "1": "ACT_9",
+      "2": "POS_L2_1"
+    },
+    "RB6N": {
+      "1": "+5V_REF",
+      "2": "INV_L2_6"
+    },
+    "R276": {
+      "1": "ACT_13",
+      "2": "INV_L2_7"
+    },
+    "R026": {
+      "1": "ACT_1",
+      "2": "INV_L2_2"
+    },
+    "RF4": {
+      "1": "INV_L2_4",
+      "2": "SCORE_4"
+    },
+    "R205": {
+      "1": "ACT_10",
+      "2": "POS_L2_2"
+    },
+    "R145": {
+      "1": "ACT_7",
+      "2": "POS_L2_2"
+    },
+    "R171": {
+      "1": "ACT_8",
+      "2": "POS_L2_5"
+    },
+    "R113": {
+      "1": "ACT_5",
+      "2": "POS_L2_6"
+    },
+    "R060": {
+      "1": "ACT_2",
+      "2": "INV_L2_9"
+    },
+    "R093": {
+      "1": "ACT_4",
+      "2": "POS_L2_6"
+    },
+    "R153": {
+      "1": "ACT_7",
+      "2": "POS_L2_6"
+    },
+    "R155": {
+      "1": "ACT_7",
+      "2": "POS_L2_7"
+    },
+    "R286": {
+      "1": "ACT_14",
+      "2": "INV_L2_2"
+    },
+    "R140": {
+      "1": "ACT_6",
+      "2": "INV_L2_9"
+    },
+    "R122": {
+      "1": "ACT_6",
+      "2": "INV_L2_0"
+    },
+    "R187": {
+      "1": "ACT_9",
+      "2": "POS_L2_3"
+    },
+    "R252": {
+      "1": "ACT_12",
+      "2": "INV_L2_5"
+    },
+    "R097": {
+      "1": "ACT_4",
+      "2": "POS_L2_8"
+    },
+    "R001": {
+      "1": "ACT_0",
+      "2": "POS_L2_0"
+    },
+    "R096": {
+      "1": "ACT_4",
+      "2": "INV_L2_7"
+    },
+    "R033": {
+      "1": "ACT_1",
+      "2": "POS_L2_6"
+    },
+    "R243": {
+      "1": "ACT_12",
+      "2": "POS_L2_1"
+    },
+    "R083": {
+      "1": "ACT_4",
+      "2": "POS_L2_1"
+    },
+    "RB8P": {
+      "1": "+5V_REF",
+      "2": "POS_L2_8"
+    },
+    "R128": {
+      "1": "ACT_6",
+      "2": "INV_L2_3"
+    },
+    "R214": {
+      "1": "ACT_10",
+      "2": "INV_L2_6"
+    },
+    "R037": {
+      "1": "ACT_1",
+      "2": "POS_L2_8"
+    },
+    "R189": {
+      "1": "ACT_9",
+      "2": "POS_L2_4"
+    },
+    "R231": {
+      "1": "ACT_11",
+      "2": "POS_L2_5"
+    },
+    "R249": {
+      "1": "ACT_12",
+      "2": "POS_L2_4"
+    },
+    "RF2": {
+      "1": "INV_L2_2",
+      "2": "SCORE_2"
+    },
+    "R170": {
+      "1": "ACT_8",
+      "2": "INV_L2_4"
+    },
+    "RF3": {
+      "1": "INV_L2_3",
+      "2": "SCORE_3"
+    },
+    "R174": {
+      "1": "ACT_8",
+      "2": "INV_L2_6"
+    },
+    "R176": {
+      "1": "ACT_8",
+      "2": "INV_L2_7"
+    },
+    "R067": {
+      "1": "ACT_3",
+      "2": "POS_L2_3"
+    },
+    "H1": {
+      "1": "GND"
+    },
+    "R234": {
+      "1": "ACT_11",
+      "2": "INV_L2_6"
+    },
+    "R119": {
+      "1": "ACT_5",
+      "2": "POS_L2_9"
+    },
+    "R211": {
+      "1": "ACT_10",
+      "2": "POS_L2_5"
+    },
+    "R313": {
+      "1": "ACT_15",
+      "2": "POS_L2_6"
+    },
+    "RG9P": {
+      "1": "POS_L2_9",
+      "2": "GND"
+    },
+    "R173": {
+      "1": "ACT_8",
+      "2": "POS_L2_6"
+    },
+    "R209": {
+      "1": "ACT_10",
+      "2": "POS_L2_4"
+    },
+    "R175": {
+      "1": "ACT_8",
+      "2": "POS_L2_7"
+    },
+    "R213": {
+      "1": "ACT_10",
+      "2": "POS_L2_6"
+    },
+    "RB5N": {
+      "1": "+5V_REF",
+      "2": "INV_L2_5"
+    },
+    "R229": {
+      "1": "ACT_11",
+      "2": "POS_L2_4"
+    },
+    "R256": {
+      "1": "ACT_12",
+      "2": "INV_L2_7"
+    },
+    "R195": {
+      "1": "ACT_9",
+      "2": "POS_L2_7"
+    },
+    "R056": {
+      "1": "ACT_2",
+      "2": "INV_L2_7"
+    },
+    "R296": {
+      "1": "ACT_14",
+      "2": "INV_L2_7"
+    },
+    "R248": {
+      "1": "ACT_12",
+      "2": "INV_L2_3"
+    },
+    "R028": {
+      "1": "ACT_1",
+      "2": "INV_L2_3"
+    },
+    "R158": {
+      "1": "ACT_7",
+      "2": "INV_L2_8"
+    },
+    "R101": {
+      "1": "ACT_5",
+      "2": "POS_L2_0"
+    },
+    "R129": {
+      "1": "ACT_6",
+      "2": "POS_L2_4"
+    },
+    "R197": {
+      "1": "ACT_9",
+      "2": "POS_L2_8"
+    },
+    "R275": {
+      "1": "ACT_13",
+      "2": "POS_L2_7"
+    },
+    "RB9P": {
+      "1": "+5V_REF",
+      "2": "POS_L2_9"
+    },
+    "R103": {
+      "1": "ACT_5",
+      "2": "POS_L2_1"
+    },
+    "R014": {
+      "1": "ACT_0",
+      "2": "INV_L2_6"
+    },
+    "U2": {
+      "1": "SCORE_2",
+      "2": "INV_L2_2",
+      "3": "POS_L2_2",
+      "4": "+15V",
+      "5": "POS_L2_3",
+      "6": "INV_L2_3",
+      "7": "SCORE_3",
+      "8": "SCORE_9",
+      "9": "INV_L2_9",
+      "10": "POS_L2_9",
+      "11": "-15V",
+      "12": "POS_L2_8",
+      "13": "INV_L2_8",
+      "14": "SCORE_8"
+    },
+    "R294": {
+      "1": "ACT_14",
+      "2": "INV_L2_6"
+    },
+    "R207": {
+      "1": "ACT_10",
+      "2": "POS_L2_3"
+    },
+    "R149": {
+      "1": "ACT_7",
+      "2": "POS_L2_4"
+    },
+    "C_U2P": {
+      "1": "GND",
+      "2": "+15V"
+    },
+    "R143": {
+      "1": "ACT_7",
+      "2": "POS_L2_1"
+    },
+    "R156": {
+      "1": "ACT_7",
+      "2": "INV_L2_7"
+    },
+    "R251": {
+      "1": "ACT_12",
+      "2": "POS_L2_5"
+    },
+    "RF6": {
+      "1": "INV_L2_6",
+      "2": "SCORE_6"
+    },
+    "R161": {
+      "1": "ACT_8",
+      "2": "POS_L2_0"
+    },
+    "R099": {
+      "1": "ACT_4",
+      "2": "POS_L2_9"
+    },
+    "R036": {
+      "1": "ACT_1",
+      "2": "INV_L2_7"
+    },
+    "R180": {
+      "1": "ACT_8",
+      "2": "INV_L2_9"
+    },
+    "RG4N": {
+      "1": "INV_L2_4",
+      "2": "GND"
+    },
+    "C_U1N": {
+      "1": "-15V",
+      "2": "GND"
+    },
+    "R139": {
+      "1": "ACT_6",
+      "2": "POS_L2_9"
+    },
+    "R203": {
+      "1": "ACT_10",
+      "2": "POS_L2_1"
+    },
+    "R202": {
+      "1": "ACT_10",
+      "2": "INV_L2_0"
+    },
+    "R005": {
+      "1": "ACT_0",
+      "2": "POS_L2_2"
+    },
+    "R130": {
+      "1": "ACT_6",
+      "2": "INV_L2_4"
+    },
+    "R245": {
+      "1": "ACT_12",
+      "2": "POS_L2_2"
+    },
+    "R020": {
+      "1": "ACT_0",
+      "2": "INV_L2_9"
+    },
+    "R239": {
+      "1": "ACT_11",
+      "2": "POS_L2_9"
+    },
+    "R009": {
+      "1": "ACT_0",
+      "2": "POS_L2_4"
+    },
+    "R260": {
+      "1": "ACT_12",
+      "2": "INV_L2_9"
+    },
+    "R147": {
+      "1": "ACT_7",
+      "2": "POS_L2_3"
+    },
+    "R069": {
+      "1": "ACT_3",
+      "2": "POS_L2_4"
+    },
+    "R308": {
+      "1": "ACT_15",
+      "2": "INV_L2_3"
+    },
+    "R319": {
+      "1": "ACT_15",
+      "2": "POS_L2_9"
+    },
+    "R012": {
+      "1": "ACT_0",
+      "2": "INV_L2_5"
+    },
+    "RB0N": {
+      "1": "+5V_REF",
+      "2": "INV_L2_0"
+    },
+    "R290": {
+      "1": "ACT_14",
+      "2": "INV_L2_4"
+    },
+    "R157": {
+      "1": "ACT_7",
+      "2": "POS_L2_8"
+    },
+    "R072": {
+      "1": "ACT_3",
+      "2": "INV_L2_5"
+    },
+    "R318": {
+      "1": "ACT_15",
+      "2": "INV_L2_8"
+    },
+    "RF5": {
+      "1": "INV_L2_5",
+      "2": "SCORE_5"
+    },
+    "RG1P": {
+      "1": "POS_L2_1",
+      "2": "GND"
+    },
+    "R312": {
+      "1": "ACT_15",
+      "2": "INV_L2_5"
+    },
+    "R270": {
+      "1": "ACT_13",
+      "2": "INV_L2_4"
+    },
+    "R124": {
+      "1": "ACT_6",
+      "2": "INV_L2_1"
+    },
+    "R133": {
+      "1": "ACT_6",
+      "2": "POS_L2_6"
+    },
+    "R265": {
+      "1": "ACT_13",
+      "2": "POS_L2_2"
+    },
+    "R163": {
+      "1": "ACT_8",
+      "2": "POS_L2_1"
+    },
+    "R303": {
+      "1": "ACT_15",
+      "2": "POS_L2_1"
+    },
+    "R177": {
+      "1": "ACT_8",
+      "2": "POS_L2_8"
+    },
+    "R237": {
+      "1": "ACT_11",
+      "2": "POS_L2_8"
+    },
+    "R261": {
+      "1": "ACT_13",
+      "2": "POS_L2_0"
+    },
+    "R268": {
+      "1": "ACT_13",
+      "2": "INV_L2_3"
+    },
+    "R284": {
+      "1": "ACT_14",
+      "2": "INV_L2_1"
+    },
+    "R094": {
+      "1": "ACT_4",
+      "2": "INV_L2_6"
+    },
+    "R044": {
+      "1": "ACT_2",
+      "2": "INV_L2_1"
+    },
+    "R278": {
+      "1": "ACT_13",
+      "2": "INV_L2_8"
+    },
+    "R030": {
+      "1": "ACT_1",
+      "2": "INV_L2_4"
+    },
+    "RG6P": {
+      "1": "POS_L2_6",
+      "2": "GND"
+    },
+    "R255": {
+      "1": "ACT_12",
+      "2": "POS_L2_7"
+    },
+    "R191": {
+      "1": "ACT_9",
+      "2": "POS_L2_5"
+    },
+    "R116": {
+      "1": "ACT_5",
+      "2": "INV_L2_7"
+    },
+    "R002": {
+      "1": "ACT_0",
+      "2": "INV_L2_0"
+    },
+    "R315": {
+      "1": "ACT_15",
+      "2": "POS_L2_7"
+    },
+    "R003": {
+      "1": "ACT_0",
+      "2": "POS_L2_1"
+    },
+    "R262": {
+      "1": "ACT_13",
+      "2": "INV_L2_0"
+    },
+    "R080": {
+      "1": "ACT_3",
+      "2": "INV_L2_9"
+    },
+    "RB0P": {
+      "1": "+5V_REF",
+      "2": "POS_L2_0"
+    },
+    "R168": {
+      "1": "ACT_8",
+      "2": "INV_L2_3"
+    },
+    "R241": {
+      "1": "ACT_12",
+      "2": "POS_L2_0"
+    },
+    "R310": {
+      "1": "ACT_15",
+      "2": "INV_L2_4"
+    },
+    "R222": {
+      "1": "ACT_11",
+      "2": "INV_L2_0"
+    },
+    "R081": {
+      "1": "ACT_4",
+      "2": "POS_L2_0"
+    },
+    "R047": {
+      "1": "ACT_2",
+      "2": "POS_L2_3"
+    },
+    "R266": {
+      "1": "ACT_13",
+      "2": "INV_L2_2"
+    },
+    "RG0P": {
+      "1": "POS_L2_0",
+      "2": "GND"
+    },
+    "R208": {
+      "1": "ACT_10",
+      "2": "INV_L2_3"
+    },
+    "R070": {
+      "1": "ACT_3",
+      "2": "INV_L2_4"
+    },
+    "R258": {
+      "1": "ACT_12",
+      "2": "INV_L2_8"
+    },
+    "R298": {
+      "1": "ACT_14",
+      "2": "INV_L2_8"
+    },
+    "R293": {
+      "1": "ACT_14",
+      "2": "POS_L2_6"
+    },
+    "R045": {
+      "1": "ACT_2",
+      "2": "POS_L2_2"
+    },
+    "R127": {
+      "1": "ACT_6",
+      "2": "POS_L2_3"
+    },
+    "R302": {
+      "1": "ACT_15",
+      "2": "INV_L2_0"
+    },
+    "R017": {
+      "1": "ACT_0",
+      "2": "POS_L2_8"
+    },
+    "RG8P": {
+      "1": "POS_L2_8",
+      "2": "GND"
+    },
+    "R220": {
+      "1": "ACT_10",
+      "2": "INV_L2_9"
+    },
+    "R085": {
+      "1": "ACT_4",
+      "2": "POS_L2_2"
+    },
+    "R316": {
+      "1": "ACT_15",
+      "2": "INV_L2_7"
+    },
+    "RB5P": {
+      "1": "+5V_REF",
+      "2": "POS_L2_5"
+    },
+    "RB7N": {
+      "1": "+5V_REF",
+      "2": "INV_L2_7"
+    },
+    "R106": {
+      "1": "ACT_5",
+      "2": "INV_L2_2"
+    },
+    "R027": {
+      "1": "ACT_1",
+      "2": "POS_L2_3"
+    },
+    "R230": {
+      "1": "ACT_11",
+      "2": "INV_L2_4"
+    },
+    "R115": {
+      "1": "ACT_5",
+      "2": "POS_L2_7"
+    },
+    "C_U2N": {
+      "1": "-15V",
+      "2": "GND"
+    },
+    "H2": {
+      "1": "GND"
+    },
+    "R079": {
+      "1": "ACT_3",
+      "2": "POS_L2_9"
+    },
+    "R019": {
+      "1": "ACT_0",
+      "2": "POS_L2_9"
+    },
+    "R114": {
+      "1": "ACT_5",
+      "2": "INV_L2_6"
+    },
+    "RB2P": {
+      "1": "+5V_REF",
+      "2": "POS_L2_2"
+    },
+    "R095": {
+      "1": "ACT_4",
+      "2": "POS_L2_7"
+    },
+    "R063": {
+      "1": "ACT_3",
+      "2": "POS_L2_1"
+    },
+    "R244": {
+      "1": "ACT_12",
+      "2": "INV_L2_1"
+    },
+    "R024": {
+      "1": "ACT_1",
+      "2": "INV_L2_1"
+    },
+    "RF7": {
+      "1": "INV_L2_7",
+      "2": "SCORE_7"
+    },
+    "R271": {
+      "1": "ACT_13",
+      "2": "POS_L2_5"
+    },
+    "R138": {
+      "1": "ACT_6",
+      "2": "INV_L2_8"
+    },
+    "R165": {
+      "1": "ACT_8",
+      "2": "POS_L2_2"
+    },
+    "R306": {
+      "1": "ACT_15",
+      "2": "INV_L2_2"
+    },
+    "R274": {
+      "1": "ACT_13",
+      "2": "INV_L2_6"
+    },
+    "RB4P": {
+      "1": "+5V_REF",
+      "2": "POS_L2_4"
+    },
+    "R105": {
+      "1": "ACT_5",
+      "2": "POS_L2_2"
+    },
+    "R221": {
+      "1": "ACT_11",
+      "2": "POS_L2_0"
+    },
+    "RF0": {
+      "1": "INV_L2_0",
+      "2": "SCORE_0"
+    },
+    "R008": {
+      "1": "ACT_0",
+      "2": "INV_L2_3"
+    },
+    "R198": {
+      "1": "ACT_9",
+      "2": "INV_L2_8"
+    },
+    "R232": {
+      "1": "ACT_11",
+      "2": "INV_L2_5"
+    },
+    "RG4P": {
+      "1": "POS_L2_4",
+      "2": "GND"
+    },
+    "R151": {
+      "1": "ACT_7",
+      "2": "POS_L2_5"
+    },
+    "R091": {
+      "1": "ACT_4",
+      "2": "POS_L2_5"
+    },
+    "R123": {
+      "1": "ACT_6",
+      "2": "POS_L2_1"
+    },
+    "R186": {
+      "1": "ACT_9",
+      "2": "INV_L2_2"
+    },
+    "R297": {
+      "1": "ACT_14",
+      "2": "POS_L2_8"
+    },
+    "R201": {
+      "1": "ACT_10",
+      "2": "POS_L2_0"
+    },
+    "R135": {
+      "1": "ACT_6",
+      "2": "POS_L2_7"
+    },
+    "R166": {
+      "1": "ACT_8",
+      "2": "INV_L2_2"
+    },
+    "R062": {
+      "1": "ACT_3",
+      "2": "INV_L2_0"
+    },
+    "R317": {
+      "1": "ACT_15",
+      "2": "POS_L2_8"
+    },
+    "RG3P": {
+      "1": "POS_L2_3",
+      "2": "GND"
+    },
+    "R190": {
+      "1": "ACT_9",
+      "2": "INV_L2_4"
+    },
+    "R184": {
+      "1": "ACT_9",
+      "2": "INV_L2_1"
+    },
+    "R263": {
+      "1": "ACT_13",
+      "2": "POS_L2_1"
+    },
+    "R043": {
+      "1": "ACT_2",
+      "2": "POS_L2_1"
+    },
+    "R051": {
+      "1": "ACT_2",
+      "2": "POS_L2_5"
+    },
+    "R090": {
+      "1": "ACT_4",
+      "2": "INV_L2_4"
+    },
+    "R304": {
+      "1": "ACT_15",
+      "2": "INV_L2_1"
+    },
+    "R064": {
+      "1": "ACT_3",
+      "2": "INV_L2_1"
+    },
+    "R134": {
+      "1": "ACT_6",
+      "2": "INV_L2_6"
+    },
+    "R071": {
+      "1": "ACT_3",
+      "2": "POS_L2_5"
+    },
+    "R160": {
+      "1": "ACT_7",
+      "2": "INV_L2_9"
+    },
+    "R102": {
+      "1": "ACT_5",
+      "2": "INV_L2_0"
+    },
+    "RF1": {
+      "1": "INV_L2_1",
+      "2": "SCORE_1"
+    },
+    "RG8N": {
+      "1": "INV_L2_8",
+      "2": "GND"
+    },
+    "R254": {
+      "1": "ACT_12",
+      "2": "INV_L2_6"
+    },
+    "RB3P": {
+      "1": "+5V_REF",
+      "2": "POS_L2_3"
+    },
+    "R247": {
+      "1": "ACT_12",
+      "2": "POS_L2_3"
+    },
+    "R053": {
+      "1": "ACT_2",
+      "2": "POS_L2_6"
+    },
+    "R007": {
+      "1": "ACT_0",
+      "2": "POS_L2_3"
+    },
+    "R204": {
+      "1": "ACT_10",
+      "2": "INV_L2_1"
+    },
+    "R215": {
+      "1": "ACT_10",
+      "2": "POS_L2_7"
+    },
+    "RB9N": {
+      "1": "+5V_REF",
+      "2": "INV_L2_9"
+    },
+    "R228": {
+      "1": "ACT_11",
+      "2": "INV_L2_3"
+    },
+    "RB1P": {
+      "1": "+5V_REF",
+      "2": "POS_L2_1"
+    },
+    "R075": {
+      "1": "ACT_3",
+      "2": "POS_L2_7"
+    },
+    "R273": {
+      "1": "ACT_13",
+      "2": "POS_L2_6"
+    },
+    "R182": {
+      "1": "ACT_9",
+      "2": "INV_L2_0"
+    },
+    "R219": {
+      "1": "ACT_10",
+      "2": "POS_L2_9"
+    },
+    "R107": {
+      "1": "ACT_5",
+      "2": "POS_L2_3"
+    },
+    "R235": {
+      "1": "ACT_11",
+      "2": "POS_L2_7"
+    },
+    "R223": {
+      "1": "ACT_11",
+      "2": "POS_L2_1"
+    },
+    "R225": {
+      "1": "ACT_11",
+      "2": "POS_L2_2"
+    },
+    "R089": {
+      "1": "ACT_4",
+      "2": "POS_L2_4"
+    },
+    "R285": {
+      "1": "ACT_14",
+      "2": "POS_L2_2"
+    },
+    "R291": {
+      "1": "ACT_14",
+      "2": "POS_L2_5"
+    },
+    "R057": {
+      "1": "ACT_2",
+      "2": "POS_L2_8"
+    },
+    "R132": {
+      "1": "ACT_6",
+      "2": "INV_L2_5"
+    },
+    "R162": {
+      "1": "ACT_8",
+      "2": "INV_L2_0"
+    },
+    "R320": {
+      "1": "ACT_15",
+      "2": "INV_L2_9"
+    },
+    "R035": {
+      "1": "ACT_1",
+      "2": "POS_L2_7"
+    },
+    "R224": {
+      "1": "ACT_11",
+      "2": "INV_L2_1"
+    },
+    "RF8": {
+      "1": "INV_L2_8",
+      "2": "SCORE_8"
+    },
+    "RG7N": {
+      "1": "INV_L2_7",
+      "2": "GND"
+    },
+    "R061": {
+      "1": "ACT_3",
+      "2": "POS_L2_0"
+    },
+    "R226": {
+      "1": "ACT_11",
+      "2": "INV_L2_2"
+    },
+    "RG0N": {
+      "1": "INV_L2_0",
+      "2": "GND"
+    },
+    "R288": {
+      "1": "ACT_14",
+      "2": "INV_L2_3"
+    },
+    "R087": {
+      "1": "ACT_4",
+      "2": "POS_L2_3"
+    },
+    "R109": {
+      "1": "ACT_5",
+      "2": "POS_L2_4"
+    },
+    "R314": {
+      "1": "ACT_15",
+      "2": "INV_L2_6"
+    },
+    "R281": {
+      "1": "ACT_14",
+      "2": "POS_L2_0"
+    },
+    "R108": {
+      "1": "ACT_5",
+      "2": "INV_L2_3"
+    },
+    "R022": {
+      "1": "ACT_1",
+      "2": "INV_L2_0"
+    },
+    "R212": {
+      "1": "ACT_10",
+      "2": "INV_L2_5"
+    },
+    "R301": {
+      "1": "ACT_15",
+      "2": "POS_L2_0"
+    },
+    "R104": {
+      "1": "ACT_5",
+      "2": "INV_L2_1"
+    },
+    "R040": {
+      "1": "ACT_1",
+      "2": "INV_L2_9"
+    },
+    "R082": {
+      "1": "ACT_4",
+      "2": "INV_L2_0"
+    },
+    "R154": {
+      "1": "ACT_7",
+      "2": "INV_L2_6"
+    },
+    "R217": {
+      "1": "ACT_10",
+      "2": "POS_L2_8"
+    },
+    "R178": {
+      "1": "ACT_8",
+      "2": "INV_L2_8"
+    },
+    "R055": {
+      "1": "ACT_2",
+      "2": "POS_L2_7"
+    },
+    "R041": {
+      "1": "ACT_2",
+      "2": "POS_L2_0"
+    },
+    "R048": {
+      "1": "ACT_2",
+      "2": "INV_L2_3"
+    },
+    "RG9N": {
+      "1": "INV_L2_9",
+      "2": "GND"
+    },
+    "R240": {
+      "1": "ACT_11",
+      "2": "INV_L2_9"
+    },
+    "R118": {
+      "1": "ACT_5",
+      "2": "INV_L2_8"
+    },
+    "R227": {
+      "1": "ACT_11",
+      "2": "POS_L2_3"
+    },
+    "R050": {
+      "1": "ACT_2",
+      "2": "INV_L2_4"
+    },
+    "R120": {
+      "1": "ACT_5",
+      "2": "INV_L2_9"
+    },
+    "RG7P": {
+      "1": "POS_L2_7",
+      "2": "GND"
+    },
+    "R110": {
+      "1": "ACT_5",
+      "2": "INV_L2_4"
+    },
+    "R181": {
+      "1": "ACT_9",
+      "2": "POS_L2_0"
+    },
+    "J_STRADDLE_EDGE": {
+      "A1": "ACT_0",
+      "A2": "ACT_1",
+      "A3": "ACT_2",
+      "A4": "ACT_3",
+      "A5": "ACT_4",
+      "A6": "ACT_5",
+      "A7": "ACT_6",
+      "A8": "ACT_7",
+      "A9": "ACT_8",
+      "A10": "ACT_9",
+      "A11": "ACT_10",
+      "A12": "ACT_11",
+      "A13": "ACT_12",
+      "A14": "ACT_13",
+      "A15": "ACT_14",
+      "A16": "ACT_15",
+      "A17": "GND",
+      "A18": "GND",
+      "A19": "GND",
+      "A20": "GND",
+      "A21": "GND",
+      "A22": "GND",
+      "A23": "GND",
+      "A24": "GND",
+      "A25": "GND",
+      "A26": "GND",
+      "A27": "GND",
+      "A28": "GND",
+      "A29": "GND",
+      "A30": "GND",
+      "A31": "GND",
+      "A32": "GND",
+      "A33": "GND",
+      "A34": "GND",
+      "A35": "GND",
+      "A36": "GND",
+      "A37": "GND",
+      "A38": "GND",
+      "B1": "SCORE_0",
+      "B2": "SCORE_1",
+      "B3": "SCORE_2",
+      "B4": "SCORE_3",
+      "B5": "SCORE_4",
+      "B6": "SCORE_5",
+      "B7": "SCORE_6",
+      "B8": "SCORE_7",
+      "B9": "SCORE_8",
+      "B10": "SCORE_9",
+      "B11": "GND",
+      "B12": "GND",
+      "B13": "GND",
+      "B14": "GND",
+      "B15": "GND",
+      "B16": "GND",
+      "B17": "GND",
+      "B18": "GND",
+      "B19": "GND",
+      "B20": "GND",
+      "B21": "GND",
+      "B22": "GND",
+      "B23": "GND",
+      "B24": "GND",
+      "B25": "GND",
+      "B26": "GND",
+      "B27": "GND",
+      "B28": "GND",
+      "B29": "GND",
+      "B30": "GND",
+      "B31": "GND",
+      "B32": "GND",
+      "B33": "+15V",
+      "B34": "+15V",
+      "B35": "+5V_REF",
+      "B36": "-5V_REF",
+      "B37": "-15V",
+      "B38": "-15V"
+    },
+    "R259": {
+      "1": "ACT_12",
+      "2": "POS_L2_9"
+    },
+    "R076": {
+      "1": "ACT_3",
+      "2": "INV_L2_7"
+    },
+    "R010": {
+      "1": "ACT_0",
+      "2": "INV_L2_4"
+    },
+    "R307": {
+      "1": "ACT_15",
+      "2": "POS_L2_3"
+    }
+  }
+}

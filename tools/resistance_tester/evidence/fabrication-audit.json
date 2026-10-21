@@ -1,0 +1,28 @@
+{
+  "component_counts": {
+    "J": 4,
+    "R": 20,
+    "C": 20
+  },
+  "drill_holes": {
+    "T1": 40,
+    "T2": 60
+  },
+  "outline_mm": [
+    100,
+    70
+  ],
+  "copper_files": [
+    "fingerprint-B_Cu.gbl"
+  ],
+  "archive_files": [
+    "FABRICATION.txt",
+    "fingerprint-B_Cu.gbl",
+    "fingerprint-B_Mask.gbs",
+    "fingerprint-F_Mask.gts",
+    "fingerprint-F_Silkscreen.gto",
+    "fingerprint-Edge_Cuts.gm1",
+    "fingerprint.drl"
+  ],
+  "sha256": "eec0de7c625af3c9b48cf9668047be5c374745b1b3e004b4fbf2e60ad6892a3d"
+}
