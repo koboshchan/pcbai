@@ -27,8 +27,16 @@ for i,gpio in enumerate(gpios,1):
 assert actual==expected,[(k,expected.get(k),actual.get(k)) for k in set(actual)|set(expected) if actual.get(k)!=expected.get(k)]
 assert sch==expected,[(k,expected.get(k),sch.get(k)) for k in set(sch)|set(expected) if sch.get(k)!=expected.get(k)]
 assert all(t.GetLayer()==p.B_Cu and t.GetClass()!='PCB_VIA' for t in b.GetTracks())
-assert all(f.GetLayer()==p.B_Cu for f in b.GetFootprints() if f.GetReference().startswith('C'))
+assert all(f.GetLayer()==p.B_Cu for f in b.GetFootprints() if f.GetReference().startswith(('C','R')))
 assert len(list(b.GetFootprints()))==44
+smd=[f for f in b.GetFootprints() if f.GetReference().startswith(('R','C'))]
+headers=[f for f in b.GetFootprints() if f.GetReference().startswith('J')]
+assert len(smd)==40 and len(headers)==4
+assert all(a.GetAttribute()==p.PAD_ATTRIB_SMD and a.IsOnLayer(p.B_Cu) and not a.IsOnLayer(p.F_Cu) for f in smd for a in f.Pads())
+assert all(a.GetAttribute()==p.PAD_ATTRIB_PTH for f in headers for a in f.Pads())
+assert sum(len(list(f.Pads())) for f in headers)==60
+assert all(str(f.GetFPID().GetLibItemName()).endswith('R_0805_2012Metric') for f in smd if f.GetReference().startswith('R'))
+assert all(str(f.GetFPID().GetLibItemName()).endswith('C_0805_2012Metric') for f in smd if f.GetReference().startswith('C'))
 # Verify socket mechanical orientation, not just net naming.
 fps={f.GetReference():f for f in b.GetFootprints()}
 xy=lambda ref,pin:fps[ref].FindPadByNumber(str(pin)).GetPosition()
@@ -40,5 +48,5 @@ for s in b.GetDrawings():
  if s.GetLayer()==p.Edge_Cuts:
   for v in [s.GetStart(),s.GetEnd()]:xs.append(p.ToMM(v.x));ys.append(p.ToMM(v.y))
 assert max(xs)-min(xs)==100 and max(ys)-min(ys)==70
-report=dict(expected_connections=len(expected),pcb_matches=True,schematic_matches=True,outline_mm=[100,70],front_tracks=0,vias=0,wire_links=0,capacitors_bottom=20,mechanical_socket_spacing_mm=17.78)
+report=dict(expected_connections=len(expected),pcb_matches=True,schematic_matches=True,outline_mm=[100,70],front_tracks=0,vias=0,wire_links=0,capacitors_bottom=20,resistors_bottom_0805=20,smd_pads_bottom_only=80,through_hole_footprints=4,through_hole_pads=60,mechanical_socket_spacing_mm=17.78)
 (R/'evidence/netmap.json').write_text(json.dumps(report,indent=2)+'\n');print(report)

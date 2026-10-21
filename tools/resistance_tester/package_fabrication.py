@@ -14,7 +14,7 @@ def package():
     rows = list(csv.DictReader((ROOT / "BOM.csv").open(newline="")))
     counts = Counter(r["Reference"][0] for r in rows)
     assert counts == {"J": 4, "R": 20, "C": 20}, counts
-    assert all(r["Side"] == "Bottom" for r in rows if r["Reference"].startswith("C"))
+    assert all(r["Side"] == "Bottom" for r in rows if r["Reference"].startswith(("C","R")))
     copper = (fab / "fingerprint-B_Cu.gbl").read_text()
     assert "Copper,L2,Bot" in copper
     drill = (fab / "fingerprint.drl").read_text()
@@ -26,7 +26,7 @@ def package():
         elif re.fullmatch(r"X[-\d.]+Y[-\d.]+", line):
             assert active is not None
             holes[active] += 1
-    assert holes == {"T1": 40, "T2": 60}, holes
+    assert holes == {"T1": 60}, holes
     edge = (fab / "fingerprint-Edge_Cuts.gm1").read_text()
     vertices = {(int(x)/1e6, int(y)/1e6) for x,y in re.findall(r"X(-?\d+)Y(-?\d+)D0[12]", edge)}
     assert vertices == {(0,0),(100,0),(100,-70),(0,-70)}, vertices

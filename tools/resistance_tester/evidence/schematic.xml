@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/w/fingerprint.kicad_sch</source>
-    <date>2026-10-21T02:09:21</date>
+    <source>/work/fingerprint.kicad_sch</source>
+    <date>2026-10-21T02:38:04</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -36,7 +36,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>44fcde02-8de3-4cb2-955e-5a4f89aca780</tstamps>
+      <tstamps>b7df14be-809d-4fc9-8979-ec98c4dd1b15</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -58,7 +58,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a10b3231-2bae-4261-891d-60e4b008f525</tstamps>
+      <tstamps>6d89da00-12c4-40f4-bb54-98ad873170c7</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -80,7 +80,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>53d9472a-03ad-4470-99d9-5e9acfb10aa8</tstamps>
+      <tstamps>bf5db407-c83c-48a9-baca-4a6ede251327</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -102,7 +102,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>5fb59717-ec0b-4cd9-914c-4858732ca033</tstamps>
+      <tstamps>610f22a0-4964-457e-8d99-26713ca19c34</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -124,7 +124,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ea0cfff0-40c2-421c-b80c-d6b0024f152c</tstamps>
+      <tstamps>426db122-b8d7-47b4-af3b-d9266068400a</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -146,7 +146,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>92d159a1-d513-4e87-9822-d7678fd6c486</tstamps>
+      <tstamps>96d9c30b-77ee-4d78-9868-dbd4530c0607</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -168,7 +168,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d3206471-ab1e-40ce-9f7c-db70cbd8ad9f</tstamps>
+      <tstamps>487c9170-d088-4891-9aae-6035de35fda5</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -190,7 +190,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>413353ba-2a58-4620-b5dd-29553b4b8db4</tstamps>
+      <tstamps>eb0b0fd0-2282-46aa-938a-7f68f64a424b</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -212,7 +212,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>4fa3ea14-ed29-415d-b796-839fa642993d</tstamps>
+      <tstamps>2346dc30-b9a2-47ca-9573-869c769aaee2</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -234,7 +234,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d54c937b-a87d-4f5d-976b-e425dc91836c</tstamps>
+      <tstamps>1fad2f9f-8c0f-45f5-9961-7b33bdbd73d3</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -256,7 +256,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2d1efbc1-2984-4740-a92f-0f999fa850a5</tstamps>
+      <tstamps>fedd8a81-3ceb-448a-a6a9-1d694a4784a3</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -278,7 +278,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>5b3c0332-28c2-4e9d-a92a-c29309b1890c</tstamps>
+      <tstamps>12376cf1-7147-45ee-9a40-da3b9ae361af</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -300,7 +300,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>93434208-53c2-4495-94c6-3eecbf545a63</tstamps>
+      <tstamps>eef7144d-f302-4d24-ae35-36c06097cd25</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -322,7 +322,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>773f0359-7f2e-445d-bbff-44f60bbca560</tstamps>
+      <tstamps>9132e490-c6af-44ef-850b-e89adaa1d985</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -344,7 +344,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>5c3aeb29-dd7e-4cf9-a656-976f909e3f6b</tstamps>
+      <tstamps>518dd2aa-036a-4727-9c2e-2c02f9b4d400</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -366,7 +366,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>23639bf2-0b64-40ae-b7e5-42627dbe3682</tstamps>
+      <tstamps>795f45f9-1133-4cca-89bf-d74b6df7c2e0</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -388,7 +388,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>cf05ece0-97b8-4361-bb79-03529cc42a1a</tstamps>
+      <tstamps>b09a6cd4-bec5-49a0-8094-0c506f197b1b</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -410,7 +410,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>81bc1dc7-4c2d-4ac6-bec9-e17263b45e18</tstamps>
+      <tstamps>24f3e43c-c8ff-45c5-95a6-e7fb56fa4778</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -432,7 +432,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2a3c4185-b2a6-498b-8507-1c8c02575170</tstamps>
+      <tstamps>6f7654f0-0763-4478-9c7a-5e4c0b4ca871</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -454,7 +454,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3d9debee-99f4-4156-b805-b96b2be19e4e</tstamps>
+      <tstamps>869ffa51-d76e-48ab-9c7b-e91ec760f3ae</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -476,7 +476,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9e1459a6-d9fb-46cf-95e1-c50450c6ae1f</tstamps>
+      <tstamps>3f5f237e-fa29-4bdb-bfd9-cd1c3f08f1ed</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -516,7 +516,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>55a88fe4-d5cc-47c1-b3cf-b59189102005</tstamps>
+      <tstamps>a993c036-fb54-49ea-b907-91c51a31d510</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -556,7 +556,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>451ee071-852c-4010-b588-46df36fe6ab9</tstamps>
+      <tstamps>d2c968ad-12d5-455a-b883-0d2f56a889b8</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -586,7 +586,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>58ed80bd-4f81-44d8-a9ab-24cb60c7f71a</tstamps>
+      <tstamps>55b1710b-0787-4736-a6de-a05ad1400f89</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -606,9 +606,9 @@
     </comp>
     <comp ref="R1">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -616,7 +616,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a70a08b8-de7e-416f-bc9c-98d9157abe05</tstamps>
+      <tstamps>870d4bb5-3387-48ce-abd1-c2683c793040</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -628,9 +628,9 @@
     </comp>
     <comp ref="R2">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -638,7 +638,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>54a6cd3e-002a-410c-aec9-0f50535a5958</tstamps>
+      <tstamps>3ab0bb89-7a1f-4a2d-b9eb-290b13c624c8</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -650,9 +650,9 @@
     </comp>
     <comp ref="R3">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -660,7 +660,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c317f03e-63e4-462c-8201-7d10622c0e49</tstamps>
+      <tstamps>bf30f084-c88e-473f-b704-0f5272ed4cb4</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -672,9 +672,9 @@
     </comp>
     <comp ref="R4">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -682,7 +682,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>78424917-019d-49ff-bda3-989b4a2240a7</tstamps>
+      <tstamps>fdfa0082-a451-490a-85fd-0d07ed86dff9</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -694,9 +694,9 @@
     </comp>
     <comp ref="R5">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -704,7 +704,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>6d53432a-dbe8-4f48-906f-0d7ce47ee25e</tstamps>
+      <tstamps>22cd963e-32d7-477b-9639-3bad5b4477ca</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -716,9 +716,9 @@
     </comp>
     <comp ref="R6">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -726,7 +726,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e4b473d7-d228-4f2e-a10b-cd95ce1407a2</tstamps>
+      <tstamps>d633b2e9-d304-43e9-aaff-07434518763b</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -738,9 +738,9 @@
     </comp>
     <comp ref="R7">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -748,7 +748,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>db47004d-f93f-475b-9e90-3d95377b1238</tstamps>
+      <tstamps>149462c5-9d76-4f6a-ab4e-4b9690be9415</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -760,9 +760,9 @@
     </comp>
     <comp ref="R8">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -770,7 +770,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>1a30aa7b-7d4a-4362-b139-d1c7b008cee2</tstamps>
+      <tstamps>5a17c908-612e-4eda-95c3-c360e5eacff8</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -782,9 +782,9 @@
     </comp>
     <comp ref="R9">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -792,7 +792,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>baaf835a-4ae8-4018-b597-9b11ea84b7ce</tstamps>
+      <tstamps>c4b7df33-7e76-43fe-833a-e6c71d657f47</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -804,9 +804,9 @@
     </comp>
     <comp ref="R10">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -814,7 +814,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e18b5840-83f9-45d9-bf7d-087f86fb1ca7</tstamps>
+      <tstamps>68ae1595-1222-45c9-83ab-29993c8ca2ce</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -826,9 +826,9 @@
     </comp>
     <comp ref="R11">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -836,7 +836,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>323ba27e-31b7-45da-af8d-ba80378f23bb</tstamps>
+      <tstamps>908671aa-7d74-4c71-b1fe-04953298a56c</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -848,9 +848,9 @@
     </comp>
     <comp ref="R12">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -858,7 +858,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b42dcc4f-32cb-4ec6-957c-01c6000b221c</tstamps>
+      <tstamps>cfb8a54a-abaf-4877-8ecc-3dc1f84ea485</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -870,9 +870,9 @@
     </comp>
     <comp ref="R13">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -880,7 +880,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>09f1443d-98b8-409c-9291-704d02f38d3d</tstamps>
+      <tstamps>207c5573-ff22-4110-b031-159651dbe9b6</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -892,9 +892,9 @@
     </comp>
     <comp ref="R14">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -902,7 +902,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>109791a5-42e0-4fce-ba6c-c1698fb1c669</tstamps>
+      <tstamps>76ae1388-f518-4545-b39b-5ab44f4ed499</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -914,9 +914,9 @@
     </comp>
     <comp ref="R15">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -924,7 +924,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ac925ef4-9b2d-4b5e-94a5-7a3d5ed48aa2</tstamps>
+      <tstamps>082539c0-14e4-452e-93ad-93a1670c0099</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -936,9 +936,9 @@
     </comp>
     <comp ref="R16">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -946,7 +946,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ae24505a-6f9c-42a3-8d72-2edebf25faa6</tstamps>
+      <tstamps>8d129fe3-795b-4609-bf57-1958c5dd5f04</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -958,9 +958,9 @@
     </comp>
     <comp ref="R17">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -968,7 +968,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>03cf5d53-492a-4c0a-81ec-05f41c2ea57b</tstamps>
+      <tstamps>434d23cf-9739-4a1b-89df-a46b06e8b99a</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -980,9 +980,9 @@
     </comp>
     <comp ref="R18">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -990,7 +990,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f9e26986-04ec-4742-bdf4-27f326f47204</tstamps>
+      <tstamps>019a0e2a-ad7e-4212-b39c-114c1d44c7b5</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1002,9 +1002,9 @@
     </comp>
     <comp ref="R19">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1012,7 +1012,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>22c7a223-ba1f-4c8c-828b-b4eedb7a4644</tstamps>
+      <tstamps>fdda7be0-61bf-48c1-a479-edce5ffd4184</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1024,9 +1024,9 @@
     </comp>
     <comp ref="R20">
       <value>4.7k 1% 1/8W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1034,7 +1034,7 @@
       <property name="Sheetname" value="fingerprint"/>
       <property name="Sheetfile" value="fingerprint.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>8b84607c-8a89-4ce2-b932-109b42f3f2f9</tstamps>
+      <tstamps>f546f613-c4f3-4f1b-aa89-ceeceb5a8b67</tstamps>
       <units>
         <unit name="A">
           <pins>

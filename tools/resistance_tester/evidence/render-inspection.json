@@ -1,0 +1,23 @@
+{
+  "renderer": "KiCad 10.0.6 pcb render, high quality, KAT-BOX",
+  "top": {
+    "path": "render-top.png",
+    "four_female_socket_bodies_visible": true,
+    "axial_resistors_visible": false,
+    "obvious_collisions": false
+  },
+  "bottom": {
+    "path": "render-bottom.png",
+    "populated_resistor_bodies": 20,
+    "populated_capacitor_bodies": 20,
+    "detail_crop_used_for_inspection": true,
+    "obvious_collisions": false
+  },
+  "gpio_map_preserved": true,
+  "component_values_and_pin_nets_preserved": true,
+  "firmware_unchanged": true,
+  "renders_sha256": {
+    "render-top.png": "0a1cfa3bb904ac42a6625a4a3510fb140a1b1b581736fbe7c19c05ce8242d49d",
+    "render-bottom.png": "58f53ea74ae4efddeb417bbcf17a7f31805b29e56b00b218ecbacce1389c3083"
+  }
+}

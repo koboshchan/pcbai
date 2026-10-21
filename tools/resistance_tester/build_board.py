@@ -47,22 +47,23 @@ mapping=[]
 for side,channels,jp,jd in [('L',left,j1,j3),('R',right,j2,j4)]:
  for k,(pin,gpio) in enumerate(channels):
   i=k+1+(0 if side=='L' else 10); y=p.ToMM(pt(jp,pin).y); tn='T'+str(i);gn='GP'+str(gpio)
-  # Ground trunk passes UNDER the through-hole resistor, no copper crossover.
-  x=24 if side=='L' else 68.38
-  r=add('R'+str(i),'4.7k 1% 1/8W','Resistor_THT','R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal',x,y,
-        {'1':tn if side=='L' else gn,'2':gn if side=='L' else tn})
-  cx=26.5 if side=='L' else 73.5
-  c=add('C'+str(i),'100nF X7R 10%','Capacitor_SMD','C_0805_2012Metric',cx,y,{'1':tn,'2':'GND'},True)
+  # Narrow ground trunk passes between the standard 0805 pads under the body.
+  x=29 if side=='L' else 71
+  r=add('R'+str(i),'4.7k 1% 1/8W','Resistor_SMD','R_0805_2012Metric',x,y,
+        {'1':tn if side=='L' else gn,'2':gn if side=='L' else tn},True)
+  r.SetOrientationDegrees(0)
+  cx=24.5 if side=='L' else 75.5
+  c=add('C'+str(i),'100nF X7R 10%','Capacitor_SMD','C_0805_2012Metric',cx,y+1.27,{'1':tn,'2':'GND'},True)
   # Flip then orient so node pad points outward, ground pad inward.
   c.SetOrientationDegrees(0 if side=='L' else 180)
   rpnode=pt(r,1 if side=='L' else 2);rpgpio=pt(r,2 if side=='L' else 1)
   tr(pt(jp,pin),rpgpio,gn)
   # fanout through two-segment monotone channel, no unassigned copper.
-  tr(rpnode,pt(jd,k+1),tn)
-  path([rpnode,v(p.ToMM(rpnode.x),y),pt(c,1)],tn)
-  tr(pt(c,2),v(29 if side=='L' else 71,y),'GND')
+  tr(pt(c,1),pt(jd,k+1),tn)
+  path([rpnode,v(p.ToMM(pt(c,1).x),y),pt(c,1)],tn)
+  tr(pt(c,2),v(29 if side=='L' else 71,y+1.27),'GND',.25)
   mapping.append(dict(test=i,gpio=gpio,pico_physical=pin if side=='L' else pin+20,header='J3' if side=='L' else 'J4',pin=k+1))
-for x,end in [(29,53.18),(71,58.26)]:tr(v(x,5),v(x,end),'GND',.5)
+for x,end in [(29,53.18),(71,59.53)]:tr(v(x,5),v(x,end),'GND',.25)
 tr(v(29,5),v(71,5),'GND',.5)
 for pin in [3,8,13,18]:
  tr(pt(j1,pin),v(29,p.ToMM(pt(j1,pin).y)),'GND')
@@ -70,8 +71,11 @@ for pin in [3,8,13,18]:
 for txt,x,y,size in [('UNPOWERED DUT ONLY',50,65,1.3),('PICO USB',49,7,1),('1',7,10,1),('11',94,30,1),('RC FINGERPRINT v1',50,68,1)]:
  t=p.PCB_TEXT(b);t.SetText(txt);t.SetPosition(v(x,y));t.SetTextSize(v(size,size));t.SetTextThickness(p.FromMM(.15));t.SetLayer(p.F_SilkS);b.Add(t)
 ds=b.GetDesignSettings();ds.m_MinClearance=p.FromMM(.25);ds.m_TrackMinWidth=p.FromMM(.25)
-p.SaveBoard(str(ROOT/'fingerprint.kicad_pcb'),b)
 template=json.loads((ROOT/'fingerprint.kicad_pro').read_text())
+p.SaveBoard(str(ROOT/'fingerprint.kicad_pcb'),b)
+# Use shipped library models so the archive renders without system model packages.
+board_path=ROOT/'fingerprint.kicad_pcb'
+board_path.write_text(board_path.read_text().replace('${KICAD10_3DMODEL_DIR}','${KIPRJMOD}/models'))
 template['board']['design_settings']['rules']['min_clearance']=.25
 template['board']['design_settings']['rules']['min_track_width']=.25
 template['net_settings']['classes'][0]['clearance']=.25
@@ -80,8 +84,8 @@ template['board']['design_settings']['drc_exclusions']=[]
 (ROOT/'fingerprint.kicad_pro').write_text(json.dumps(template,indent=2)+'\n')
 (ROOT/'manifest.json').write_text(json.dumps(dict(components=parts,gpio_map=mapping,series_ohms=4700,cap_farads=1e-7,jumpers=0),indent=2)+'\n')
 with (ROOT/'BOM.csv').open('w') as f:
- w=csv.writer(f);w.writerow(['Reference','Value','Footprint','Side'])
- for c in parts:w.writerow([c['ref'],c['value'],c['footprint'],'Bottom' if c['ref'].startswith('C') else 'Top'])
+ w=csv.writer(f,lineterminator='\n');w.writerow(['Reference','Value','Footprint','Side'])
+ for c in parts:w.writerow([c['ref'],c['value'],c['footprint'],'Bottom' if c['ref'].startswith(('C','R')) else 'Top'])
 # Exact embedded passive pin symbols, all pads represented, unique net labels.
 q=lambda s:json.dumps(str(s));u=lambda:str(uuid.uuid4())
 root=u();libs=[];items=[]
@@ -97,4 +101,4 @@ for idx,c in enumerate(parts):
 (ROOT/'fingerprint.kicad_sch').write_text(f'(kicad_sch (version 20250114) (generator "eeschema") (uuid "{root}") (paper "A1") (lib_symbols '+' '.join(libs)+')\n'+'\n'.join(items)+')\n')
 print('Generated',len(parts),'parts,',len(mapping),'channels, 0 jumper wires')
 
-(ROOT/'fp-lib-table').write_text('(fp_lib_table '+ ' '.join('(lib (name "'+lib+'")(type "KiCad")(uri "'+str(Path('/usr/share/kicad/footprints')/(lib+'.pretty'))+'")(options "")(descr ""))' for lib in ['Resistor_THT','Capacitor_SMD','Connector_PinSocket_2.54mm'])+')\n')
+(ROOT/'fp-lib-table').write_text('(fp_lib_table '+ ' '.join('(lib (name "'+lib+'")(type "KiCad")(uri "'+str(Path('/usr/share/kicad/footprints')/(lib+'.pretty'))+'")(options "")(descr ""))' for lib in ['Resistor_SMD','Capacitor_SMD','Connector_PinSocket_2.54mm'])+')\n')
