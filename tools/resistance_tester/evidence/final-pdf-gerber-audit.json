@@ -1,0 +1,1886 @@
+{
+  "reference": "gerbv RS274X + Excellon final fabrication files",
+  "measured_actual_pdf_header_pitch_mm": 2.5399935404459635,
+  "scale": 1,
+  "mirrored": false,
+  "gerber_sha256": "3107c52dd54ad9ab2aac623d05831a0e4f1785c697c9e544cc379d98987ff909",
+  "drill_sha256": "ec8843c54b07ba475d3cf0cebc6911b6973dc2a8db72306bb1363a8f3fbddad2",
+  "polarity_samples_gray": {
+    "(0.8, 20)": 255,
+    "(0.1, 20)": 0,
+    "(95, 20)": 0,
+    "(95.65, 20)": 255
+  },
+  "all_pads_connectivity": [
+    {
+      "ref": "J4.1",
+      "net": "T14",
+      "xy_mm": [
+        95.65,
+        20.0
+      ],
+      "pdf_component": 6,
+      "reference_component": 6
+    },
+    {
+      "ref": "J4.2",
+      "net": "T15",
+      "xy_mm": [
+        95.65,
+        22.54
+      ],
+      "pdf_component": 12,
+      "reference_component": 12
+    },
+    {
+      "ref": "J4.3",
+      "net": "T16",
+      "xy_mm": [
+        95.65,
+        25.08
+      ],
+      "pdf_component": 17,
+      "reference_component": 17
+    },
+    {
+      "ref": "J4.4",
+      "net": "T17",
+      "xy_mm": [
+        95.65,
+        27.62
+      ],
+      "pdf_component": 21,
+      "reference_component": 21
+    },
+    {
+      "ref": "J4.5",
+      "net": "T18",
+      "xy_mm": [
+        95.65,
+        30.16
+      ],
+      "pdf_component": 24,
+      "reference_component": 24
+    },
+    {
+      "ref": "J4.6",
+      "net": "T19",
+      "xy_mm": [
+        95.65,
+        32.7
+      ],
+      "pdf_component": 28,
+      "reference_component": 28
+    },
+    {
+      "ref": "J4.7",
+      "net": "T20",
+      "xy_mm": [
+        95.65,
+        35.239999999999995
+      ],
+      "pdf_component": 31,
+      "reference_component": 31
+    },
+    {
+      "ref": "J4.8",
+      "net": "T21",
+      "xy_mm": [
+        95.65,
+        37.78
+      ],
+      "pdf_component": 34,
+      "reference_component": 34
+    },
+    {
+      "ref": "J4.9",
+      "net": "T22",
+      "xy_mm": [
+        95.65,
+        40.32
+      ],
+      "pdf_component": 38,
+      "reference_component": 38
+    },
+    {
+      "ref": "J4.10",
+      "net": "T23",
+      "xy_mm": [
+        95.65,
+        42.86
+      ],
+      "pdf_component": 41,
+      "reference_component": 41
+    },
+    {
+      "ref": "J4.11",
+      "net": "T24",
+      "xy_mm": [
+        95.65,
+        45.400000000000006
+      ],
+      "pdf_component": 44,
+      "reference_component": 44
+    },
+    {
+      "ref": "J4.12",
+      "net": "T25",
+      "xy_mm": [
+        95.65,
+        47.94
+      ],
+      "pdf_component": 46,
+      "reference_component": 46
+    },
+    {
+      "ref": "J4.13",
+      "net": "T26",
+      "xy_mm": [
+        95.65,
+        50.480000000000004
+      ],
+      "pdf_component": 49,
+      "reference_component": 49
+    },
+    {
+      "ref": "J2.1",
+      "net": "GP16",
+      "xy_mm": [
+        15.65,
+        16.0
+      ],
+      "pdf_component": 16,
+      "reference_component": 16
+    },
+    {
+      "ref": "J2.2",
+      "net": "GP17",
+      "xy_mm": [
+        15.65,
+        18.54
+      ],
+      "pdf_component": 15,
+      "reference_component": 15
+    },
+    {
+      "ref": "J2.3",
+      "net": "GND",
+      "xy_mm": [
+        15.65,
+        21.08
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "J2.4",
+      "net": "GP18",
+      "xy_mm": [
+        15.65,
+        23.62
+      ],
+      "pdf_component": 13,
+      "reference_component": 13
+    },
+    {
+      "ref": "J2.5",
+      "net": "GP19",
+      "xy_mm": [
+        15.65,
+        26.16
+      ],
+      "pdf_component": 11,
+      "reference_component": 11
+    },
+    {
+      "ref": "J2.6",
+      "net": "GP20",
+      "xy_mm": [
+        15.65,
+        28.7
+      ],
+      "pdf_component": 10,
+      "reference_component": 10
+    },
+    {
+      "ref": "J2.7",
+      "net": "GP21",
+      "xy_mm": [
+        15.65,
+        31.240000000000002
+      ],
+      "pdf_component": 8,
+      "reference_component": 8
+    },
+    {
+      "ref": "J2.8",
+      "net": "GND",
+      "xy_mm": [
+        15.65,
+        33.78
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "J2.9",
+      "net": "GP22",
+      "xy_mm": [
+        15.65,
+        36.32
+      ],
+      "pdf_component": 7,
+      "reference_component": 7
+    },
+    {
+      "ref": "J2.10",
+      "net": "PICO_RUN_NC",
+      "xy_mm": [
+        15.65,
+        38.86
+      ],
+      "pdf_component": 35,
+      "reference_component": 35
+    },
+    {
+      "ref": "J2.11",
+      "net": "GP26",
+      "xy_mm": [
+        15.65,
+        41.400000000000006
+      ],
+      "pdf_component": 5,
+      "reference_component": 5
+    },
+    {
+      "ref": "J2.12",
+      "net": "GP27",
+      "xy_mm": [
+        15.65,
+        43.94
+      ],
+      "pdf_component": 4,
+      "reference_component": 4
+    },
+    {
+      "ref": "J2.13",
+      "net": "GND",
+      "xy_mm": [
+        15.65,
+        46.480000000000004
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "J2.14",
+      "net": "GP28",
+      "xy_mm": [
+        15.65,
+        49.019999999999996
+      ],
+      "pdf_component": 2,
+      "reference_component": 2
+    },
+    {
+      "ref": "J2.15",
+      "net": "PICO_ADC_VREF_NC",
+      "xy_mm": [
+        15.65,
+        51.56
+      ],
+      "pdf_component": 50,
+      "reference_component": 50
+    },
+    {
+      "ref": "J2.16",
+      "net": "PICO_3V3_NC",
+      "xy_mm": [
+        15.65,
+        54.099999999999994
+      ],
+      "pdf_component": 52,
+      "reference_component": 52
+    },
+    {
+      "ref": "J2.17",
+      "net": "PICO_3V3_EN_NC",
+      "xy_mm": [
+        15.65,
+        56.64
+      ],
+      "pdf_component": 54,
+      "reference_component": 54
+    },
+    {
+      "ref": "J2.18",
+      "net": "GND",
+      "xy_mm": [
+        15.65,
+        59.18
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "J2.19",
+      "net": "PICO_VSYS_NC",
+      "xy_mm": [
+        15.65,
+        61.72
+      ],
+      "pdf_component": 56,
+      "reference_component": 56
+    },
+    {
+      "ref": "J2.20",
+      "net": "PICO_VBUS_NC",
+      "xy_mm": [
+        15.65,
+        64.25999999999999
+      ],
+      "pdf_component": 58,
+      "reference_component": 58
+    },
+    {
+      "ref": "J3.1",
+      "net": "T1",
+      "xy_mm": [
+        98.19,
+        20.0
+      ],
+      "pdf_component": 3,
+      "reference_component": 3
+    },
+    {
+      "ref": "J3.2",
+      "net": "T2",
+      "xy_mm": [
+        98.19,
+        22.54
+      ],
+      "pdf_component": 9,
+      "reference_component": 9
+    },
+    {
+      "ref": "J3.3",
+      "net": "T3",
+      "xy_mm": [
+        98.19,
+        25.08
+      ],
+      "pdf_component": 14,
+      "reference_component": 14
+    },
+    {
+      "ref": "J3.4",
+      "net": "T4",
+      "xy_mm": [
+        98.19,
+        27.62
+      ],
+      "pdf_component": 19,
+      "reference_component": 19
+    },
+    {
+      "ref": "J3.5",
+      "net": "T5",
+      "xy_mm": [
+        98.19,
+        30.16
+      ],
+      "pdf_component": 22,
+      "reference_component": 22
+    },
+    {
+      "ref": "J3.6",
+      "net": "T6",
+      "xy_mm": [
+        98.19,
+        32.7
+      ],
+      "pdf_component": 26,
+      "reference_component": 26
+    },
+    {
+      "ref": "J3.7",
+      "net": "T7",
+      "xy_mm": [
+        98.19,
+        35.239999999999995
+      ],
+      "pdf_component": 30,
+      "reference_component": 30
+    },
+    {
+      "ref": "J3.8",
+      "net": "T8",
+      "xy_mm": [
+        98.19,
+        37.78
+      ],
+      "pdf_component": 33,
+      "reference_component": 33
+    },
+    {
+      "ref": "J3.9",
+      "net": "T9",
+      "xy_mm": [
+        98.19,
+        40.32
+      ],
+      "pdf_component": 37,
+      "reference_component": 37
+    },
+    {
+      "ref": "J3.10",
+      "net": "T10",
+      "xy_mm": [
+        98.19,
+        42.86
+      ],
+      "pdf_component": 40,
+      "reference_component": 40
+    },
+    {
+      "ref": "J3.11",
+      "net": "T11",
+      "xy_mm": [
+        98.19,
+        45.400000000000006
+      ],
+      "pdf_component": 43,
+      "reference_component": 43
+    },
+    {
+      "ref": "J3.12",
+      "net": "T12",
+      "xy_mm": [
+        98.19,
+        47.94
+      ],
+      "pdf_component": 45,
+      "reference_component": 45
+    },
+    {
+      "ref": "J3.13",
+      "net": "T13",
+      "xy_mm": [
+        98.19,
+        50.480000000000004
+      ],
+      "pdf_component": 48,
+      "reference_component": 48
+    },
+    {
+      "ref": "J1.1",
+      "net": "GP0",
+      "xy_mm": [
+        33.43,
+        64.259999
+      ],
+      "pdf_component": 59,
+      "reference_component": 59
+    },
+    {
+      "ref": "J1.2",
+      "net": "GP1",
+      "xy_mm": [
+        33.43,
+        61.719999
+      ],
+      "pdf_component": 57,
+      "reference_component": 57
+    },
+    {
+      "ref": "J1.3",
+      "net": "GND",
+      "xy_mm": [
+        33.43,
+        59.179998999999995
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "J1.4",
+      "net": "GP2",
+      "xy_mm": [
+        33.43,
+        56.639999
+      ],
+      "pdf_component": 55,
+      "reference_component": 55
+    },
+    {
+      "ref": "J1.5",
+      "net": "GP3",
+      "xy_mm": [
+        33.43,
+        54.099999
+      ],
+      "pdf_component": 53,
+      "reference_component": 53
+    },
+    {
+      "ref": "J1.6",
+      "net": "GP4",
+      "xy_mm": [
+        33.43,
+        51.559999000000005
+      ],
+      "pdf_component": 51,
+      "reference_component": 51
+    },
+    {
+      "ref": "J1.7",
+      "net": "GP5",
+      "xy_mm": [
+        33.43,
+        49.019999
+      ],
+      "pdf_component": 47,
+      "reference_component": 47
+    },
+    {
+      "ref": "J1.8",
+      "net": "GND",
+      "xy_mm": [
+        33.43,
+        46.479999
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "J1.9",
+      "net": "GP6",
+      "xy_mm": [
+        33.43,
+        43.939999
+      ],
+      "pdf_component": 42,
+      "reference_component": 42
+    },
+    {
+      "ref": "J1.10",
+      "net": "GP7",
+      "xy_mm": [
+        33.43,
+        41.399998999999994
+      ],
+      "pdf_component": 39,
+      "reference_component": 39
+    },
+    {
+      "ref": "J1.11",
+      "net": "GP8",
+      "xy_mm": [
+        33.43,
+        38.859999
+      ],
+      "pdf_component": 36,
+      "reference_component": 36
+    },
+    {
+      "ref": "J1.12",
+      "net": "GP9",
+      "xy_mm": [
+        33.43,
+        36.319998999999996
+      ],
+      "pdf_component": 32,
+      "reference_component": 32
+    },
+    {
+      "ref": "J1.13",
+      "net": "GND",
+      "xy_mm": [
+        33.43,
+        33.779999000000004
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "J1.14",
+      "net": "GP10",
+      "xy_mm": [
+        33.43,
+        31.239999
+      ],
+      "pdf_component": 29,
+      "reference_component": 29
+    },
+    {
+      "ref": "J1.15",
+      "net": "GP11",
+      "xy_mm": [
+        33.43,
+        28.699999
+      ],
+      "pdf_component": 27,
+      "reference_component": 27
+    },
+    {
+      "ref": "J1.16",
+      "net": "GP12",
+      "xy_mm": [
+        33.43,
+        26.159999
+      ],
+      "pdf_component": 25,
+      "reference_component": 25
+    },
+    {
+      "ref": "J1.17",
+      "net": "GP13",
+      "xy_mm": [
+        33.43,
+        23.619999
+      ],
+      "pdf_component": 23,
+      "reference_component": 23
+    },
+    {
+      "ref": "J1.18",
+      "net": "GND",
+      "xy_mm": [
+        33.43,
+        21.079999
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "J1.19",
+      "net": "GP14",
+      "xy_mm": [
+        33.43,
+        18.539999
+      ],
+      "pdf_component": 20,
+      "reference_component": 20
+    },
+    {
+      "ref": "J1.20",
+      "net": "GP15",
+      "xy_mm": [
+        33.43,
+        15.999998999999999
+      ],
+      "pdf_component": 18,
+      "reference_component": 18
+    },
+    {
+      "ref": "C22.1",
+      "net": "GND",
+      "xy_mm": [
+        77.55,
+        57.54
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C22.2",
+      "net": "T24",
+      "xy_mm": [
+        79.45,
+        57.54
+      ],
+      "pdf_component": 44,
+      "reference_component": 44
+    },
+    {
+      "ref": "C4.1",
+      "net": "GND",
+      "xy_mm": [
+        77.55,
+        11.46
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C4.2",
+      "net": "T15",
+      "xy_mm": [
+        79.45,
+        11.46
+      ],
+      "pdf_component": 12,
+      "reference_component": 12
+    },
+    {
+      "ref": "R19.1",
+      "net": "GP7",
+      "xy_mm": [
+        71.0875,
+        48.58
+      ],
+      "pdf_component": 39,
+      "reference_component": 39
+    },
+    {
+      "ref": "R19.2",
+      "net": "T10",
+      "xy_mm": [
+        72.9125,
+        48.58
+      ],
+      "pdf_component": 40,
+      "reference_component": 40
+    },
+    {
+      "ref": "C11.1",
+      "net": "GND",
+      "xy_mm": [
+        75.05,
+        29.380000000000003
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C11.2",
+      "net": "T6",
+      "xy_mm": [
+        76.95,
+        29.380000000000003
+      ],
+      "pdf_component": 26,
+      "reference_component": 26
+    },
+    {
+      "ref": "C9.1",
+      "net": "GND",
+      "xy_mm": [
+        75.05,
+        24.259999999999998
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C9.2",
+      "net": "T5",
+      "xy_mm": [
+        76.95,
+        24.259999999999998
+      ],
+      "pdf_component": 22,
+      "reference_component": 22
+    },
+    {
+      "ref": "R10.1",
+      "net": "GP16",
+      "xy_mm": [
+        71.0875,
+        25.54
+      ],
+      "pdf_component": 16,
+      "reference_component": 16
+    },
+    {
+      "ref": "R10.2",
+      "net": "T18",
+      "xy_mm": [
+        72.9125,
+        25.54
+      ],
+      "pdf_component": 24,
+      "reference_component": 24
+    },
+    {
+      "ref": "C14.1",
+      "net": "GND",
+      "xy_mm": [
+        77.55,
+        37.06
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C14.2",
+      "net": "T20",
+      "xy_mm": [
+        79.45,
+        37.06
+      ],
+      "pdf_component": 31,
+      "reference_component": 31
+    },
+    {
+      "ref": "R4.1",
+      "net": "GP22",
+      "xy_mm": [
+        71.0875,
+        10.18
+      ],
+      "pdf_component": 7,
+      "reference_component": 7
+    },
+    {
+      "ref": "R4.2",
+      "net": "T15",
+      "xy_mm": [
+        72.9125,
+        10.18
+      ],
+      "pdf_component": 12,
+      "reference_component": 12
+    },
+    {
+      "ref": "C10.1",
+      "net": "GND",
+      "xy_mm": [
+        77.55,
+        26.82
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C10.2",
+      "net": "T18",
+      "xy_mm": [
+        79.45,
+        26.82
+      ],
+      "pdf_component": 24,
+      "reference_component": 24
+    },
+    {
+      "ref": "C16.1",
+      "net": "GND",
+      "xy_mm": [
+        77.55,
+        42.18
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C16.2",
+      "net": "T21",
+      "xy_mm": [
+        79.45,
+        42.18
+      ],
+      "pdf_component": 34,
+      "reference_component": 34
+    },
+    {
+      "ref": "R16.1",
+      "net": "GP10",
+      "xy_mm": [
+        71.0875,
+        40.900000000000006
+      ],
+      "pdf_component": 29,
+      "reference_component": 29
+    },
+    {
+      "ref": "R16.2",
+      "net": "T21",
+      "xy_mm": [
+        72.9125,
+        40.900000000000006
+      ],
+      "pdf_component": 34,
+      "reference_component": 34
+    },
+    {
+      "ref": "C23.1",
+      "net": "GND",
+      "xy_mm": [
+        75.05,
+        60.1
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C23.2",
+      "net": "T12",
+      "xy_mm": [
+        76.95,
+        60.1
+      ],
+      "pdf_component": 45,
+      "reference_component": 45
+    },
+    {
+      "ref": "R3.1",
+      "net": "GP26",
+      "xy_mm": [
+        71.0875,
+        7.62
+      ],
+      "pdf_component": 5,
+      "reference_component": 5
+    },
+    {
+      "ref": "R3.2",
+      "net": "T2",
+      "xy_mm": [
+        72.9125,
+        7.62
+      ],
+      "pdf_component": 9,
+      "reference_component": 9
+    },
+    {
+      "ref": "C25.1",
+      "net": "GND",
+      "xy_mm": [
+        75.05,
+        65.22
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C25.2",
+      "net": "T13",
+      "xy_mm": [
+        76.95,
+        65.22
+      ],
+      "pdf_component": 48,
+      "reference_component": 48
+    },
+    {
+      "ref": "C19.1",
+      "net": "GND",
+      "xy_mm": [
+        75.05,
+        49.86
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C19.2",
+      "net": "T10",
+      "xy_mm": [
+        76.95,
+        49.86
+      ],
+      "pdf_component": 40,
+      "reference_component": 40
+    },
+    {
+      "ref": "C15.1",
+      "net": "GND",
+      "xy_mm": [
+        75.05,
+        39.620000000000005
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C15.2",
+      "net": "T8",
+      "xy_mm": [
+        76.95,
+        39.620000000000005
+      ],
+      "pdf_component": 33,
+      "reference_component": 33
+    },
+    {
+      "ref": "C12.1",
+      "net": "GND",
+      "xy_mm": [
+        77.55,
+        31.939999999999998
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C12.2",
+      "net": "T19",
+      "xy_mm": [
+        79.45,
+        31.939999999999998
+      ],
+      "pdf_component": 28,
+      "reference_component": 28
+    },
+    {
+      "ref": "C21.1",
+      "net": "GND",
+      "xy_mm": [
+        75.05,
+        54.980000000000004
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C21.2",
+      "net": "T11",
+      "xy_mm": [
+        76.95,
+        54.980000000000004
+      ],
+      "pdf_component": 43,
+      "reference_component": 43
+    },
+    {
+      "ref": "C20.1",
+      "net": "GND",
+      "xy_mm": [
+        77.55,
+        52.42
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C20.2",
+      "net": "T23",
+      "xy_mm": [
+        79.45,
+        52.42
+      ],
+      "pdf_component": 41,
+      "reference_component": 41
+    },
+    {
+      "ref": "C3.1",
+      "net": "GND",
+      "xy_mm": [
+        75.05,
+        8.9
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C3.2",
+      "net": "T2",
+      "xy_mm": [
+        76.95,
+        8.9
+      ],
+      "pdf_component": 9,
+      "reference_component": 9
+    },
+    {
+      "ref": "R20.1",
+      "net": "GP6",
+      "xy_mm": [
+        71.0875,
+        51.14
+      ],
+      "pdf_component": 42,
+      "reference_component": 42
+    },
+    {
+      "ref": "R20.2",
+      "net": "T23",
+      "xy_mm": [
+        72.9125,
+        51.14
+      ],
+      "pdf_component": 41,
+      "reference_component": 41
+    },
+    {
+      "ref": "R17.1",
+      "net": "GP9",
+      "xy_mm": [
+        71.0875,
+        43.459999999999994
+      ],
+      "pdf_component": 32,
+      "reference_component": 32
+    },
+    {
+      "ref": "R17.2",
+      "net": "T9",
+      "xy_mm": [
+        72.9125,
+        43.459999999999994
+      ],
+      "pdf_component": 37,
+      "reference_component": 37
+    },
+    {
+      "ref": "C1.1",
+      "net": "GND",
+      "xy_mm": [
+        75.05,
+        3.7800000000000002
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C1.2",
+      "net": "T1",
+      "xy_mm": [
+        76.95,
+        3.7800000000000002
+      ],
+      "pdf_component": 3,
+      "reference_component": 3
+    },
+    {
+      "ref": "R5.1",
+      "net": "GP21",
+      "xy_mm": [
+        71.0875,
+        12.739999999999998
+      ],
+      "pdf_component": 8,
+      "reference_component": 8
+    },
+    {
+      "ref": "R5.2",
+      "net": "T3",
+      "xy_mm": [
+        72.9125,
+        12.739999999999998
+      ],
+      "pdf_component": 14,
+      "reference_component": 14
+    },
+    {
+      "ref": "R11.1",
+      "net": "GP15",
+      "xy_mm": [
+        71.0875,
+        28.1
+      ],
+      "pdf_component": 18,
+      "reference_component": 18
+    },
+    {
+      "ref": "R11.2",
+      "net": "T6",
+      "xy_mm": [
+        72.9125,
+        28.1
+      ],
+      "pdf_component": 26,
+      "reference_component": 26
+    },
+    {
+      "ref": "R24.1",
+      "net": "GP2",
+      "xy_mm": [
+        71.0875,
+        61.379999999999995
+      ],
+      "pdf_component": 55,
+      "reference_component": 55
+    },
+    {
+      "ref": "R24.2",
+      "net": "T25",
+      "xy_mm": [
+        72.9125,
+        61.379999999999995
+      ],
+      "pdf_component": 46,
+      "reference_component": 46
+    },
+    {
+      "ref": "C17.1",
+      "net": "GND",
+      "xy_mm": [
+        75.05,
+        44.74
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C17.2",
+      "net": "T9",
+      "xy_mm": [
+        76.95,
+        44.74
+      ],
+      "pdf_component": 37,
+      "reference_component": 37
+    },
+    {
+      "ref": "C26.1",
+      "net": "GND",
+      "xy_mm": [
+        77.55,
+        67.78
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C26.2",
+      "net": "T26",
+      "xy_mm": [
+        79.45,
+        67.78
+      ],
+      "pdf_component": 49,
+      "reference_component": 49
+    },
+    {
+      "ref": "R6.1",
+      "net": "GP20",
+      "xy_mm": [
+        71.0875,
+        15.3
+      ],
+      "pdf_component": 10,
+      "reference_component": 10
+    },
+    {
+      "ref": "R6.2",
+      "net": "T16",
+      "xy_mm": [
+        72.9125,
+        15.3
+      ],
+      "pdf_component": 17,
+      "reference_component": 17
+    },
+    {
+      "ref": "R15.1",
+      "net": "GP11",
+      "xy_mm": [
+        71.0875,
+        38.34
+      ],
+      "pdf_component": 27,
+      "reference_component": 27
+    },
+    {
+      "ref": "R15.2",
+      "net": "T8",
+      "xy_mm": [
+        72.9125,
+        38.34
+      ],
+      "pdf_component": 33,
+      "reference_component": 33
+    },
+    {
+      "ref": "C24.1",
+      "net": "GND",
+      "xy_mm": [
+        77.55,
+        62.66
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C24.2",
+      "net": "T25",
+      "xy_mm": [
+        79.45,
+        62.66
+      ],
+      "pdf_component": 46,
+      "reference_component": 46
+    },
+    {
+      "ref": "R7.1",
+      "net": "GP19",
+      "xy_mm": [
+        71.0875,
+        17.86
+      ],
+      "pdf_component": 11,
+      "reference_component": 11
+    },
+    {
+      "ref": "R7.2",
+      "net": "T4",
+      "xy_mm": [
+        72.9125,
+        17.86
+      ],
+      "pdf_component": 19,
+      "reference_component": 19
+    },
+    {
+      "ref": "R26.1",
+      "net": "GP0",
+      "xy_mm": [
+        71.0875,
+        66.5
+      ],
+      "pdf_component": 59,
+      "reference_component": 59
+    },
+    {
+      "ref": "R26.2",
+      "net": "T26",
+      "xy_mm": [
+        72.9125,
+        66.5
+      ],
+      "pdf_component": 49,
+      "reference_component": 49
+    },
+    {
+      "ref": "R22.1",
+      "net": "GP4",
+      "xy_mm": [
+        71.0875,
+        56.260000000000005
+      ],
+      "pdf_component": 51,
+      "reference_component": 51
+    },
+    {
+      "ref": "R22.2",
+      "net": "T24",
+      "xy_mm": [
+        72.9125,
+        56.260000000000005
+      ],
+      "pdf_component": 44,
+      "reference_component": 44
+    },
+    {
+      "ref": "R2.1",
+      "net": "GP27",
+      "xy_mm": [
+        71.0875,
+        5.0600000000000005
+      ],
+      "pdf_component": 4,
+      "reference_component": 4
+    },
+    {
+      "ref": "R2.2",
+      "net": "T14",
+      "xy_mm": [
+        72.9125,
+        5.0600000000000005
+      ],
+      "pdf_component": 6,
+      "reference_component": 6
+    },
+    {
+      "ref": "R1.1",
+      "net": "GP28",
+      "xy_mm": [
+        71.0875,
+        2.5
+      ],
+      "pdf_component": 2,
+      "reference_component": 2
+    },
+    {
+      "ref": "R1.2",
+      "net": "T1",
+      "xy_mm": [
+        72.9125,
+        2.5
+      ],
+      "pdf_component": 3,
+      "reference_component": 3
+    },
+    {
+      "ref": "C7.1",
+      "net": "GND",
+      "xy_mm": [
+        75.05,
+        19.14
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C7.2",
+      "net": "T4",
+      "xy_mm": [
+        76.95,
+        19.14
+      ],
+      "pdf_component": 19,
+      "reference_component": 19
+    },
+    {
+      "ref": "R21.1",
+      "net": "GP5",
+      "xy_mm": [
+        71.0875,
+        53.7
+      ],
+      "pdf_component": 47,
+      "reference_component": 47
+    },
+    {
+      "ref": "R21.2",
+      "net": "T11",
+      "xy_mm": [
+        72.9125,
+        53.7
+      ],
+      "pdf_component": 43,
+      "reference_component": 43
+    },
+    {
+      "ref": "C2.1",
+      "net": "GND",
+      "xy_mm": [
+        77.55,
+        6.34
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C2.2",
+      "net": "T14",
+      "xy_mm": [
+        79.45,
+        6.34
+      ],
+      "pdf_component": 6,
+      "reference_component": 6
+    },
+    {
+      "ref": "R14.1",
+      "net": "GP12",
+      "xy_mm": [
+        71.0875,
+        35.78
+      ],
+      "pdf_component": 25,
+      "reference_component": 25
+    },
+    {
+      "ref": "R14.2",
+      "net": "T20",
+      "xy_mm": [
+        72.9125,
+        35.78
+      ],
+      "pdf_component": 31,
+      "reference_component": 31
+    },
+    {
+      "ref": "R13.1",
+      "net": "GP13",
+      "xy_mm": [
+        71.0875,
+        33.22
+      ],
+      "pdf_component": 23,
+      "reference_component": 23
+    },
+    {
+      "ref": "R13.2",
+      "net": "T7",
+      "xy_mm": [
+        72.9125,
+        33.22
+      ],
+      "pdf_component": 30,
+      "reference_component": 30
+    },
+    {
+      "ref": "R23.1",
+      "net": "GP3",
+      "xy_mm": [
+        71.0875,
+        58.82
+      ],
+      "pdf_component": 53,
+      "reference_component": 53
+    },
+    {
+      "ref": "R23.2",
+      "net": "T12",
+      "xy_mm": [
+        72.9125,
+        58.82
+      ],
+      "pdf_component": 45,
+      "reference_component": 45
+    },
+    {
+      "ref": "C8.1",
+      "net": "GND",
+      "xy_mm": [
+        77.55,
+        21.700000000000003
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C8.2",
+      "net": "T17",
+      "xy_mm": [
+        79.45,
+        21.700000000000003
+      ],
+      "pdf_component": 21,
+      "reference_component": 21
+    },
+    {
+      "ref": "C5.1",
+      "net": "GND",
+      "xy_mm": [
+        75.05,
+        14.02
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C5.2",
+      "net": "T3",
+      "xy_mm": [
+        76.95,
+        14.02
+      ],
+      "pdf_component": 14,
+      "reference_component": 14
+    },
+    {
+      "ref": "R9.1",
+      "net": "GP17",
+      "xy_mm": [
+        71.0875,
+        22.98
+      ],
+      "pdf_component": 15,
+      "reference_component": 15
+    },
+    {
+      "ref": "R9.2",
+      "net": "T5",
+      "xy_mm": [
+        72.9125,
+        22.98
+      ],
+      "pdf_component": 22,
+      "reference_component": 22
+    },
+    {
+      "ref": "C13.1",
+      "net": "GND",
+      "xy_mm": [
+        75.05,
+        34.5
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C13.2",
+      "net": "T7",
+      "xy_mm": [
+        76.95,
+        34.5
+      ],
+      "pdf_component": 30,
+      "reference_component": 30
+    },
+    {
+      "ref": "C18.1",
+      "net": "GND",
+      "xy_mm": [
+        77.55,
+        47.3
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C18.2",
+      "net": "T22",
+      "xy_mm": [
+        79.45,
+        47.3
+      ],
+      "pdf_component": 38,
+      "reference_component": 38
+    },
+    {
+      "ref": "R8.1",
+      "net": "GP18",
+      "xy_mm": [
+        71.0875,
+        20.42
+      ],
+      "pdf_component": 13,
+      "reference_component": 13
+    },
+    {
+      "ref": "R8.2",
+      "net": "T17",
+      "xy_mm": [
+        72.9125,
+        20.42
+      ],
+      "pdf_component": 21,
+      "reference_component": 21
+    },
+    {
+      "ref": "C6.1",
+      "net": "GND",
+      "xy_mm": [
+        77.55,
+        16.58
+      ],
+      "pdf_component": 1,
+      "reference_component": 1
+    },
+    {
+      "ref": "C6.2",
+      "net": "T16",
+      "xy_mm": [
+        79.45,
+        16.58
+      ],
+      "pdf_component": 17,
+      "reference_component": 17
+    },
+    {
+      "ref": "R25.1",
+      "net": "GP1",
+      "xy_mm": [
+        71.0875,
+        63.94
+      ],
+      "pdf_component": 57,
+      "reference_component": 57
+    },
+    {
+      "ref": "R25.2",
+      "net": "T13",
+      "xy_mm": [
+        72.9125,
+        63.94
+      ],
+      "pdf_component": 48,
+      "reference_component": 48
+    },
+    {
+      "ref": "R12.1",
+      "net": "GP14",
+      "xy_mm": [
+        71.0875,
+        30.66
+      ],
+      "pdf_component": 20,
+      "reference_component": 20
+    },
+    {
+      "ref": "R12.2",
+      "net": "T19",
+      "xy_mm": [
+        72.9125,
+        30.66
+      ],
+      "pdf_component": 28,
+      "reference_component": 28
+    },
+    {
+      "ref": "R18.1",
+      "net": "GP8",
+      "xy_mm": [
+        71.0875,
+        46.019999999999996
+      ],
+      "pdf_component": 36,
+      "reference_component": 36
+    },
+    {
+      "ref": "R18.2",
+      "net": "T22",
+      "xy_mm": [
+        72.9125,
+        46.019999999999996
+      ],
+      "pdf_component": 38,
+      "reference_component": 38
+    }
+  ],
+  "connected_nets_checked": 59,
+  "pdf_sha256": "5e7575cbb21aacb84afadee8a566e40cbfdbef8d0e812a4457578d6cac815cee",
+  "board_sha256": "f3396c3f659745fc067ef989725b484832d5bb9a529454cedcbefde0b792f295",
+  "dpi": 1200,
+  "page_points": [
+    612,
+    792
+  ],
+  "board_bbox_page_mm": [
+    57.95,
+    104.7,
+    157.95,
+    174.7
+  ],
+  "compared_pixels": 15633608,
+  "registration": "absolute page coordinates; no fitted translation, rotation, scaling or mirroring",
+  "copper_polarity": "white/clear copper; black drill holes and etched gaps",
+  "edge_clearance_pixel_centers_mm": {
+    "left": 0.6075833333333307,
+    "top": 0.6147500000000008,
+    "right": 0.607583333333352,
+    "bottom": 0.6147500000000008
+  },
+  "conservative_min_edge_clearance_mm": 0.5969999999999973,
+  "nonmirrored_xor_fraction": 0.0013123650023718133,
+  "mirrored_xor_fraction": 0.3770948459242422,
+  "extra_clear_pixel_max_distance_from_expected_copper_mm": 0.021166666666666667,
+  "missing_clear_pixel_max_distance_from_actual_pdf_copper_mm": 0.029934187070230513,
+  "boundary_tolerance_mm": 0.03,
+  "actual_pdf_copper_components": 59,
+  "pcb_projection_copper_components": 59,
+  "removed_old_GND_tracks": [
+    {
+      "a": [
+        75.05,
+        24.26
+      ],
+      "b": [
+        66.0,
+        24.26
+      ]
+    },
+    {
+      "a": [
+        66.0,
+        24.26
+      ],
+      "b": [
+        64.11,
+        24.26
+      ]
+    },
+    {
+      "a": [
+        52.975,
+        13.125
+      ],
+      "b": [
+        13.5,
+        13.125
+      ]
+    },
+    {
+      "a": [
+        13.5,
+        13.125
+      ],
+      "b": [
+        13.5,
+        17.27
+      ]
+    },
+    {
+      "a": [
+        64.11,
+        24.26
+      ],
+      "b": [
+        52.975,
+        13.125
+      ]
+    },
+    {
+      "a": [
+        13.5,
+        17.27
+      ],
+      "b": [
+        18.0,
+        17.27
+      ]
+    }
+  ],
+  "identified_disputed_features": {
+    "lower_right_tab": {
+      "net": "T26",
+      "part": "C26.2",
+      "pad_bbox_mm": [
+        78.95,
+        67.055,
+        79.95,
+        68.505
+      ],
+      "pad_to_bottom_edge_mm": 1.495,
+      "feed_mm": [
+        [
+          79.45,
+          66.5
+        ],
+        [
+          79.45,
+          67.78
+        ]
+      ],
+      "identity": "functional capacitor signal pad, connected in actual PDF to R26.2 and J4.13, not a dangling GND escape",
+      "continuity": {
+        "points_mm": [
+          [
+            72.9125,
+            66.5
+          ],
+          [
+            79.45,
+            66.5
+          ],
+          [
+            79.45,
+            67.78
+          ],
+          [
+            95.65,
+            50.48
+          ]
+        ],
+        "pdf_copper_component": 49
+      }
+    },
+    "left_side_exit": {
+      "net": "GP28",
+      "part": "J2.14 to R1.1",
+      "turn_mm": [
+        0.8,
+        49.02
+      ],
+      "trace_leftmost_mm": 0.65,
+      "identity": "white signal turns upward inside board; adjacent black isolation opens to etched border, not copper touching edge",
+      "continuity": {
+        "points_mm": [
+          [
+            15.65,
+            49.02
+          ],
+          [
+            0.8,
+            49.02
+          ],
+          [
+            0.8,
+            0.8
+          ],
+          [
+            71.0875,
+            2.5
+          ]
+        ],
+        "pdf_copper_component": 2
+      }
+    }
+  },
+  "conclusion": "PASS: actual final PDF matches independently rendered final copper and drill reference within 0.03 mm boundary raster tolerance; every pad passes net connectivity with no shorts; no extra tab or edge contact."
+}

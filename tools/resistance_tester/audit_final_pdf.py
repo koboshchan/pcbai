@@ -5,7 +5,7 @@ Run audit_copper.py --extract in KiCad 10 first, and refresh
 pdf-projection-extract.json (actual through-hole drill centers/sizes).
 Raster comparison uses absolute page coordinates, never registration/fitting.
 """
-import json,hashlib,sys
+import json,hashlib,sys,subprocess,re
 from pathlib import Path
 R=Path(__file__).resolve().parent
 E=R/'evidence'
@@ -38,6 +38,16 @@ mm=72/25.4; dpi=1200; ppm=dpi/25.4
 offset=np.array([57.95,104.7])
 def pt(xy):return fitz.Point(*((np.asarray(xy)+offset)*mm))
 doc=fitz.open(pdf);page=doc[0]
+# Physical scale and orientation from actual PDF vector pin-1 pad rectangles.
+pad_rectangles=[]
+for x in [95,97.54]:
+ target=fitz.Rect(pt([x-.85,19.3]),pt([x+.85,20.7]))
+ matches=[d for d in page.get_drawings() if d['fill']==(1,1,1) and all(abs(a-b)<.002 for a,b in zip(d['rect'],target))]
+ assert len(matches)==1,(x,len(matches))
+ pad_rectangles.append(matches[0]['rect'])
+pitch=(pad_rectangles[1].x0-pad_rectangles[0].x0)/mm
+assert abs(pitch-2.54)<.0001
+
 assert len(doc)==1 and abs(page.rect.width-612)<1e-5 and abs(page.rect.height-792)<1e-5
 ref=fitz.open();p=ref.new_page(width=612,height=792)
 p.draw_rect(p.rect,color=None,fill=(0,0,0))
@@ -54,6 +64,25 @@ for t in geom['tracks']:
 for d in aux['drills']:
  x,y=d['xy'];dx,dy=np.array(d['size'])/2
  p.draw_oval(fitz.Rect(pt([x-dx,y-dy]),pt([x+dx,y+dy])),color=None,fill=(0,0,0))
+gerber_mode='--gerber' in sys.argv
+if gerber_mode:
+ # Independent gerbv RS274X/Excellon renderer, actual fabrication files.
+ svgpath=E/'gerbv-final-copper-drills.svg'
+ cmd=['gerbv','-x','svg','-o',str(svgpath),'-B','0','-O','0x-2.755905512',
+  '-D','254','-w','1000x700','-b','#000000','-f','#000000','-f','#ffffff',
+  str(R/'fabrication/fingerprint.drl'),str(R/'fabrication/fingerprint-B_Cu.gbl')]
+ result=subprocess.run(cmd,capture_output=True,text=True,check=True)
+ warnings=re.findall(r'Unknown RS-274X extension found %([^%]+)%',result.stderr)
+ assert set(warnings)<=set(['TF','TA','TO','TD']),result.stderr
+ other=re.sub(r'.*Unknown RS-274X extension found.*','',result.stderr).strip()
+ assert not other,other
+ import xml.etree.ElementTree as ET
+ root=ET.fromstring(svgpath.read_bytes());root.set('width','100mm');root.set('height','70mm')
+ svgdoc=fitz.open(stream=ET.tostring(root),filetype='svg')
+ svgpdf=fitz.open(stream=svgdoc.convert_to_pdf(),filetype='pdf')
+ ref=fitz.open();p=ref.new_page(width=612,height=792)
+ p.draw_rect(p.rect,color=None,fill=(0,0,0))
+ p.show_pdf_page(fitz.Rect(pt([0,0]),pt([100,70])),svgpdf,0)
 clip=fitz.Rect(pt([0,0]),pt([100,70]))
 def raster(pg):
  pix=pg.get_pixmap(matrix=fitz.Matrix(dpi/72,dpi/72),clip=clip,colorspace=fitz.csGRAY,alpha=False)
@@ -61,6 +90,12 @@ def raster(pg):
 pix,a=raster(page);rp,b=raster(p)
 assert (pix.x,pix.y,pix.width,pix.height)==(rp.x,rp.y,rp.width,rp.height)
 A=a>=128;B=b>=128
+polarity_samples={}
+for (x,y),expected in [((.8,20),True),((.1,20),False),((95,20),False),((95.65,20),True)]:
+ ix=round((x+offset[0])*ppm-pix.x-.5);iy=round((y+offset[1])*ppm-pix.y-.5)
+ assert bool(A[iy,ix])==expected,(x,y,int(a[iy,ix]))
+ polarity_samples[str((x,y))]=int(a[iy,ix])
+
 # Only forgive sub-0.03 mm boundary tessellation/raster differences.
 # This is tighter than a single 0.3 mm trace by more than an order of magnitude.
 distB=ndi.distance_transform_edt(~B)
@@ -91,7 +126,7 @@ for y0 in range(0,71,10):
 preview.resize((2000,1400)).save(E/'final-pdf-coordinate-preview.png')
 diff=np.zeros((*A.shape,3),dtype=np.uint8);diff[B]=(180,180,180)
 diff[extra]=(255,0,0);diff[missing]=(0,80,255)
-Image.fromarray(diff).resize((2000,1400)).save(E/'final-pdf-projection-diff.png')
+Image.fromarray(diff).resize((2000,1400)).save(E/('final-pdf-gerber-diff.png' if gerber_mode else 'final-pdf-projection-diff.png'))
 # Component inventory guards against an added isolated tab or missing connection.
 la,na=ndi.label(A);lb,nb=ndi.label(B)
 sa=np.sort(np.bincount(la.ravel())[1:]);sb=np.sort(np.bincount(lb.ravel())[1:])
@@ -115,7 +150,33 @@ features=dict(
  identity='functional capacitor signal pad, connected in actual PDF to R26.2 and J4.13, not a dangling GND escape',continuity=tab),
  left_side_exit=dict(net='GP28',part='J2.14 to R1.1',turn_mm=[.8,49.02],
  trace_leftmost_mm=.65,identity='white signal turns upward inside board; adjacent black isolation opens to etched border, not copper touching edge',continuity=side))
-out=dict(pdf_sha256=hashlib.sha256(pdf.read_bytes()).hexdigest(),
+# Compare every pad's actual PDF component against its physical net assignment.
+# THT centers are black drill holes, so sample their right copper annulus.
+net_components={};pad_checks=[]
+for item in geom['items']:
+ if item['kind']!='pad':continue
+ ring=item['polys'][0]['shell'];xs=[v[0] for v in ring];ys=[v[1] for v in ring]
+ x=(min(xs)+max(xs))/2;y=(min(ys)+max(ys))/2
+ if item['ref'].startswith('J'):x+=.65
+ component=actual_component(x,y)
+ ix=round((x+offset[0])*ppm-pix.x-.5);iy=round((y+offset[1])*ppm-pix.y-.5)
+ gc=int(lb[iy,ix]);assert component>0 and gc>0,(item['ref'],component,gc)
+ net=item['net'] or 'NC:'+item['ref']
+ net_components.setdefault(net,set()).add(component)
+ pad_checks.append(dict(ref=item['ref'],net=net,xy_mm=[x,y],pdf_component=component,reference_component=gc))
+assert all(len(c)==1 for c in net_components.values()),net_components
+assert len({next(iter(c)) for c in net_components.values()})==len(net_components)
+# A reference-component mapping must be one-to-one for all pads.
+mapping={};reverse={}
+for row in pad_checks:
+ mapping.setdefault(row['pdf_component'],set()).add(row['reference_component'])
+ reverse.setdefault(row['reference_component'],set()).add(row['pdf_component'])
+assert all(len(c)==1 for c in list(mapping.values())+list(reverse.values()))
+out=dict(reference='gerbv RS274X + Excellon final fabrication files' if gerber_mode else 'KiCad PCB projection',
+ measured_actual_pdf_header_pitch_mm=pitch,scale=1,mirrored=False,gerber_sha256=hashlib.sha256((R/'fabrication/fingerprint-B_Cu.gbl').read_bytes()).hexdigest(),
+ drill_sha256=hashlib.sha256((R/'fabrication/fingerprint.drl').read_bytes()).hexdigest(),
+ polarity_samples_gray=polarity_samples,all_pads_connectivity=pad_checks,connected_nets_checked=len(net_components),
+ pdf_sha256=hashlib.sha256(pdf.read_bytes()).hexdigest(),
  board_sha256=geom['board_sha256'],dpi=dpi,page_points=[612,792],
  board_bbox_page_mm=[57.95,104.7,157.95,174.7],
  compared_pixels=int(A.size),registration='absolute page coordinates; no fitted translation, rotation, scaling or mirroring',
@@ -126,6 +187,6 @@ out=dict(pdf_sha256=hashlib.sha256(pdf.read_bytes()).hexdigest(),
  missing_clear_pixel_max_distance_from_actual_pdf_copper_mm=missing_max,
  boundary_tolerance_mm=.03,actual_pdf_copper_components=int(na),pcb_projection_copper_components=int(nb),
  removed_old_GND_tracks=aux.get('removed_ground_tracks',[]),identified_disputed_features=features,
- conclusion='Actual PDF matches independently extracted FINAL PCB copper, including drill subtraction, within 0.03 mm boundary raster/tessellation tolerance; no added trace/tab, missing connection or edge contact.')
-(E/'final-pdf-projection-audit.json').write_text(json.dumps(out,indent=2)+'\n')
+ conclusion='PASS: actual final PDF matches independently rendered final copper and drill reference within 0.03 mm boundary raster tolerance; every pad passes net connectivity with no shorts; no extra tab or edge contact.')
+(E/('final-pdf-gerber-audit.json' if gerber_mode else 'final-pdf-projection-audit.json')).write_text(json.dumps(out,indent=2)+'\n')
 print(json.dumps(out,indent=2))
