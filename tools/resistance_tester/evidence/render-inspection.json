@@ -42,9 +42,10 @@
   "firmware_updated": false,
   "hardware_calibration_verified": false,
   "renders_sha256": {
-    "render-top.png": "bd1407c2e637922f16f891c6574a655cd55b27e13b3116b9470dcebebf02213f",
-    "render-bottom.png": "73b176a07fc7cf774eb5c980b2954fc1a2b87baf191f3378ea8ab77497aeadc3"
+    "render-top.png": "0db31604a35b4599351c89e7b6164402ad180154151dc78429284dff7fc9294e",
+    "render-bottom.png": "b5e8a671bec7a6b5c2d5d317bc96151c204579cf026deb07dd309a120d7befb4"
   },
   "gpio_map_preserved": true,
-  "firmware_preserved": true
+  "firmware_preserved": true,
+  "photoresist_revision": "0.3 mm spacing, 0.3 mm tracks; U-shaped GND escape removed; copper edge >=0.6 mm"
 }

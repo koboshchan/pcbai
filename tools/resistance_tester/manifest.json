@@ -575,7 +575,7 @@
   "repeats": 8,
   "scan_rows": 5408,
   "min_trace_mm": 0.3,
-  "min_clearance_mm": 0.4,
+  "min_clearance_mm": 0.3,
   "gpio_map": [
     {
       "test": 1,

@@ -646,6 +646,5 @@
       "series_resistor": "R26"
     }
   ],
-  "pcb_sha256": "bbe66ed242a623b022ecadb611f56fa77393f9e37f1a4962ddef4f78dd0fe59f",
-  "copper_track_and_pad_geometry_identical_to_previous_commit": true
+  "pcb_sha256": "f3396c3f659745fc067ef989725b484832d5bb9a529454cedcbefde0b792f295"
 }

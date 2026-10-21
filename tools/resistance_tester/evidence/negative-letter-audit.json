@@ -1,0 +1,49 @@
+{
+  "pdf": "/home/kit/out/resistance-tester/rt-negative-letter-v2.pdf",
+  "pdf_sha256": "5e7575cbb21aacb84afadee8a566e40cbfdbef8d0e812a4457578d6cac815cee",
+  "source_svg_sha256": "e4c35e4eadc865884238843c96795a4355550686ce67b95f83ee15e8ec4ab7da",
+  "page_points": [
+    612.0,
+    792.0
+  ],
+  "page_mm": [
+    215.9,
+    279.4
+  ],
+  "board_mm": [
+    100,
+    70
+  ],
+  "board_top_left_on_page_mm": [
+    57.95,
+    104.7
+  ],
+  "scale": 1,
+  "mirrored": false,
+  "polarity": "white/transparent copper on opaque black; drill centers black",
+  "measured_pdf_header_pitch_mm": 2.5399935404459635,
+  "pdf_anchor_pads": "J4.1 x95 then J3.1 x97.54; y20; rectangular 1.7x1.4mm",
+  "pdf_raster_samples": {
+    "(0.8, 20)": [
+      255,
+      255,
+      255
+    ],
+    "(0.1, 20)": [
+      0,
+      0,
+      0
+    ],
+    "(95, 20)": [
+      0,
+      0,
+      0
+    ],
+    "(95.65, 20)": [
+      255,
+      255,
+      255
+    ]
+  },
+  "print_instruction": "US Letter, Actual Size / 100%; no Fit/Shrink, no mirror"
+}

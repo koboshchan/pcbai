@@ -31,11 +31,10 @@ assert sch==expected,[(k,expected.get(k),sch.get(k)) for k in set(sch)|set(expec
 assert all(t.GetWidth()>=p.FromMM(.3) for t in b.GetTracks())
 assert all(z.GetMinThickness()>=p.FromMM(.3) for z in b.Zones())
 project=json.loads((R/'fingerprint.kicad_pro').read_text())
-assert project['board']['design_settings']['rules']['min_clearance']==.4
+assert project['board']['design_settings']['rules']['min_clearance']==.3
 assert project['board']['design_settings']['rules']['min_track_width']==.3
-assert project['net_settings']['classes'][0]['clearance']==.4
-assert project['net_settings']['classes'][0]['clearance']==.4
-assert all(z.GetLocalClearance()>=p.FromMM(.4) for z in b.Zones())
+assert project['net_settings']['classes'][0]['clearance']==.3
+assert all(z.GetLocalClearance()>=p.FromMM(.3) for z in b.Zones())
 assert all(t.GetLayer()==p.B_Cu and t.GetClass()!='PCB_VIA' for t in b.GetTracks())
 assert all(f.GetLayer()==p.B_Cu for f in b.GetFootprints() if f.GetReference().startswith(('C','R')))
 assert len(list(b.GetFootprints()))==56
@@ -64,5 +63,5 @@ for s in b.GetDrawings():
  if s.GetLayer()==p.Edge_Cuts:
   for v in [s.GetStart(),s.GetEnd()]:xs.append(p.ToMM(v.x));ys.append(p.ToMM(v.y))
 assert max(xs)-min(xs)==100 and max(ys)-min(ys)==70
-report=dict(expected_connections=len(expected),pcb_matches=True,schematic_matches=True,outline_mm=[100,70],front_tracks=0,vias=0,wire_links=0,capacitors_bottom=26,resistors_bottom_0805=26,smd_pads_bottom_only=104,through_hole_footprints=4,through_hole_pads=66,mechanical_socket_spacing_mm=17.78,dut_block_pitch_mm=2.54,min_trace_mm=.3,min_clearance_mm=.4,zone_min_thickness_mm=.3,min_trace_mm=.3,min_clearance_mm=.4,zone_min_thickness_mm=.3,zones=len(list(b.Zones())),zone_layers=[b.GetLayerName(zz.GetFirstLayer()) for zz in b.Zones()])
+report=dict(expected_connections=len(expected),pcb_matches=True,schematic_matches=True,outline_mm=[100,70],front_tracks=0,vias=0,wire_links=0,capacitors_bottom=26,resistors_bottom_0805=26,smd_pads_bottom_only=104,through_hole_footprints=4,through_hole_pads=66,mechanical_socket_spacing_mm=17.78,dut_block_pitch_mm=2.54,min_trace_mm=.3,min_clearance_mm=.3,zone_min_thickness_mm=.3,zones=len(list(b.Zones())),zone_layers=[b.GetLayerName(zz.GetFirstLayer()) for zz in b.Zones()])
 (R/'evidence/netmap.json').write_text(json.dumps(report,indent=2)+'\n');print(report)

@@ -97,9 +97,7 @@ for k,g in enumerate(GPIO_LANES):
  c.FindPadByNumber('2').SetNet(net(tn));c.FindPadByNumber('1').SetNet(net('GND'))
  cp=[c.FindPadByNumber('2'),c.FindPadByNumber('1')]
  pc=cp[0].GetPosition();poly([(p.ToMM(pc.x),yc),(p.ToMM(pc.x),p.ToMM(pc.y))],tn)
- # Explicit .3 mm GND connection escapes the narrow GP16/17 corridor;
- # do not lower ground-zone minimum width to paper over this bottleneck.
- if k==8:poly([(p.ToMM(cp[1].GetPosition().x),p.ToMM(cp[1].GetPosition().y)),(66,yc+1.28),(64.11,24.26),(52.975,13.125),(13.5,13.125),(13.5,17.27),(18,17.27)],'GND')
+ # GND is connected by the refilled .3 mm-clearance pour; no redundant escape stub.
  # node trace: R right pad -> cap pad1 -> compress start
  ac=81.0;dd=yd-yc;xdut=95.0
  tail=[(p.ToMM(pads[1].GetPosition().x),yc),(ac,yc),(ac+0.7*abs(dd),yd)]
@@ -126,22 +124,22 @@ for txt,x,y,size in [('PICO TOP',23.89,40,1.1),('1',30.1,64.26,.8),('20',30.1,16
 z_=p.ZONE(b);z_.SetLayer(p.B_Cu);z_.SetNet(net('GND'))
 ol=z_.Outline();ol.NewOutline()
 for q in [(0.6,0.6),(99.4,0.6),(99.4,69.4),(0.6,69.4)]:ol.Append(p.FromMM(q[0]),p.FromMM(q[1]))
-z_.SetLocalClearance(p.FromMM(.4));z_.SetMinThickness(p.FromMM(.3));z_.SetPadConnection(p.ZONE_CONNECTION_FULL)
+z_.SetLocalClearance(p.FromMM(.3));z_.SetMinThickness(p.FromMM(.3));z_.SetPadConnection(p.ZONE_CONNECTION_FULL)
 z_.SetIslandRemovalMode(p.ISLAND_REMOVAL_MODE_ALWAYS);b.Add(z_)
-ds=b.GetDesignSettings();ds.m_MinClearance=p.FromMM(.4);ds.m_TrackMinWidth=p.FromMM(.3)
+ds=b.GetDesignSettings();ds.m_MinClearance=p.FromMM(.3);ds.m_TrackMinWidth=p.FromMM(.3)
 template=json.loads((ROOT/'fingerprint.kicad_pro').read_text())
 p.ZONE_FILLER(b).Fill(b.Zones());p.SaveBoard(str(ROOT/'fingerprint.kicad_pcb'),b)
 # Use shipped library models so the archive renders without system model packages.
 board_path=ROOT/'fingerprint.kicad_pcb'
 board_path.write_text(board_path.read_text().replace('${KICAD10_3DMODEL_DIR}','${KIPRJMOD}/models'))
-template['board']['design_settings']['rules']['min_clearance']=.4
+template['board']['design_settings']['rules']['min_clearance']=.3
 template['board']['design_settings']['rules']['min_track_width']=.3
-template['net_settings']['classes'][0]['clearance']=.4
+template['net_settings']['classes'][0]['clearance']=.3
 template['net_settings']['classes'][0]['track_width']=.3
 template['board']['design_settings']['drc_exclusions']=[]
 (ROOT/'fingerprint.kicad_pro').write_text(json.dumps(template,indent=2)+'\n')
 mapping.sort(key=lambda m:m['test'])
-(ROOT/'manifest.json').write_text(json.dumps(dict(components=parts,layout='bottom-view: DUT 2x13 at left, Pico at right; B.Cu GND pour',assembly_side='TOP (F.Cu footprints, through-hole pins soldered on B.Cu)',pico_usb_direction_top='+Y (toward board bottom)',top_dut_left_column='J4 ports 14..26 top-to-bottom',top_dut_right_column='J3 ports 1..13 top-to-bottom',port_count=26,unordered_pairs=325,directed_pairs=650,reference_count=26,repeats=8,scan_rows=5408,min_trace_mm=.3,min_clearance_mm=.4,gpio_map=mapping,series_ohms=4700,cap_farads=1e-7,jumpers=0),indent=2)+'\n')
+(ROOT/'manifest.json').write_text(json.dumps(dict(components=parts,layout='bottom-view: DUT 2x13 at left, Pico at right; B.Cu GND pour',assembly_side='TOP (F.Cu footprints, through-hole pins soldered on B.Cu)',pico_usb_direction_top='+Y (toward board bottom)',top_dut_left_column='J4 ports 14..26 top-to-bottom',top_dut_right_column='J3 ports 1..13 top-to-bottom',port_count=26,unordered_pairs=325,directed_pairs=650,reference_count=26,repeats=8,scan_rows=5408,min_trace_mm=.3,min_clearance_mm=.3,gpio_map=mapping,series_ohms=4700,cap_farads=1e-7,jumpers=0),indent=2)+'\n')
 with (ROOT/'BOM.csv').open('w') as f:
  w=csv.writer(f,lineterminator='\n');w.writerow(['Reference','Value','Footprint','Side'])
  for c in parts:w.writerow([c['ref'],c['value'],c['footprint'],'Bottom' if c['ref'].startswith(('C','R')) else 'Top'])

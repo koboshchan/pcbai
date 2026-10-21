@@ -17,7 +17,7 @@
   "mechanical_socket_spacing_mm": 17.78,
   "dut_block_pitch_mm": 2.54,
   "min_trace_mm": 0.3,
-  "min_clearance_mm": 0.4,
+  "min_clearance_mm": 0.3,
   "zone_min_thickness_mm": 0.3,
   "zones": 1,
   "zone_layers": [

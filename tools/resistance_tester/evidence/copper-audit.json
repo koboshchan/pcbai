@@ -1,0 +1,26 @@
+{
+  "board_sha256": "f3396c3f659745fc067ef989725b484832d5bb9a529454cedcbefde0b792f295",
+  "outline_mm": [
+    100,
+    70
+  ],
+  "track_count": 215,
+  "all_tracks_mm": 0.3,
+  "min_measured_net_clearance_mm": 0.30049899194429364,
+  "closest_nets": [
+    "GND",
+    "T26"
+  ],
+  "required_clearance_mm": 0.3,
+  "minimum_copper_edge_mm": 0.5999999999999943,
+  "limiting_copper": [
+    "zone",
+    null,
+    "GND"
+  ],
+  "required_edge_clearance_mm": 0.5,
+  "dangling_track_endpoints": [],
+  "explicit_ground_tracks": 0,
+  "ground_u_escape_removed": true,
+  "filled_ground_islands": 1
+}

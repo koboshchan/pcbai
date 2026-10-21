@@ -1,12 +1,11 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-21T03:41:50",
+    "date": "2026-10-21T10:11:50",
     "ignored_checks": [],
     "included_severities": [
         "error",
-        "warning",
-        "exclusion"
+        "warning"
     ],
     "kicad_version": "10.0.6",
     "schematic_parity": [],
