@@ -1,5 +1,5 @@
 {
-  "description": "Flying leads to actual DC3 net labels. Do not interpret as a mating DC3 connector. ACT10..15 and rails remain unwired; internal DUT GND floats.",
+  "description": "26-port harness: ports 1-10 SCORE_0..9; ports 11-26 ACT_0..15. Unpowered DC3 rails remain floating; connection labels must match board nets.",
   "port_nets": [
     "SCORE_0",
     "SCORE_1",
@@ -20,6 +20,12 @@
     "ACT_6",
     "ACT_7",
     "ACT_8",
-    "ACT_9"
+    "ACT_9",
+    "ACT_10",
+    "ACT_11",
+    "ACT_12",
+    "ACT_13",
+    "ACT_14",
+    "ACT_15"
   ]
 }

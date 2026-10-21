@@ -1,11 +1,11 @@
 {
   "component_counts": {
     "J": 4,
-    "R": 20,
-    "C": 20
+    "R": 26,
+    "C": 26
   },
   "drill_holes": {
-    "T1": 60
+    "T1": 66
   },
   "outline_mm": [
     100,
@@ -23,5 +23,5 @@
     "fingerprint-Edge_Cuts.gm1",
     "fingerprint.drl"
   ],
-  "sha256": "390fe50b7ddf812226560c19f9b47e6ed169799fd66b0b14e42cef4748273ad0"
+  "sha256": "9a4c74735a157efcbb4dc0da83b6ea8f56be9ba6818fee6e9c7c9519ed593ab1"
 }

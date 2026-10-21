@@ -15,7 +15,7 @@ def stamp(m,a,b,value):
 
 class Network:
  def __init__(self,dut,port_nets,series=4700.,cap=1e-7,parasitic=1e-12):
-  if len(port_nets)!=20 or len(set(port_nets))!=20:raise ValueError("20 distinct test nets")
+  if len(port_nets)<2 or len(set(port_nets))!=len(port_nets):raise ValueError("at least two distinct test nets")
   self.names=sorted(set(port_nets)|{e[k] for kind in ['resistors','capacitors'] for e in dut.get(kind,[]) for k in ['a','b'] if e[k]})
   self.idx={s:i for i,s in enumerate(self.names)};self.ports=[self.idx[n] for n in port_nets];self.rs=series
   n=len(self.names);self.g=np.eye(n)*1e-14;self.c=np.eye(n)*parasitic
@@ -60,14 +60,14 @@ class Network:
  def fingerprints(self,threshold=1.3,timeout=5.,references=True):
   v0=self.precharge()
   if references:
-   for sense in range(20):
+   for sense in range(len(self.ports)):
     t,status=self.crossing(sense,None,threshold,timeout,v0)
     yield [sense+1,0,sense+1,0,0,'' if t is None else t*1e6,status]
-  # Same sink drives 19 sense nodes, so diagonalization is reused.
-  responses=[self.sink_response(s,v0) for s in range(20)]
+  # Same sink drives all other sense nodes, so diagonalization is reused.
+  responses=[self.sink_response(s,v0) for s in range(len(self.ports))]
   times=np.r_[0,np.geomspace(1e-8,timeout,500)]
   waves=[np.array([f(t) for t in times]) for f in responses]
-  for a,b in itertools.combinations(range(20),2):
+  for a,b in itertools.combinations(range(len(self.ports)),2):
    for sense,sink in [(a,b),(b,a)]:
     p=self.ports[sense];w=waves[sink][:,p]
     hits=np.flatnonzero(w<=threshold)
@@ -87,4 +87,4 @@ if __name__=='__main__':
  n=Network(dut,ports)
  with open(args.output,'w') as f:
   w=csv.writer(f,lineterminator="\n");w.writerow(['pair_a','pair_b','sense','sink','repeat','fall_us','status','window_us']);w.writerows(row+[int(args.timeout*1e6)] for row in n.fingerprints(args.threshold,args.timeout))
- print('20 no-sink references + 380 directed fingerprints, resistor-only/nonlinear-omitted model; calibrate threshold and use golden board')
+ print(f'{len(ports)} no-sink references + {len(ports)*(len(ports)-1)} directed fingerprints, resistor-only/nonlinear-omitted model; calibrate threshold and use golden board')

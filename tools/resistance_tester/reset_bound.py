@@ -6,24 +6,24 @@ import numpy as np
 from scipy.linalg import eigh
 from model import Network
 
-def report():
+def report(port_count=26):
  rmax=4700*1.01;cmax=100e-9*1.10;hold=.1
  # Every port capacitor has its OWN low GPIO path through Rs.
  # With passive nonnegative inter-port R, at the maximum-voltage node,
  # inter-port current cannot raise it. Therefore max V <= V0 exp(-t/RmaxCmax).
  tau=rmax*cmax
- g=np.eye(20)/rmax
- for a in range(19):
+ g=np.eye(port_count)/rmax
+ for a in range(port_count-1):
   b=a+1;conductance=1/1000.
   g[a,a]+=conductance;g[b,b]+=conductance
   g[a,b]-=conductance;g[b,a]-=conductance
- eigen=eigh(g,np.eye(20)*cmax,eigvals_only=True)
- data=dict(hold_seconds=hold,initial_volts=3.3,series_max_ohms=rmax,
+ eigen=eigh(g,np.eye(port_count)*cmax,eigvals_only=True)
+ data=dict(port_count=port_count,hold_seconds=hold,initial_volts=3.3,series_max_ohms=rmax,
            fixture_cap_max_farads=cmax,fixture_max_tau_seconds=tau,
            fixture_max_residual_volts=3.3*math.exp(-hold/tau),
-           twenty_port_1k_chain_min_decay_per_second=float(eigen[0]),
-           twenty_port_1k_chain_tau_seconds=float(1/eigen[0]),
-           applies_only_to='20 directly shunted fixture caps, ideal low GPIOs, linear passive inter-port resistors',
+           fixture_chain_1k_chain_min_decay_per_second=float(eigen[0]),
+           fixture_chain_1k_chain_tau_seconds=float(1/eigen[0]),
+           applies_only_to='26 directly shunted fixture caps, ideal low GPIOs, linear passive inter-port resistors',
            excludes='GPIO VOL/ground offset, X7R absorption, added DUT capacitors, hidden/nonlinear/isolated rail charge')
  root=Path(__file__).resolve().parent
  dut=json.loads((root/'dc3-passive.json').read_text())

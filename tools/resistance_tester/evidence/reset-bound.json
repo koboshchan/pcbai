@@ -1,15 +1,16 @@
 {
+  "port_count": 26,
   "hold_seconds": 0.1,
   "initial_volts": 3.3,
   "series_max_ohms": 4747.0,
   "fixture_cap_max_farads": 1.1e-07,
   "fixture_max_tau_seconds": 0.0005221700000000001,
   "fixture_max_residual_volts": 2.2254800242719793e-83,
-  "twenty_port_1k_chain_min_decay_per_second": 1915.0851255338243,
-  "twenty_port_1k_chain_tau_seconds": 0.0005221700000000015,
-  "applies_only_to": "20 directly shunted fixture caps, ideal low GPIOs, linear passive inter-port resistors",
+  "fixture_chain_1k_chain_min_decay_per_second": 1915.0851255338305,
+  "fixture_chain_1k_chain_tau_seconds": 0.0005221699999999999,
+  "applies_only_to": "26 directly shunted fixture caps, ideal low GPIOs, linear passive inter-port resistors",
   "excludes": "GPIO VOL/ground offset, X7R absorption, added DUT capacitors, hidden/nonlinear/isolated rail charge",
-  "extracted_dc3_linear_model_min_decay_per_second": -2.1105734049342573e-08,
+  "extracted_dc3_linear_model_min_decay_per_second": -2.4630480766063556e-08,
   "extracted_dc3_full_network_reset_qualified": false,
   "extracted_dc3_note": "Floating resistor islands/capacitor-only rails prevent a full-network reset guarantee; gmin must not fake one."
 }

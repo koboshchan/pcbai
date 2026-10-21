@@ -1,12 +1,13 @@
 """Pico RP2040, MicroPython. Copy this file to Pico, run scan() from USB REPL.
-20 passive RC ports. EXPLICITLY a 3.3 V diagnostic, not an ohmmeter.
+26 passive RC ports. EXPLICITLY a 3.3 V diagnostic, not an ohmmeter.
 Do not connect powered or charged DUTs. Read DESIGN.md before enabling.
 """
 from machine import Pin
 import rp2
 import time
 
-GPIO = (19,17,15,13,11,9,7,5,3,1,18,16,14,12,10,8,6,4,2,0)  # ports 1..20 (see manifest.json)
+GPIO = (28, 26, 21, 19, 17, 15, 13, 11, 9, 7, 5, 3, 1, 27, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2, 0)  # J3 pins 1..13, then J4 pins 1..13
+PORT_COUNT = len(GPIO)
 PIO_HZ = 2_000_000
 # Two cycles per count, 1 us. INIT and sampling add a fixed ~1us calibrated offset.
 @rp2.asm_pio(set_init=rp2.PIO.IN_LOW)
@@ -44,11 +45,12 @@ def self_falling():
     jmp("park")
 
 def release():
+    # Pin.IN/OUT selects digital SIO including GP26/27/28; never construct ADC.
     for gpio in GPIO:
         Pin(gpio, Pin.IN, pull=None)
 
 def discharge(milliseconds=100):
-    """Reset fixture history through all twenty finite series resistors.
+    """Reset fixture history through all 26 finite series resistors.
     100ms is a starting hold, not proof that hidden DUT rail caps are empty.
     """
     for gpio in GPIO:
@@ -56,9 +58,9 @@ def discharge(milliseconds=100):
     time.sleep_ms(milliseconds)
 
 def measure(sense, sink, timeout_us=5_000_000, discharge_ms=100):
-    """Ports 1..20; sink=0 selects all-input leakage reference, not a sink."""
-    if sense == sink or not (1 <= sense <= 20 and 0 <= sink <= 20):
-        raise ValueError("sense 1..20; sink 0 (reference) or distinct port 1..20 required")
+    """Ports 1..26; sink=0 selects all-input leakage reference, not a sink."""
+    if sense == sink or not (1 <= sense <= PORT_COUNT and 0 <= sink <= PORT_COUNT):
+        raise ValueError("sense 1..26; sink 0 (reference) or distinct port 1..26 required")
     if not 100 <= timeout_us <= 60_000_000:
         raise ValueError("timeout outside 100us..60s")
     if not isinstance(discharge_ms, int) or discharge_ms < 100:
@@ -95,7 +97,7 @@ def measure(sense, sink, timeout_us=5_000_000, discharge_ms=100):
         release()
 
 def scan(repeats=8, timeout_us=5_000_000, discharge_ms=100, references=True):
-    """190 unordered pairs, both sink directions, repeated CSV via USB serial."""
+    """325 unordered pairs, both sink directions, repeated CSV via USB serial."""
     if repeats < 1:
         raise ValueError("positive repeats required")
     print("pair_a,pair_b,sense,sink,repeat,fall_us,status,window_us")
@@ -104,12 +106,12 @@ def scan(repeats=8, timeout_us=5_000_000, discharge_ms=100, references=True):
 
     try:
         if references:
-            for sense in range(1,21):
+            for sense in range(1,PORT_COUNT+1):
                 for rep in range(repeats):
                     us,status=measure(sense,0,timeout_us,discharge_ms)
                     print(sense,0,sense,0,rep,"" if us is None else us,status,timeout_us,sep=",")
-        for a in range(1,21):
-            for b in range(a+1,21):
+        for a in range(1,PORT_COUNT+1):
+            for b in range(a+1,PORT_COUNT+1):
                 for sense,sink in ((a,b),(b,a)):
                     for rep in range(repeats):
                         us,status=measure(sense,sink,timeout_us,discharge_ms)

@@ -3,21 +3,38 @@
   "top": {
     "path": "render-top.png",
     "four_female_socket_bodies_visible": true,
-    "axial_resistors_visible": false,
-    "obvious_collisions": false
+    "two_individual_1x13_dut_right": true,
+    "two_1x20_pico_left": true,
+    "obvious_collisions": false,
+    "overhang": false
   },
   "bottom": {
     "path": "render-bottom.png",
-    "populated_resistor_bodies": 20,
-    "populated_capacitor_bodies": 20,
+    "dut_2x13_left": true,
+    "pico_right": true,
+    "pin1_rectangular": true,
+    "populated_resistor_bodies": 26,
+    "populated_capacitor_bodies": 26,
     "detail_crop_used_for_inspection": true,
     "obvious_collisions": false
   },
-  "gpio_map_preserved": true,
-  "component_values_and_pin_nets_preserved": true,
-  "firmware_unchanged": true,
+  "socket_3d_mechanics": {
+    "model_file": "models/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x13_P2.54mm_Vertical.step",
+    "model_sha256": "97481c944aaa4dbd927820da78720babc24bf1c98e8893894b4466f7f4a7c7da",
+    "step_cartesian_x_bounds_mm": [
+      -1.27,
+      1.27
+    ],
+    "body_width_mm": 2.54,
+    "row_pitch_mm": 2.54,
+    "nominal_body_overlap_mm": 0,
+    "note": "Two separate 1x13 strip bodies nominally touch, not overlap. Select physical strip housings <=2.54mm wide."
+  },
+  "gpio_map_updated": true,
+  "firmware_updated": true,
+  "hardware_calibration_verified": false,
   "renders_sha256": {
-    "render-top.png": "0a1cfa3bb904ac42a6625a4a3510fb140a1b1b581736fbe7c19c05ce8242d49d",
-    "render-bottom.png": "58f53ea74ae4efddeb417bbcf17a7f31805b29e56b00b218ecbacce1389c3083"
+    "render-top.png": "f555611c8accedf56290766cf6c3b5509730bda07b1c668571e9f05ee229f6c5",
+    "render-bottom.png": "75e3cd300dc50c6094250c68a1bf0a3551a1019241c67782097bc0532cbf5275"
   }
 }

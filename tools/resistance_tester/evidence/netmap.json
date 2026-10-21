@@ -1,5 +1,5 @@
 {
-  "expected_connections": 140,
+  "expected_connections": 170,
   "pcb_matches": true,
   "schematic_matches": true,
   "outline_mm": [
@@ -9,13 +9,16 @@
   "front_tracks": 0,
   "vias": 0,
   "wire_links": 0,
-  "capacitors_bottom": 20,
-  "resistors_bottom_0805": 20,
-  "smd_pads_bottom_only": 80,
+  "capacitors_bottom": 26,
+  "resistors_bottom_0805": 26,
+  "smd_pads_bottom_only": 104,
   "through_hole_footprints": 4,
-  "through_hole_pads": 60,
+  "through_hole_pads": 66,
   "mechanical_socket_spacing_mm": 17.78,
   "dut_block_pitch_mm": 2.54,
+  "min_trace_mm": 0.3,
+  "min_clearance_mm": 0.4,
+  "zone_min_thickness_mm": 0.3,
   "zones": 1,
   "zone_layers": [
     "B.Cu"

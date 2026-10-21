@@ -1,9 +1,13 @@
 test_100k_1m_open_reference_classification_model (__main__.Tests.test_100k_1m_open_reference_classification_model) ... ok
 test_compare_raw_fingerprints (__main__.Tests.test_compare_raw_fingerprints) ... ok
+test_default_eight_repeats_and_no_refs (__main__.Tests.test_default_eight_repeats_and_no_refs) ... ok
+test_digital_gpio26_27_28_and_physical_pins (__main__.Tests.test_digital_gpio26_27_28_and_physical_pins) ... ok
 test_discharge_disables_pulls (__main__.Tests.test_discharge_disables_pulls) ... ok
 test_gpio_consistency (__main__.Tests.test_gpio_consistency) ... ok
+test_measure_port_bounds (__main__.Tests.test_measure_port_bounds) ... ok
 test_model_coupled_caps_and_value_separation (__main__.Tests.test_model_coupled_caps_and_value_separation) ... ok
 test_model_finite_precharge (__main__.Tests.test_model_finite_precharge) ... ok
+test_model_generic_pair_coverage (__main__.Tests.test_model_generic_pair_coverage) ... ok
 test_pair_coverage (__main__.Tests.test_pair_coverage) ... ok
 test_pio_assembles_and_terminates (__main__.Tests.test_pio_assembles_and_terminates) ... ok
 test_reference_csv_window (__main__.Tests.test_reference_csv_window) ... ok
@@ -17,6 +21,6 @@ test_sources_parse (__main__.Tests.test_sources_parse) ... ok
 test_value_parser (__main__.Tests.test_value_parser) ... ok
 
 ----------------------------------------------------------------------
-Ran 17 tests in 0.231s
+Ran 21 tests in 0.313s
 
 OK

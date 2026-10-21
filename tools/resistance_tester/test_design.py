@@ -88,7 +88,7 @@ class Tests(unittest.TestCase):
   self.assertEqual(inits[0][0],(fw.self_falling,))
   self.assertNotIn('set_base',inits[0][1])
   self.assertEqual(holds,[250,50])
-  self.assertEqual([kw for _,kw in calls[-20:]],[dict(pull=None)]*20)
+  self.assertEqual([kw for _,kw in calls[-fw.PORT_COUNT:]],[dict(pull=None)]*fw.PORT_COUNT)
  def test_reference_quality(self):
   from compare import reference_quality
   for t in [10000.,100000.]:
@@ -135,7 +135,27 @@ class Tests(unittest.TestCase):
  def test_gpio_consistency(self):
   fw=load_firmware();manifest=json.loads((R/'manifest.json').read_text())
   self.assertEqual(list(fw.GPIO),[p['gpio'] for p in manifest['gpio_map']])
-  self.assertEqual(len(set(fw.GPIO)),20)
+  self.assertEqual(len(set(fw.GPIO)),26)
+ def test_measure_port_bounds(self):
+  fw=load_firmware()
+  for sense,sink in [(0,1),(27,1),(1,27),(26,26),(-1,2)]:
+   with self.assertRaises(ValueError):fw.measure(sense,sink)
+  inits=[]
+  class Pin:
+   IN=0;OUT=1
+   def __init__(self,*a,**kw):self.gpio=a[0]
+   def value(self):return 1
+  class SM:
+   def active(self,x):pass
+   def init(self,*args,**kw):inits.append(kw)
+   def put(self,x):pass
+   def rx_fifo(self):return 1
+   def get(self):return 0xffffffff
+  fw.Pin=Pin;fw.rp2.StateMachine=lambda _:SM()
+  fw.time=types.SimpleNamespace(sleep_ms=lambda _:None,ticks_ms=lambda:0)
+  fw.measure(26,1,100)
+  self.assertEqual(inits[0]['jmp_pin'].gpio,fw.GPIO[25])
+  self.assertEqual(inits[0]['set_base'].gpio,fw.GPIO[0])
  def test_pair_coverage(self):
   fw=load_firmware();rows=[]
   fw.measure=lambda a,b,t,d:(123,'ok')
@@ -143,13 +163,47 @@ class Tests(unittest.TestCase):
   old=builtins.print;builtins.print=lambda *a,**kw:rows.append(a)
   try:fw.scan(1)
   finally:builtins.print=old
-  self.assertEqual(len(rows),401)
-  self.assertEqual(len({(r[0],r[1]) for r in rows[21:]}),190)
-  self.assertEqual(len({(r[2],r[3]) for r in rows[21:]}),380)
+  self.assertEqual(len(rows),677)
+  self.assertEqual(len({(r[0],r[1]) for r in rows[27:]}),325)
+  self.assertEqual(len({(r[2],r[3]) for r in rows[27:]}),650)
+ def test_default_eight_repeats_and_no_refs(self):
+  fw=load_firmware();rows=[]
+  fw.measure=lambda *args:(123,'ok')
+  import builtins
+  old=builtins.print;builtins.print=lambda *a,**kw:rows.append(a)
+  try:fw.scan()
+  finally:builtins.print=old
+  self.assertEqual(len(rows)-1,5408)
+  self.assertEqual(len([r for r in rows[1:] if r[3]==0]),208)
+  self.assertEqual({r[4] for r in rows[1:]},set(range(8)))
+  rows.clear();builtins.print=lambda *a,**kw:rows.append(a)
+  try:fw.scan(1,references=False)
+  finally:builtins.print=old
+  self.assertEqual(len(rows)-1,650)
+ def test_digital_gpio26_27_28_and_physical_pins(self):
+  fw=load_firmware();manifest=json.loads((R/'manifest.json').read_text())
+  self.assertEqual(set(fw.GPIO),set(range(23))|{26,27,28})
+  by_gpio={r['gpio']:r for r in manifest['gpio_map']}
+  for gpio,physical in [(20,26),(21,27),(22,29),(26,31),(27,32),(28,34)]:
+   self.assertEqual(by_gpio[gpio]['pico_physical'],physical)
+  calls=[]
+  class Recorder:
+   IN=0
+   def __init__(self,*args,**kwargs):calls.append((args,kwargs))
+  fw.Pin=Recorder;fw.release()
+  self.assertEqual([args for args,kw in calls],[(gpio,Recorder.IN) for gpio in fw.GPIO])
+  self.assertNotIn('ADC(', (R/'firmware/main.py').read_text())
+ def test_model_generic_pair_coverage(self):
+  from model import Network
+  for count in [3,26]:
+   network=Network({},['N'+str(i) for i in range(count)])
+   rows=list(network.fingerprints(timeout=.001))
+   self.assertEqual(len(rows),count*count)
+   self.assertEqual(len({(r[2],r[3]) for r in rows if r[3]}),count*(count-1))
  def test_model_coupled_caps_and_value_separation(self):
   from model import Network
   import numpy as np
-  ports=['N'+str(i) for i in range(20)]
+  ports=['N'+str(i) for i in range(26)]
   times=[]
   for resistance in [100.,1000.,10000.,100000.,1e6]:
    n=Network({'resistors':[{'a':'N0','b':'N1','value':resistance}]},ports)
@@ -168,13 +222,13 @@ class Tests(unittest.TestCase):
   from reset_bound import report
   d=report()
   self.assertAlmostEqual(d['fixture_max_tau_seconds'],.00052217)
-  self.assertAlmostEqual(d['twenty_port_1k_chain_tau_seconds'],d['fixture_max_tau_seconds'])
+  self.assertAlmostEqual(d['fixture_chain_1k_chain_tau_seconds'],d['fixture_max_tau_seconds'])
   self.assertLess(d['fixture_max_residual_volts'],1e-80)
   self.assertFalse(d['extracted_dc3_full_network_reset_qualified'])
  def test_100k_1m_open_reference_classification_model(self):
   from model import Network
   from compare import reference_quality
-  ports=['N'+str(i) for i in range(20)]
+  ports=['N'+str(i) for i in range(26)]
   records=[]
   for resistance in [100000.,1000000.,None]:
    dut={} if resistance is None else {'resistors':[{'a':'N0','b':'N1','value':resistance}]}
@@ -192,7 +246,7 @@ class Tests(unittest.TestCase):
    simulated_only=True,hardware_discrimination_not_verified=True,cases=records),indent=2)+'\n')
  def test_model_finite_precharge(self):
   from model import Network
-  ports=['N'+str(i) for i in range(20)]
+  ports=['N'+str(i) for i in range(26)]
   n=Network({'resistors':[{'a':'N0','b':'N1','value':1e6},{'a':'N1','b':'MID','value':30e6}]},ports)
   v=n.precharge();self.assertGreater(v[n.idx['N0']],3.2)
   self.assertLess(v[n.idx['MID']],3.3)

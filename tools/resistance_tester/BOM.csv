@@ -1,8 +1,8 @@
 Reference,Value,Footprint,Side
-J1,PICO_LEFT_PHYS1_20,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,Top
-J2,PICO_RIGHT_PHYS21_40,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,Top
-J3,DUT1_10_FEMALE,"PinSocket_1x10_P2.54mm_Vertical_2x10_block_modified (embedded, shared 2x10 silk box, abutting courtyards)",Top
-J4,DUT11_20_FEMALE,"PinSocket_1x10_P2.54mm_Vertical_2x10_block_modified (embedded, shared 2x10 silk box, abutting courtyards)",Top
+J1,PICO_LEFT_PHYS1_20,"Pico_1x20_female_oval_1.7x1.4 (embedded, rectangular pin 1)",Top
+J2,PICO_RIGHT_PHYS21_40,"Pico_1x20_female_oval_1.7x1.4 (embedded, rectangular pin 1)",Top
+J3,DUT1_13_FEMALE,"PinSocket_1x13_P2.54mm_Vertical_2x13_block_modified (embedded, shared 2x13 silk box, abutting courtyards)",Top
+J4,DUT14_26_FEMALE,"PinSocket_1x13_P2.54mm_Vertical_2x13_block_modified (embedded, shared 2x13 silk box, abutting courtyards)",Top
 R1,4.7k 1% 1/8W,Resistor_SMD:R_0805_2012Metric,Bottom
 C1,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
 R2,4.7k 1% 1/8W,Resistor_SMD:R_0805_2012Metric,Bottom
@@ -43,3 +43,15 @@ R19,4.7k 1% 1/8W,Resistor_SMD:R_0805_2012Metric,Bottom
 C19,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
 R20,4.7k 1% 1/8W,Resistor_SMD:R_0805_2012Metric,Bottom
 C20,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R21,4.7k 1% 1/8W,Resistor_SMD:R_0805_2012Metric,Bottom
+C21,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R22,4.7k 1% 1/8W,Resistor_SMD:R_0805_2012Metric,Bottom
+C22,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R23,4.7k 1% 1/8W,Resistor_SMD:R_0805_2012Metric,Bottom
+C23,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R24,4.7k 1% 1/8W,Resistor_SMD:R_0805_2012Metric,Bottom
+C24,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R25,4.7k 1% 1/8W,Resistor_SMD:R_0805_2012Metric,Bottom
+C25,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom
+R26,4.7k 1% 1/8W,Resistor_SMD:R_0805_2012Metric,Bottom
+C26,100nF X7R 10%,Capacitor_SMD:C_0805_2012Metric,Bottom

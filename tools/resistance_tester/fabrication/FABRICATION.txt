@@ -1,14 +1,16 @@
 100 x 70 mm outline, measured at outline centerline.
 SINGLE SIDED board, BOTTOM copper only.
-No F.Cu pattern, no vias, no wire links. One B.Cu GND copper pour (0.25 mm clearance, 0.25 mm min width).
+No F.Cu pattern, no vias, no wire links. One B.Cu GND copper pour (0.4 mm clearance, 0.3 mm min width).
 Through-hole library pads are represented on both sides in the CAD model;
 the KiCad Gerber-job auto metadata therefore says two layers and is NOT
 an ordering specification. It is intentionally excluded from the fab ZIP.
 Order single-sided bottom copper explicitly. Plating is not required for
 home etching: solder through-hole components from the copper side.
-Signal tracks 0.30 mm, design clearance 0.25 mm.
+Signal tracks 0.30 mm, design clearance 0.4 mm.
 Board thickness 1.6 mm. THT drill sizes are encoded in fingerprint.drl.
-All 20 resistors and 20 capacitors are 0805 on B.Cu.
-Only the four female headers are through-hole (60 total 1.0 mm drills).
+All 26 resistors and 26 capacitors are 0805 on B.Cu.
+Only the four female headers are through-hole (66 total 1.0 mm drills).
 Socket bodies are on top, Pico USB at the marked end (board +Y edge in the top view; bottom of this board when viewed from the bottom with the DUT block on the left).
 Do not scale the output. Confirm final outline 100 x 70 mm with fabricator.
+Pico header pads: pin 1 rectangular, other pads oval 1.7 x 1.4 mm, 1 mm drill (0.2 mm minimum annular ring).
+DUT header pads: pin 1 rectangular, other pads oval 1.7 x 1.4 mm, 1 mm drill; both female 1x13, 2.54 mm row pitch.
